@@ -1,5 +1,5 @@
 {
-	"id": "PF2E-TS-RUB",
+	"id": "pf2e-ts-rub",
 	"title": "PF2E-TS-RUB",
 	"description": "Babele перевод PF2E от Торговца Сказками",
 	"version": "2.1.0",
@@ -115,14 +115,14 @@
 		"name": "bestiary-ability-glossary-2",
 		"label": "Bestiary Ability Glossary (2)",
 		"path": "packs/bestiary-ability-glossary-2.db",
-		"module": "PF2E-TS-RUB",
+		"module": "pf2e-ts-rub",
 		"entity": "Item"
 	},
 	{
 		"name": "effekty-raznoe",
 		"label": "Эффекты: Разное",
 		"path": "packs/effekty-raznoe.db",
-		"module": "PF2E-TS-RUB",
+		"module": "pf2e-ts-rub",
 		"entity": "Item"
 	},
 	{
