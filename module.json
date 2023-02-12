@@ -115,20 +115,24 @@
 		"name": "bestiary-ability-glossary-2",
 		"label": "Bestiary Ability Glossary (2)",
 		"path": "packs/bestiary-ability-glossary-2.db",
+		"system": "pf2e",
+		"type": "Item",
 		"entity": "Item"
 	},
 	{
 		"name": "effekty-raznoe",
 		"label": "Эффекты: Разное",
 		"path": "packs/effekty-raznoe.db",
+		"system": "pf2e",
+		"type": "Item",
 		"entity": "Item"
 	},
 	{
-      	"label": "Правила",
-      	"type": "JournalEntry",
-      	"name": "spiski",
+		"name": "spiski",
+		"label": "Правила",
       	"path": "packs/spiski.db",
       	"system": "pf2e",
+		"type": "JournalEntry",
       	"entity": "JournalEntry",
       	"private": false
     }
