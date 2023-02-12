@@ -115,14 +115,12 @@
 		"name": "bestiary-ability-glossary-2",
 		"label": "Bestiary Ability Glossary (2)",
 		"path": "packs/bestiary-ability-glossary-2.db",
-		"module": "pf2e-ts-rub",
 		"entity": "Item"
 	},
 	{
 		"name": "effekty-raznoe",
 		"label": "Эффекты: Разное",
 		"path": "packs/effekty-raznoe.db",
-		"module": "pf2e-ts-rub",
 		"entity": "Item"
 	},
 	{
@@ -135,7 +133,7 @@
       	"private": false
     }
 	],
-	"url": "https://github.com/TaleSale/PF2E-TS-RUB",
-	"manifest": "https://raw.githubusercontent.com/TaleSale/PF2E-TS-RUB/master/module.json",
-	"download": "https://github.com/TaleSale/PF2E-TS-RUB/archive/refs/heads/main.zip"
+	"url": "https://github.com/TaleSale/pf2e-ts-rub",
+	"manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-rub/master/module.json",
+	"download": "https://github.com/TaleSale/pf2e-ts-rub/archive/refs/heads/main.zip"
 }

@@ -31,22 +31,22 @@
 		{
 			"id": "Web Sense",
 			"name": "Чувство Паутины",
-			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
+			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[pf2e-ts-rub.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
 		},
 		{
 			"id": "Web Sense (Imprecise) 30 feet",
 			"name": "Чувство Паутины (Неточный, 30)",
-			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
+			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[pf2e-ts-rub.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
 		},
 		{
 			"id": "Web Sense (Imprecise) 60 feet",
 			"name": "Чувство Паутины (Неточный, 60)",
-			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
+			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[pf2e-ts-rub.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
 		},
 		{
 			"id": "Web Sense (Imprecise) 90 feet",
 			"name": "Чувство Паутины (Неточный, 90)",
-			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
+			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[pf2e-ts-rub.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
 		},
 		{
 			"id": "Lifesense 30 feet",
@@ -1409,7 +1409,7 @@
 		{
 			"id": "Scoff at the Divine",
 			"name": "Надсмехаться над Божественным",
-			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо в пределах 30ФТ накладывает <span style=\"text-decoration: underline; color: #34495e;\">сакральное заклинание</span> или использует <span class=\"Признак\">Сакральный</span> эффект.</p>\n<p><span class=\"Треб\">Требования</span>: У <span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> есть неизрасходованная ячейка заклинаний, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> расходует ячейку заклинания, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}. И пытается @Compendium[PF2E-TS-RUB.spiski.lYdYqTKsve5Wi75r]{Противодействовать} <span style=\"color: #e03e2d;\"><strong>триггернувшему</strong></span> заклинанию или эффекту.</p>\n<div data-visibility=\"gm\">\n<p>Раджа-ракшас не может Надсмехаться над Божественным в течение [[/br 1d4]] раундов.</p>\n</div>"
+			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо в пределах 30ФТ накладывает <span style=\"text-decoration: underline; color: #34495e;\">сакральное заклинание</span> или использует <span class=\"Признак\">Сакральный</span> эффект.</p>\n<p><span class=\"Треб\">Требования</span>: У <span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> есть неизрасходованная ячейка заклинаний, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> расходует ячейку заклинания, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}. И пытается @Compendium[pf2e-ts-rub.spiski.lYdYqTKsve5Wi75r]{Противодействовать} <span style=\"color: #e03e2d;\"><strong>триггернувшему</strong></span> заклинанию или эффекту.</p>\n<div data-visibility=\"gm\">\n<p>Раджа-ракшас не может Надсмехаться над Божественным в течение [[/br 1d4]] раундов.</p>\n</div>"
 		},
 		{
 			"id": "Archon's Door",

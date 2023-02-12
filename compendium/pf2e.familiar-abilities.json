@@ -29,7 +29,7 @@
 		{
 			"id": "LrDnat1DsGJoAiKv",
 			"name": "Виброчувствительность Фамильяра",
-			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> чутко ощущает любую вибрацию проходящую по поверхности.</p>\n<p><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность (Неточный 30фт)}</p>"
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> чутко ощущает любую вибрацию проходящую по поверхности.</p>\n<p><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[pf2e-ts-rub.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность (Неточный 30фт)}</p>"
 		},
 		{
 			"id": "REJfFezELjc5Gzsy",
@@ -39,7 +39,7 @@
 		{
 			"id": "Amzezp93MZckBYRZ",
 			"name": "Волночувствительность Фамильяра",
-			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span> </span>может ощущать вибрации <span class=\"Мест\">в воде</span>.</p>\n<p><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.QUsUbEWuO6AVuOee]{Волночувствительность (Неточный 30фт)}</p>"
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span> </span>может ощущать вибрации <span class=\"Мест\">в воде</span>.</p>\n<p><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[pf2e-ts-rub.bestiary-ability-glossary-2.QUsUbEWuO6AVuOee]{Волночувствительность (Неточный 30фт)}</p>"
 		},
 		{
 			"id": "Q42nrq9LwDdbeZM5",
@@ -54,7 +54,7 @@
 		{
 			"id": "j9vOSbF9kLibhSIf",
 			"name": "Второе Мнение",
-			"description": "<div><span class=\"Триг\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен иметь <span class=\"Класс\">способность @Compendium[pf2e.familiar-abilities.jevzf9JbJJibpqaI]{Умелый}</span>.</div>\n<hr>\n<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> - ваше научное доверенное лицо.</p>\n<p>Несмотря на то, что он <span class=\"Признак2\"><span class=\"Признак1\">миньон</span></span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> <span class=\"До\">в начале своего хода</span> получает 1 <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, которую он может использовать <span class=\"НЕ\">только</span>, чтобы @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помочь} вам с проверкой навыка для @Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{Вспомнить Информацию}, для которого у него есть @UUID[Compendium.PF2E-TS-RUB.spiski.eflC99r12hsSXXyD.JournalEntryPage.60rw19G0vpy4bdmd]{Фамильяры: Способности} @Compendium[pf2e.familiar-abilities.jevzf9JbJJibpqaI]{Умелый}</p>\n<blockquote>\n<p>(он все еще должен <span class=\"Действие\"><span class=\"pf2-icon\">1</span>подготовиться</span>, чтобы помочь вам, как и обычно для <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь}).</blockquote>\n<p>Он автоматически <span class=\"Успех\">преуспевает</span> в своей проверке@Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь} с этими навыками, или автоматически <span class=\"Критуспех\">крит.преуспевает</span>, если вы <span class=\"Мастер\">МАСТЕР</span> этого навыка.</p>"
+			"description": "<div><span class=\"Триг\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен иметь <span class=\"Класс\">способность @Compendium[pf2e.familiar-abilities.jevzf9JbJJibpqaI]{Умелый}</span>.</div>\n<hr>\n<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> - ваше научное доверенное лицо.</p>\n<p>Несмотря на то, что он <span class=\"Признак2\"><span class=\"Признак1\">миньон</span></span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> <span class=\"До\">в начале своего хода</span> получает 1 <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, которую он может использовать <span class=\"НЕ\">только</span>, чтобы @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помочь} вам с проверкой навыка для @Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{Вспомнить Информацию}, для которого у него есть @UUID[Compendium.pf2e-ts-rub.spiski.eflC99r12hsSXXyD.JournalEntryPage.60rw19G0vpy4bdmd]{Фамильяры: Способности} @Compendium[pf2e.familiar-abilities.jevzf9JbJJibpqaI]{Умелый}</p>\n<blockquote>\n<p>(он все еще должен <span class=\"Действие\"><span class=\"pf2-icon\">1</span>подготовиться</span>, чтобы помочь вам, как и обычно для <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь}).</blockquote>\n<p>Он автоматически <span class=\"Успех\">преуспевает</span> в своей проверке@Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь} с этими навыками, или автоматически <span class=\"Критуспех\">крит.преуспевает</span>, если вы <span class=\"Мастер\">МАСТЕР</span> этого навыка.</p>"
 		},
 		{
 			"id": "uUrsZ4WvhjKjFjnt",
@@ -144,7 +144,7 @@
 		{
 			"id": "FlRUb8U13Crj3NaA",
 			"name": "Нюх Фамильяра",
-			"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.ICmZQ0JTuZ86mJt3]{Нюх (Неточный 30фт)}</p>"
+			"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[pf2e-ts-rub.bestiary-ability-glossary-2.ICmZQ0JTuZ86mJt3]{Нюх (Неточный 30фт)}</p>"
 		},
 		{
 			"id": "gPceRQqO847lvSnb",
