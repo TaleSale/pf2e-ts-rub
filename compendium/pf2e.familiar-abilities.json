@@ -1,0 +1,325 @@
+{
+	"label": "Способности Фамильяра",
+	"entries": [
+		{
+			"id": "Xanjwv4YU0CBnsMw",
+			"name": "Батарейка для Заклинаний",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, вы должны уметь @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворять} <span class=\"Закл\">Заклинания Ур.4</span> используя <span class=\"Закл\"><span class=\"Слот\">слоты</span> заклинаний</span></div>\n<hr>\n<p>Вы получаете 1 <span class=\"Рес\">дополнительный</span> <span class=\"Закл\"><span class=\"Слот\">слот</span> заклинаний</span>, который как минимум на 3 уровня ниже, чем ваш <span class=\"Рес\">наивысший</span> <span class=\"Закл\"><span class=\"Слот\">слот</span> заклинаний</span>.</p>"
+		},
+		{
+			"id": "BXssJhTJjKrfojwG",
+			"name": "Быстрое Движение",
+			"description": "<p class=\"Нарратив\"><span class=\"Увелич\">Увеличьте</span> <span class=\"Скор\">Скорость</span> <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> с 25ФТ до 40ФТ.</p>"
+		},
+		{
+			"id": "SxWYVgqNMsq0OijU",
+			"name": "Быстрое Движение (Карабкаться)",
+			"description": "<p class=\"Нарратив\"><span class=\"Увелич\">Увеличьте</span> <span class=\"Скор\">Скорость Карабканья</span> <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> с 25ФТ до 40ФТ.</p>"
+		},
+		{
+			"id": "vpw2ReYdcyQBpdqn",
+			"name": "Быстрое Движение (Плаванье)",
+			"description": "<p class=\"Нарратив\"><span class=\"Увелич\">Увеличьте</span> <span class=\"Скор\">Скорость Плавания</span> <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> с 25ФТ до 40ФТ.</p>"
+		},
+		{
+			"id": "VHQUZcjUxfC3GcJ9",
+			"name": "Быстрое Движение (Полёт)",
+			"description": "<p class=\"Нарратив\"><span class=\"Увелич\">Увеличьте</span> <span class=\"Скор\">Скорость Полета</span> <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> с 25ФТ до 40ФТ.</p>"
+		},
+		{
+			"id": "LrDnat1DsGJoAiKv",
+			"name": "Виброчувствительность Фамильяра",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> чутко ощущает любую вибрацию проходящую по поверхности.</p>\n<p><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность (Неточный 30фт)}</p>"
+		},
+		{
+			"id": "REJfFezELjc5Gzsy",
+			"name": "Возврат Фамильяра",
+			"description": "<p class=\"Нарратив\">Вы можете призвать своего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> к себе.</p>\n<p><span class=\"Част\">Раз в день</span> вы можете использовать активность <span class=\"Действие\"><span class=\"pf2-icon\">3</span>действий</span>, имеющую признак <span class=\"Признак\">концентрация</span>, чтобы <span class=\"Признак2\"><span class=\"Признак1\">телепортировать</span></span> своего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> в ваше <span class=\"Атака\">пространство</span>. Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен быть в пределах 1 мили (~1.6 км), иначе попытка призыва <span class=\"Провал\">проваливается</span>.</p>\n<p>Это эффект <span class=\"Признак2\"><span class=\"Признак1\">воплощения</span></span> и <span class=\"Признак2\"><span class=\"Признак1\">телепортации</span></span>.</p>"
+		},
+		{
+			"id": "Amzezp93MZckBYRZ",
+			"name": "Волночувствительность Фамильяра",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span> </span>может ощущать вибрации <span class=\"Мест\">в воде</span>.</p>\n<p><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.QUsUbEWuO6AVuOee]{Волночувствительность (Неточный 30фт)}</p>"
+		},
+		{
+			"id": "Q42nrq9LwDdbeZM5",
+			"name": "Восстанавливающий Фамильяр",
+			"description": "<p class=\"Нарратив\"><span class=\"Част\">Раз в день</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">2</span>действия</span> с признаком <span class=\"Признак\">концентрация</span>, чтобы дать вам немного своей живительной энергии и исцелить вас. Чтобы это сделать, он должен быть в вашем <span class=\"Атака\">пространстве</span>.</p>\n<p>Вы восстанавливаете количество <span class=\"ОЗ\">[[/r max(floor(@actor.level/2)d8, 1d8)]]{ОЗ}</span>, равное Xd8, где X ваш <span class=\"Класс\">Уровень/2</span> (минимум 1d8)</p>"
+		},
+		{
+			"id": "D0ltNUJnN7UjJpA1",
+			"name": "Врожденный Прилив",
+			"description": "<p class=\"Нарратив\"><span class=\"Част\">Раз в день</span>, вы можете черпать врожденную магию своего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>, чтобы восстановить свою собственную.</p>\n<p>Вы можете @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворить} 1 <span class=\"Закл\"><span class=\"ХАР\">врожденное</span> заклинание</span> полученное от <span class=\"Класс\">способности родословной</span>, которое <span class=\"НЕ\">уже</span> @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяли} сегодня.</p>\n<blockquote class=\"Уточнить\">Вы все еще должны сделать @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение Заклинания} и соответствовать другим требованиям заклинания.</blockquote>"
+		},
+		{
+			"id": "j9vOSbF9kLibhSIf",
+			"name": "Второе Мнение",
+			"description": "<div><span class=\"Триг\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен иметь <span class=\"Класс\">способность @Compendium[pf2e.familiar-abilities.jevzf9JbJJibpqaI]{Умелый}</span>.</div>\n<hr>\n<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> - ваше научное доверенное лицо.</p>\n<p>Несмотря на то, что он <span class=\"Признак2\"><span class=\"Признак1\">миньон</span></span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> <span class=\"До\">в начале своего хода</span> получает 1 <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, которую он может использовать <span class=\"НЕ\">только</span>, чтобы @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помочь} вам с проверкой навыка для @Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{Вспомнить Информацию}, для которого у него есть @UUID[Compendium.PF2E-TS-RUB.spiski.eflC99r12hsSXXyD.JournalEntryPage.60rw19G0vpy4bdmd]{Фамильяры: Способности} @Compendium[pf2e.familiar-abilities.jevzf9JbJJibpqaI]{Умелый}</p>\n<blockquote>\n<p>(он все еще должен <span class=\"Действие\"><span class=\"pf2-icon\">1</span>подготовиться</span>, чтобы помочь вам, как и обычно для <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь}).</blockquote>\n<p>Он автоматически <span class=\"Успех\">преуспевает</span> в своей проверке@Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь} с этими навыками, или автоматически <span class=\"Критуспех\">крит.преуспевает</span>, если вы <span class=\"Мастер\">МАСТЕР</span> этого навыка.</p>"
+		},
+		{
+			"id": "uUrsZ4WvhjKjFjnt",
+			"name": "Держатель Инструмента",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен иметь <span class=\"Класс\">способность</span> @Compendium[pf2e.familiar-abilities.cT5octWchU4gjrhP]{Ловкость Рук Фамильяра}.</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может носить <span class=\"Повтор\">набор инструментов</span> массой вплоть до <span class=\"Масса\">легкой</span>. Пока ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> рядом с вами, вы можете <span class=\"Атака\">вытащить</span> и <span class=\"Атака\">убрать</span> <span class=\"Повтор\">инструменты</span>, как <span class=\"Действие\">часть действия</span>, которое использует их, <span class=\"НЕ\">как если бы</span> вы их <span class=\"Атака\">носили на себе</span>.</p>"
+		},
+		{
+			"id": "ZtKb89o1PPhwJ3Lx",
+			"name": "Дополнительные Реагенты",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, у вас должна быть <span class=\"Класс\">особенность класса</span> @Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{Насыщ.Реагенты}</div>\n<hr>\n<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> отращивает дополнительные насыщенные реагенты в своем теле или на нем.</p>\n<p>Вы получаете дополнительную <span class=\"Рес\">порцию</span> @Compendium[pf2e.classfeatures.wySB9VHOW1v3TX1L]{Насыщ.Реагенты}.</p>"
+		},
+		{
+			"id": "lpyJAl5B4j2DC7mc",
+			"name": "Жабры Фамильяра",
+			"description": "<p class=\"Нарратив\">У вашего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> вырастает набор жабр, позволяя ему дышать водой в дополнение к воздуху.</p>"
+		},
+		{
+			"id": "deC1yIM2S5szGdzT",
+			"name": "Жизненная Связь",
+			"description": "<p class=\"Нарратив\">Если из-за <span class=\"Урон\">урона</span> вашего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> снизили до <span class=\"ОЗ\">[[/r 0]] ОЗ</span>, вы можете с помощью <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> с признаком <span class=\"Признак\">концентрация</span> получить этот <span class=\"Урон\">урон</span>.</p>\n<p>Если вы это делаете, то получаете весь <span class=\"Урон\">урон</span>, а ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> <span class=\"НЕ\">не</span> получает его. Однако, если были особые эффекты (такие как <span class=\"Признак\">яд</span>), то они все равно применяются к вашему <span class=\"Признак2\"><span class=\"Признак1\">фамильяру</span></span>.</p>"
+		},
+		{
+			"id": "o0fxDDUu2ZSWYDTr",
+			"name": "Жизнечувствительный Фимальяр",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> получает @Compendium[pf2e.bestiary-ability-glossary-srd.sebk9XseMCRkDqRg]{Жизнечувствительность (30ФТ)}</p>"
+		},
+		{
+			"id": "asOhEdyF8CWFbR96",
+			"name": "Заклинательство Фамильяра",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, вы должны уметь @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворять} <span class=\"Закл\">Заклинания Ур.6</span> используя <span class=\"Закл\"><span class=\"Слот\">слоты</span> заклинаний</span></div>\n<hr>\n<p>Выберите <span class=\"Закл\">заклинание</span> из своего репертуара, или то, которое вы сегодня подготовили, и которое хотя бы на 5 уровней ниже, чем ваш <span class=\"Рес\">наивысший</span> <span class=\"Закл\"><span class=\"Слот\">слот</span> заклинаний</span>.</p>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может использовать @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение Заклинания}, сотворяя его <span class=\"Част\">раз в день</span>, используя ваш <span class=\"Обычай\">магический обычай</span>, <span class=\"Закл\">Мод.Атаки Закл.</span> и <span class=\"Закл\">КС Закл.</span>. Если заклинание имеет недостаток, который воздействует на заклинателя, то ему подвергаетесь вы и ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span>.</p>"
+		},
+		{
+			"id": "C16JgmeJJG249WXz",
+			"name": "Застывшая Маска",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Данная <span class=\"Класс\">способность</span> предоставляется <span class=\"Класс\">способностью архетипа</span> @Compendium[pf2e.feats-srd.GByIIkeHN3JWkZIZ]{Маска-Фамильяра}</div>\n<hr>\n<p>Когда он в <span class=\"Рес\">форме маски</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может прятать свои очевидные сверхъестественные качества, чтобы сойти за простую непритязательную маску.</p>\n<p>Ему <span class=\"НЕ\">не</span> надо использовать <span class=\"Действие\">действие</span> @Compendium[pf2e.actionspf2e.AJstokjdG6iDjVjE]{Перевоплотиться}, чтобы одурачить мимолетный взгляд, и он получает бонус <span class=\"Обстоятельства\">обстоятельства</span> +4 к своему <span class=\"ХАР\">КС Обмана</span> против активного @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиска} наблюдателем или пристального изучения.</p>"
+		},
+		{
+			"id": "SKIS1xexaOvrecdV",
+			"name": "Зеленый Взрыв",
+			"description": "<div><span class=\"Треб\">Треб</span>: @Compendium[pf2e.feats-srd.baz18CdB13DVMHV9]{Тайна Фамильяра Лешего}</div>\n<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность фамильяра</span>, вы должны быть способны @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворять} <span class=\"Закл\">Заклинания Ур.2</span> используя <span class=\"Закл\"><span class=\"Слот\">слоты</span> заклинаний</span></div>\n<hr>\n<p>Когда ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> умирает, он высвобождает свою природную энергию для сотворения версии заклинания @Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Исцеление} за <span class=\"Действие\"><span class=\"pf2-icon\">3</span>действия</span>, <span class=\"Усил\">усиленного</span> до уровня на 1 ниже, чем ваш <span class=\"Рес\">наивысший</span> <span class=\"Закл\"><span class=\"Слот\">слот</span> заклинания</span>.</p>\n<p><span class=\"Признак\">исцеление</span> получает бонус <span class=\"Состояния\">Состояния</span>, равный <span class=\"Закл\">Закл.Ур.</span>*2 к <span class=\"ОЗ\">ОЗ</span> восстанавливаемые <span class=\"Признак2\"><span class=\"Признак1\">растениям</span></span>.</p>"
+		},
+		{
+			"id": "A0C86V3MUECpX5jd",
+			"name": "Земноводный Фамильяр",
+			"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает <span class=\"Скор\">Скорость Плавания 25ФТ</span> или <span class=\"Скор\">Наземную Скорость 25ФТ</span>, если у него уже была <span class=\"Скор\">Скорость Плавания</span>.</p>"
+		},
+		{
+			"id": "5gwqSpkRqWzrbDDU",
+			"name": "Избегание Урона (Воля)",
+			"description": "<p class=\"Нарратив\">При <span class=\"Успех\">успешном</span> броске <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> он <span class=\"НЕ\">не</span> получает <span class=\"Урон\">урона</span>; это <span class=\"НЕ\">не</span> предотвращает эффекты не являющиеся уроном.</p>"
+		},
+		{
+			"id": "K5OLRDsGCfPZ6mO6",
+			"name": "Избегание Урона (Рефлекс)",
+			"description": "<p class=\"Нарратив\">При <span class=\"Успех\">успешном</span> броске <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> он <span class=\"НЕ\">не</span> получает <span class=\"Урон\">урона</span>; это <span class=\"НЕ\">не</span> предотвращает эффекты не являющиеся уроном.</p>"
+		},
+		{
+			"id": "mK3mAUWiRLZZYNdz",
+			"name": "Избегание Урона (Стойкость)",
+			"description": "<p class=\"Нарратив\">При <span class=\"Успех\">успешном</span> броске <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> он <span class=\"НЕ\">не</span> получает <span class=\"Урон\">урона</span>; это <span class=\"НЕ\">не</span> предотвращает эффекты не являющиеся уроном.</p>"
+		},
+		{
+			"id": "Le8UWr5BU8rV3iBf",
+			"name": "Крепкий Фамильяр",
+			"description": "<p class=\"Нарратив\"><span class=\"ОЗ\">Макс.ОЗ</span> вашего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> <span class=\"Увелич\">увелич.</span> на 2 за <span class=\"Класс\">Уровень</span>.</p>"
+		},
+		{
+			"id": "cT5octWchU4gjrhP",
+			"name": "Ловкость Рук Фамильяра",
+			"description": "<p class=\"Нарратив\">Он может использовать вплоть до 2 своих конечностей, как если бы они были руками, чтобы использовать <span class=\"Действие\">действия</span> с признаком <span class=\"Признак\">Воздействие</span>.</p>"
+		},
+		{
+			"id": "fmsVItn94FeY5Q3X",
+			"name": "Любопытный Фамильяр",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> держит ушки на макушке и глядит в оба, готовый поделиться каждым обрывком сплетни, которую он поймает, помогая вам собирать информацию.</p>\n<p>Несмотря на то, что он <span class=\"Признак2\"><span class=\"Признак1\">миньон</span></span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> <span class=\"До\">в начале своего хода</span> получает 1 <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, которую он может использовать <span class=\"НЕ\">только</span>, чтобы @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помочь} вам с проверкой <span class=\"ХАР\">Дипломатии</span> для @Compendium[pf2e.actionspf2e.plBGdZhqq5JBl1D8]{Собрать Информацию}</p>\n<blockquote>\n<p>(он все еще должен <span class=\"Действие\"><span class=\"pf2-icon\">1</span>подготовиться</span>, чтобы помочь вам, как и обычно для <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь}).</blockquote>\n<p>Он автоматически <span class=\"Успех\">преуспевает</span> в своей проверке@Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь} с этими навыками, или автоматически <span class=\"Критуспех\">крит.преуспевает</span>, если вы <span class=\"Мастер\">МАСТЕР</span> этого навыка.</p>"
+		},
+		{
+			"id": "2fiQzoEKu6YUnrU9",
+			"name": "Независимый Фамильяр",
+			"description": "<p class=\"Нарратив\">Во время <span class=\"Признак2\"><span class=\"Признак1\">столкновения</span></span>, если вы <span class=\"НЕ\">не</span> <span class=\"Повтор\">Командуете</span> своему <span class=\"Признак2\"><span class=\"Признак1\">фамильяру</span></span>, то он все равно каждый раунд получает <span class=\"Действие\">1 действие</span>.</p>\n<blockquote class=\"Уточнить\">Обычно вы все еще решаете как он потратит это действие, но Мастер может решить, что ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> выберет свою тактику, вместо выполнения предпочитаемого вами действия.</blockquote>"
+		},
+		{
+			"id": "0Xrkk46IM43iI1Fv",
+			"name": "Ночное Зрение Фамильяра",
+			"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[pf2e.bestiary-ability-glossary-srd.qCCLZhnp2HhP3Ex6]{Ночное Зрение}</p>"
+		},
+		{
+			"id": "FlRUb8U13Crj3NaA",
+			"name": "Нюх Фамильяра",
+			"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.ICmZQ0JTuZ86mJt3]{Нюх (Неточный 30фт)}</p>"
+		},
+		{
+			"id": "gPceRQqO847lvSnb",
+			"name": "Общие Чувства",
+			"description": "<p class=\"Нарратив\"><span class=\"Част\">Раз в 10 минут</span>, вы можете использовать <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> с признаком <span class=\"Признак\">концентрация</span>, чтобы спроецировать свои сенсорные чувства в <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>. Когда вы это делаете, вы теряете всю сенсорную информацию своего собственного тела, но можете ощущать через тело своего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>, <span class=\"Прод\">вплоть до 1 минуты</span>.</p>\n<p class=\"Развеять\">Вы можете @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Развеять} этот эффект.</p>"
+		},
+		{
+			"id": "43xB5UnexISlfRa5",
+			"name": "Очистка Воздуха",
+			"description": "<div><span class=\"Треб\">Требования</span>: @Compendium[pf2e.feats-srd.baz18CdB13DVMHV9]{Тайна Фамильяра Лешего}</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> перерабатывает воздух, давая достаточно кислорода для существа <span class=\"Размер\">среднего</span> размера, в областях с затхлым воздухом, такими как запечатанная комната или <span class=\"Признак2\"><span class=\"Признак1\">межпространственный</span></span> карман.</p>\n<p>Если <span class=\"Повтор\">леший</span> в области эффекта <span class=\"Признак2\"><span class=\"Признак1\">вдыхаемого</span></span> <span class=\"Признак2\"><span class=\"Признак1\">яда</span></span> или эффекта, который полагается на запах, то существа в пределах @Template[type:emanation|distance:15] от <span class=\"Повтор\">лешего</span> получают бонус <span class=\"Обстоятельства\">обстоятельства</span> +2 к своим <span class=\"КБ\">Спас.</span> против этого эффекта.</p>"
+		},
+		{
+			"id": "wOgvBymJOVQDSm1Q",
+			"name": "Передача Заклинаний",
+			"description": "<p class=\"Нарратив\">Если ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> находится в вашем <span class=\"Атака\">пространстве</span>, вы можете @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворить} заклинание с <span class=\"Дист\">дистанция</span>: касание, передать его силу <span class=\"Признак2\"><span class=\"Признак1\">фамильяру</span></span> и дать ему <span class=\"Повтор\">команду</span> доставить это заклинание.</p>\n<p>Если вы это делаете, то <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> использует свои <span class=\"Действие\">2 действия</span> в раунде, чтобы добраться до выбранной вами <span class=\"Дист\">цели</span> и коснуться ее. Если он <span class=\"НЕ\">не</span> может достигнуть <span class=\"Дист\">цели</span> в этот ход, то заклинание не имеет эффекта.</p>"
+		},
+		{
+			"id": "dpjf1CyMEILpJWyp",
+			"name": "Поедатель Тьмы",
+			"description": "<div><span class=\"Пред\">Пред.Условия:</span> <span class=\"Признак2\"><span class=\"Признак1\">Теневой</span></span> <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span>.</div>\n<hr>\n<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> восстанавливается естественным способом в тенях.</p>\n<p>Проведя непрерывно 10 минут в <span class=\"Свет\">тусклом свете</span> или <span class=\"Свет\">тьме</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> восстанавливает количество <span class=\"ОЗ\">ОЗ</span>, равное ваш <span class=\"Класс\">Уровень/2</span>.</p>"
+		},
+		{
+			"id": "7QosmRHlyLLhU1hX",
+			"name": "Помощник по Лаборатории",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен обладать <span class=\"Класс\">способностью</span> @Compendium[pf2e.familiar-abilities.cT5octWchU4gjrhP]{Ловкость Рук}</div>\n<hr>\n<p><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> может использовать ваше <span class=\"Действие\">действие</span> @Compendium[pf2e.actionspf2e.yzNJgwzV9XqEhKc6]{Быстрая Алхимия}. У вас должно быть это умение и <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен находиться в вашем <span class=\"Атака\">пространстве</span>. Она имеет такие же <span class=\"Треб\">Требования</span> и <span class=\"Триг\">стоимость</span>, как если бы вы использовали ее.</p>"
+		},
+		{
+			"id": "tEWAHPPZULvPgHnT",
+			"name": "Превращение в Татуировку",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может превратиться в <span class=\"Признак2\"><span class=\"Признак1\">татуировку</span></span>, которую вы <span class=\"Атака\">носите</span> на своей плоти. Когда <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> превращен в <span class=\"Признак2\"><span class=\"Признак1\">татуировку</span></span>, он выглядит как красочная и стилизованная версия самого себя и <span class=\"НЕ\">не</span> может <span class=\"Действие\">действовать</span>, кроме как превратиться обратно в <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>.</p>\n<hr>\n<p>На него <span class=\"НЕ\">не</span> действуют эффекты по области, и чтобы воздействовать на него, его необходимо выбирать отдельной целью, что требует знания о том, что это существо. Это означает, что вы и ваши <span class=\"Союз\">союзники</span> можете лечить <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> или помогать ему, в то время как большинство <span class=\"Враг\">врагов</span> остаются в неведении относительно его истинной природы.</p>\n<p>Существа должны совершить проверку <span class=\"МУД\">@Check[type:perception|dc:20|showDC:all]</span> для @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиска}, чтобы понять, что <span class=\"Признак2\"><span class=\"Признак1\">татуировка</span></span> на самом деле является <span class=\"Признак2\"><span class=\"Признак1\">фамильяром</span></span> (что мало кто из <span class=\"Враг\">врагов</span> попытается сделать).</p>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> по-прежнему может эмпатически передавать свои чувства. Превращение в <span class=\"Признак2\"><span class=\"Признак1\">татуировку</span></span> или обратно в форму <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> - активность длящаяся <span class=\"Действие\">1 минуту</span> и имеющая признак <span class=\"Признак\">концентрация</span>.</p>"
+		},
+		{
+			"id": "mKmBgQmPmiLOlEvw",
+			"name": "Предзнаменование Фамильяра",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Вы должны быть как минимум <span class=\"Класс\">8-го уровня</span></div>\n<hr>\n<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может увидеть нити судьбы, чтобы дать вам загадочный ключ к вашему будущему.</p>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворять} @Compendium[pf2e.spells-srd.41TZEjhO6D1nWw2X]{Предзнаменование} <span class=\"Част\">раз в день</span>, используя вашу <span class=\"Обычай\"><span class=\"Признак2\"><span class=\"Признак1\">магический</span></span> обычай</span> и <span class=\"Закл\">КС Закл.</span></p>"
+		},
+		{
+			"id": "8Z1UkLEWkFWIjOF8",
+			"name": "Резервуар с Ядом",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: <span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span>-<span class=\"Повтор\">Гомункул</span>.</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span>-<span class=\"Повтор\">Гомункул</span> имеет резервуар для <span class=\"Признак2\"><span class=\"Признак1\">яда</span></span>, что позволяет ему применять <span class=\"Признак\">яд</span> для <span class=\"Признак2\"><span class=\"Признак1\">ранений</span></span> на обнаженное <span class=\"Видыатак\">оружие</span> находящегося рядом <span class=\"Союз\">союзника</span>, использовав <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}.</p>\n<p>Вы должны предоставить <span class=\"Признак\">яд</span> и влить его в этот резервуар, используя 2 последовательных <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действия</span> @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}.</p>"
+		},
+		{
+			"id": "zyMRLQnFCQVpltiR",
+			"name": "Речь Фамильяра",
+			"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> может говорить на языке, который вы знаете, и понимать его.</p>"
+		},
+		{
+			"id": "qTxH8mSOvc4PMzrP",
+			"name": "Родственная Речь",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен быть <span class=\"Признак2\"><span class=\"Признак1\">животным</span></span>, иметь <span class=\"Класс\">способность</span> @Compendium[pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{Речь} и вы должны быть хотя бы <span class=\"Класс\">6-го уровня</span>.</div>\n<hr>\n<p><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> может говорить с <span class=\"Признак2\"><span class=\"Признак1\">животными</span></span> того же вида и понимать их.</p>"
+		},
+		{
+			"id": "uy15sDBuYNK48N3v",
+			"name": "Роющий Фамильяр",
+			"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает <span class=\"Скор\">Скорость Рытья 5ФТ</span>, позволяя ему копать ямы крошечного размера.</p>"
+		},
+		{
+			"id": "ou91pzf9TlOnIjYn",
+			"name": "Светящийся Фамильяр",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> светится утешительным светом.</p>\n<p>&diams; <span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> излучает <span class=\"Свет\">яркий свет</span> в радиусе 30ФТ и <span class=\"Свет\">тусклый свет</span> в радиусе следующих 30ФТ.</p>\n<p>&diams; <span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> может подавить или возобновить этот <span class=\"Признак2\"><span class=\"Признак1\">свет</span></span>, используя <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> с признаком <span class=\"Признак\">концентрация</span>.</p>"
+		},
+		{
+			"id": "rs4Awf4k1e0Mj797",
+			"name": "Связь с Чарами",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, вы должны быть способны <span class=\"Закл\">подготавливать</span> <span class=\"Закл\">Чары</span> или добавлять их в ваш <span class=\"Повтор\">репертуар</span>.</div>\n<hr>\n<p>Вы можете <span class=\"Закл\">подготовить</span> <span class=\"Рес\">дополнительные</span> <span class=\"Закл\">чары</span>, или если у вас есть <span class=\"Повтор\">репертуар</span>, то вместо этого определите <span class=\"Закл\">Чары</span>, которые добавляются в ваш <span class=\"Повтор\">репертуар</span> каждый раз, когда вы выбираете эту <span class=\"Класс\">способность</span>;</p>\n<blockquote class=\"Уточнить\">вы можете их @Compendium[pf2e.actionspf2e.24PSsn1SKpUwYA1X]{Переобучить}, но <span class=\"НЕ\">не</span> можете другим образом изменить их.</blockquote>"
+		},
+		{
+			"id": "3y6GGXQgyJ4Hq4Yt",
+			"name": "Сияющий Фамильяр",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> наполнен божественным сиянием, которое делает его устойчивым к силам зла.</p>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> получает <span class=\"Сопр\">сопротивление</span> к <span class=\"Урон\">злому</span> и <span class=\"Урон\">негативному урону</span>, равное ваш <span class=\"Класс\">Уровень/2</span>.</p>"
+		},
+		{
+			"id": "FcQQLMAJMgOLjnSv",
+			"name": "Сопротивление Фамильяра",
+			"description": "<p class=\"Нарратив\">Выберите 2 <span class=\"Урон\">типа урона</span> из следующего: <span class=\"Урон\">кислота</span>, <span class=\"Урон\">холод</span>, <span class=\"Урон\">электричество</span>, <span class=\"Урон\">огонь</span>, <span class=\"Урон\">яд</span> или <span class=\"Урон\">звук</span>.</p>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> получает <span class=\"Сопр\">Сопротивление</span> выбранному <span class=\"Урон\">типу урона</span>, равное ваш <span class=\"Класс\">Уровень/2</span>.</p>"
+		},
+		{
+			"id": "zKTL9y9et0oTHEYS",
+			"name": "Сопротивление Фамильяра (Отличное)",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен иметь <span class=\"Класс\">способность</span> @Compendium[pf2e.familiar-abilities.FcQQLMAJMgOLjnSv]{Сопротивление}</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> увеличивает получаемое им от своей способности <span class=\"Сопр\">Сопротивление</span> до ваш <span class=\"Класс\">Уровень/2</span>+3.</p>"
+		},
+		{
+			"id": "hMrxiUPHXKpKu1Ha",
+			"name": "Сопротивление Фамильяра (Сильное)",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен иметь <span class=\"Класс\">способность</span> @Compendium[pf2e.familiar-abilities.zKTL9y9et0oTHEYS] и вы должны быть хотя бы <span class=\"Класс\">8-го уровня</span>.</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> увеличивает получаемое им от своей <span class=\"Класс\">способности фамильяра</span> @Compendium[pf2e.familiar-abilities.FcQQLMAJMgOLjnSv] до величины, равной ваш <span class=\"Класс\">Уровень</span>.</p>"
+		},
+		{
+			"id": "XCqYnlVbLGqEGPeX",
+			"name": "Телепатическое Касание Фамильяр",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может @Compendium[pf2e.bestiary-ability-glossary-srd.kdhbPaBMK1d1fpbA]{Телепатически} общаться с вами через прикосновение.</p>\n<p>Если у него еще есть <span class=\"Класс\">способность</span> @Compendium[pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{Речь}, то он может телепатически общаться касанием с любыми существами, если они говорят на одном языке.</p>"
+		},
+		{
+			"id": "j1qZiH50Bl2SJ8vT",
+			"name": "Теневой Шаг Фамильяра",
+			"description": "<div><span class=\"Пред\">Пред.Условия:</span> <span class=\"Признак2\"><span class=\"Признак1\">Теневой</span></span> <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span>. Вы минимум <span class=\"Класс\">7-го уровня</span>.</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> получает <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> @Compendium[pf2e.actionspf2e.VQ5OxaDKE0lCj8Mr]{Теневой Шаг}</p>\n<h2 class=\"Заг2\">Теневой Шаг</h2>\n<div><span class=\"Треб\">Требования</span>: <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> находится в <span class=\"Свет\">тусклом свете</span> или во <span class=\"Свет\">тьме</span></div>\n<hr>\n<p><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> <span class=\"Признак2\"><span class=\"Признак1\">телепортирует</span></span> себя на расстояние вплоть до 30ФТ. Место назначения должно быть в <span class=\"Свет\">тусклом свете</span> или <span class=\"Свет\">тьме</span> и находиться в пределах поля зрения и линии эффекта <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>.</p>\n<p>Это действие обладает признаком соответствующим вашему <span class=\"Обычай\"><span class=\"Признак2\"><span class=\"Признак1\">магическому</span></span> обычаю</span> или <span class=\"Признак2\"><span class=\"Признак1\">оккультный</span></span>, если вы <span class=\"НЕ\">не</span> заклинатель.</p>"
+		},
+		{
+			"id": "aEKA3YWekLhEhuV8",
+			"name": "Угрожающее Поведение",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> помогает вам бессловесно передавать угрозы с помощью языка тела.</p>\n<p>Каждый раз, когда вы совершаете проверку <span class=\"ХАР\">@Compendium[pf2e.action-macros.nEwqNNWX6scLt4sc]{Запугивания}</span>, чтобы @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Деморализовать} существо, то если ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> находится в пределах 30ФТ от вашей <span class=\"Дист\">цели</span> и может <span class=\"Действие\">действовать</span>, он помогает вам рычанием, шипением или вздымающейся шерстью.</p>\n<p>Если он может это делать, то вы <span class=\"НЕ\">не</span> получаете обычный штраф -4 на проверку <span class=\"ХАР\">Запугивания</span>, если ваша цель <span class=\"НЕ\">не</span> понимает языка, на котором вы говорите.</p>"
+		},
+		{
+			"id": "jevzf9JbJJibpqaI",
+			"name": "Умелый Фамильяр",
+			"description": "<p class=\"Нарратив\">Выберите навык <span class=\"НЕ\">КРОМЕ</span> <span class=\"ЛВК\">Акробатики</span> или <span class=\"ЛВК\">Скрытности</span>.</p>\n<p>У <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>, модификатор этого навыка становится равен ваш <span class=\"Класс\">Уровень</span> + ваш <span class=\"МХК\" data-tooltip=\"Модификатор Характеристики Колдоства\">Мод.Хар.Колд</span>, а не просто вашему уровню.</p>\n<hr>\n<p><span class=\"Список\">Особенность</span>: Вы можете выбрать эту <span class=\"Класс\">способность</span> несколько раз, каждый раз выбирая другой навык.</p>"
+		},
+		{
+			"id": "nrPl3Dz7fbnmas7T",
+			"name": "Фамильяр с Призрачным Касанием",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может прикасаться к <span class=\"Признак2\"><span class=\"Признак1\">бестелесным</span></span> существам.</p>\n<p>Если у вас есть <span class=\"Класс\">способность хозяина</span> @Compendium[pf2e.familiar-abilities.wOgvBymJOVQDSm1Q] от вашего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>, любое заклинание, которое <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> доставляет с его помощью, получает преимущества @Compendium[pf2e.equipment-srd.JQdwHECogcTzdd8R]{Руны: Призрачное Касание}.</p>"
+		},
+		{
+			"id": "92lgSEPFIDLvKOCF",
+			"name": "Фамильяр-Аккомпаниатор",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> помогает вам выступать.</p>\n<p>Всякий раз, когда вы делаете проверку <span class=\"ХАР\">Выступления</span>, если ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> поблизости и <span class=\"Действие\">может действовать</span>, он аккомпанирует вам щебетом, хлопками или своим собственным маленьким инструментом.</p>\n<p>Это дает вам бонус <span class=\"Обстоятельства\">обстоятельства</span> +1, или +2 если вы <span class=\"Мастер\">МАСТЕР</span> <span class=\"ХАР\">Выступления</span>.</p>"
+		},
+		{
+			"id": "9PsptrEoCC4QdM23",
+			"name": "Фамильяр-Лакей",
+			"description": "<p class=\"Нарратив\">Вы можете приказывать своему <span class=\"Признак2\"><span class=\"Признак1\">фамильяру</span></span> доставать вам предметы более эффективно.</p>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> не использует свои <span class=\"Действие\">2 действия</span> сразу, когда вы командуете. Вместо этого, вплоть до 2 раз <span class=\"До\">до конца вашего хода</span>, вы можете заставить своего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы <span class=\"Атака\">вытащить</span> предмет <span class=\"Масса\">легкой</span> или <span class=\"Масса\">незначительной массы</span>, который <span class=\"Атака\">надет на вас</span> и положить его в одну из ваших <span class=\"Атака\">свободных рук</span>.</p>\n<blockquote class=\"Уточнить\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> <span class=\"НЕ\">не</span> может использовать эту способность, чтобы достать <span class=\"Атака\">сложенные</span> (<span class=\"Атака\">убранные в рюкзак</span>) предметы.</blockquote>\n<p>Если <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> имеет другое количество действий, то когда ему дают такую команду, он может вытащить 1 предмет за каждое имеющееся у него действие.</p>"
+		},
+		{
+			"id": "ZHSzNt3NxkXbj1mI",
+			"name": "Фамильяр-Летун",
+			"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает <span class=\"Скор\">Скорость Полета 25ФТ</span>.</p>"
+		},
+		{
+			"id": "7ZxPS0UU7pf7wjp0",
+			"name": "Фамильяр-Посол",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> по команде умеет вести себя мило или сосредоточенно, помогая вам произвести хорошее впечатление.</p>\n<p>Несмотря на то, что он <span class=\"Признак2\"><span class=\"Признак1\">миньон</span></span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> <span class=\"До\">в начале своего хода</span> получает 1 <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, которую он может использовать <span class=\"НЕ\">только</span>, чтобы @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помочь} вам с проверкой <span class=\"ХАР\">Дипломатии</span> для @Compendium[pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Произвести Впечатление}</p>\n<blockquote>\n<p>(он все еще должен <span class=\"Действие\"><span class=\"pf2-icon\">1</span>подготовиться</span>, чтобы помочь вам, как и обычно для <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь}).</blockquote>\n<p>Он автоматически <span class=\"Успех\">преуспевает</span> в своей проверке@Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь} с этими навыками, или автоматически <span class=\"Критуспех\">крит.преуспевает</span>, если вы <span class=\"Мастер\">МАСТЕР</span> этого навыка.</p>"
+		},
+		{
+			"id": "dWTfO5WbLkD5mw2H",
+			"name": "Фамильяр-Скалолаз",
+			"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> получает <span class=\"Скор\">Скорость Карабканья 25ФТ</span>.</p>"
+		},
+		{
+			"id": "v7zE3tKQb9G6PaYU",
+			"name": "Фамильяр-Соучастник",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span>- ваш соучастник преступлений.</p>\n<p>Несмотря на то, что он <span class=\"Признак2\"><span class=\"Признак1\">миньон</span></span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> <span class=\"До\">в начале своего хода</span> получает 1 <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, которую он может использовать <span class=\"НЕ\">только</span>, чтобы @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помочь} вам с проверкой <span class=\"ХАР\">Обман</span> или <span class=\"ЛВК\">Воровство</span>.</p>\n<blockquote>\n<p>(он все еще должен <span class=\"Действие\"><span class=\"pf2-icon\">1</span>подготовиться</span>, чтобы помочь вам, как и обычно для <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь}).</blockquote>\n<p>Он автоматически <span class=\"Успех\">преуспевает</span> в своей проверке@Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь} с этими навыками, или автоматически <span class=\"Критуспех\">крит.преуспевает</span>, если вы <span class=\"Мастер\">МАСТЕР</span> этого навыка.</p>"
+		},
+		{
+			"id": "ReIgBsaM95BTvHpN",
+			"name": "Фамильяр-Целитель",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность фамильяра</span>, вы должны быть способны @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворять} <span class=\"Закл\">Заклинания Ур.3</span> используя <span class=\"Закл\"><span class=\"Слот\">слоты</span> заклинаний</span></div>\n<hr>\n<p><span class=\"Част\">Раз в день</span> <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может использовать силу вашего божества, чтобы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворить} версию заклинания @Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Исцеление} за <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действия</span>, <span class=\"Усил\">усиленного</span> до уровня на 2 ниже, чем ваш <span class=\"Рес\">наивысший</span> <span class=\"Закл\"><span class=\"Слот\">слот</span> заклинания</span>.</p>"
+		},
+		{
+			"id": "jdlefpPcSCIe27vO",
+			"name": "Фокусировка Фамильяра",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, вы должны иметь <span class=\"ОФ\">Запас ОФ</span>.</div>\n<hr>\n<p><span class=\"Част\">Раз в день</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">2</span>действия</span> с признаком <span class=\"Признак\">концентрация</span>, чтобы восстановить <span class=\"ОФ\">1 Очко Фокусировки</span> в вашем <span class=\"ОФ\">Запасе ОФ</span>, вплоть до вашего обычного максимума.</p>"
+		},
+		{
+			"id": "O5TIjqXAuta8iVSz",
+			"name": "Фокусирующее Восстановление",
+			"description": "<p class=\"Нарратив\">Когда вы используете @Compendium[pf2e.actionspf2e.OSefkMgojBLqmRDh]{Сфокусироваться}, то генерируете магическую энергию, которая исцеляет вашего <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>.</p>\n<p>Когда вы @Compendium[pf2e.actionspf2e.OSefkMgojBLqmRDh]{Сфокусировались}, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> восстанавливает <span class=\"ОЗ\">1 ОЗ</span> за <span class=\"Класс\">Уровень</span>.</p>"
+		},
+		{
+			"id": "57b8u8s3fV0UCrgJ",
+			"name": "Форма Растения",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, вы должны иметь <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span>, такого как <span class=\"Повтор\">леший</span>.</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> - <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span> за <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> может менять свою форму, превращаясь в <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span> <span class=\"Признак2\"><span class=\"Признак-1\">крошечного</span></span> размера, по виду слегка похожее на естественный вид <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>.</p>\n<p>В остальном, это как эффекты @Compendium[pf2e.spells-srd.dileJ0Yxqg76LMvu]{Форма Дерева}.</p>"
+		},
+		{
+			"id": "JRP2bdkdCdj2JDrq",
+			"name": "Форма Хозяина",
+			"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> должен обладать @Compendium[pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{Речью} и @Compendium[pf2e.familiar-abilities.cT5octWchU4gjrhP]{Ловкость Рук}</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может менять свою форму <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действием</span>, превращаясь в <span class=\"Признак2\"><span class=\"Признак1\">гуманоида</span></span> вашей родословной, того же возраста, пола и телосложением его истинной формы, однако он всегда сохраняет явно неестественные остатки своей природы, такие как кошачьи глаза или змеиный язык. При использовании этого умения, его форма всегда одинаковая.</p>\n<p>В остальном, это как эффекты @Compendium[pf2e.spells-srd.2qGqa33E4GPUCbMV]{Форма Гуманоида}, за исключением того, что изменения лишь косметические. Он только выглядит гуманоидом и <span class=\"НЕ\">не</span> получает новых способностей.</p>"
+		},
+		{
+			"id": "LUBS9csNNgRTui4p",
+			"name": "Цепляющиеся Усики",
+			"description": "<div><span class=\"Треб\">Требования</span>: @Compendium[pf2e.feats-srd.baz18CdB13DVMHV9]{Тайна Фамильяра Лешего}</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> может вытягивать лозы или подобные усики, увеличивая его <span style=\"text-decoration: underline; color: #000080;\">досягаемость</span> до 15ФТ.</p>"
+		},
+		{
+			"id": "cy7bdQqVANipyljS",
+			"name": "Эрудиция Фамильяра",
+			"description": "<p class=\"Нарратив\">Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span>обладает невероятными религиозными знаниями.</p>\n<p>Несмотря на то, что он <span class=\"Признак2\"><span class=\"Признак1\">миньон</span></span>, ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> <span class=\"До\">в начале своего хода</span> получает 1 <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, которую он может использовать <span class=\"НЕ\">только</span>, чтобы @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помочь} вам с проверкой <span class=\"ИНТ\">Религии</span>.</p>\n<blockquote>\n<p>(он все еще должен <span class=\"Действие\"><span class=\"pf2-icon\">1</span>подготовиться</span>, чтобы помочь вам, как и обычно для <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь}).</blockquote>\n<p>Он автоматически <span class=\"Успех\">преуспевает</span> в своей проверке@Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помощь} с этими навыками, или автоматически <span class=\"Критуспех\">крит.преуспевает</span>, если вы <span class=\"Мастер\">МАСТЕР</span> этого навыка.</p>"
+		}
+	]
+}

@@ -1,0 +1,78 @@
+{
+	"label": "Abomination Vaults",
+	"entries": [
+		{
+			"id": "Abomination Vaults",
+			"name": "Зловещие Катакомбы",
+			"description": "<p class=\"Нарратив\">Войдите в мега-подземелье! Evil stirs in the depths of the Abomination Vaults, a sprawling dungeon where the evil sorcerer Belcorra Haruvex attempted to raise an army of monsters hundreds of years ago. Brave heroes must venture into a dungeon full of beasts and traps to prevent a spiteful villain from rising again. The Abomination Vaults Adventure Path is a three-part, monthly series of connected adventures that comprise a complete Pathfinder campaign.</p><p><strong>Content Warning:</strong> While Abomination Vaults contains typical Pathfinder action and adventure, it also presents themes of suicide, ableism, body horror, and human experimentation. Before you begin, understand that player consent (including that of the Game Master) is vital to a safe and fun play experience for everyone. You should talk with your players before beginning the adventure and modify descriptions or scenarios as appropriate.</p>",
+			"actors": {
+				"Bite Bite": {
+					"name": "Кусь-Кусь",
+					"prototypeToken": {
+						"name": "Кусь-Кусь"
+					}
+				},
+				"xAfkUwJYq5JLmSrW": {
+					"name": "Босс Скрауг",
+					"prototypeToken": {
+						"name": "Босс Скрауг"
+					}
+				},
+				"x3eOZvKUginj5Blh": {
+					"name": "Flickerwisp",
+					"prototypeToken": {
+						"name": "Flickerwisp"
+					}
+				},
+				"3DSqfobadad3pA6O": {
+					"name": "Гигантская Муха",
+					"prototypeToken": {
+						"name": "Гиг.Муха"
+					}
+				},
+				"zJZqpx6pPW7dxEUV": {
+					"name": "Гигантский Скорпион",
+					"prototypeToken": {
+						"name": "Гиг.Скорпион"
+					}
+				},
+				"kzX588Hjb3w4QPOj": {
+					"name": "Мистер Клюв",
+					"prototypeToken": {
+						"name": "Мистер Клюв"
+					}
+				},
+				"E0LCMHVp4sxAbQYa": {
+					"name": "Митфлит",
+					"prototypeToken": {
+						"name": "Митфлит"
+					}
+				},
+				"y9D2wh63pBzIyI7i": {
+					"name": "Mudlicker Maggot",
+					"prototypeToken": {
+						"name": "Mudlicker Maggot"
+					}
+				},
+				"eHLDsL1LG3jQ1H6Y": {
+					"name": "Слурк",
+					"prototypeToken": {
+						"name": "Слурк"
+					}
+				},
+				"SFpMOxBwiS529dJk": {
+					"name": "Tangletop",
+					"prototypeToken": {
+						"name": "Tangletop"
+					}
+				},
+				"NQ6qRvpD9DIwVxt3": {
+					"name": "Vampiric Mist",
+					"prototypeToken": {
+						"name": "Vampiric Mist"
+					}
+				}
+			}
+		}
+	]
+}

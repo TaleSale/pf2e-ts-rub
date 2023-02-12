@@ -1,0 +1,263 @@
+{
+	"label": "Бестиарий (Мванги)",
+	"mapping": {
+		"description": "data.details.publicNotes",
+		"img": "img",
+		"tokenName": "token.name",
+		"tokenImg": "token.img",
+		"tokenvision": "token.vision",
+		"tokendisplayBars": "token.displayBars",
+		"tokendisplayName": "token.displayName",
+		"randomImg": "token.randomImg",
+		"abilityspell": "items.data.ability.value",
+		"spellattack": "items.data.spelldc.value",
+		"spelldc": "items.data.spelldc.dc",
+		"hstealth": "data.attributes.stealth.details",
+		"hdisable": "data.details.disable",
+		"hdescription": "data.details.description",
+		"hreset": "data.details.reset",
+		"hroutine": "data.details.routine",
+		"classDC": "data.attributes.classDC"
+		},
+	"entries": [
+		{
+			"id": "Aigamuxa",
+			"name": "Айгамуха",
+			"tokenName": "Айгамуха",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "Айгамуха (также известные как «бушмены») - легендарные существа Хоэкхо человек. Его основная диета - люди, которых он считает зебрами , и ест их чрезвычайно удлиненными зубами. Говорят, что ночью бушмены нацелены на одиноких путешественников по пустыне. Говорят, что у монстра глаза на ногах, а это означает, что он не может видеть людей, на которых охотится, во время охоты. Чтобы видеть, он должен стоять на руках или на голове или лежать на песке.",
+			"items": {
+				"Claw": {
+					"name": "Когти 10 (Захват)"
+				},
+				"Jaws": {
+					"name": "Челюсти"
+				},
+				"Burrowed Ambush": {
+					"name": "Закопавшееся Засада",
+					"description": "<p class=\"Нарратив\"><span class=\"Треб\">Требования</span>: Айгамуха @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятан} в грязи, песке или другой мягкой поверхности</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> по существу в пределах досягаемости. При <span class=\"Успех\">попдании</span>, то <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> автоматически @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Захватывает} существо.</p>\n<p>Попадёт он или нет, <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> затем @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}. Если он @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватил} существо, оно перемещается вместе с <span style=\"text-decoration: underline; color: #34495e;\">Айгамухой</span>.</p>"
+				},
+				"Burrowing Concealment": {
+					"name": "Закопаться",
+					"description": "<p class=\"Нарратив\"><span class=\"Треб\">Требования</span>: Айгамуха стоит на грязь, песке, или другую мягкую поверхность;</p>\n<hr />\n<p>Айгамуха быстро проникает в поверхность и @Check[type:stealth]{Скрывается}. Они оставляют ноги частично открытыми, что позволяет им видеть с поверхности. При этом айгамукса могут задерживать дыхание на 10 минут.</p>"
+				},
+				"Swallow Whole": {
+					"name": "Проглотить Целиком",
+					"description": "<p class=\"Нарратив\"><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Признак2\"><span class=\"Признак-1\">средний</span></p>\n<p><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {2d12+4}[bludgeoning]]]{2d12+4 Дробящий}</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #a52a2a;\"><strong>Разрыв: </strong></span>22</p>\n</div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+				},
+				"Limited Vision": {
+					"name": "Ограниченное Зрение",
+					"description": "<p class=\"Нарратив\">Глаза <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> расположены на ступнях, из-за чего ему трудно смотреть. Айгамукса обычно @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Слеп}. Если он совершает @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиск}, то может нормально видеть только <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span>.</p>"
+				},
+				"Weak Feet": {
+					"name": "Слабые Ноги",
+					"description": "<p class=\"Нарратив\">Если <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> получает урон от @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещения} или @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шага} по опасной местности или квадрату с подобным эффектом<span style=\"background-color: #aaaaaa;\"> </span>(например, калтропы), он не может совершать @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиск} <span class=\"До\">до конца своего след.хода</span>.</p>"
+				}
+				}
+		},
+		{
+			"id": "Anadi Elder",
+			"name": "Анади-Жрец",
+			"tokenName": "Анади-Жрец",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Jaws": {
+					"name": "Клыки"
+				},
+				"Anadi Venom": {
+					"name": "Яд Ананди",
+					"description": "<p class=\"Заг2\">@Check[type:fortitude|dc:22]</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #ba372a;\"><strong>Макс.Прода:</strong></span> 4 раунда</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 1:</strong></span> [[/r 1d6[poison]]] и @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 2:</strong></span> [[/r 1d6[poison]]], @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох}, и @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+				}
+				}
+		},
+		{
+			"id": "Anadi Hunter",
+			"name": "Анади-Охотник",
+			"tokenName": "Анади-Охотник",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Jaws": {
+					"name": "Клыки"
+				},
+				"Anadi Venom": {
+					"name": "Яд Ананди",
+					"description": "<p class=\"Заг2\">@Check[type:fortitude|dc:16]</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #ba372a;\"><strong>Макс.Прода:</strong></span> 4 раунда</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 1:</strong></span> [[/r 1d6[poison]]] и @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 2:</strong></span> [[/r 1d6[poison]]], @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох}, и @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+				}
+				}
+		},
+		{
+			"id": "Anadi Sage",
+			"name": "Анади-Мудрец",
+			"tokenName": "Анади-Мудрец",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Jaws": {
+					"name": "Клыки"
+				},
+				"Anadi Venom": {
+					"name": "Яд Ананди",
+					"description": "<p class=\"Заг2\">@Check[type:fortitude|dc:20]</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #ba372a;\"><strong>Макс.Прода:</strong></span> 4 раунда</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 1:</strong></span> [[/r 1d6[poison]]] и @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 2:</strong></span> [[/r 1d6[poison]]], @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох}, и @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+				}
+				}
+		},
+		{
+			"id": "Asanbosam",
+			"name": "Asanbosam"
+		},
+		{
+			"id": "Biloko Veteran",
+			"name": "Билоко Ветеран",
+			"tokenName": "Билоко-Ветеран",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Jaws": {
+					"name": "Челюсти"
+				}
+				}
+		},
+		{
+			"id": "Biloko Warrior",
+			"name": "Билоко Воин",
+			"tokenName": "Билоко-Воин",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Jaws": {
+					"name": "Челюсти"
+				}
+				}
+		},
+		{
+			"id": "Charau-ka Acolyte of Angazhan",
+			"name": "Чарау-Ка-Культист",
+			"tokenName": "Чарау-Ка-Культист",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Thrown Debris": {
+					"name": "Метание Разного"
+				}
+				}
+		},
+		{
+			"id": "Charau-ka Butcher",
+			"name": "Чарау-Ка-Мясник",
+			"tokenName": "Чарау-Ка-Мясник",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Trident": {
+					"name": "Разящий Трезубец +1"
+				},
+				"Thrown Debris": {
+					"name": "Метание Чего-то"
+				},
+				"Blood Fury": {
+					"name": "Кровавая Ярость",
+					"description": "<p class=\"Нарратив\">Чарау-Ка слизывает кровь со своего оружия пока находится в <span class=\"Рес\">ярости</span>.</p>\n<hr />\n<p><span class=\"Триг\">Триггер</span>: <span style=\"text-decoration: underline; color: #34495e;\">Мясник Чарау-Ка</span> наносит существу урон <span style=\"text-decoration: underline; color: #34495e;\">кровотечением</span>.</p>\n<hr />\n<p>Он восстанавливает 5 HP и получает бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атака\">броскам атаки</span> <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span>.</p>"
+				},
+				"Mauler": {
+					"name": "Мясник",
+					"description": "<p class=\"Нарратив\">Пока <span style=\"text-decoration: underline; color: #236fa1;\">Мясник Чарау-Ка</span> в <span class=\"Рес\">Ярости</span>, его удары в ближнем бою наносят @Localize[PF2E.PD.Bleed.1d4].</p>"
+				}
+				}
+		},
+		{
+			"id": "Charau-ka Warrior",
+			"name": "Чарау-Ка-Воин",
+			"tokenName": "Чарау-Ка-Воин",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Thrown Debris": {
+					"name": "Метание Разного"
+				}
+				}
+		},
+		{
+			"id": "Eloko",
+			"name": "Елоко",
+			"tokenName": "Елоко",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Jaws": {
+					"name": "Челюсти"
+				},
+				"Size Alteration": {
+					"name": "Изменение Размера",
+					"description": "<p class=\"Нарратив\">Элоко повторяет на себя эффект заклинания <span style=\"color: #236fa1;\"><strong>Усил.4:</strong></span>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{Увеличение}.</p>\n<p>Это <span style=\"color: #808000;\"><strong>длится</strong></span> 1 минуту, и элоко может @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Развеять} заклинание.</p>"
+				}
+				}
+		},
+		{
+			"id": "Grootslang",
+			"name": "Grootslang"
+		},
+		{
+			"id": "K'nonna",
+			"name": "K'nonna"
+		},
+		{
+			"id": "Kaava Stalker",
+			"name": "Kaava Stalker"
+		},
+		{
+			"id": "Karina",
+			"name": "Karina"
+		},
+		{
+			"id": "Maliadi",
+			"name": "Maliadi"
+		},
+		{
+			"id": "Mamlambo",
+			"name": "Mamlambo"
+		},
+		{
+			"id": "Pygmy Kaava",
+			"name": "Pygmy Kaava"
+		},
+		{
+			"id": "Rompo",
+			"name": "Rompo"
+		},
+		{
+			"id": "Sié Goluo",
+			"name": "Sié Goluo"
+		},
+		{
+			"id": "Solar Ibis",
+			"name": "Solar Ibis"
+		},
+		{
+			"id": "Zinba",
+			"name": "Zinba"
+		}
+	]
+}

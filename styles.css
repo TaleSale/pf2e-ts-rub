@@ -1,0 +1,749 @@
+:root {
+    --color-dex: #808000;
+    --color-str: #236fa1;
+    --color-con: #a52a2a;
+    --color-int: #b96ad9;
+    --color-wis: #843fa1;
+    --color-cha: #e67e23;
+    --крит-успех: #32cd32;
+    --успех: #008000;
+    --провал: #800000;
+    --крит-провал: #ff0000;
+  }
+
+  .Критуспех {  /* <span class=\"Критуспех\">Крит.Успех</span> */ /* <span class="Критуспех">Крит.Успех</span> */
+    color: var(--крит-успех);
+    font-weight: bold;
+  }
+
+  .Успех {  /* <span class=\"Успех\">Успех</span>: */ /* <span class="Успех">Успех</span> */
+    color: var(--успех);
+    font-weight: bold;
+  }
+
+  .Провал {  /* <span class=\"Провал\">Провал</span> */
+    color: var(--провал);
+    font-weight: bold;
+  }
+
+  .Критпровал {  /* <span class=\"Критпровал\">Крит.Провал</span> */
+    color: var(--крит-провал);
+    font-weight: bold;
+  }
+
+  .Увелич {  /* <span class=\"Увелич\">▲</span> */ /* <span class="Увелич">▲</span> */
+    color: #a52a2a;
+  }
+
+  .Приброске {  /* <span class=\"Приброске\">при броске</span> */ /* <span class="Приброске">при броске</span> */
+    text-decoration: underline red;
+  }
+
+  .СИЛ {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+    color: var(--color-str);
+    font-weight: bold;
+  }
+
+  .ЛВК {  /* <span class=\"ЛВК\">ЛВК</span> */ /* <span class="ЛВК">ЛВК</span> */
+    color: var(--color-dex);
+    font-weight: bold;
+  }
+
+  .ТЕЛ {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+    color: var(--color-con);
+    font-weight: bold;
+  }
+
+  .ИНТ {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+    color: var(--color-int);
+    font-weight: bold;
+  }
+
+  .МУД {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+    color: var(--color-wis);
+    font-weight: bold;
+  }
+
+  .ХАР {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+    color: var(--color-cha);
+    font-weight: bold;
+  }
+
+  .Воля {  /* <span class=\"Воля\">Спас.Воли</span> */ /* <span class="Воля">Спас.Воли</span> */
+    color: #843fa1;
+    font-weight: bold;
+  }
+
+  .СТК {  /* <span class=\"СТК\">Спас.СТК</span> */ /* <span class="СТК">Спас.СТК</span> */
+    color: #236fa1;
+    font-weight: bold;
+  }
+
+  .РФЛ {  /* <span class=\"РФЛ\">Спас.РФЛ</span> */ /* <span class="РФЛ">Спас.РФЛ</span> */
+    color: #808000;
+    font-weight: bold;
+  }
+
+
+  .МХК { /* <span class=\"МХК\" data-tooltip=\"Модификатор Характеристики Колдоства\">Мод.Хар.Колд</span> */
+    background: #843fa1; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 2px; /* Уголки */
+   }
+
+   .ШМА { /* <span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> */
+    background: blue; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 2px; /* Уголки */
+   }
+
+   .Состояния { /* <span class=\"Состояния\">Состояния</span> */ /* <span class="Состояния">Состояния</span> */
+   background: red; /* Цвет фона */
+   color: white; /* Цвет текста */
+   padding: 1px; /* Поля вокруг текста */
+   padding-left: 2px; /* Поле слева */
+   padding-right: 2px; /* Поле справа */
+   border-radius: 3px; /* Уголки */
+  }
+
+  .Обстоятельства {   /* <span class=\"Обстоятельства\">Обстоятельства</span> */
+    background: #808000; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 3px; /* Уголки */
+   }
+
+  .Предмета {   /* <span class=\"Предмета\">Предмета</span> */
+    background: #008080; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 3px; /* Уголки */
+   }
+
+   .Нетрен { /* <span class=\"Нетрен\">НЕТРЕНИРОВАН</span> */
+    background: grey; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 2px; /* Уголки */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+   }
+
+   .Обучен { /* <span class=\"Обучен\">ОБУЧЕН</span> */
+    background: #1E90FF; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 2px; /* Уголки */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+   }
+
+   .Эксперт { /* <span class=\"Эксперт\">ЭКСПЕРТ</span>    <span class="Эксперт">ЭКСПЕРТ</span>*/
+    background: #4B0082; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 2px; /* Уголки */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+   }
+
+   .Мастер { /* <span class=\"Мастер\">МАСТЕР</span> */
+    background: #FF4500; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 2px; /* Уголки */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+   }
+
+   .Легенда { /* <span class=\"Легенда\">ЛЕГЕНДА</span> */
+    background: #8B0000; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 2px; /* Уголки */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+   }
+
+   /* Концентрация = <span class=\"Признак2\"><span class=\"Признак1\">концентрация</span></span> */
+  
+   .Признак {
+    background-color: #5e0000;
+    color: #fff;
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0.1em 0.25em;
+    box-sizing: border-box;
+    vertical-align: middle;
+    list-style-type: none !important;
+    border: 2px solid #d1ad4a;
+}
+
+.Мировоз {
+  background-color: #576293;
+  color: #fff;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0.1em 0.25em;
+  box-sizing: border-box;
+  vertical-align: middle;
+  list-style-type: none !important;
+  border: 2px solid #d1ad4a;
+}
+
+.Размер {
+  background-color: #3b7b59;
+  color: #fff;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0.1em 0.25em;
+  box-sizing: border-box;
+  vertical-align: middle;
+  list-style-type: none !important;
+  border: 2px solid #d1ad4a;
+}
+
+.Обыч {
+  background-color: grey;
+  color: #fff;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0.1em 0.25em;
+  box-sizing: border-box;
+  vertical-align: middle;
+  list-style-type: none !important;
+  border: 2px solid #d1ad4a;
+}
+
+.Необыч {
+  background-color: #98513d;
+  color: #fff;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0.1em 0.25em;
+  box-sizing: border-box;
+  vertical-align: middle;
+  list-style-type: none !important;
+  border: 2px solid #d1ad4a;
+}
+
+.Редк {
+  background-color: blue;
+  color: #fff;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0.1em 0.25em;
+  box-sizing: border-box;
+  vertical-align: middle;
+  list-style-type: none !important;
+  border: 2px solid #d1ad4a;
+}
+
+.Уник {
+  background-color: purple;
+  color: #fff;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0.1em 0.25em;
+  box-sizing: border-box;
+  vertical-align: middle;
+  list-style-type: none !important;
+  border: 2px solid #d1ad4a;
+}
+
+   
+   .Признак1 { /* <span class="Признак2"><span class="Признак1">_</span></span> */
+    background-color: #5e0000;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.25em;
+  }
+
+  .Признак2 { /* <span class=\"Признак2\">...</span> */
+    background-color: #d9c484;
+    display: inline-block;
+    margin: 0.1em -0.05em !important;
+    padding: 0.1em 0.25em;
+    list-style-type: none !important;
+  }
+
+  .burning-text {
+    animation: burn 1s infinite;
+    padding: 10px;
+    font-size: 2em;
+    color: #000;
+    background: linear-gradient(to right, #ff0000, #ffa500, #ff0000);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @keyframes burn {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 0%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+
+  .Признак3 {
+    background-color: #5e0000;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.25em;
+    background-color: #d9c484;
+    margin: 0.1em -0.05em !important;
+    padding: 0.1em 0.25em;
+    list-style-type: none !important;
+    }
+
+  .Признак0 { /* <span class="Признак2"><span class="Признак1">_</span></span> */
+    background-color: #576293;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.25em;
+  }
+
+  .Признак-1 { /* <span class="Признак2"><span class="Признак1">_</span></span> */
+    background-color: #3b7b59;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.25em;
+  }
+
+  .ПризнакБ { /* <span class="Признак2"><span class="Признак1">_</span></span> */
+    color: black;
+    font-weight: bold;
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: middle;
+    list-style-type: none !important;
+  }
+
+  .ПризнакН { /* <span class="Признак2"><span class="Признак1">_</span></span> */
+    background-color: #98513d;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.25em;
+  }
+
+  .ПризнакР { /* <span class="Признак2"><span class="Признак1">_</span></span> */
+    background-color: blue;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.25em;
+  }
+
+  .ПризнакО { /* <span class="Признак2"><span class="Признак1">_</span></span> */
+    background-color: grey;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0.25em;
+  }
+
+  .Признак3 {
+    color: black;
+  }
+
+  .Нарратив { /* <p class="Нарратив"> */
+    background-color: #e67e23;
+  }
+
+  .Действие { /* <span class="Действие"> */
+    background-color: #9beca3;
+  }
+
+  .Уточнить { /* <blockquote> <p class="Уточнить"> */
+    background-color: #fbeeb8;
+  }
+
+  .Развеять { /* <p class="Развеять"> */
+    background-color: #ee82ee;
+  }
+
+  .Иммун { /* <p class="Иммун"> */
+    background-color: #bfedd2;
+  }
+
+  .Атака { /* <span class="Атака"> */
+    text-decoration: underline;
+    color: #000080;
+  }
+
+  .Видыатак { /* <span class="Видыатак"> */
+    text-decoration: underline;
+    color: #34495e;
+  }
+
+  .Повтор { /* <span class="Повтор"> */
+    background-clip: padding-box;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+
+  .Урон2 { /* <span class="Урон2"> */
+    color: darkblue;   
+    font-weight: bold;
+    font-family: "Comic Sans MS", sans-serif;
+    text-decoration: underline gainsboro;
+    background-clip: padding-box;
+    border: 2px dotted blue;
+    text-align: center;
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+  }
+
+  .Урон { /* <span class="Урон"> */
+    background-color: pink;   
+    text-decoration: underline red;
+    font-weight: bold;
+    font-family: "Comic Sans MS", sans-serif;
+  }
+
+  .Атак { /* <span class="Урон"> */
+    background-color: rgb(103, 216, 216);   
+    text-decoration: underline blue;
+    font-weight: bold;
+    font-family: "Comic Sans MS", sans-serif;
+  }
+
+  .Враг { /* <span class="Враг"> */
+    text-decoration: underline black;
+    color: red;
+  }
+
+  .Союз { /* <span class="Союз"> */
+    text-decoration: underline black;
+    color: limegreen;
+  }
+
+  .Эффект {
+    background: #00FF00; /* green background */
+    color: #000;
+    padding: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px 2px 2px 2px;
+    border: solid 2px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.Аура {
+  background: #FFA500; /* orange-red background */
+  color: #000;
+  padding: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px 2px 2px 2px;
+  border: solid 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+  .Мест { /* <span class="Мест"> */
+    background-color: yellowgreen;
+    text-decoration: underline green;
+    font-weight: oblique;
+  }
+
+  .Свет { /* <span class="Свет"> */
+    background-color: yellow;
+    text-decoration: underline black;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: oblique;
+  }
+
+  .Треб { /* <span class=\"Треб\">Требования</span> <span class="Треб"> */
+    color: #236fa1;
+    font-weight: bold;
+  }
+
+  .Дист { /* <span class=\"Дист\">Дистанция</span> <span class="Дист"> */
+    color: orange;
+    font-weight: bold;
+  }
+
+  .Комп { /* <span class=\"Комп\">слов</span> <span class="Комп"> */
+    color: red;
+    text-decoration: underline;
+  }
+
+  .Сотв { /* <span class=\"Сотв\">_</span> <span class="Сотв"> */
+    color: purple;
+    font-weight: bold;
+  }
+
+  .Прод { /* <span class=\"Сотв\">_</span> <span class="Сотв"> */
+    color: olive;
+    font-weight: bold;
+  }
+
+  .Част { /* <span class=\"Част\">_</span> <span class="Част"> */
+    color: #a87a17;
+    font-weight: bold;
+  }
+
+  .Список { /* <span class=\"Список\">_</span> <span class="Список"> */
+    color: darkblue;
+    font-weight: bold;
+  }
+
+  .Триг { /* <span class=\"Триг\">Триггер</span>: <span class="Триг"> */
+    color: #e03e2d;
+    font-weight: bold;
+  }
+
+  .Пред { /* <span class=\"Пред\">Пред.Условия</span>: <span class="Пред"> */
+    color: brown;
+    font-weight: bold;
+  }
+
+  .Усил { /* <span class="Усил"> */
+    color: #236fa1;
+    font-weight: bold;
+  }
+
+  .Сопр { /* <span class="Сопр"> */
+    text-decoration: underline green;
+    font-weight: oblique;
+    color: #34495e;
+  }
+
+  .Слаб { /* <span class="Слаб"> */
+    text-decoration: underline red;
+    font-weight: oblique;
+    color: #34495e;
+  }
+
+  .Иммун2 { /* <span class="Иммун2"> */
+    text-decoration: underline yellow;
+    font-weight: oblique;
+    color: #34495e;
+  }
+
+  .Рес { /* <span class="Рес"> */
+    text-decoration: underline pink;
+    font-weight: oblique;
+    color: olive;
+    font-weight: bold;
+    font-family: "Comic Sans MS", sans-serif;
+    background-clip: padding-box;
+    border: 2px solid pink;
+    text-align: center;
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+  
+  }
+
+  .Класс { /* <span class="Класс"> */
+    color: green;
+    text-decoration: underline;
+  }
+
+  .Слот { /* <span class="Слот"> */
+    background-clip: padding-box;
+    border: 2px solid purple;
+    text-align: center;
+  }
+
+  .Закл { /* <span class="Закл"> */
+    color: purple;
+    text-decoration: underline;
+  }
+
+  .Пси { /* <span class="Пси"> */
+    color: magenta;
+    text-decoration: underline;
+    text-shadow: 0 0 2px rgba(255, 0, 255, 0.5);
+    font-style: italic;
+    }
+
+  .До { /* <span class="До"> */
+    background-color: #BDB76B;
+    text-decoration: underline brown;
+    font-weight: oblique;
+  }
+
+  .Твер { /* <span class="Твер"> */
+    color: darkblue;
+    font-weight: bold;
+  }
+
+  .КБ { /* <span class="КБ"> */
+    font-weight: bold;
+    color: #964b00;
+    background-image: linear-gradient(to right, lightgray, silver);
+}
+
+  .ОЗ { /* <span class="ОЗ"> */
+    color: darkgreen;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #BDB76B;
+  }
+
+  .Матер { /* <span class="Матер"> */
+    color: blue;
+    text-decoration: underline purple;
+  }
+
+  .Масса { /* <span class="Матер"> */
+    color: green;
+    text-decoration: underline greenyellow;
+  }
+
+  .НЕ { /* <span class="НЕ"> */
+    font-weight: bold;
+    color: red;
+    background-image: linear-gradient(to right, pink, orange);
+}
+
+  .Обычай { /* <span class="Обычай"> */
+    background-color: yellow;
+    text-decoration: underline purple;
+    font-weight: oblique;
+  }
+
+  .ОФ { /* <span class="ОФ"> */
+    background-color: cornflowerblue;
+    text-decoration: underline darkblue;
+    font-weight: oblique;
+  }
+
+  .Скор { /* <span class="Скор"> */
+    color: green;
+    text-decoration: underline #34495e;
+    font-weight: oblique;
+  }
+
+  .Ежед { /* <span class="Ежед">*/
+    background-color: #BDB76B;
+    text-decoration: underline blue;
+    font-weight: oblique;
+  }
+
+  .Заг2 { /* <span class="Заг2"> */
+    text-align: center;
+  }
+
+  .line {
+   border-bottom: 3px solid green; /* Параметры линии */
+  }
+
+  .картинкасправа {
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+  }
+    .картинкаслева {
+    float: left; /* Выравнивание по левому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+  }
+
+  .ЯЧЧЕР {
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 12px;
+}
+
+.ЯЧСИН {
+    background-color: blue;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 12px;
+}
+
+.ЯЧЗЕЛ {
+    background-color: green;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 12px;
+}
+
+.ЯЧКРА {
+    background-color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 12px;
+}
+
+.ЯЧБЕЛ {
+    background-color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 12px;
+}
+
+.ЯЧЛАТ {
+    background-color: #bf9b30;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 12px;
+}
+
+.ЯЧБРО {
+    background-color: #964b00;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 12px;
+}
+
+.ЯЧМЕД {
+    background-color: #b87333;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 12px;
+}
+
+.ЯЧЗОЛ {
+    background-color: #ffd700;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 12px;
+}
+
+.ЯЧСЕР {
+    background-color: #c0c0c0;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 11px;
+}
+
+

@@ -1,0 +1,295 @@
+{
+	"label": "Прегены (НЕ-Иконики)",
+	"mapping": {
+		"description": "system.details.publicNotes",
+		"img": "img",
+		"tokenName": "prototypeToken.name",
+		"tokenImg": "prototypeToken.texture.src",
+		"tokenvision": "prototypeToken.vision",
+		"tokendisplayBars": "prototypeToken.displayBars",
+		"tokendisplayName": "prototypeToken.displayName",
+		"randomImg": "prototypeToken.randomImg",
+		"hstealth": "system.attributes.stealth.details",
+		"hdisable": "system.details.disable",
+		"hdescription": "system.details.description",
+		"hreset": "system.details.reset",
+		"hroutine": "system.details.routine",
+		"classDC": "system.attributes.classDC",
+		"backstory": "system.details.biography.backstory"
+    },
+	"entries": [
+		{
+			"id": "Booker Kaar",
+			"name": "Booker Kaar"
+		},
+		{
+			"id": "Bottlespeaker",
+			"name": "Бутыль",
+			"tokenName": "Бутыль",
+			"backstory": "Тест",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/bottlespeaker.token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/bottlespeaker.actor.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 50,
+			"tokendisplayName": 20,
+			"items": {
+				"Gourd Leshy": {
+					"name": "Тыквенный Леший",
+					"description": "<p class=\"Нарратив\">У вас вместо черепа большая тыква.</p>\n<p>&diams; Ваше знание исходит не от физического мозга, а от вашего духа, и вы нашли более удобное применение для пространства внутри своей головы. Вы можете хранить в своей голове набор предметов вплоть до <span class=\"Масса\">1 Массы</span>. Для того, чтобы @Compendium[pf2e.actionspf2e.RDXXE7wMrSPCLv5k]{Украсть} предметы из вашей головы, <span class=\"КБ\">КС</span> <span class=\"Атак\">проверки</span> <span class=\"Увелич\">увелич.</span> на 4.</p>\n<p>&diams; Дополнительно, если вы храните только один объект внутри своей головы, то можете без усилий вытащить его в вашу руку, как часть другого действия для использования этого объекта. Вытаскивание предмета дает этого другому действию признак <span class=\"Признак\">Воздействие</span>.</p>"
+				},		
+				"Herbalist": {
+					"name": "Травник",
+					"description": "<p class=\"Нарратив\">Будучи формально обученным аптекарем или сельским практиком народной медицины, вы изучали целебные свойства различных трав. Вы искусны в сборе правильных природных лекарств в любой окружающей среде и должном их приготовлении.</p>\n<p>&diams; Выберите 2 повышения характеристик.</p>\n<ol>\n<li>Одно должно быть <span class=\"ТЕЛ\">Телосложение</span> или <span class=\"МУД\">Мудрость</span></li>\n<li>Другое <span class=\"Список\">Свободное</span></li>\n</ol>\n<p>&diams; Вы <span class=\"Обучен\">ОБУЧЕН</span> <span class=\"МУД\">Природе </span>и <span class=\"ИНТ\">Знания: Травничество</span>.</p>\n<p>&diams; Вы получаете <span class=\"Класс\">способность <span class=\"Признак\">навыка</span></span> @Compendium[pf2e.feats-srd.WC4xLBGmBsdOdHWu]</p>"
+				},
+				"Scroll of Enlarge (Level 2)": {
+					"name": "Свиток Увеличение (Ур.2)",
+					"description": "<p>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]</p>\n<hr>\n<div><span class=\"Закл\">Ур.Закл.</span>: 2</div>\n<hr>\n<p><span class=\"Сотв\">Сотворение Заклинания</span> со <span class=\"Рес\">свитка</span> требует <span class=\"Атака\">держать</span> <span class=\"Рес\">свиток</span> в <span class=\"Атака\">одной руке</span> и активировать его с помощью активности @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение Заклинания} используя обычно количество действие для этого заклинания.</p>\n<p>Чтобы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворить} заклинание со <span class=\"Рес\">свитка</span>, оно должно присутствовать в вашем списке заклинаний. Так как вы тот, кто колдует заклинание, используется ваш показатель <span class=\"Атак\">Атака <span class=\"Закл\">Закл.</span></span> и <span class=\"КБ\">КС <span class=\"Закл\">Закл.</span></span>. Заклинание так же получает признак соответствующего обычая колдовства (<span class=\"Признак\">Аркана</span>, <span class=\"Признак\">Сакральный</span>, <span class=\"Признак\">Оккультный</span> или <span class=\"Признак\">Природный</span>).</p>\n<hr>\n<p>Любые физические <span class=\"Комп\">материальные</span> компоненты и стоимость предоставляются при создании свитка, так что вам не требуется предоставлять их при сотворении заклинания со <span class=\"Рес\">свитка</span>. Для этого заклинания, вы должны заменить любой требуемый <span class=\"Комп\">материальный</span> компонент на <span class=\"Комп\">жестовый</span>. Если заклинание требует <span class=\"Комп\">фокуса</span>, то он должен быть у вас, чтобы колдовать со <span class=\"Рес\">свитка</span>.</p>"
+				},
+				"Wondrous Figurine (Onyx Dog named Midnight)": {
+					"name": "Чудесная Фигурка (Ониксовый Пес имя Сумрак)",
+					"description": "<p class=\"Нарратив\">Каждая из этих статуэток 1 дюйм в высоту, вырезана из определенного материала и принимает форму конкретного животного или животных.</p>\n<p><span class=\"Твер\">Активация</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">команда</span>, @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}</p>\n<hr>\n<p>Вы <span class=\"Твер\">активируете</span> статуэтку помещая ее на <span class=\"Мест\">твердую поверхность</span> и потом говоря ее имя, заставляя статуэтку превратиться в <span class=\"Признак\">живое</span> существо или существ. В <span class=\"Рес\">форме существа</span>, статуэтка имеет признак <span class=\"Признак\">миньон</span>. Она может понимать ваш язык и подчиняется вам так хорошо, как может, когда вы используете <span class=\"Действие\">действие</span>, чтобы @Compendium[pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{Командывать}. Особенности каждого существа, а также частота <span class=\"Твер\">активации</span> (если таковая имеется) указываются в их записи ниже.</p>\n<p>Если статуэтка <span class=\"Урон\">убита</span> когда находится в <span class=\"Рес\">форме животного</span>, она возвращается в <span class=\"Рес\">форму статуи</span> и <span class=\"НЕ\">не может</span> быть <span class=\"Твер\">активирована</span> <span class=\"До\">пока не пройдет неделя</span>. Если статуэтка <span class=\"Урон\">уничтожена</span> в <span class=\"Рес\">форме статуи</span> она разбивается и ее магия теряется.</p>\n<hr>\n<p>Эта простая ониксовая статуя превращается в @UUID[Compendium.pf2e.pathfinder-bestiary.QRRX82FIjBKd8pzs].</p>\n<p>Пес имеет ночное зрение и бонус <span class=\"Обстоятельства\">обстоятельства</span> +4 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Выживания</span> для <span class=\"Действие\">действия</span> @Compendium[pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Выслеживание}. Когда пес чувствует @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятанное} существо при помощи нюха, это существо становится @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Замечен} и @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт}.</p>\n<p>Ониксовый пес может быть <span class=\"Твер\">активирован</span> <span class=\"Част\">раз в неделю</span> и остается в этой <span class=\"Рес\">форме</span> <span class=\"До\">вплоть до 6 часов</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Doc Featherton",
+			"name": "Doc Featherton"
+		},
+		{
+			"id": "Ekene",
+			"name": "Ekene"
+		},
+		{
+			"id": "Elsir Syniras",
+			"name": "Elsir Syniras"
+		},
+		{
+			"id": "Eteleon",
+			"name": "Eteleon"
+		},
+		{
+			"id": "Ezren (Beginner Box)",
+			"name": "Ezren (Beginner Box)"
+		},
+		{
+			"id": "Fluff Fang",
+			"name": "Пушистый Клык",
+			"tokenName": "Пуш.Клык",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/fluff-fang.token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/fluff-fang.actor.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 50,
+			"tokendisplayName": 20,
+			"items": {
+				"Leaf Leshy": {
+					"name": "Лиственный Леший",
+					"description": "<p class=\"Нарратив\">Ваше тело сделано в основном из естественной листвы, и подобно листу, падающему с дерева, после падения вы приземляетесь с особой грацией.</p>\n<p><span class=\"Союз\">Вы</span> <span class=\"НЕ\">не получаете</span> <span class=\"Урон\">Урон от падения</span>, независимо от расстояния.</p>"
+				},
+				"Servant": {
+					"name": "Прислуга",
+					"description": "<p class=\"Нарратив\">Вы выполняли роль подневольного работника, прислуживая дворянам и завоевывая их доверие как одного из доверенных лиц домохозяйства. Вы могли расстаться в хороших отношениях, или, возможно, вы знаете опасные секреты о ваших бывших хозяевах. Как бы то ни было, пустившись в авантюру на поиски перемен, вы обнаруживаете, что в этой новой роли навыки, которым вы научились, теперь служат вам.</p>\n<p>&diams; Выберите 2 повышения характеристик.</p>\n<ol>\n<li>Одно должно быть <span class=\"ЛВК\">Ловкость</span> или <span class=\"ХАР\">Харизма</span></li>\n<li>Другое <span class=\"Список\">Свободное</span></li>\n</ol>\n<p>&diams; Вы <span class=\"Обучен\">ОБУЧЕН</span> <span class=\"ХАР\">Общество</span> и <span class=\"ИНТ\">Знания: Труд</span>.</p>\n<p>&diams; Вы получаете <span class=\"Класс\">способность <span class=\"Признак\">навыка</span></span> @Compendium[pf2e.feats-srd.yUuU9xyotrpwpTyC]{Чтение по Губам}</p>"
+				},
+				"Sapphire Ring": {
+					"name": "Кольцо с Сапфиром",
+					"description": "<p>Драгоценость</p>"
+				}
+			}
+		},
+		{
+			"id": "Grimmnir",
+			"name": "Grimmnir"
+		},
+		{
+			"id": "Izni",
+			"name": "Izni"
+		},
+		{
+			"id": "Jadren Tagar",
+			"name": "Jadren Tagar"
+		},
+		{
+			"id": "Jaithe",
+			"name": "Jaithe"
+		},
+		{
+			"id": "Kaako Ashfeather",
+			"name": "Kaako Ashfeather"
+		},
+		{
+			"id": "Kalaggi Nakutu",
+			"name": "Kalaggi Nakutu"
+		},
+		{
+			"id": "Kangir",
+			"name": "Kangir"
+		},
+		{
+			"id": "Kellsti",
+			"name": "Kellsti"
+		},
+		{
+			"id": "Kyra (Beginner Box)",
+			"name": "Kyra (Beginner Box)"
+		},
+		{
+			"id": "Lavanna Saltspray",
+			"name": "Lavanna Saltspray"
+		},
+		{
+			"id": "Melvok",
+			"name": "Melvok"
+		},
+		{
+			"id": "Merisiel (Beginner Box)",
+			"name": "Merisiel (Beginner Box)"
+		},
+		{
+			"id": "Muruwa",
+			"name": "Muruwa"
+		},
+		{
+			"id": "Oraka",
+			"name": "Oraka"
+		},
+		{
+			"id": "Popcorn",
+			"name": "Попкорн",
+			"tokenName": "Попкорн",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/popcorn.token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/popcorn.actor.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 50,
+			"tokendisplayName": 20,
+			"items": {
+				"Vine Leshy": {
+					"name": "Леший из Лоз",
+					"description": "<p class=\"Нарратив\">Цепкие лозы, вплетенные в ваше тело, дают вам непревзойденное мастерство в лазании.</p>\n<p>&diams; Чтобы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаться} вам <span class=\"НЕ\">не нужны</span> <span class=\"Атака\">свободные руки</span>.</p>\n<p>&diams; Дополнительно, если <span class=\"Приброске\">при броске</span> <span class=\"Атак\">проверке</span>  <span class=\"СИЛ\">Атлетика</span> вы получаете <span class=\"Успех\">Успех</span>, чтобы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаться}, то вместо этого он становится <span class=\"Критуспех\">крит.успехом</span>.</p>"
+				},
+				"Cook": {
+					"name": "Повар",
+					"description": "<p class=\"Нарратив\">Вы выросли на кухнях таверн или других заведений, где подают блюда, и преуспели там, став исключительным поваром. Выпечка, готовка, немного пивоварения на стороне - вы провели много времени вне поля зрения. Пришло время отправиться в мир, чтобы увидеть что-нибудь своими глазами.</p>\n<p>&diams; Выберите 2 повышения характеристик.</p>\n<ol>\n<li>Одно должно быть <span class=\"ТЕЛ\">Телосложение</span> или <span class=\"ИНТ\">Интеллект</span></li>\n<li>Другое <span class=\"Список\">Свободное</span></li>\n</ol>\n<p>&diams; Вы <span class=\"Обучен\">ОБУЧЕН</span> <span class=\"МУД\">Выживанию</span> и <span class=\"ИНТ\">Знания: Кулинария</span>.</p>\n<p>&diams; Вы получаете <span class=\"Класс\">способность <span class=\"Признак\">навыка</span></span> @Compendium[pf2e.feats-srd.1Eceqc6zbMj2x0q9]{Опытный Повар}</p>"
+				},
+				"Bottle of Ground Peppercorns": {
+					"name": "Молотый Перец",
+					"description": "<p>Специя</p>"
+				},
+				"Jar of Salted Lemons": {
+					"name": "Соленые Лимоны",
+					"description": "<p>Десерт</p>"
+				}
+			}
+		},
+		{
+			"id": "Precious",
+			"name": "Precious"
+		},
+		{
+			"id": "Quizrel",
+			"name": "Quizrel"
+		},
+		{
+			"id": "Reaching Rings",
+			"name": "Колечки",
+			"tokenName": "Колечки",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/reaching-rings.token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/reaching-rings.actor.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 50,
+			"tokendisplayName": 20,
+			"items": {
+				"Fungus Leshy": {
+					"name": "Грибной Леший",
+					"description": "<p class=\"Нарратив\">Ваше тело было сделано из грибов, которые растут в тени пещер и деревьев, и вы чувствуете себя как дома в темных пещерах и ущельях.</p>\n<p>&diams; Вы получаете @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Ночное Зрение}.</p>\n<p>&diams; <span class=\"НЕ\">Вместо</span> признака <span class=\"Признак\">растение</span> вы получаете признак <span class=\"Признак\">грибковый</span>.</p>"
+				},
+				"Hermit": {
+					"name": "Отшельник",
+					"description": "<p class=\"Нарратив\">Вы жили уединенной жизнью, в изолированном месте, таком как пещера, удаленный оазис или уединенный особняк. Приключение может представлять собой вашу первую, в течение некоторого времени, вылазку в люди. Это может быть долгожданная передышка от уединения или нежелательной перемены, но в любом случае вы, вероятно, все может и готовы к этому, но не до конца.</p>\n<p>&diams; Выберите 2 повышения характеристик.</p>\n<ol>\n<li>Одно должно быть <span class=\"ТЕЛ\">Телосложение</span> или <span class=\"ИНТ\">Интеллект</span></li>\n<li>Другое <span class=\"Список\">Свободное</span></li>\n</ol>\n<p>&diams; Вы <span class=\"Обучен\">ОБУЧЕН</span> <span class=\"МУД\">Природе</span> или <span class=\"ИНТ\">Оккультизм</span> и <span class=\"ИНТ\">Знаниям</span> связанным с одним видом <span class=\"Мест\">местности</span>, где вы жили отшельником (например, <span class=\"ИНТ\">Знания: Пещеры</span> или <span class=\"ИНТ\">Знания: Пустыня</span>)</p>\n<p>&diams; Вы получаете <span class=\"Класс\">способность <span class=\"Признак\">навыка</span></span> @Compendium[pf2e.feats-srd.1Bt7uCW2WI4sM84P]{Сомнительные Знания}</p>"
+				},
+				"Sack of Rotten Fruit": {
+					"name": "Мешочек Гнилых Фруктов",
+					"description": "<p><span class=\"Твер\">Активация</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p>\n<p>Каждый из этих неприятных мешочков содержит достаточно гниющих фруктов, чтобы обеспечить @Compendium[pf2e.heritages.87h0jepQuzIbN7jN]{Грибного Лешего} @Compendium[pf2e.equipment-srd.L9ZV076913otGtiB]{Рационом} на 1 неделю, а также группы камней, помогающие выжимать сок из фруктов.</p>\n<hr>\n<p>Когда вы @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударяете} существо <span class=\"Повтор\">Мешочком Гнилых Фруктов</span>, мешок расходуется, в то время как существо получает [[/r 1d4[bludgeoning]]] и должно сделать <span class=\"КБ\">Спас.</span>@Check[type:fortitude|dc:15|showDC:all]{СТК}. При <span class=\"Провал\">провале</span> существо получает @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}. <span class=\"Повтор\">Мешочек Гнилых Фруктов</span> можно метнуть с <span class=\"Атака\">Шаг Дистанции 20ФТ</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Rhin",
+			"name": "Rhin"
+		},
+		{
+			"id": "Savshin Starwatcher",
+			"name": "Savshin Starwatcher"
+		},
+		{
+			"id": "Simeek",
+			"name": "Simeek"
+		},
+		{
+			"id": "Takemiru",
+			"name": "Takemiru"
+		},
+		{
+			"id": "Twinsprout",
+			"name": "Росточек",
+			"tokenName": "Росточек",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Twinsprout.token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Twinsprout.actor.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 50,
+			"tokendisplayName": 20,
+			"items": {
+				"Plant Form": {
+					"name": "Форма Растения",
+					"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, вы должны иметь <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span>, такого как <span class=\"Повтор\">леший</span>.</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> - <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span> за <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> может менять свою форму, превращаясь в <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span> <span class=\"Признак2\"><span class=\"Признак-1\">крошечного</span></span> размера, по виду слегка похожее на естественный вид <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>.</p>\n<p>В остальном, это как эффекты @Compendium[pf2e.spells-srd.dileJ0Yxqg76LMvu]{Форма Дерева}.</p>"
+				},
+				"Speech": {
+					"name": "Речь Фамильяра",
+					"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> может говорить на языке, который вы знаете, и понимать его.</p>"
+				},
+				"Manual Dexterity": {
+					"name": "Ловкость Рук Фамильяра",
+					"description": "<p class=\"Нарратив\">Он может использовать вплоть до 2 своих конечностей, как если бы они были руками, чтобы использовать <span class=\"Действие\">действия</span> с признаком <span class=\"Признак\">Воздействие</span>.</p>"
+				},
+				"Damage Avoidance: Reflex": {
+					"name": "Избегание Урона (Рефлекс)",
+					"description": "<p class=\"Нарратив\">При <span class=\"Успех\">успешном</span> броске <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> он <span class=\"НЕ\">не</span> получает <span class=\"Урон\">урона</span>; это <span class=\"НЕ\">не</span> предотвращает эффекты не являющиеся уроном.</p>"
+				}
+			}
+		},
+		{
+			"id": "Ufi",
+			"name": "Ufi"
+		},
+		{
+			"id": "Valeros (Beginner Box)",
+			"name": "Valeros (Beginner Box)"
+		},
+		{
+			"id": "Yacob",
+			"name": "Yacob"
+		},
+		{
+			"id": "Zakzak",
+			"name": "Zakzak"
+		},
+		{
+			"id": "Zane Ikundi",
+			"name": "Zane Ikundi"
+		},
+		{
+			"id": "Zathri",
+			"name": "Zathri"
+		},
+		{
+			"id": "Zeah",
+			"name": "Zeah"
+		},
+		{
+			"id": "Zerryd",
+			"name": "Zerryd"
+		},
+		{
+			"id": "Zindarel",
+			"name": "Zindarel"
+		}
+	]
+}

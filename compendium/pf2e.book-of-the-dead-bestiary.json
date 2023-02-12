@@ -1,0 +1,500 @@
+{
+	"label": "Бестиарий (Книга Мертвых)",
+	"mapping": {
+		"description": "data.details.publicNotes",
+		"img": "img",
+		"tokenName": "token.name",
+		"tokenImg": "token.img",
+		"tokenvision": "token.vision",
+		"tokendisplayBars": "token.displayBars",
+		"tokendisplayName": "token.displayName",
+		"randomImg": "token.randomImg",
+		"hstealth": "data.attributes.stealth.details",
+		"hdisable": "data.details.disable",
+		"hdescription": "data.details.description",
+		"hreset": "data.details.reset",
+		"hroutine": "data.details.routine",
+		"classDC": "data.attributes.classDC",
+		"spellDC": "data.attributes.spellDC.value",
+		"keyability": "data.attributes.keyability.value"
+    },
+	"entries": [
+			{
+				"id": "Gashadokuro",
+				"name": "Гашадокуро",
+				"tokenName": "Гашадокуро",
+				"tokenImg": "modules/PF2E-TS-RUB/art/pf2e-pathfinder-bestiary/token/gashadokuro/*",
+				"img": "modules/PF2E-TS-RUB/art/pf2e-pathfinder-bestiary/art/gashadokuro/gashadokuro.webp",
+				"randomImg": true,
+				"tokenvision": true,
+				"tokendisplayBars": 40,
+				"tokendisplayName": 20,
+				"description": "<p class=\"Нарратив\">Страшный <span style=\"text-decoration: underline; color: #34495e;\">Гашадокуро</span> &mdash; ночной призрак <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, появляющийся в виде гигантского скелета, который поднимается из-под земли после массового голода.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Гашадокуро</span>, возникший из жертв нехватки продовольствия, спровоцированной правительством, почти не испытывает угрызений совести по поводу того, что топает прямо в шумные города среди бела дня. <span style=\"text-decoration: underline; color: #34495e;\">Гашадокуро</span> даже, кажется, нацелены на аристократов и правительственных чиновников &mdash; независимо от того, были ли они теми же политиками, халатность которых привела к голоду, &mdash; что заставляет многих полагать, что <span style=\"text-decoration: underline; color: #34495e;\">Гашадокуро</span> стремится утолить свою жажду мести даже больше, чем утолить свой бесконечный голод.</p>",
+				"items": {
+					"s0ilcnpw3egzb7jx": {
+						"name": "Челюсти 10 (Захват)"
+					},
+					"zg9njsvehofdrf4r": {
+						"name": "Когти 15"
+					},
+					"p2homhgdk4xiy7ve": {
+						"name": "Атака Дыханием",
+						"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Гашадокуро</span> выдыхает брызги костяных осколков в @Template[type:cone|distance:30]. Каждое существо в этой области получает [[/r 8d12[piercing]]]{8d12 Колющего}</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:34|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></p>\n<hr />\n<p><span style=\"color: #000080;\"><strong>Перезарядка: </strong></span>[[/r 1d4 #Recharge]]{1d4 раундов}<span data-visibility=\"gm\">[[1d4]]{1d4}</span></p>"
+					},
+					"0VnHFn3wn3nNZ2Tp": {
+						"name": "Поглотить Целиком",
+						"description": "<div><span style=\"color: #169179;\"><strong>Размер: </strong></span><span class=\"Признак2\"><span class=\"Признак-1\">большой</span></div>\n<div><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {3d6+8}[bludgeoning]]]{3d6+8 Дробящий}</div>\n<div data-visibility=\"gm\"><span style=\"color: #e03e2d;\"><strong>Разрыв:</strong></span> 24</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+					},
+					"o5vtcl40ekp9qv6n": {
+						"name": "Голодная Аура",
+						"description": "<p class=\"Нарратив\">@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]@Template[type:emanation|distance:60]{60}</p>\n<hr />\n<p>Любое существо, <span style=\"text-decoration: underline; color: #000080;\"><em>заканчивающее свой ход</em></span> в ауре, чувствует сильную боль от голода и должно сделать <span style=\"color: #236fa1;\"><strong>Cпас.@Check[type:fortitude|dc:30|showDC:owner]</strong></span>. При <span class=\"Провал\">Провал</span>существо получает @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw] и [[/r 6d6]]{6d6 Урона}.</p>\n<hr />\n<p>Урон и усталость, получаемые существом от этой @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Ауры}, не могут быть излечены, до тех пор, пока пораженное существо не съест полноценную еду.</p>"
+					},
+					"ecn8ua35xgwp7abu": {
+						"name": "Потребление Трупа",
+						"description": "<p class=\"Нарратив\">Если <span style=\"text-decoration: underline; color: #34495e;\">Гашадокуро</span> убивает существо с помощью <span style=\"text-decoration: underline; color: #34495e;\">Проглотить Целиком</span>, он немедленно восстанавливает ОЗ, равные уровню проглоченного существа.</p>\n<p>Пока <span style=\"text-decoration: underline; color: #34495e;\">Гашадокуро</span> существует, существа, поглощенные таким образом, не могут быть воскрешены, кроме как с помощью @Compendium[pf2e.spells-srd.6dDtGIUerazSHIOu] или аналогичного мощного эффекта.</p>"
+					}
+				}
+			},
+			{
+			"id": "Husk Zombie",
+			"name": "Подсушенный Зомби",
+			"tokenName": "Подсуш.Зомби",
+			"description": "<h2 class=\"Заг2\">Подсушенный Зомби</h2>\n<p>Вместо того чтобы позволять телу гнить, некоторые некроманты пытаются высушить труп, чтобы предотвратить его дальнейшее разрушение. В сочетании со специальными реагентами этот процесс может сохранить рудиментарную форму интеллекта, позволяя подсушенным зомби больше походить на хищников, чем на своих неразумных сородичей. Большинство подсушенных зомби не помнят о своей прежней жизни, хотя некоторые хранят безделушки из тех времен, не понимая, почему они так дорожат этими предметами. Редко кто из подсушенных зомби сохраняет бо́льшую часть своих прежних знаний, однако у них, как правило, есть пробелы в памяти.</p>\n<hr />\n<h2 class=\"Заг2\">Сохраненная Разумность</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Ритуалы по созданию подсушенных зомби (и иссохших зомби) требуют дополнительных шагов, включающих в себя применение к телу специальных трав или тоников перед захоронением. В лучшем случае, нельзя предсказать, сохранит ли этот процесс память существа. Для большинства некромантов эта дополнительная подготовка кажется пустой тратой времени, поскольку они предпочитают полное повиновение от неразумного зомби. Хотя большинство подсушенных зомби хотят только охотиться и убивать, некоторые из них стараются вести более сбалансированный, даже космополитический образ жизни.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби (Общее)</h2>\n<p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают.</p>\n<p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>\n<hr />\n<h2 class=\"Заг2\">Восставшие из Могилы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Зомби часто создаются с помощью вредных некромантических ритуалов. Среди живых мертвецов зомби чаще всего используются как пушечное мясо, ослабляя оборону и расходуя вражеские ресурсы, прежде чем придет более могущественная нежить, чтобы нанести смертельный удар. Зомби не могут говорить или даже самостоятельно думать, но ими может командовать другая союзная нежить и могущественные некроманты.</p>\n<hr />\n<h2 class=\"Заг2\">Собирательные Инстинкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Хотя для зомби нет пользы от богатства, более того, большинство из них вообще не понимают этого понятия,@Compendium[pf2e.pathfinder-bestiary-3.GGuT6YsRH4aXhpl3] сохраняют налёт своей врожденной склонности к накоплению сокровищ. Более свежий труп может охранять клад, который он собрал при жизни (или то, что от него осталось), в то время как зомби, далекий от жизни, вместо этого может собирать кости, камни, трупы или другие необычные объекты. Понятное дело, что монетарная ценность этих кладов сильно варьируется.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби-Животные</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Животные, такие как змея, сововедведь и мамонт, могут легко превращаться в представленных здесь зомби. Обычно они восстают из мест, проклятых некромантией, а не создаются намеренно. Восставшие питомцы иногда привязываются к зомби, особенно зомби своих бывших хозяев. Обычный зомби может стать подходящим компаньоном, способным бесконечно ласкать восставшего питомца, не давая ему заскучать.</p>\n<hr />\n<h2 class=\"Заг2\">Ошибки Неразумных</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /></p>\n<p>Зомби стараются подчиняться приказам, но понимание сказанных слов не всегда означает их правильное выполнение. К примерам неправильно понятых приказов относятся:</p>\n<ul>\n<li>\n<p><span style=\"color: #000080;\">\"Подай мою шляпу\"</span> - приведет к тому, что зомби приготовит шляпу и подаст ее на блюде.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Подровняй эти кусты\"</span> - закончится тем, что он \"подровняет\" их с землей, под корень.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Сообщи мне, если кто-то подойдет к двери\"</span> - получится так, что зомби подойдет к двери и тут же вернется к хозяину, так как он сам подошел к двери.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Убейте незваных гостей!\"</span> - обратит зомби, поднятых с местного кладбища, против своего хозяина, который сам является не местным.</p>\n</li>\n</ul>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"eHad4TakoeYMeM8g": {
+					"name": "Внезапная Атака (1d6)",
+					"description": "<p class=\"Заг2\">[[/r 1d6[precision]]]{1d6} <span class=\"Признак\">Точного</span><span class=\"Урон\"> Урона</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+				},
+				"qqbbtn1cc3yyrpdv": {
+					"name": "Медлительный",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+				},
+				"35ytvmm1cwqr4dbu": {
+					"name": "Внезапная Активность",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Подсуш.Зомби</span> получает неожиданный прилив скорости.</p>\n<hr />\n<div><span class=\"Триг\">Триггер</span>: Начинается ход этого зомби</div>\n<hr />\n<p>Он @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорен} на этот ход и может использовать дополнительное действие на @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR] или @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6].</p>\n<p>Если в этом ходу первым действием зомби является @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR] ближнего боя, то цель @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg] для этой атаки.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Подсуш.Зомби</span> не может снова использовать <span style=\"text-decoration: underline; color: #34495e;\">Внезапную Активность</span> пока не проведет хотя бы 10 минут стоя неподвижно.</p>"
+				}
+			}
+		},
+		{
+			"id": "Withered",
+			"name": "Иссохший Зомби",
+			"tokenName": "Иссох.Зомби",
+			"description": "<h2 class=\"Заг2\">Иссохший Зомби</h2>\n<p>Если подсушенный зомби выживает в течение нескольких лет, его тело продолжает высыхать, плоть твердеет, а глаза превращаются в бледные, светящиеся шары, глубоко посаженные в пустых глазницах. Называемые \"иссохшими\", эти зомби хитры, способны составлять сложные планы и даже ставить ловушки, используя своих менее умных собратьев, чтобы заманивать ничего не подозревающих в смертельные засады.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби (Общее)</h2>\n<p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают.</p>\n<p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>\n<hr />\n<h2 class=\"Заг2\">Восставшие из Могилы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Зомби часто создаются с помощью вредных некромантических ритуалов. Среди живых мертвецов зомби чаще всего используются как пушечное мясо, ослабляя оборону и расходуя вражеские ресурсы, прежде чем придет более могущественная нежить, чтобы нанести смертельный удар. Зомби не могут говорить или даже самостоятельно думать, но ими может командовать другая союзная нежить и могущественные некроманты.</p>\n<hr />\n<h2 class=\"Заг2\">Собирательные Инстинкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Хотя для зомби нет пользы от богатства, более того, большинство из них вообще не понимают этого понятия,@Compendium[pf2e.pathfinder-bestiary-3.GGuT6YsRH4aXhpl3] сохраняют налёт своей врожденной склонности к накоплению сокровищ. Более свежий труп может охранять клад, который он собрал при жизни (или то, что от него осталось), в то время как зомби, далекий от жизни, вместо этого может собирать кости, камни, трупы или другие необычные объекты. Понятное дело, что монетарная ценность этих кладов сильно варьируется.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби-Животные</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Животные, такие как змея, сововедведь и мамонт, могут легко превращаться в представленных здесь зомби. Обычно они восстают из мест, проклятых некромантией, а не создаются намеренно. Восставшие питомцы иногда привязываются к зомби, особенно зомби своих бывших хозяев. Обычный зомби может стать подходящим компаньоном, способным бесконечно ласкать восставшего питомца, не давая ему заскучать.</p>\n<hr />\n<h2 class=\"Заг2\">Ошибки Неразумных</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /></p>\n<p>Зомби стараются подчиняться приказам, но понимание сказанных слов не всегда означает их правильное выполнение. К примерам неправильно понятых приказов относятся:</p>\n<ul>\n<li>\n<p><span style=\"color: #000080;\">\"Подай мою шляпу\"</span> - приведет к тому, что зомби приготовит шляпу и подаст ее на блюде.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Подровняй эти кусты\"</span> - закончится тем, что он \"подровняет\" их с землей, под корень.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Сообщи мне, если кто-то подойдет к двери\"</span> - получится так, что зомби подойдет к двери и тут же вернется к хозяину, так как он сам подошел к двери.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Убейте незваных гостей!\"</span> - обратит зомби, поднятых с местного кладбища, против своего хозяина, который сам является не местным.</p>\n</li>\n</ul>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"2d552nmuu8dx669n": {
+					"name": "Кинжал (Метание)",
+					"description": ""
+				},
+				"7rpcLcKUwgjQVUST": {
+					"name": "Внезапная Атака (2d6)",
+					"description": "<p class=\"Заг2\">[[/r 2d6[precision]]]{2d6} <span class=\"Признак\">Точного</span><span class=\"Урон\"> Урона</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+				},
+				"UHjOHKWLHa1xT8ID": {
+					"name": "Медлительный",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+				},
+				"b4ti2yqe9ipiuxz2": {
+					"name": "Внезапная Активность",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Подсуш.Зомби</span> получает неожиданный прилив скорости.</p>\n<hr />\n<div><span class=\"Триг\">Триггер</span>: Начинается ход этого зомби</div>\n<hr />\n<p>Он @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорен} на этот ход и может использовать дополнительное действие на @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR] или @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6].</p>\n<p>Если в этом ходу первым действием зомби является @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR] ближнего боя, то цель @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg] для этой атаки.</p>\n<hr />\n<p><span style=\"color: #000080;\"><strong>Перезарядка:</strong></span> [[/r 1d4[rounds]]]{1d4 раунда}<span data-visibility=\"gm\">[[1d4]]{ }</span></p>"
+				}
+			}
+		},
+		{
+			"id": "Zombie Lord",
+			"name": "Зомби-Повелитель",
+			"tokenName": "Зомби-Повелитель",
+			"description": "<h2 class=\"Заг2\">Зомби-Повелитель</h2>\n<p>Хитрые зомби-повелители управляют своими низшими сородичами, которых они могут использовать неожиданным способом. Известно, что они руководят или кооперируются с подсушенными и иссохшими зомби, создавая группу разумных зомби, скрывающиеся в рядах неразумной нежити.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби (Общее)</h2>\n<p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают.</p>\n<p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>\n<hr />\n<h2 class=\"Заг2\">Восставшие из Могилы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Зомби часто создаются с помощью вредных некромантических ритуалов. Среди живых мертвецов зомби чаще всего используются как пушечное мясо, ослабляя оборону и расходуя вражеские ресурсы, прежде чем придет более могущественная нежить, чтобы нанести смертельный удар. Зомби не могут говорить или даже самостоятельно думать, но ими может командовать другая союзная нежить и могущественные некроманты.</p>\n<hr />\n<h2 class=\"Заг2\">Собирательные Инстинкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Хотя для зомби нет пользы от богатства, более того, большинство из них вообще не понимают этого понятия,@Compendium[pf2e.pathfinder-bestiary-3.GGuT6YsRH4aXhpl3] сохраняют налёт своей врожденной склонности к накоплению сокровищ. Более свежий труп может охранять клад, который он собрал при жизни (или то, что от него осталось), в то время как зомби, далекий от жизни, вместо этого может собирать кости, камни, трупы или другие необычные объекты. Понятное дело, что монетарная ценность этих кладов сильно варьируется.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби-Животные</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Животные, такие как змея, сововедведь и мамонт, могут легко превращаться в представленных здесь зомби. Обычно они восстают из мест, проклятых некромантией, а не создаются намеренно. Восставшие питомцы иногда привязываются к зомби, особенно зомби своих бывших хозяев. Обычный зомби может стать подходящим компаньоном, способным бесконечно ласкать восставшего питомца, не давая ему заскучать.</p>\n<hr />\n<h2 class=\"Заг2\">Ошибки Неразумных</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /></p>\n<p>Зомби стараются подчиняться приказам, но понимание сказанных слов не всегда означает их правильное выполнение. К примерам неправильно понятых приказов относятся:</p>\n<ul>\n<li>\n<p><span style=\"color: #000080;\">\"Подай мою шляпу\"</span> - приведет к тому, что зомби приготовит шляпу и подаст ее на блюде.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Подровняй эти кусты\"</span> - закончится тем, что он \"подровняет\" их с землей, под корень.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Сообщи мне, если кто-то подойдет к двери\"</span> - получится так, что зомби подойдет к двери и тут же вернется к хозяину, так как он сам подошел к двери.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Убейте незваных гостей!\"</span> - обратит зомби, поднятых с местного кладбища, против своего хозяина, который сам является не местным.</p>\n</li>\n</ul>",
+			"randomImg": true,
+			"tokenvision": true,
+			"spellDC": "21",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"jjm9aum1hxm0xf4c": {
+					"name": "Командование Зомби",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби-повелитель</span> нараспев произносит богохульные слова, чтобы получить контроль над <span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span>, которого он видит в пределах 100ФТ.&nbsp;</p>\n<p><span style=\"text-decoration: underline; color: #a52a2a;\">&diams; Неразумный зомби</span> не находящийся под чьим-либо еще контролем, автоматически попадает под его контроль;</p>\n<p>&diams; В противном случае <span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span> или управляющий им (в зависимости от того, чей модификатор выше) могут совершить <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:22|showDC:owner|traits:concentrate,divine,incapacitation,necromancy]</strong></span>, чтобы избежать стать @Compendium[pf2e.conditionitems.9qGBRpbX9NEwtAAr].</p>\n<blockquote>\n<p>В случае <span style=\"color: #169179;\"><strong>успеха </strong></span><span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span> временно <span style=\"text-decoration: underline; color: #34495e;\">иммунен</span> на 24 часа. Попытка так же <span style=\"color: #ba372a;\"><strong>проваливается</strong></span>, если <span class=\"Класс\">Уровень</span> <span style=\"text-decoration: underline; color: #ba372a;\">зомби</span> больше или равен <span class=\"Класс\">Уровню</span> <span style=\"text-decoration: underline; color: #34495e;\">зомби-повелителя</span>.</blockquote>\n<p><span style=\"text-decoration: underline; color: #a52a2a;\">Зомби</span> остается @Compendium[pf2e.conditionitems.9qGBRpbX9NEwtAAr] <span style=\"text-decoration: underline; color: #34495e;\">зомби-повелителя</span>, пока один из них не будет уничтожен. <span style=\"text-decoration: underline; color: #34495e;\">Зомби-повелитель</span> может одновременно контролировать вплоть до 8 <span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span>. Если <span style=\"text-decoration: underline; color: #34495e;\">зомби-повелитель</span> будет контролировать количество <span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span> превышающее этот лимит, он выбирает, кого из них отпустить.</p>"
+				},
+				"z0m4exlsxdjib6e2": {
+					"name": "Наступайте!",
+					"description": "<p class=\"Нарратив\"><span class=\"Част\">Частота</span>: 1/раунд</p>\n<hr />\n<p>Каждый <span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span> @Compendium[pf2e.conditionitems.9qGBRpbX9NEwtAAr] <span style=\"text-decoration: underline; color: #34495e;\">зомби-повелителя</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} на 5ФТ</p>\n<blockquote>\n<p>(или @Compendium[pf2e.actionspf2e.H6v1VgowHaKHnVlG]{Роет}, @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкается}, @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летит}или @Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{Плывет} 5ФТ если обладает подходящим типом <span style=\"text-decoration: underline; color: #a52a2a;\">передвижения</span>).</blockquote>"
+				},
+				"g9hvfpvweahguxgh": {
+					"name": "Создание Зомби",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби-повелитель</span> может создать низших <span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span> с помощью 1-часового ритуала. В течение этого времени <span style=\"text-decoration: underline; color: #34495e;\">зомби-повелитель</span> читает песнопения и исполняет нечестивый танец над трупами, которые он собирается оживить.</p>\n<p>В отличие от нормальных ритуалов, этот не требует проверки навыка или Стоимости. В конце этого часа <span style=\"text-decoration: underline; color: #34495e;\">зомби-повелитель</span> может создать 1 <span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span> <span style=\"text-decoration: underline; color: #169179;\">1-го</span> или <span style=\"text-decoration: underline; color: #169179;\">2-го уровня</span> или 2 <span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span> <span style=\"text-decoration: underline; color: #169179;\">0-го</span> или <span style=\"text-decoration: underline; color: #169179;\">ниже уровня</span>. Они автоматически становятся @Compendium[pf2e.conditionitems.9qGBRpbX9NEwtAAr] <span style=\"text-decoration: underline; color: #34495e;\">зомби-повелителя</span> и засчитываются в лимит <span style=\"text-decoration: underline; color: #34495e;\">Командования Зомби</span>.</p>\n<blockquote>\n<p>Любые <span style=\"text-decoration: underline; color: #a52a2a;\">зомби</span>, созданные <span style=\"text-decoration: underline; color: #34495e;\">зомби-повелителем</span>, учитываются в баланс Опыта столкновения как обычно.</blockquote>"
+				}
+			}
+		},
+		{
+			"id": "Zombie Mammoth",
+			"name": "Зомби-Мамонт",
+			"tokenName": "Зомби-Мамонт",
+			"description": "<h2 class=\"Заг2\">Зомби-Мамонт</h2>\n<p>Это чудовищное существо может преодолевать укрепления и втаптывать врагов в землю, что делает его ужасом любого поля боя.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби (Общее)</h2>\n<p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают.</p>\n<p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>\n<hr />\n<h2 class=\"Заг2\">Восставшие из Могилы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Зомби часто создаются с помощью вредных некромантических ритуалов. Среди живых мертвецов зомби чаще всего используются как пушечное мясо, ослабляя оборону и расходуя вражеские ресурсы, прежде чем придет более могущественная нежить, чтобы нанести смертельный удар. Зомби не могут говорить или даже самостоятельно думать, но ими может командовать другая союзная нежить и могущественные некроманты.</p>\n<hr />\n<h2 class=\"Заг2\">Собирательные Инстинкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Хотя для зомби нет пользы от богатства, более того, большинство из них вообще не понимают этого понятия,@Compendium[pf2e.pathfinder-bestiary-3.GGuT6YsRH4aXhpl3] сохраняют налёт своей врожденной склонности к накоплению сокровищ. Более свежий труп может охранять клад, который он собрал при жизни (или то, что от него осталось), в то время как зомби, далекий от жизни, вместо этого может собирать кости, камни, трупы или другие необычные объекты. Понятное дело, что монетарная ценность этих кладов сильно варьируется.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби-Животные</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Животные, такие как змея, сововедведь и мамонт, могут легко превращаться в представленных здесь зомби. Обычно они восстают из мест, проклятых некромантией, а не создаются намеренно. Восставшие питомцы иногда привязываются к зомби, особенно зомби своих бывших хозяев. Обычный зомби может стать подходящим компаньоном, способным бесконечно ласкать восставшего питомца, не давая ему заскучать.</p>\n<hr />\n<h2 class=\"Заг2\">Ошибки Неразумных</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /></p>\n<p>Зомби стараются подчиняться приказам, но понимание сказанных слов не всегда означает их правильное выполнение. К примерам неправильно понятых приказов относятся:</p>\n<ul>\n<li>\n<p><span style=\"color: #000080;\">\"Подай мою шляпу\"</span> - приведет к тому, что зомби приготовит шляпу и подаст ее на блюде.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Подровняй эти кусты\"</span> - закончится тем, что он \"подровняет\" их с землей, под корень.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Сообщи мне, если кто-то подойдет к двери\"</span> - получится так, что зомби подойдет к двери и тут же вернется к хозяину, так как он сам подошел к двери.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Убейте незваных гостей!\"</span> - обратит зомби, поднятых с местного кладбища, против своего хозяина, который сам является не местным.</p>\n</li>\n</ul>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"79lxx093izwrpuih": {
+					"name": "Бивень 15",
+					"description": ""
+				},
+				"b9qjt3e0bvq6d5wx": {
+					"name": "Хобот 15 (Улуч.Захват)",
+					"description": ""
+				},
+				"ki62sc8x79ypbv1d": {
+					"name": "Нога 10",
+					"description": ""
+				},
+				"2ujjbxpmiiodb9o5": {
+					"name": "Медлительный",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+				},
+				"D2cPnadhWWwabreZ": {
+					"name": "Сильно Сжимать",
+					"description": "<div><span style=\"color: #ba372a;\"><strong>Урон:</strong></span> [[/r {2d10+7}[bludgeoning]]]{2d10+7 Дробящ.}</div>\n<div><span class=\"CTK\">Спас.: @Check[type:fortitude|dc:30|basic:true|showDC:owner]{Пр.СТК}</strong></span></div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+				},
+				"YgBTeOvZE7Aq4UvH": {
+					"name": "Волочащееся Затаптывание",
+					"description": "<div><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Признак2\"><span class=\"Признак-1\">большой</span></div>\n<div><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {2d10+13}[bludgeoning]]]{Нога}</div>\n<div><span class=\"РФЛ\">Спас.: @Check[type:reflex|dc:30|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></div>\n<p>Но <span style=\"text-decoration: underline; color: #34495e;\">Зомби-Мамонт</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} вплоть до своей <span class=\"Скор\">Скорости</span>, а не двойной <span class=\"Скор\">Скорости</span>.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+				},
+				"thmdq28mehsfvjtu": {
+					"name": "Отсеченный Хобот",
+					"description": "<p class=\"Нарратив\">Когда по <span style=\"text-decoration: underline; color: #34495e;\">Зомби-Мамонту</span> наносят крит.попадание причиняющее <span class=\"Урон\">Рубящ.Урон</span>, <span style=\"text-decoration: underline; color: #34495e;\">Хобот Мамонта</span> отсекается от его тела.</p>\n<p>Любое существо, @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое} <span style=\"text-decoration: underline; color: #34495e;\">Хоботом</span>, освобождается, а <span style=\"text-decoration: underline; color: #34495e;\">Мамонт</span> теряет @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR] <span style=\"text-decoration: underline; color: #34495e;\">Хоботом</span> и @Compendium[pf2e.bestiary-ability-glossary-srd.OmV6E3aELvq9CkK1].</p>\n<hr />\n<p>Все еще живой <span style=\"text-decoration: underline; color: #34495e;\">Хобот</span> извивается по полю боя, и действует сразу после <span style=\"color: #808000;\"><strong>инициативы </strong></span><span style=\"text-decoration: underline; color: #34495e;\">Мамонта</span>. Он сохраняет @Compendium[pf2e.bestiary-ability-glossary-srd.OmV6E3aELvq9CkK1] и @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Хоботом</span>, но не может использовать @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} <span style=\"text-decoration: underline; color: #34495e;\">Бивнем</span>, <span class=\"Список\">Ногами</span> или <span style=\"text-decoration: underline; color: #34495e;\">Волоч.Затаптывание</span>.</p>\n<p>Он обладает всеми показателями <span style=\"text-decoration: underline; color: #34495e;\">Мамонта</span>, за исключением того, что его <span class=\"КБ\">КБ</span> снижен до 23, у него всего <span style=\"text-decoration: underline; color: #169179;\">50 ОЗ</span>, а его <span style=\"text-decoration: underline; color: #169179;\">Скорость</span> равна 10 футам. Урон, нанесенный отрубленному <span style=\"text-decoration: underline; color: #34495e;\">Хоботу</span>, не влияет на <span style=\"text-decoration: underline; color: #34495e;\">Зомби-Мамонта</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Zombie Owlbear",
+			"name": "Зомби-Совомедведь",
+			"tokenName": "Зомби-Совомедведь",
+			"description": "<h2 class=\"Заг2\">Зомби-Совомедведь</h2>\n<p>Зомби-совомедведи сочетают в себе свирепость совомедведя и бездумную ненависть нежити. Приблизившись, он часто встает, издавая гортанный рев, а затем бросается в бой, не думая о самосохранении.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби (Общее)</h2>\n<p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают.</p>\n<p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>\n<hr />\n<h2 class=\"Заг2\">Восставшие из Могилы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Зомби часто создаются с помощью вредных некромантических ритуалов. Среди живых мертвецов зомби чаще всего используются как пушечное мясо, ослабляя оборону и расходуя вражеские ресурсы, прежде чем придет более могущественная нежить, чтобы нанести смертельный удар. Зомби не могут говорить или даже самостоятельно думать, но ими может командовать другая союзная нежить и могущественные некроманты.</p>\n<hr />\n<h2 class=\"Заг2\">Собирательные Инстинкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Хотя для зомби нет пользы от богатства, более того, большинство из них вообще не понимают этого понятия,@Compendium[pf2e.pathfinder-bestiary-3.GGuT6YsRH4aXhpl3] сохраняют налёт своей врожденной склонности к накоплению сокровищ. Более свежий труп может охранять клад, который он собрал при жизни (или то, что от него осталось), в то время как зомби, далекий от жизни, вместо этого может собирать кости, камни, трупы или другие необычные объекты. Понятное дело, что монетарная ценность этих кладов сильно варьируется.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби-Животные</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Животные, такие как змея, сововедведь и мамонт, могут легко превращаться в представленных здесь зомби. Обычно они восстают из мест, проклятых некромантией, а не создаются намеренно. Восставшие питомцы иногда привязываются к зомби, особенно зомби своих бывших хозяев. Обычный зомби может стать подходящим компаньоном, способным бесконечно ласкать восставшего питомца, не давая ему заскучать.</p>\n<hr />\n<h2 class=\"Заг2\">Ошибки Неразумных</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /></p>\n<p>Зомби стараются подчиняться приказам, но понимание сказанных слов не всегда означает их правильное выполнение. К примерам неправильно понятых приказов относятся:</p>\n<ul>\n<li>\n<p><span style=\"color: #000080;\">\"Подай мою шляпу\"</span> - приведет к тому, что зомби приготовит шляпу и подаст ее на блюде.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Подровняй эти кусты\"</span> - закончится тем, что он \"подровняет\" их с землей, под корень.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Сообщи мне, если кто-то подойдет к двери\"</span> - получится так, что зомби подойдет к двери и тут же вернется к хозяину, так как он сам подошел к двери.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Убейте незваных гостей!\"</span> - обратит зомби, поднятых с местного кладбища, против своего хозяина, который сам является не местным.</p>\n</li>\n</ul>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"h4iw6qojb9gael8e": {
+					"name": "Когти (Захват)",
+					"description": ""
+				},
+				"dkckp2z4bbmspgcy": {
+					"name": "Клюв",
+					"description": ""
+				},
+				"zmsoavgcearhti47": {
+					"name": "Медлительный",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+				},
+				"56vkqrstijfjdh6c": {
+					"name": "Удар о Землю",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби-совомедведь</span> несколько раз бьет существом о землю.</p>\n<hr />\n<div><span class=\"Треб\">Требования</span>: У <span style=\"text-decoration: underline; color: #34495e;\">зомби-совомедведя</span> есть @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> существо</div>\n<hr />\n<p>Это наносит [[/r {1d10+7}[bludgeoning]]]{1d10+7 Дробящ.} (<span style=\"color: #236fa1;\"><strong>Спас@Check[type:fortitude|dc:20|basic:true|showDC:owner|traits:attack,damage-effect]{Пр.СТК}</strong></span>). При <span class=\"Критпровал\">Крит.Провал</span> существо @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлен 1}, а при <span class=\"Критуспех\">Крит.Успех</span> существо больше <span class=\"НЕ\">не</span> @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемо}.</p>"
+				},
+				"tabg0vo3elkeri2r": {
+					"name": "Ужасающий Визг",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби-совомедведь</span> издает надрывистый, рычащий крик, который пугает тех, кто его слышит.</p>\n<hr />\n<p>Каждое существо в @Template[type:emanation|distance:60] должно совершить <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:19|showDC:owner|traits:auditory,emotion,fear,mental]</strong></span>.</p>\n<blockquote>\n<p>Вне зависимости от результата, существо временно <span class=\"Иммун2\">иммунно</span> 1 минуту.</blockquote>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо.</p>\n<p><span class=\"Успех\">Успех</span>: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p>\n<p><span class=\"Провал\">Провал</span>: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо впадает в @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство}<span class=\"До\">на 1 раунд</span> и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>"
+				}
+			}
+		},
+		{
+			"id": "Zombie Snake",
+			"name": "Зомби-Змея",
+			"tokenName": "Зомби-Змея",
+			"description": "<h2 class=\"Заг2\">Зомби-Змея</h2>\n<p>Эта массивная гниющая змея длиной около 5ФТ не обладает сильным ядом, но ее укус все же впрыскивает гнилостную жидкость, которая может вызвать инфекцию.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби (Общее)</h2>\n<p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают.</p>\n<p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>\n<hr />\n<h2 class=\"Заг2\">Восставшие из Могилы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Зомби часто создаются с помощью вредных некромантических ритуалов. Среди живых мертвецов зомби чаще всего используются как пушечное мясо, ослабляя оборону и расходуя вражеские ресурсы, прежде чем придет более могущественная нежить, чтобы нанести смертельный удар. Зомби не могут говорить или даже самостоятельно думать, но ими может командовать другая союзная нежить и могущественные некроманты.</p>\n<hr />\n<h2 class=\"Заг2\">Собирательные Инстинкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Хотя для зомби нет пользы от богатства, более того, большинство из них вообще не понимают этого понятия,@Compendium[pf2e.pathfinder-bestiary-3.GGuT6YsRH4aXhpl3] сохраняют налёт своей врожденной склонности к накоплению сокровищ. Более свежий труп может охранять клад, который он собрал при жизни (или то, что от него осталось), в то время как зомби, далекий от жизни, вместо этого может собирать кости, камни, трупы или другие необычные объекты. Понятное дело, что монетарная ценность этих кладов сильно варьируется.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби-Животные</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Животные, такие как змея, сововедведь и мамонт, могут легко превращаться в представленных здесь зомби. Обычно они восстают из мест, проклятых некромантией, а не создаются намеренно. Восставшие питомцы иногда привязываются к зомби, особенно зомби своих бывших хозяев. Обычный зомби может стать подходящим компаньоном, способным бесконечно ласкать восставшего питомца, не давая ему заскучать.</p>\n<hr />\n<h2 class=\"Заг2\">Ошибки Неразумных</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /></p>\n<p>Зомби стараются подчиняться приказам, но понимание сказанных слов не всегда означает их правильное выполнение. К примерам неправильно понятых приказов относятся:</p>\n<ul>\n<li>\n<p><span style=\"color: #000080;\">\"Подай мою шляпу\"</span> - приведет к тому, что зомби приготовит шляпу и подаст ее на блюде.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Подровняй эти кусты\"</span> - закончится тем, что он \"подровняет\" их с землей, под корень.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Сообщи мне, если кто-то подойдет к двери\"</span> - получится так, что зомби подойдет к двери и тут же вернется к хозяину, так как он сам подошел к двери.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Убейте незваных гостей!\"</span> - обратит зомби, поднятых с местного кладбища, против своего хозяина, который сам является не местным.</p>\n</li>\n</ul>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"classDC": "14",
+			"items": {
+				"cifv4nupbufci3x9": {
+					"name": "Клыки (Болезнь)",
+					"description": ""
+				},
+				"gwzami23yywnrl99": {
+					"name": "Медлительный",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Beetle Carapace",
+			"name": "Скелет Жука",
+			"tokenName": "Скелет Жука",
+			"description": "<h2 class=\"Заг2\">Скелет Жука</h2>\n<p>Созданная из экзоскелета гигантского жука-оленя, эта неразумная оболочка может разрубить врага пополам своими мощными жвалами. Брюхо этой ползучей нежити пусто, и не один некромант использовал это пространство, чтобы спрятать ценный груз.</p>\n<hr />\n<h2 class=\"Заг2\">Скелет (Общее)</h2>\n<p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, встречающийся в старых подземельях и на забытых кладбищах. Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим <span style=\"text-decoration: underline; color: #a52a2a;\">скелетом</span>-<span style=\"text-decoration: underline; color: #a52a2a;\">нежитью</span>.</p>\n<hr />\n<h2 class=\"Заг2\">Нежизнь без Плоти</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Некромантические энергии, наполняющие ожившие скелеты-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, дают им возможность видеть без глаз и двигаться без мускулов. Несмотря на то, что скелеты <span style=\"text-decoration: underline; color: #a52a2a;\">неразумные</span>, инстинкт ко злу исходит из их порченной жизненной сущности, извращающей негативную энергию на созидание, а не на разрушение.</p>\n<hr />\n<h2 class=\"Заг2\">Подлатанные Скелеты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" />Связь скелета с его бренными останками непрочна. Поврежденный скелет может довольно легко заменить сломанную кость на аналогичную, взятую от другого существа. В конечном итоге, скелет может кость за костью заменить все свое тело. Скелеты не обладают особой индивидуальностью, поэтому неясно, остается ли он после этого тем же самым существом.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"7wp3tf6myiuh5zf6": {
+					"name": "Жвалы (Захват)",
+					"description": ""
+				},
+				"6312irfg8l2y8wqs": {
+					"name": "Нога",
+					"description": ""
+				},
+				"6MBpOAXA2v4U8Ojh": {
+					"name": "Сжимать",
+					"description": "<div><span style=\"color: #ba372a;\"><strong>Урон:</strong></span> [[/r {2d8+2}[piercing]]]{2d8+2 Колющий}</div>\n<div><span class=\"CTK\">Спас.: @Check[type:fortitude|dc:24|basic:true|showDC:owner]{Пр.СТК}</strong></span></div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+				},
+				"3whr45ahot8zh9nf": {
+					"name": "Брюшной Тайник",
+					"description": "<p class=\"Нарратив\">Брюшко <span style=\"text-decoration: underline; color: #34495e;\">панциря жука</span> может быть оснащено простым шарниром, позволяющим открывать его и использовать в качестве хранилища.</p>\n<hr />\n<p>В брюхо может поместиться 1 существо <span class=\"Размер\">среднего</span> или меньшего размера, <span class=\"Признак2\"><span class=\"Признак1\">рой</span></span> <span class=\"Признак2\"><span class=\"Признак-1\">большого</span></span> или меньшего размера, либо аналогичное количество груза. Жук или хранящееся в нем существо может @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F], чтобы открыть люк.</p>\n<p>Если <span style=\"text-decoration: underline; color: #34495e;\">панцирь жука</span> получает <span style=\"color: #2dc26b;\"><strong>крит.попадание</strong></span> <span style=\"text-decoration: underline; color: #a52a2a;\">дробящим</span> оружием, киньте @Check[type:flat|dc:10|showDC:all]. При <span class=\"Провал\">Провал</span>, тайник пробит и его содержимое высыпается из жука. Еще люк можно @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Открыть Силой}<span data-visibility=\"gm\">КС22</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Drake Skeleton",
+			"name": "Скелет Дрейка",
+			"tokenName": "Скелет Дрейка",
+			"description": "<h2 class=\"Заг2\">Скелет Дрейка</h2>\n<p>Грациозно двигаясь, эти летающие скелеты дрейков удерживаются в воздухе благодаря гниющим перепонкам, натянутым между их костлявыми крыльями. Хотя скелеты дрейков лишены разума так же, как и другие скелеты, они сохраняют большую часть драконьей свирепости и чистой злобы, которыми обладали при жизни, что позволяет им жестоко нападать.</p>\n<hr />\n<h2 class=\"Заг2\">Скелет (Общее)</h2>\n<p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, встречающийся в старых подземельях и на забытых кладбищах. Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим <span style=\"text-decoration: underline; color: #a52a2a;\">скелетом</span>-<span style=\"text-decoration: underline; color: #a52a2a;\">нежитью</span>.</p>\n<hr />\n<h2 class=\"Заг2\">Нежизнь без Плоти</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Некромантические энергии, наполняющие ожившие скелеты-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, дают им возможность видеть без глаз и двигаться без мускулов. Несмотря на то, что скелеты <span style=\"text-decoration: underline; color: #a52a2a;\">неразумные</span>, инстинкт ко злу исходит из их порченной жизненной сущности, извращающей негативную энергию на созидание, а не на разрушение.</p>\n<hr />\n<h2 class=\"Заг2\">Подлатанные Скелеты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" />Связь скелета с его бренными останками непрочна. Поврежденный скелет может довольно легко заменить сломанную кость на аналогичную, взятую от другого существа. В конечном итоге, скелет может кость за костью заменить все свое тело. Скелеты не обладают особой индивидуальностью, поэтому неясно, остается ли он после этого тем же самым существом.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"un97s9dr8tua2f9t": {
+					"name": "Клыки",
+					"description": ""
+				},
+				"duqnb28a7oppci1f": {
+					"name": "Хвост 10",
+					"description": ""
+				},
+				"ghtfq7ukz7gwxwsb": {
+					"name": "Драконье Неистоство",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Скелет дрейка</span> в любом порядке наносит 2 @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span style=\"text-decoration: underline; color: #34495e;\">Клыками</span> и 1 @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span class=\"Список\">Хвостом</span>.</p>"
+				},
+				"8cgtf6p2b39hnee5": {
+					"name": "Хрупкие Крылья",
+					"description": "<p class=\"Нарратив\">Когда <span class=\"ОЗ\">ОЗ</span> <span style=\"text-decoration: underline; color: #34495e;\">скелета дрейка</span> уменьшены ниже половины, он больше не может @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летать}. Если когда это происходит он находится в воздухе, то мгновенно падает, но может лохмотьями своих крыльев смягчить приземление, при расчете урона считая это падение на 20ФТ короче.</p>"
+				}
+			}
+		},
+		{
+			"id": "Skeletal Mage",
+			"name": "Скелет-Маг",
+			"tokenName": "Скелет-Маг",
+			"description": "<h2 class=\"Заг2\">Скелет-Маг</h2>\n<p>В редких случаях кости заклинателя могут использоваться для создания скелета, который сохраняет ограниченную способность к сотворению заклинаний. Эти заклинания почти всегда по своей природе атакующие, и скелетный маг пользуется ими безрассудно. Скелетов-магов часто ошибочно принимают за личей, и хотя они не так хитры и смертоносны, они все же представляют для своих врагов значительную угрозу.</p>\n<hr />\n<h2 class=\"Заг2\">Скелет (Общее)</h2>\n<p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, встречающийся в старых подземельях и на забытых кладбищах. Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим <span style=\"text-decoration: underline; color: #a52a2a;\">скелетом</span>-<span style=\"text-decoration: underline; color: #a52a2a;\">нежитью</span>.</p>\n<hr />\n<h2 class=\"Заг2\">Нежизнь без Плоти</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Некромантические энергии, наполняющие ожившие скелеты-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, дают им возможность видеть без глаз и двигаться без мускулов. Несмотря на то, что скелеты <span style=\"text-decoration: underline; color: #a52a2a;\">неразумные</span>, инстинкт ко злу исходит из их порченной жизненной сущности, извращающей негативную энергию на созидание, а не на разрушение.</p>\n<hr />\n<h2 class=\"Заг2\">Подлатанные Скелеты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" />Связь скелета с его бренными останками непрочна. Поврежденный скелет может довольно легко заменить сломанную кость на аналогичную, взятую от другого существа. В конечном итоге, скелет может кость за костью заменить все свое тело. Скелеты не обладают особой индивидуальностью, поэтому неясно, остается ли он после этого тем же самым существом.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"xukqweotozm6rcvt": {
+					"name": "Когти",
+					"description": ""
+				}
+			}
+		},
+		{
+			"id": "Skeletal Soldier",
+			"name": "Скелет-Солдат",
+			"tokenName": "Скелет-Солдат",
+			"description": "<h2 class=\"Заг2\">Скелет-Солдат</h2>\n<p>Эти солдаты продолжают выполнять приказы после смерти, все еще обладая оружием, на овладение которым они потратили всю жизнь. Хотя чаще всего они сделаны из костей людей или дварфов, довольно часто встречаются и другие виды гуманоидов, такие как багберы, хобгоблины и орки. Зачастую эти солдаты владеют оружием, наиболее распространенным среди их народа, а не тем, что указано тут.</p>\n<hr />\n<h2 class=\"Заг2\">Скелет (Общее)</h2>\n<p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, встречающийся в старых подземельях и на забытых кладбищах. Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим <span style=\"text-decoration: underline; color: #a52a2a;\">скелетом</span>-<span style=\"text-decoration: underline; color: #a52a2a;\">нежитью</span>.</p>\n<hr />\n<h2 class=\"Заг2\">Нежизнь без Плоти</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Некромантические энергии, наполняющие ожившие скелеты-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, дают им возможность видеть без глаз и двигаться без мускулов. Несмотря на то, что скелеты <span style=\"text-decoration: underline; color: #a52a2a;\">неразумные</span>, инстинкт ко злу исходит из их порченной жизненной сущности, извращающей негативную энергию на созидание, а не на разрушение.</p>\n<hr />\n<h2 class=\"Заг2\">Подлатанные Скелеты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" />Связь скелета с его бренными останками непрочна. Поврежденный скелет может довольно легко заменить сломанную кость на аналогичную, взятую от другого существа. В конечном итоге, скелет может кость за костью заменить все свое тело. Скелеты не обладают особой индивидуальностью, поэтому неясно, остается ли он после этого тем же самым существом.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"wo29s0y8jcz4isnc": {
+					"name": "Когти",
+					"description": ""
+				},
+				"zhuzs5628vicodv5": {
+					"name": "Занять Оборону",
+					"description": "<p class=\"Нарратив\">Скелет-солдат берет свою @Compendium[pf2e.equipment-srd.vlnzTSsRmWeSkt9O]{Глефу} (или другое <span class=\"Признак2\"><span class=\"Признак1\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#dlinnoe-(reach)]{Длинное}</span></span></span> оружие), чтобы защищать область вокруг себя.</p>\n<p>Он получает <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span> @Compendium[pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O] только для этого оружия. Это длится до тех пор, пока скелет не совершит действие с признаком <span class=\"Признак\">движение</span> или <span class=\"Признак2\"><span class=\"Признак1\">атака</span></span>, либо не будет уничтожен.</p>"
+				}
+			}
+		},
+		{
+			"id": "Skeletal Titan",
+			"name": "Скелет-Титан",
+			"tokenName": "Скелет-Титан",
+			"description": "<h2 class=\"Заг2\">Скелет-Титан</h2>\n<p>Лишь сильный и глупый поднимет кости могущественного титана или подобного ему исполинского существа в качестве скелета. Опытные практики считают это пустой тратой мощного тела и наделяют их магией ходьбы по воздуху, основанной на магии титанов, а мудрые знают, что почти невозможно контролировать такого колосса и что с той легкостью, которой он разит своих врагов, он с такой же вероятностью раздавит своего создателя могучей ногой.</p>\n<hr />\n<h2 class=\"Заг2\">Скелет (Общее)</h2>\n<p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, встречающийся в старых подземельях и на забытых кладбищах. Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим <span style=\"text-decoration: underline; color: #a52a2a;\">скелетом</span>-<span style=\"text-decoration: underline; color: #a52a2a;\">нежитью</span>.</p>\n<hr />\n<h2 class=\"Заг2\">Нежизнь без Плоти</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Некромантические энергии, наполняющие ожившие скелеты-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, дают им возможность видеть без глаз и двигаться без мускулов. Несмотря на то, что скелеты <span style=\"text-decoration: underline; color: #a52a2a;\">неразумные</span>, инстинкт ко злу исходит из их порченной жизненной сущности, извращающей негативную энергию на созидание, а не на разрушение.</p>\n<hr />\n<h2 class=\"Заг2\">Подлатанные Скелеты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" />Связь скелета с его бренными останками непрочна. Поврежденный скелет может довольно легко заменить сломанную кость на аналогичную, взятую от другого существа. В конечном итоге, скелет может кость за костью заменить все свое тело. Скелеты не обладают особой индивидуальностью, поэтому неясно, остается ли он после этого тем же самым существом.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"4pt21hdckfee43y3": {
+					"name": "Меч с Гору 20",
+					"description": ""
+				},
+				"qo8ae1c96drn6owz": {
+					"name": "Когти 15",
+					"description": ""
+				},
+				"55sqmv4kf6twrsh0": {
+					"name": "Нога 15",
+					"description": ""
+				},
+				"15qn60fnmbbmi7qd": {
+					"name": "Кость (Обломки)",
+					"description": ""
+				},
+				"7hy3wqu9oefod2vm": {
+					"name": "Горный Удар",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Скелет-титан</span> вонзает свой горный меч в землю.</p>\n<hr />\n<p>Ударная волна отражается от земли, нанося урон от <span style=\"text-decoration: underline; color: #34495e;\">горного меча</span> всем существам в @Template[type:line|distance:20]. <span style=\"color: #ba372a;\"><strong>Провалившие </strong></span>спасбросок еще падаю @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60].</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:34|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></p>"
+				},
+				"wRVqT1QO1O1ru1SY": {
+					"name": "Растоптать",
+					"description": "<div><span style=\"color: #169179;\"><strong>Размер:</strong> <span style=\"text-decoration: underline;\">Огромный</span></span></div>\n<div><span style=\"color: #ba372a;\"><strong>Урон: </strong></span>[[/r {3d8+13}[bludgeoning]]]{Нога}</div>\n<div><span class=\"РФЛ\">Спас.: @Check[type:reflex|dc:34|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+				},
+				"tskaoz4x2uhz0ss3": {
+					"name": "Костяные Обломки",
+					"description": "<p class=\"Нарратив\">Кости бросаемые <span style=\"text-decoration: underline; color: #34495e;\">скелетом-титаном</span>, достаточно велики, чтобы загромождать поле боя.</p>\n<hr />\n<p>Когда скелет титана <span style=\"color: #169179;\"><strong>попадает </strong></span>в существо атакой <span style=\"text-decoration: underline; color: #34495e;\">Кости</span>, этот снаряд становится <span class=\"Мест\">Сложная Местность</span> в занимаемом данным существом квадрате (или, если существо занимает более 1 квадрата, то в одном квадрате по выбору титана). Если при атаке <span style\"text-decoration: underline; color: #34495e;\">Костью титан</span> <span style=\"color: #a52a2a;\"><strong>промахивается</strong></span>, то вместо этого <span class=\"Мест\">Сложная Местность</span> становится случайный квадрат рядом с существом.</p>"
+				}
+			}
+		},
+		{
+			"id": "Wolf Skeleton",
+			"name": "Скелет Волка",
+			"tokenName": "Скелет Волка",
+			"description": "<h2 class=\"Заг2\">Скелет Волка</h2>\n<p>Не обремененные плотью, скелетные волки проносятся по полю боя с ужасающей скоростью.</p>\n<hr />\n<h2 class=\"Заг2\">Скелет (Общее)</h2>\n<p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, встречающийся в старых подземельях и на забытых кладбищах. Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим <span style=\"text-decoration: underline; color: #a52a2a;\">скелетом</span>-<span style=\"text-decoration: underline; color: #a52a2a;\">нежитью</span>.</p>\n<hr />\n<h2 class=\"Заг2\">Нежизнь без Плоти</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Некромантические энергии, наполняющие ожившие скелеты-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, дают им возможность видеть без глаз и двигаться без мускулов. Несмотря на то, что скелеты <span style=\"text-decoration: underline; color: #a52a2a;\">неразумные</span>, инстинкт ко злу исходит из их порченной жизненной сущности, извращающей негативную энергию на созидание, а не на разрушение.</p>\n<hr />\n<h2 class=\"Заг2\">Подлатанные Скелеты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" />Связь скелета с его бренными останками непрочна. Поврежденный скелет может довольно легко заменить сломанную кость на аналогичную, взятую от другого существа. В конечном итоге, скелет может кость за костью заменить все свое тело. Скелеты не обладают особой индивидуальностью, поэтому неясно, остается ли он после этого тем же самым существом.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"gizkkpi42rqcq7rz": {
+					"name": "Челюсти (Нокдаун)",
+					"description": ""
+				},
+				"a9ir7xv426ririzq": {
+					"name": "Прилив Скорости",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Скелет Волка</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} 3 раза, но @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg] <span style=\"text-decoration: underline; color: #169179;\"><em>до начала своего следующего хода</em></span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Hunter Wight",
+			"name": "Умертвие-Охотник",
+			"tokenName": "Умертвие-Охотник",
+  			"img": "modules/PF2E-TS-RUB/art/pf2e-pathfinder-bestiary/art/wight/07Wight_HunterWight.webp",
+			"description": "<h2 class=\"Заг2\">Умертвие-Охотник</h2>\n<p>Опасности в глуши диких мест уносят жизнь одинокого разведчика или охотника. Когда они восстают в облике умертвий, то возобновляют свою охоту с такой же энергией, но теперь их добычей становится всё живое. Умертвия-охотники предпочитают искать стратегические места, часто селясь на вершинах холмов или в заброшенных сторожевых башнях и крепостях.</p>\n<hr />\n<h2 class=\"Заг2\">Костяные Наконечники</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Умертвие-охотник вставляет куски своих ребер в наконечники стрел, чтобы истощать жизнь на расстоянии. Эти кости медленно регенерируют со временем.</p>\n<hr />\n<h2 class=\"Заг2\">Умертвие (Общее)</h2>\n<p><span style=\"text-decoration: underline; color: #34495e;\">Умертвия</span> это <span style=\"text-decoration: underline; color: #a52a2a;\">гуманоиды</span>-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, которые, подобно @Compendium[pf2e.pathfinder-bestiary.HbROgIcU9Z9m6XuD], могут одним лишь прикосновением вытягивать жизнь из <span style=\"text-decoration: underline; color: #a52a2a;\">живых</span> существ. Они появляются в результате некромантических ритуалов, особенно жестоких смертей, либо по злой воле умершего.</p>\n<p>Существует столько же видов <span style=\"text-decoration: underline; color: #a52a2a;\">умертвий</span>, сколько типов людей, из которых они могут быть созданы. Здоровенные громилы, прыткие проныры и умельцы хитрить - из всех создаются разных умертвия, занимающие разные ниши. Окружающая среда также играет роль в определении особых умений и защитных качеств умертвия. Например, морозных умертвий можно встретить в тех частях света, где холод - обычное дело. Как бы то ни было, умертвия обычно населяют могильники, катакомбы и другие места, где покоятся мертвые. Но их голод обращен на живых - тех, кто напоминает им об оковах смертности и кого они считают необходимым \"освободить\" до состояния нежизни.</p>\n<p>Одно <span style=\"text-decoration: underline; color: #a52a2a;\">умертвие</span> может посеять большой хаос, если будет вынуждено восстать из своей усыпальницы. Поскольку существа, убитые <span style=\"text-decoration: underline; color: #a52a2a;\">умертвиями</span>, тоже становятся <span style=\"text-decoration: underline; color: #a52a2a;\">умертвиями</span>, достаточно одного из них и горстки неудачливых посетителей кладбища, чтобы создать целую орду этой <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>. Поэтому хитрые священники и искатели приключений знают, что лучшее решение проблемы с <span style=\"text-decoration: underline; color: #a52a2a;\">умертвиями</span> - быстрое и полное истребление. Однако следует соблюдать осторожность и уничтожать <span style=\"text-decoration: underline; color: #a52a2a;\">порождений умертвия</span> прежде, чем пытаться уничтожить само умертвие-прародителя, ибо порождение без хозяина обретает способность создавать своих собственных.</p>\n<p>Крепкие и поддерживаемые <span style=\"text-decoration: underline; color: #a52a2a;\">негативной</span> энергией, <span style=\"text-decoration: underline; color: #a52a2a;\">умертвия</span> могут существовать в суровых условиях не разлагаясь, как некоторые другие виды нежити. Они могут обитать в высоких горных перевалах, запечатанных проходах или быть погружены в топи или озера десятилетиями или даже столетиями, прежде чем проход ничего не подозревающего путешественника пробудит их от покоя.<span style=\"color: #404040; font-family: Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif; font-size: 16px; background-color: #efede9;\"></span></p>\n<hr />\n<h2 class=\"Заг2\">Другие Умертвия</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Помимо представленных здесь умертвий, существует множество других разновидностей. Например, жадное <span style=\"text-decoration: underline; color: #34495e;\">умертвие-страж</span> - ритуально созданное для вечной охраны собственного богатства или богатства своего хозяина, населяет курганы, оссуарии и мавзолеи. В отличие от других умертвий, они могут направлять свое истощающее жизнь касание через свое оружие ближнего боя.</p>\n<hr />\n<h2 class=\"Заг2\">Умертвие и Оружие</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />У рядового умертвия, только царапанье его почерневших ногтей крадет жизненную эссенцию. Многие сильные умертвия связаны с вооружением, либо благодаря ритуалу, который их поднял, либо из-за сентиментальной привязанности к оружию, которым они владели. Кроме того, это оружие не только более универсально, но и способно удивить врагов, привыкших к возможностям обычных умертвий.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"yn0676ooolga6aov": {
+					"name": "Когти (Истощение)",
+					"description": ""
+				},
+				"36cdvdo5yvfoxz7s": {
+					"name": "Композ.Дл.Лук (Истощение)",
+					"description": ""
+				},
+				"479508pjo4uznsty": {
+					"name": "Финальная Злость",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Умертвие-Охотник</span> оснастил свое тело <span style=\"text-decoration: underline; color: #a52a2a;\">силком</span>, который срабатывает, прежде чем его уничтожат.</p>\n<hr />\n<div><span class=\"Триг\">Триггер</span>: <span class=\"ОЗ\">ОЗ</span> <span style=\"text-decoration: underline; color: #34495e;\">Умертвия-Охотника</span> снижены до 0</div>\n<hr />\n<p>В находящееся рядом существо запускаются осколки костей, нанося [[/r 4d8[piercing]]]{4d8 Колющего}.</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:25|basic:true|showDC:owner|traits:damaging-effect]{Пр.РФЛ}</strong></span></p>"
+				},
+				"3gvb9wq37oq21be3": {
+					"name": "Истощение Жизни",
+					"description": "<p class=\"Нарратив\">Когда <span style=\"text-decoration: underline; color: #34495e;\">Умертвие-Охотник</span> наносит <span style=\"text-decoration: underline; color: #a52a2a;\">живому</span> существу урон своим @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> или связанным <span style=\"text-decoration: underline; color: #34495e;\">Оружием</span>, то получает <span style=\"text-decoration: underline; color: #169179;\">[[/r 7[healing]]]{7}Врем.ОЗ</span> и существо должно совершить успешный <span class=\"CTK\">Спас.@Check[type:fortitude|dc:22|showDC:owner|traits:divine,necromancy]{СТК}</strong></span>, иначе будет @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1}.</p>\n<hr />\n<p>Дальнейший урон, наносимый <span style=\"text-decoration: underline; color: #34495e;\">Умертвием-Охотником</span>, при <span class=\"Провал\">Провал</span><span style=\"color: #236fa1;\"><strong>спасброска </strong></span>увеличивает состояние @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен} на 1, до максимального @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 4}.</p>"
+				},
+				"4z31tccif8f7qaq7": {
+					"name": "Порождение Умертвия-Охотника",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #a52a2a;\">Живой гуманоид</span> убитый @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Когтей</span> или <span style=\"text-decoration: underline; color: #34495e;\">оружия умертвия-охотника</span>, восстает <span style=\"text-decoration: underline; color: #34495e;\">Порождением @Actor[5JfewdDCO0LmJc5G]{Умертвия-Охотника}</span> через [[/r 1d4[rounds]]]{1d4 раунда}<span data-visibility=\"gm\">[[1d4]]{ }</span>.</p>\n<p>Это <span style=\"text-decoration: underline; color: #34495e;\">Порождение</span> управляется убившим его <span style=\"text-decoration: underline; color: #34495e;\">Умертвия-Охотника</span>. У него <span style=\"text-decoration: underline; color: #000080;\">нет</span> умений <span style=\"text-decoration: underline; color: #34495e;\">Истощение Жизни</span> или <span style=\"text-decoration: underline; color: #34495e;\">Порождение Умертвия</span> и оно @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюже 2} пока является <span style=\"text-decoration: underline; color: #34495e;\">Умертвием-Порождением</span>.</p>\n<hr />\n<p>Если <span style=\"text-decoration: underline; color: #34495e;\">создатель</span> этого <span style=\"text-decoration: underline; color: #34495e;\">порождения</span> умирает, <span style=\"text-decoration: underline; color: #34495e;\">порождение</span> становится полноценным, самостоятельным <span style=\"text-decoration: underline; color: #34495e;\">Умертвием-Охотником</span>; оно восстанавливает свободу воли, получает <span style=\"text-decoration: underline; color: #34495e;\">Истощение Жизни</span> и <span style=\"text-decoration: underline; color: #34495e;\">Порождение Умертвия</span>, и перестает быть @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжим}.</p>"
+				}
+			}
+		},
+		{
+			"id": "Prowler Wight",
+			"name": "Умертвие-Плут",
+			"tokenName": "Умертвие-Плут",
+  			"img": "modules/PF2E-TS-RUB/art/pf2e-pathfinder-bestiary/art/wight/09Wight_ProwlerWight.webp",
+			"description": "<h2 class=\"Заг2\">Умертвие-Плут</h2>\n<p>Их можно часто встретить таящимися в темноте, умертвия-плуты используют уловки как свое главное оружие. Они часто притворяются мертвыми в старых канализациях, на кладбищах и в мавзолеях, поджидая пока незадачливые жертвы пройдут мимо, чтобы нанести удар.</p>\n<hr />\n<h2 class=\"Заг2\">Умертвие (Общее)</h2>\n<p><span style=\"text-decoration: underline; color: #34495e;\">Умертвия</span> это <span style=\"text-decoration: underline; color: #a52a2a;\">гуманоиды</span>-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, которые, подобно @Compendium[pf2e.pathfinder-bestiary.HbROgIcU9Z9m6XuD], могут одним лишь прикосновением вытягивать жизнь из <span style=\"text-decoration: underline; color: #a52a2a;\">живых</span> существ. Они появляются в результате некромантических ритуалов, особенно жестоких смертей, либо по злой воле умершего.</p>\n<p>Существует столько же видов <span style=\"text-decoration: underline; color: #a52a2a;\">умертвий</span>, сколько типов людей, из которых они могут быть созданы. Здоровенные громилы, прыткие проныры и умельцы хитрить - из всех создаются разных умертвия, занимающие разные ниши. Окружающая среда также играет роль в определении особых умений и защитных качеств умертвия. Например, морозных умертвий можно встретить в тех частях света, где холод - обычное дело. Как бы то ни было, умертвия обычно населяют могильники, катакомбы и другие места, где покоятся мертвые. Но их голод обращен на живых - тех, кто напоминает им об оковах смертности и кого они считают необходимым \"освободить\" до состояния нежизни.</p>\n<p>Одно <span style=\"text-decoration: underline; color: #a52a2a;\">умертвие</span> может посеять большой хаос, если будет вынуждено восстать из своей усыпальницы. Поскольку существа, убитые <span style=\"text-decoration: underline; color: #a52a2a;\">умертвиями</span>, тоже становятся <span style=\"text-decoration: underline; color: #a52a2a;\">умертвиями</span>, достаточно одного из них и горстки неудачливых посетителей кладбища, чтобы создать целую орду этой <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>. Поэтому хитрые священники и искатели приключений знают, что лучшее решение проблемы с <span style=\"text-decoration: underline; color: #a52a2a;\">умертвиями</span> - быстрое и полное истребление. Однако следует соблюдать осторожность и уничтожать <span style=\"text-decoration: underline; color: #a52a2a;\">порождений умертвия</span> прежде, чем пытаться уничтожить само умертвие-прародителя, ибо порождение без хозяина обретает способность создавать своих собственных.</p>\n<p>Крепкие и поддерживаемые <span style=\"text-decoration: underline; color: #a52a2a;\">негативной</span> энергией, <span style=\"text-decoration: underline; color: #a52a2a;\">умертвия</span> могут существовать в суровых условиях не разлагаясь, как некоторые другие виды нежити. Они могут обитать в высоких горных перевалах, запечатанных проходах или быть погружены в топи или озера десятилетиями или даже столетиями, прежде чем проход ничего не подозревающего путешественника пробудит их от покоя.<span style=\"color: #404040; font-family: Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif; font-size: 16px; background-color: #efede9;\"></span></p>\n<hr />\n<h2 class=\"Заг2\">Другие Умертвия</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Помимо представленных здесь умертвий, существует множество других разновидностей. Например, жадное <span style=\"text-decoration: underline; color: #34495e;\">умертвие-страж</span> - ритуально созданное для вечной охраны собственного богатства или богатства своего хозяина, населяет курганы, оссуарии и мавзолеи. В отличие от других умертвий, они могут направлять свое истощающее жизнь касание через свое оружие ближнего боя.</p>\n<hr />\n<h2 class=\"Заг2\">Умертвие и Оружие</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />У рядового умертвия, только царапанье его почерневших ногтей крадет жизненную эссенцию. Многие сильные умертвия связаны с вооружением, либо благодаря ритуалу, который их поднял, либо из-за сентиментальной привязанности к оружию, которым они владели. Кроме того, это оружие не только более универсально, но и способно удивить врагов, привыкших к возможностям обычных умертвий.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"21sp3kwgg8uh9p13": {
+					"name": "Кинжал (Истощение)",
+					"description": ""
+				},
+				"oer9h35wciqfjj68": {
+					"name": "Когти (Истощение)",
+					"description": ""
+				},
+				"xicsjt4e3glrfz9g": {
+					"name": "Финальная Злость",
+					"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: <span class=\"ОЗ\">ОЗ</span> <span style=\"text-decoration: underline; color: #34495e;\">умертвия</span> снижены до 0</p>\n<hr />\n<p>Перед уничтожением <span style=\"text-decoration: underline; color: #34495e;\">умертвие</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]. При этом @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударе}, оно не получает <span class=\"ОЗ\">Врем.ОЗ</span> от <span style=\"text-decoration: underline; color: #34495e;\">Истощения Жизни</span>.</p>"
+				},
+				"apx5l6z5p09xanhv": {
+					"name": "Притвориться Мертвым",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Умертвие-плут</span> гасит заметное красное свечение в своих глазницах, падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком} и лежит совершенно неподвижно. Пока оно не начнет действовать в следующий раз, <span style=\"text-decoration: underline; color: #34495e;\">умертвие</span> выглядит как обычный труп. Он получает автоматический результат 38 при проверке <span style=\"color: #e67e23;\"><strong>Обмана </strong></span>и <span style=\"color: #e67e23;\"><strong>КС</strong></span>, чтобы принять облик обычного трупа.</p>"
+				},
+				"TDyZOrJxLY1hcPKJ": {
+					"name": "Истощение Жизни",
+					"description": "<p class=\"Нарратив\">Когда <span style=\"text-decoration: underline; color: #34495e;\">Умертвие-Плут</span> наносит <span style=\"text-decoration: underline; color: #a52a2a;\">живому</span> существу урон своим @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> или связанным <span style=\"text-decoration: underline; color: #34495e;\">Оружием</span>, то получает <span style=\"text-decoration: underline; color: #169179;\">[[/r 9[healing]]]{9}Врем.ОЗ</span> и существо должно совершить успешный <span class=\"CTK\">Спас.@Check[type:fortitude|dc:25|showDC:owner|traits:divine,necromancy]{СТК}</strong></span>, иначе будет @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1}.</p>\n<hr />\n<p>Дальнейший урон, наносимый <span style=\"text-decoration: underline; color: #34495e;\">Умертвием-Плутом</span>, при <span class=\"Провал\">Провал</span><span style=\"color: #236fa1;\"><strong>спасброска </strong></span>увеличивает состояние @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен} на 1, до максимального @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 4}.</p>"
+				},
+				"56PK7jsheqUjQAKo": {
+					"name": "Внезапная Атака (2d6)",
+					"description": "<p class=\"Заг2\">[[/r 2d6[precision]]]{2d6} <span class=\"Признак\">Точного</span><span class=\"Урон\"> Урона</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+				},
+				"7499bjv6f655br8n": {
+					"name": "Порождение Умертвия-Охотника",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #a52a2a;\">Живой гуманоид</span> убитый @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Когтей</span> или <span style=\"text-decoration: underline; color: #34495e;\">оружия умертвия-плута</span>, восстает <span style=\"text-decoration: underline; color: #34495e;\">Порождением @Compendium[pf2e.book-of-the-dead-bestiary.DVpP5ObHDoT0OULK]{Умертвия-Плута}</span> через [[/r 1d4[rounds]]]{1d4 раунда}<span data-visibility=\"gm\">[[1d4]]{ }</span>.</p>\n<p>Это <span style=\"text-decoration: underline; color: #34495e;\">Порождение</span> управляется убившим его <span style=\"text-decoration: underline; color: #34495e;\">Умертвия-Плута</span>. У него <span style=\"text-decoration: underline; color: #000080;\">нет</span> умений <span style=\"text-decoration: underline; color: #34495e;\">Истощение Жизни</span> или <span style=\"text-decoration: underline; color: #34495e;\">Порождение Умертвия</span> и оно @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюже 2} пока является <span style=\"text-decoration: underline; color: #34495e;\">Умертвием-Порождением</span>.</p>\n<hr />\n<p>Если <span style=\"text-decoration: underline; color: #34495e;\">создатель</span> этого <span style=\"text-decoration: underline; color: #34495e;\">порождения</span> умирает, <span style=\"text-decoration: underline; color: #34495e;\">порождение</span> становится полноценным, самостоятельным <span style=\"text-decoration: underline; color: #34495e;\">Умертвием-Плутом</span>; оно восстанавливает свободу воли, получает <span style=\"text-decoration: underline; color: #34495e;\">Истощение Жизни</span> и <span style=\"text-decoration: underline; color: #34495e;\">Порождение Умертвия</span>, и перестает быть @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжим}.</p>"
+				}
+			}
+		},
+		{
+			"id": "Wight Commander",
+			"name": "Умертвие-Командир",
+			"tokenName": "Умертвие-Командир",
+  			"img": "modules/PF2E-TS-RUB/art/pf2e-pathfinder-bestiary/art/wight/12Wight_WightCommander.webp",
+			"description": "<h2 class=\"Заг2\">Умертвие-Командир</h2>\n<p>Когда любимый лидер воинского подразделения восстает умертвием, иногда вместе с ним возвращаются духи его товарищей, создавая гештальт-сущность с безупречной тактической сообразительностью.</p>\n<hr />\n<h2 class=\"Заг2\">Умертвие (Общее)</h2>\n<p><span style=\"text-decoration: underline; color: #34495e;\">Умертвия</span> это <span style=\"text-decoration: underline; color: #a52a2a;\">гуманоиды</span>-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, которые, подобно @Compendium[pf2e.pathfinder-bestiary.HbROgIcU9Z9m6XuD], могут одним лишь прикосновением вытягивать жизнь из <span style=\"text-decoration: underline; color: #a52a2a;\">живых</span> существ. Они появляются в результате некромантических ритуалов, особенно жестоких смертей, либо по злой воле умершего.</p>\n<p>Существует столько же видов <span style=\"text-decoration: underline; color: #a52a2a;\">умертвий</span>, сколько типов людей, из которых они могут быть созданы. Здоровенные громилы, прыткие проныры и умельцы хитрить - из всех создаются разных умертвия, занимающие разные ниши. Окружающая среда также играет роль в определении особых умений и защитных качеств умертвия. Например, морозных умертвий можно встретить в тех частях света, где холод - обычное дело. Как бы то ни было, умертвия обычно населяют могильники, катакомбы и другие места, где покоятся мертвые. Но их голод обращен на живых - тех, кто напоминает им об оковах смертности и кого они считают необходимым \"освободить\" до состояния нежизни.</p>\n<p>Одно <span style=\"text-decoration: underline; color: #a52a2a;\">умертвие</span> может посеять большой хаос, если будет вынуждено восстать из своей усыпальницы. Поскольку существа, убитые <span style=\"text-decoration: underline; color: #a52a2a;\">умертвиями</span>, тоже становятся <span style=\"text-decoration: underline; color: #a52a2a;\">умертвиями</span>, достаточно одного из них и горстки неудачливых посетителей кладбища, чтобы создать целую орду этой <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>. Поэтому хитрые священники и искатели приключений знают, что лучшее решение проблемы с <span style=\"text-decoration: underline; color: #a52a2a;\">умертвиями</span> - быстрое и полное истребление. Однако следует соблюдать осторожность и уничтожать <span style=\"text-decoration: underline; color: #a52a2a;\">порождений умертвия</span> прежде, чем пытаться уничтожить само умертвие-прародителя, ибо порождение без хозяина обретает способность создавать своих собственных.</p>\n<p>Крепкие и поддерживаемые <span style=\"text-decoration: underline; color: #a52a2a;\">негативной</span> энергией, <span style=\"text-decoration: underline; color: #a52a2a;\">умертвия</span> могут существовать в суровых условиях не разлагаясь, как некоторые другие виды нежити. Они могут обитать в высоких горных перевалах, запечатанных проходах или быть погружены в топи или озера десятилетиями или даже столетиями, прежде чем проход ничего не подозревающего путешественника пробудит их от покоя.<span style=\"color: #404040; font-family: Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif; font-size: 16px; background-color: #efede9;\"></span></p>\n<hr />\n<h2 class=\"Заг2\">Другие Умертвия</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Помимо представленных здесь умертвий, существует множество других разновидностей. Например, жадное <span style=\"text-decoration: underline; color: #34495e;\">умертвие-страж</span> - ритуально созданное для вечной охраны собственного богатства или богатства своего хозяина, населяет курганы, оссуарии и мавзолеи. В отличие от других умертвий, они могут направлять свое истощающее жизнь касание через свое оружие ближнего боя.</p>\n<hr />\n<h2 class=\"Заг2\">Умертвие и Оружие</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />У рядового умертвия, только царапанье его почерневших ногтей крадет жизненную эссенцию. Многие сильные умертвия связаны с вооружением, либо благодаря ритуалу, который их поднял, либо из-за сентиментальной привязанности к оружию, которым они владели. Кроме того, это оружие не только более универсально, но и способно удивить врагов, привыкших к возможностям обычных умертвий.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"ie93zawg4aydi426": {
+					"name": "Длинный Меч (Истощение)",
+					"description": ""
+				},
+				"09d8l407352ep4z4": {
+					"name": "Когти (Истощение)",
+					"description": ""
+				},
+				"e68t84jixmehqnur": {
+					"name": "Финальная Злость",
+					"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: <span class=\"ОЗ\">ОЗ</span> <span style=\"text-decoration: underline; color: #34495e;\">Умертвия</span> снижены до 0</p>\n<hr />\n<p>Перед уничтожением <span style=\"text-decoration: underline; color: #34495e;\">Умертвие-Командир</span> дует в боевой горн. Обескураживающий звук призывает подкрепление, поднимая в @Template[type:emanation|distance:200] [[/r 1d4 #Corspes]]{1d4 Трупа} в виде @Compendium[pf2e.pathfinder-bestiary.ZPjQkKVMi3xoPcU0].</p>"
+				},
+				"9uwteydd6ypzaa2e": {
+					"name": "Тактическое Руководство",
+					"description": "<p class=\"Нарратив\">Каждое союзник-<span style=\"text-decoration: underline; color: #a52a2a;\">умертвие</span> в @Template[type:emanation|distance:30], <span class=\"До\">до конца своего след.хода</span> получает <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span> @Compendium[pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O].</p>"
+				},
+				"bKHEkuv4wRPctK0n": {
+					"name": "Инициатива: +26",
+					"description": "<p class=\"Нарратив\">Бонус броска <span style=\"color: #808000;\"><strong>инициативы </strong></span>существа равен [[/r 1d20+26]]{+26}</p>"
+				},
+				"v1cjchmhqo6lvdjy": {
+					"name": "Скоординированный Удар",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Умертвие-командир</span> берет с союзником в тиски, пока цель находится в пределах <span style=\"text-decoration: underline; color: #000080;\">досягаемости</span> их обоих, даже если командир и союзник не находятся на противоположных сторонах.</p>"
+				},
+				"ombjfkyxjmwbb9xc": {
+					"name": "Истощение Жизни",
+					"description": "<p class=\"Нарратив\">Когда <span style=\"text-decoration: underline; color: #34495e;\">Умертвие-Командир</span> наносит <span style=\"text-decoration: underline; color: #a52a2a;\">живому</span> существу урон своим @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> или связанным <span style=\"text-decoration: underline; color: #34495e;\">Оружием</span>, то получает <span style=\"text-decoration: underline; color: #169179;\">[[/r {12}[healing]]]{12}Врем.ОЗ</span> и существо должно совершить успешный <span class=\"CTK\">Спас.@Check[type:fortitude|dc:29|showDC:owner|traits:divine,necromancy]{СТК}</strong></span>, иначе будет @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1}.</p>\n<hr />\n<p>Дальнейший урон, наносимый <span style=\"text-decoration: underline; color: #34495e;\">Умертвием-Командир</span>, при <span class=\"Провал\">Провал</span><span style=\"color: #236fa1;\"><strong>спасброска </strong></span>увеличивает состояние @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен} на 1, до максимального @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 4}.</p>"
+				},
+				"581dy5lnt449p866": {
+					"name": "Порождение Умертвия-Командира",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #a52a2a;\">Живой гуманоид</span> убитый @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Когтей</span> или <span style=\"text-decoration: underline; color: #34495e;\">оружия умертвия-командира</span>, восстает <span style=\"text-decoration: underline; color: #34495e;\">Порождением @Compendium[pf2e.book-of-the-dead-bestiary.DVpP5ObHDoT0OULK]{Умертвия-Плута}</span> или <span style=\"text-decoration: underline; color: #34495e;\">@Compendium[pf2e.book-of-the-dead-bestiary.DMZo6DXmScDXJpJd]{Умертвия-Охотника}</span> через [[/r 1d4[rounds]]]{1d4 раунда}<span data-visibility=\"gm\">[[1d4]]{ }</span>.</p>\n<p>Это <span style=\"text-decoration: underline; color: #34495e;\">Порождение</span> управляется убившим его <span style=\"text-decoration: underline; color: #34495e;\">Умертвия-Командира</span>. У него <span style=\"text-decoration: underline; color: #000080;\">нет</span> умений <span style=\"text-decoration: underline; color: #34495e;\">Истощение Жизни</span> или <span style=\"text-decoration: underline; color: #34495e;\">Порождение Умертвия</span> и оно @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюже 2} пока является <span style=\"text-decoration: underline; color: #34495e;\">Умертвием-Порождением</span>.</p>\n<hr />\n<p>Если <span style=\"text-decoration: underline; color: #34495e;\">создатель</span> этого <span style=\"text-decoration: underline; color: #34495e;\">порождения</span> умирает, <span style=\"text-decoration: underline; color: #34495e;\">порождение</span> становится полноценным, самостоятельным <span style=\"text-decoration: underline; color: #34495e;\">Умертвием</span>; оно восстанавливает свободу воли, получает <span style=\"text-decoration: underline; color: #34495e;\">Истощение Жизни</span> и <span style=\"text-decoration: underline; color: #34495e;\">Порождение Умертвия</span>, и перестает быть @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжим}.</p>"
+				}
+			}
+		}
+	]
+}

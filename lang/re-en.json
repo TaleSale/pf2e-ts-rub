@@ -1,0 +1,2212 @@
+{
+    "PF2E": {
+        "AttackEffects": {
+            "DropWeapon": "Существо бросает оружие.",
+            "IgnoreConcealed": "<span class=\"Атака\">Атака</span> игнорирует состояние @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W].",
+            "IgnoreCover": "Цель атаки не получает преимущества от <span class=\"Мест\">Небольшого</span> или <span class=\"Мест\">Стандартого</span> @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.S55aqwWIzpQRFhcq]{Укрытия}. А так же снижает <span class=\"КБ\">КБ</span> от <span class=\"Мест\">Стандартного</span> @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.S55aqwWIzpQRFhcq]{Укрытия}, если вы @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Укрываетесь}, на 2 против этой атаки.",
+            "IncreasedCriticalChance": "Если атака попадает и существо выбрасывает [[19]] на броске [[/r 1d20]], атака считается критической. Это не имеет никакого эффекта, если [[19]] будет промахом.",
+            "IncreasedReach5": "<span class=\"Атака\">Досягаемость</span> увеличивается на 5ФТ",
+            "InterruptAction": "При <span class=\"Успех\">попадании</span> <span class=\"Действие\">действие</span> цели прерывается.",
+            "KnockProne": "При <span class=\"Успех\">попадание</span> цель падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]."
+        },
+        "BattleForm": {
+            "Attack": {
+                "Antler": "Рога",
+                "Beak": "Клюв",
+                "Beard": "Борода",
+                "Body": "Тело",
+                "BoneShard": "Костяной Осколок",
+                "Boot": "Boot",
+                "Branch": "Ветвь",
+                "Claw": "Когти",
+                "CubeFace": "Грань Куба",
+                "Fangs": "Клыки",
+                "FireMote": "Огненная Частица",
+                "Foot": "Нога",
+                "Foreleg": "Передняя Нога",
+                "Gust": "Порыв",
+                "HolyMace": "Святая Булава",
+                "Hoof": "Копыта",
+                "Horn": "Рога",
+                "Jaws": "Челюсти",
+                "LavaFist": "Лавовый Кулак",
+                "Leaf": "Лист",
+                "Leg": "Нога",
+                "LightingLash": "Удар Молнии",
+                "Mandibles": "Жвалы",
+                "Moonbeam": "Лунный Луч",
+                "PiercingHymn": "Пронзительный Гимн",
+                "Pincer": "Клещи",
+                "Pseudopod": "Ложноножка",
+                "Rock": "Камень",
+                "Spikes": "Шипы",
+                "Spine": "Шип",
+                "Stinger": "Жало",
+                "Sunbeam": "Солнечный Луч",
+                "Tail": "Хвост",
+                "Talon": "Коготь",
+                "Tendril": "Усик",
+                "Tentacle": "Щупальце",
+                "TentacleArm": "Рука-Щупальце",
+                "Thorn": "Thorns",
+                "Tongue": "Язык",
+                "Trunk": "Хобот",
+                "Tusk": "Бивень",
+                "Vine": "Лоза",
+                "WaterSpout": "Столб Воды",
+                "Wave": "Волна",
+                "Wing": "Крыло"
+            },
+            "Note": {
+                "GrabbingTrunk": {
+                    "Title": "Хватающий Хобот",
+                    "Text": "<p>Цели на два размера меньше вас, по которому вы <span class=\"Успех\">попали</span> <span class=\"Список\">Хоботом</span> становится @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено}.</p>\n<p>Если вы совершаете <span class=\"Признак2\"><span class=\"Признак1\">движение</span></span>, он можете нести @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} существо с собой.</p>"
+                }
+            }
+        },
+        "BombNotes": {
+            "AcidFlask": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.3d6]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,acid]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.3d6]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,acid]]]"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.1d6]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,acid]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.1d6]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,acid]]]"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.4d6]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,acid]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.4d6]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,acid]]]"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.2d6]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,acid]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.2d6]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,acid]]]"
+                }
+            },
+            "AlchemistsFire": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.3]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.3]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,fire]]]"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.1]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.1]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,fire]]]"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.2]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.2]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]"
+                }
+            },
+            "BioluminescenceBomb": {
+                "success": "<p>Each creature within @Template[type:emanation|distance:10]{10 feet} of where the bomb exploded must succeed at a @Check[type:reflex|dc:17] save or be marked with dye that continues to glow for 24 hours. An affected creature must also attempt a @Check[type:fortitude|dc:17] saving throw against the overwhelming burst of light.</p><p><strong>Success</strong> The creature is unaffected.</p><p><strong>Failure</strong> The creature is @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p><p><strong>Critical Failure</strong> The creature is @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, then dazzled for 1 round.</p>"
+            },
+            "BlightBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Poison.3d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,poison]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Poison.3d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,poison]]]"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Poison.1d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,poison]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Poison.1d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,poison]]]"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Poison.4d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,poison]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Poison.4d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,poison]]]"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Poison.2d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,poison]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Poison.2d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,poison]]]"
+                }
+            },
+            "BottledLightning": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,electricity]]]</div>\n<div>&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнута Врасплох} <span class=\"До\">до начала вашего след.хода</span>."
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,electricity]]]</div>\n<div>&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнута Врасплох} <span class=\"До\">до начала вашего след.хода</span>."
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,electricity]]]</div>\n<div>&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнута Врасплох} <span class=\"До\">до начала вашего след.хода</span>."
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,electricity]]]</div>\n<div>&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнута Врасплох} <span class=\"До\">до начала вашего след.хода</span>."
+                }
+            },
+            "CrystalShards": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 5[splash,piersing]]]<br /><span class=\"Список\">Особенность</span>: Кристаллы в области <span class=\"Признак2\"><span class=\"Признак1\">Брызг</span></span>:</span><br /></span>&diams; На горизонтале считаются @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Калтропами}.<br />&diams; На вертикале дают бонус <span class=\"Предмета\">Предмета</span> +2 к проверке <span class=\"СИЛ\">Атлетика</span>, чтобы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаться}."
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 6[splash,piersing]]]<br /><span class=\"Список\">Особенность</span>: Кристаллы в области <span class=\"Признак2\"><span class=\"Признак1\">Брызг</span></span>:</span><br /></span>&diams; На горизонтале считаются @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Калтропами}.<br />&diams; На вертикале дают бонус <span class=\"Предмета\">Предмета</span> +3 к проверке <span class=\"СИЛ\">Атлетика</span>, чтобы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаться}."
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,piersing]]]<br /><span class=\"Список\">Особенность</span>: Кристаллы в области <span class=\"Признак2\"><span class=\"Признак1\">Брызг</span></span>:</span><br /></span>&diams; На горизонтале считаются @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Калтропами}.<br />&diams; На вертикале дают бонус <span class=\"Предмета\">Предмета</span> +1 к проверке <span class=\"СИЛ\">Атлетика</span>, чтобы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаться}."
+                }
+            },
+            "DreadAmpoule": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,mental]]]<br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,mental]]]<br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,mental]]]<br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,mental]]]<br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}"
+                }
+            },
+            "DwarvenDaisy": {
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]\n<br>\n&diams; <span class=\"Дист\">Цель</span> совершает <span class=\"СТК\">Спас.@Check[type:fortitude|dc:16|name:Lesser Dwarven Daisy|traits:damaging-effect|showDC:all]{СТК}</span> или быть @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh] <span class=\"До\">на 1 раунд</span>"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]\n<br>\n&diams; <span class=\"Дист\">Цель</span> совершает <span class=\"СТК\">Спас.@Check[type:fortitude|dc:18|name:Lesser Dwarven Daisy|traits:damaging-effect|showDC:all]{СТК}</span> или быть @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh] <span class=\"До\">на 1 раунд</span>"
+                }
+            },
+            "FrostVial": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,cold]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Получает} штраф <span class=\"Состояния\">Состояния</span> -10ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"До\">до конца своего след.хода</span>"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,cold]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.RLsdvhmTh64Mmty9]{Получает} штраф <span class=\"Состояния\">Состояния</span> -5ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"До\">до конца своего след.хода</span>"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,cold]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.4G9qnI0oRyL6eKFQ]{Получает} штраф <span class=\"Состояния\">Состояния</span> -15ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"До\">до конца своего след.хода</span>"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,cold]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.dv0IKm5syOdP759w]{Получает} штраф <span class=\"Состояния\">Состояния</span> -10ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"До\">до конца своего след.хода</span>"
+                }
+            },
+            "GhostCharge": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,positive]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 2} <span class=\"До\">до начала вашего след.хода</span>."
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,positive]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1} <span class=\"До\">до начала вашего след.хода</span>."
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,positive]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 2} <span class=\"До\">до начала вашего след.хода</span>."
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,positive]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1} <span class=\"До\">до начала вашего след.хода</span>."
+                }
+            },
+            "GooGrenade": {
+                "Greater": "Greater",
+                "Lesser": "Lesser",
+                "Major": "Major",
+                "Moderate": "Moderate",
+                "Prompt": "Select a goo grenade quality.",
+                "success": "<strong>Effect</strong> On a hit, the creature takes a penalty to its Speeds from the clinging goo. @UUID[Compendium.pf2e.equipment-effects.5JYchreCttBg7RcD]{Effect: Goo Grenade}"
+            },
+            "JunkBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.3]\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,slashing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.3]*2\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,slashing]]]"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.1]\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,slashing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.1]*2\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,slashing]]]"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.4]\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,slashing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.4]*2\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,slashing]]]"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.2]\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,slashing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.2]*2\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,slashing]]]"
+                }
+            },
+            "MudBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,bludgeoning]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплена} <span class=\"До\">до начала вашего след.хода</span>"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,bludgeoning]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплена} <span class=\"До\">до начала вашего след.хода</span>"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,bludgeoning]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплена} <span class=\"До\">до начала вашего след.хода</span>"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,bludgeoning]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплена} <span class=\"До\">до начала вашего след.хода</span>"
+                }
+            },
+            "NecroticBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,negative]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,negative]]]\n<br />\n&diams; <span class=\"Дист\">Целе</span> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 3}"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,negative]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,negative]]]\n<br />\n&diams; <span class=\"Дист\">Целе</span> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,negative]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,negative]]]\n<br />\n&diams; <span class=\"Дист\">Целе</span> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 4}"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,negative]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,negative]]]\n<br />\n&diams; <span class=\"Дист\">Целе</span> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2}"
+                }
+            },
+            "PerniciousSporeBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Piercing.3d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,poison]]]\n<br />\n&diams; За исключением <span class=\"Критпровал\">Крит.Провал</span>, область <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span> покрывается растительностью, превращаясь в <span class=\"Мест\">Сложная Местность</span> <span class=\"До\">на 1 раунд</span>",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Piercing.3d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,poison]]]\n<br />\n&diams; За исключением <span class=\"Критпровал\">Крит.Провал</span>, область <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span> покрывается растительностью, превращаясь в <span class=\"Мест\">Сложная Местность</span> <span class=\"До\">на 1 раунд</span>"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Piercing.1d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,poison]]]\n<br />\n&diams; За исключением <span class=\"Критпровал\">Крит.Провал</span>, область <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span> покрывается растительностью, превращаясь в <span class=\"Мест\">Сложная Местность</span> <span class=\"До\">на 1 раунд</span>",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Piercing.1d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,poison]]]\n<br />\n&diams; За исключением <span class=\"Критпровал\">Крит.Провал</span>, область <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span> покрывается растительностью, превращаясь в <span class=\"Мест\">Сложная Местность</span> <span class=\"До\">на 1 раунд</span>"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Piercing.4d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,poison]]]\n<br />\n&diams; За исключением <span class=\"Критпровал\">Крит.Провал</span>, область <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span> покрывается растительностью, превращаясь в <span class=\"Мест\">Сложная Местность</span> <span class=\"До\">на 1 раунд</span>",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Piercing.4d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,poison]]]\n<br />\n&diams; За исключением <span class=\"Критпровал\">Крит.Провал</span>, область <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span> покрывается растительностью, превращаясь в <span class=\"Мест\">Сложная Местность</span> <span class=\"До\">на 1 раунд</span>"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Piercing.2d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,poison]]]\n<br />\n&diams; За исключением <span class=\"Критпровал\">Крит.Провал</span>, область <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span> покрывается растительностью, превращаясь в <span class=\"Мест\">Сложная Местность</span> <span class=\"До\">на 1 раунд</span>",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Piercing.2d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,poison]]]\n<br />\n&diams; За исключением <span class=\"Критпровал\">Крит.Провал</span>, область <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span> покрывается растительностью, превращаясь в <span class=\"Мест\">Сложная Местность</span> <span class=\"До\">на 1 раунд</span>"
+                }
+            },
+            "PeshspineGrenade": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,piercing]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманена 2} <span class=\"До\">до конца ее след.хода</span>"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,piercing]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманена 1} <span class=\"До\">до конца ее след.хода</span>"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,piercing]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманена 3} <span class=\"До\">до конца ее след.хода</span>"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,piercing]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманена 1} <span class=\"До\">до конца ее след.хода</span>"
+                }
+            },
+            "PressureBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак-1\">Средняя</span></span> или меньше <span class=\"Дист\">цель</span> отталкивается от вас на 5ФТ.",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак-1\">Средняя</span></span> или меньше <span class=\"Дист\">цель</span> отталкивается от вас на 5ФТ.\n<br />\n&diams; <span class=\"Дист\">Цель</span> падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак-1\">Крошечная</span></span> или меньше <span class=\"Дист\">цель</span> отталкивается от вас на 5ФТ.",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак-1\">Крошечная</span></span> или меньше <span class=\"Дист\">цель</span> отталкивается от вас на 5ФТ.\n<br />\n&diams; <span class=\"Дист\">Цель</span> падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,bludgeoning]]]\n<br />\n&diams; Сперва существа <span class=\"Признак2\"><span class=\"Признак-1\">среднего</span></span> или меньше размера, получающие <span class=\"Урон\">урон от <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span></span>, отталкиваются от цели на 5ФТ, а затем, если <span class=\"Дист\">цель</span> <span class=\"Признак2\"><span class=\"Признак-1\">большого</span></span> или меньше размера отталкивается от вас на 5ФТ.",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,bludgeoning]]]\n<br />\n&diams; Сперва существа <span class=\"Признак2\"><span class=\"Признак-1\">среднего</span></span> или меньше размера, получающие <span class=\"Урон\">урон от <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span></span>, отталкиваются от цели на 5ФТ, а затем, если <span class=\"Дист\">цель</span> <span class=\"Признак2\"><span class=\"Признак-1\">большого</span></span> или меньше размера отталкивается от вас на 5ФТ.\n<br />\n&diams; <span class=\"Дист\">Цель</span> падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак-1\">Маленькая</span></span> или меньше <span class=\"Дист\">цель</span> отталкивается от вас на 5ФТ.",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,bludgeoning]]]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак-1\">Маленькая</span></span> или меньше <span class=\"Дист\">цель</span> отталкивается от вас на 5ФТ.\n<br />\n&diams; <span class=\"Дист\">Цель</span> падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}"
+                }
+            },
+            "RedpitchBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.3d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.3d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,fire]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> получает @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 2} <span class=\"До\">до начала вашего след.хода</span>"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.1d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.1d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> получает @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} <span class=\"До\">до начала вашего след.хода</span>"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.4d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.4d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,fire]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> получает @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 3} <span class=\"До\">до начала вашего след.хода</span>"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.2d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.2d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> получает @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} <span class=\"До\">до начала вашего след.хода</span>"
+                }
+            },
+            "SulfurBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,acid]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.fuQVJiPPUsvL6fi5]{Получает} штраф <span class=\"Состояния\">Состояния</span> -1 к <span class=\"МУД\">Восприятия</span> и <span class=\"Атака\">броскам атак</span> <span class=\"До\">до конца своего след.хода</span>",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,acid]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> получает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,acid]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.fuQVJiPPUsvL6fi5]{Получает} штраф <span class=\"Состояния\">Состояния</span> -1 к <span class=\"МУД\">Восприятия</span> и <span class=\"Атака\">броскам атак</span> <span class=\"До\">до конца своего след.хода</span>",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,acid]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> получает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,acid]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.fuQVJiPPUsvL6fi5]{Получает} штраф <span class=\"Состояния\">Состояния</span> -1 к <span class=\"МУД\">Восприятия</span> и <span class=\"Атака\">броскам атак</span> <span class=\"До\">до конца своего след.хода</span>",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,acid]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> получает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,acid]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.fuQVJiPPUsvL6fi5]{Получает} штраф <span class=\"Состояния\">Состояния</span> -1 к <span class=\"МУД\">Восприятия</span> и <span class=\"Атака\">броскам атак</span> <span class=\"До\">до конца своего след.хода</span>",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,acid]]]\n<br />\n&diams; <span class=\"Дист\">Цель</span> получает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}"
+                }
+            },
+            "TallowBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.3d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.3d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span>"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.1d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.1d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span>"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.4d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.4d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span>"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.2d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.2d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span>"
+                }
+            },
+            "TanglefootBag": {
+                "Greater": {
+                    "success": "<span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nКогда вы <span class=\"Успех\">попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.csA4UAD2tQq7RjT8]{Получает} штраф <span class=\"Состояния\">Состояния</span> -15ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span><hr /><i><span class=\"Повтор\">Липучка</span> <span class=\"НЕ\">не</span> наносит <span class=\"Урон\">урон</span>.</i>",
+                    "criticalSuccess": "<span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nКогда вы <span class=\"Критуспех\">крит.попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.csA4UAD2tQq7RjT8]{Получает} штраф <span class=\"Состояния\">Состояния</span> -15ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span><br />А так же существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд, а у существ, летающих при помощи крыльев, крылья запутываются, из-за этого они безопасно приземляются на землю и не могут снова @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летать} 1 раунд.<hr /><i><span class=\"Повтор\">Липучка</span> <span class=\"НЕ\">не</span> наносит <span class=\"Урон\">урон</span>.</i>"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nКогда вы <span class=\"Успех\">попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.fYZIanbYu0Vc4JEL]{Получает} штраф <span class=\"Состояния\">Состояния</span> -10ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span><hr /><i><span class=\"Повтор\">Липучка</span> <span class=\"НЕ\">не</span> наносит <span class=\"Урон\">урон</span>.</i>",
+                    "criticalSuccess": "<span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nКогда вы <span class=\"Критуспех\">крит.попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.fYZIanbYu0Vc4JEL]{Получает} штраф <span class=\"Состояния\">Состояния</span> -10ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span><br />А так же существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд, а у существ, летающих при помощи крыльев, крылья запутываются, из-за этого они безопасно приземляются на землю и не могут снова @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летать} 1 раунд.<hr /><i><span class=\"Повтор\">Липучка</span> <span class=\"НЕ\">не</span> наносит <span class=\"Урон\">урон</span>.</i>"
+                },
+                "Major": {
+                    "success": "<span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nКогда вы <span class=\"Успех\">попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.ITAFsW3dQPupJ3DW]{Получает} штраф <span class=\"Состояния\">Состояния</span> -20ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span><hr /><i><span class=\"Повтор\">Липучка</span> <span class=\"НЕ\">не</span> наносит <span class=\"Урон\">урон</span>.</i>",
+                    "criticalSuccess": "<span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nКогда вы <span class=\"Критуспех\">крит.попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.ITAFsW3dQPupJ3DW]{Получает} штраф <span class=\"Состояния\">Состояния</span> -20ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span><br />А так же существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд, а у существ, летающих при помощи крыльев, крылья запутываются, из-за этого они безопасно приземляются на землю и не могут снова @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летать} 1 раунд.<hr /><i><span class=\"Повтор\">Липучка</span> <span class=\"НЕ\">не</span> наносит <span class=\"Урон\">урон</span>.</i>"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nКогда вы <span class=\"Успех\">попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.MEreOgnjoRiXPEuq]{Получает} штраф <span class=\"Состояния\">Состояния</span> -15ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span><hr /><i><span class=\"Повтор\">Липучка</span> <span class=\"НЕ\">не</span> наносит <span class=\"Урон\">урон</span>.</i>",
+                    "criticalSuccess": "<span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nКогда вы <span class=\"Критуспех\">крит.попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.MEreOgnjoRiXPEuq]{Получает} штраф <span class=\"Состояния\">Состояния</span> -15ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span><br />А так же существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд, а у существ, летающих при помощи крыльев, крылья запутываются, из-за этого они безопасно приземляются на землю и не могут снова @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летать} 1 раунд.<hr /><i><span class=\"Повтор\">Липучка</span> <span class=\"НЕ\">не</span> наносит <span class=\"Урон\">урон</span>.</i>"
+                }
+            },
+            "Thunderstone": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,thunder]]]"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,thunder]]]"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,thunder]]]"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,thunder]]]"
+                }
+            },
+            "TwigjackSack": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.4]\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,piercing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.4]*2\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,piercing]]]"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.1]\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,piercing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.1]*2\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,piercing]]]"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.5]\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,piercing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.5]*2\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,piercing]]]"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.3]\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,piercing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.3]*2\n<br>\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,piercing]]]"
+                }
+            },
+            "VexingVapor": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,mental]]]\n<br />\n&diams; <span class=\"До\">До конца след.хода</span> цели, перед началом выполнения <span class=\"Действие\">действий</span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">концентрация</span></span>, цель должна совершить проверку @Check[type:flat|dc:5|showDC:all]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,mental]]]\n<br />\n&diams; <span class=\"До\">На 1 минуту</span> цели, перед началом выполнения <span class=\"Действие\">действий</span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">концентрация</span></span>, цель должна совершить проверку @Check[type:flat|dc:5|showDC:all]"
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,mental]]]\n<br />\n&diams; <span class=\"До\">До конца след.хода</span> цели, перед началом выполнения <span class=\"Действие\">действий</span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">концентрация</span></span>, цель должна совершить проверку @Check[type:flat|dc:5|showDC:all]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,mental]]]\n<br />\n&diams; <span class=\"До\">На 1 минуту</span> цели, перед началом выполнения <span class=\"Действие\">действий</span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">концентрация</span></span>, цель должна совершить проверку @Check[type:flat|dc:5|showDC:all]"
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,mental]]]\n<br />\n&diams; <span class=\"До\">До конца след.хода</span> цели, перед началом выполнения <span class=\"Действие\">действий</span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">концентрация</span></span>, цель должна совершить проверку @Check[type:flat|dc:5|showDC:all]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,mental]]]\n<br />\n&diams; <span class=\"До\">На 1 минуту</span> цели, перед началом выполнения <span class=\"Действие\">действий</span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">концентрация</span></span>, цель должна совершить проверку @Check[type:flat|dc:5|showDC:all]"
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,mental]]]\n<br />\n&diams; <span class=\"До\">До конца след.хода</span> цели, перед началом выполнения <span class=\"Действие\">действий</span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">концентрация</span></span>, цель должна совершить проверку @Check[type:flat|dc:5|showDC:all]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,mental]]]\n<br />\n&diams; <span class=\"До\">На 1 минуту</span> цели, перед началом выполнения <span class=\"Действие\">действий</span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">концентрация</span></span>, цель должна совершить проверку @Check[type:flat|dc:5|showDC:all]"
+                }
+            },
+            "WaterBomb": {
+                "Greater": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
+                },
+                "Lesser": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
+                },
+                "Major": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
+                },
+                "Moderate": {
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
+                }
+            }
+        },
+        "Mutagens": {
+            "BestialMutagen": {
+                "FeralPrompt": "Увеличить штраф к КБ, чтобы увеличить размер кости урона?"
+            }
+        },
+        "NPCAbility": {
+            "AncientWisp": {
+                "PinpointLight": "Pinpoint Light"
+            },
+            "BarghestFeed": "Сколько раз Пожирал Баргест?",
+            "Calikang": {
+                "SixfoldFlurry": "Ударов не нанесено?",
+                "SuspendedAnimationEnter": "Вход в Приостановление",
+                "SuspendedAnimationExit": "Выход из Приостановление"
+            },
+            "Charge": {
+                "AtLeastTen": "Было движение минимум 10ФТ"
+            },
+            "ChyzaeduAlienVestment": "Инопланетное Покрытие Сломано",
+            "ClockworkLostPlates": "Сколько пластин потеряно?",
+            "ClockworkWindUp": "Режим Ожидания",
+            "ConstructArmor": {
+                "BrokenArmor": "Броня Конструкта Сломана?",
+                "CriticalHit": "Броня Конструкта Сломана крит.попаданием"
+            },
+            "CustomArmor": {
+                "BrokenArmor": "Броня Сломана?",
+                "CriticalHit": "Броня Сломана крит.попаданием"
+            },
+            "DemonInfuseWeapons": "Наносит Урон Хаот. вместо Зло",
+            "Dramofir": {
+                "BittersweetDreamsCriticalFailure": "Крит.Провал",
+                "BittersweetDreamsSuccessFailure": "Успех или Провал"
+            },
+            "DuskwalkerHuntPrey": {
+                "AC": "Добыча атакует Сумеречного",
+                "Checks": "Сумеречный навыком против Добычи"
+            },
+            "Falrok": {
+                "LazuriteTerrainSwitch": "В лазуритовой местности"
+            },
+            "GiantAnimatedStatueBrazier": "Жаровня горит!",
+            "HellboundAttorney": {
+                "OpeningStatementCriticalSuccess": "Opening Statement (Critical Success)"
+            },
+            "HobgoblinFormationArea": "Строй пр. эффекта по области",
+            "KallasDevil": {
+                "DisguisedAsChild": "Disguised as a Child",
+                "LyingAboutLoathsomeStench": "Lying about Loathsome Stench"
+            },
+            "KrampusPunishTheNaughty": "Крампус пр. Непослушная Цель",
+            "LegionArchon": {
+                "FlameOfJustice": "Пламя Справедливости - Крит.Попадание"
+            },
+            "LemureSubservience": {
+                "Defend": "Покорность - Защитить",
+                "Fetch": "Покорность - Взять",
+                "Kill": "Покорность - Убить"
+            },
+            "MarilithFocusedAssault": {
+                "One": "1 Дл.Меч",
+                "Two": "2 Дл.Меча",
+                "Three": "3 Дл.Меча",
+                "Four": "4 Дл.Меча",
+                "Five": "5 Дл.Мечей",
+                "Six": "6 Дл.Мечей",
+                "Prompt": "Сколько мечей у Марилит?"
+            },
+            "MinotaurHuntedFear": {
+                "Demoralize": "Цель в лабиринте (или ином запутанном месте)?",
+                "Survival": "Не потеряться"
+            },
+            "YetiNightmareGuardianRage": "Ярость Стража Кошмаров",
+            "PaleStranger": {
+                "TargetNeverKilled": "Target has Never Killed",
+                "TargetMurderedPaleStranger": "Target Murdered Pale Stranger"
+            },
+            "PoltergeistTelekineticStorm": {
+                "MultiAttackLabel": "Телекинет.Шторм - Несколько Целей",
+                "SingleAttackLabel": "Телекинет.Шторм - Одна Цель",
+                "SingleAttackEffect": "Атака наносит [[/r {1d12}]]{1d12 Урона} при провале."
+            },
+            "PunishingStrike": {
+                "Note": "Безрассудная атака делает атакующего @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg] до начала его след.хода. Если он попадет, то может добавить @Compendium[pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{Толчок} к Удару"
+            },
+            "Seugathi": {
+                "MindfogSuppression": "Suppress Mindfog Aura"
+            },
+            "SkyDragon": {
+                "DivineLightningGood": "Бож.Молния - Добро",
+                "DivineLightningPositive": "Бож.Молния - Позитив"
+            },
+            "SovereignDragon": {
+                "InspireEnvoyDragonChoice": "Возраст Дракона",
+                "InspireEnvoyDragonAdult": "Взрослый",
+                "InspireEnvoyDragonAncient": "Древний",
+                "InspireEnvoyEffectChoice": "Выбрать эффект",
+                "InspireEnvoyEffectAttack": "Бонус к Атаке",
+                "InspireEnvoyEffectAC": "Бонус к КБ",
+                "InspireEnvoyEffectPercWillCha": "Бонус к Воле, Восприятию и проверка от Харизмы"
+            },
+            "Surgeon": {
+                "MedicalMalpracticeCriticalSuccess": "Medical Malpractice (Critical Success)"
+            },
+            "TreerazerPlantAttack": "Атака Растения",
+            "Vampire": {
+                "JiangShi": {
+                    "StanceOfDeath": {
+                        "CloudlessVoid": {
+                            "Label": "Стойка Безоблачной Пустоты"
+                        },
+                        "SunderedVeins": {
+                            "Label": "Стойка Разделенных Вен",
+                            "Note": "Цель становится @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1}"
+                        }
+                    }
+                }
+            },
+            "IoseffXarwin": {
+                "FulviasRing": {
+                    "SavePossess": "Save against Target possessing Fulvia's Ring",
+                    "SaveWear": "Save against Target wearing Fulvia's Ring",
+                    "TargetPossess": "Target possesses Fulvia's Ring",
+                    "TargetWear": "Target is wearing Fulvia's Ring"
+                }
+            },
+            "Zetogeki": {
+                "TiltScalesTilted": "Сдвинуть Чешую",
+                "TiltScalesChannelEnergy": "Выброс кинетической энергии"
+            }
+        },
+        "OracleCurses": {
+            "Ancestor": {
+                "Label": {
+                    "MinorBattle": "Слабое-Воин",
+                    "ModerateBattle": "Среднее-Воин",
+                    "MajorBattle": "Сильное-Воин",
+                    "ExtremeBattle": "Экстремальное-Воин",
+                    "MinorSkillful": "Слабое-Умелый",
+                    "ModerateSkillful": "Среднее-Умелый",
+                    "MajorSkillful": "Сильное-Умелый",
+                    "ExtremeSkillful": "Экстремаьное-Умелый",
+                    "MinorSpellcasting": "Слабое-Заклинатель",
+                    "ModerateSpellcasting": "Среднее-Заклинатель",
+                    "MajorSpellcasting": "Сильное-Заклинатель",
+                    "ExtremeSpellcasting": "Экстремальное-Заклинатель"
+                },
+                "MinorFailure": "Ваше проклятие мешает этому действию и вы должны совершить @Check[type:flat|dc:4|showDC:all]",
+                "ModerateFailure": "Ваше проклятие мешает этому действию и вы должны совершить @Check[type:flat|dc:6|showDC:all]",
+                "MajorFailure": "Ваше проклятие мешает этому действию и вы должны совершить @Check[type:flat|dc:8|showDC:all]"
+            },
+            "Battle": {
+                "MadeAStrike": "Вы нанесли Удар в этом раунде",
+                "NonTrivialEncounter": "Это нетривиальное столкновение"
+            },
+            "Bones": {
+                "ModerateUpgrade": "Когда вы выбрасываете успех при спасброске против эффекта болезни, яда или смерти, вместо этого вы получаете крит.успех.",
+                "MajorUpgrade": " Когда вы выбрасываете крит.провал при спасброске против эффекта болезни, яда или смерти, вместо этого вы получаете провал."
+            },
+            "Label": {
+                "Minor": "Слабое",
+                "Moderate": "Среднее",
+                "Major": "Сильное",
+                "Extreme": "Экстремаьное"
+            },
+            "Life": {
+                "ToggleLabel": "Все цели Исцеления живые существа"
+            },
+            "Time": {
+                "ACLabel": "Защита от реакция или свободных действий во время движения"
+            }
+        },
+        "PersistentDamage": {
+            "Acid1d4": {
+                "success": "[[/r 1d4[persistent,acid]]]",
+                "criticalSuccess": "[[/r 2d4[persistent,acid]]]"
+            },
+            "Acid1d6": {
+                "success": "[[/r 1d6[persistent,acid]]]",
+                "criticalSuccess": "[[/r 2d6[persistent,acid]]]"
+            },
+            "Acid2d6": {
+                "success": "[[/r 2d6[persistent,acid]]]",
+                "criticalSuccess": "[[/r 4d6[persistent,acid]]]"
+            },
+            "Acid2d6+2": {
+                "success": "[[/r (2d6+2)[persistent,acid]]]",
+                "criticalSuccess": "[[/r (2*2d6+4)[persistent,acid]]]"
+            },
+            "Bleed1": {
+                "success": "[[/r 1[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 2[persistent,bleed]]]"
+            },
+            "Bleed2": {
+                "success": "[[/r 2[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 4[persistent,bleed]]]"
+            },
+            "Bleed1d4": {
+                "success": "[[/r 1d4[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 2d4[persistent,bleed]]]"
+            },
+            "Bleed2d4": {
+                "success": "[[/r 2d4[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 4d4[persistent,bleed]]]"
+            },
+            "Bleed8d4": {
+                "success": "[[/r 8d4[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 16d4[persistent,bleed]]]"
+            },
+            "Bleed1d6": {
+                "success": "[[/r 1d6[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 2d6[persistent,bleed]]]"
+            },
+            "Bleed2d6": {
+                "success": "[[/r 2d6[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 4d6[persistent,bleed]]]"
+            },
+            "Bleed3d6": {
+                "success": "[[/r 3d6[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 6d6[persistent,bleed]]]"
+            },
+            "Bleed4d6": {
+                "success": "[[/r 4d6[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 8d6[persistent,bleed]]]"
+            },
+            "Bleed6d6": {
+                "success": "[[/r 6d6[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 12d6[persistent,bleed]]]"
+            },
+            "Bleed1d8": {
+                "success": "[[/r 1d8[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 2d8[persistent,bleed]]]"
+            },
+            "Bleed2d8": {
+                "success": "[[/r 2d8[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 4d8[persistent,bleed]]]"
+            },
+            "Bleed3d8": {
+                "success": "[[/r 3d8[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 6d8[persistent,bleed]]]"
+            },
+            "Bleed4d8": {
+                "success": "[[/r 4d8[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 8d8[persistent,bleed]]]"
+            },
+            "Bleed1d10": {
+                "success": "[[/r 1d10[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 2d10[persistent,bleed]]]"
+            },
+            "Bleed2d10": {
+                "success": "[[/r 2d10[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 4d10[persistent,bleed]]]"
+            },
+            "Bleed3d10": {
+                "success": "[[/r 3d10[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 6d10[persistent,bleed]]]"
+            },
+            "Bleed6d10": {
+                "success": "[[/r 6d10[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 12d10[persistent,bleed]]]"
+            },
+            "Bleed1d12": {
+                "success": "[[/r 1d12[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 2d12[persistent,bleed]]]"
+            },
+            "Bleed2d12": {
+                "success": "[[/r 2d12[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 4d12[persistent,bleed]]]"
+            },
+            "Cold1d6": {
+                "success": "[[/r 1d6[persistent,cold]]]",
+                "criticalSuccess": "[[/r 2d6[persistent,cold]]]"
+            },
+            "Cold2d6": {
+                "success": "[[/r 2d6[persistent,cold]]]",
+                "criticalSuccess": "[[/r 4d6[persistent,cold]]]"
+            },
+            "Cold1d8": {
+                "success": "[[/r 1d8[persistent,cold]]]",
+                "criticalSuccess": "[[/r 2d8[persistent,cold]]]"
+            },
+            "Cold2d8": {
+                "success": "[[/r 2d8[persistent,cold]]]",
+                "criticalSuccess": "[[/r 4d8[persistent,cold]]]"
+            },
+            "Fire1": {
+                "success": "[[/r 1[persistent,fire]]]",
+                "criticalSuccess": "[[/r 2[persistent,fire]]]"
+            },
+            "Fire1d4": {
+                "success": "[[/r 1d4[persistent,fire]]]",
+                "criticalSuccess": "[[/r 2d4[persistent,fire]]]"
+            },
+            "Fire1d6": {
+                "success": "[[/r 1d6[persistent,fire]]]",
+                "criticalSuccess": "[[/r 2d6[persistent,fire]]]"
+            },
+            "Fire2d4": {
+                "success": "[[/r 2d4[persistent,fire]]]",
+                "criticalSuccess": "[[/r 4d4[persistent,fire]]]"
+            },
+            "Fire2d6": {
+                "success": "[[/r 2d6[persistent,fire]]]",
+                "criticalSuccess": "[[/r 4d6[persistent,fire]]]"
+            },
+            "Fire3d6": {
+                "success": "[[/r 3d6[persistent,fire]]]",
+                "criticalSuccess": "[[/r 6d6[persistent,fire]]]"
+            },
+            "Fire2d8": {
+                "success": "[[/r 2d8[persistent,fire]]]",
+                "criticalSuccess": "[[/r 4d8[persistent,fire]]]"
+            },
+            "Fire3d8": {
+                "success": "[[/r 3d8[persistent,fire]]]",
+                "criticalSuccess": "[[/r 6d8[persistent,fire]]]"
+            },
+            "Fire1d10": {
+                "success": "[[/r 1d10[persistent,fire]]]",
+                "criticalSuccess": "[[/r 2d10[persistent,fire]]]"
+            },
+            "Fire2d10": {
+                "success": "[[/r 2d10[persistent,fire]]]",
+                "criticalSuccess": "[[/r 4d10[persistent,fire]]]"
+            },
+            "Fire3d10": {
+                "success": "[[/r 3d10[persistent,fire]]]",
+                "criticalSuccess": "[[/r 6d10[persistent,fire]]]"
+            },
+            "Fire4d10": {
+                "success": "[[/r 4d10[persistent,fire]]]",
+                "criticalSuccess": "[[/r 8d10[persistent,fire]]]"
+            },
+            "Force1d12": {
+                "success": "[[/r 1d12[persistent,force]]]",
+                "criticalSuccess": "[[/r 2d12[persistent,force]]]"
+            },
+            "Force2d12": {
+                "success": "[[/r 2d12[persistent,force]]]",
+                "criticalSuccess": "[[/r 4d12[persistent,force]]]"
+            },
+            "Mental1d4": {
+                "success": "[[/r 1d4[persistent,mental]]]",
+                "criticalSuccess": "[[/r 2d4[persistent,mental]]]"
+            },
+            "Mental1d6": {
+                "success": "[[/r 1d6[persistent,mental]]]",
+                "criticalSuccess": "[[/r 2d6[persistent,mental]]]"
+            },
+            "Mental2d6": {
+                "success": "[[/r 2d6[persistent,mental]]]",
+                "criticalSuccess": "[[/r 4d6[persistent,mental]]]"
+            },
+            "Mental3d6": {
+                "success": "[[/r 3d6[persistent,mental]]]",
+                "criticalSuccess": "[[/r 6d6[persistent,mental]]]"
+            },
+            "Mental1d8": {
+                "success": "[[/r 1d8[persistent,mental]]]",
+                "criticalSuccess": "[[/r 2d8[persistent,mental]]]"
+            },
+            "Negative1d6": {
+                "success": "[[/r 1d6[persistent,negative]]]",
+                "criticalSuccess": "[[/r 2d6[persistent,negative]]]"
+            },
+            "Negative1d8": {
+                "success": "[[/r 1d8[persistent,negative]]]",
+                "criticalSuccess": "[[/r 2d8[persistent,negative]]]"
+            },
+            "Negative1d10": {
+                "success": "[[/r 1d10[persistent,negative]]]",
+                "criticalSuccess": "[[/r 2d10[persistent,negative]]]"
+            },
+            "Negative2d10": {
+                "success": "[[/r 2d10[persistent,negative]]]",
+                "criticalSuccess": "[[/r 4d10[persistent,negative]]]"
+            },
+            "Piercing2d8+8": {
+                "success": "[[/r (2d8+8)[persistent,piercing]]]",
+                "criticalSuccess": "[[/r (2*2d8+16)[persistent,piercing]]]"
+            },
+            "Poison1d4": {
+                "success": "[[/r 1d4[persistent,poison]]]",
+                "criticalSuccess": "[[/r 2d4[persistent,poison]]]"
+            },
+            "Poison2d4": {
+                "success": "[[/r 2d4[persistent,poison]]]",
+                "criticalSuccess": "[[/r 4d4[persistent,poison]]]"
+            },
+            "Poison3d4": {
+                "success": "[[/r 3d4[persistent,poison]]]",
+                "criticalSuccess": "[[/r 6d4[persistent,poison]]]"
+            },
+            "Poison1d6": {
+                "success": "[[/r 1d6[persistent,poison]]]",
+                "criticalSuccess": "[[/r 2d6[persistent,poison]]]"
+            },
+            "Poison2d6": {
+                "success": "[[/r 2d6[persistent,poison]]]",
+                "criticalSuccess": "[[/r 4d6[persistent,poison]]]"
+            },
+            "Poison3d6": {
+                "success": "[[/r 3d6[persistent,poison]]]",
+                "criticalSuccess": "[[/r 6d6[persistent,poison]]]"
+            },
+            "Poison4d6": {
+                "success": "[[/r 4d6[persistent,poison]]]",
+                "criticalSuccess": "[[/r 8d6[persistent,poison]]]"
+            },
+            "Poison1d8": {
+                "success": "[[/r 1d8[persistent,poison]]]",
+                "criticalSuccess": "[[/r 2d8[persistent,poison]]]"
+            },
+            "Poison2d8": {
+                "success": "[[/r 2d8[persistent,poison]]]",
+                "criticalSuccess": "[[/r 4d8[persistent,poison]]]"
+            },
+            "Poison1d12": {
+                "success": "[[/r 1d12[persistent,poison]]]",
+                "criticalSuccess": "[[/r 2d12[persistent,poison]]]"
+            }
+        },
+        "RuleElement": {
+            "ActiveEffectLike": "ActiveEffect-Like",
+            "ActorTraits": "Actor Traits",
+            "AdjustDegreeOfSuccess": "Adjust Degree of Success",
+            "AdjustModifier": "Adjust Modifier",
+            "AdjustStrike": "Adjust Strike",
+            "Aura": "Аура",
+            "BaseSpeed": "Base Speed",
+            "BattleForm": "Battle Form",
+            "ChoiceSet": "Choice Set",
+            "CraftingEntry": "Crafting Entry",
+            "CraftingFormula": "Crafting Formula",
+            "CreatureSize": "Creature Size",
+            "CriticalSpecialization": "Critical Specialization",
+            "DamageDice": "Damage Dice",
+            "DexterityModifierCap": "Dexterity Modifier Cap",
+            "FastHealing": "Fast Healing/Regeneration",
+            "FixedProficiency": "Fixed Proficiency",
+            "FlatModifier": "Бонусы/Штрафы",
+            "GrantItem": "Дать ПРедмет",
+            "Immunity": "Immunity",
+            "LoseHitPoints": "Lose Hit Points",
+            "MarkToken": "Mark Token",
+            "MartialProficiency": "Martial Proficiency",
+            "MultipleAttackPenalty": "ШМА",
+            "Note": "Note",
+            "Resistance": "Resistance",
+            "RollOption": "Roll Option",
+            "RollTwice": "Roll Twice",
+            "Sense": "Sense",
+            "Strike": "Удары",
+            "Striking": "Руна Разящая",
+            "SubstituteRoll": "Substitute Roll",
+            "TempHP": "Temporary Hit Points",
+            "TempHPShortLabel": "Temp",
+            "TokenEffectIcon": "Token Effect Icon",
+            "TokenImage": "Token Image",
+            "TokenLight": "Token Light",
+            "TokenName": "Token Name",
+            "Weakness": "Слабости",
+            "WeaponPotency": "Руна Мощи Оружия",
+            "Unrecognized": "Unrecognized Rule Element"
+        },
+        "RuleEditor": {
+            "FastHealing": {
+                "DeactivatedBy": "Деактивация от"
+            },
+            "FlatModifier": {
+                "HideIfDisabled": "Hide (If Disabled)"
+            },
+            "General": {
+                "Brackets": "Brackets",
+                "DamageType": "Damage Type",
+                "Label": "Label",
+                "Predicate": "Predicate",
+                "Primitive": "Primitive",
+                "Range": "Range",
+                "Selector": "Selector",
+                "Value": "Value",
+                "CriticalBehavior": {
+                    "null": "2x Damage on Crit",
+                    "false": "1x Damage on Crit",
+                    "true": "Critical Damage Only"
+                }
+            },
+            "GrantItem": {
+                "AllowDuplicate": "Allow Duplicates",
+                "ReplaceSelf": "Replace Self",
+                "ReevaluateOnUpdate": "Reevaluate on Update"
+            },
+            "Note": {
+                "Hidden": "Hidden",
+                "Outcome": "Outcome",
+                "Title": "Title",
+                "Text": "Text Content"
+            }
+        },
+        "SkillVariant": {
+            "AboutCaves": "About Caves",
+            "AcidicEnvironment": "In Acidic Surroundings",
+            "AgainstDemons": "Against Demons",
+            "Aid": "To Aid",
+            "AttemptToFascinateOutdoorsInBrightSun": "Using Fascinating Performance Outdoors in Bright Sun",
+            "Blacksmithing": "For Blacksmithing",
+            "BloodOrWater": "In Blood of Water",
+            "BoundHome": "Within Bound Home",
+            "Buried": "Buried",
+            "CanClearlyIdentifyTheStars": "Can Clearly Identify the Stars",
+            "Climb": "Карабкаясь",
+            "ClimbOrSwim": "К Карабкаться/Плыть",
+            "CommandAnAnimal": "К Команда Животному",
+            "CommandReptile": "To Command an Animal that is a Reptile",
+            "CraftBone": "Using Bone",
+            "CraftJewelry": "To Craft Jewelry",
+            "CraftTrap": "To Craft Traps",
+            "CraftTrapSnare": "To Craft Traps and Snares",
+            "CreateForgery": "To Create Forgery",
+            "Dance": "To Dance",
+            "Darkness": "In Darkness",
+            "DecayingPlantFungus": "в Гнили/Грибах",
+            "Demoralize": "To Demoralize",
+            "DemoralizeThreateningLunge": "To Demoralize with Threatening Lunge",
+            "Deserts": "In Deserts",
+            "DimLight": "In Dim Light",
+            "DimLightOrDarkness": "In Dim Light or Darkness",
+            "Disarm": "К Разоружение",
+            "DisarmGrapple": "To Disarm or Grapple",
+            "DisarmGrappleAvoidDisarm": "To Disarm, Grapple, or avoid being Disarmed",
+            "DisarmMetal": "To Disarm a Metal Item",
+            "DisarmStoneMetal": "To Disarm Stone or Metal Objects",
+            "DiscernAndPredictWeather": "Discern Weather Patterns and Predict Upcoming Weather Conditions",
+            "Escape": "To Escape",
+            "Feint": "To Feint",
+            "Forests": "В Лесу",
+            "ForestsOrSwamps": "В Лесу/Болоте",
+            "GatherInformation": "to Gather Information",
+            "Grapple": "To Grapple",
+            "GrappleShove": "To Grapple or Shove",
+            "Hide": "To Hide",
+            "HideSneakInscriptions": "To Hide or Sneak Among Inscriptions",
+            "HideSneakTree": "To Hide or Sneak while in a Tree",
+            "HideInDimOrDark": "To Hide in Dim Light or Darkness",
+            "HighJumpOrLongJump": "To High Jump or Long Jump",
+            "IceAndSnow": "In Ice or Snow",
+            "ImitateStone": "To Imitate Stone",
+            "Impersonate": "To Impersonate",
+            "ImpersonateCloakSheetRay": "To Impersonate a Cloak, Sheet, or Ray",
+            "ImpersonateHumanVersion": "To Impersonate a Human Version of Themselves",
+            "Jungles": "In Jungles",
+            "JunglesOrFlowerFields": "In Jungles or Flower Fields",
+            "JunkOrDebris": "In Junk or Debris",
+            "Lava": "В Лаве",
+            "Lair": "В Логове",
+            "Lie": "To Lie",
+            "LongJump": "To Long Jump",
+            "MakeAnImpression": "To Make an Impression",
+            "ManeuverInFlight": "To Maneuver in Flight",
+            "Mountains": "In Mountains",
+            "Navigate": "To Navigate",
+            "NearTheOcean": "Near The Ocean",
+            "NighttimeWithMoonVisible": "Nighttime, with the Moon Visible",
+            "OceansForests": "In Oceans and Forests",
+            "Orate": "To Orate",
+            "Paint": "To Paint",
+            "Raining": "Raining",
+            "Rocky": "In Rocky Terrain",
+            "RunningWater": "In Running Water",
+            "RustyTerrain": "In Areas of Rusty Objects",
+            "Sand": "In Sand",
+            "SenseMotive": "to Sense Motive",
+            "Sewers": "в Канализации",
+            "Shove": "To Shove",
+            "Singing": "Singing",
+            "Snow": "In Snow",
+            "Steal": "To Steal",
+            "StonyOrIcyAreas": "In Stony or Icy Areas",
+            "StringedInstruments": "For Stringed Instruments",
+            "Squeeze": "To Squeeze",
+            "Subsist": "To Subsist",
+            "Swamps": "In Swamps",
+            "Swim": "To Swim",
+            "TarPit": "In Tar Pits",
+            "TellTheTruth": "To Tell the Truth",
+            "ThickVegetation": "In Thick Vegetation",
+            "TrackBleedingCreature": "To Track a Bleeding Creature",
+            "Track": "To Track",
+            "Traps": "Ловушки",
+            "TrashAndRubbish": "In Trash and Rubbish",
+            "Trip": "To Trip",
+            "TripTangle": "To Trip and Tangle",
+            "Underground": "Underground",
+            "Undergrowth": "в Подлеске",
+            "Underwater": "Underwater",
+            "UnderwaterVegetation": "In Underwater Vegetation",
+            "Vegetation": "In Vegetation",
+            "VsArthropods": "к Членостоногим",
+            "VsControlled": "vs. Controlled effects",
+            "VsDarknessLightShadow": "vs. Darkness, Light or Shadow effects",
+            "VsDiseases": "vs. diseases",
+            "VsEmotion": "vs. Emotion effects",
+            "VsMagic": "vs. Magical effects",
+            "VsMental": "vs. Mental effects",
+            "VsPlants": "vs. Plants",
+            "VsProne": "vs. Prone effects",
+            "VsShoveOrTrip": "vs. Shove or Trip",
+            "Water": "в Воде",
+            "WaterOrMud": "в Воде или Грязи",
+            "Weave": "To Weave",
+            "Woodworking": "Woodworking"
+        },
+        "SpecificRule": {
+            "AdvancedGeneralTraining": {
+                "AllowedDrops": "7th-level or lower general feat",
+                "Prompt": "Select a 7th-level or lower general feat."
+            },
+            "AftermathFeats": {
+                "DormantEruptionToggle": "You've Used Thermal Eruption Today",
+                "StoneFistLabel": "Stone Fist"
+            },
+            "Aid": {
+                "Prompt": "Выберите бонус от Помощь"
+            },
+            "Alchemist": {
+                "AlchemicalCrossbow": {
+                    "Prompt": "Choose a bomb to add to the crossbow."
+                },
+                "ResearchField": {
+                    "Prompt": "Select a research field."
+                }
+            },
+            "AllowedDrops": {
+                "DeityOrPantheon": "deity or pantheon"
+            },
+            "AncestralParagon": {
+                "AllowedDrops": "1st-level ancestry feat",
+                "Prompt": "Select a 1st-level ancestry feat."
+            },
+            "AncientElf": {
+                "AllowedDrops": "multiclass dedication feat",
+                "Prompt": "Select a multiclass dedication feat."
+            },
+            "AnimalSkin": {
+                "BracersOfArmor": "Шкура Животного + Наручи Брони",
+                "ExplorersClothing": "Шкура Животного + Одежда",
+                "MageArmor": "Шкура Доспеха + Магический Доспех"
+            },
+            "Automaton": {
+                "ArcaneLomotion": {
+                    "Prompt": "Select a movement type."
+                },
+                "AutomatonArmament": {
+                    "Prompt": "Select an unarmed strike."
+                },
+                "CoreCannon": {
+                    "AttackNote": "You need to manually apply your highest Potency rune to this attack roll.",
+                    "CriticalHit": "On a critical hit, the target takes [[/r {10}[persistent,fire]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Fire Damage}. Your core cannon does not add critical specialization effects.</p>"
+                },
+                "EnhanceableFeats": {
+                    "ArcaneCamouflage": "Arcane Camouflage",
+                    "ArcaneCommunication": "Arcane Communication",
+                    "ArcaneEye": "Arcane Eye",
+                    "ArcaneLocomotion": "Arcane Locomotion",
+                    "ArcanePropulsion": "Arcane Propulsion",
+                    "ArcaneSafeguards": "Arcane Safeguards",
+                    "ArcaneSlam": "Arcane Slam",
+                    "AstralBlink": "Astral Blink",
+                    "AutomatonArmament": "Automaton Armament",
+                    "AutomatonLore": "Automaton Lore",
+                    "CoreAttunement": "Core Attunement",
+                    "CoreRejuvenation": "Core Rejuvenation",
+                    "EnergyBeam": "Energy Beam",
+                    "EnlargedChassis": "Enlarged Chassis",
+                    "IntegratedArmament": "Integrated Armament",
+                    "LesserAugmentation": "Lesser Augmentation",
+                    "MagicalResistance": "Magical Resistance",
+                    "RainOfBolts": "Rain of Bolts",
+                    "ReinforcedChassis": "Reinforced Chassis"
+                },
+                "Enhancement": {
+                    "ArcaneLocomotionClimbSpeed": "Gain a climb speed",
+                    "ArcaneLocomotionIncreaseSpeed": "Increase speeds",
+                    "ArcaneLocomotionSwimSpeed": "Gain a swim speed",
+                    "AugmentationPrompt": "Select a feat to augment",
+                    "MagicalResistanceAll": "Gain additional Resistances",
+                    "MagicalResistanceIncrease": "Enhance existing resistance",
+                    "EnhancementPrompt": "Choose an enhancement"
+                },
+                "EnergyBeam": {
+                    "CriticalHit": "On a critical hit, the target takes persistent fire damage equal to the number of weapon damage dice. Your eye beam does not add critical specialization effects."
+                },
+                "HunterAutomaton": {
+                    "ToggleLabel": "Running on all fours"
+                },
+                "MagicalResistance": {
+                    "Prompt": "Select a type of energy damage."
+                }
+            },
+            "Barbarian": {
+                "Animal": {
+                    "Prompt": "Выберите Животное"
+                },
+                "Dragon": {
+                    "Prompt": "Выберите Дракона",
+                    "NormalRageDamage": "Обычный урон Ярости"
+                },
+                "Giant": {
+                    "prompt": "Выберите Тип Сопротивления"
+                },
+                "Instinct": {
+                    "Prompt": "Выберите Инстинкт"
+                }
+            },
+            "Bard": {
+                "Muse": {
+                    "Prompt": "Выберите Музу",
+                    "Enigma": "Загадка",
+                    "Maestro": "Маэстро",
+                    "Polymath": "Эрудит",
+                    "Warrior": "Воин"
+                }
+            },
+            "Beastkin": {
+                "AnimalSenses": {
+                    "Prompt": "Выберите Чувство Животного"
+                },
+                "Senses": {
+                    "EcholocationImprecise": "Эхолакция (Неточное, 30)",
+                    "EcholocationPrecise": "Эхолакция (Точное, 30)",
+                    "TremorsenseImprecise": "Виброчувст. (Неточное, 30)",
+                    "TremorsensePrecise": "Виброчувст. (Точное, 30)",
+                    "Scent": "Нюх (Неточное, 30)"
+                }
+            },
+            "BlessingOfDefiance": {
+                "Prompt": "Выберите Спас."
+            },
+            "BonusLabel": {
+                "NegativeOne": "-1",
+                "PlusOne": "+1",
+                "PlusTwo": "+2",
+                "PlusThree": "+3",
+                "PlusFour": "+4"
+            },
+            "BottledOmen": {
+                "Label": "Use your omen"
+            },
+            "BountyHunterDedication": {
+                "GatherInfoHuntedPrey": "To Gather Information regarding hunted prey"
+            },
+            "BrevicNoble": {
+                "Prompt": "Select your Brevic lineage",
+                "Garess": "Garess",
+                "Lebeda": "Lebeda",
+                "Lodovka": "Lodovka",
+                "Medvyed": "Medvyed",
+                "Orlovsky": "Orlovsky",
+                "Surtova": "Surtova"
+            },
+            "CatharticMage": {
+                "EmotionalState": {
+                    "Prompt": "Выберите Эмоцию Катарсиса"
+                },
+                "Love": {
+                    "Toggle": "You cast a spell to benefit your emotional focus"
+                }
+            },
+            "CelestialResistance": {
+                "Prompt": "Select a type of energy associated with your bloodline."
+            },
+            "Champion": {
+                "DivineSmite": {
+                    "Label": "Божественное Наказание"
+                }
+            },
+            "ChromaticArmor": {
+                "Prompt": "Выберите Цвет",
+                "Acid": "Оранж. (Кислота)",
+                "Electricity": "Желтый (Электр.)",
+                "Fire": "Красный (Огонь)",
+                "Force": "Фиолет. (Силовой)",
+                "Mental": "Индиго (Ментал.)",
+                "Poison": "Зеленый (Яд)",
+                "Sonic": "Синий (Звук)"
+            },
+            "Chronoskimmer": {
+                "DestabilizeFailureLabel": "Destabilize timestream (Failure)",
+                "DestabilizeSuccessLabel": "Destabilize timestream (Success)",
+                "StabilizeLabel": "Stabilize timestream"
+            },
+            "ClanWeapon": {
+                "Label": "Clan Weapon",
+                "Prompt": "Select a clan weapon.",
+                "ClanPistol": "Clan Pistol (Ancestry Feat)"
+            },
+            "Cleric": {
+                "Doctrine": {
+                    "Prompt": "Выберите Учение"
+                }
+            },
+            "Conrasu": {
+                "CeremonyEvenedHand": {
+                    "Prompt": "Select an unarmed attack."
+                 },
+                "RiteOfPassage": {
+                    "Note": "When you use the Acrobatics skill to Balance on narrow surfaces or uneven ground within forests, and you roll a success, you get a critical success instead."
+                }
+            },
+            "Convergent": {
+                "Tactics": "An ally with Convergent Tactics is within reach of the target."
+            },
+            "Cover": {
+                "Prompt": "Выберите Укрытие",
+                "Lesser": "Небольшое",
+                "Standard": "Стандартное",
+                "Greater": "Большое",
+                "Prone": "Ничком"
+            },
+            "CriticalDeck" : {
+                "Effect": {
+                 "Label": "Крит.Эффект"
+                }
+            },
+            "DancingShield": {
+                "Prompt": "Select the shield's AC bonus."
+            },
+            "DedicationCraftingEntry": {
+                "Herbalist": "Травник",
+                "FireworkTechnician": "Спец. по Фейерверкам",
+                "Poisoner": "ОТравитель",
+                "Snarecrafter": "Создатель Ловушек",
+                "TalismanDabbler": "Любитель Талисманов"
+            },
+            "Defending": {
+                "FireSpell": "Defending against a fire spell"
+            },
+            "DeityAndCause": {
+                "AllowedDrops": "1st-level champion class feature",
+                "Prompt": "Select a champion's cause"
+            },
+            "DeviantAbilities": {
+                "AwakenedPower": {
+                    "AwakenedLabel": "Awakened",
+                    "BlastingBeamsLine": "Blasting Beams: 60-Foot Line",
+                    "BlastingBeamsAgile": "Blasting Beams: Agile Strikes",
+                    "BoneSpikesReach": "Bone Spikes: Reach",
+                    "BoneSpikesPoison": "Bone Spikes: Poisoned",
+                    "ConsumeEnergyRange": "Consume Energy: Enhance Range",
+                    "ConsumeEnergyStrikes": "Consume Energy: Enhance Strikes",
+                    "DistantWanderingFly": "Distant Wandering: Flight",
+                    "DistantWanderingQuick": "Distant Wandering: Quickened",
+                    "EerieFlickerTerrify": "Eerie Flicker: Terrifying Form",
+                    "EerieFlickerCompress": "Eerie Flicker: Compress Flicker",
+                    "EnervatingWailSilent": "Enervating Wail: Silent Wail",
+                    "EnervatingWailEnfeebling": "Enervating Wail: Enfeebling Wail",
+                    "GhostlyGraspGrab": "Ghostly Grasp: Grab",
+                    "GhostlyGraspPush": "Ghostly Grasp: Push",
+                    "HighSpeedRegenerationDeath": "High-Speed Regeneration: Emergency Regeneration",
+                    "HighSpeedRegenerationSpeed": "High-Speed Regeneration: Speed Boost",
+                    "Prompt": "Select an awakening for a deviant feat.",
+                    "PropulsiveLeapSpeed": "Propulsive Leap: Speed Increase",
+                    "PropulsiveLeapWeapon": "Propulsive Leap: Makeshift Weapon",
+                    "StormingBreathProne": "Storming Breath: Knock Prone",
+                    "StormingBreathEscape": "Storming Breath: Speedy Escape",
+                    "TectonicStompStone": "Tectonic Stomp: Stone Cover",
+                    "TectonicStompStun": "Tectonic Stomp: Stun Foes",
+                    "TitanSwingProne": "Titan Swing: Knockback",
+                    "TitanSwingBleed": "Titan Swing: Bleed"
+                },
+                "BoneSpikes": {
+                    "ReachLabel": "Extend bone spikes",
+                    "StrikeLabel": "Bone Spike"
+                },
+                "Dragon": {
+                    "EnergyPrompt": "Select an energy associated with your dragon abilities"
+                },
+                "TitanSwing": {
+                    "NoteFiveFeet": "The target is pushed back 5 feet.",
+                    "NoteTenFeet": "The target is pushed back 10 feet.",
+                    "NoteFifteenFeet": "The target is pushed back 15 feet.",
+                    "NoteProne": "You push the target back double the normal distance and knock it @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
+                }
+            },
+            "Dhampir": {
+                "Adhyabhau": {
+                    "SaveNote": "When you roll a success on a Will save against an emotion effect, you get a critical success instead."
+                 },
+                "BloodlettingFangs": {
+                    "AttackNote": "Your fangs Strike deals an additional @Localize[PF2E.PD.Bleed.1d4] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage} on a critical hit."
+                }
+            },
+            "DivineAlly": {
+                "AllowedDrops": "champion class feature",
+                "Prompt": "Выберите Божест.Союзника"
+            },
+            "DragonDisciple": {
+                "DragonChoice": {
+                    "Black": "Черный",
+                    "Blue": "Синий",
+                    "Brass": "Латунный",
+                    "Brine": "Водный",
+                    "Bronze": "Бронзовый",
+                    "Cloud": "Облачный",
+                    "Copper": "Медный",
+                    "Crystal": "Кристалл.",
+                    "Forest": "Лесной",
+                    "Gold": "Золотой",
+                    "Green": "Зеленый",
+                    "Magma": "Магматич.",
+                    "Red": "Красный",
+                    "Sea": "Морской",
+                    "Silver": "Серебряный",
+                    "Sky": "Небесный",
+                    "Sovereign": "Монаршский",
+                    "Umbral": "Теневой",
+                    "Underworld": "Подземный",
+                    "White": "Белый"
+                },
+                "ScalesOfTheDragon": {
+                    "BracersOfArmor": "Scales of the Dragon w/ Bracers of Armor",
+                    "ExplorersClothing": "Scales of the Dragon w/ Explorer's Clothing",
+                    "MageArmor": "Scales of the Dragon w/ Mage Armor"
+                },
+                "Prompt": "Выберите Дракона"
+            },
+            "Druid": {
+                "DruidicOrder": {
+                    "Prompt": "Выберите Орден"
+                }
+            },
+            "Dwarf": {
+                "DeathWardenDwarf": {
+                    "Note": "When you roll a success against a necromancy effect, you get a critical success instead."
+                },
+                "ElementalHeart": {
+                    "Prompt": "Pick the type of your Elemental Heart"
+                },
+                "ForgeBlessedShot": {
+                    "Note": "Ignore your target's @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} condition, as well as your target's lesser, standard, and greater cover."
+                },
+                "KneelForNoGod": {
+                    "Note": "When you roll a success against a divine effect, you get a critical success instead."
+                },
+                "RockRunner": {
+                    "Note": "When you use the Acrobatics skill to Balance on narrow surfaces or uneven ground made of stone or earth, you aren't flat-footed, and when you roll a success at one of these Acrobatics checks, you get a critical success instead."
+                },
+                "SparkFist": {
+                    "Note": "Each time you succeed on a fist Strike, you take [[/r (1+@weapon.data.data.runes.striking)[fire]]]{fire damage}."
+                },
+                "TombWatchersGlare": {
+                    "Note": "When you critically hit an undead creature, they are @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 round"
+                },
+                "VengefulHatred": {
+                    "Prompt": "Choose an ancestral foe."
+                }
+            },
+            "Elf": {
+                "BrightnessSeeker": {
+                    "Label": "Call Upon the Brightness",
+                    "Prompt": "Select the outcome of your Augury.",
+                    "Weal": "Weal",
+                    "WealAndWoe": "Weal and Woe",
+                    "Woe": "Woe"
+                },
+                "DemonbaneWarrior": {
+                    "Note": "If your actions force a demon to take damage from its sin vulnerability, increase that damage by [[/r 2]]"
+                },
+                "UnwaveringMien": {
+                    "Note": "Treat your saving throws against effects that would cause you to fall asleep as one degree of success better."
+                },
+                "Woodcraft": {
+                    "Note": "When in a forest or jungle environment, if you roll a critical failure on a Survival skill check to Sense Direction, Subsist, or Cover Tracks, you get a failure instead, and if you roll a success, you get a critical success instead."
+                }
+            },
+            "Equipment": {
+                "BravosBrew": {
+                    "Greater": {
+                        "FearLabel": "Greater Bravo's Brew (Vs. Fear)"
+                    },
+                    "Lesser": {
+                        "FearLabel": "Lesser Bravo's Brew (Vs. Fear)"
+                    },
+                    "Moderate": {
+                        "FearLabel": "Moderate Bravo's Brew (Vs. Fear)"
+                    }
+                },
+                "EagleEyeElixir": {
+                    "Greater": {
+                        "SecretLabel": "Greater Eagle Eye Elixir (To Find Secret Doors or Traps)"
+                    },
+                    "Lesser": {
+                        "SecretLabel": "Lesser Eagle Eye Elixir (To Find Secret Doors or Traps)"
+                    },
+                    "Major": {
+                        "SecretLabel": "Major Eagle Eye Elixir (To Find Secret Doors or Traps)"
+                    },
+                    "Moderate": {
+                        "SecretLabel": "Moderate Eagle Eye Elixir (To Find Secret Doors or Traps)"
+                    }
+                },
+                "NosoiCharm": {
+                    "RequestLabel": "Nosoi Charm (Request)",
+                    "PerformanceLabel": "Nosoi Charm (Play an instrument, orate or sing)"
+                },
+                "PhantomShroud": {
+                    "StrikeLabel": "Ghostly Hand"
+                }
+            },
+            "Fetchling": {
+                "DeepFetchling": {
+                    "Prompt": "Select a type of energy to resist"
+                }
+            },
+            "Fighter": {
+                "DoubleSlice": {
+                    "SecondAttackLabel": "Double Slice Second Attack"
+                }
+            },
+            "FighterWeaponMasteryLegend": {
+                "Advanced": {
+                    "axe": "Продвинутые Топоры",
+                    "bomb": "Продвинутые Бомбы",
+                    "bow": "Продвинутые Луки",
+                    "brawling": "Продвинутая Драка",
+                    "club": "Продвинутые Дубинки",
+                    "dart": "Продвинутые Дротик",
+                    "firearm": "Продвинутый Огнестрел",
+                    "flail": "Продвинутые Цепы",
+                    "hammer": "Продвинутые Молты",
+                    "knife": "Продвинутые Ножи",
+                    "pick": "Продвинутые Клевцы",
+                    "polearm": "Продвинутые Древковые",
+                    "shield": "Продвинутые Щиты",
+                    "sling": "Продвинутые Пращи",
+                    "spear": "Продвинутые Копья",
+                    "sword": "Продвинутые Мечи"
+                },
+                "SimpleMartial": {
+                    "axe": "Простые/Воинские Топоры",
+                    "bomb": "Простые/Воинские Бомбы",
+                    "bow": "Простые/Воинские Луки",
+                    "brawling": "Простая/Воинская Драка",
+                    "club": "Простые/Воинские Дубинки",
+                    "dart": "Простые/Воинские Дротик",
+                    "firearm": "Простой/Воинский Огнестрел",
+                    "flail": "Простые/Воинские Цепы",
+                    "hammer": "Простые/Воинские Молты",
+                    "knife": "Простые/Воинские Ножи",
+                    "pick": "Простые/Воинские Клевцы",
+                    "polearm": "Простые/Воинские Древковые",
+                    "shield": "Простые/Воинские Щиты",
+                    "sling": "Простые/Воинские Пращи",
+                    "spear": "Простые/Воинские Копья",
+                    "sword": "Простые/Воинские Мечи"
+                }
+            },
+            "Fleshwarp": {
+                "CoatingOfSlime": {
+                    "CriticalHit": "On a critical hit, the target takes [[/r {1d4}[persistent,acid]]]  @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Acid Damage}."
+                },
+                "LivingWeapon": {
+                    "Prompt": "Select a part of your form to use as a weapon."
+                },
+                "MutateWeapon": {
+                    "Target": "Select one of your living weapons.",
+                    "Bonus": "Select a bonus",
+                    "Reach": "Gain reach 10",
+                    "Accuracy": "Gain +1 status bonus to attacks"
+                }
+            },
+            "FollowTheExpert": {
+                "Prompt": "Select expert's proficiency in skill"
+            },
+            "GameHunterDedication": {
+                "TargetHuntedPrey": "Target is your Hunted Prey (Animal, Beast, or Dragon Only)"
+            },
+            "GeneralTraining": {
+                "AllowedDrops": "1st-level general feat",
+                "Prompt": "Select a 1st-level general feat."
+            },
+            "Ganzi": {
+                "Irrepressible": {
+                    "SaveNote": "When you roll a success on a save against an emotion or fear effect, you get a critical success instead."
+                }
+            },
+            "Ghoul": {
+                "FullySatiated": "Fully Satiated",
+                "Satiated": "Satiated",
+                "SickeningBite": {
+                    "criticalSuccess": "When you critically hit a creature with your jaws, the creature is @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}. This is a disease effect.",
+                    "success": "You can end your satiation to make the target @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened 1}"
+                }
+            },
+            "Gnome": {
+                "GrimInsight": {
+                    "SaveNote": "When you roll a success on a saving throw against a fear effect, you get a critical success instead, and the source of the fear effect is @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} to you until the end of your next turn."
+                }
+            },
+            "Goblin": {
+                "ExtraSquishy": {
+                    "Note": "If you roll a success to Squeeze, you get a critical success instead."
+                },
+                "RecklessAbandon": {
+                    "Note": "If you roll a failure or critical failure on a saving throw against a harmful effect, you get a success instead."
+                },
+                "TorchGoblin": {
+                    "Note": "As long as you are suffering persistent fire damage, all your melee attacks against adjacent creatures deal an additional [[/r {1}[fire]]]{1 Fire Damage} per weapon damage die."
+                }
+            },
+            "Gunslinger": {
+                "Way": {
+                    "Prompt": "Выберите Путь"
+                }
+            },
+            "HalfElf": {
+                "EarnedGlory": {
+                    "Note": "If you roll a critical failure when you Make an Impression on an elf, you get a failure instead."
+                }
+            },
+            "Halfling": {
+                "Innocuous": {
+                    "Note": "If you fail a Deception check to Create a Diversion, humanoid creatures aren't aware that you were trying to trick them unless you get a critical failure on your roll."
+                },
+                "KeenEyes": {
+                    "Label": "Seek Hidden or Undetected Creature Within 30 Feet"
+                },
+                "SureFeet": {
+                    "BalanceNote": "If you roll a success on an Acrobatics check to Balance, you get a critical success instead. You're not flat-footed when you attempt to Balance.",
+                    "ClimbNote": "If you roll a success on an Athletics check to Climb, you get a critical success instead. You're not flat-footed when you attempt to Climb."
+                }
+            },
+            "HarrowDeck": {
+                "Prompt": "Select a Harrow Suit",
+                "HarrowSuits": {
+                    "Books": "Books",
+                    "Crowns": "Crowns",
+                    "Hammers": "Hammers",
+                    "Keys": "Keys",
+                    "Shields": "Shields",
+                    "Stars": "Stars"
+                }
+            },
+            "Hobgoblin": {
+                "AgonizingRebuke": {
+                    "Note": "When you successfully Demoralize a foe, that foe takes [[/r {1d4}[mental]]]{1d4 mental damage} at the start of each of its turns as long as it remains Frightened and continues to engage in combat with you. If you have master proficiency in Intimidation, the damage increases to [[/r {2d4}[mental]]]{2d4}, and if you have legendary proficiency, the damage increases to [[/r {3d4}[mental]]]{3d4}."
+                },
+                "CantorianReinforcement": {
+                    "Note": "When you succeed at a saving throw against a disease or poison, you reduce the stage by 2 (or 1 for a virulent disease or poison), and when you critically succeed, you reduce the stage by 3 (or 2 for a virulent disease or poison)."
+                },
+                "WarConditioning": {
+                    "Prompt": "Select a movement type."
+                }
+            },
+            "HouseOfPerfection": {
+                "Label": "House of Perfection",
+                "Prompt": "Select a House of Perfection.",
+                "UnblinkingFlame": "Unblinking Flame",
+                "UnbreakingWaves": "Unbreaking Waves",
+                "UnfoldingWind": "Unfolding Wind",
+                "UntwistingIron": "Untwisting Iron"
+            },
+            "Human": {
+                "SaocAstrology": {
+                    "Prompt": "Select the circumstance penalty or bonus you obtained when using the Saoc Astrology action."
+                },
+                "VikingShieldbearer": {
+                    "Prompt": "Select a weapon to become trained in."
+                },
+                "WitchWarden": {
+                    "SaveNote": " If you roll a success on a saving throw against a curse or a spell cast by a witch or hag, you get a critical success instead."
+                }
+            },
+            "HuntPrey": {
+                "TargetHuntedPrey": "Target is your Hunted Prey",
+                "SeekHuntedPrey": "To Seek hunted prey",
+                "TrackHuntedPrey": "To Track hunted prey",
+                "FirstHitDamage": "First Hit on Hunted Prey",
+                "FirstHitSwitch": "Hitting Hunted Prey for the First Time This Round"
+            },
+            "Inventor": {
+                "Innovation": {
+                    "Prompt": "Select an innovation.",
+                    "Armor": {
+                        "AllowedDrops": "level-zero unique armor",
+                        "Prompt": "Select an armor innovation."
+                    },
+                    "Construct": {
+                        "Prompt": "Select a construct innovation."
+                    },
+                    "Weapon": {
+                        "AllowedDrops": "level 0 or 1 simple or martial weapon",
+                        "Prompt": "Select a weapon innovation."
+                    }
+                },
+                "Modification": {
+                    "Initial": {
+                        "AllowedDrops": "1st-level inventor class feature",
+                        "Prompt": "Select an initial modification."
+                    }
+                }
+            },
+            "Investigator": {
+                "Methodology": {
+                    "Prompt": "Выберите Методику"
+                },
+                "PursueALead": {
+                    "Label": "Investigating a designated subject with Pursue a Lead"
+                }
+            },
+            "Kobold": {
+                "DragonsPresence": {
+                    "Note": "When you roll a success on a saving throw against a fear effect, you get a critical success instead. When you roll a failure against a fear effect, you get a critical failure instead."
+                },
+                "DragonbloodParagon": {
+                    "Dracomancer": "Дракомант",
+                    "KoboldBreath": "Kobold Breath",
+                    "StrongjawKobold": "Strongjaw Kobold",
+                    "VenomtailKobold": "Venomtail Kobold"
+                }
+            },
+            "Leshy": {
+                "Seedpod": {
+                    "Note": "On a critical hit, a seedpod bursts, issuing forth a tangle of vegetation that imposes a -10-foot circumstance penalty on the target's Speed for 1 round."
+                },
+                "ThornedSeedpod": {
+                    "Note": "When you critically succeed at a seedpod Strike, vines twist and stab your foe, dealing [[/r {1d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Piercing Damage}"
+                }
+            },
+            "Lich": {
+                "HandOfTheLich": {
+                    "Note": "The creature is @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} until the end of your next turn unless it succeeds at a @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)] save against your spell DC."
+                }
+            },
+            "LitCandle": "Свеча горит",
+            "LitTorch": "Факел горит",
+            "Lizardfolk": {
+                "ParthenogenicHatchling": {
+                    "Note": "Each of your successful saving throws against a disease reduces its stage by 2, or by 1 for a virulent disease. Each critical success against an ongoing disease reduces its stage by 3, or by 2 for a virulent disease."
+                },
+                "GuidedByTheStars": {
+                    "Prompt": "Select saving throw or skill."
+                }
+            },
+            "MagicalExperiment": {
+                "EnhancedSenses": "Enhanced Senses",
+                "ResistantSkin": "Resistant Skin",
+                "TouchTelepathy": "Телепатия: Касание"
+            },
+            "Magus": {
+                "ArcaneCascade": {
+                    "WeaponDamage": "Урон Оружия"
+                },
+                "HybridStudy": {
+                    "Prompt": "Выберите Гибридное Обучение"
+                },
+                "SparklingTarge": {
+                    "DefendingLabel": "Defending against magic"
+                }
+            },
+            "MarkForDeath": {
+                "TargetMark": "Target is Marked for Death",
+                "SeekMark": "To Seek your Mark",
+                "DeceiveMark": "To use Deception to Feint your Mark"
+            },
+            "MartialProficiency": {
+                "AdvancedAzarketiWeapons": "Продвинутое Оружие Азартеков",
+                "AdvancedCatfolkWeapons": "Продвинутое Оружие Ктолюдей",
+                "AdvancedConrasuWeapons": "Продвинутое Оружие Конрасу",
+                "AdvancedDwarfWeapons": "Продвинутое Оружие Дварфов",
+                "AdvancedElfWeapons": "Продвинутое Оружие Эльфов",
+                "AdvancedFirearmsCrossbows": "Продвинутые Огнестрел./Арбалеты",
+                "AdvancedGeniekinWeapons": "Продвинутое Оружие Джинникинов",
+                "AdvancedGhoranWeapons": "Продвинутое Оружие Азартеков Ghoran",
+                "AdvancedGnollWeapons": "Продвинутое Оружие Гноллов",
+                "AdvancedGnomeWeapons": "Продвинутое Оружие Гномов",
+                "AdvancedGoblinWeapons": "Продвинутое Оружие Гоблинов",
+                "AdvancedGrippliWeapons": "Продвинутое Оружие Гриппли",
+                "AdvancedGroup": {
+                    "axe": "Продвинутые Топоры",
+                    "bomb": "Продвинутые Бомбы",
+                    "bow": "Продвинутые Луки",
+                    "brawling": "Продвинутая Драка",
+                    "club": "Продвинутые Дубинки",
+                    "dart": "Продвинутые Дротик",
+                    "firearm": "Продвинутый Огнестрел",
+                    "flail": "Продвинутые Цепы",
+                    "hammer": "Продвинутые Молты",
+                    "knife": "Продвинутые Ножи",
+                    "pick": "Продвинутые Клевцы",
+                    "polearm": "Продвинутые Древковые",
+                    "shield": "Продвинутые Щиты",
+                    "sling": "Продвинутые Пращи",
+                    "spear": "Продвинутые Копья",
+                    "sword": "Продвинутые Мечи"
+                },
+                "AdvancedHalflingWeapons": "Продвинутое Оружие Полуросликов",
+                "AdvancedHobgoblinWeapons": "Продвинутое Оружие Хобгоблинов",
+                "AdvancedKoboldWeapons": "Продвинутое Оружие Кобольдов",
+                "AdvancedOrcWeapons": "Продвинутое Оружие Орков",
+                "AdvancedTenguWeapons": "Продвинутое Оружие Тэнгу",
+                "AdvancedVanaraWeapons": "Продвинутое Оружие Азартеков Vanara",
+                "AdvancedVishkanyaWeapons": "Продвинутое Оружие Азартеков Vishkanya",
+                "MartialAzarketiWeapons": "Воинское Оружие Азартеков",
+                "MartialBombsFirearms": "Воинские Бомбы/Огнестрел.",
+                "MartialCatfolkWeapons": "Воинское Оружие Котолюдей",
+                "MartialConrasuWeapons": "Воинское Оружие Конрасу",
+                "MartialDwarfWeapons": "Воинское Оружие Дварфов",
+                "MartialElfWeapons": "Воинское Оружие Эльфов",
+                "MartialFirearmsCrossbows": "Воинские Огнестрел./Арбалеты",
+                "MartialGeniekinWeapons": "Воинское Оружие Джинникинов",
+                "MartialGhoranWeapons": "Воинское Оружие Азартеков Ghoran",
+                "MartialGnollWeapons": "Воинское Оружие Гноллов",
+                "MartialGnomeWeapons": "Воинское Оружие Гномов",
+                "MartialGoblinWeapons": "Воинское Оружие Гоблинов",
+                "MartialGrippliWeapons": "Воинское Оружие Гриппли",
+                "MartialGroup": {
+                    "axe": "Воинские Топоры",
+                    "bomb": "Воинские Бомбы",
+                    "bow": "Воинские Луки",
+                    "brawling": "Воинская Драка",
+                    "club": "Воинские Дубинки",
+                    "dart": "Воинские Дротик",
+                    "firearm": "Воинский Огнестрел",
+                    "flail": "Воинские Цепы",
+                    "hammer": "Воинские Молты",
+                    "knife": "Воинские Ножи",
+                    "pick": "Воинские Клевцы",
+                    "polearm": "Воинские Древковые",
+                    "shield": "Воинские Щиты",
+                    "sling": "Воинские Пращи",
+                    "spear": "Воинские Копья",
+                    "sword": "Воинские Мечи"
+                },
+                "MartialHalflingWeapons": "Воинское Оружие Полуросликов",
+                "MartialHobgoblinWeapons": "Воинское Оружие Хобгоблинов",
+                "MartialKoboldWeapons": "Воинское Оружие Кобольдов",
+                "MartialOrcWeapons": "Воинское Оружие Орков",
+                "MartialTenguWeapons": "Воинское Оружие Тэнгу",
+                "MartialVanaraWeapons": "Воинское Оружие Азартеков Vanara",
+                "MartialVishkanyaWeapons": "Воинское Оружие Азартеков Vishkanya",
+                "MonasticArchery": "Монашенские Луки",
+                "SimpleBombsFirearms": "Простые Бомбы/Огнестрел.",
+                "SimpleFirearmsCrossbows": "Простые Огнестрел./Арбалеты",
+                "SimpleMartialTwoHandedMeleeWeapons": "Простые/Воинские Двуручные Оружия Ближнего Боя",
+                "SimpleMartialBows": "Простые/Воинские Луки"
+            },
+            "MechanicalTorch": {
+                "LitCone": "Mechanical torch is lit (cone)",
+                "LitRadius": "Mechanical torch is lit (radius)"
+            },
+            "Monk": {
+                "OneInchPunch": {
+                    "ThreeActionLabel": "One Inch Punch (Three Actions)",
+                    "TwoActionLabel": "One Inch Punch (Two Actions)"
+                },
+                "SacredKi": {
+                    "Prompt": "Выберите Тип Урона" 
+                    },
+                    "StunningFist": {
+                        "Note": "Цель должна пройти Спас.@Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.monk.value)|traits:incapacitation|overrideTraits:true]{СТК} с вашим КС Класа или быть @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлен 1} (или @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлен 3} при крит.провале)."
+                    }
+                },
+            "MountainStance": {
+                "BracersOfArmor": "Стойка Горы + Наручи Брони",
+                "ExplorersClothing": "Стойка Горы + Одежда",
+                "MageArmor": "Стойка Горы + Магический Доспех"
+            },
+            "Multitalented": {
+                "AllowedDrops": "2nd-level multiclass dedication feat",
+                "Prompt": "Select a multiclass dedication feat."
+            },
+            "Mummy": {
+                "AccursedTouch": {
+                    "Note": {
+                        "Base": "Цель получает [[/r {2d6}[persistent,negative]]]. Пока существо получает этот продолжительный урон, оно также @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманено 1}.",
+                        "FourteenthLevel": "Цель получает [[/r {3d6}[persistent,negative]]]. Пока существо получает этот продолжительный урон, оно также @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманено 1}.",
+                        "TwentiethLevel": "Цель получает [[/r {4d6}[persistent,negative]]]. Пока существо получает этот продолжительный урон, оно также @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманено 1}."
+                    }
+                },
+                "Terrain": {
+                    "Arctic": "Арктика",
+                    "Desert": "Пустыня",
+                    "Mountain": "Горы",
+                    "Prompt": "Выберите Единение с Землей",
+                    "Swamp": "Болото"
+                }
+            },
+            "Nagaji": {
+                "VenomSpit": {
+                    "CriticalNote": "The target takes [[/r (1+@weapon.system.runes.striking)[persistent,poison]]]{persistent poison damage} equal to the number of weapon damage dice",
+                    "HoodedNote": "The target is also @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Dazzled} until the start of your next turn.",
+                    "StrikeLabel": "Venomous Spit"
+                }
+            },
+            "Oracle": {
+                "Mystery": {
+                    "Prompt": "Выберите Таинство"
+                }
+            },
+            "PackAttack": {
+                "Label": "Target is Within Range of At Least Two Allies"
+            },
+            "PreciseStrike": {
+                "Finisher": "Финишер"
+            }, 
+            "Prompt": {
+                "AdvancedMulticlassFeat": "Select a class feat up to half your character level.",
+                "CantripOrNonCantrip": "Select cantrip or non-cantrip spell.",
+                "ClassDCAbilityScore": "Select the class DC's ability score.",
+                "ConsciousMind": "Select a Conscious Mind.",
+                "CreatureSize": "Select a creature size.",
+                "DamageType": "Select a damage type.",
+                "Deity": "Select a deity.",
+                "DeitysDomain": "Select a deity's domain.",
+                "DragonBreathWeapon": "Select a dragon's Breath Weapon.",
+                "Element": "Select an element.",
+                "EnergyType": "Select an energy type.",
+                "EvolutionFeat": "Select your first Evolution Feat.",
+                "Feat": "Select a feat.",
+                "FirstImplement": "Select your first Implement.",
+                "Lesson": "Select a lesson.",
+                "LevelOneClassFeat": "Select a 1st-level class feat.",
+                "LevelOneOrTwoClassFeat": "Select a 1st or 2nd-level class feat.",
+                "Material": "Select a material.",
+                "PathToPerfection": "Select a path to perfection.",
+                "SecondImplement": "Select your second Implement.",
+                "Shillelagh": "Select a club or staff.",
+                "Skill": "Выберите Навык",
+                "SkillFeat": "Выберите Способ.НАвыка",
+                "SubconsciousMind": "Select a Subconscious Mind.",
+                "ThirdImplement": "Select your third Implement.",
+                "UnarmedAttack": "Select an unarmed attack.",
+                "Weapon": "Select a weapon.",
+                "WeaponGroup": "Select a weapon group.",
+                "WeaponOrUnarmed": "Select a weapon or unarmed strike.",
+                "WildShape": "Select a form effect."
+            },
+            "Orc": {
+                "HoldMark": {
+                    "Axe": "Axe (Axe or Pick).",
+                    "Shield": "Shield (Hammer or Shield).",
+                    "Torch": "Torch (Bomb or Knife).",
+                    "Prompt": "Choose the shape of your hold mark."
+                },
+                "OrcWarmask": {
+                    "Gods": "The Gods",
+                    "Land": "The Land",
+                    "Magic": "Magic",
+                    "Prompt": "Choose the source of your warmask's power.",
+                    "Unknown": "The Unknown"
+                }
+            },
+            "OverwhelmingBlow": {
+                "CriticalHit": "Critically hit with Overwhelming Blow"
+            },
+            "Poppet": {
+                "WashOut": {
+                    "Note": "Each time you succeed at a Fortitude save against an ongoing poison, you reduce its stage by 2, or by 1 against a virulent poison. Each critical success you achieve against an ongoing poison reduces its stage by 3, or by 2 against a virulent poison."
+                }
+            },
+            "Psychic": {
+                "UnleashPsyche": {
+                    "DamageLabel": "Casting a spell from Psychic Spellcasting"
+                }
+            },
+            "Ranger": {
+                "HamstringingStrike": {
+                    "Note": "If you hit your prey, the creature takes a -5-foot status penalty to Speed. If you critically hit your prey, the creature takes a -10-foot status penalty to Speed.\n@UUID[Compendium.pf2e.feat-effects.ESnzqtwSgahLcxg2]{Effect: Hamstringing Strike}",
+                    "Prompt": "Select a hit result."
+                },
+                "HuntersEdge": {
+                    "Prompt": "Выберите Преимущество Охотника"
+                }
+            },
+            "Ratfolk": {
+                "LabRat": {
+                    "Note": "If you roll a success on your saving throw against an elixir or poison, you get a critical success instead."
+                },
+                "WarrenNavigator": {
+                    "Note": "When you Sense Direction, you get a result one degree of success better than you rolled."
+                }
+            },
+            "Rogue": {
+                "EldritchTrickster": {
+                    "Prompt": "Выберите Мультикласс с Заклинательством"
+                },
+                "Racket": {
+                    "Prompt": "Выберите Род Деятельности"
+                },
+                "TrainSkill": {
+                    "Prompt": "Выберите навык для обучения"
+                }
+            },
+            "Shisk": {
+                "PiercingQuills": {
+                    "Note": "Your quills unarmed attack deals @Localize[PF2E.PD.Bleed.1d4] on a critical hit."
+                }
+            },
+            "Shoony": {
+                "EsteemedVisitor": {
+                    "Note": "While you are in a settlement, when you roll a critical failure on a Diplomacy check to Gather Information or Make an Impression, you get a failure instead."
+                },
+                "FishseekerShoony": {
+                    "Note": "If you roll a success on an attempt to Grab an Edge, you get a critical success instead; if you roll a critical failure, you get a failure instead."
+                }
+            },
+            "SkillMastery": {
+                "AllowedDrops": "Skill Feats",
+                "ExpertPrompt": "Select a skill to become expert in.",
+                "MasterPrompt": "Select a skill to become master in."
+            },
+            "SneakAttack": "Внезапная Атака",
+            "SnipersAim": {
+                "Note": "Ignore the target's Concealed condition."
+            },
+            "SnipingDuoDedication": {
+                "Label": "Sniping Duo partner hit target with a strike this round"
+            },
+            "Sorcerer": {
+                "Bloodline": {
+                    "Prompt": "Выберите Наследие Крови"
+                }
+            },
+            "SpecialtyCrafting": {
+                "Alchemy": "Алхимия",
+                "Artistry": "Художество",
+                "Blacksmithing": "Кузнечное Дело",
+                "Bookmaking": "Изготовление Книг",
+                "Glassmaking": "Производство Стекла",
+                "Leatherworking": "Кожевничество",
+                "Pottery": "Гончарное Дело",
+                "Prompt": "Выберите Специализацию",
+                "Shipbuilding": "Кораблестроение",
+                "Stonemasonry": "Каменная Кладка",
+                "Tailoring": "Портняжное Дело",
+                "Weaving": "Ткачество",
+                "Woodworking": "Деревообработка"
+            },
+            "SpellEffectProtection": {
+                "Prompt": "Choose which alignment trait you are protecting against."
+            },
+            "SpellmastersResilience": {
+                "Prompt": "Select a magical tradition to gain resistence in."
+            },
+            "Sprite": {
+                "LuminousSprite": {
+                    "Light": "Излучать Свет"
+                },
+                "SpritesSpark": {
+                    "Draxie": "Эйфорическая Искра",
+                    "LuminousSprite": "Светящаяся Искра",
+                    "Grig": "Диссонирующая Искра",
+                    "Melixie": "Жалящий Бросок",
+                    "Nyktera": "Импульс Ультразвука",
+                    "Pixie": "Пыль Пикси"
+                }
+            },
+            "Stance": {
+                "Attack": {
+                    "WolfJaws": "Пасть Волка"
+                }
+            },
+            "SterlingDynamo": {
+                "AutomaticPercussive": "Automatic Percussive Striker Dynamo",
+                "AutomaticPower": "Automatic Power Driver Dynamo",
+                "Label": "Sterling Dynamo",
+                "ManualPercussive": "Manual Percussive Striker Dynamo",
+                "ManualPower": "Manual Power Driver Dynamo"
+            },
+            "Swashbuckler": {
+                "Style": {
+                    "Prompt": "Выберите Стиль"
+                }
+            },
+            "SoulWarden": {
+                "SafeguardSoul": {
+                    "Label": "Defending against manipulation of your soul"
+                },
+                "SpiralSworn": {
+                    "Label": "Target possesses an imprisoned soul or has created undead"
+                },
+                "UndeadNearby": "Undead Nearby"
+            },
+            "SubstituteRoll": {
+                "Assurance": "Assurance",
+                "EffectType": "{type} ({substitution})"
+            },
+            "Suli": {
+                "Dualborn": {
+                    "FirstElement": "Pick your first element.",
+                    "SecondElement": "Pick your second element."
+                },
+                "ElementalAssault": {
+                    "Prompt": "Select an element."
+                }
+            },
+            "Target": {
+                "Necromancer": "Target is a necromancer"
+            },
+            "TerrainExpertise": {
+                "Prompt": "Select a terrain to gain expertise"
+            },
+            "Thaumaturge": {
+                "Implement": {
+                    "Amulet": "Амулет",
+                    "Bell": "Колокол",
+                    "Chalice": "Чаша",
+                    "Lantern": "Фонарь",
+                    "Mirror": "Зеркало",
+                    "Regalia": "Регалия",
+                    "Tome": "Фолиант",
+                    "Wand": "Волшебная Палочка",
+                    "Weapon": "Оружие"
+                },
+                "TalismanEsoterica": "Талисманы Эзотерика"
+            },
+            "ToggleProperty": {
+                "Triangulate": "Spotter can see target",
+                "GourdHead": "Gourd Head: Increase perception DC",
+                "TagTeam": "Flanking with another member of the Secret Society"
+            },
+            "TOTMToggle": {
+                "FirstRangeIncrement": "Enable abilities that require a target within the first range increment.",
+                "FlatFooted": "Enable abilities that require a flat-footed target",
+                "Incorporeal": "Enable abilities that require an incorporeal target",
+                "Vampire": "Enable abilities that require a vampire target",
+                "Undead": "Enable abilities that require an undead target"
+            },
+            "TrapFinder": {
+                "DefendingLabel": "Trap Finder (defending against traps)",
+                "SearchLabel": "Trap Finder (searching for traps)"
+            },
+            "TrinityGeodeLabel": "Trinity Geode",
+            "TwoHanded": {
+                "BastardSword": "Меч-Бастард в 2 Руках",
+                "BattleLute": "Боевая Лютня в 2 Руках",
+                "Broom": "Метла в 2 Руках",
+                "Cane": "Трость в 2 Руках",
+                "Katana": "Катана в 2 Руках",
+                "Khakkhara": "Use Khakkhara Two-Handed",
+                "ReinforcedStock": "Усиленный Приклад в 2 Руках",
+                "RhokaSword": "Меч Рока в 2 Руках",
+                "Staff": "Посох в 2 Руках"
+            },
+            "UndeadSlayer": {
+                "SlayersBlessing": {
+                    "Note": "Цель впадает в @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D] на 1 раунд."
+                }
+            },
+            "Vampire": {
+                "ViciousFangs": {
+                    "Note": {
+                        "Base": "Ваши Клыки наносят доп.@Localize[PF2E.PD.Bleed.1d6].",
+                        "FourteenthLevel": "Ваши Клыки наносят доп.@Localize[PF2E.PD.Bleed.2d6].",
+                        "TwentiethLevel": "Ваши Клыки наносят доп.@Localize[PF2E.PD.Bleed.3d6]."
+                    }
+                }
+            },
+            "VirtuosicPerformer": {
+                "Acting": "Актерская Игра",
+                "Comedy": "Комедия",
+                "Dance": "Танец",
+                "Keyboards": "Клавишные",
+                "Oratory": "Красноречие",
+                "Percussion": "Перкуссия",
+                "Prompt": "Выбрать Выступление",
+                "Singing": "Пение",
+                "Strings": "Струнные",
+                "Winds": "Духовые"
+            },
+                "Vishkanya": {
+                    "VenomResistantVishkanya": {
+                        "PoisonSaveNote": "Each of your successful saving throws against a poison affliction reduces its stage by 2. Each critical success against an ongoing poison reduces its stage by 3.",
+                        "VirulentSaveNote": "Each of your successful saving throws against a virulent poison affliction reduces its stage by 1. Each critical success against an ongoing virulent poison reduces its stage by 2."
+                    }
+                },
+                "VitalityManipulationStance": {
+                    "StrikeLabel": "Vitality Blast",
+                    "Note": "When you use Stunning Fist, instead of saving against being stunned, you can choose to have the target make a @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)] save against your class DC with the following results. You must choose to do this before the target rolls its save.</p><hr><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target's muscles become temporarily weaker. For 1 round, the target is @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Enfeebled 2}, and any time it attempts to take an action with the manipulate trait, the action is disrupted unless it succeeds at a flat check with a DC equal to 5 + its enfeebled value.</p><p><strong>Failure</strong> As success, but the duration is 1 minute.</p><p><strong>Critical Failure</strong> As success, but the duration is 1 minute, the flat check is DC 11, and the target takes -10-foot status penalty to all Speeds for the duration.</p>"
+                },
+            "WardenHuman": {
+                "HitPoints": "4 Hit Points",
+                "Fortitude": "Expert in Fortitude saves",
+                "MediumArmor": "Trained in Medium Armor"
+            },
+            "WardingRune": {
+                "Prompt": "Choose a school of magic other than divination"
+            },
+                "WellspringMage": {
+                    "CriticalSuccess": "You temporarily recover an expended spell slot of any level of your choice. The temporary spell slot lasts for 1 minute, and if you don't use it by then, you experience an immediate @UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surge}.",
+                    "Failure": "You generate a @UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surge}, with a spell level chosen randomly among your top three levels of spell slots (or all your levels if you have fewer than three)",
+                    "Initiative": "When you roll initiative for a non-trivial combat encounter, as well as in other high-stress situations of the GM's choice, magic wells up within you. Attempt a @Check[type:flat|dc:6|traits:wellspring-magic] Check check.",
+                    "Success": "You temporarily recover an expended spell slot of a spell level chosen randomly among your top three levels of spell slots (or all your levels if you have fewer than three). The temporary spell slot lasts for 1 minute, and if you don't use it by then, you experience an immediate @UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{Wellspring Surge}."
+                },
+                "WildMorph": {
+                "Prompt": "Выберите Обличие",
+                "WildClaws": "Дикое Обличие",
+                "WildJaws": "Обличие Насекомого",
+                "LongVines": "Растительное Обличие",
+                "ElementalMatter": "Стихийное Обличие",
+                "Wings": "Парящее Обличие"
+            },
+            "Witch": {
+                "Patron": {
+                    "Prompt": "Выберите Покровителя"
+                }
+            },
+            "Wizard": {
+                "ArcaneSchool": {
+                    "Prompt": "Выберите Школу"
+                },
+                "ArcaneThesis": {
+                    "Prompt": "Выберите Диссертацию"
+                },
+                "Metamagic1": {
+                    "Prompt": "Выберите Способ. Волшебника Ур.1 с Метамагия"
+                }
+            },
+            "Zombie": {
+                "Deteriorated": "Deteriorated"
+            }
+        },
+        "Terrain": {
+            "Aquatic": "Aquatic",
+            "Arctic": "Arctic",
+            "Desert": "Desert",
+            "Forest": "Forest",
+            "Mountain": "Mountain",
+            "Plains": "Plains",
+            "Sky": "Sky",
+            "Swamp": "Swamp",
+            "Underground": "Underground"
+        },
+        "UI": {
+            "RuleElements": {
+                "ChoiceSet": {
+                    "Decline": "Decline",
+                    "DragHomebrewItem": "Drag a homebrew item here if using one instead of the above options",
+                    "HomebrewItem": "Homebrew Item",
+                    "NoLabel": "No",
+                    "Prompt": "Make a selection.",
+                    "SaveLabel": "Save",
+                    "SkillLabel": "Skill",
+                    "YesLabel": "Yes"
+                },
+                "EffectTarget": {
+                    "Prompt": "Choose the target of this effect."
+                },
+                "MarkTarget": {
+                    "TargetToken": "Target a token by mouse-hovering one and pressing T. Press Escape to cancel.",
+                    "Timeout": "Effect creation cancelled due to lack of target."
+                },
+                "Prompt": {
+                    "NoSelectionMade": "No selection was made: {item} is inactive.",
+                    "NoValidOptions": "{actor} has no valid options for {item}."
+                },
+                "GrantItem": {
+                    "AlreadyHasItem": "{actor} already has {item} so it has not been added again."
+                }
+            }
+        }
+    }
+}

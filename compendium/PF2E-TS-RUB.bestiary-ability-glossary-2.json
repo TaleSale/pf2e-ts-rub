@@ -1,0 +1,1471 @@
+{
+	"label": "Способности Бестиария (2)",
+	"entries": [
+		{
+			"id_": "===Особые Чувства==="
+		},
+		{
+			"id": "Scent (Imprecise) 30 feet",
+			"name": "Нюх (Неточный, 30)"
+		},
+		{
+			"id": "Scent (Imprecise) 60 feet",
+			"name": "Нюх (Неточный, 60)"
+		},
+		{
+			"id": "Scent (Imprecise) 80 feet",
+			"name": "Нюх (Неточный, 80)"
+		},
+		{
+			"id": "Scent (Imprecise) 90 feet",
+			"name": "Нюх (Неточный, 90)"
+		},
+		{
+			"id": "Scent (Imprecise) 100 feet",
+			"name": "Нюх (Неточный, 100)"
+		},
+		{
+			"id": "Scent (Imprecise) 120 feet",
+			"name": "Нюх (Неточный, 120)"
+		},
+		{
+			"id": "Web Sense",
+			"name": "Чувство Паутины",
+			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
+		},
+		{
+			"id": "Web Sense (Imprecise) 30 feet",
+			"name": "Чувство Паутины (Неточный, 30)",
+			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
+		},
+		{
+			"id": "Web Sense (Imprecise) 60 feet",
+			"name": "Чувство Паутины (Неточный, 60)",
+			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
+		},
+		{
+			"id": "Web Sense (Imprecise) 90 feet",
+			"name": "Чувство Паутины (Неточный, 90)",
+			"description": "<p class=\"Нарратив\">Существо получает неточное чувство @Compendium[PF2E-TS-RUB.bestiary-ability-glossary-2.KDzFethdRHFMre18]{Виброчувствительность} для обнаружения существ, что касаются паутины.</p>"
+		},
+		{
+			"id": "Lifesense 30 feet",
+			"name": "Жизнечувствительность (30фт)"
+		},
+		{
+			"id": "Lifesense 60 feet",
+			"name": "Жизнечувствительность (60фт)"
+		},
+		{
+			"id": "Lifesense 90 feet",
+			"name": "Жизнечувствительность (90фт)"
+		},
+		{
+			"id": "Lifesense 100 feet",
+			"name": "Жизнечувствительность (100фт)"
+		},
+		{
+			"id": "Lifesense 120 feet",
+			"name": "Жизнечувствительность (120фт)"
+		},
+		{
+			"id": "Tremorsense 30 feet",
+			"name": "Виброчувствительность 30фт"
+		},
+		{
+			"id": "Tremorsense (Imprecise) 15 feet",
+			"name": "Виброчувствительность (Неточный, 15)"
+		},
+		{
+			"id": "Tremorsense (Imprecise) 30 feet",
+			"name": "Виброчувствительность (Неточный, 30)"
+		},
+		{
+			"id": "Tremorsense (Imprecise) 60 feet",
+			"name": "Виброчувствительность (Неточный, 60)"
+		},
+		{
+			"id": "Tremorsense (Imprecise) 90 feet",
+			"name": "Виброчувствительность (Неточный, 90)"
+		},
+		{
+			"id": "Echolocation (Precise) 20 feet",
+			"name": "Эхолокация (Точное, 20)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.Echolocation]"
+		},
+		{
+			"id": "Echolocation (Precise) 40 feet",
+			"name": "Эхолокация (Точное, 40)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.Echolocation]"
+		},
+		{
+			"id": "Echolocation (Precise) 60 feet",
+			"name": "Эхолокация (Точное, 60)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.Echolocation]"
+		},
+		{
+			"id": "Echolocation (Precise) 80 feet",
+			"name": "Эхолокация (Точное, 80)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.Echolocation]"
+		},
+		{
+			"id": "Wavesense (Imprecise) 30 feet",
+			"name": "Волночувствительность (Неточный, 30)"
+		},
+		{
+			"id": "Wavesense (Imprecise) 60 feet",
+			"name": "Волночувствительность (Неточный, 60)"
+		},
+		{
+			"id": "Wavesense (Imprecise) 90 feet",
+			"name": "Волночувствительность (Неточный, 90)"
+		},
+		{
+			"id": "Motion Sense 30 feet",
+			"name": "Чувство Движения (30)",
+			"description": "<p class=\"Нарратив\">Существо может ощущать окружение через вибрации и движение воздуха и воды.</p>"
+		},
+		{
+			"id": "Motion Sense",
+			"name": "Чувство Движения",
+			"description": "<p class=\"Нарратив\">Существо может ощущать окружение через вибрации и движение воздуха и воды.</p>"
+		},
+		{
+			"id": "Motion Sense 60 feet",
+			"name": "Чувство Движения (60)",
+			"description": "<p class=\"Нарратив\">Существо может ощущать окружение через вибрации и движение воздуха и воды.</p>"
+		},
+		{
+			"id": "Motion Sense 90 feet",
+			"name": "Чувство Движения (90)",
+			"description": "<p class=\"Нарратив\">Существо может ощущать окружение через вибрации и движение воздуха и воды.</p>"
+		},
+		{
+			"id": "Corpse Sense (Precise) 30 feet",
+			"name": "Чувства Трупа (Точное, 30)",
+			"description": "<p class=\"Нарратив\">Существо может чувствовать мертвые тела в пределах досягаемости. Это точное чувство, которое действует через твердые барьеры толщиной менее 5ФТ.</p>"
+		},
+		{
+			"id": "Corpse Sense (Precise) 10 feet",
+			"name": "Чувства Трупа (Точное, 10)",
+			"description": "<p class=\"Нарратив\">Существо может чувствовать мертвые тела в пределах досягаемости. Это точное чувство, которое действует через твердые барьеры толщиной менее 5ФТ.</p>"
+		},
+		{
+			"id": "Corpse Sense (Precise) 60 feet",
+			"name": "Чувства Трупа (Точное, 60)",
+			"description": "<p class=\"Нарратив\">Существо может чувствовать мертвые тела в пределах досягаемости. Это точное чувство, которое действует через твердые барьеры толщиной менее 5ФТ.</p>"
+		},
+		{
+			"id": "Corpse Sense (Precise) 90 feet",
+			"name": "Чувства Трупа (Точное, 90)",
+			"description": "<p class=\"Нарратив\">Существо может чувствовать мертвые тела в пределах досягаемости. Это точное чувство, которое действует через твердые барьеры толщиной менее 5ФТ.</p>"
+		},
+		{
+			"id": "Sense Blood (Imprecise) 10 feet",
+			"name": "Чувство Крови (Неточное, 10)",
+			"description": "<p class=\"Нарратив\">Существо можете чувствовать цели в которых течет кровь в пределах 10ФТ. Так же существо может чувствовать пролитую кровь в пределах 1 мили.</p>"
+		},
+		{
+			"id": "Sense Blood (Imprecise) 30 feet",
+			"name": "Чувство Крови (Неточное, 30)",
+			"description": "<p class=\"Нарратив\">Существо можете чувствовать цели в которых течет кровь в пределах 30ФТ. Так же существо может чувствовать пролитую кровь в пределах 1 мили.</p>"
+		},
+		{
+			"id": "Sense Blood (Imprecise) 60 feet",
+			"name": "Чувство Крови (Неточное, 60)",
+			"description": "<p class=\"Нарратив\">Существо можете чувствовать цели в которых течет кровь в пределах 60ФТ. Так же существо может чувствовать пролитую кровь в пределах 1 мили.</p>"
+		},
+		{
+			"id": "Sense Blood (Imprecise) 90 feet",
+			"name": "Чувство Крови (Неточное, 90)",
+			"description": "<p class=\"Нарратив\">Существо можете чувствовать цели в которых течет кровь в пределах 90ФТ. Так же существо может чувствовать пролитую кровь в пределах 1 мили.</p>"
+		},
+		{
+			"id": "Entropy Sense",
+			"name": "Чувство Энторпии",
+			"description": "<p class=\"Нарратив\">Это существо может предвидеть наиболее вероятное местонахождение существа благодаря своему сверхъестественному пониманию сил хаотических вероятностей и случая.</p>\n<p>Это дает существу возможность чувствовать существ в пределах указанного диапазона.</p>\n<hr />\n<p>Существо, находящееся под эффектом @Compendium[pf2e.spells-srd.EoKBlgf6Smt8opaU]{Необнаружимость} или иным образом защищенное от <span class=\"Признак\">Прорицания</span>, не может быть замечено с помощью <span class=\"Повтор\">Чувства Энтропии</span>.</p>"
+		},
+		{
+			"id": "Entropy Sense (Imprecise) 10 feet",
+			"name": "Чувство Энторпии  (Неточное, 10)",
+			"description": "<p class=\"Нарратив\">Это существо может предвидеть наиболее вероятное местонахождение существа благодаря своему сверхъестественному пониманию сил хаотических вероятностей и случая.</p>\n<p>Это дает существу возможность чувствовать существ в пределах указанного диапазона.</p>\n<hr />\n<p>Существо, находящееся под эффектом @Compendium[pf2e.spells-srd.EoKBlgf6Smt8opaU]{Необнаружимость} или иным образом защищенное от <span class=\"Признак\">Прорицания</span>, не может быть замечено с помощью <span class=\"Повтор\">Чувства Энтропии</span>.</p>"
+		},
+		{
+			"id": "Entropy Sense (Imprecise) 30 feet",
+			"name": "Чувство Энторпии  (Неточное, 30)",
+			"description": "<p class=\"Нарратив\">Это существо может предвидеть наиболее вероятное местонахождение существа благодаря своему сверхъестественному пониманию сил хаотических вероятностей и случая.</p>\n<p>Это дает существу возможность чувствовать существ в пределах указанного диапазона.</p>\n<hr />\n<p>Существо, находящееся под эффектом @Compendium[pf2e.spells-srd.EoKBlgf6Smt8opaU]{Необнаружимость} или иным образом защищенное от <span class=\"Признак\">Прорицания</span>, не может быть замечено с помощью <span class=\"Повтор\">Чувства Энтропии</span>.</p>"
+		},
+		{
+			"id": "Entropy Sense (Imprecise) 60 feet",
+			"name": "Чувство Энторпии  (Неточное, 60)",
+			"description": "<p class=\"Нарратив\">Это существо может предвидеть наиболее вероятное местонахождение существа благодаря своему сверхъестественному пониманию сил хаотических вероятностей и случая.</p>\n<p>Это дает существу возможность чувствовать существ в пределах указанного диапазона.</p>\n<hr />\n<p>Существо, находящееся под эффектом @Compendium[pf2e.spells-srd.EoKBlgf6Smt8opaU]{Необнаружимость} или иным образом защищенное от <span class=\"Признак\">Прорицания</span>, не может быть замечено с помощью <span class=\"Повтор\">Чувства Энтропии</span>.</p>"
+		},
+		{
+			"id": "Entropy Sense (Imprecise) 90 feet",
+			"name": "Чувство Энторпии  (Неточное, 90)",
+			"description": "<p class=\"Нарратив\">Это существо может предвидеть наиболее вероятное местонахождение существа благодаря своему сверхъестественному пониманию сил хаотических вероятностей и случая.</p>\n<p>Это дает существу возможность чувствовать существ в пределах указанного диапазона.</p>\n<hr />\n<p>Существо, находящееся под эффектом @Compendium[pf2e.spells-srd.EoKBlgf6Smt8opaU]{Необнаружимость} или иным образом защищенное от <span class=\"Признак\">Прорицания</span>, не может быть замечено с помощью <span class=\"Повтор\">Чувства Энтропии</span>.</p>"
+		},
+		{
+			"id": "Entropy Sense (Imprecise) 120 feet",
+			"name": "Чувство Энторпии  (Неточное, 120)",
+			"description": "<p class=\"Нарратив\">Это существо может предвидеть наиболее вероятное местонахождение существа благодаря своему сверхъестественному пониманию сил хаотических вероятностей и случая.</p>\n<p>Это дает существу возможность чувствовать существ в пределах указанного диапазона.</p>\n<hr />\n<p>Существо, находящееся под эффектом @Compendium[pf2e.spells-srd.EoKBlgf6Smt8opaU]{Необнаружимость} или иным образом защищенное от <span class=\"Признак\">Прорицания</span>, не может быть замечено с помощью <span class=\"Повтор\">Чувства Энтропии</span>.</p>"
+		},
+		{
+			"id_": "===Нападение Стаей==="
+		},
+		{
+			"id": "Pack Attack",
+			"name": "Нападение Стаей",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+		},
+		{
+			"id": "Pack Attack (1d4)",
+			"name": "Нападение Стаей (1d4)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+		},
+		{
+			"id": "Pack Attack (1d6)",
+			"name": "Нападение Стаей (1d6)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+		},
+		{
+			"id": "Pack Attack (1d8)",
+			"name": "Нападение Стаей (1d8)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+		},
+		{
+			"id": "Pack Attack (2d4)",
+			"name": "Нападение Стаей (2d4)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+		},
+		{
+			"id": "Pack Attack (2d6)",
+			"name": "Нападение Стаей (2d6)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+		},
+		{
+			"id": "Pack Attack (2d8)",
+			"name": "Нападение Стаей (2d8)",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+		},
+		{
+			"id_": "===Возможности для Атаки==="
+		},
+		{
+			"id": "Attack of Opportunity (Tail)",
+			"name": "Возможность для Атаки (Хвост)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Хвостом</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id": "Attack of Opportunity (Tail Only)",
+			"name": "Возможность для Атаки (Хвост)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Хвостом</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id": "Attack of Opportunity (Tail оnly)",
+			"name": "Возможность для Атаки (Хвост)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Хвостом</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id": "Attack of Opportunity (Jaws)",
+			"name": "Возможность для Атаки (Челюсти)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Челюстями</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id": "Attack of Opportunity (Jaws Only)",
+			"name": "Возможность для Атаки (Челюсти)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Челюстями</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id": "Attack of Opportunity (Jaws only)",
+			"name": "Возможность для Атаки (Челюсти)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Челюстями</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id": "Attack of Opportunity (Jaws only)",
+			"name": "Возможность для Атаки (Челюсти)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Челюстями</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id": "Attack of Opportunity (Claws)",
+			"name": "Возможность для Атаки (Когти)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Когтями</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id": "Attack of Opportunity (Claws Only)",
+			"name": "Возможность для Атаки (Когти)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Когтями</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id": "Attack of Opportunity (Claws only)",
+			"name": "Возможность для Атаки (Когти)",
+			"description": "<p class=\"Заг2\">Только <span class=\"Атака\">атака</span> <span class=\"Список\">Когтями</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+		},
+		{
+			"id_": "===Мастерство с Наручниками==="
+		},
+		{
+			"id": "Efficient Capture (+9)",
+			"name": "Мастерство с Наручниками (+9)",
+			"description": "<p class=\"Нарратив\">[[/r {1d20+9}[Надевание Наручников]]]{+9 Надевание Наручников}</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.EfficientCapture]</p>"
+		},
+		{
+			"id": "Efficient Capture (+16)",
+			"name": "Мастерство с Наручниками (+16)",
+			"description": "<p class=\"Нарратив\">[[/r {1d20+16}[Надевание Наручников]]]{+16 Надевание Наручников}</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.EfficientCapture]</p>"
+		},
+		{
+			"id": "Efficient Capture (+18)",
+			"name": "Мастерство с Наручниками (+18)",
+			"description": "<p class=\"Нарратив\">[[/r {1d20+18}[Надевание Наручников]]]{+18 Надевание Наручников}</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.EfficientCapture]</p>"
+		},
+		{
+			"id": "Efficient Capture (+21)",
+			"name": "Мастерство с Наручниками (+21)",
+			"description": "<p class=\"Нарратив\">[[/r {1d20+21}[Надевание Наручников]]]{+21 Надевание Наручников}</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.EfficientCapture]</p>"
+		},
+		{
+			"id": "Efficient Capture (+23)",
+			"name": "Мастерство с Наручниками (+23)",
+			"description": "<p class=\"Нарратив\">[[/r {1d20+23}[Надевание Наручников]]]{+23 Надевание Наручников}</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.EfficientCapture]</p>"
+		},
+		{
+			"id": "Efficient Capture (+24)",
+			"name": "Мастерство с Наручниками (+24)",
+			"description": "<p class=\"Нарратив\">[[/r {1d20+24}[Надевание Наручников]]]{+24 Надевание Наручников}</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.EfficientCapture]</p>"
+		},
+		{
+			"id": "Efficient Capture (+28)",
+			"name": "Мастерство с Наручниками (+28)",
+			"description": "<p class=\"Нарратив\">[[/r {1d20+28}[Надевание Наручников]]]{+28 Надевание Наручников}</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.EfficientCapture]</p>"
+		},
+		{
+			"id": "Efficient Capture (+30)",
+			"name": "Мастерство с Наручниками (+30)",
+			"description": "<p class=\"Нарратив\">[[/r {1d20+30}[Надевание Наручников]]]{+30 Надевание Наручников}</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.EfficientCapture]</p>"
+		},
+		{
+			"id_": "===Терзатель==="
+		},
+		{
+			"id": "Mauler (+1)",
+			"name": "Терзатель (+1)",
+			"description": "<p class=\"Нарратив\">[[/r 1[Доп.Урон]]]{1 Доп.Урон}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Mauler]</p>"
+		},
+		{
+			"id": "Mauler (+2)",
+			"name": "Терзатель (+2)",
+			"description": "<p class=\"Нарратив\">[[/r 2[Доп.Урон]]]{2 Доп.Урон}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Mauler]</p>"
+		},
+		{
+			"id": "Mauler (+3)",
+			"name": "Терзатель (+3)",
+			"description": "<p class=\"Нарратив\">[[/r 3[Доп.Урон]]]{3 Доп.Урон}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Mauler]</p>"
+		},
+		{
+			"id": "Mauler (+4)",
+			"name": "Терзатель (+4)",
+			"description": "<p class=\"Нарратив\">[[/r 4[Доп.Урон]]]{4 Доп.Урон}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Mauler]</p>"
+		},
+		{
+			"id": "Mauler (+5)",
+			"name": "Терзатель (+5)",
+			"description": "<p class=\"Нарратив\">[[/r 5[Доп.Урон]]]{5 Доп.Урон}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Mauler]</p>"
+		},
+		{
+			"id": "Mauler (+6)",
+			"name": "Терзатель (+6)",
+			"description": "<p class=\"Нарратив\">[[/r 6[Доп.Урон]]]{6 Доп.Урон}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Mauler]</p>"
+		},
+		{
+			"id": "Mauler (+10)",
+			"name": "Терзатель (+10)",
+			"description": "<p class=\"Нарратив\">[[/r 10[Доп.Урон]]]{10 Доп.Урон}</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Mauler]</p>"
+		},
+		{
+			"id_": "===Толчок==="
+		},
+		{
+			"id": "Push 10 feet",
+			"name": "Толчок (10Фт)"
+		},
+		{
+			"id": "Push 15 feet",
+			"name": "Толчок (15Фт)"
+		},
+		{
+			"id": "Push 20 feet",
+			"name": "Толчок (20Фт)"
+		},
+		{
+			"id": "Push 25 feet",
+			"name": "Толчок (25Фт)"
+		},
+		{
+			"id": "Push 30 feet",
+			"name": "Толчок (30Фт)"
+		},
+		{
+			"id": "Push 35 feet",
+			"name": "Толчок (35Фт)"
+		},
+		{
+			"id": "Push 40 feet",
+			"name": "Толчок (40Фт)"
+		},
+		{
+			"id": "Push 45 feet",
+			"name": "Толчок (45Фт)"
+		},
+		{
+			"id": "Push 50 feet",
+			"name": "Толчок (50Фт)"
+		},
+		{
+			"id_": "===Бонусы и Штрафы==="
+		},
+		{
+			"id": "+1 Status Bonus on Saves vs Magic",
+			"name": "Состояние: +1 Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от Магии</p>"
+		},
+		{
+			"id": "+2 Status Bonus on Saves vs Magic",
+			"name": "Состояние: +2 Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам от Магии</p>"
+		},
+		{
+			"id": "+3 Status Bonus on Saves vs Magic",
+			"name": "Состояние: +3 Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам от Магии</p>"
+		},
+		{
+			"id": "+4 Status Bonus on Saves vs Magic",
+			"name": "Состояние: +4 Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам от Магии</p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs Magic",
+			"name": "Состояние: +1 к Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от Магии</p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs Magic",
+			"name": "Состояние: +2 к Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам от Магии</p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs Magic",
+			"name": "Состояние: +3 к Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам от Магии</p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs Magic",
+			"name": "Состояние: +4 к Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам от Магии</p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs. Magic",
+			"name": "Состояние: +1 всем Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от магии</p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs. Magic",
+			"name": "Состояние: +2 всем Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам от магии</p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs. Magic",
+			"name": "Состояние: +3 всем Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам от магии</p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs. Magic",
+			"name": "Состояние: +4 всем Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам от Магии</p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs Mental",
+			"name": "Состояние: +1 Спасам от Ментальный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs Mental",
+			"name": "Состояние: +2 Спасам от Ментальный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs Mental",
+			"name": "Состояние: +3 Спасам от Ментальный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs Mental",
+			"name": "Состояние: +4 Спасам от Ментальный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+1 Status Bonus on Will Saves vs Mental",
+			"name": "Состояние: +1 к Спасам Воли от Ментал.",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 к Спасам Воли против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+2 Status Bonus on Will Saves vs Mental",
+			"name": "Состояние: +2 к Спасам Воли от Ментал.",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 к Спасам Воли против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+3 Status Bonus on Will Saves vs Mental",
+			"name": "Состояние: +3 к Спасам Воли от Ментал.",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 к Спасам Воли против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+4 Status Bonus on Will Saves vs Mental",
+			"name": "Состояние: +4 к Спасам Воли от Ментал.",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 к Спасам Воли против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+1 Status Bonus on Saves vs Mental",
+			"name": "Состояние: +1 к Спасам от Ментальный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+2 Status Bonus on Saves vs Mental",
+			"name": "Состояние: +2 к Спасам от Ментальный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+3 Status Bonus on Saves vs Mental",
+			"name": "Состояние: +3 к Спасам от Ментальный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+4 Status Bonus on Saves vs Mental",
+			"name": "Состояние: +4 к Спасам от Ментальный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам против эффектов с признаком <span class=\"Признак\">ментальный</span>.</p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs Positive",
+			"name": "Состояние: +1 Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs Positive",
+			"name": "Состояние: +2 Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs Positive",
+			"name": "Состояние: +3 Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs Positive",
+			"name": "Состояние: +4 Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs. Positive",
+			"name": "Состояние: +1 Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs. Positive",
+			"name": "Состояние: +2 Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs. Positive",
+			"name": "Состояние: +3 Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs. Positive",
+			"name": "Состояние: +4 Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+1 Status Bonus on Saves vs Positive",
+			"name": "Состояние: +1 к Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+2 Status Bonus on Saves vs Positive",
+			"name": "Состояние: +2 к Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+3 Status Bonus on Saves vs Positive",
+			"name": "Состояние: +3 к Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+4 Status Bonus on Saves vs Positive",
+			"name": "Состояние: +4 к Спасам от Позитивный",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам против эффектов с признаком <span class=\"Признак\">позитивный</span>.</p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs. Cold",
+			"name": "Состояние: +1 к Спасам от Холода",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам против эффектов с признаком <span class=\"Признак\">холод</span>.</p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs. Cold",
+			"name": "Состояние: +2 к Спасам от Холода",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам против эффектов с признаком <span class=\"Признак\">холод</span>.</p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs. Cold",
+			"name": "Состояние: +3 к Спасам от Холода",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам против эффектов с признаком <span class=\"Признак\">холод</span>.</p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs. Cold",
+			"name": "Состояние: +4 к Спасам от Холода",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам против эффектов с признаком <span class=\"Признак\">холод</span>.</p>"
+		},
+		{
+			"id": "+1 Status to All Saves and AC vs Evil Creatures",
+			"name": "Состояние: +1 Спасы/КБ против Злых Существ",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 Спасам и <span class=\"КБ\">КБ</span> против <span class=\"Мировоз\">злых</span> Существ</p>"
+		},
+		{
+			"id": "+2 Status to All Saves and AC vs Evil Creatures",
+			"name": "Состояние: +2 Спасы/КБ против Злых Существ",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 Спасам и <span class=\"КБ\">КБ</span> против <span class=\"Мировоз\">злых</span> Существ</p>"
+		},
+		{
+			"id": "+3 Status to All Saves and AC vs Evil Creatures",
+			"name": "Состояние: +3 Спасы/КБ против Злых Существ",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 Спасам и <span class=\"КБ\">КБ</span> против <span class=\"Мировоз\">злых</span> Существ</p>"
+		},
+		{
+			"id": "+4 Status to All Saves and AC vs Evil Creatures",
+			"name": "Состояние: +4 Спасы/КБ против Злых Существ",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 Спасам и <span class=\"КБ\">КБ</span> против <span class=\"Мировоз\">злых</span> Существ</p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs Divine Magic",
+			"name": "Состояние: +1 к Спасам от Сакрал",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от Сакральных Эффектов и Магии</p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs Divine Magic",
+			"name": "Состояние: +2 к Спасам от Сакрал",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 ко всем Спасам от Сакральных Эффектов и Магии</p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs Divine Magic",
+			"name": "Состояние: +3 к Спасам от Сакрал",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 ко всем Спасам от Сакральных Эффектов и Магии</p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs Divine Magic",
+			"name": "Состояние: +4 к Спасам от Сакрал",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 ко всем Спасам от Сакральных Эффектов и Магии</p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs Fear",
+			"name": "Состояние: +1 Спасам от Страха",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 Спасам от <span class=\"Признак\">страх</span></p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs Fear",
+			"name": "Состояние: +2 Спасам от Страха",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 Спасам от <span class=\"Признак\">страх</span></p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs Fear",
+			"name": "Состояние: +3 Спасам от Страха",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 Спасам от <span class=\"Признак\">страх</span></p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs Fear",
+			"name": "Состояние: +4 Спасам от Страха",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 Спасам от <span class=\"Признак\">страх</span></p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs Disease and Poison",
+			"name": "Состояние: +1 к Спасам от Яда/Болезни",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 к Спасам от Яда/Болезни</p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs Disease and Poison",
+			"name": "Состояние: +2 к Спасам от Яда/Болезни",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 к Спасам от Яда/Болезни</p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs Disease and Poison",
+			"name": "Состояние: +3 к Спасам от Яда/Болезни",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 к Спасам от Яда/Болезни</p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs Disease and Poison",
+			"name": "Состояние: +4 к Спасам от Яда/Болезни",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 к Спасам от Яда/Болезни</p>"
+		},
+		{
+			"id": "+1 Circumstance Bonus on Saves vs Poisons",
+			"name": "Обстоятельства: +1 Спасам от Яда",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +1 Спасам от <span class=\"Признак\">яд</span></p>"
+		},
+		{
+			"id": "+2 Circumstance Bonus on Saves vs Poisons",
+			"name": "Обстоятельства: +2 Спасам от Яда",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +2 Спасам от <span class=\"Признак\">яд</span></p>"
+		},
+		{
+			"id": "+3 Circumstance Bonus on Saves vs Poisons",
+			"name": "Обстоятельства: +3 Спасам от Яда",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +3 Спасам от <span class=\"Признак\">яд</span></p>"
+		},
+		{
+			"id": "+4 Circumstance Bonus on Saves vs Poisons",
+			"name": "Обстоятельства: +4 Спасам от Яда",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +4 Спасам от <span class=\"Признак\">яд</span></p>"
+		},
+		{
+			"id": "+1 Circumstance to Saves vs Traps",
+			"name": "Обстоятельства: +1 Спасам от Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +1 Спасам от Ловушек.</p>"
+		},
+		{
+			"id": "+2 Circumstance to Saves vs Traps",
+			"name": "Обстоятельства: +2 Спасам от Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +2 Спасам от Ловушек.</p>"
+		},
+		{
+			"id": "+3 Circumstance to Saves vs Traps",
+			"name": "Обстоятельства: +3 Спасам от Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +3 Спасам от Ловушек.</p>"
+		},
+		{
+			"id": "+4 Circumstance to Saves vs Traps",
+			"name": "Обстоятельства: +4 Спасам от Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +4 Спасам от Ловушек.</p>"
+		},
+		{
+			"id": "+1 Status to Reflex Saves vs Traps",
+			"name": "Состояние: +1 к Рефлексам от Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 к <span class=\"РФЛ\">РФЛ</span> от Ловушек</p>"
+		},
+		{
+			"id": "+2 Status to Reflex Saves vs Traps",
+			"name": "Состояние: +2 к Рефлексам от Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 к <span class=\"РФЛ\">РФЛ</span> от Ловушек</p>"
+		},
+		{
+			"id": "+3 Status to Reflex Saves vs Traps",
+			"name": "Состояние: +3 к Рефлексам от Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 к <span class=\"РФЛ\">РФЛ</span> от Ловушек</p>"
+		},
+		{
+			"id": "+4 Status to Reflex Saves vs Traps",
+			"name": "Состояние: +4 к Рефлексам от Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 к <span class=\"РФЛ\">РФЛ</span> от Ловушек</p>"
+		},
+		{
+			"id": "+1 Status to Perception to Find Traps",
+			"name": "Состояние: +1 к Внимательности к Поиску Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 к <span class=\"МУД\">Восприятию</span> к Поиску Ловушек.</p>"
+		},
+		{
+			"id": "+2 Status to Perception to Find Traps",
+			"name": "Состояние: +2 к Внимательности к Поиску Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 к <span class=\"МУД\">Восприятию</span> к Поиску Ловушек.</p>"
+		},
+		{
+			"id": "+3 Status to Perception to Find Traps",
+			"name": "Состояние: +3 к Внимательности к Поиску Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 к <span class=\"МУД\">Восприятию</span> к Поиску Ловушек.</p>"
+		},
+		{
+			"id": "+4 Status to Perception to Find Traps",
+			"name": "Состояние: +4 к Внимательности к Поиску Ловушек",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 к <span class=\"МУД\">Восприятию</span> к Поиску Ловушек.</p>"
+		},
+		{
+			"id": "+1 Circumstance to All Saves vs Dream and Sleep",
+			"name": "Обстоятельства: +1 Спасам от Сна",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +1 Спасам от Сна</p>"
+		},
+		{
+			"id": "+2 Circumstance to All Saves vs Dream and Sleep",
+			"name": "Обстоятельства: +2 Спасам от Сна",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +2 Спасам от Сна</p>"
+		},
+		{
+			"id": "+3 Circumstance to All Saves vs Dream and Sleep",
+			"name": "Обстоятельства: +3 Спасам от Сна",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +3 Спасам от Сна</p>"
+		},
+		{
+			"id": "+4 Circumstance to All Saves vs Dream and Sleep",
+			"name": "Обстоятельства: +4 Спасам от Сна",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span>: +4 Спасам от Сна</p>"
+		},
+		{
+			"id": "+1 Circumstance to All Saves to Disbelieve Illusions",
+			"name": "Обстоятельства: +1 Спасам к Неверить в Иллюзии",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span> +1 Спасам, что <span class=\"Повтор\">Неверить в Иллюзию</span></p>"
+		},
+		{
+			"id": "+2 Circumstance to All Saves to Disbelieve Illusions",
+			"name": "Обстоятельства: +2 Спасам к Неверить в Иллюзии",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span> +2 Спасам, что <span class=\"Повтор\">Неверить в Иллюзию</span></p>"
+		},
+		{
+			"id": "+3 Circumstance to All Saves to Disbelieve Illusions",
+			"name": "Обстоятельства: +3 Спасам к Неверить в Иллюзии",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span> +3 Спасам, что <span class=\"Повтор\">Неверить в Иллюзию</span></p>"
+		},
+		{
+			"id": "+4 Circumstance to All Saves to Disbelieve Illusions",
+			"name": "Обстоятельства: +4 Спасам к Неверить в Иллюзии",
+			"description": "<p class=\"Нарратив\"><span class=\"Обстоятельства\">Обстоятельства</span> +4 Спасам, что <span class=\"Повтор\">Неверить в Иллюзию</span></p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs Poison",
+			"name": "Состояние: +1 Спасам от Яда",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 Спасам от <span class=\"Признак\">яд</span></p>"
+		},
+		{
+			"id": "+2 Status to All Saves vs Poison",
+			"name": "Состояние: +2 Спасам от Яда",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 Спасам от <span class=\"Признак\">яд</span></p>"
+		},
+		{
+			"id": "+3 Status to All Saves vs Poison",
+			"name": "Состояние: +3 Спасам от Яда",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 Спасам от <span class=\"Признак\">яд</span></p>"
+		},
+		{
+			"id": "+4 Status to All Saves vs Poison",
+			"name": "Состояние: +4 Спасам от Яда",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 Спасам от <span class=\"Признак\">яд</span></p>"
+		},
+		{
+			"id": "+1 Status to Reflex vs Damaging Effects",
+			"name": "Состояние: +1 к Рефлексам от Эффектов с Уроном",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 к <span class=\"РФЛ\">РФЛ</span> от эффектов с уроном.</p>"
+		},
+		{
+			"id": "+2 Status to Reflex vs Damaging Effects",
+			"name": "Состояние: +2 к Рефлексам от Эффектов с Уроном",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +2 к <span class=\"РФЛ\">РФЛ</span> от эффектов с уроном.</p>"
+		},
+		{
+			"id": "+3 Status to Reflex vs Damaging Effects",
+			"name": "Состояние: +3 к Рефлексам от Эффектов с Уроном",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +3 к <span class=\"РФЛ\">РФЛ</span> от эффектов с уроном.</p>"
+		},
+		{
+			"id": "+4 Status to Reflex vs Damaging Effects",
+			"name": "Состояние: +4 к Рефлексам от Эффектов с Уроном",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +4 к <span class=\"РФЛ\">РФЛ</span> от эффектов с уроном.</p>"
+		},
+		{
+			"id": "+1 to Sense Motive",
+			"name": "Без Типа: +1 к  Понять Намерение",
+			"description": "<p class=\"Нарратив\"><span class=\"Нетрен\">Без Типа</span>: +1 к @Compendium[pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{Понять Намерение}</p>"
+		},
+		{
+			"id": "+2 to Sense Motive",
+			"name": "Без Типа: +2 к  Понять Намерение",
+			"description": "<p class=\"Нарратив\"><span class=\"Нетрен\">Без Типа</span>: +2 к @Compendium[pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{Понять Намерение}</p>"
+		},
+		{
+			"id": "+3 to Sense Motive",
+			"name": "Без Типа: +3 к  Понять Намерение",
+			"description": "<p class=\"Нарратив\"><span class=\"Нетрен\">Без Типа</span>: +3 к @Compendium[pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{Понять Намерение}</p>"
+		},
+		{
+			"id": "+4 to Sense Motive",
+			"name": "Без Типа: +4 к  Понять Намерение",
+			"description": "<p class=\"Нарратив\"><span class=\"Нетрен\">Без Типа</span>: +4 к @Compendium[pf2e.actionspf2e.1xRFPTFtWtGJ9ELw]{Понять Намерение}</p>"
+		},
+		{
+			"id": "+1 to All Saves vs Grapple or Shove",
+			"name": "Без Типа: +1 от Захватить/Толкнуть",
+			"description": "<p class=\"Нарратив\"><span class=\"Нетрен\">Без Типа</span>: +1 от @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Захватить} или @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Толкнуть}</p>"
+		},
+		{
+			"id": "+2 to All Saves vs Grapple or Shove",
+			"name": "Без Типа: +2 от Захватить/Толкнуть",
+			"description": "<p class=\"Нарратив\"><span class=\"Нетрен\">Без Типа</span>: +2 от @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Захватить} или @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Толкнуть}</p>"
+		},
+		{
+			"id": "+3 to All Saves vs Grapple or Shove",
+			"name": "Без Типа: +3 от Захватить/Толкнуть",
+			"description": "<p class=\"Нарратив\"><span class=\"Нетрен\">Без Типа</span>: +3 от @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Захватить} или @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Толкнуть}</p>"
+		},
+		{
+			"id": "+4 to All Saves vs Grapple or Shove",
+			"name": "Без Типа: +4 от Захватить/Толкнуть",
+			"description": "<p class=\"Нарратив\"><span class=\"Нетрен\">Без Типа</span>: +4 от @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Захватить} или @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Толкнуть}</p>"
+		},
+		{
+			"id_": "===Регенерация==="
+		},
+		{
+			"id": "Fast Healing 1",
+			"name": "Быстрое Исцеление 1"
+		},
+		{
+			"id": "Fast Healing 2",
+			"name": "Быстрое Исцеление 2"
+		},
+		{
+			"id": "Fast Healing 3",
+			"name": "Быстрое Исцеление 3"
+		},
+		{
+			"id": "Fast Healing 5",
+			"name": "Быстрое Исцеление 5"
+		},
+		{
+			"id": "Fast Healing 10",
+			"name": "Быстрое Исцеление 10"
+		},
+		{
+			"id": "Fast Healing 15",
+			"name": "Быстрое Исцеление 15"
+		},
+		{
+			"id": "Fast Healing 20",
+			"name": "Быстрое Исцеление 20"
+		},
+		{
+			"id": "Fast Healing 25",
+			"name": "Быстрое Исцеление 25"
+		},
+		{
+			"id": "Fast Healing 30",
+			"name": "Быстрое Исцеление 30"
+		},
+		{
+			"id": "Regeneration 2 (Deactivated by Good)",
+			"name": "Регенерация 2 (Д)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 5 (Deactivated by Good)",
+			"name": "Регенерация 5 (Д)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 10 (Deactivated by Good)",
+			"name": "Регенерация 10 (Д)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 15 (Deactivated by Good)",
+			"name": "Регенерация 15 (Д)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 20 (Deactivated by Good)",
+			"name": "Регенерация 20 (Д)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 25 (Deactivated by Good)",
+			"name": "Регенерация 25 (Д)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 30 (Deactivated by Good)",
+			"name": "Регенерация 30 (Д)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 2 (Deactivated by Cold Iron)",
+			"name": "Регенерация 2 (ХЖ)",
+			"description": "<span class=\"Список\">Деактивация</span>: Холодное Железо</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 5 (Deactivated by Cold Iron)",
+			"name": "Регенерация 5 (ХЖ)",
+			"description": "<span class=\"Список\">Деактивация</span>: Холодное Железо</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 10 (Deactivated by Cold Iron)",
+			"name": "Регенерация 10 (ХЖ)",
+			"description": "<span class=\"Список\">Деактивация</span>: Холодное Железо</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 15 (Deactivated by Cold Iron)",
+			"name": "Регенерация 15 (ХЖ)",
+			"description": "<span class=\"Список\">Деактивация</span>: Холодное Железо</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 20 (Deactivated by Cold Iron)",
+			"name": "Регенерация 20 (ХЖ)",
+			"description": "<span class=\"Список\">Деактивация</span>: Холодное Железо</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 25 (Deactivated by Cold Iron)",
+			"name": "Регенерация 25 (ХЖ)",
+			"description": "<span class=\"Список\">Деактивация</span>: Холодное Железо</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 30 (Deactivated by Cold Iron)",
+			"name": "Регенерация 30 (ХЖ)",
+			"description": "<span class=\"Список\">Деактивация</span>: Холодное Железо</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 2 (deactivated by good or silver)",
+			"name": "Регенерация 2 (Д/С)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 5 (deactivated by good or silver)",
+			"name": "Регенерация 5 (Д/С)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 10 (deactivated by good or silver)",
+			"name": "Регенерация 10 (Д/С)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 15 (deactivated by good or silver)",
+			"name": "Регенерация 15 (Д/С)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 20 (deactivated by good or silver)",
+			"name": "Регенерация 20 (Д/С)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 25 (deactivated by good or silver)",
+			"name": "Регенерация 25 (Д/С)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 30 (deactivated by good or silver)",
+			"name": "Регенерация 30 (Д/С)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 2 (Deactivated by Good or Silver)",
+			"name": "Регенерация 2 (ДС)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 5 (Deactivated by Good or Silver)",
+			"name": "Регенерация 5 (ДС)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 10 (Deactivated by Good or Silver)",
+			"name": "Регенерация 10 (ДС)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 15 (Deactivated by Good or Silver)",
+			"name": "Регенерация 15 (ДС)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 20 (Deactivated by Good or Silver)",
+			"name": "Регенерация 20 (ДС)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 25 (Deactivated by Good or Silver)",
+			"name": "Регенерация 25 (ДС)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id": "Regeneration 30 (Deactivated by Good or Silver)",
+			"name": "Регенерация 30 (ДС)",
+			"description": "<span class=\"Список\">Деактивация</span>: Добро или Серебро</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+		},
+		{
+			"id_": "===Анатомия Протеев==="
+		},
+		{
+			"id": "Protean Anatomy",
+			"name": "Анатомия Протеев",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 1",
+			"name": "Анатомия Протеев 1",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 2",
+			"name": "Анатомия Протеев 2",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 3",
+			"name": "Анатомия Протеев 3",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 4",
+			"name": "Анатомия Протеев 4",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 5",
+			"name": "Анатомия Протеев 5",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 6",
+			"name": "Анатомия Протеев 6",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 7",
+			"name": "Анатомия Протеев 7",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 8",
+			"name": "Анатомия Протеев 8",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 9",
+			"name": "Анатомия Протеев 9",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 10",
+			"name": "Анатомия Протеев 10",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 12",
+			"name": "Анатомия Протеев 12",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 15",
+			"name": "Анатомия Протеев 15",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 19",
+			"name": "Анатомия Протеев 19",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 20",
+			"name": "Анатомия Протеев 20",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "Protean Anatomy 25",
+			"name": "Анатомия Протеев 25",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<hr />\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он получает указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<p>Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</p>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id_": "===Привидение==="
+		},
+		{
+			"id": "Frightful Moan",
+			"name": "Пугающий Стон",
+			"description": "<p class=\"Нарратив\">Привидение оплакивает свою судьбу, заставляя каждое живое существо в пределах @Template[type:emanation|distance:30]{30 фт} совершить <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:00|showDC:owner|traits:auditory,divine,emotion,enchantment,fear,mental]</strong></span>. При <span class=\"Провал\">Провал</span>существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2} (@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3} при <span class=\"Критпровал\">Крит.Провал</span>). При <span class=\"Успех\">Успех</span> существо становится временно <span class=\"Иммун2\">иммунно</span> <span class=\"До\">на 1 Минуту</span> к <span class=\"Повтор\">Пугающему Стону</span> этого привидения.</p>"
+		},
+		{
+			"id": "Telekinetic Assault",
+			"name": "Телекинетическое Нападение",
+			"description": "<p class=\"Нарратив\">Привидение выкрикивает от боли и страдания, и тотчас мелкие предметы и обломки разлетаются в @Template[type:emanation|distance:30]. Существа в этой области получают [[/r 1d6[bludgeoning]]]{1d6 Дробящего}</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:00|basic:true|showDC:owner|traits:divine,evocation]{Пр.РФЛ}</strong></span></p>"
+		},
+		{
+			"id_": "===Атаки Монстров==="
+		},
+		{
+			"id": "Claw",
+			"name": "Когти"
+		},
+		{
+			"id": "Claws",
+			"name": "Когти"
+		},
+		{
+			"id": "Horn",
+			"name": "Рога"
+		},
+		{
+			"id": "Horns",
+			"name": "Рога"
+		},
+		{
+			"id": "Jaw",
+			"name": "Челюсти"
+		},
+		{
+			"id": "Jaws",
+			"name": "Челюсти"
+		},
+		{
+			"id": "Pseudopod",
+			"name": "Ложноножка"
+		},
+		{
+			"id": "Tail",
+			"name": "Хвост"
+		},
+		{
+			"id": "Tendril",
+			"name": "Усик"
+		},
+		{
+			"id": "Tentacle",
+			"name": "Щупальца"
+		},
+		{
+			"id": "Wings",
+			"name": "Крылья"
+		},
+		{
+			"id": "Wing",
+			"name": "Крылья"
+		},
+		{
+			"id_": "===Другое==="
+		},
+		{
+			"id": "Grabbing Trunk",
+			"name": "Захват Хоботом",
+			"description": "<p class=\"Нарратив\">При <span class=\"Успех\">успешном</span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударе} <span class=\"Список\">Хоботом</span> по цели <span class=\"Размер\">среднего</span> или меньшего размера, оно становится @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченным}.</p>\n<hr />\n<p>Если вы @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, то можете нести с собой @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} существо.</p>"
+		},
+		{
+			"id": "Telepathy (Touch)",
+			"name": "Телепатия (Касание)"
+		},
+		{
+			"id": "Telepathy 60 feet",
+			"name": "Телепатия (60фт)",
+			"description": "<p class=\"Нарратив\">@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+		},
+		{
+			"id": "Telepathy 100 feet",
+			"name": "Телепатия (100фт)"
+		},
+		{
+			"id": "Telepathy 1 Mile",
+			"name": "Телепатия (1 Миля)",
+			"description": "<p class=\"Нарратив\">@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+		},
+		{
+			"id": "Thrown Weapon Mastery",
+			"name": "Мастерство Метательного Оружия",
+			"description": "<p class=\"Нарратив\">Любое оружие, которое бросает чарау-ка, получает черту <span style=\"text-decoration: underline; color: #a52a2a;\">смертельное d6</span>.</p>\n<hr />\n<p>Более того, когда чарау-ка бросает импровизированное оружие, он не получает за это штрафа -2, а также не получает штрафа за использование метательного импровизированного оружия с <span style=\"text-decoration: underline; color: #a52a2a;\">несмертельным</span> признаком для смертельной атаки.</p>"
+		},
+		{
+			"id": "Shrieking Frenzy",
+			"name": "Вопль Ярости",
+			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Начинается ход чарау-ка</p>\n<p><strong><span style=\"color: #236fa1;\">Частота</span>:</strong> раз в час</p>\n<p><span style=\"color: #2dc26b;\"><strong> Эффект</strong></span>: Чарау-ка @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускоряется 1} <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span> и может использовать дополнительное действие только для @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг} или @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>\n<hr />\n<p>Находясь в безумии, чарау-ка не может говорить и автоматически <span style=\"color: #e03e2d;\"><strong>критически проваливает</strong></span> проверку на <a href=\"https://2e.aonprd.com/Skills.aspx?ID=15\">Скрытность</a> из-за своего громкого вопля.</p>"
+		},
+		{
+			"id": "Spin Silk",
+			"name": "Производство Шёлка",
+			"description": "<p class=\"Нарратив\">Потратив несколько минут, анади может производить шелк для изготовления предметов из ткани. Один анади может производить достаточно шелка в день, чтобы сшить один предмет одежды.</p>"
+		},
+		{
+			"id": "Rush",
+			"name": "Разбег",
+			"description": "<p class=\"Нарратив\">Существо @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} и в конце этого передвижения совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>\n<hr />\n<p>Во время <span style=\"text-decoration: underline;\">Перемещения</span> он получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +10ФТ к своей Скорости.</p>"
+		},
+		{
+			"id": "Smoke Vision",
+			"name": "Зрение в Дыму",
+			"description": "<p class=\"Нарратив\">Существо игнорирует чужое состояние @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрытен} вызванное дымом.</p>"
+		},
+		{
+			"id": "Swamp Stride",
+			"name": "Болотная Поступь",
+			"description": "<p class=\"Нарратив\">Существо игнорирует сложную местность, вызванную особенностями болотной местности.</p>"
+		},
+		{
+			"id": "Pounce",
+			"name": "Наскок",
+			"description": "<p class=\"Нарратив\">&diams; Существо @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} и в конце этого <span class=\"Признак\">движения</span> совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>\n<p>&diams; Если он начал это <span class=\"Действие\">действие</span> @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятанным}, то остается @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятанным} до окончания @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} этого умения.</p>"
+		},
+		{
+			"id": "Swift Leap",
+			"name": "Поспешный Прыжок",
+			"description": "<p class=\"Нарратив\">Существо подпрыгивает на половину своей скорости. Это движение не вызывает реакции.</p>"
+		},
+		{
+			"id": "Draconic Momentum",
+			"name": "Импульс Дракона",
+			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Дракон</span> <span class=\"Список\">перезаряжает</span> свою <span class=\"Повтор\">Атаку Дыханием</span> всякий раз, когда наносит <span class=\"Критуспех\">Крит.Успех</span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом}.</p>"
+		},
+		{
+			"id": "Tighten Coils",
+			"name": "Сжать Кольца",
+			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое} вами существо пытается @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться}.</p>\n<p><span style=\"color: #2dc26b;\"><strong>Эффект:</strong></span> КС этой проверки @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться} увеличивается на 2.</p>"
+		},
+		{
+			"id": "Swiftness",
+			"name": "Быстрота",
+			"description": "<p class=\"Нарратив\">Движение существа не провоцирует реакции.</p>"
+		},
+		{
+			"id": "Avenging Bite",
+			"name": "Укус Возмездия",
+			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: враг в пределах досягаемости укуса атакует одного из союзников.</p>\n<p><strong><span style=\"color: #2dc26b;\">Эффект</span>:</strong> Вы наносите удар укусом по активирующему триггер врагу.</p>"
+		},
+		{
+			"id": "Weak Acid",
+			"name": "Слабая Кислота",
+			"description": "<p class=\"Нарратив\">Кислота существа повреждает только органический материал, а <span class=\"НЕ\">не</span> <span class=\"Матер\">металл</span>, <span class=\"Матер\">камень</span> или другие неорганические вещества.</p>"
+		},
+		{
+			"id": "Speed Surge",
+			"name": "Всплеск Скорости",
+			"description": "<p class=\"Нарратив\"><span class=\"Част\">Частота</span>: Три раза в день</p>\n<p>Существо использует движение с двойной скоростью.</p>"
+		},
+		{
+			"id": "Snow Vision",
+			"name": "Зрение в Снегу",
+			"description": "<p class=\"Нарратив\">Снег не ухудшает зрение существа.</p>\n<p>Существо игнорирует чужое состояние @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт} вызванное снегопадом.</p>"
+		},
+		{
+			"id": "Ice Climb",
+			"name": "Ледяное Карабканье",
+			"description": "<p class=\"Нарратив\">Существо может карабкаться по льду, как если бы у него была указанная скорость карабканья. Он игнорирует <span class=\"Мест\">Сложная Местность</span> и <span class=\"Мест\">Особо Сложная Местность</span> из льда и снега и не рискует упасть при движению по льду.</p>"
+		},
+		{
+			"id": "Woodland Stride",
+			"name": "Лесная Поступь",
+			"description": "<p class=\"Нарратив\">Вы всегда можете найти путь, как если бы листва расступилась перед вами.</p>\n<hr />\n<p>Вы игнорируете любую <span class=\"Мест\">Сложная Местность</span> связанную с растениями, такими как кусты, лианы и подлесок. Даже растения, управляемые магией, не препятствуют вашему продвижению.</p>"
+		},
+		{
+			"id": "Inspired Feast",
+			"name": "Сытая Сила",
+			"description": "<p class=\"Нарратив\">Если кроколюд питается человеческим трупом в течение 1 минуты или более, он получает бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атака\">броскам атаки</span> и +2 к <span class=\"Урон\">броскам урона</span> в течение 1 часа.</p>\n<p><span style=\"color: #e67e23;\"><strong>Эффект:</strong></span> @Compendium[pf2e.bestiary-effects.EM0VP31B8CyjFD15]{Effect: Inspired Feast}</p>"
+		},
+		{
+			"id": "Twisting Tail",
+			"name": "Хвост-Хлыст",
+			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Враг в пределах досягаемости <strong>Жала/Хвоста</strong> существа использует действие <span class=\"Признак\">движения</span> или покидает клетку во время действия <span style=\"text-decoration: underline; color: #ba372a;\">движения</span>, которое оно использует.</p>\n<p>Существо поражает врага своим <strong>Жалом/Хвостом</strong>. Если он <span style=\"color: #169179;\"><strong>попадает</strong></span>, существо прерывает действие триггера врага.</p>"
+		},
+		{
+			"id": "Tail Lash",
+			"name": "Хвост-Плеть",
+			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Враг, находящееся в пределах досягаемости <strong>Хвоста</strong> существа, использует действие для @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} или пытается пройти проверку навыка.</p>\n<p><span style=\"color: #169179;\"><strong>Преимущество:</strong> </span>Существо пытается @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударить} стригиррившего врага своим <strong>Хвостом</strong>. Если оно <span style=\"color: #169179;\"><strong>попадает</strong></span>, враг получает штраф <span class=\"Обстоятельства\">Обстоятельства</span> -2 к броску триггера.</p>\n<hr />\n<p><span style=\"color: #e67e23;\"><strong>Эффекты:</strong></span></p>\n<ul>\n<li>@Compendium[pf2e.bestiary-effects.QqC9xymSXSVunDgl]{Effect: Tail Lash (Attack Roll)}</li>\n<li>@Compendium[pf2e.bestiary-effects.4HJJdogS751Z04lD]{Effect: Tail Lash (Skill Check)}</li>\n</ul>"
+		},
+		{
+			"id": "Weapon Master",
+			"name": "Мастер Оружия",
+			"description": "<p class=\"Нарратив\">Существо имеет доступ к @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.PVrMSF93KIejBTMm]{Критической Специализации} для любого оружия, которым оно владеет.</p>"
+		},
+		{
+			"id": "Woodland Elf",
+			"name": "Лесной Эльф",
+			"description": "<p class=\"Нарратив\">Вы приспособлены к жизни в лесу или глубоких джунглях, и знаете как лазить по деревьям и использовать растительность в своих интересах.</p>\n<hr />\n<p>Когда вы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаетесь} на деревья, лианы и другую растительность, вы двигаетесь с половиной своей <span style=\"Скор\">Скорости</span> при <span class=\"Успех\">Успех</span>, и полной Скоростью при<span style=\"color: #2dc26b;\"><strong> критическом успехе</strong></span> (и если у вас есть @Compendium[pf2e.feats-srd.P04Hw8E6WAWARKHP]{Быстро Карабкаться}, вы двигаетесь с полной Скоростью при <span class=\"Успех\">Успех</span>).</p>\n<blockquote>\n<p>Если вы используете Скорость карабканья, эти бонусы не применяются.</blockquote>\n<hr />\n<p>Вы всегда можете использовать действие @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Укрыться}, когда находитесь в лесной местности, чтобы получить укрытие, даже если вы не рядом с преградой, за которой можете @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Укрыться}.</p>"
+		},
+		{
+			"id": "Mudwalking",
+			"name": "Грязевая Поступь",
+			"description": "<p class=\"Нарратив\">Существо игнорирует <span class=\"Мест\">Сложная Местность</span>, вызванную особенностями грязевой местности.</p>"
+		},
+		{
+			"id": "Jungle Stride",
+			"name": "Джунгливая Поступь",
+			"description": "<p class=\"Нарратив\">Существо игнорирует <span class=\"Мест\">Сложная Местность</span>, вызванную особенностями местности - джунглей.</p>"
+		},
+		{
+			"id": "Eagle Dive",
+			"name": "Орлиное Пикирование",
+			"description": "<p class=\"Нарратив\">Существо @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летит} по прямой, вплоть до своей двойной <span style=\"Скор\">Скорости</span> полета, снижаясь хотя бы на 10ФТ и затем совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span>.</p>"
+		},
+		{
+			"id": "Wrestle",
+			"name": "Побороть",
+			"description": "<p class=\"Нарратив\">Существо совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> по @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченной} ей цели. Если эта атака <span style=\"color: #169179;\"><strong>попадает</strong></span>, цель падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}.</p>"
+		},
+		{
+			"id": "Vortex 30",
+			"name": "Вихрь 30",
+			"description": "<p class=\"Нарратив\">@Template[type:emanation|distance:30]{Эманац. 30} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}</p>\n<hr />\n<p>Вода в области вашей ауры, которая находится в том же водоеме, что и вы, является <span style=\"text-decoration: underline; color: #34495e;\">трудной местностью</span> для плавающих существ, которые не обладают признаком <span style=\"text-decoration: underline; color: #a52a2a;\">воды</span>.</p>"
+		},
+		{
+			"id": "Vortex 40",
+			"name": "Вихрь 40",
+			"description": "<p class=\"Нарратив\">@Template[type:emanation|distance:40]{Эманац. 40} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}</p>\n<hr />\n<p>Вода в области вашей ауры, которая находится в том же водоеме, что и вы, является <span style=\"text-decoration: underline; color: #34495e;\">трудной местностью</span> для плавающих существ, которые не обладают признаком <span style=\"text-decoration: underline; color: #a52a2a;\">воды</span>.</p>"
+		},
+		{
+			"id": "Vortex 50",
+			"name": "Вихрь 50",
+			"description": "<p class=\"Нарратив\">@Template[type:emanation|distance:50]{Эманац. 50} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}</p>\n<hr />\n<p>Вода в области вашей ауры, которая находится в том же водоеме, что и вы, является <span style=\"text-decoration: underline; color: #34495e;\">трудной местностью</span> для плавающих существ, которые не обладают признаком <span style=\"text-decoration: underline; color: #a52a2a;\">воды</span>.</p>"
+		},
+		{
+			"id": "Water-Bound",
+			"name": "Зависимый от Воды",
+			"description": "<p class=\"Нарратив\">Когда вы не касается воды - вы @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлены 1} и не можете использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
+		},
+		{
+			"id": "Scoff at the Divine",
+			"name": "Надсмехаться над Божественным",
+			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо в пределах 30ФТ накладывает <span style=\"text-decoration: underline; color: #34495e;\">сакральное заклинание</span> или использует <span class=\"Признак\">Сакральный</span> эффект.</p>\n<p><span class=\"Треб\">Требования</span>: У <span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> есть неизрасходованная ячейка заклинаний, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> расходует ячейку заклинания, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}. И пытается @Compendium[PF2E-TS-RUB.spiski.lYdYqTKsve5Wi75r]{Противодействовать} <span style=\"color: #e03e2d;\"><strong>триггернувшему</strong></span> заклинанию или эффекту.</p>\n<div data-visibility=\"gm\">\n<p>Раджа-ракшас не может Надсмехаться над Божественным в течение [[/br 1d4]] раундов.</p>\n</div>"
+		},
+		{
+			"id": "Archon's Door",
+			"name": "Дверь Архонта",
+			"description": "<p class=\"Нарратив\"><span style=\"color: #236fa1;\"><strong>Один раз в день</strong></span>, если <span style=\"text-decoration: underline; color: #a52a2a;\">архонт</span> видит, как другое существо использует @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве}, он может использовать свою <span style=\"text-decoration: underline; color: #34495e;\">врожденную</span> <span style=\"color: #236fa1;\"><strong>Усиленную (5-й)</strong></span> @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве} в течение 1 раунда, чтобы попытаться следовать за этим существом на максимальное расстояние.</p>\n<p>Если @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве} <span style=\"text-decoration: underline; color: #a52a2a;\">архонта</span> находится на достаточном расстоянии, архонт появляется на том же расстоянии и в том же направлении от существа, что и до использования @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве}.</p>"
+		},
+		{
+			"id": "Three Headed",
+			"name": "Трёхглавый",
+			"description": "<p class=\"Нарратив\">Любая способность, которая может отрубить голову <span style=\"text-decoration: underline; color: #34495e;\">Химере</span> (например, <span style=\"color: #2dc26b;\"><strong>крит.удар</strong></span> оружием с @Compendium[pf2e.equipment-srd.6xaxxKfvXED6LfIY]{Руна Стрижающая}), случайным образом отрубает одну голову.</p>\n<hr />\n<p>Потеря головы не убивает <span style=\"text-decoration: underline; color: #34495e;\">Химеру</span> (пока у нее осталась одна голова), но не позволяет ей наносить удары потерянной головой или использовать <span style=\"text-decoration: underline; color: #34495e;\">Атаку Дыханием</span> потерянной головой дракона.</p>"
+		},
+		{
+			"id": "Triple Opportunity",
+			"name": "Тройная Возможность",
+			"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Химера</span> получает 2 дополнительные <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> каждый раунд, которые она может использовать только @Compendium[pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O]{Возможность для Атаки}.</p>\n<p>Он должен использовать разные головы для каждой <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
+		},
+		{
+			"id": "Three-Headed Strike",
+			"name": "Удар Трёх Голов",
+			"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Химера</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} своей <span style=\"text-decoration: underline; color: #34495e;\">Челюстью Дракона</span>, <span style=\"text-decoration: underline; color: #34495e;\">Челюстью Льва</span> и <span style=\"text-decoration: underline; color: #34495e;\">Рогами Козла</span>, каждый со штрафом -2 и нацелены на разных существ.</p>\n<hr />\n<p>Эти @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} считаются только одной атакой для <span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> <span style=\"text-decoration: underline; color: #34495e;\">Химеры</span>, и штраф не увеличивается до тех пор, пока она не совершит все три атаки.</p>"
+		},
+		{
+			"id": "Bark Orders",
+			"name": "Приказ Лаем",
+			"description": "<p class=\"Нарратив\">Вы отдаете команду своим союзникам - переместить.</p>\n<hr />\n<p>Союзники, которые слышат и понимают этот приказ, могут использовать<span class=\"pf2-icon\"> <span style=\"background-color: #9beca3;\">5</span></span><span style=\"background-color: #9beca3;\">реакцию</span> чтобы сделать @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг}.</p>"
+		},
+		{
+			"id": "Rugged Travel",
+			"name": "Суровое Путешествие",
+			"description": "<p class=\"Нарратив\">Вы игнорируете первую клетку <span style=\"text-decoration: underline; color: #34495e;\">сложной местности</span>, каждый раз когда входите в неё совершая @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} или @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг}.</p>"
+		},
+		{
+			"id": "Personality Fragments",
+			"name": "Фрагменты Личности",
+			"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Одушевленная Кукла</span> имеет общие фрагменты личности своей донорской души, но не воспоминания этого существа. Это заставляет куклу соответствовать <span style=\"text-decoration: underline; color: #169179;\">мировоззрению</span> души донора и иметь признаки соответствующего <span style=\"text-decoration: underline; color: #a52a2a;\">мировоззрения</span>.</p>"
+		},
+		{
+			"id": "Troop Movement",
+			"name": "Передвижение Отряда",
+			"description": "<p class=\"Нарратив\">Когда <span class=\"Признак\">Отряд</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, они в начале <span class=\"Действие\"><span class=\"pf2-icon\">4</span></span>@Compendium[pf2e.bestiary-ability-glossary-srd.OvqohW9YuahnFaiX]{Строются} в область 20 на 20ФТ (за вычетом любых недостающих <span class=\"Атака\">квадратов</span>), потом совершаю <span class=\"Признак\">движение</span> вплоть до своей <span class=\"Скор\">Скорости</span>.</p>\n<blockquote class=\"Уточнить\">Это работает так же как <span class=\"Признак\">движение</span> <span class=\"Размер\">исполинских</span> существ; например, если любой из <span class=\"Атака\">квадратов</span> <span class=\"Признак\">отряда</span> попадает в <span class=\"Мест\">Сложная Местность</span>, то дополнительная стоимость <span class=\"Признак\">движение</span> применяется ко всему <span class=\"Признак\">отряду</span>.</blockquote>"
+		},
+		{"_id": "classDC"},
+		{
+			"id": "Filth Fever",
+			"name": "Грязная Лихорадка",
+			"description": "<p class=\"Заг2\"><span class=\"СТК\">@Check[type:fortitude|showDC:gm|dc:resolve(@actor.attributes.classDC)|immutable:false|traits:disease|name:Грязная Лихорадка]</span></p>\n<div data-visibility=\"gm\">\n<p>Состояния @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота} и @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} от <span class=\"Повтор\">Грязной Лихорадки</span> не проходят сами по себе, пока не вылечена <span class=\"Признак\">болезнь</span>.</p>\n<hr>\n<p><span class=\"Критуспех\">Стадия 1</span>: Нет эффектов <span class=\"Признак\">болезни</span> ([[/br 1d4]]{1d4 Часа})</p>\n<p><span class=\"Успех\">Стадия 2</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (<span class=\"До\">1 день</span>)</p>\n<p><span class=\"ТЕЛ\">Стадия 3</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} (<span class=\"До\">1 день</span>)</p>\n<p><span class=\"Провал\">Стадия 4</span>: @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf] (<span class=\"До\">1 день</span>)</p>\n<p><span class=\"Критпровал\">Стадия 5</span>: Смерть</p>\n</div>"
+		},
+		{
+			"id": "Terrifying Croak",
+			"name": "Ужасающий Квак",
+			"description": "<p class=\"Нарратив\"><span style=\"color: #34495e;\"><span style=\"text-decoration: underline;\">Боггард</span> </span>издает <span style=\"text-decoration: underline; color: #34495e;\">Ужасающий Квак</span>.</p>\n<hr />\n<p>Любой <span class=\"НЕ\">не</span>-<span style=\"text-decoration: underline; color: #34495e;\">боггард</span> в пределах @Template[type:emanation|distance:30] становится @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}, если он не <span style=\"color: #169179;\"><strong>преуспевает </strong></span>в @Check[type:will|showDC:gm|dc:resolve(@actor.attributes.classDC)|immutable:false|traits: auditory,emotion,fear,mental]{Воли}.</p>\n<blockquote>\n<p>Те, кто совершат <span class=\"Критуспех\">Крит.Успех</span>, временно <span style=\"text-decoration: underline; color: #169179;\"><span style=\"color: #34495e; text-decoration: underline;\">имунны</span> </span>на 1 минуту.</blockquote>"
+		},
+		{
+			"id": "Swarming Stance",
+			"name": "Стойка Роя",
+			"description": "<p class=\"Нарратив\"><span class=\"Признак\">Морлоки</span> могут делить то же пространство, что и другой <span class=\"Признак\">Морлок</span>, но не более двух <span style=\"text-decoration: underline; color: #a52a2a;\">морлоков</span> могут занимать одно и то же пространство.</p>\n<p>Когда <span class=\"Признак\">Морлоки</span> делят одно и то же пространство, они получают бонус <span class=\"Обстоятельства\">Обстоятельства</span> +1 к <span class=\"Атака\">броскам атак</span>.</p>"
+		}
+	]
+}

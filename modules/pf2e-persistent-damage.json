@@ -1,0 +1,51 @@
+{
+    "PF2E-PD.SETTINGS": {
+        "AutoProcess": {
+            "name": "Автоматизировать?",
+            "hint": "Поставьте галочку, чтобы Продолж.Урон работал в автоматическом режиме"
+        },
+        "AutoRecover": {
+            "name": "Проверка Восстановления?",
+            "hint": "Когда совершать автоматический бросок Чистой Проверки восстановления от Продолж.Урона",
+            "option1": "Всегда",
+            "option2": "Только у НПС",
+            "option3": "Никогда"
+        },
+        "AutoResolve": {
+            "name": "Авто Восстановление?",
+            "hint": "Поставьте галочку, чтобы автоматически снимать Продолж.Урон при успехе автоматической Проверки Восстановления"
+        },
+        "HideRolls": {
+            "name": "Отображение урона Продолж.Урона?",
+            "hint": "Скрывать или показывать урон от Продолж.Урон? Если урон скрыт, игроки не будут видеть сколько Продолж.Урон нанес урона.",
+            "option1": "Всегда показывать",
+            "option2": "В зависимости от настроек бросков",
+            "option3": "Всегда скрывать"
+        }
+    },
+
+    "PF2E-PD.Notification": {
+        "Created": "Добавлен Продолж.Урон [{damageType}]",
+        "MissingActor": "Выберите токен для Продолж.Урон",
+        "Overwritten": "Существующий Продолж.Урон был переписан",
+        "NotOverwritten": "Новый Продолж.Урон не был наложен, так как он слабее имеющегося"
+    },
+
+    "PF2E-PD.Dialog": {
+        "Title": "+ Продолж.Урон",
+        "Apply": "Принять",
+        "Add": "Добавить",
+        "Close": "Закрыть"
+    },
+
+    "PF2E-PD.Button.SelectTarget": "Выберите цель",
+
+    "PF2E-PD.Migrating": "Applying migration for PF2E Persistent Damage",
+    "PF2E-PD.Migrated": "Applied PF2E Persistent Damage migration up to version {version}",
+    "PF2E-PD.PersistentDamageLabel": "Формула",
+    "PF2E-PD.PersistentDCLabel": "КС",
+
+    "PF2E-PD.FastHealing": "Быстрое Исцеление",
+    "PF2E-PD.Regeneration": "Регенерация",
+    "PF2E-PD.HealingProcess": "Исцеление ({sources})"
+}

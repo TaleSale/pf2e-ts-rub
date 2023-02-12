@@ -1,0 +1,552 @@
+{
+	"label": "Эффекты: Снаряжения",
+	"entries": [
+		{
+			"id_": "Бомба"
+		},
+		{
+			"id": "Effect: Tanglefoot Bag (Lesser)",
+			"name": "Эффект: Бомба-Липучка (Малая)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.T6Appwwl6nUl56Xj]</p>\n<hr>\n<p>&diams; Когда вы <span class=\"Успех\">попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">=</span>@Compendium[pf2e.equipment-effects.fYZIanbYu0Vc4JEL]{Получает} штраф <span class=\"Состояния\">Состояния</span> -10ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span>.</p>"
+		},
+		{
+			"id": "Effect: Tanglefoot Bag (Moderate)",
+			"name": "Эффект: Бомба-Липучка (Средная)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.evBPzM1VsuYcoenn]</p>\n<hr>\n<p>&diams; Когда вы <span class=\"Успех\">попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">=</span>@Compendium[pf2e.equipment-effects.MEreOgnjoRiXPEuq]{Получает} штраф <span class=\"Состояния\">Состояния</span> -15ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span>.</p>"
+		},
+		{
+			"id": "Effect: Tanglefoot Bag (Greater)",
+			"name": "Эффект: Бомба-Липучка (Большая)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.5Qkz4RVJr2Kx3RL6]</p>\n<hr>\n<p>&diams; Когда вы <span class=\"Успех\">попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">=</span>@Compendium[pf2e.equipment-effects.csA4UAD2tQq7RjT8]{Получает} штраф <span class=\"Состояния\">Состояния</span> -15ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span>.</p>"
+		},
+		{
+			"id": "Effect: Tanglefoot Bag (Major)",
+			"name": "Эффект: Бомба-Липучка (Сильная)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.BxJNWWvpxacDIsdt]</p>\n<hr>\n<p>&diams; Когда вы <span class=\"Успех\">попадаете</span> <span class=\"Повтор\">липучкой</span> по существу, оно <span class=\"Эффект\">=</span>@Compendium[pf2e.equipment-effects.ITAFsW3dQPupJ3DW]{Получает} штраф <span class=\"Состояния\">Состояния</span> -20ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"Прод\">на 1 минуту</span>.</p>"
+		},
+		{
+			"id": "Effect: Frost Vial (Lesser)",
+			"name": "Эффект: Морозная Склянка (Малая)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.EpxmUtLpCkE8R6KJ]</p>\n<hr>\n<div>&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.RLsdvhmTh64Mmty9]{Получает} штраф <span class=\"Состояния\">Состояния</span> -5ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"До\">до конца своего след.хода</span>.</div>"
+		},
+		{
+			"id": "Effect: Frost Vial (Moderate)",
+			"name": "Эффект: Морозная Склянка (Средняя)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.nVvH1ZcM7OwIVIs8]</p>\n<hr>\n<div>&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.dv0IKm5syOdP759w]{Получает} штраф <span class=\"Состояния\">Состояния</span> -10ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"До\">до конца своего след.хода</span>.</div>"
+		},
+		{
+			"id": "Effect: Frost Vial (Greater)",
+			"name": "Эффект: Морозная Склянка (Большая)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.intVPcEzbE9o4NQd]</p>\n<hr>\n<div>&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Получает} штраф <span class=\"Состояния\">Состояния</span> -10ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"До\">до конца своего след.хода</span>.</div>"
+		},
+		{
+			"id": "Effect: Frost Vial (Major)",
+			"name": "Эффект: Морозная Склянка (Сильная)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.4DJQID8GIlxQ7b9C]</p>\n<hr>\n<div>&diams; <span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.4G9qnI0oRyL6eKFQ]{Получает} штраф <span class=\"Состояния\">Состояния</span> -15ФТ к своим <span class=\"Скор\">Скоростям</span> <span class=\"До\">до конца своего след.хода</span>.</div>"
+		},
+		{
+			"id": "Effect: Sulfur Bomb (Failure)",
+			"name": "Эффект: Серная Бомба",
+			"description": "<div>Под действие <span class=\"Успех\">попадания</span> от @Item[jbK9wIf7lRHpCAek]{Серных Бомб}</div>\n<div><hr><span class=\"Дист\">Цель</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.fuQVJiPPUsvL6fi5]{Получает} штраф <span class=\"Состояния\">Состояния</span> -1 к <span class=\"МУД\">Восприятия</span> и <span class=\"Атака\">броскам атак</span> <span class=\"До\">до конца своего след.хода</span>.</div>"
+		},
+		{
+			"id_": "Руна"
+		},
+		{
+			"id": "Effect: Energizing Rune (Acid)",
+			"name": "Эффект: Руна Заряжающася Кислотой",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.Qqh586pudsEqITUk]</p>\n<hr />\n<p>Оружие наполняется спровоцировавшим типом энергии. <span class=\"До\">до конца вашего след.хода</span> оно наносит дополнительные [[/r 1d8]] урона кислотой.</p>"
+		},
+		{
+			"id": "Effect: Energizing Rune (Cold)",
+			"name": "Эффект: Руна Заряжающася Холодом",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.Qqh586pudsEqITUk]</p>\n<hr />\n<p>Оружие наполняется спровоцировавшим типом энергии. <span class=\"До\">до конца вашего след.хода</span> оно наносит дополнительные [[/r 1d8]] урона холодом.</p>"
+		},
+		{
+			"id": "Effect: Energizing Rune (Electricity)",
+			"name": "Эффект: Руна Заряжающася Электричеством",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.Qqh586pudsEqITUk]</p>\n<hr />\n<p>Оружие наполняется спровоцировавшим типом энергии. <span class=\"До\">до конца вашего след.хода</span> оно наносит дополнительные [[/r 1d8]] урона электричеством.</p>"
+		},
+		{
+			"id": "Effect: Energizing Rune (Fire)",
+			"name": "Эффект: Руна Заряжающася Огнем",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.Qqh586pudsEqITUk]</p>\n<hr />\n<p>Оружие наполняется спровоцировавшим типом энергии. <span class=\"До\">до конца вашего след.хода</span> оно наносит дополнительные [[/r 1d8]] урона огнем.</p>"
+		},
+		{
+			"id": "Effect: Energizing Rune (Sonic)",
+			"name": "Эффект: Руна Заряжающася Звуком",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.Qqh586pudsEqITUk]</p>\n<hr />\n<p>Оружие наполняется спровоцировавшим типом энергии. <span class=\"До\">до конца вашего след.хода</span> оно наносит дополнительные [[/r 1d8]] урона звуком.</p>"
+		},
+		{
+			"id_": "Эликсир"
+		},
+		{
+			"id": "Effect: Antiplague (Lesser)",
+			"name": "Эффект: Лекарство (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.UqinuuCWePTYGhVO]</p>\n<hr>\n<p>Выпив <span class=\"Повтор\">лекарство</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.kkDbalYEavzRpYlp]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак\">болезней</span></span> <span class=\"До\">на 24 часов</span>.</p>"
+		},
+		{
+			"id": "Effect: Antiplague (Moderate)",
+			"name": "Эффект: Лекарство (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.biRbqKo2C97XLfQ0]</p>\n<hr>\n<p>Выпив <span class=\"Повтор\">лекарство</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.HeRHBo2NaKy5IxhU]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак\">болезней</span></span> <span class=\"До\">на 24 часов</span>.</p>"
+		},
+		{
+			"id": "Effect: Antiplague (Greater)",
+			"name": "Эффект: Лекарство (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.ORDaAzMZLrf6Hn8A]</p>\n<hr>\n<p>Выпив <span class=\"Повтор\">лекарство</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.R106i7WCXvHLGMTu]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак\">болезней</span></span> <span class=\"До\">на 24 часов</span>.</p>"
+		},
+		{
+			"id": "Effect: Antiplague (Major)",
+			"name": "Эффект: Лекарство (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.kajpTXg3oHIJStQa]</p>\n<hr>\n<p>&diams; Выпив <span class=\"Повтор\">лекарство</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.qVKrrKpTghgMIuGH]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак\">болезней</span></span> <span class=\"До\">на 24 часов</span>.</p>\n<p>&diams; Когда вы выпиваете <span class=\"Повтор\">лекарство</span> - получаете мгновенную попытку <span class=\"СТК\">спасброска</span> против одной <span class=\"Признак\">болезни</span> 14-го уровня или ниже, которая действует на вас. Если вы <span class=\"Успех\">прошли</span> <span class=\"СТК\">спасбросок</span>, то <span class=\"Признак\">болезнь</span> исцеляется.</p>"
+		},
+		{
+			"id": "Effect: Antidote (Lesser)",
+			"name": "Эффект: Противоядие (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.ktjFOp3U0wQD9t0Z]</p>\n<hr>\n<p>Выпив <span class=\"Повтор\">противоядие</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.7z1iY4AaNEAIKuAU]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">яда</span></span> <span class=\"До\">на 6 часов</span>.</p>"
+		},
+		{
+			"id": "Effect: Antidote (Moderate)",
+			"name": "Эффект: Противоядие (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.AJ1dC7EtTIfBey0M]</p>\n<hr>\n<p>Выпив <span class=\"Повтор\">противоядие</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.mi4Md1fB2XThCand]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">яда</span></span> <span class=\"До\">на 6 часов</span>.</p>"
+		},
+		{
+			"id": "Effect: Antidote (Greater)",
+			"name": "Эффект: Противоядие (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.XWkeL34yJK6t5qUE]</p>\n<hr>\n<p>Выпив <span class=\"Повтор\">противоядие</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.QuZ5frBMJF3gi7RY]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">яда</span></span> <span class=\"До\">на 6 часов</span>.</p>"
+		},
+		{
+			"id": "Effect: Antidote (Major)",
+			"name": "Эффект: Противоядие (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.ANzB9WzlGQXDn76G]</p>\n<hr>\n<p>Выпив <span class=\"Повтор\">противоядие</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.1mKjaWC65KWPuFR4]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">яда</span></span> <span class=\"До\">на 6 часов</span>.</p>\n<p>&diams; Когда вы выпиваете <span class=\"Повтор\">противоядие</span> - получаете мгновенную попытку <span class=\"СТК\">спасброска</span> против одного <span class=\"Признак2\"><span class=\"Признак1\">яда</span></span> 14-го уровня или ниже, который действует на вас. Если вы <span class=\"Успех\">прошли</span> <span class=\"СТК\">спасбросок</span>, то <span class=\"Признак\">яд</span> нейтрализован.</p>"
+		},
+		{
+			"id": "Effect: Elixir of Life (Minor)",
+			"name": "Эффект: Эликсир Жизни (Слабый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.hDLbR56Id2OtU318]</p>\n<hr>\n<p>&diams; Вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.lPRuIRbu0rHBkoKY]{Получаете}</span> бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"КБ\">Спас.</span> против <span class=\"Признак\">болезней</span> </span>и <span class=\"Признак\">ядов</span> <span class=\"До\">на 10 минут</span>.</span></p>"
+		},
+		{
+			"id": "Effect: Elixir of Life (Lesser)",
+			"name": "Эффект: Эликсир Жизни (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.TZUskLT7yvP7N2co]</p>\n<hr>\n<p>&diams; Вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.EpB7yJPEuG6ez4z3]{Получаете}</span> бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"КБ\">Спас.</span> против <span class=\"Признак\">болезней</span> </span>и <span class=\"Признак\">ядов</span> <span class=\"До\">на 10 минут</span>.</span></p>"
+		},
+		{
+			"id": "Effect: Elixir of Life (Moderate)",
+			"name": "Эффект: Эликсир Жизни (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.c21stU5rhN4F2fZl]</p>\n<hr>\n<p>&diams; Вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.Yxssrnh9UZJAM0V7]{Получаете}</span> бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"КБ\">Спас.</span> против <span class=\"Признак\">болезней</span> </span>и <span class=\"Признак\">ядов</span> <span class=\"До\">на 10 минут</span>.</span></p>"
+		},
+		{
+			"id": "Effect: Elixir of Life (Greater)",
+			"name": "Эффект: Эликсир Жизни (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.mYozcVg9fQY6zO7C]</p>\n<hr>\n<p>&diams; Вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.Z9oPh462q82IYIZ6]{Получаете}</span> бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"КБ\">Спас.</span> против <span class=\"Признак\">болезней</span> </span>и <span class=\"Признак\">ядов</span> <span class=\"До\">на 10 минут</span>.</span></p>"
+		},
+		{
+			"id": "Effect: Elixir of Life (Major)",
+			"name": "Эффект: Эликсир Жизни (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.AmxSqEoFhRLMYd1W]</p>\n<hr>\n<p>&diams; Вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.PpLxndUSgzgs6dd0]{Получаете}</span> бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"КБ\">Спас.</span> против <span class=\"Признак\">болезней</span> </span>и <span class=\"Признак\">ядов</span> <span class=\"До\">на 10 минут</span>.</span></p>"
+		},
+		{
+			"id": "Effect: Elixir of Life (True)",
+			"name": "Эффект: Эликсир Жизни (Истинный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.qK964kZz1ALcysOa]</p>\n<hr>\n<p>&diams; Вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.9MeHc072G4L8AJkp]{Получаете}</span> бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"КБ\">Спас.</span> против <span class=\"Признак\">болезней</span> </span>и <span class=\"Признак\">ядов</span> <span class=\"До\">на 10 минут</span>.</span></p>"
+		},
+		{
+			"id": "Effect: Cheetah's Elixir (Lesser)",
+			"name": "Эффект: Эликсир Гепарда (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.tyt6rFtv32MZ4DT9]</p>\n<hr>\n<p>Вы <span class=\"Эффект\">=</span>@Compendium[pf2e.equipment-effects.lNWACCNe9RYgaFxb]{Получаете} бонус <span class=\"Состояния\">Состояния</span> +5ФТ к вашей <span class=\"Скор\">Скорости</span> <span class=\"До\">на 1 минуту</span>.</p>"
+		},
+		{
+			"id": "Effect: Cheetah's Elixir (Moderate)",
+			"name": "Эффект: Эликсир Гепарда (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.AqLxu3ir4UGzdOaz]</p>\n<hr>\n<p>Вы <span class=\"Эффект\">=</span>@Compendium[pf2e.equipment-effects.j9zVZwRBVAcnpEkE]{Получаете} бонус <span class=\"Состояния\">Состояния</span> +10ФТ к вашей <span class=\"Скор\">Скорости</span> <span class=\"До\">на 10 минут</span>.</p>"
+		},
+		{
+			"id": "Effect: Cheetah's Elixir (Greater)",
+			"name": "Эффект: Эликсир Гепарда (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.t4X6GDybqLmt7UkN]</p>\n<hr>\n<p>Вы <span class=\"Эффект\">=</span>@Compendium[pf2e.equipment-effects.PeuUz7JaabCgl6Yh]{Получаете} бонус <span class=\"Состояния\">Состояния</span> +10ФТ к вашей <span class=\"Скор\">Скорости</span> <span class=\"До\">на 1 час</span>.</p>"
+		},
+		{
+			"id": "Effect: Eagle Eye Elixir (Lesser)",
+			"name": "Эффект: Эликсир Орлиного Глаза (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.7Y2yOr4ltpP2tyuL]</p>\n<hr>\n<p><span class=\"До\">На следующий час</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.VCypzSu659eC6jNi]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span>, которые становятся +2 при попытке @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиска} <span class=\"Повтор\">скрытых дверей</span> и <span class=\"Признак2\"><span class=\"Признак1\">ловушек</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Eagle Eye Elixir (Moderate)",
+			"name": "Эффект: Эликсир Орлиного Глаза (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.lPcnDlBGz5QwCMYw]</p>\n<hr>\n<p><span class=\"До\">На следующий час</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.Wa4317cqU4lJ8vAQ]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span>, которые становятся +3 при попытке @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиска} <span class=\"Повтор\">скрытых дверей</span> и <span class=\"Признак2\"><span class=\"Признак1\">ловушек</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Eagle Eye Elixir (Greater)",
+			"name": "Эффект: Эликсир Орлиного Глаза (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.xWCdsGSwLLTeX6tQ]</p>\n<hr>\n<p><span class=\"До\">На следующий час</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.kgotU0sFmtAHYySB]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span>, которые становятся +4 при попытке @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиска} <span class=\"Повтор\">скрытых дверей</span> и <span class=\"Признак2\"><span class=\"Признак1\">ловушек</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Eagle Eye Elixir (Major)",
+			"name": "Эффект: Эликсир Орлиного Глаза (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.kicNrnZz1KjJYRVI]</p>\n<hr>\n<p>&diams; <span class=\"До\">На следующий час</span>, вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.wyLEew86nhNUXASu]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span>, которые становятся +4 при попытке @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиска} <span class=\"Повтор\">скрытых дверей</span> и <span class=\"Признак2\"><span class=\"Признак1\">ловушек</span></span>.</p>\n<p>&diams; Каждый раз, когда вы проходите в пределах 10ФТ от <span class=\"Повтор\">скрытой двери</span> и <span class=\"Признак2\"><span class=\"Признак1\">ловушки</span></span>, Мастер автоматически бросает за вас <span class=\"Признак2\"><span class=\"Признак1\">тайную</span></span> проверку @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиска}.</p>"
+		},
+		{
+			"id": "Effect: Lastwall Soup",
+			"name": "Эффект: Ластвольский Суп (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.VeCNWhvEr82ZNoSV]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> после употребления миски <span class=\"Повтор\">Ластвольского Супа</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.6A8jsLR7upLGuRiv]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +2 <span class=\"ЛВК\">Скрытности</span> и против <span class=\"Признак2\"><span class=\"Признак1\">нежити</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Lastwall Soup (Improved)",
+			"name": "Эффект: Ластвольский Суп (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.VcEd9Bh4q5vQfpLv]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> после употребления миски <span class=\"Повтор\">Ластвольского Супа</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.5o33sch67Z8j5Vom]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +3 <span class=\"ЛВК\">Скрытности</span> и против <span class=\"Признак2\"><span class=\"Признак1\">нежити</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Lastwall Soup (Greater)",
+			"name": "Эффект: Ластвольский Суп (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.ed8gAxli6Of58kAM]</p>\n<hr>\n<p>&diams; <span class=\"До\">На 1 час</span> после употребления миски <span class=\"Повтор\">Ластвольского Супа</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.neZPoQF4hW3A31dd]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +4 <span class=\"ЛВК\">Скрытности</span> и против <span class=\"Признак2\"><span class=\"Признак1\">нежити</span></span>.</p>\n<p>&diams; Кроме того, вы получаете <span class=\"ОЗ\">[[/r 10]] Врем.ОЗ</span> <span class=\"До\">на 10 минут</span>.</p>"
+		},
+		{
+			"id": "Effect: Bravo's Brew (Lesser)",
+			"name": "Эффект: Варево Смельчака (Малый)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.zM9VX3QwM81DzDUA]</p>\n<hr>\n<p><span class=\"До\">В течение след.часа</span>, после выпивания этого <span class=\"Признак2\"><span class=\"Признак1\">эликсира</span></span>, вы получаете <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.eh7EqmDBDW30ShCu]{Бонус} <span class=\"Предмета\">Предмета</span> +1 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, который <span class=\"Увелич\">увелич.</span> до +2 для спасбросков против эффектов <span class=\"Признак2\"><span class=\"Признак1\">страха</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Bravo's Brew (Moderate)",
+			"name": "Эффект: Варево Смельчака (Средний)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.oCuwJ9IUDAuzsUwa]</p>\n<hr>\n<p><span class=\"До\">В течение след.часа</span>, после выпивания этого <span class=\"Признак2\"><span class=\"Признак1\">эликсира</span></span>, вы получаете <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.eh7EqmDBDW30ShCu]{Бонус} <span class=\"Предмета\">Предмета</span> +2 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, который <span class=\"Увелич\">увелич.</span> до +3 для спасбросков против эффектов <span class=\"Признак2\"><span class=\"Признак1\">страха</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Bravo's Brew (Greater)",
+			"name": "Эффект: Варево Смельчака (Большой)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.sWPkbSlWAEAStBqD]</p>\n<hr>\n<p><span class=\"До\">В течение след.часа</span>, после выпивания этого <span class=\"Признак2\"><span class=\"Признак1\">эликсира</span></span>:</p>\n<p>&diams; Вы получаете <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.eh7EqmDBDW30ShCu]{Бонус} <span class=\"Предмета\">Предмета</span> +3 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, который <span class=\"Увелич\">увелич.</span> до +4 для спасбросков против эффектов <span class=\"Признак2\"><span class=\"Признак1\">страха</span></span>.</p>\n<p>&diams; Если результат спасброска против <span class=\"Признак2\"><span class=\"Признак1\">страха</span></span> <span class=\"Успех\">успешен</span>, вы получаете <span class=\"Критуспех\">Крит.Успех</span>.</p>"
+		},
+		{
+			"id": "Effect: Darkvision Elixir (Lesser)",
+			"name": "Эффект: Эликсир Ночного Зрения (Малый)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.88pGCHV0uKMskTVO]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.7UL8belWmo7U5YGM]{Получаете} @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Ночное Зрение}.</p>"
+		},
+		{
+			"id": "Effect: Darkvision Elixir (Moderate)",
+			"name": "Эффект: Эликсир Ночного Зрения (Средний)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.Y8115p3cmQJBqk5d]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.bcxVvIbuZWOvsKcA]{Получаете} @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Ночное Зрение}.</p>"
+		},
+		{
+			"id": "Effect: Darkvision Elixir (Greater)",
+			"name": "Эффект: Эликсир Ночного Зрения (Большой)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.bz8Y8bVUe7QfBk9g]</p>\n<hr>\n<p><span class=\"До\">На 24 часа</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.7vCenP9j6FuHRv5C]{Получаете} @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Ночное Зрение}.</p>"
+		},
+		{
+			"id": "Effect: Boulderhead Bock",
+			"name": "Эффект: Эль Каменной Головы",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.I0eUrgVGl8a2ZjFc]</p>\n<hr>\n<p>&diams; <span class=\"До\">На 1 час</span> вы получаете <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.2C1HuKDQDGFZuv7l]{Бонус} <span class=\"Предмета\">Предмета</span> +1 к <span class=\"КБ\">Спас.</span> против эффектов, которые могут наложить на вас состояния @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлен} или @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен}.</p>\n<p>&diams; Тем не менее, вы также становитесь менее осведомлены о том, что вас окружает, получая <span class=\"Эффект\">= </span>штраф <span class=\"Предмета\">Предмета</span> -2 к <span class=\"МУД\">Восприятию</span> <span class=\"До\">на 1 час</span>.</p>"
+		},
+
+
+
+
+
+
+		{
+			"id": "Effect: Skeptic's Elixir (Lesser)",
+			"name": "Эффект: Эликсир Скептика (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.eHVZBmtzEcnsHSk8]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.5Gof60StUppR2Xn9]{Получаете}:</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span> и <span class=\"МУД\">КС Восприятия</span>, чтобы замечать неправду, будь то устный или письменный обман.</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Skeptic's Elixir (Moderate)",
+			"name": "Эффект: Эликсир Скептика (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.xGmX6Vuuhivyal8v]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.mG6S6zm6hxaF7Tla]{Получаете}:</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span> и <span class=\"МУД\">КС Восприятия</span>, чтобы замечать неправду, будь то устный или письменный обман.</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Skeptic's Elixir (Greater)",
+			"name": "Эффект: Эликсир Скептика (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.SjbenbdzV4rgGxZP]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.TsWUTODTVi487SEz]{Получаете}:</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span> и <span class=\"МУД\">КС Восприятия</span>, чтобы замечать неправду, будь то устный или письменный обман.</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>.</p>"
+		},
+		{
+			"id": "Effect: Spiderfoot Brew (Lesser)",
+			"name": "Эффект: Эликсир Паучьих Пальцев (Малый)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.HuyWiPnkDZoAVhW9]</p>\n<hr />\n<p>&diams; <span style=\"text-decoration: underline; color: #169179;\">Скорость карабканья 15</span> футов</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"Атак\">проверкам</span> <span class=\"СИЛ\">Атлетика</span>, сделанным для @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]</p>"
+		},
+		{
+			"id": "Effect: Spiderfoot Brew (Greater)",
+			"name": "Эффект: Эликсир Паучьих Пальцев (Большой)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.L4Db3CncPcZFPzGN]</p>\n<hr />\n<p>&diams; <span style=\"text-decoration: underline; color: #169179;\">Скорость карабканья 20</span> футов</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"Атак\">проверкам</span> <span class=\"СИЛ\">Атлетика</span>, сделанным для @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]</p>"
+		},
+		{
+			"id": "Effect: Spiderfoot Brew (Major)",
+			"name": "Эффект: Эликсир Паучьих Пальцев (Сильный)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.ETLSXa4Po518z9Qx]</p>\n<hr />\n<p>&diams; <span style=\"text-decoration: underline; color: #169179;\">Скорость карабканья 25</span> футов</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"СИЛ\">Атлетика</span>, сделанным для @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]</p>"
+		},
+		{
+			"id_": "Зелье"
+		},
+		{
+			"id": "Effect: Dragonfly Potion",
+			"name": "Эффект: Зелье Стрекозы",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.82f7CTK0HxvitMLP]</p>\n<hr />\n<p>Вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.9j1uTGBGAc7GIhjm]{Получаете}:</p>\n<p>&diams; <span style=\"text-decoration: underline; color: #169179;\">Скорость Полета</span>, равную вашей <span style=\"Скор\">Скорости</span> на земле.</p>\n<p>&diams; @Compendium[pf2e.bestiary-ability-glossary-srd.fFu2sZz4KB01fVRc]{Сумеречное Зрение}</p>\n<p>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"Атак\">проверкам</span> <span style=\"text-decoration: underline; color: #a52a2a;\">визуального</span> <span class=\"МУД\">Восприятия</span></p>\n<p>&diams; Вас могут окружать только существа более высокого уровня, чем вы (хотя существа более низкого уровня все еще могут помогать своим союзникам более высокого уровня обходить с фланга).</p>"
+		},
+		{
+			"id": "Equipment Effect: Phoenix Flask",
+			"name": "Эффект: Бутыль Феникса",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.xAoRfG7uxFFjOHoT]</p>\n<hr />\n<p>&diams; <span class=\"До\">на 1 Минуту</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.z8FvdsKEY4lB2L8b]{Получаете} <span style=\"text-decoration: underline; color: #169179;\">Скорость полета 40</span> футов.</p>\n<p>&diams; Когда вы @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летите} первый раз за раунд (включая зависание на месте), вы по окончании своего перемещения сбрасываете горящие перья, наносящие всем существам в @Template[type:emanation|distance:10] [[/r 3d4[fire]]]</p>\n<p class=\"Заг2\"><span style=\"color: #808000;\"><strong>@Check[type:reflex|dc:29|basic:true|name:Phoenix Flask Fire Feathers|showDC:all]</strong></span></p>"
+		},
+		{
+			"id": "Effect: Potion of Flying (Standard)",
+			"name": "Эффект: Зелье Полета (Малое)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.KlJSw919hpN6V9oK]</p>\n<hr />\n<p>Выпив это шипучее зелье, вы <span class=\"До\">на 1 Минуту</span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.Mf9EBLhYmZerf0nS]{Получаете} <span style=\"text-decoration: underline; color: #169179;\">Скорость полета 40</span> футов.</p>"
+		},
+		{
+			"id": "Effect: Potion of Flying (Greater)",
+			"name": "Эффект: Зелье Полета (Большое)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.E999hL7XlAlfZhjK]</p>\n<hr />\n<p>Выпив это шипучее зелье, вы <span style=\"color: #808000;\"><strong>на 1 час</strong></span> <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.Zdh2uO1vVYJmaqld]{Получаете} <span style=\"text-decoration: underline; color: #169179;\">Скорость полета 40</span> футов.</p>"
+		},
+		{
+			"id": "Equipment Effect: Potion of Minute Echoes",
+			"name": "Эффект: Зелье Мгновения Эха",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.PTSdJqjiybZDxi4r]</p>\n<hr />\n<p>В течение <span style=\"color: #808000;\"><strong>1 минуты</strong></span> после употребления этого зелья вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.HaZ5LB1wh1LY5wUy]{Получаете} бонус <span class=\"Состояния\">Состояния</span> +2 к <span class=\"Атак\">проверкам</span> <span style=\"color: #843fa1;\"><strong>Восприятия </strong></span><span style=\"text-decoration: underline; color: #a52a2a;\">слуха</span>.</p>\n<p>Кроме того, каждый раз, когда вы @Compendium[pf2e.actionspf2e.TiNDYUGlMmxzxBYU]{Ищите}, ваш <span style=\"text-decoration: underline; color: #a52a2a;\">слух</span> становится точным чувством <span class=\"До\">до начала вашего след.хода</span>, позволяя вам точно определять местоположения существ и воспринимать мир в деталях, прислушиваясь к звукам эха.</p>"
+		},
+		{
+			"id": "Effect: Potion of Stable Form",
+			"name": "Эффект: Зелье Стабильной Формы (Малое)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.cEfqMV1lFaT7s0QC]</p>\n<hr />\n<p>&diams; В течение следующего <span style=\"color: #808000;\"><strong>часа</strong></span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.uVxs1qFMQsGWXNs6]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +2 против эффектов <span class=\"Признак2\"><span class=\"Признак1\">трансмутации</span></span>, и +3 против эффектов <span class=\"Признак\">Полиморфа</span>.</p>\n<p>&diams; Если в течение этого времени вы <span class=\"Приброске\">При Броске</span> получаете <span class=\"Успех\">Успех</span> против эффекта <span class=\"Признак\">Полиморфа</span>, то вместо этого получите <span class=\"Критуспех\">Крит.Успех</span>.</p>"
+		},
+		{
+			"id": "Effect: Greater Potion of Stable Form",
+			"name": "Эффект: Зелье Стабильной Формы (Большое)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.cEfqMV1lFaT7s0QC]</p>\n<hr />\n<p>&diams; В течение следующего <span style=\"color: #808000;\"><strong>часа</strong></span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.W9tKQlA7tVIcAuzw]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +3 против эффектов <span class=\"Признак2\"><span class=\"Признак1\">трансмутации</span></span>, и +4 против эффектов <span class=\"Признак\">Полиморфа</span>.</p>\n<p>&diams; Если в течение этого времени вы <span class=\"Приброске\">При Броске</span> получаете <span class=\"Успех\">Успех</span> против эффекта <span class=\"Признак\">Полиморфа</span>, то вместо этого получите <span class=\"Критуспех\">Крит.Успех</span>.</p>"
+		},
+		{
+			"id_": "Мутагены"
+		},
+		{
+			"id": "Effect: Bestial Mutagen (Lesser)",
+			"name": "Эффект: Животный Мутаген (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.IQK9N2mEOyAj3iWU]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.fIpzDpuwLdIS4tW5]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"Атак\">проверкам</span> <span class=\"СИЛ\">Атлетики</span> и <span class=\"Атак\">броскам</span> <span class=\"Видыатак\">безоружных атак</span>.</div>\n<div>&diams; <span class=\"Видыатак\">Безоруж.Атаку</span>: <span class=\"Список\">Когти</span> [[/r (1d4)[slashing]]] (<span class=\"Признак\">быстрое</span>)</div>\n<div>&diams; <span class=\"Видыатак\">Безоруж.Атаку</span>: <span class=\"Список\">Челюсти</span> [[/r 1d6[piercing]]]</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -1 <span class=\"КБ\">КБ</span></div>\n<div>&diams; Штраф -2 <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span></div>"
+		},
+		{
+			"id": "Effect: Bestial Mutagen (Moderate)",
+			"name": "Эффект: Животный Мутаген (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.VISk5uLPVIvNWovB]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.xFQRiVU6h8EA6Lw9]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"Атак\">проверкам</span> <span class=\"СИЛ\">Атлетики</span> и <span class=\"Атак\">броскам</span> <span class=\"Видыатак\">безоружных атак</span>.</div>\n<div>&diams; <span class=\"Видыатак\">Безоруж.Атаку</span>: <span class=\"Список\">Когти</span> [[/r (1d6)[slashing]]] (<span class=\"Признак\">быстрое</span>)</div>\n<div>&diams; <span class=\"Видыатак\">Безоруж.Атаку</span>: <span class=\"Список\">Челюсти</span> [[/r 1d8[piercing]]]</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -1 <span class=\"КБ\">КБ</span></div>\n<div>&diams; Штраф -2 <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span></div>"
+		},
+		{
+			"id": "Effect: Bestial Mutagen (Greater)",
+			"name": "Эффект: Животный Мутаген (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.gDheph8YteBtnyKp]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.kwD0wuW5Ndkc9YXB]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"СИЛ\">Атлетики</span> и <span class=\"Атак\">броскам</span> <span class=\"Видыатак\">безоружных атак</span>.</div>\n<div>&diams; <span class=\"Видыатак\">Безоруж.Атаку</span>: <span class=\"Список\">Когти</span> [[/r (1d8)[slashing]]] (<span class=\"Признак\">быстрое</span>)</div>\n<div>&diams; <span class=\"Видыатак\">Безоруж.Атаку</span>: <span class=\"Список\">Челюсти</span> [[/r 1d10[piercing]]]</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -1 <span class=\"КБ\">КБ</span></div>\n<div>&diams; Штраф -2 <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span></div>"
+		},
+		{
+			"id": "Effect: Bestial Mutagen (Major)",
+			"name": "Эффект: Животный Мутаген (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.nS75vsM3x5jxlUqn]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.1ouUo8lLK6H79Rqh]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"СИЛ\">Атлетики</span> и <span class=\"Атак\">броскам</span> <span class=\"Видыатак\">безоружных атак</span>.</div>\n<div>&diams; <span class=\"Видыатак\">Безоруж.Атаку</span>: <span class=\"Список\">Когти</span> [[/r (1d8)[slashing]]] (<span class=\"Признак\">быстрое</span>)</div>\n<div>&diams; <span class=\"Видыатак\">Безоруж.Атаку</span>: <span class=\"Список\">Челюсти</span> [[/r 1d10[piercing]]]</div>\n<div>&diams; @Compendium[pf2e.classfeatures.9EqIasqfI8YIM3Pt]{Спец. в Оружии} с <span class=\"Список\">Когтями</span> и <span class=\"Список\">Челюстями</span>, или @Compendium[pf2e.classfeatures.Z7HX6TeFsaup7Dx9]{Выдающ. Спец. в Оружии}, если у вас уже есть специализация с этими <span class=\"Видыатак\">безоружными атаками</span>.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -1 <span class=\"КБ\">КБ</span></div>\n<div>&diams; Штраф -2 <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span></div>"
+		},
+		{
+			"id": "Effect: Serene Mutagen (Lesser)",
+			"name": "Эффект: Мутаген Безмятежности (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.bOPQDM54W8ZDoULY]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.5xgapIXn5DwbXHKh]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, проверкам <span class=\"МУД\">Восприятия</span>, <span class=\"МУД\">Медицины</span>, <span class=\"МУД\">Природы</span>, <span class=\"МУД\">Религии</span> и <span class=\"МУД\">Выживания</span>.</div>\n<div>&diams; Бонус <span class=\"Увелич\">увелич.</span> до +2 для <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">ментальных</span></span> эффектов.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -1 к <span class=\"Закл\">Атак Закл.</span> и <span class=\"Закл\">КС Закл.</span> атакующих заклинаний</div>\n<div>&diams; Штраф -1 к <span class=\"Урон\">урону</span> для каждой <span class=\"Урон\">Кости Урона</span> всего <span class=\"Видыатак\">оружия</span>, <span class=\"Видыатак\">безоруж.атак</span> и <span class=\"Урон\">урона от <span class=\"Закл\">Закл.</span>.</span></div>"
+		},
+		{
+			"id": "Effect: Serene Mutagen (Moderate)",
+			"name": "Эффект: Мутаген Безмятежности (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.XEYveTvLH1lJ4jeI]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.yrbz0rZzp8aZEqbv]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, проверкам <span class=\"МУД\">Восприятия</span>, <span class=\"МУД\">Медицины</span>, <span class=\"МУД\">Природы</span>, <span class=\"МУД\">Религии</span> и <span class=\"МУД\">Выживания</span>.</div>\n<div>&diams; Бонус <span class=\"Увелич\">увелич.</span> до +3 для <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">ментальных</span></span> эффектов.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -1 к <span class=\"Закл\">Атак Закл.</span> и <span class=\"Закл\">КС Закл.</span> атакующих заклинаний</div>\n<div>&diams; Штраф -1 к <span class=\"Урон\">урону</span> для каждой <span class=\"Урон\">Кости Урона</span> всего <span class=\"Видыатак\">оружия</span>, <span class=\"Видыатак\">безоруж.атак</span> и <span class=\"Урон\">урона от <span class=\"Закл\">Закл.</span>.</span></div>"
+		},
+		{
+			"id": "Effect: Serene Mutagen (Greater)",
+			"name": "Эффект: Мутаген Безмятежности (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.Yej7lnnDYDZybGqo]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.jw6Tr9FbErjLAFLQ]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, проверкам <span class=\"МУД\">Восприятия</span>, <span class=\"МУД\">Медицины</span>, <span class=\"МУД\">Природы</span>, <span class=\"МУД\">Религии</span> и <span class=\"МУД\">Выживания</span>.</div>\n<div>&diams; Бонус <span class=\"Увелич\">увелич.</span> до +4 для <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">ментальных</span></span> эффектов.</div>\n<p>&diams; Когда <span class=\"Приброске\">При Броске</span> <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> вы получаете <span class=\"Успех\">Успех</span> против <span class=\"Признак2\"><span class=\"Признак1\">ментального</span></span> эффекта, он становится <span class=\"Критуспех\">крит.успехом</span>.</p>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -1 к <span class=\"Закл\">Атак Закл.</span> и <span class=\"Закл\">КС Закл.</span> атакующих заклинаний</div>\n<div>&diams; Штраф -1 к <span class=\"Урон\">урону</span> для каждой <span class=\"Урон\">Кости Урона</span> всего <span class=\"Видыатак\">оружия</span>, <span class=\"Видыатак\">безоруж.атак</span> и <span class=\"Урон\">урона от <span class=\"Закл\">Закл.</span>.</span></div>"
+		},
+		{
+			"id": "Effect: Serene Mutagen (Major)",
+			"name": "Эффект: Мутаген Безмятежности (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.ccrdVliTNBh2mNZf]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.t7VUJHSUT6bkVUjg]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, проверкам <span class=\"МУД\">Восприятия</span>, <span class=\"МУД\">Медицины</span>, <span class=\"МУД\">Природы</span>, <span class=\"МУД\">Религии</span> и <span class=\"МУД\">Выживания</span>.</div>\n<p>&diams; Когда <span class=\"Приброске\">При Броске</span> <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> вы получаете <span class=\"Успех\">Успех</span> против <span class=\"Признак2\"><span class=\"Признак1\">ментального</span></span> эффекта, он становится <span class=\"Критуспех\">крит.успехом</span>, а <span class=\"Критпровал\">крит.провалы</span> становятся простыми <span class=\"Провал\">провалами</span>.</p>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -1 к <span class=\"Закл\">Атак Закл.</span> и <span class=\"Закл\">КС Закл.</span> атакующих заклинаний</div>\n<div>&diams; Штраф -1 к <span class=\"Урон\">урону</span> для каждой <span class=\"Урон\">Кости Урона</span> всего <span class=\"Видыатак\">оружия</span>, <span class=\"Видыатак\">безоруж.атак</span> и <span class=\"Урон\">урона от <span class=\"Закл\">Закл.</span>.</span></div>"
+		},
+		{
+			"id": "Effect: Juggernaut Mutagen (Lesser)",
+			"name": "Эффект: Мутаген Джагернаут (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.xE0EdDrf734l2fQH]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.1l139A2Qik4lBHKO]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> и <span class=\"ОЗ\">[[/r 5]] Врем.ОЗ</span>.</div>\n<div>&diams; Всякий раз, когда у вас максимальные ОЗ в течение полной 1 минуты, вы восстанавливаете <span class=\"ОЗ\">Врем.ОЗ</span>.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -2 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, проверкам <span class=\"МУД\">Восприятия</span>и броскам <span class=\"Приброске\">инициативе</span>.</div>"
+		},
+		{
+			"id": "Effect: Juggernaut Mutagen (Moderate)",
+			"name": "Эффект: Мутаген Джагернаут (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.mj9i9GeQTADByNPZ]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.fUrZ4xcMJz0CfTyG]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> и <span class=\"ОЗ\">[[/r 10]] Врем.ОЗ</span>.</div>\n<div>&diams; Всякий раз, когда у вас максимальные ОЗ в течение полной 1 минуты, вы восстанавливаете <span class=\"ОЗ\">Врем.ОЗ</span>.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -2 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, проверкам <span class=\"МУД\">Восприятия</span>и броскам <span class=\"Приброске\">инициативе</span>.</div>"
+		},
+		{
+			"id": "Effect: Juggernaut Mutagen (Greater)",
+			"name": "Эффект: Мутаген Джагернаут (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.TMtQnY6yvIRCpK9v]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.xLilBqqf34ZJYO9i]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> и <span class=\"ОЗ\">[[/r 30]] Врем.ОЗ</span>.</div>\n<div>&diams; Всякий раз, когда у вас максимальные ОЗ в течение полной 1 минуты, вы восстанавливаете <span class=\"ОЗ\">Врем.ОЗ</span>.</div>\n<div>&diams; Когда <span class=\"Приброске\">При Броске</span> <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> вы получаете <span class=\"Успех\">Успех</span>, он становится <span class=\"Критуспех\">крит.успехом</span>.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -2 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, проверкам <span class=\"МУД\">Восприятия</span>и броскам <span class=\"Приброске\">инициативе</span>.</div>"
+		},
+		{
+			"id": "Effect: Juggernaut Mutagen (Major)",
+			"name": "Эффект: Мутаген Джагернаут (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.1kNp6yOS0aZPBPzZ]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.2PNo8u4wxSbz5WEs]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +4 <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> и <span class=\"ОЗ\">[[/r 45]] Врем.ОЗ</span>.</div>\n<div>&diams; Всякий раз, когда у вас максимальные ОЗ в течение полной 1 минуты, вы восстанавливаете <span class=\"ОЗ\">Врем.ОЗ</span>.</div>\n<div>&diams; Когда <span class=\"Приброске\">При Броске</span> <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> вы получаете <span class=\"Успех\">Успех</span>, он становится <span class=\"Критуспех\">крит.успехом</span>, а <span class=\"Критпровал\">крит.провал</span> - простым <span class=\"Провал\">провалом</span>.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -2 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, проверкам <span class=\"МУД\">Восприятия</span>и броскам <span class=\"Приброске\">инициативе</span>.</div>"
+		},
+		{
+			"id": "Effect: Silvertongue Mutagen (Lesser)",
+			"name": "Эффект: Мутаген Красноречия (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.YwRAHWW8yUI07sy9]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.dpIrjd1UPY7EnWUD]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"Атак\">проверкам</span> <span class=\"ХАР\">Обмана</span>, <span class=\"ХАР\">Дипломатии</span>, <span class=\"ХАР\">Запугивания </span> и <span class=\"ХАР\">Выступления</span>.</div>\n<div>&diams; Ваши <span class=\"Критпровал\">крит.провалы</span> с любым из этих навыком становятся простыми <span class=\"Провал\">провалами</span>.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф <span class=\"Предмета\">Предмета</span> -2 к <span class=\"Атак\">проверкам</span> <span class=\"ИНТ\">Арканы</span>, <span class=\"ИНТ\">Ремесла</span>, <span class=\"ИНТ\">Знаний</span>, <span class=\"ИНТ\">Оккультизма</span> и <span class=\"ИНТ\">Общества</span>.</div>\n<div>&diams; Выберите один навык которому вы <span class=\"Обучен\">ОБУЧЕН</span>; на время действия, вы становить <span class=\"Нетрен\">НЕТРЕНИРОВАН</span> ему.</div>\n<div>&diams; Все ваши <span class=\"Провал\">провалы</span> проверок @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.} становятся <span class=\"Критпровал\">крит.провалами</span>.</div>"
+		},
+		{
+			"id": "Effect: Silvertongue Mutagen (Moderate)",
+			"name": "Эффект: Мутаген Красноречия (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.lIExlUFBKvBue8hb]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.v5Ht1V4MZvRKRBjL]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"Атак\">проверкам</span> <span class=\"ХАР\">Обмана</span>, <span class=\"ХАР\">Дипломатии</span>, <span class=\"ХАР\">Запугивания </span> и <span class=\"ХАР\">Выступления</span>.</div>\n<div>&diams; Ваши <span class=\"Критпровал\">крит.провалы</span> с любым из этих навыком становятся простыми <span class=\"Провал\">провалами</span>.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф <span class=\"Предмета\">Предмета</span> -2 к <span class=\"Атак\">проверкам</span> <span class=\"ИНТ\">Арканы</span>, <span class=\"ИНТ\">Ремесла</span>, <span class=\"ИНТ\">Знаний</span>, <span class=\"ИНТ\">Оккультизма</span> и <span class=\"ИНТ\">Общества</span>.</div>\n<div>&diams; Выберите один навык которому вы <span class=\"Обучен\">ОБУЧЕН</span>; на время действия, вы становить <span class=\"Нетрен\">НЕТРЕНИРОВАН</span> ему.</div>\n<div>&diams; Все ваши <span class=\"Провал\">провалы</span> проверок @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.} становятся <span class=\"Критпровал\">крит.провалами</span>.</div>"
+		},
+		{
+			"id": "Effect: Silvertongue Mutagen (Greater)",
+			"name": "Эффект: Мутаген Красноречия (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.uggpIk6vguWFXVli]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.oAewXfq9c0ecaSfw]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"ХАР\">Обмана</span>, <span class=\"ХАР\">Дипломатии</span>, <span class=\"ХАР\">Запугивания </span> и <span class=\"ХАР\">Выступления</span>.</div>\n<div>&diams; Ваши <span class=\"Критпровал\">крит.провалы</span> с любым из этих навыком становятся простыми <span class=\"Провал\">провалами</span>.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф <span class=\"Предмета\">Предмета</span> -2 к <span class=\"Атак\">проверкам</span> <span class=\"ИНТ\">Арканы</span>, <span class=\"ИНТ\">Ремесла</span>, <span class=\"ИНТ\">Знаний</span>, <span class=\"ИНТ\">Оккультизма</span> и <span class=\"ИНТ\">Общества</span>.</div>\n<div>&diams; Выберите один навык которому вы <span class=\"Обучен\">ОБУЧЕН</span>; на время действия, вы становить <span class=\"Нетрен\">НЕТРЕНИРОВАН</span> ему.</div>\n<div>&diams; Все ваши <span class=\"Провал\">провалы</span> проверок @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.} становятся <span class=\"Критпровал\">крит.провалами</span>.</div>"
+		},
+		{
+			"id": "Effect: Silvertongue Mutagen (Major)",
+			"name": "Эффект: Мутаген Красноречия (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.uD5vRYVOXNJ53sEE]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.9FfFhu2kl2wMTsiI]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"Атак\">проверкам</span> <span class=\"ХАР\">Обмана</span>, <span class=\"ХАР\">Дипломатии</span>, <span class=\"ХАР\">Запугивания </span> и <span class=\"ХАР\">Выступления</span>.</div>\n<div>&diams; Ваши <span class=\"Критпровал\">крит.провалы</span> с любым из этих навыком становятся простыми <span class=\"Провал\">провалами</span>.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф <span class=\"Предмета\">Предмета</span> -2 к <span class=\"Атак\">проверкам</span> <span class=\"ИНТ\">Арканы</span>, <span class=\"ИНТ\">Ремесла</span>, <span class=\"ИНТ\">Знаний</span>, <span class=\"ИНТ\">Оккультизма</span> и <span class=\"ИНТ\">Общества</span>.</div>\n<div>&diams; Выберите один навык которому вы <span class=\"Обучен\">ОБУЧЕН</span>; на время действия, вы становить <span class=\"Нетрен\">НЕТРЕНИРОВАН</span> ему.</div>\n<div>&diams; Все ваши <span class=\"Провал\">провалы</span> проверок @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.} становятся <span class=\"Критпровал\">крит.провалами</span>.</div>"
+		},
+		{
+			"id": "Effect: War Blood Mutagen (Lesser)",
+			"name": "Эффект: Мутаген Прилива Крови (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.H3KAt7cHJ6ZLTJQE]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.aIZsC56OdotiGb9M]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Выберите одно оружие <span class=\"Видыатак\">ближнего боя</span>, которое вы <span class=\"Атака\">держите</span> в одной или обеих руках, для слияния.</div>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к вашим <span class=\"Атака\">броскам атаки</span> с этим оружием и к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> против эффектов <span class=\"Признак\">страх</span>.</div>\n<div>&diams; @Compendium[pf2e.action-macros.ooiO59Ch2QaebOmc]{Разоружение}<span style=\"color: #ba372a;\">@Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{*}</span> выбранного оружия получает КС 25.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы <span class=\"НЕ\">не</span> можете добровольно <span class=\"Атака\">убрать</span> оружие, если <span class=\"НЕ\">не</span> преуспеете в проверке <span class=\"СИЛ\">@Check[type:athletics|dc:25|showDC:all]{Атлетики}</span>, что прекращает действие <span class=\"Повтор\">мутагена прилива крови</span>; эта проверка занимает <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span>.</div>\n<div>&diams; Если вы выполняете <span class=\"Действие\">действие</span> с признаком <span class=\"Признак\">концентрация</span>, вы должны преуспеть в @Check[type:flat|dc:5|showDC:all], иначе <span class=\"Действие\">действие</span> будет потеряно.</div>"
+		},
+		{
+			"id": "Effect: War Blood Mutagen (Moderate)",
+			"name": "Эффект: Мутаген Прилива Крови (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.AOAXZzH4AOsQqYYv]</p>\n<hr>\n<p class=\"Нарратив\">Выпив этот мутаген, вы почувствуете прилив крови к телу и услышите низкое гудение в ушах. Эти ощущения стихают по мере того, как плоть и мышцы вашей руки расслабляются и растягиваются, волокна самого вашего существа тянутся, чтобы соединиться с основанием одного оружия ближнего боя, которое вы держите.</p>\n<p><span class=\"Список\">@Compendium[PF2E-TS-RUB.spiski.l7bTQcjVjsBsyTZA]{Активация}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span>@Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Выпить}</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.AvXNZ9I6s1H8C4wd]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Выберите одно оружие <span class=\"Видыатак\">ближнего боя</span>, которое вы <span class=\"Атака\">держите</span> в одной или обеих руках, для слияния.</div>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к вашим <span class=\"Атака\">броскам атаки</span> с этим оружием и к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> против эффектов <span class=\"Признак\">страх</span>.</div>\n<div>&diams; @Compendium[pf2e.action-macros.ooiO59Ch2QaebOmc]{Разоружение}<span style=\"color: #ba372a;\">@Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{*}</span> выбранного оружия получает КС 30.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы <span class=\"НЕ\">не</span> можете добровольно <span class=\"Атака\">убрать</span> оружие, если <span class=\"НЕ\">не</span> преуспеете в проверке <span class=\"СИЛ\">@Check[type:athletics|dc:30|showDC:all]{Атлетики}</span>, что прекращает действие <span class=\"Повтор\">мутагена прилива крови</span>; эта проверка занимает <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span>.</div>\n<div>&diams; Если вы выполняете <span class=\"Действие\">действие</span> с признаком <span class=\"Признак\">концентрация</span>, вы должны преуспеть в @Check[type:flat|dc:5|showDC:all], иначе <span class=\"Действие\">действие</span> будет потеряно.</div>"
+		},
+		{
+			"id": "Effect: War Blood Mutagen (Greater)",
+			"name": "Эффект: Мутаген Прилива Крови (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.oaGUNWmrqtKhy1HP]</p>\n<hr>\n<p class=\"Нарратив\">Выпив этот мутаген, вы почувствуете прилив крови к телу и услышите низкое гудение в ушах. Эти ощущения стихают по мере того, как плоть и мышцы вашей руки расслабляются и растягиваются, волокна самого вашего существа тянутся, чтобы соединиться с основанием одного оружия ближнего боя, которое вы держите.</p>\n<p><span class=\"Список\">@Compendium[PF2E-TS-RUB.spiski.l7bTQcjVjsBsyTZA]{Активация}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span>@Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Выпить}</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.8RNPIAuV7ixaXeq5]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Выберите одно оружие <span class=\"Видыатак\">ближнего боя</span>, которое вы <span class=\"Атака\">держите</span> в одной или обеих руках, для слияния.</div>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к вашим <span class=\"Атака\">броскам атаки</span> с этим оружием и к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> против эффектов <span class=\"Признак\">страх</span>.</div>\n<div>&diams; @Compendium[pf2e.action-macros.ooiO59Ch2QaebOmc]{Разоружение}<span style=\"color: #ba372a;\">@Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{*}</span> выбранного оружия получает КС 40.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы <span class=\"НЕ\">не</span> можете добровольно <span class=\"Атака\">убрать</span> оружие, если <span class=\"НЕ\">не</span> преуспеете в проверке <span class=\"СИЛ\">@Check[type:athletics|dc:40|showDC:all]{Атлетики}</span>, что прекращает действие <span class=\"Повтор\">мутагена прилива крови</span>; эта проверка занимает <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span>.</div>\n<div>&diams; Если вы выполняете <span class=\"Действие\">действие</span> с признаком <span class=\"Признак\">концентрация</span>, вы должны преуспеть в @Check[type:flat|dc:5|showDC:all], иначе <span class=\"Действие\">действие</span> будет потеряно.</div>"
+		},
+		{
+			"id": "Effect: War Blood Mutagen (Major)",
+			"name": "Эффект: Мутаген Прилива Крови (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.Qa4qjxk5aPzx7HTR]</p>\n<hr>\n<p class=\"Нарратив\">Выпив этот мутаген, вы почувствуете прилив крови к телу и услышите низкое гудение в ушах. Эти ощущения стихают по мере того, как плоть и мышцы вашей руки расслабляются и растягиваются, волокна самого вашего существа тянутся, чтобы соединиться с основанием одного оружия ближнего боя, которое вы держите.</p>\n<p><span class=\"Список\">@Compendium[PF2E-TS-RUB.spiski.l7bTQcjVjsBsyTZA]{Активация}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span>@Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Выпить}</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.S3Sv7SYwxozbG554]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Выберите одно оружие <span class=\"Видыатак\">ближнего боя</span>, которое вы <span class=\"Атака\">держите</span> в одной или обеих руках, для слияния.</div>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +4 к вашим <span class=\"Атака\">броскам атаки</span> с этим оружием и к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> против эффектов <span class=\"Признак\">страх</span>.</div>\n<div>&diams; @Compendium[pf2e.action-macros.ooiO59Ch2QaebOmc]{Разоружение}<span style=\"color: #ba372a;\">@Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{*}</span> выбранного оружия получает КС 50.</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы <span class=\"НЕ\">не</span> можете добровольно <span class=\"Атака\">убрать</span> оружие, если <span class=\"НЕ\">не</span> преуспеете в проверке <span class=\"СИЛ\">@Check[type:athletics|dc:50|showDC:all]{Атлетики}</span>, что прекращает действие <span class=\"Повтор\">мутагена прилива крови</span>; эта проверка занимает <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span>.</div>\n<div>&diams; Если вы выполняете <span class=\"Действие\">действие</span> с признаком <span class=\"Признак\">концентрация</span>, вы должны преуспеть в @Check[type:flat|dc:5|showDC:all], иначе <span class=\"Действие\">действие</span> будет потеряно.</div>"
+		},
+		{
+			"id": "Effect: Drakeheart Mutagen (Lesser)",
+			"name": "Эффект: Мутаген Сердца Дрейка (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.GS4YvQieBS11JNYR]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span>, или пока не используете @Compendium[pf2e.actionspf2e.EHa0owz6mccnmSBf], вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.GBBjw61g4ekJymT0]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"КБ\">КБ</span>, ограничение <span class=\"ЛВК\">Ловкости</span> +2 (как обычно, используете ваше наименьшее ограничение <span class=\"ЛВК\">Ловкости</span> если у вас их несколько)</div>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span>.</div>\n<blockquote>\n<div class=\"Уточнить\">Если на вас надет доспех, то все еще рассчитываете свой бонус мастерства к <span class=\"КБ\">КБ</span> на основе уровня мастерства надетого доспеха, даже если <span class=\"Повтор\">мутаген сердца дрейка</span> имеет больший бонус предмета.</div>\n</blockquote>\n<div>&diams; <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> @Compendium[pf2e.actionspf2e.EHa0owz6mccnmSBf]</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы получаете штраф -1 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, <span class=\"РФЛ\">Рефлекса</span> и всем <span class=\"Атак\">проверкам</span> навыков для @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.}.</div>"
+		},
+		{
+			"id": "Effect: Drakeheart Mutagen (Moderate)",
+			"name": "Эффект: Мутаген Сердца Дрейка (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.xY2MogTwH9Fd8UPG]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span>, или пока не используете @Compendium[pf2e.actionspf2e.EHa0owz6mccnmSBf], вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.BV8RPntjc9FUzD3g]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +5 к <span class=\"КБ\">КБ</span>, ограничение <span class=\"ЛВК\">Ловкости</span> +2 (как обычно, используете ваше наименьшее ограничение <span class=\"ЛВК\">Ловкости</span> если у вас их несколько)</div>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span>.</div>\n<blockquote>\n<div class=\"Уточнить\">Если на вас надет доспех, то все еще рассчитываете свой бонус мастерства к <span class=\"КБ\">КБ</span> на основе уровня мастерства надетого доспеха, даже если <span class=\"Повтор\">мутаген сердца дрейка</span> имеет больший бонус предмета.</div>\n</blockquote>\n<div>&diams; <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> @Compendium[pf2e.actionspf2e.EHa0owz6mccnmSBf]</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы получаете штраф -1 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, <span class=\"РФЛ\">Рефлекса</span> и всем <span class=\"Атак\">проверкам</span> навыков для @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.}.</div>"
+		},
+		{
+			"id": "Effect: Drakeheart Mutagen (Greater)",
+			"name": "Эффект: Мутаген Сердца Дрейка (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.WuzLBK78DgIt8SsN]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span>, или пока не используете @Compendium[pf2e.actionspf2e.EHa0owz6mccnmSBf], вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.qwoLV4awdezlEJ60]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +6 к <span class=\"КБ\">КБ</span>, ограничение <span class=\"ЛВК\">Ловкости</span> +2 (как обычно, используете ваше наименьшее ограничение <span class=\"ЛВК\">Ловкости</span> если у вас их несколько)</div>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span>.</div>\n<blockquote>\n<div class=\"Уточнить\">Если на вас надет доспех, то все еще рассчитываете свой бонус мастерства к <span class=\"КБ\">КБ</span> на основе уровня мастерства надетого доспеха, даже если <span class=\"Повтор\">мутаген сердца дрейка</span> имеет больший бонус предмета.</div>\n</blockquote>\n<div>&diams; <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> @Compendium[pf2e.actionspf2e.EHa0owz6mccnmSBf]</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы получаете штраф -1 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, <span class=\"РФЛ\">Рефлекса</span> и всем <span class=\"Атак\">проверкам</span> навыков для @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.}.</div>"
+		},
+		{
+			"id": "Effect: Drakeheart Mutagen (Major)",
+			"name": "Эффект: Мутаген Сердца Дрейка (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.M4ZOHOlne43ArjOC]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span>, или пока не используете @Compendium[pf2e.actionspf2e.EHa0owz6mccnmSBf], вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.vFOr2JAJxiVvvn2E]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +7 к <span class=\"КБ\">КБ</span>, ограничение <span class=\"ЛВК\">Ловкости</span> +2 (как обычно, используете ваше наименьшее ограничение <span class=\"ЛВК\">Ловкости</span> если у вас их несколько)</div>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"Атак\">проверкам</span> <span class=\"МУД\">Восприятия</span>.</div>\n<blockquote>\n<div class=\"Уточнить\">Если на вас надет доспех, то все еще рассчитываете свой бонус мастерства к <span class=\"КБ\">КБ</span> на основе уровня мастерства надетого доспеха, даже если <span class=\"Повтор\">мутаген сердца дрейка</span> имеет больший бонус предмета.</div>\n</blockquote>\n<div>&diams; <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> @Compendium[pf2e.actionspf2e.EHa0owz6mccnmSBf]</div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы получаете штраф -1 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, <span class=\"РФЛ\">Рефлекса</span> и всем <span class=\"Атак\">проверкам</span> навыков для @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.}.</div>"
+		},
+		{
+			"id": "Effect: Quicksilver Mutagen (Lesser)",
+			"name": "Эффект: Ртутный Мутаген (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.5MKBwpE401uz4kNN]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.6PNLBIdlqqWNCFMy]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"Атак\">проверкам</span> <span class=\"ЛВК\">Акробатики</span>, <span class=\"ЛВК\">Скрытности</span>, <span class=\"ЛВК\">Воровства</span>, <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span>, <span class=\"Атак\">броскам атак</span> на основе <span class=\"ЛВК\">Ловкости</span></div>\n<div>&diams; Бонус <span class=\"Состояния\">Состояния</span> +5ФТ к <span class=\"Скор\">Скорости</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы получаете <span class=\"Урон\">урон</span> равный ваш <span class=\"Класс\">Уровень*2</span>; пока действует этот <span class=\"Признак2\"><span class=\"Признак1\">мутаген</span></span>, вы <span class=\"НЕ\">не</span> можете никаким способом восстановить <span class=\"ОЗ\">ОЗ</span> потерянные таким образом.</div>\n<div>&diams; Штраф -2 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span></div>"
+		},
+		{
+			"id": "Effect: Quicksilver Mutagen (Moderate)",
+			"name": "Эффект: Ртутный Мутаген (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.n52BSbZsnx4Vmt2p]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.VPtsrpbP0AE642al]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"Атак\">проверкам</span> <span class=\"ЛВК\">Акробатики</span>, <span class=\"ЛВК\">Скрытности</span>, <span class=\"ЛВК\">Воровства</span>, <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span>, <span class=\"Атак\">броскам атак</span> на основе <span class=\"ЛВК\">Ловкости</span></div>\n<div>&diams; Бонус <span class=\"Состояния\">Состояния</span> +10ФТ к <span class=\"Скор\">Скорости</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы получаете <span class=\"Урон\">урон</span> равный ваш <span class=\"Класс\">Уровень*2</span>; пока действует этот <span class=\"Признак2\"><span class=\"Признак1\">мутаген</span></span>, вы <span class=\"НЕ\">не</span> можете никаким способом восстановить <span class=\"ОЗ\">ОЗ</span> потерянные таким образом.</div>\n<div>&diams; Штраф -2 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span></div>"
+		},
+		{
+			"id": "Effect: Quicksilver Mutagen (Greater)",
+			"name": "Эффект: Ртутный Мутаген (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.eQDTsetadI8u8Kc0]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.2Bds6d4UGQZqYSZM]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"ЛВК\">Акробатики</span>, <span class=\"ЛВК\">Скрытности</span>, <span class=\"ЛВК\">Воровства</span>, <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span>, <span class=\"Атак\">броскам атак</span> на основе <span class=\"ЛВК\">Ловкости</span></div>\n<div>&diams; Бонус <span class=\"Состояния\">Состояния</span> +15ФТ к <span class=\"Скор\">Скорости</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы получаете <span class=\"Урон\">урон</span> равный ваш <span class=\"Класс\">Уровень*2</span>; пока действует этот <span class=\"Признак2\"><span class=\"Признак1\">мутаген</span></span>, вы <span class=\"НЕ\">не</span> можете никаким способом восстановить <span class=\"ОЗ\">ОЗ</span> потерянные таким образом.</div>\n<div>&diams; Штраф -2 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span></div>"
+		},
+		{
+			"id": "Effect: Quicksilver Mutagen (Major)",
+			"name": "Эффект: Ртутный Мутаген (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.4GXzTN6iSDGfYEAi]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.988f6NpOo4YzFzIr]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"Атак\">проверкам</span> <span class=\"ЛВК\">Акробатики</span>, <span class=\"ЛВК\">Скрытности</span>, <span class=\"ЛВК\">Воровства</span>, <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span>, <span class=\"Атак\">броскам атак</span> на основе <span class=\"ЛВК\">Ловкости</span></div>\n<div>&diams; Бонус <span class=\"Состояния\">Состояния</span> +20ФТ к <span class=\"Скор\">Скорости</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Вы получаете <span class=\"Урон\">урон</span> равный ваш <span class=\"Класс\">Уровень*2</span>; пока действует этот <span class=\"Признак2\"><span class=\"Признак1\">мутаген</span></span>, вы <span class=\"НЕ\">не</span> можете никаким способом восстановить <span class=\"ОЗ\">ОЗ</span> потерянные таким образом.</div>\n<div>&diams; Штраф -2 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span></div>"
+		},
+		{
+			"id": "Effect: Cognitive Mutagen (Lesser)",
+			"name": "Эффект: Умственный Мутаген (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.wbr6rkyaVYnDhdgV]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.jaBMZKdoywOTrQvP]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +1 к <span class=\"Атак\">проверкам</span> <span class=\"ИНТ\">Арканы</span>, <span class=\"ИНТ\">Ремесла</span>, <span class=\"ИНТ\">Знаний</span>, <span class=\"ИНТ\">Оккультизма</span> и <span class=\"ИНТ\">Общества</span> и всем <span class=\"Атак\">проверкам</span> @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспомнить Информацию}.</div>\n<div>&diams; Ваши <span class=\"Критпровал\">Крит.Провалы</span> проверок @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.} становятся просто <span class=\"Провал\">Провалами</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -2 к <span class=\"Атак\">броскам атаки</span> с <span class=\"Видыатак\">оружием</span> и <span class=\"Видыатак\">безоружными атаками</span>, <span class=\"Атак\">проверки</span> <span class=\"СИЛ\">Атлетики</span> и <span class=\"ЛВК\">Акробатики</span></div>\n<div>&diams; Вы можете нести на 2 <span class=\"Масса\">Массы</span> меньше, чем обычно, прежде чем станете @Compendium[pf2e.conditionitems.D5mg6Tc7Jzrj6ro7]{Перегружен}, а <span class=\"Масса\">Макс.Масса</span> снижается на 4</div>"
+		},
+		{
+			"id": "Effect: Cognitive Mutagen (Moderate)",
+			"name": "Эффект: Умственный Мутаген (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.qpzL9UnTi4cDhy6J]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.ztxW3lBPRcesF7wK]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +2 к <span class=\"Атак\">проверкам</span> <span class=\"ИНТ\">Арканы</span>, <span class=\"ИНТ\">Ремесла</span>, <span class=\"ИНТ\">Знаний</span>, <span class=\"ИНТ\">Оккультизма</span> и <span class=\"ИНТ\">Общества</span> и всем <span class=\"Атак\">проверкам</span> @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспомнить Информацию}.</div>\n<div>&diams; Ваши <span class=\"Критпровал\">Крит.Провалы</span> проверок @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.} становятся просто <span class=\"Провал\">Провалами</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -2 к <span class=\"Атак\">броскам атаки</span> с <span class=\"Видыатак\">оружием</span> и <span class=\"Видыатак\">безоружными атаками</span>, <span class=\"Атак\">проверки</span> <span class=\"СИЛ\">Атлетики</span> и <span class=\"ЛВК\">Акробатики</span></div>\n<div>&diams; Вы можете нести на 2 <span class=\"Масса\">Массы</span> меньше, чем обычно, прежде чем станете @Compendium[pf2e.conditionitems.D5mg6Tc7Jzrj6ro7]{Перегружен}, а <span class=\"Масса\">Макс.Масса</span> снижается на 4</div>"
+		},
+		{
+			"id": "Effect: Cognitive Mutagen (Greater)",
+			"name": "Эффект: Умственный Мутаген (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.ZGojRKG1yYiVWemR]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.qit1mLbJUyRTYcPU]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +3 к <span class=\"Атак\">проверкам</span> <span class=\"ИНТ\">Арканы</span>, <span class=\"ИНТ\">Ремесла</span>, <span class=\"ИНТ\">Знаний</span>, <span class=\"ИНТ\">Оккультизма</span> и <span class=\"ИНТ\">Общества</span> и всем <span class=\"Атак\">проверкам</span> @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспомнить Информацию}.</div>\n<div>&diams; Ваши <span class=\"Критпровал\">Крит.Провалы</span> проверок @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.} становятся просто <span class=\"Провал\">Провалами</span></div>\n<div>&diams; Вы становитесь <span class=\"Обучен\">ОБУЧЕН</span> одному навыку на основе <span class=\"ИНТ\">Интеллекта</span>, выбранному при создании <span class=\"Признак2\"><span class=\"Признак1\">мутагена</span></span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -2 к <span class=\"Атак\">броскам атаки</span> с <span class=\"Видыатак\">оружием</span> и <span class=\"Видыатак\">безоружными атаками</span>, <span class=\"Атак\">проверки</span> <span class=\"СИЛ\">Атлетики</span> и <span class=\"ЛВК\">Акробатики</span></div>\n<div>&diams; Вы можете нести на 2 <span class=\"Масса\">Массы</span> меньше, чем обычно, прежде чем станете @Compendium[pf2e.conditionitems.D5mg6Tc7Jzrj6ro7]{Перегружен}, а <span class=\"Масса\">Макс.Масса</span> снижается на 4</div>"
+		},
+		{
+			"id": "Effect: Cognitive Mutagen (Major)",
+			"name": "Эффект: Умственный Мутаген (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.VBK9i74dry8yf8f0]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">@Compendium[pf2e.equipment-effects.RT1BxXrbbGgk40Ti]{Получаете}</span>:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; Бонус <span class=\"Предмета\">Предмета</span> +4 к <span class=\"Атак\">проверкам</span> <span class=\"ИНТ\">Арканы</span>, <span class=\"ИНТ\">Ремесла</span>, <span class=\"ИНТ\">Знаний</span>, <span class=\"ИНТ\">Оккультизма</span> и <span class=\"ИНТ\">Общества</span> и всем <span class=\"Атак\">проверкам</span> @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспомнить Информацию}.</div>\n<div>&diams; Ваши <span class=\"Критпровал\">Крит.Провалы</span> проверок @Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.} становятся просто <span class=\"Провал\">Провалами</span></div>\n<div>&diams; Вы становитесь <span class=\"Обучен\">ОБУЧЕН</span> одному навыку на основе <span class=\"ИНТ\">Интеллекта</span>, выбранному при создании <span class=\"Признак2\"><span class=\"Признак1\">мутагена</span></span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; Штраф -2 к <span class=\"Атак\">броскам атаки</span> с <span class=\"Видыатак\">оружием</span> и <span class=\"Видыатак\">безоружными атаками</span>, <span class=\"Атак\">проверки</span> <span class=\"СИЛ\">Атлетики</span> и <span class=\"ЛВК\">Акробатики</span></div>\n<div>&diams; Вы можете нести на 2 <span class=\"Масса\">Массы</span> меньше, чем обычно, прежде чем станете @Compendium[pf2e.conditionitems.D5mg6Tc7Jzrj6ro7]{Перегружен}, а <span class=\"Масса\">Макс.Масса</span> снижается на 4</div>"
+		},
+		{
+			"id": "Effect: Energy Mutagen (Lesser)",
+			"name": "Эффект: Энергетический Мутаген (Малый)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.mbrwudO35tItsldq]</p>\n<hr>\n<p><span class=\"До\">На 1 минуту</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.C9Tnl6Q7Z5Sbw5EY]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; <span class=\"Сопр\">Сопротивление</span> 5 к настроенному типу <span class=\"Рес\">энергии</span></div>\n<div>&diams; Всякий раз, когда вы наносите @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} оружием <span class=\"Видыатак\">ближнего боя</span>, добавьте <span class=\"Урон\">[[/r 1]] Урона</span> к настроенному типу <span class=\"Рес\">энергии</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; <span class=\"Слаб\">Слабость</span> 5 к остальным трем типам <span class=\"Рес\">энергии</span></div>"
+		},
+		{
+			"id": "Effect: Energy Mutagen (Moderate)",
+			"name": "Эффект: Энергетический Мутаген (Средний)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.SLJTJwyIRjuWjfuK]</p>\n<hr>\n<p><span class=\"До\">На 10 минут</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.na2gf5mSkilFoHXk]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; <span class=\"Сопр\">Сопротивление</span> 10 к настроенному типу <span class=\"Рес\">энергии</span></div>\n<div>&diams; Всякий раз, когда вы наносите @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} оружием <span class=\"Видыатак\">ближнего боя</span>, добавьте <span class=\"Урон\">[[/r 1d4]] Урона</span> к настроенному типу <span class=\"Рес\">энергии</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; <span class=\"Слаб\">Слабость</span> 5 к остальным трем типам <span class=\"Рес\">энергии</span></div>"
+		},
+		{
+			"id": "Effect: Energy Mutagen (Greater)",
+			"name": "Эффект: Энергетический Мутаген (Большой)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.xVtyaEnYZ1aJT4ki]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.JbJykktAYMR4BRav]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; <span class=\"Сопр\">Сопротивление</span> 15 к настроенному типу <span class=\"Рес\">энергии</span></div>\n<div>&diams; Всякий раз, когда вы наносите @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} оружием <span class=\"Видыатак\">ближнего боя</span>, добавьте <span class=\"Урон\">[[/r 1d6]] Урона</span> к настроенному типу <span class=\"Рес\">энергии</span></div>\n<div>&diams; Кроме того, вы можете закончить <span class=\"Успех\"><span class=\"Приброске\">преимущества</span></span> этого <span class=\"Признак2\"><span class=\"Признак1\">мутагена</span></span>, чтобы высвободить @Template[type:cone|distance:30] <span class=\"Рес\">энергии</span>, который наносит <span class=\"Урон\">[[/r 2d6]] Урона</span> настроенного типа за каждые полные 10 оставшихся минут <span class=\"Прод\">продолжительности</span>.</div>\n<div class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:all|dc:25|basic:true|name:Энергетический Мутаген (Большой)]{РФЛ}</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; <span class=\"Слаб\">Слабость</span> 5 к остальным трем типам <span class=\"Рес\">энергии</span></div>"
+		},
+		{
+			"id": "Effect: Energy Mutagen (Major)",
+			"name": "Эффект: Энергетический Мутаген (Сильный)",
+			"description": "<p class=\"Нарратив\">Под @Compendium[pf2e.equipment-srd.34MbgwW1SGlowyk2]</p>\n<hr>\n<p><span class=\"До\">На 1 час</span> вы <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.RIozNOntRJok5ZJt]{Получаете}:</p>\n<p><span class=\"Успех\"><span class=\"Приброске\">Преимущество</span></span></p>\n<div>&diams; <span class=\"Сопр\">Сопротивление</span> 20 к настроенному типу <span class=\"Рес\">энергии</span></div>\n<div>&diams; Всякий раз, когда вы наносите @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} оружием <span class=\"Видыатак\">ближнего боя</span>, добавьте <span class=\"Урон\">[[/r 2d6]] Урона</span> к настроенному типу <span class=\"Рес\">энергии</span></div>\n<div>&diams; Кроме того, вы можете закончить <span class=\"Успех\"><span class=\"Приброске\">преимущества</span></span> этого <span class=\"Признак2\"><span class=\"Признак1\">мутагена</span></span>, чтобы высвободить @Template[type:cone|distance:30] <span class=\"Рес\">энергии</span>, который наносит <span class=\"Урон\">[[/r 3d6]] Урона</span> настроенного типа за каждые полные 10 оставшихся минут <span class=\"Прод\">продолжительности</span>.</div>\n<div class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:all|dc:32|basic:true|name:Энергетический Мутаген (Большой)]{РФЛ}</span></div>\n<p><span class=\"Провал\"><span class=\"Приброске\">Недостаток</span></span></p>\n<div>&diams; <span class=\"Слаб\">Слабость</span> 5 к остальным трем типам <span class=\"Рес\">энергии</span></div>"
+		},
+		{
+			"id_": "Яд и Наркотик"
+		},
+		{
+			"id": "Эффект: Вспышка / Effect: Blaze",
+			"name": "Эффект: Вспышка / Effect: Blaze",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.q5Hr2nZr8RQ9DSZM]{Вспышка}</p>\n<hr>\n<p><span class=\"Успех\">Стадия 1</span>: <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.VlfuBfWkygsG8u5h]{Бонус} <span class=\"Предмета\">Предмета</span> +1 к <span class=\"КБ\">Спас.</span> против эффектов с признаком <span class=\"Признак2\"><span class=\"Признак1\">огонь</span></span>, и вы относитесь к эффектам <span class=\"Мест\">серьезного</span> и <span class=\"Мест\">экстремального тепла</span> окружающей среды, как если бы они были на ступень ниже. (<span class=\"До\">1 час</span>)</p>"
+		},
+		{
+			"id_": "Инструменты"
+		},
+		{
+			"id": "Effect: Bloodhound Mask (Lesser)",
+			"name": "Эффект: Маска Ищейки (Малая)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.mDJSaarQsIMX7Opi]</p>\n<hr>\n<p>&diams; @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.SiMXtLf4YQeigzIE#imprecise-senses]{Неточное Чувство} @Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Нюх} с <span class=\"Дист\">дистанцией</span> 15ФТ.</p>\n<blockquote class=\"Уточнить\">\n<p>Вы не можете носить другие маски, когда носите маску ищейки.</blockquote>\n<p>&diams; Когда вы используете <span class=\"МУД\">Выживание</span> для @Compendium[pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Выслеживания} существа по запаху, ваш бонус мастерства равняется ваш <span class=\"Класс\">Уровень</span>, даже если вы <span class=\"Нетрен\">НЕТЕРНИРОВАН</span>, и маска дает вам бонус <span class=\"Предмета\">Предмета</span> +1 к проверке <span class=\"МУД\">Выживания</span>.</p>\n<blockquote class=\"Уточнить\">\n<p>Мастер устанавливает <span class=\"МУД\">КС Выживания</span> на основе возможности места удерживать запах, как обычно при использовании нюха, а не на визуальных подсказках.</blockquote>"
+		},
+		{
+			"id": "Effect: Bloodhound Mask (Moderate)",
+			"name": "Эффект: Маска Ищейки (Средная)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.qasFfdiZKIczoZ9p]</p>\n<hr>\n<p>&diams; @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.SiMXtLf4YQeigzIE#imprecise-senses]{Неточное Чувство} @Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Нюх} с <span class=\"Дист\">дистанцией</span> 30ФТ.</p>\n<blockquote class=\"Уточнить\">\n<p>Вы не можете носить другие маски, когда носите маску ищейки.</blockquote>\n<p>&diams; Когда вы используете <span class=\"МУД\">Выживание</span> для @Compendium[pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Выслеживания} существа по запаху, ваш бонус мастерства равняется ваш <span class=\"Класс\">Уровень</span>, даже если вы <span class=\"Нетрен\">НЕТЕРНИРОВАН</span>, и маска дает вам бонус <span class=\"Предмета\">Предмета</span> +2 к проверке <span class=\"МУД\">Выживания</span>.</p>\n<blockquote class=\"Уточнить\">\n<p>Мастер устанавливает <span class=\"МУД\">КС Выживания</span> на основе возможности места удерживать запах, как обычно при использовании нюха, а не на визуальных подсказках.</blockquote>"
+		},
+		{
+			"id": "Effect: Bloodhound Mask (Greater)",
+			"name": "Эффект: Маска Ищейки (Отличная)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.2x8F5s3PyKzYsRrZ]</p>\n<hr>\n<p>&diams; @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.SiMXtLf4YQeigzIE#imprecise-senses]{Неточное Чувство} @Compendium[pf2e.bestiary-ability-glossary-srd.rqfnQ5VHT5hxm25r]{Нюх} с <span class=\"Дист\">дистанцией</span> 60ФТ.</p>\n<blockquote class=\"Уточнить\">\n<p>Вы не можете носить другие маски, когда носите маску ищейки.</blockquote>\n<p>&diams; Когда вы используете <span class=\"МУД\">Выживание</span> для @Compendium[pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Выслеживания} существа по запаху, ваш бонус мастерства равняется ваш <span class=\"Класс\">Уровень</span>, даже если вы <span class=\"Нетрен\">НЕТЕРНИРОВАН</span>, и маска дает вам бонус <span class=\"Предмета\">Предмета</span> +3 к проверке <span class=\"МУД\">Выживания</span>.</p>\n<blockquote class=\"Уточнить\">\n<p>Мастер устанавливает <span class=\"МУД\">КС Выживания</span> на основе возможности места удерживать запах, как обычно при использовании нюха, а не на визуальных подсказках.</blockquote>"
+		},
+		{
+			"id": "Effect: Dragon's Blood Pudding (Moderate)",
+			"name": "Эффект: Пуддинг из Драконьей Крови (Малый)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.fzAkwYDi8sXWfCNu]</p>\n<hr>\n<p>Еще вы становитесь @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорены} <span class=\"До\">на 1 раунд</span>. Получая дополнительное действие от этого ускорения, вы кричите, из-за вкуса и свойств мандрагоровой пасты. Вы можете использовать это <span class=\"Действие\">доп.действие</span> на @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг}, @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}, @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Деморализовать}.</p>\n<p>Если вы выбираете @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Деморализацию}, то <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.19ECULG5Zp593jQX]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +2 к проверке <span class=\"ХАР\">Запугивания</span>.</p>"
+		},
+		{
+			"id": "Effect: Dragon's Blood Pudding (Greater)",
+			"name": "Эффект: Пуддинг из Драконьей Крови (Отличный)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.QrjeT3xBssyjvEHQ]</p>\n<hr>\n<p>Еще вы становитесь @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорены} <span class=\"До\">на 1 раунд</span>. Получая дополнительное действие от этого ускорения, вы кричите, из-за вкуса и свойств мандрагоровой пасты. Вы можете использовать это <span class=\"Действие\">доп.действие</span> на @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг}, @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}, @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Деморализовать}.</p>\n<p>Если вы выбираете @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Деморализацию}, то <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.F8nQOLVWmpp9G5hZ]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +3 к проверке <span class=\"ХАР\">Запугивания</span>.</p>"
+		},
+		{
+			"id": "Effect: Dragon's Blood Pudding (Major)",
+			"name": "Эффект: Пуддинг из Драконьей Крови (Сильный)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.kUvjWSGWpwBvTVax]</p>\n<hr>\n<p>Еще вы становитесь @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорены} на 2 раунд. Получая дополнительное действие от этого ускорения, вы кричите, из-за вкуса и свойств мандрагоровой пасты. Вы можете использовать это <span class=\"Действие\">доп.действие</span> на @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг}, @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}, @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Деморализовать}.</p>\n<p>Если вы выбираете @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Деморализацию}, то <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.0YbNzbW0HSKtgStQ]{Получаете} бонус <span class=\"Предмета\">Предмета</span> +4 к проверке <span class=\"ХАР\">Запугивания</span>.</p>"
+		},
+		{
+			"id": "Effect: Red-Rib Gill Mask (Lesser)",
+			"name": "Эффект: Краснореберная Маска (Малая)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.x4QLLKEShYqUjCCn]</p>\n<hr>\n<p>&diams; После активации маска усиливает запах газообразных токсинов, но уменьшает их эффект, позволяя вам автоматически обнаруживать токсичные пары в пределах 30ФТ и их приблизительный источник (что делает источник @Compendium[pf2e.conditionitems.9evPzg9E6muFcoSk]{Незамечен}, а не @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружен}).</p>\n<blockquote class=\"Уточнить\">\n<p>Вы не можете носить другие маски, пока на вас краснореберная маска.</blockquote>\n<p>&diams; После Активации маски <span class=\"До\">на 10 минут</span> вы также <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.UDfVCATxdLdSzJYJ]{Получаете} бонус <span class=\"Предмета\">предмета</span> +1 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">вдыхаемых</span></span> эффектов; этот бонус <span class=\"Увелич\">увелич.</span> до +2 против смертоносного вулканического газа парящего вокруг озера Терва, известного как <span class=\"Повтор\">Дыхание Мертвеца</span>, и, возможно, против других подобных вулканических газов на усмотрение Мастера.</p>"
+		},
+		{
+			"id": "Effect: Red-Rib Gill Mask (Moderate)",
+			"name": "Эффект: Краснореберная Маска (Средняя)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.J7ZoRlhqiP6988t2]</p>\n<hr>\n<p>&diams; После активации маска усиливает запах газообразных токсинов, но уменьшает их эффект, позволяя вам автоматически обнаруживать токсичные пары в пределах 30ФТ и их приблизительный источник (что делает источник @Compendium[pf2e.conditionitems.9evPzg9E6muFcoSk]{Незамечен}, а не @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружен}).</p>\n<blockquote class=\"Уточнить\">\n<p>Вы не можете носить другие маски, пока на вас краснореберная маска.</blockquote>\n<p>&diams; После Активации маски <span class=\"До\">на 1 час</span> вы также <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.2iR5uP6vgPzgKKNO]{Получаете} бонус <span class=\"Предмета\">предмета</span> +2 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">вдыхаемых</span></span> эффектов; этот бонус <span class=\"Увелич\">увелич.</span> до +3 против смертоносного вулканического газа парящего вокруг озера Терва, известного как <span class=\"Повтор\">Дыхание Мертвеца</span>, и, возможно, против других подобных вулканических газов на усмотрение Мастера.</p>"
+		},
+		{
+			"id": "Effect: Red-Rib Gill Mask (Greater)",
+			"name": "Эффект: Краснореберная Маска (Большая)",
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.Wyh13xRaOL57fve7]</p>\n<hr>\n<p>&diams; После активации маска усиливает запах газообразных токсинов, но уменьшает их эффект, позволяя вам автоматически обнаруживать токсичные пары в пределах 30ФТ и их приблизительный источник (что делает источник @Compendium[pf2e.conditionitems.9evPzg9E6muFcoSk]{Незамечен}, а не @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружен}).</p>\n<blockquote class=\"Уточнить\">\n<p>Вы не можете носить другие маски, пока на вас краснореберная маска.</blockquote>\n<p>&diams; После Активации маски <span class=\"До\">на 8 часов</span> вы также <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.QrsPKOFuo3qzgxw5]{Получаете} бонус <span class=\"Предмета\">предмета</span> +3 к <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span> против <span class=\"Признак2\"><span class=\"Признак1\">вдыхаемых</span></span> эффектов; этот бонус <span class=\"Увелич\">увелич.</span> до +4 против смертоносного вулканического газа парящего вокруг озера Терва, известного как <span class=\"Повтор\">Дыхание Мертвеца</span>, и, возможно, против других подобных вулканических газов на усмотрение Мастера.</p>"
+		}
+	]
+}

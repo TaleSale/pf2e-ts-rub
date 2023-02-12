@@ -1,0 +1,453 @@
+{
+	"label": "Карты Тупо1/20",
+	"entries": [
+		{
+			"id": "Critical Fumble Deck #1",
+			"name": "Тупо1 #01",
+			"pages": {
+				"Critical Fumble Deck #1": {
+					"name": "Тупо1 #01",
+					"text": "<section class=\"fumble-deck\">\n<h1>Энерция Удара</h1>\n<blockquote>\n<p>Вы перемещаетесь на 10ФТ в случайном направление (выбранное Мастером). Это движение может спровоцировать реакцию.</p>\n</blockquote>\n<p><code>Ближ.Бой</code></p>\n<h1>Неверная оценка расстояния</h1>\n<blockquote>\n<p>До конца вашего след.хода все ваши штрафы за дистанцию увеличиваются вдвое.</p>\n</blockquote>\n<p><code>Дистанц.Бой</code></p>\n<h1>Неудачный Удар</h1>\n<blockquote>\n<p>Вы получаете @Localize[PF2E.PersistentDamage.Bleed1d6.success] и не можете делать этот Удар до конца вашего след.хода.</p>\n</blockquote>\n<p><code>Безоружный</code></p>\n<h1>Как это произошло?</h1>\n<blockquote>\n<p>Вы вызываете туман с эффектами <em>@UUID[Compendium.pf2e.spells-srd.GKpEcy9WId6NJvtx]</em> с центром в одном из углу вашего пространства (выбирается Мастером)</p>\n</blockquote>\n<p><code>Заклинание</code></p>\n</section>"
+				}
+			}
+		},
+		{
+			"id": "Critical Fumble Deck #2",
+			"name": "Тупо1 #02",
+			"pages": {
+				"Critical Fumble Deck #2": {
+					"name": "Тупо1 #02",
+					"text": "<section class=\"fumble-deck\">\n<h1>Не тем Концом</h1>\n<blockquote>\n<p>Если вы используете оружие с рубящим уроном, то вы получаете [[/r 1d6[slashing]]] и [[/r 1[persistent,bleed]]]</p>\n</blockquote>\n<p><code>Ближ.Бой</code></p>\n<h1>Призрачный Ветер</h1>\n<blockquote>\n<p>Вы =@UUID[Compendium.pf2e.other-effects.wVGSlZEGxsg1s8AZ]{Получаете} штраф обстоятельства -2 к дистанц.атакам до конца вашего след.хода.</p>\n</blockquote>\n<p><code>Дистанц.Бой</code></p>\n<h1>Предсказуемость</h1>\n<blockquote>\n<p>Ваша цель =@UUID[Compendium.pf2e.other-effects.QGTMOcJ1Dq5bk0GG]{Получает} бонус обстоятельства +2 КБ против атак, которые вы совершаете по ней, до конца вашего след.хода.</p>\n</blockquote>\n<p><code>Безоружный</code></p>\n<h1>Отключиться</h1>\n<blockquote>\n<p>Пока вы не получите лечение, вы @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 2}</p>\n</blockquote>\n<p><code>Заклинание</code></p>\n<p>&nbsp;</p>\n</section>"
+				}
+			}
+		},
+		{
+			"id": "Critical Fumble Deck #3",
+			"name": "Тупо1 #03",
+			"pages": {
+				"Critical Fumble Deck #3": {
+					"name": "Тупо1 #03",
+					"text": "<section class=\"fumble-deck\">\n<h1>плохое падение</h1>\n<blockquote>\n<p>Вы падаете @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60] и получаете @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} до конца вашего след.хода.</p>\n</blockquote>\n<p><code>Ближ.Бой</code></p>\n<h1>Растяжение</h1>\n<blockquote>\n<p>Пока вы не получите лечение, вы @UUID[Compendium.pf2e.other-effects.NU5wAbJLZO6T86eB]{получаете} штраф обстоятельства -10ФТ к Наземной Скорости и @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюж 1}.</p>\n</blockquote>\n<p><code>Дистанц.Бой</code></p>\n<h1>Плохой Удар</h1>\n<blockquote>\n<p>Вы получаете @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неулюж 1} и @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 2} до конца вашего след.хода.</p>\n</blockquote>\n<p><code>Безоружный</code></p>\n<h1>Взрыв Черепа</h1>\n<blockquote>\n<p>Вы совершаете Спас.@Check[type:fortitude]{СТК} с вашим КС Закл. При Успехе вы получаете [[/r 3d6[mental]]]. При Провале, ваша голова взрывается и вы умираете.</p>\n</blockquote>\n<p><code>Заклинание</code></p>\n</section>"
+				}
+			}
+		},
+		{
+			"id": "Critical Fumble Deck #4",
+			"name": "Тупо1 #04",
+			"pages": {
+				"Critical Fumble Deck #4": {
+					"name": "Тупо1 #04",
+					"text": "<section class=\"fumble-deck\">\n<h1>Постой, что?</h1>\n<blockquote>\n<p>Вы в @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве}</p>\n</blockquote>\n<p><code>Ближ.Бой</code></p>\n<h1>Не бей меня!</h1>\n<blockquote>\n<p>До конца вашего след.хода каждый раз, когда вы промахиваетесь дистанционной атакой по врагу, находящемуся рядом с любым из ваших союзников, вместо этого вы попадаете в одного из соседних союзников (определяется мастером)</p>\n</blockquote>\n<p><code>Дистанц.Бой</code></p>\n<h1>Защемление нерва</h1>\n<blockquote>\n<p>Пока вы не получите лечение, вы =@UUID[Compendium.pf2e.other-effects.NU5wAbJLZO6T86eB]{Получаете} штраф обстоятельства -10ФТ к вашей наземной скорости и @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1}.</p>\n</blockquote>\n<p><code>Безоружный</code></p>\n<h1>Ментальный Промах</h1>\n<blockquote>\n<p>Вы становитесь @UUID[Compendium.pf2e.conditionitems.9qGBRpbX9NEwtAAr] цели до конца вашего след.хода.</p>\n</blockquote>\n<p><code>Заклинание</code></p>\n</section>"
+				}
+			}
+		},
+		{
+			"id": "Critical Fumble Deck #5",
+			"name": "Тупо1 #05"
+		},
+		{
+			"id": "Critical Fumble Deck #6",
+			"name": "Тупо1 #06"
+		},
+		{
+			"id": "Critical Fumble Deck #7",
+			"name": "Тупо1 #07"
+		},
+		{
+			"id": "Critical Fumble Deck #8",
+			"name": "Тупо1 #08"
+		},
+		{
+			"id": "Critical Fumble Deck #9",
+			"name": "Тупо1 #09"
+		},
+		{
+			"id": "Critical Fumble Deck #10",
+			"name": "Тупо1 #10"
+		},
+		{
+			"id": "Critical Fumble Deck #11",
+			"name": "Critical Fumble Deck #11"
+		},
+		{
+			"id": "Critical Fumble Deck #12",
+			"name": "Critical Fumble Deck #12"
+		},
+		{
+			"id": "Critical Fumble Deck #13",
+			"name": "Critical Fumble Deck #13"
+		},
+		{
+			"id": "Critical Fumble Deck #14",
+			"name": "Critical Fumble Deck #14"
+		},
+		{
+			"id": "Critical Fumble Deck #15",
+			"name": "Critical Fumble Deck #15"
+		},
+		{
+			"id": "Critical Fumble Deck #16",
+			"name": "Critical Fumble Deck #16"
+		},
+		{
+			"id": "Critical Fumble Deck #17",
+			"name": "Critical Fumble Deck #17"
+		},
+		{
+			"id": "Critical Fumble Deck #18",
+			"name": "Critical Fumble Deck #18"
+		},
+		{
+			"id": "Critical Fumble Deck #19",
+			"name": "Critical Fumble Deck #19"
+		},
+		{
+			"id": "Critical Fumble Deck #20",
+			"name": "Critical Fumble Deck #20"
+		},
+		{
+			"id": "Critical Fumble Deck #21",
+			"name": "Critical Fumble Deck #21"
+		},
+		{
+			"id": "Critical Fumble Deck #22",
+			"name": "Critical Fumble Deck #22"
+		},
+		{
+			"id": "Critical Fumble Deck #23",
+			"name": "Critical Fumble Deck #23"
+		},
+		{
+			"id": "Critical Fumble Deck #24",
+			"name": "Critical Fumble Deck #24"
+		},
+		{
+			"id": "Critical Fumble Deck #25",
+			"name": "Critical Fumble Deck #25"
+		},
+		{
+			"id": "Critical Fumble Deck #26",
+			"name": "Critical Fumble Deck #26"
+		},
+		{
+			"id": "Critical Fumble Deck #27",
+			"name": "Critical Fumble Deck #27"
+		},
+		{
+			"id": "Critical Fumble Deck #28",
+			"name": "Critical Fumble Deck #28"
+		},
+		{
+			"id": "Critical Fumble Deck #29",
+			"name": "Critical Fumble Deck #29"
+		},
+		{
+			"id": "Critical Fumble Deck #30",
+			"name": "Critical Fumble Deck #30"
+		},
+		{
+			"id": "Critical Fumble Deck #31",
+			"name": "Critical Fumble Deck #31"
+		},
+		{
+			"id": "Critical Fumble Deck #32",
+			"name": "Critical Fumble Deck #32"
+		},
+		{
+			"id": "Critical Fumble Deck #33",
+			"name": "Critical Fumble Deck #33"
+		},
+		{
+			"id": "Critical Fumble Deck #34",
+			"name": "Critical Fumble Deck #34"
+		},
+		{
+			"id": "Critical Fumble Deck #35",
+			"name": "Critical Fumble Deck #35"
+		},
+		{
+			"id": "Critical Fumble Deck #36",
+			"name": "Critical Fumble Deck #36"
+		},
+		{
+			"id": "Critical Fumble Deck #37",
+			"name": "Critical Fumble Deck #37"
+		},
+		{
+			"id": "Critical Fumble Deck #38",
+			"name": "Critical Fumble Deck #38"
+		},
+		{
+			"id": "Critical Fumble Deck #39",
+			"name": "Critical Fumble Deck #39"
+		},
+		{
+			"id": "Critical Fumble Deck #40",
+			"name": "Critical Fumble Deck #40"
+		},
+		{
+			"id": "Critical Fumble Deck #41",
+			"name": "Critical Fumble Deck #41"
+		},
+		{
+			"id": "Critical Fumble Deck #42",
+			"name": "Critical Fumble Deck #42"
+		},
+		{
+			"id": "Critical Fumble Deck #43",
+			"name": "Critical Fumble Deck #43"
+		},
+		{
+			"id": "Critical Fumble Deck #44",
+			"name": "Critical Fumble Deck #44"
+		},
+		{
+			"id": "Critical Fumble Deck #45",
+			"name": "Critical Fumble Deck #45"
+		},
+		{
+			"id": "Critical Fumble Deck #46",
+			"name": "Critical Fumble Deck #46"
+		},
+		{
+			"id": "Critical Fumble Deck #47",
+			"name": "Critical Fumble Deck #47"
+		},
+		{
+			"id": "Critical Fumble Deck #48",
+			"name": "Critical Fumble Deck #48"
+		},
+		{
+			"id": "Critical Fumble Deck #49",
+			"name": "Critical Fumble Deck #49"
+		},
+		{
+			"id": "Critical Fumble Deck #50",
+			"name": "Critical Fumble Deck #50"
+		},
+		{
+			"id": "Critical Fumble Deck #51",
+			"name": "Critical Fumble Deck #51"
+		},
+		{
+			"id": "Critical Fumble Deck #52",
+			"name": "Critical Fumble Deck #52"
+		},
+		{
+			"id": "Critical Fumble Deck #53",
+			"name": "Critical Fumble Deck #53"
+		},
+		{
+			"id": "Critical Hit Deck #1",
+			"name": "Critical Hit Deck #1"
+		},
+		{
+			"id": "Critical Hit Deck #10",
+			"name": "Critical Hit Deck #10"
+		},
+		{
+			"id": "Critical Hit Deck #11",
+			"name": "Critical Hit Deck #11"
+		},
+		{
+			"id": "Critical Hit Deck #12",
+			"name": "Critical Hit Deck #12"
+		},
+		{
+			"id": "Critical Hit Deck #13",
+			"name": "Critical Hit Deck #13"
+		},
+		{
+			"id": "Critical Hit Deck #14",
+			"name": "Critical Hit Deck #14"
+		},
+		{
+			"id": "Critical Hit Deck #15",
+			"name": "Critical Hit Deck #15"
+		},
+		{
+			"id": "Critical Hit Deck #16",
+			"name": "Critical Hit Deck #16"
+		},
+		{
+			"id": "Critical Hit Deck #17",
+			"name": "Critical Hit Deck #17"
+		},
+		{
+			"id": "Critical Hit Deck #18",
+			"name": "Critical Hit Deck #18"
+		},
+		{
+			"id": "Critical Hit Deck #19",
+			"name": "Critical Hit Deck #19"
+		},
+		{
+			"id": "Critical Hit Deck #2",
+			"name": "Critical Hit Deck #2"
+		},
+		{
+			"id": "Critical Hit Deck #20",
+			"name": "Critical Hit Deck #20"
+		},
+		{
+			"id": "Critical Hit Deck #21",
+			"name": "Critical Hit Deck #21"
+		},
+		{
+			"id": "Critical Hit Deck #22",
+			"name": "Critical Hit Deck #22"
+		},
+		{
+			"id": "Critical Hit Deck #23",
+			"name": "Critical Hit Deck #23"
+		},
+		{
+			"id": "Critical Hit Deck #24",
+			"name": "Critical Hit Deck #24"
+		},
+		{
+			"id": "Critical Hit Deck #25",
+			"name": "Critical Hit Deck #25"
+		},
+		{
+			"id": "Critical Hit Deck #26",
+			"name": "Critical Hit Deck #26"
+		},
+		{
+			"id": "Critical Hit Deck #27",
+			"name": "Critical Hit Deck #27"
+		},
+		{
+			"id": "Critical Hit Deck #28",
+			"name": "Critical Hit Deck #28"
+		},
+		{
+			"id": "Critical Hit Deck #29",
+			"name": "Critical Hit Deck #29"
+		},
+		{
+			"id": "Critical Hit Deck #3",
+			"name": "Critical Hit Deck #3"
+		},
+		{
+			"id": "Critical Hit Deck #30",
+			"name": "Critical Hit Deck #30"
+		},
+		{
+			"id": "Critical Hit Deck #31",
+			"name": "Critical Hit Deck #31"
+		},
+		{
+			"id": "Critical Hit Deck #32",
+			"name": "Critical Hit Deck #32"
+		},
+		{
+			"id": "Critical Hit Deck #33",
+			"name": "Critical Hit Deck #33"
+		},
+		{
+			"id": "Critical Hit Deck #34",
+			"name": "Critical Hit Deck #34"
+		},
+		{
+			"id": "Critical Hit Deck #35",
+			"name": "Critical Hit Deck #35"
+		},
+		{
+			"id": "Critical Hit Deck #36",
+			"name": "Critical Hit Deck #36"
+		},
+		{
+			"id": "Critical Hit Deck #37",
+			"name": "Critical Hit Deck #37"
+		},
+		{
+			"id": "Critical Hit Deck #38",
+			"name": "Critical Hit Deck #38"
+		},
+		{
+			"id": "Critical Hit Deck #39",
+			"name": "Critical Hit Deck #39"
+		},
+		{
+			"id": "Critical Hit Deck #4",
+			"name": "Critical Hit Deck #4"
+		},
+		{
+			"id": "Critical Hit Deck #40",
+			"name": "Critical Hit Deck #40"
+		},
+		{
+			"id": "Critical Hit Deck #41",
+			"name": "Critical Hit Deck #41"
+		},
+		{
+			"id": "Critical Hit Deck #42",
+			"name": "Critical Hit Deck #42"
+		},
+		{
+			"id": "Critical Hit Deck #43",
+			"name": "Critical Hit Deck #43"
+		},
+		{
+			"id": "Critical Hit Deck #44",
+			"name": "Critical Hit Deck #44"
+		},
+		{
+			"id": "Critical Hit Deck #45",
+			"name": "Critical Hit Deck #45"
+		},
+		{
+			"id": "Critical Hit Deck #46",
+			"name": "Critical Hit Deck #46"
+		},
+		{
+			"id": "Critical Hit Deck #47",
+			"name": "Critical Hit Deck #47"
+		},
+		{
+			"id": "Critical Hit Deck #48",
+			"name": "Critical Hit Deck #48"
+		},
+		{
+			"id": "Critical Hit Deck #49",
+			"name": "Critical Hit Deck #49"
+		},
+		{
+			"id": "Critical Hit Deck #5",
+			"name": "Critical Hit Deck #5"
+		},
+		{
+			"id": "Critical Hit Deck #50",
+			"name": "Critical Hit Deck #50"
+		},
+		{
+			"id": "Critical Hit Deck #51",
+			"name": "Critical Hit Deck #51"
+		},
+		{
+			"id": "Critical Hit Deck #52",
+			"name": "Critical Hit Deck #52"
+		},
+		{
+			"id": "Critical Hit Deck #53",
+			"name": "Critical Hit Deck #53"
+		},
+		{
+			"id": "Critical Hit Deck #6",
+			"name": "Critical Hit Deck #6"
+		},
+		{
+			"id": "Critical Hit Deck #7",
+			"name": "Critical Hit Deck #7"
+		},
+		{
+			"id": "Critical Hit Deck #8",
+			"name": "Critical Hit Deck #8"
+		},
+		{
+			"id": "Critical Hit Deck #9",
+			"name": "Critical Hit Deck #9"
+		}
+	]
+}

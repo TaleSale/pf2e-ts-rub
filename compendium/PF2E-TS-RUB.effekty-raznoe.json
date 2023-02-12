@@ -1,0 +1,169 @@
+{
+	"label": "Эффекты: Разное",
+	"entries": [
+		{
+			"id": "Effect: Warp Step",
+			"name": "Эффект: Шаг Искревления"
+		},
+		{
+			"id": "Aura: Bless",
+			"name": "Аура: Благословление"
+		},
+		{
+			"id": "Aura: Inspire Courage",
+			"name": "Аура: Вдохновить на Смелость"
+		},
+		{
+			"id": "Aura: Song of Strength",
+			"name": "Аура: Песня Силы"
+		},
+		{
+			"id": "Effect: Silver's Refrain",
+			"name": "Эффект: Серебряный Припев"
+		},
+		{
+			"id": "Aura: Silver's Refrain",
+			"name": "Аура: Серебряный Припев"
+		},
+		{
+			"id": "Aura: Inspire Defense",
+			"name": "Аура: Вдохновить на Защиту"
+		},
+		{
+			"id": "Aura: Triple Time",
+			"name": "Аура: Трехдольный Размер"
+		},
+		{
+			"id": "Effect: Dirge Of Doom",
+			"name": "Эффект: Роковая Панихида"
+		},
+		{
+			"id": "Aura: Dirge Of Doom",
+			"name": "Аура: Роковая Панихида"
+		},
+		{
+			"id": "Effect: Haunting Hymn (Critical Failure)",
+			"name": "Эффект: Навязчивый Гимн (Крит.Провал)"
+		},
+		{
+			"id": "Effect: Torturous Trauma (Critical Failure)",
+			"name": "Эффект: Мучительная Травма (Крит.Провал)"
+		},
+		{
+			"id": "Effect: Purifying Icicle (Critical Success)",
+			"name": "Эффект: Очищающая Сосулька (Крит.Успех)"
+		},
+		{
+			"id": "Effect: flat-footed until the start of your next turn",
+			"name": "Эффект: Застиг.Врасплох до начала вашего след.хода"
+		},
+		{
+			"id": "Effect: flat-footed until the end of your next turn",
+			"name": "Эффект: Застиг.Врасплох до конца вашего след.хода"
+		},
+		{
+			"id": "Effect: flat-footed until the end of turn",
+			"name": "Эффект: Застиг.Врасплох до конца текущего хода"
+		},
+		{
+			"id": "Effect: Debilitating Strike (1)",
+			"name": "Эффект: Ослабляющий Удар (1)"
+		},
+		{
+			"id": "Effect: Debilitating Strike (2)",
+			"name": "Эффект: Ослабляющий Удар (2)"
+		},
+		{
+			"id": "Effect: Debilitating Strike (1+2)",
+			"name": "Эффект: Ослабляющий Удар (1+2)"
+		},
+		{
+			"id": "Effect: Master Strike (Success)",
+			"name": "Эффект: Мастерский Удар (Успех)"
+		},
+		{
+			"id": "Effect: Master Strike (Failure)",
+			"name": "Эффект: Мастерский Удар (Провал)"
+		},
+		{
+			"id": "Effect: enfeebled until the start of your next turn",
+			"name": "Эффект: Ослаблен до начала вашего след.хода"
+		},
+		{
+			"id": "Effect: enfeebled until the end of your next turn",
+			"name": "Эффект: Ослаблен до конца вашего след.хода"
+		},
+		{
+			"id": "Effect: enfeebled until the end of turn",
+			"name": "Эффект: Ослаблен до конца текущего хода"
+		},
+		{
+			"id": "Effect: fleeing until the start of your next turn",
+			"name": "Эффект: Бегство до начала вашего след.хода"
+		},
+		{
+			"id": "Effect: fleeing until the end of your next turn",
+			"name": "Эффект: Бегство до конца вашего след.хода"
+		},
+		{
+			"id": "Effect: fleeing until the end of turn",
+			"name": "Эффект: Бегство до конца текущего хода"
+		},
+		{
+			"id": "Effect: Fast Healing",
+			"name": "Эффект: Быстрое Исцеление"
+		},
+		{
+			"id": "Effect: Song of the Fallen (Success)",
+			"name": "Эффект: Песня Падших (Успех)"
+		},
+		{
+			"id": "Effect: Song of the Fallen (Failure)",
+			"name": "Эффект: Песня Падших (Провал)"
+		},
+		{
+			"id": "Effect: (Untyped) +1 damage (Untyped) for 1 round",
+			"name": "Эффект: (Без Типа) +1 к урону (Без Типа) на 1 раунд"
+		},
+		{
+			"id": "Effect: (Untyped) +2 damage (Untyped) for 1 round",
+			"name": "Эффект: (Без Типа) +2 к урону (Без Типа) на 1 раунд"
+		},
+		{
+			"id": "Effect: (Untyped) +3 damage (Untyped) for 1 round",
+			"name": "Эффект: (Без Типа) +3 к урону (Без Типа) на 1 раунд"
+		},
+		{
+			"id": "Effect: Light of Revelation",
+			"name": "Эффект: Свет Откровения"
+		},
+		{
+			"id": "Aura: Light of Revelation",
+			"name": "Аура: Свет Откровения"
+		},
+		{
+			"id": "Aura: Protective Ward",
+			"name": "Аура: Защитные Чары"
+		},
+		{
+			"id": "Aura: Dread Aura",
+			"name": "Аура: Аура Ужаса"
+		},
+		{
+			"id": "Effect: Wish-Twisted Form (Success)",
+			"name": "Эффект: Искаж.Желание (Успех)"
+		},
+		{
+			"id": "Effect: Wish-Twisted Form (Failure)",
+			"name": "Эффект: Искаж.Желание (Провал)"
+		},		
+		{
+			"id": "Effect: Wish-Twisted Form (Critical Failure)",
+			"name": "Эффект: Искаж.Желание (Крит.Провал)"
+		},
+		{
+			"id": "Aura: Celestial Brand",
+			"name": "Аура: Клеймо Небожителя"
+		}
+	]
+}

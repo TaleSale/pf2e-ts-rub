@@ -1,0 +1,181 @@
+{
+	"label": "Макросы Действий",
+	"entries": [
+		{
+			"id": "Balance: Acrobatics",
+			"name": "Акробатика: Балансировать"
+		},
+		{
+			"id": "Maneuver in Flight: Acrobatics",
+			"name": "Акробатика: Маневрирование в Полёте"
+		},
+		{
+			"id": "Tumble Through: Acrobatics",
+			"name": "Акробатика: Проскочить"
+		},
+		{
+			"id": "Squeeze: Acrobatics",
+			"name": "Акробатика: Протиснуться"
+		},
+		{
+			"id": "Athletics: Arcane Slam",
+			"name": "Атлетика: Арканное Придавливание"
+		},
+		{
+			"id": "Grapple: Athletics",
+			"name": "Атлетика: Захват"
+		},
+		{
+			"id": "Climb: Athletics",
+			"name": "Атлетика: Карабкаться"
+		},
+		{
+			"id": "Whirling Throw: Athletics",
+			"name": "Атлетика: Круговой Бросок"
+		},
+		{
+			"id": "Trip: Athletics",
+			"name": "Атлетика: Опрокинуть"
+		},
+		{
+			"id": "Force Open: Athletics",
+			"name": "Атлетика: Открыть Силой"
+		},
+		{
+			"id": "Swim: Athletics",
+			"name": "Атлетика: Плыть"
+		},
+		{
+			"id": "High Jump: Athletics",
+			"name": "Атлетика: Прыжок в Высоту"
+		},
+		{
+			"id": "Long Jump: Athletics",
+			"name": "Атлетика: Прыжок в Длину"
+		},
+		{
+			"id": "Disarm: Athletics",
+			"name": "Атлетика: Разоружение"
+		},
+		{
+			"id": "Shove: Athletics",
+			"name": "Атлетика: Толкнуть"
+		},
+		{
+			"id": "Pick a Lock: Thievery",
+			"name": "Воровство: Вскрытие Замка"
+		},
+		{
+			"id": "Seek: Perception",
+			"name": "Восприятие: Поиск"
+		},
+		{
+			"id": "Sense Motive: Perception",
+			"name": "Восприятие: Понять Намерение"
+		},
+		{
+			"id": "Track: Survival",
+			"name": "Выживание: Выслеживание"
+		},
+		{
+			"id": "Sense Direction: Survival",
+			"name": "Выживание: Определить Направление"
+		},
+		{
+			"id": "Gather Information: Diplomacy",
+			"name": "Дипломатия: Добыть Информацию"
+		},
+		{
+			"id": "Bon Mot: Diplomacy",
+			"name": "Дипломатия: Острота"
+		},
+		{
+			"id": "Make an Impression: Diplomacy",
+			"name": "Дипломатия: Произвести Впечатление"
+		},
+		{
+			"id": "Request: Diplomacy",
+			"name": "Дипломатия: Просьба"
+		},
+		{
+			"id": "Demoralize: Intimidation",
+			"name": "Запугивание: Деморализовать"
+		},
+		{
+			"id": "Coerce: Intimidation",
+			"name": "Запугивание: Принуждение"
+		},
+		{
+			"id": "Treat Poison: Medicine",
+			"name": "Медицина: Лечение от Яда"
+		},
+		{
+			"id": "Lie: Deception",
+			"name": "Обман: Лгать"
+		},
+		{
+			"id": "Create a Diversion - Gesture: Deception",
+			"name": "Обман: Отвлечь Внимание - Жест"
+		},
+		{
+			"id": "Create a Diversion - Distracting Words: Deception",
+			"name": "Обман: Отвлечь Внимание - Слова"
+		},
+		{
+			"id": "Create a Diversion - Trick: Deception",
+			"name": "Обман: Отвлечь Вниманик - Трюк"
+		},
+		{
+			"id": "Impersonate: Deception",
+			"name": "Обман: Перевоплотиться"
+		},
+		{
+			"id": "Feint: Deception",
+			"name": "Обман: Финт"
+		},
+		{
+			"id": "Encouraging Words",
+			"name": "Ободряющие Слова"
+		},
+		{
+			"id": "Raise a Shield",
+			"name": "Поднять Щит"
+		},
+		{
+			"id": "Command an Animal: Nature",
+			"name": "Природа: Команда Животному"
+		},
+		{
+			"id": "Craft: Crafting",
+			"name": "Ремесло: Создание"
+		},
+		{
+			"id": "Exploration: Avoid Notice",
+			"name": "Скрытность: Избегать Обнаружения"
+		},
+		{
+			"id": "Sneak: Stealth",
+			"name": "Скрытность: Красться"
+		},
+		{
+			"id": "Hide: Stealth",
+			"name": "Скрытность: Спрятаться"
+		},
+		{
+			"id": "Steel Your Resolve",
+			"name": "Укрепить Решимость"
+		},
+		{
+			"id": "Repair: Crafting",
+			"name": "Ремесло: Ремонт"
+		},
+		{
+			"id": "Tamper: Crafting",
+			"name": "Ремесло: Вмешательство"
+		},
+		{
+			"id": "Treat Disease: Medicine",
+			"name": "Медицина: Лечение Болезни"
+		}
+	]
+}

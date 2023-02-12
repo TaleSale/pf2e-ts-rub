@@ -1,0 +1,2001 @@
+{
+	"label": "Бестиарий (3)",
+	"mapping": {
+		"description": "system.details.publicNotes",
+		"privateNotes": "system.details.privateNotes",
+		"img": "img",
+		"tokenName": "prototypeToken.name",
+		"tokenImg": "prototypeToken.texture.src",
+		"tokenvision": "prototypeToken.vision",
+		"tokendisplayBars": "prototypeToken.displayBars",
+		"tokendisplayName": "prototypeToken.displayName",
+		"randomImg": "prototypeToken.randomImg",
+		"hstealth": "system.attributes.stealth.details",
+		"hdisable": "system.details.disable",
+		"hdescription": "system.details.description",
+		"hreset": "system.details.reset",
+		"hroutine": "system.details.routine",
+		"classDC": "system.attributes.classDC",
+		"keyability": "system.attributes.keyability.value",
+		"PackAttack": "system.attributes.PackAttack"
+    },
+	"entries": [
+		{
+			"id": "Abandoned Zealot",
+			"name": "Abandoned Zealot"
+		},
+		{
+			"id": "Abrikandilu",
+			"name": "Абрикандил, Демон-Разрушитель",
+			"tokenName": "Абрикандил",
+			"description": "<h2 class=\"Заг2\">Абрикандил</h2>\n<p><span style=\"text-decoration: underline; color: #34495e;\">Демоны-Разрушители</span>, также известные как <span style=\"text-decoration: underline; color: #34495e;\">Абрикандилы</span>, презирают красивые вещи и делают все возможное, чтобы уничтожить как людей, так и объекты, считающиеся таковыми. <span style=\"text-decoration: underline; color: #34495e;\">Абрикандил</span> формируется из душ смертных, которые были вандалами, мизантропами или осквернителями произведений искусства, особенно если их деструктивные действия проистекали из чувства сильной зависти.</p>\n<p>Больше красоты <span style=\"text-decoration: underline; color: #34495e;\">Абрикандил</span> ненавидит только одну вещь: свой собственный облик. Один лишь вид их лица, отраженного в зеркале, щите или даже в воде, может привести <span style=\"text-decoration: underline; color: #34495e;\">Демона-Разрушителя</span> в ярость. Многие истребители демонов используют эту тактику в своих интересах, отправляясь в бой наготове с полированными стальными щитами и клинками из холодного железа.</p>\n<hr />\n<h2 class=\"Заг2\">Демоны Вандализма</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Странная ирония заключается в том, что <span style=\"text-decoration: underline; color: #34495e;\">Абрикандилы</span> презирают все произведения искусства, однако без этих объектов ревности им было бы не на что гневаться, кроме как на самих себя.</p>\n<hr />\n<h2 class=\"Заг2\">Демон(Общее)</h2>\n<p>Когда грешная смертная душа осуждена и отправлена в Бездну, она может превратиться в смертоносного беса - демона. Демоны являются живыми воплощениями греха, будь то классические грехи, такие как гнев или обжорство, или более \"специализированные\" пороки, такие как одержимость пытками или акт измены или предательства. Будучи однажды сформированным, его движущие цели двояки: накопление личной силы и развращение смертных душ, чтобы они запятнались грехом. Таким образом демоны обеспечивают нескончаемый приток новых демонов для пополнения своих постоянно растущих рядов в Бездне.</p>\n<hr />\n<h2 class=\"Заг2\">Демонические Божества</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Самые могущественные демоны известны как повелители демонов (данный термин нейтрален по половому признаку). Из этих божеств @Compendium[pf2e.deities.aipkJQxP4GBsTaGq]{Ламашту} является самой могущественной. Существует бесчисленное множество других повелителей демонов, включая @Compendium[pf2e.deities.bLI1JMpI2GXQT5AC]{Абраксаса}, @Compendium[pf2e.deities.gXHoxuuiAD54LnWV]{Сит-Ви`зага}, @Compendium[pf2e.deities.V5PbbkZUP9N7kl6h]{Кабрири} и @Compendium[pf2e.deities.8ZSywyo8YQPduo92]{Зуру}.</p>\n<hr />\n<h2 class=\"Заг2\">Природа Хаоса</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые говорят, что природа хаоса по своей сути исключает сотрудничество и изощренность, но демоны доказывают ошибочность этого утверждения.</p>\n<hr />\n<h2 class=\"Заг2\">Что Есть Грех?</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые подразделяют грех на 7 категорий: зависть, чревоугодие, жадность, похоть, гордыню, леность и гнев. Хотя в этих грехах олицетворены некоторые из самых могущественных и многочисленных демонов, их гораздо больше семи. Любой акт жестокости или разрушения, который совершает смертный, чтобы удовлетворить себя за счет других, по сути, является грехом, и любой такой акт может породить демона из души в загробной жизни.</p>\n<hr />\n<h2 class=\"Заг2\">Демоническая Одержимость</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые демоны специализируются в искусстве одержимости над существами или объектами, чтобы сеять страх и хаос. В таких случаях демон приобретает мощную маскировку, с помощью которой он творит зло в мире, что является доставляющей ему удовольствие уловкой.</p>\n<hr />\n<h2 class=\"Заг2\">Разрушительность Греха</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя им нравится и самим причинять разрушения, большинство демонов предпочитают обманывать и искушать смертных, заставляя их по собственной воле придаваться греху.</p>\n<hr />\n<h2 class=\"Заг2\">Места Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Разрастающееся, вздымающееся, изменчивое царство Бездны это планарный дом демонической жизни, но демонов можно встретить везде, где существует потенциал к греху. Злые или глупые колдуны любят обращаться к демонам за советом или за более темными нуждами. Когда Бездна прорывается через границы реальности, создавая похожие на раны порталы в другие миры, демоны могут вырваться наружу и посеять невероятный хаос.</p>\n<hr />\n<h2 class=\"Заг2\">Источники Демонического</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Когда грешной смертной душе предписано попасть в Бездну, она проводит время, утопая в трясине и питаясь нечистотами. Если она выживет и не оказывается съедена, эта душа в конце концов превращается в демона, на что влияет природа ее греха, однако большинство демонов способны к самостоятельному размножению. Плодовитость демонической жизни это, пожалуй, самый значительный и грозный аспект этих опасных бесов.</p>\n<hr />\n<h2 class=\"Заг2\">Другие Демоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна, возможно, самый большой из Внешних Планов, и смертные обладают сопоставимым потенциалом предавать себя, общество и естественный порядок реальности. Благодаря этому безграничному источнику все более особых грехов, Бездна постоянно порождает новые виды демонов, досаждающих реальности. Хотя подавляющее большинство из них быстро уничтожается и больше никогда не возникают, их выживает достаточное количество, чтобы помимо перечисленных здесь, существовали десятки, если не сотни, видов демонов. Теневой @Compendium[pf2e.pathfinder-bestiary-2.M2BkGD9YwEmCvD9D]{Инвидиак} - демон без тела, порожденный завистливыми душами. Козлолицый, огнедышащий @Compendium[pf2e.pathfinder-bestiary-3.rVtBZrHnWM3lvSs7]{Бриморак} появляется из душ поджигателей. Склизкие, рогатые @Compendium[pf2e.pathfinder-bestiary-2.Ud6Iy1GolgtwrKQK]{Бабау, Кровавый Демон} порождаются из убийц, @Compendium[pf2e.pathfinder-bestiary-2.YUZF9WhDmfzma3dE]{Нальфешни, Демон-Кабан} - из жадных... и этот список можно продолжать и продолжать.</p>\n<hr />\n<h2 class=\"Заг2\">Вызов Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/dice-twenty-faces-twenty.svg\" width=\"50\" height=\"50\" /> Вызов демонов является опрометчивым, но отчаявшиеся или злые все же делают это. Для долгосрочных целей типичны такие ритуалы, как @Compendium[pf2e.spells-srd.vgy00hnqxN9VoeoF] или @Compendium[pf2e.spells-srd.2ykmAVKrsAWcazcC], а для боевого применения подходит @Compendium[pf2e.spells-srd.29ytKctjg7qSW2ff]. Для ритуала планарного союзника демоны иногда принимают подношения, которые не представляют ценности, при условии, что их дарение демону толкает ритуалиста дальше во грех.</p>\n<hr />\n<h2 class=\"Заг2\">Полудемоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна может развращать живых существ посредством прямого слияния или сверхъестественного вливания энергии Бездны, что приводит к появлению чудовищных гибридов. Полудемон должен быть индивидуально созданным существом, но вы можете быстро создать его, наделив существующее существо несколькими умениями демона, а также уязвимостью, связанной с грехом демона. Например, Полу-@Compendium[pf2e.pathfinder-bestiary-2.wqiFcGPARy8zmQfd]{Хезру} @Compendium[pf2e.pathfinder-bestiary.aqW5sp9HPgZgpXxs] получит уязвимость к чистоте, но также возможно, укус, Скорость плавания и ядовитые гнойники. При перекидывании умений между существами разных уровней не забудьте скорректировать числа в соответствии с новым уровнем.</p>\n<hr />\n<h2 class=\"Заг2\">Новички Бездны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя сейчас демоны являются самыми многочисленными <span style=\"text-decoration: underline; color: #a52a2a;\">исчадьями</span> Бездны, они являются относительными новичками, появившимися только когда смертное влияние, и в частности смертный грех, начали формировать этот план. На протяжении веков демоны боролись за господство с другими давними обитателями Бездны, но в конце концов их численность позволила стать доминирующими хаотичными бесами.</p>\n<hr />\n<h2 class=\"Заг2\">Демоны и Души</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Демоны, как и многие другие <span style=\"text-decoration: underline; color: #a52a2a;\">исчадья</span>, жаждут душ. По их мнению, главное предназначение этих душ - порождать новых демонов, которые могут служить солдатами, рабами, пешками или даже валютой для их более могущественных хозяев.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"VBxySuyNQGXdtmjL": {
+					"name": "Когти",
+					"description": ""
+				},
+				"QwKsTc2ps0cjzmnW": {
+					"name": "Челюсти (Укус)",
+					"description": ""
+				},
+				"hbJLdmKm20p84vtq": {
+					"name": "Бросок Обломков",
+					"description": ""
+				},
+				"4cx1d9efogHuWe26": {
+					"name": "Крушить",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Абрикандил</span> наносит 2 @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> по ничейному объекту или удерживаемому зеркалу. Удерживаемое зеркало использует <span class=\"КБ\">КБ</span> держащего его персонажа.</p>\n<p>Если оба @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span style=\"color: #169179;\"><strong>попадают</strong></span>, объедините их <span class=\"Урон\">урон</span> с целью преодоления <span style=\"color: #236fa1;\"><strong>Твердости </strong></span>или <span class=\"Сопр\">Сопротивление</span>.</p>\n<hr />\n<p>Эти @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} не считаются к <span style=\"color: #000080;\"><strong>Штрафу Множест.Атаки</strong></span> <span style=\"text-decoration: underline; color: #34495e;\">Абрикандила</span>, и он не применяется к этим @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударам}.</p>"
+				},
+				"983mBG3qwmzQKGS2": {
+					"name": "Отвращение к Зеркалам",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Абрикандил</span> ненавидит вид своего отражения.</p>\n<hr />\n<p>Когда существо @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействует} с зеркалом в пределах обзора <span style=\"text-decoration: underline; color: #34495e;\">Демона-Разрушителя</span>, этот демон получает штраф -2 <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> против проверок <span class=\"ХАР\">Запугивания</span>. <span style=\"text-decoration: underline; color: #34495e;\">Абрикандил</span> <span style=\"text-decoration: underline; color: #000080;\"><em>заканчивающий свой ход</em></span> рядом с зеркалом или атакованный существом держащим зеркало, получает [[/r 1d6[mental]]]{1d6 Ментал.}</p>\n<blockquote>\n<p>Обычно это приводит к тому, что <span style=\"text-decoration: underline; color: #34495e;\">абрикандил</span> сосредотачивает свои усилия на уничтожении ближайшего зеркала с помощью умения <span style=\"text-decoration: underline; color: #34495e;\">Крушить</span></blockquote>"
+				},
+				"3wLOdV2RXEY5pnF5": {
+					"name": "Увечащий Укус",
+					"description": "<p class=\"Нарратив\">Когда <span style=\"text-decoration: underline; color: #34495e;\">Абрикандил</span> <span style=\"color: #169179;\"><strong>попадает</strong></span> по существу @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Челюстями</span>, это существо должно совершить успешный <span class=\"СТК\">Спас.@Check[type:fortitude|dc:21|showDC:owner|traits:curse,divine,necromancy]{СТК}</span>, иначе будет физически изувечено.</p>\n<p>После этого существо <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.LgZx5xotO08JzhVc]{Получает} штраф <span class=\"Состояния\">Состояния</span> -1 к <span class=\"Атак\">проверкам</span> на основе <span style=\"color: #e67e23;\"><strong>Харизмы</strong></span>. Этот штраф накапливается вплоть до -3 и остается даже, если эти раны <span style=\"text-decoration: underline; color: #a52a2a;\">исцелены</span>.</p>\n<p>Штраф снижается на 1 каждый 24 часа, пока не достигнет 0.</p>"
+				}
+			}
+		},
+		{
+			"id": "Adachros",
+			"name": "Adachros"
+		},
+		{
+			"id": "Adhukait",
+			"name": "Adhukait"
+		},
+		{
+			"id": "Adlet",
+			"name": "Adlet"
+		},
+		{
+			"id": "Adult Forest Dragon",
+			"name": "Adult Forest Dragon"
+		},
+		{
+			"id": "Adult Forest Dragon (Spellcaster)",
+			"name": "Adult Forest Dragon (Spellcaster)"
+		},
+		{
+			"id": "Adult Sea Dragon",
+			"name": "Adult Sea Dragon"
+		},
+		{
+			"id": "Adult Sea Dragon (Spellcaster)",
+			"name": "Adult Sea Dragon (Spellcaster)"
+		},
+		{
+			"id": "Adult Sky Dragon",
+			"name": "Adult Sky Dragon"
+		},
+		{
+			"id": "Adult Sky Dragon (Spellcaster)",
+			"name": "Adult Sky Dragon (Spellcaster)"
+		},
+		{
+			"id": "Adult Sovereign Dragon",
+			"name": "Adult Sovereign Dragon"
+		},
+		{
+			"id": "Adult Sovereign Dragon (Spellcaster)",
+			"name": "Adult Sovereign Dragon (Spellcaster)"
+		},
+		{
+			"id": "Adult Underworld Dragon",
+			"name": "Adult Underworld Dragon"
+		},
+		{
+			"id": "Adult Underworld Dragon (Spellcaster)",
+			"name": "Adult Underworld Dragon (Spellcaster)"
+		},
+		{
+			"id": "Aghash",
+			"name": "Aghash"
+		},
+		{
+			"id": "Air Wisp",
+			"name": "Air Wisp"
+		},
+		{
+			"id": "Amalgamite",
+			"name": "Amalgamite"
+		},
+		{
+			"id": "Amphisbaena",
+			"name": "Amphisbaena"
+		},
+		{
+			"id": "Ancient Forest Dragon",
+			"name": "Ancient Forest Dragon"
+		},
+		{
+			"id": "Ancient Forest Dragon (Spellcaster)",
+			"name": "Ancient Forest Dragon (Spellcaster)"
+		},
+		{
+			"id": "Ancient Sea Dragon",
+			"name": "Ancient Sea Dragon"
+		},
+		{
+			"id": "Ancient Sea Dragon (Spellcaster)",
+			"name": "Ancient Sea Dragon (Spellcaster)"
+		},
+		{
+			"id": "Ancient Sky Dragon",
+			"name": "Ancient Sky Dragon"
+		},
+		{
+			"id": "Ancient Sky Dragon (Spellcaster)",
+			"name": "Ancient Sky Dragon (Spellcaster)"
+		},
+		{
+			"id": "Ancient Sovereign Dragon",
+			"name": "Ancient Sovereign Dragon"
+		},
+		{
+			"id": "Ancient Sovereign Dragon (Spellcaster)",
+			"name": "Ancient Sovereign Dragon (Spellcaster)"
+		},
+		{
+			"id": "Ancient Underworld Dragon",
+			"name": "Ancient Underworld Dragon"
+		},
+		{
+			"id": "Ancient Underworld Dragon (Spellcaster)",
+			"name": "Ancient Underworld Dragon (Spellcaster)"
+		},
+		{
+			"id": "Android Infiltrator",
+			"name": "Android Infiltrator"
+		},
+		{
+			"id": "Angazhani",
+			"name": "Angazhani"
+		},
+		{
+			"id": "Angheuvore Flesh-gnawer",
+			"name": "Angheuvore Flesh-gnawer"
+		},
+		{
+			"id": "Animated Colossus",
+			"name": "Animated Colossus"
+		},
+		{
+			"id": "Animated Furnace",
+			"name": "Animated Furnace"
+		},
+		{
+			"id": "Animated Silverware Swarm",
+			"name": "Animated Silverware Swarm"
+		},
+		{
+			"id": "Animated Trebuchet",
+			"name": "Animated Trebuchet"
+		},
+		{
+			"id": "Aphorite Sharpshooter",
+			"name": "Aphorite Sharpshooter"
+		},
+		{
+			"id": "Arboreal Archive",
+			"name": "Arboreal Archive"
+		},
+		{
+			"id": "Arboreal Reaper",
+			"name": "Arboreal Reaper"
+		},
+		{
+			"id": "Azarketi Explorer",
+			"name": "Azarketi Explorer"
+		},
+		{
+			"id": "Azer",
+			"name": "Azer"
+		},
+		{
+			"id": "Bauble Beast",
+			"name": "Bauble Beast"
+		},
+		{
+			"id": "Baykok",
+			"name": "Baykok"
+		},
+		{
+			"id": "Betobeto-san",
+			"name": "Betobeto-san"
+		},
+		{
+			"id": "Bison",
+			"name": "Bison"
+		},
+		{
+			"id": "Blood Hag",
+			"name": "Blood Hag"
+		},
+		{
+			"id": "Blood Painter",
+			"name": "Blood Painter"
+		},
+		{
+			"id": "Bone Ship",
+			"name": "Bone Ship"
+		},
+		{
+			"id": "Bore Worm Swarm",
+			"name": "Bore Worm Swarm"
+		},
+		{
+			"id": "Brainchild",
+			"name": "Brainchild"
+		},
+		{
+			"id": "Brimorak",
+			"name": "Бриморак, Демон-Поджигатель",
+			"tokenName": "Бриморак",
+			"description": "<h2 class=\"Заг2\">Бриморак</h2>\n<p>У этих козлоголовых демонов светящиеся красные глаза и пламенные копыта, но их рост составляет всего около 3 футов. Рожденные из душ поджигателей, огненные бримораки продолжают дело, которым занимались при жизни, так как все, к чему они прикасаются, быстро сгорает.</p>\n<p>Как правило, бримораки вспыльчивы даже по меркам демонов, однако их злоба переходит в радость перед лицом разрастающегося огня. Те, кто пережил столкновения с этими <span style=\"text-decoration: underline; color: #a52a2a;\">исчадьями</span>, рассказывают, что помнят ревущий смех бримораков так же отчетливо, как жар пламени или удушливый запах дыма.</p>\n<hr />\n<h2 class=\"Заг2\">Малейшие Искры</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Многие недооценивают бримораков из-за их размера, забывая, что крошечные угли могут в мгновение ока превратиться в бушующее инферно. Бримораки верят, что с каждым разожженным огнем они становятся все больше, однако еще никто не встречал более крупных демонов-поджигателей.</p>\n<hr />\n<h2 class=\"Заг2\">Демон(Общее)</h2>\n<p>Когда грешная смертная душа осуждена и отправлена в Бездну, она может превратиться в смертоносного беса - демона. Демоны являются живыми воплощениями греха, будь то классические грехи, такие как гнев или обжорство, или более \"специализированные\" пороки, такие как одержимость пытками или акт измены или предательства. Будучи однажды сформированным, его движущие цели двояки: накопление личной силы и развращение смертных душ, чтобы они запятнались грехом. Таким образом демоны обеспечивают нескончаемый приток новых демонов для пополнения своих постоянно растущих рядов в Бездне.</p>\n<hr />\n<h2 class=\"Заг2\">Демонические Божества</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Самые могущественные демоны известны как повелители демонов (данный термин нейтрален по половому признаку). Из этих божеств @Compendium[pf2e.deities.aipkJQxP4GBsTaGq]{Ламашту} является самой могущественной. Существует бесчисленное множество других повелителей демонов, включая @Compendium[pf2e.deities.bLI1JMpI2GXQT5AC]{Абраксаса}, @Compendium[pf2e.deities.gXHoxuuiAD54LnWV]{Сит-Ви`зага}, @Compendium[pf2e.deities.V5PbbkZUP9N7kl6h]{Кабрири} и @Compendium[pf2e.deities.8ZSywyo8YQPduo92]{Зуру}.</p>\n<hr />\n<h2 class=\"Заг2\">Природа Хаоса</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые говорят, что природа хаоса по своей сути исключает сотрудничество и изощренность, но демоны доказывают ошибочность этого утверждения.</p>\n<hr />\n<h2 class=\"Заг2\">Что Есть Грех?</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые подразделяют грех на 7 категорий: зависть, чревоугодие, жадность, похоть, гордыню, леность и гнев. Хотя в этих грехах олицетворены некоторые из самых могущественных и многочисленных демонов, их гораздо больше семи. Любой акт жестокости или разрушения, который совершает смертный, чтобы удовлетворить себя за счет других, по сути, является грехом, и любой такой акт может породить демона из души в загробной жизни.</p>\n<hr />\n<h2 class=\"Заг2\">Демоническая Одержимость</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые демоны специализируются в искусстве одержимости над существами или объектами, чтобы сеять страх и хаос. В таких случаях демон приобретает мощную маскировку, с помощью которой он творит зло в мире, что является доставляющей ему удовольствие уловкой.</p>\n<hr />\n<h2 class=\"Заг2\">Разрушительность Греха</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя им нравится и самим причинять разрушения, большинство демонов предпочитают обманывать и искушать смертных, заставляя их по собственной воле придаваться греху.</p>\n<hr />\n<h2 class=\"Заг2\">Места Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Разрастающееся, вздымающееся, изменчивое царство Бездны это планарный дом демонической жизни, но демонов можно встретить везде, где существует потенциал к греху. Злые или глупые колдуны любят обращаться к демонам за советом или за более темными нуждами. Когда Бездна прорывается через границы реальности, создавая похожие на раны порталы в другие миры, демоны могут вырваться наружу и посеять невероятный хаос.</p>\n<hr />\n<h2 class=\"Заг2\">Источники Демонического</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Когда грешной смертной душе предписано попасть в Бездну, она проводит время, утопая в трясине и питаясь нечистотами. Если она выживет и не оказывается съедена, эта душа в конце концов превращается в демона, на что влияет природа ее греха, однако большинство демонов способны к самостоятельному размножению. Плодовитость демонической жизни это, пожалуй, самый значительный и грозный аспект этих опасных бесов.</p>\n<hr />\n<h2 class=\"Заг2\">Другие Демоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна, возможно, самый большой из Внешних Планов, и смертные обладают сопоставимым потенциалом предавать себя, общество и естественный порядок реальности. Благодаря этому безграничному источнику все более особых грехов, Бездна постоянно порождает новые виды демонов, досаждающих реальности. Хотя подавляющее большинство из них быстро уничтожается и больше никогда не возникают, их выживает достаточное количество, чтобы помимо перечисленных здесь, существовали десятки, если не сотни, видов демонов. Теневой @Compendium[pf2e.pathfinder-bestiary-2.M2BkGD9YwEmCvD9D]{Инвидиак} - демон без тела, порожденный завистливыми душами. Козлолицый, огнедышащий @Compendium[pf2e.pathfinder-bestiary-3.rVtBZrHnWM3lvSs7]{Бриморак} появляется из душ поджигателей. Склизкие, рогатые @Compendium[pf2e.pathfinder-bestiary-2.Ud6Iy1GolgtwrKQK]{Бабау, Кровавый Демон} порождаются из убийц, @Compendium[pf2e.pathfinder-bestiary-2.YUZF9WhDmfzma3dE]{Нальфешни, Демон-Кабан} - из жадных... и этот список можно продолжать и продолжать.</p>\n<hr />\n<h2 class=\"Заг2\">Вызов Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/dice-twenty-faces-twenty.svg\" width=\"50\" height=\"50\" /> Вызов демонов является опрометчивым, но отчаявшиеся или злые все же делают это. Для долгосрочных целей типичны такие ритуалы, как @Compendium[pf2e.spells-srd.vgy00hnqxN9VoeoF] или @Compendium[pf2e.spells-srd.2ykmAVKrsAWcazcC], а для боевого применения подходит @Compendium[pf2e.spells-srd.29ytKctjg7qSW2ff]. Для ритуала планарного союзника демоны иногда принимают подношения, которые не представляют ценности, при условии, что их дарение демону толкает ритуалиста дальше во грех.</p>\n<hr />\n<h2 class=\"Заг2\">Полудемоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна может развращать живых существ посредством прямого слияния или сверхъестественного вливания энергии Бездны, что приводит к появлению чудовищных гибридов. Полудемон должен быть индивидуально созданным существом, но вы можете быстро создать его, наделив существующее существо несколькими умениями демона, а также уязвимостью, связанной с грехом демона. Например, Полу-@Compendium[pf2e.pathfinder-bestiary-2.wqiFcGPARy8zmQfd]{Хезру} @Compendium[pf2e.pathfinder-bestiary.aqW5sp9HPgZgpXxs] получит уязвимость к чистоте, но также возможно, укус, Скорость плавания и ядовитые гнойники. При перекидывании умений между существами разных уровней не забудьте скорректировать числа в соответствии с новым уровнем.</p>\n<hr />\n<h2 class=\"Заг2\">Новички Бездны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя сейчас демоны являются самыми многочисленными <span style=\"text-decoration: underline; color: #a52a2a;\">исчадьями</span> Бездны, они являются относительными новичками, появившимися только когда смертное влияние, и в частности смертный грех, начали формировать этот план. На протяжении веков демоны боролись за господство с другими давними обитателями Бездны, но в конце концов их численность позволила стать доминирующими хаотичными бесами.</p>\n<hr />\n<h2 class=\"Заг2\">Демоны и Души</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Демоны, как и многие другие <span style=\"text-decoration: underline; color: #a52a2a;\">исчадья</span>, жаждут душ. По их мнению, главное предназначение этих душ - порождать новых демонов, которые могут служить солдатами, рабами, пешками или даже валютой для их более могущественных хозяев.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"ngkPL0GL8aCtZQ2t": {
+					"name": "Меч (Зло, Огонь)",
+					"description": ""
+				},
+				"8So4CPwp508RfAuQ": {
+					"name": "Копыто (Зло, Огонь)",
+					"description": ""
+				},
+				"Bh4tXIFDTCdh3Vzs": {
+					"name": "Атака Дыханием",
+					"description": "<p class=\"Нарратив\">Бриморак плюет своей кипящей кровью @Template[type:line|distance:20], нанося [[/r 6d6[fire]]]{6d6 Огнем}</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:21|basic:true|showDC:owner|traits:divine,evocation,fire]{Пр.РФЛ}</strong></span></p>\n<hr />\n<p><span style=\"color: #000080;\"><strong>Перезарядка:</strong></span> [[/r 1d4 #Перезарядка]]{1d4 Раундов}<span data-visibility=\"gm\">[[1d4]]{ }</span></p>\n<hr />\n<p>Земля в области становится скользкой, с эффектами заклинания @Compendium[pf2e.spells-srd.Wu0xFpewMKRK3HG8] целящегося по области, пока она не будет очищена или бриморак не <span style=\"color: #000080;\"><strong>перезарядит </strong></span><span style=\"text-decoration: underline; color: #34495e;\">Атаку Дыханием</span>, в зависимости от того, что произойдет раньше.</p>"
+				},
+				"GdnX1i87yKmvFsjB": {
+					"name": "Задымить",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Бриморак</span> источает облако густого черного дыма в @Template[type:burst|distance:10], которое остается на месте в течение [[1d4[Продолжительность Задымить]]]{1d4 раундов}.</p>\n<p>Все существа внутри дыма становятся @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыты}, а все существа вне дыма становятся @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыты} для существ внутри него.</p>\n<hr />\n<p>Существо, которое попадает в дым или <span class=\"Класс\">Начинает в нем свой ход</span>, должно совершить успешный <span class=\"СТК\">Спас.@Check[type:fortitude|dc:21|showDC:owner|traits:divine,evocation,fire]{СТК}</span>, иначе получит @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2} при <span class=\"Критпровал\">Крит.Провал</span>).</p>"
+				},
+				"MzHIjOVqhOXnluws": {
+					"name": "Отвращение к Тушению",
+					"description": "<p class=\"Нарратив\">Обливание <span style=\"text-decoration: underline; color: #34495e;\">бриморака</span> водой, как обычной так и полученной от <span style=\"text-decoration: underline; color: #a52a2a;\">водного</span> эффекта, не причиняет исчадью физического вреда, но наносит [[/r 3d6[mental]]]{3d6 Ментал.}.</p>\n<p>Полное погружение <span style=\"text-decoration: underline; color: #34495e;\">бриморака</span> в воду наносит [[/r 5d6[mental]]]{5d6 Ментал.} в раунд.</p>"
+				},
+				"E06rANySjyXiIjDH": {
+					"name": "Кипящая Кровь",
+					"description": "<p class=\"Нарратив\">Каждый раз, когда находящееся рядом существо наносит <span style=\"text-decoration: underline; color: #34495e;\">Бримораку</span> <span class=\"Урон\">Рубящий</span> или <span class=\"Урон\">Колющ.Урон</span>, на этого атакующего брызгает кипящая кровь <span style=\"text-decoration: underline; color: #34495e;\">Бриморака</span>, нанося [[/r 2d4[fire]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:19|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></p>"
+				},
+				"VRhuQIGcrHKCOyL4": {
+					"name": "Огненное Оружие",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Копыта</span> и все оружие которым владеет <span style=\"text-decoration: underline; color: #34495e;\">Бриморак</span> разгорается пламенем, нанося доп. [[/r 1d6[fire]]]{1d6 Огнем} при каждом <span class=\"Успех\">попдании</span>.</p>\n<p>Если у него нет оружия, он может создать пламенный меч из огня и стали.</p>"
+				}
+			}
+		},
+		{
+			"id": "Buso Farmer",
+			"name": "Buso Farmer"
+		},
+		{
+			"id": "Cactus Leshy",
+			"name": "Cactus Leshy"
+		},
+		{
+			"id": "Caligni Caller",
+			"name": "Caligni Caller"
+		},
+		{
+			"id": "Caligni Vanguard",
+			"name": "Caligni Vanguard"
+		},
+		{
+			"id": "Calikang",
+			"name": "Calikang"
+		},
+		{
+			"id": "Camel",
+			"name": "Camel"
+		},
+		{
+			"id": "Caulborn",
+			"name": "Caulborn"
+		},
+		{
+			"id": "Cave Giant",
+			"name": "Cave Giant"
+		},
+		{
+			"id": "Cecaelia Trapper",
+			"name": "Cecaelia Trapper"
+		},
+		{
+			"id": "Chouchin-obake",
+			"name": "Chouchin-obake"
+		},
+		{
+			"id": "Chyzaedu",
+			"name": "Chyzaedu"
+		},
+		{
+			"id": "City Guard Squadron",
+			"name": "Отряд Городской Стражи",
+			"tokenName": "Отярд Город.Стражи",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Urban Chasers": {
+					"name": "Городские Преследователи",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Городские Стражи</span> игнорируют <span class=\"Мест\">сложную местность</span> (но <span class=\"НЕ\">не</span> <span class=\"Мест\">особо сложную</span>) вызванную толпами народа или <span class=\"Признак\">движением</span> по <span class=\"Мест\">узким пространствам</span>, таким как переулки.</p>"
+						},
+				"Seek Quarry": {
+					"name": "Искать Нарушителя",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Городские Стражи</span> могут потратить <span class=\"Действие\">1 минуту</span> на то, чтобы обозначить своей преследуемой <span class=\"Рес\">жертвой</span> 1 существо, для которого у них есть физическое описание.</p>\n<p>Они получают бонус <span class=\"Обстоятельства\">обстоятельства</span> +2 к <span class=\"МУД\">Восприятию</span> против своей <span class=\"Рес\">жертвы</span>.</p>"
+				},
+				"Lower Halberds!": {
+					"name": "Алебарды!",
+					"description": "<div><span class=\"Част\">Частота</span>: 1/Раунд</div>\n<hr />\n<p><span class=\"Повтор\">Городские Стражи</span> вступают в скоординированный <span class=\"Видыатак\">ближний бой</span> против каждого <span class=\"Враг\">врага</span> в пределах @Template[type:emanation|distance:10], с <span class=\"РФЛ\">Спас.@Check[type:reflex|dc:19|basic:true]{Пр.РФЛ}</span>.</p>\n<p><span class=\"Урон\">Урон</span> зависит от количества <span class=\"Действие\">действий</span>:</p>\n<p><span class=\"Действие\"><span class=\"pf2-icon\">1</span></span>: [[/r 1d10[piercing]]]/[[/r 1d10[slashing]]]</p>\n<p><span class=\"Действие\"><span class=\"pf2-icon\">2</span></span>: [[/r (1d10+7)[piercing]]]/[[/r (1d10+7)[slashing]]]</p>\n<p><span class=\"Действие\"><span class=\"pf2-icon\">3</span></span>: [[/r (1d10+10)[piercing]]]/[[/r (1d10+10)[slashing]]]</p>"
+						},
+				"Fire Crossbows!": {
+					"name": "Арбалетный Залп!",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Городские Стражи</span> <span class=\"Атака\">достают</span> или <span class=\"Атака\">перезаряжают</span> свои <span class=\"Видыатак\">арбалеты</span>, после чего дают <span class=\"Список\">залп</span> <span class=\"Видыатак\">дистанц.атакой</span>. Этот <span class=\"Список\">залп</span> - @Template[type:burst|distance:10] в пределах 120ФТ, который наносит [[/r 3d8[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:19|basic:true]{Пр.РФЛ}</span></p>\n<p>Когда численность <span class=\"Повтор\">Городской Стражи</span> снижается до <span class=\"Атака\">8 Квадратов</span> или менее, их область <span class=\"Список\">залпа</span> уменьшается до @Template[type:burst|distance:5].</p>"
+				},
+				"9X9mEo92lODvZP6d": {
+					"name": "Защита Отряда",
+					"description": "<div><span class=\"ТЕЛ\">Пороги</span>: <span class=\"ОЗ\">50 ОЗ</span> (<span class=\"Атака\">12 Квадрат</span>), <span class=\"ОЗ\">25 ОЗ</span> (<span class=\"Атака\">8 Квадрат</span>)</div>\n<hr class=\"line\" />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+				}
+			}
+		},
+		{
+			"id": "Clacking Skull Swarm",
+			"name": "Clacking Skull Swarm"
+		},
+		{
+			"id": "Clockwork Dragon",
+			"name": "Clockwork Dragon"
+		},
+		{
+			"id": "Clockwork Mage",
+			"name": "Clockwork Mage"
+		},
+		{
+			"id": "Clockwork Soldier",
+			"name": "Clockwork Soldier"
+		},
+		{
+			"id": "Clockwork Spy",
+			"name": "Clockwork Spy"
+		},
+		{
+			"id": "Cobbleswarm",
+			"name": "Cobbleswarm"
+		},
+		{
+			"id": "Common Eurypterid",
+			"name": "Common Eurypterid"
+		},
+		{
+			"id": "Consonite Choir",
+			"name": "Consonite Choir"
+		},
+		{
+			"id": "Coral Capuchin",
+			"name": "Coral Capuchin"
+		},
+		{
+			"id": "Corrupted Relic",
+			"name": "Corrupted Relic"
+		},
+		{
+			"id": "Crossroads Guardian",
+			"name": "Crossroads Guardian"
+		},
+		{
+			"id": "Cunning Fox",
+			"name": "Cunning Fox"
+		},
+		{
+			"id": "Danava Titan",
+			"name": "Danava Titan"
+		},
+		{
+			"id": "Deimavigga",
+			"name": "Деймавигга, Дьявол-Отступник",
+			"tokenName": "Деймавигга",
+			"description": "<h2 class=\"Заг2\">Деймавигга</h2>\n<p>Являясь мастерами холодной, расчетливой логики и идеально своевременной прозелитизации, мерзкие деймавигги при любой возможности стремятся настроить друзей друг против друга и отречь верующих от их убеждений.</p>\n<hr />\n<h2 class=\"Заг2\">Действующие в Одиночку</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> В то время как большинство дьяволов выполняют специализированную роль в сложной инфернальной машине, деймавигги работают почти исключительно в одиночку, поскольку они считают, что даже самые послушные приспешники становятся для них помехой в осуществлении их уловок.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявол (Общее)</h2>\n<p>Владыки развращения и архитекторы покорений, дьяволы стремятся к тому как соблазнить смертную жизнь присоединиться к их погоне за всем богохульным, так и распространять тиранию по всем мирах. Искушения, которые они предлагают смертным, варьируются от великих сил, дарованных подписанием адского контракта, до искаженных одолжений после прошептанного обещания дьявольскому покровителю или любого количества еще более утонченных обменов. Те, кто поддаются этим искушениям, оказываются обреченными на загробную жизнь бесконечных мучений в глубинах Ада, где единственная надежда на спасение заключается в шансе стать дьяволом в инфернальных рядах. Каждый дьявол, от солдат и ученых до инквизиторов, адвокатов, судей и палачей играет определенную роль в поддержании безжалостной бюрократической машины, которой и является Ад.</p>\n<p>Низшие @Compendium[pf2e.pathfinder-bestiary.zJro50sLFmOcDLdO]{Лемуры} и @Compendium[pf2e.pathfinder-bestiary.I4CpyMUsWfFYdpL5]{Импы}выполняют работу служащую целям более могущественных и специализированных дьяволов, таких как @Compendium[pf2e.pathfinder-bestiary.B8QjalVNcWjuqgG7]{Контрактные Дьяволы} и @Compendium[pf2e.pathfinder-bestiary.ETNlci6VnSthx5V6]{Эринии}, в то время как величайшие @Compendium[pf2e.pathfinder-bestiary.QT2gA8WMaT2cuXr7]{Исчадие Преисподней} командуют целыми адскими армиями.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявольские Божества</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Многие уникальные и могущественные дьяволы занимают в Аду властные позиции. Самыми многочисленными из них являются инфернальные герцоги, многие из которых были продвинуты на эту должность уже благодаря внушительному положению в роли @Compendium[pf2e.pathfinder-bestiary.QT2gA8WMaT2cuXr7]{Исчадие Преисподней}. Верховный правитель самого ада - @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодей}, Принц Тьмы. Между этими двумя ярусами правят 8 архидьяволов.</p>\n<hr />\n<h2 class=\"Заг2\">Архидьяволы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Единовременно, 8 архидьяволов правят восемью верхними слоями Ада, в то время как самый глубокий слой управляется @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодеем}. Каждый архидьявол - уникальный полубог, которому отведена особая роль в руководстве адской машиной. @Compendium[pf2e.deities.oiEo6tDP3gICHtfZ]{Барбатос} - привратник самого верхнего слоя Ада, в то время как @Compendium[pf2e.deities.CzHjFLx4hpIEIoWt]{Диспатер} правит самым большим городом Ада. @Compendium[pf2e.deities.sNjPI1iaS8Z43YJf]{Маммон} охраняет сокровищницы Ада, а @Compendium[pf2e.deities.remyY1BwhEVmBwya]{Белиал} разрабатывает новое оружие для легионов Ада. @Compendium[pf2e.deities.WOiSJ4IWjaRsSgRO]{Герион} - старейший архидьявол и хранитель многих тайн, в то время как @Compendium[pf2e.deities.g1VxllMjs2YRIJAm]{Молох} возглавляет армии Ада. @Compendium[pf2e.deities.9WD0hbUT0IbnuTiM]{Вельзевул} - угрюмый архидьявол, павший в немилость Асмодея, в то время как могущественный @Compendium[pf2e.deities.KWVdoAm3b01M8Lcp]{Мефистофель} был создан из самого плана Ада.</p>\n<hr />\n<h2 class=\"Заг2\">Королевы Ночи</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Четыре королевы ночи обладают огромной властью в Преисподней. @Compendium[pf2e.deities.uydTiyN5AzhBnQY8]{Ардад Лили} - заговорщица и манипулятор с амбициями править небесами, а @Compendium[pf2e.deities.AMFkYKUNQ3kCD0ob]{Долорас} наслаждается страданиями. Самой отдаленной является @Compendium[pf2e.deities.Af4TSJjutVi9Vdwi]{Махатхалла}, наблюдающая за судьбой и смертью. Самая могущественная среди них - @Compendium[pf2e.deities.aVyxfqY9GBjTqQul]{Эйсет}, которая собирает армию в Дисе в надежде захватить железный трон Мэлболджа.</p>\n<hr />\n<h2 class=\"Заг2\">Отношения между Исчадьями</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Дьяволы видят постоянную охоту за душами со стороны <span style=\"text-decoration: underline; color: #a52a2a;\">дэймонов</span> как недальновидную трату своего потенциала, а хаотическое разрушение общества и плоти совершаемые <span style=\"text-decoration: underline; color: #a52a2a;\">демонами</span> как нецивилизованное и отвратительное, но они не испытывают отвращения к своим бесовским собратьям. По правде, большинство дьяволов как только могут используют дэймонов и демонов, чтобы продвигать свои собственные махинации.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявольские Места</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Девять слоев ада - планарный дом всех дьяволов, и они предпочитают его окружение упорядоченное тиранией любому другому месту в мультивселенной. Однако с дьяволами можно встретиться везде, где смертные могут соблазниться адскими сделками или обратиться за дьявольской помощью. На Голарионе нация Челии особенно связана с Адом. Ее правительство основано на устройстве Ада, а государственная церковь - на церкви @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодея}.</p>\n<hr />\n<h2 class=\"Заг2\">Огонь и Лёд</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> В классическом представлении, Ад это пылающая пустошь магмы и вулканов, испепеляющий пейзаж, кишащий кричащими душами проклятых. Однако те, кто посетил Ад, знают ужасную правду - его мучения не заканчиваются вечным горением. Некоторые регионы Ада это вечные ледяные просторы с острым как бритва льдом и обдирающим плоть ветром, в то время как другие - едкие болота, наполненные ядом и болезнями. Ад не ограничивает свой набор пыточных инструментов только огнем, которым он так известен!</p>\n<hr />\n<h2 class=\"Заг2\">Иерархия Ада</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Ад это суровый план порядка, в которой почти нет места состраданию или эмпатии. Как таковой, он существует полностью в рамках строгой иерархии, и этот порядок также распространяется на его обитателей. В то время как различные виды <span style=\"text-decoration: underline; color: #a52a2a;\">демонов</span> соответствуют различным грехам, а <span style=\"text-decoration: underline; color: #a52a2a;\">дэймоны</span> ассоциируются с видами кончины смертных, различные виды <span style=\"text-decoration: underline; color: #a52a2a;\">дьяволов</span> существуют исключительно для того, чтобы выполнять определенные роли адской машины. В отдельных случаях конкретный дьявол может выйти за рамки той роли, для которой он буквально был сформирован, но при этом он часто физически преображается в вид, подходящий для его новой роли.</p>\n<hr />\n<h2 class=\"Заг2\">Адское Пламя</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/dice-twenty-faces-twenty.svg\" width=\"50\" height=\"50\" /> Смердящий, сернистый адский огонь пропитан злом. Адское пламя всегда наносит сочетание урона огнем и злом, однако конкретное соотношение зависит от происхождения адского пламени. Некоторые виды адского пламени могут накладывать на существ и другие эффекты, например, лишать их силы или памяти.</p>\n<hr />\n<h2 class=\"Заг2\">Адские Уста</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Хотя путешествие в Ад и обратно возможно с помощью @Compendium[pf2e.spells-srd.5bTt2CvYHPvaR7QQ], другой способ добраться туда, в инфернальные царства - с помощью адских уст, странных живых порталов, соединяющих разные слои или даже разные планы. Адские уста имеют форму гримасы, растянутой пасти или другого ужасающе органического отверстия, и не существует двух одинаковых. Большинство из них тщательно охраняются, но некоторые новые или хорошо спрятанные адские уста еще предстоит обнаружить.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"xUovRSHL0ImgkXwW": {
+					"name": "Когти (Зло)",
+					"description": ""
+				},
+				"cyqkRqwp35f8CtAJ": {
+					"name": "Шепоты Раздора",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Деймавигга</span> шепчет тревожную ложь, слышную только цели, чтобы поколебать ее веру в колдующего это заклинание.</p>\n<hr />\n<div><span class=\"Триг\">Триггер</span>: Существо в пределах 60ФТ является целью заклинания, которое восстановит <span class=\"ОЗ\">ОЗ</span> или даст бонус <span class=\"Состояния\">Состояния</span> (деймавигга автоматически узнает такие эффекты)</div>\n<hr />\n<p>Цель должна совершить <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:43|showDC:owner]</strong></span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель не верит в ложь и получает от заклинания ожидаемые преимущества; цель становится временно иммунной к <span style=\"text-decoration: underline; color: #34495e;\">Шепотам Раздора</span> на 24 часа.</p>\n<p><span class=\"Успех\">Успех</span>: Как <span class=\"Критуспех\">Крит.Успех</span>, но цель не получает временный иммунитет.</p>\n<p><span class=\"Провал\">Провал</span>: Заклинанию не удается воздействовать на цель. Цель отрицает всю помощь от этого заклинателя<span class=\"До\">на 1 раунд</span> и <span class=\"НЕ\">не</span> считается союзником этого заклинателя.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, но продолжительность 1 минута.</p>"
+				},
+				"vjjTR5hrPf5pDmGk": {
+					"name": "Изменение Формы",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Деймавигга</span> принимает облик любого <span style=\"text-decoration: underline; color: #a52a2a;\">гуманоида</span>. Это не изменяет его <span style=\"text-decoration: underline; color: #169179;\">Скорость</span> или модификаторы атаки и <span class=\"Урон\">урона</span> Ударов, но может изменить тип урона, наносимого его Ударами (обычно на дробящий).</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+				},
+				"LrGPFAVrLLeOkRJj": {
+					"name": "Навязчивый Шепот",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Деймавигга</span> нашептывает ужасающую вселенскую истину одному существу, находящемуся рядом, поколебав его веру в реальность и божественность.</p>\n<hr />\n<p>Цель должна совершить <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:43|showDC:owner|traits:divination,divine,emotion,mental]</strong></span>. <span style=\"text-decoration: underline; color: #a52a2a;\">Небожители</span> и <span style=\"text-decoration: underline; color: #a52a2a;\">Исчадья</span> получают к этому спасброску бонус <span class=\"Состояния\">Состояния</span> +2.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель невредима и <span class=\"Иммун2\">временно иммунна</span> к <span class=\"Повтор\">Навязчивому Шепоту</span> на 24 часа.</p>\n<p><span class=\"Успех\">Успех</span>: Цель невредима.</p>\n<p><span class=\"Провал\">Провал</span>: В следующий раз, когда цель <span style=\"text-decoration: underline; color: #000080;\">отдыхает</span>, вместо сна или другого отдыха, она размышляет над словами <span style=\"text-decoration: underline; color: #34495e;\">деймавигга</span> и просыпается @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Утомленной}. Еще цель становится @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} и @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 1} пока не перестанет быть @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Утомленной}.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, но @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2}. После этого <span class=\"Ежед\">Отдыха</span>, цель должна совершить еще <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:43|showDC:owner|traits:divination,divine,emotion,mental]</strong></span>. При <span class=\"Провал\">Провал</span>цель становится @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 2} и получает штраф <span class=\"Состояния\">Состояния</span> -4 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> против эффектов <span class=\"Мировоз\">злых</span> существ. Эти эффекты длятся пока цель не перестанет знать сказанную <span style=\"text-decoration: underline; color: #34495e;\">деймавиггом</span> истину, для чего требуется заклинание @Compendium[pf2e.spells-srd.FhOaQDTSnsY7tiam], другие средства для изменения их памяти или могущественная магия, такая как@Compendium[pf2e.spells-srd.6dDtGIUerazSHIOu].</p>"
+				},
+				"AKn4Oke8VMoU85yk": {
+					"name": "Неукротимая Речь",
+					"description": "<p class=\"Нарратив\">Любое существо, способное понимать речь, понимает <span style=\"text-decoration: underline; color: #34495e;\">деймавигга</span>, как если бы они постоянно говорили на всех языках сразу.</p>"
+				},
+				"Fk0okw5jh318HfC0": {
+					"name": "Безграничная Досягаемость",
+					"description": "<p class=\"Нарратив\">Острые, как бритва, когти <span style=\"text-decoration: underline; color: #34495e;\">деймавигга</span> способны прорезать реальность, позволяя наносить @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> и использовать заклинания с дистанцией касания против любого существа, которое они могут видеть непосредственно или с помощью магии <span style=\"text-decoration: underline; color: #a52a2a;\">прорицания</span>.</p>\n<p>Существо, ставшее целью таким способом, может нанести ответный удар <span class=\"До\">до начала след.хода</span><span style=\"text-decoration: underline; color: #34495e;\">деймавигга</span>; оно может целиться в <span style=\"text-decoration: underline; color: #34495e;\">Когти</span> дьявола, как если бы дьявол физически присутствовал и находился рядом с целью, однако когти @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыты}.</p>"
+				}
+			}
+		},
+		{
+			"id": "Desert Giant",
+			"name": "Desert Giant"
+		},
+		{
+			"id": "Divine Warden Of Nethys",
+			"name": "Divine Warden Of Nethys"
+		},
+		{
+			"id": "Domovoi",
+			"name": "Domovoi"
+		},
+		{
+			"id": "Doru",
+			"name": "Doru"
+		},
+		{
+			"id": "Draconal (Black)",
+			"name": "Draconal (Black)"
+		},
+		{
+			"id": "Draconal (Green)",
+			"name": "Draconal (Green)"
+		},
+		{
+			"id": "Draconal (Red)",
+			"name": "Draconal (Red)"
+		},
+		{
+			"id": "Draconal (White)",
+			"name": "Draconal (White)"
+		},
+		{
+			"id": "Draconal (Yellow)",
+			"name": "Draconal (Yellow)"
+		},
+		{
+			"id": "Dramofir",
+			"name": "Dramofir"
+		},
+		{
+			"id": "Draxie",
+			"name": "Draxie"
+		},
+		{
+			"id": "Dretch",
+			"name": "Дретч, Демон Лени",
+			"tokenName": "Дретч",
+			"description": "<h2 class=\"Заг2\">Дретч</h2>\n<p>Среди низших и наименее могущественных демонов, дретчи такие же злобные и жестокие, как и их более сильные собратья. Они с радостью выплескивают свое разочарование на всех, кто слабее их.</p>\n<p>Рожденные из душ лентяев, эти демоны внешне напоминают гуманоидов с неуклюжими конечностями и кусками вялой кожи, свисающими с их тел. Предположительно, одна душа лентяя, достаточно порочная и сильная, может породить целую орду этих существ. Однако, их удел как более слабых демонов - страдать от рук более могущественных хищников Бездны, и лишь ничтожному числу дретчей удается стать чем-то большим. По этой причине, дретчи довольно сговорчивы, когда их призывают смертные. Обычно они довольствуются работать на условиях, с которыми соглашается мало кто из аутсайдеров, хотя они все равно с радостью предадут даже добрейших хозяев, проявивших хоть малейший намек на слабость.</p>\n<hr />\n<h2 class=\"Заг2\">Демон(Общее)</h2>\n<p>Когда грешная смертная душа осуждена и отправлена в Бездну, она может превратиться в смертоносного беса - демона. Демоны являются живыми воплощениями греха, будь то классические грехи, такие как гнев или обжорство, или более \"специализированные\" пороки, такие как одержимость пытками или акт измены или предательства. Будучи однажды сформированным, его движущие цели двояки: накопление личной силы и развращение смертных душ, чтобы они запятнались грехом. Таким образом демоны обеспечивают нескончаемый приток новых демонов для пополнения своих постоянно растущих рядов в Бездне.</p>\n<hr />\n<h2 class=\"Заг2\">Демонические Божества</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Самые могущественные демоны известны как повелители демонов (данный термин нейтрален по половому признаку). Из этих божеств @Compendium[pf2e.deities.aipkJQxP4GBsTaGq]{Ламашту} является самой могущественной. Существует бесчисленное множество других повелителей демонов, включая @Compendium[pf2e.deities.bLI1JMpI2GXQT5AC]{Абраксаса}, @Compendium[pf2e.deities.gXHoxuuiAD54LnWV]{Сит-Ви`зага}, @Compendium[pf2e.deities.V5PbbkZUP9N7kl6h]{Кабрири} и @Compendium[pf2e.deities.8ZSywyo8YQPduo92]{Зуру}.</p>\n<hr />\n<h2 class=\"Заг2\">Природа Хаоса</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые говорят, что природа хаоса по своей сути исключает сотрудничество и изощренность, но демоны доказывают ошибочность этого утверждения.</p>\n<hr />\n<h2 class=\"Заг2\">Что Есть Грех?</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые подразделяют грех на 7 категорий: зависть, чревоугодие, жадность, похоть, гордыню, леность и гнев. Хотя в этих грехах олицетворены некоторые из самых могущественных и многочисленных демонов, их гораздо больше семи. Любой акт жестокости или разрушения, который совершает смертный, чтобы удовлетворить себя за счет других, по сути, является грехом, и любой такой акт может породить демона из души в загробной жизни.</p>\n<hr />\n<h2 class=\"Заг2\">Демоническая Одержимость</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые демоны специализируются в искусстве одержимости над существами или объектами, чтобы сеять страх и хаос. В таких случаях демон приобретает мощную маскировку, с помощью которой он творит зло в мире, что является доставляющей ему удовольствие уловкой.</p>\n<hr />\n<h2 class=\"Заг2\">Разрушительность Греха</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя им нравится и самим причинять разрушения, большинство демонов предпочитают обманывать и искушать смертных, заставляя их по собственной воле придаваться греху.</p>\n<hr />\n<h2 class=\"Заг2\">Места Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Разрастающееся, вздымающееся, изменчивое царство Бездны это планарный дом демонической жизни, но демонов можно встретить везде, где существует потенциал к греху. Злые или глупые колдуны любят обращаться к демонам за советом или за более темными нуждами. Когда Бездна прорывается через границы реальности, создавая похожие на раны порталы в другие миры, демоны могут вырваться наружу и посеять невероятный хаос.</p>\n<hr />\n<h2 class=\"Заг2\">Источники Демонического</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Когда грешной смертной душе предписано попасть в Бездну, она проводит время, утопая в трясине и питаясь нечистотами. Если она выживет и не оказывается съедена, эта душа в конце концов превращается в демона, на что влияет природа ее греха, однако большинство демонов способны к самостоятельному размножению. Плодовитость демонической жизни это, пожалуй, самый значительный и грозный аспект этих опасных бесов.</p>\n<hr />\n<h2 class=\"Заг2\">Другие Демоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна, возможно, самый большой из Внешних Планов, и смертные обладают сопоставимым потенциалом предавать себя, общество и естественный порядок реальности. Благодаря этому безграничному источнику все более особых грехов, Бездна постоянно порождает новые виды демонов, досаждающих реальности. Хотя подавляющее большинство из них быстро уничтожается и больше никогда не возникают, их выживает достаточное количество, чтобы помимо перечисленных здесь, существовали десятки, если не сотни, видов демонов. Теневой @Compendium[pf2e.pathfinder-bestiary-2.M2BkGD9YwEmCvD9D]{Инвидиак} - демон без тела, порожденный завистливыми душами. Козлолицый, огнедышащий @Compendium[pf2e.pathfinder-bestiary-3.rVtBZrHnWM3lvSs7]{Бриморак} появляется из душ поджигателей. Склизкие, рогатые @Compendium[pf2e.pathfinder-bestiary-2.Ud6Iy1GolgtwrKQK]{Бабау, Кровавый Демон} порождаются из убийц, @Compendium[pf2e.pathfinder-bestiary-2.YUZF9WhDmfzma3dE]{Нальфешни, Демон-Кабан} - из жадных... и этот список можно продолжать и продолжать.</p>\n<hr />\n<h2 class=\"Заг2\">Вызов Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/dice-twenty-faces-twenty.svg\" width=\"50\" height=\"50\" /> Вызов демонов является опрометчивым, но отчаявшиеся или злые все же делают это. Для долгосрочных целей типичны такие ритуалы, как @Compendium[pf2e.spells-srd.vgy00hnqxN9VoeoF] или @Compendium[pf2e.spells-srd.2ykmAVKrsAWcazcC], а для боевого применения подходит @Compendium[pf2e.spells-srd.29ytKctjg7qSW2ff]. Для ритуала планарного союзника демоны иногда принимают подношения, которые не представляют ценности, при условии, что их дарение демону толкает ритуалиста дальше во грех.</p>\n<hr />\n<h2 class=\"Заг2\">Полудемоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна может развращать живых существ посредством прямого слияния или сверхъестественного вливания энергии Бездны, что приводит к появлению чудовищных гибридов. Полудемон должен быть индивидуально созданным существом, но вы можете быстро создать его, наделив существующее существо несколькими умениями демона, а также уязвимостью, связанной с грехом демона. Например, Полу-@Compendium[pf2e.pathfinder-bestiary-2.wqiFcGPARy8zmQfd]{Хезру} @Compendium[pf2e.pathfinder-bestiary.aqW5sp9HPgZgpXxs] получит уязвимость к чистоте, но также возможно, укус, Скорость плавания и ядовитые гнойники. При перекидывании умений между существами разных уровней не забудьте скорректировать числа в соответствии с новым уровнем.</p>\n<hr />\n<h2 class=\"Заг2\">Новички Бездны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя сейчас демоны являются самыми многочисленными <span style=\"text-decoration: underline; color: #a52a2a;\">исчадьями</span> Бездны, они являются относительными новичками, появившимися только когда смертное влияние, и в частности смертный грех, начали формировать этот план. На протяжении веков демоны боролись за господство с другими давними обитателями Бездны, но в конце концов их численность позволила стать доминирующими хаотичными бесами.</p>\n<hr />\n<h2 class=\"Заг2\">Демоны и Души</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Демоны, как и многие другие <span style=\"text-decoration: underline; color: #a52a2a;\">исчадья</span>, жаждут душ. По их мнению, главное предназначение этих душ - порождать новых демонов, которые могут служить солдатами, рабами, пешками или даже валютой для их более могущественных хозяев.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"oQ1wQPUo6g2iysB1": {
+					"name": "Челюсти (Зло)",
+					"description": ""
+				},
+				"wncZzBRw5mBr1I3b": {
+					"name": "Когти (Зло)",
+					"description": ""
+				},
+				"Lb8baU3vfeAtn1Nw": {
+					"name": "Съежиться",
+					"description": "<p class=\"Нарратив\">Дретч становится маленьким на сколько возможно, защищая конечностями свои жизненно важные органы.</p>\n<hr />\n<p>Он получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +4 к КБ, но штраф -2 к <span class=\"Атака\">броскам атак</span>. Это длится пока <span style=\"text-decoration: underline; color: #34495e;\">дретч</span> не сдвинется со своего текущего пространства, @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Потеряет Сознание} или закончит эффект <span class=\"Действие\"><span class=\"pf2-icon\">4</span>свободным действием</span>.</p>"
+				},
+				"h8caQJMnKj4F22zZ": {
+					"name": "Бешеные Удары",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Дретч</span> наносит 3 @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span>, каждый со штрафом -2, целясь ими в одно и то же существо.</p>\n<p><span style=\"color: #000080;\"><strong>Штраф Множест.Атаки</strong></span> <span style=\"text-decoration: underline; color: #34495e;\">дретча</span> не увеличивается пока он не закончит все 3 атаки.</p>\n<hr />\n<p>Дретч получает @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 2} до начала своего следующего хода.</p>"
+				},
+				"p6uToNU7wgFDgDDH": {
+					"name": "Лень",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #169179;\"><em>В начале каждого хода</em></span> <span style=\"text-decoration: underline; color: #34495e;\">дретча</span> кидайте [[1d4[Кол-во Действий]]]{1d4}. Результат является количеством действий, которое он восстанавливает на этот ход (максимум 3).</p>\n<hr />\n<p>Такие эффекты как состояние @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедления} могут и дальше снизить его количество действий.</p>"
+				},
+				"xdQJFj57QglkQXeG": {
+					"name": "Беспощадные Криты",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Дретч</span> пользуется любой найденной слабостью.</p>\n<hr />\n<p>Когда он наносит <span style=\"color: #2dc26b;\"><strong>крит.попадание</strong></span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span>, цель получает доп. @Localize[PF2E.PD.Bleed.1d6].</p>"
+				}
+			}
+		},
+		{
+			"id": "Duende",
+			"name": "Duende"
+		},
+		{
+			"id": "Dvorovoi",
+			"name": "Dvorovoi"
+		},
+		{
+			"id": "Dybbuk",
+			"name": "Dybbuk"
+		},
+		{
+			"id": "Earth Wisp",
+			"name": "Earth Wisp"
+		},
+		{
+			"id": "Einherji",
+			"name": "Einherji"
+		},
+		{
+			"id": "Elder Sphinx",
+			"name": "Elder Sphinx"
+		},
+		{
+			"id": "Elder Wyrmwraith",
+			"name": "Elder Wyrmwraith"
+		},
+		{
+			"id": "Elysian Titan",
+			"name": "Elysian Titan"
+		},
+		{
+			"id": "Empress Bore Worm",
+			"name": "Empress Bore Worm"
+		},
+		{
+			"id": "Empress Ice Worm",
+			"name": "Empress Ice Worm"
+		},
+		{
+			"id": "Empress Lava Worm",
+			"name": "Empress Lava Worm"
+		},
+		{
+			"id": "Empress Mage-Eater Worm",
+			"name": "Empress Mage-Eater Worm"
+		},
+		{
+			"id": "Empress Necral Worm",
+			"name": "Empress Necral Worm"
+		},
+		{
+			"id": "Esipil",
+			"name": "Esipil"
+		},
+		{
+			"id": "Etioling Blightmage",
+			"name": "Etioling Blightmage"
+		},
+		{
+			"id": "Eunemvro",
+			"name": "Eunemvro"
+		},
+		{
+			"id": "Fading Fox",
+			"name": "Fading Fox"
+		},
+		{
+			"id": "Feathered Bear",
+			"name": "Feathered Bear"
+		},
+		{
+			"id": "Feral Skull Swarm",
+			"name": "Feral Skull Swarm"
+		},
+		{
+			"id": "Festrog",
+			"name": "Festrog"
+		},
+		{
+			"id": "Fire Wisp",
+			"name": "Fire Wisp"
+		},
+		{
+			"id": "Flaming Skull",
+			"name": "Flaming Skull"
+		},
+		{
+			"id": "Flumph",
+			"name": "Flumph"
+		},
+		{
+			"id": "Fortune Eater",
+			"name": "Fortune Eater"
+		},
+		{
+			"id": "Fossil Golem",
+			"name": "Fossil Golem"
+		},
+		{
+			"id": "Fuath",
+			"name": "Fuath"
+		},
+		{
+			"id": "Galvo",
+			"name": "Galvo"
+		},
+		{
+			"id": "Ganzi Martial Artist",
+			"name": "Ganzi Martial Artist"
+		},
+		{
+			"id": "Garuda",
+			"name": "Garuda"
+		},
+		{
+			"id": "Gathlain Wanderer",
+			"name": "Gathlain Wanderer"
+		},
+		{
+			"id": "Ghoran Manipulator",
+			"name": "Ghoran Manipulator"
+		},
+		{
+			"id": "Giant Flying Squirrel",
+			"name": "Giant Flying Squirrel"
+		},
+		{
+			"id": "Giant Hermit Crab",
+			"name": "Giant Hermit Crab"
+		},
+		{
+			"id": "Giant Opossum",
+			"name": "Giant Opossum"
+		},
+		{
+			"id": "Giant Pangolin",
+			"name": "Giant Pangolin"
+		},
+		{
+			"id": "Giant Porcupine",
+			"name": "Giant Porcupine"
+		},
+		{
+			"id": "Giant Seahorse",
+			"name": "Giant Seahorse"
+		},
+		{
+			"id": "Giant Skunk",
+			"name": "Giant Skunk"
+		},
+		{
+			"id": "Giant Vulture",
+			"name": "Giant Vulture"
+		},
+		{
+			"id": "Girtablilu Seer",
+			"name": "Girtablilu Seer"
+		},
+		{
+			"id": "Girtablilu Sentry",
+			"name": "Girtablilu Sentry"
+		},
+		{
+			"id": "Gliminal",
+			"name": "Gliminal"
+		},
+		{
+			"id": "Globster",
+			"name": "Globster"
+		},
+		{
+			"id": "Green Man",
+			"name": "Green Man"
+		},
+		{
+			"id": "Grimple",
+			"name": "Grimple"
+		},
+		{
+			"id": "Grioth Cultist",
+			"name": "Grioth Cultist"
+		},
+		{
+			"id": "Grioth Scout",
+			"name": "Grioth Scout"
+		},
+		{
+			"id": "Guecubu",
+			"name": "Guecubu"
+		},
+		{
+			"id": "Gurgist Mauler",
+			"name": "Gurgist Mauler"
+		},
+		{
+			"id": "Hadrinnex",
+			"name": "Hadrinnex"
+		},
+		{
+			"id": "Haniver",
+			"name": "Haniver"
+		},
+		{
+			"id": "Harmona",
+			"name": "Harmona"
+		},
+		{
+			"id": "Harpy Skeleton",
+			"name": "Скелет Гарпии",
+			"tokenName": "Скелет Гарпии",
+			"description": "<h2 class=\"Заг2\">Скелет Гарпии</h2>\n<p>Песня живой гарпии убедительная и завораживающая; песня скелета гарпии лишь разрывает разум цели.</p>\n<hr />\n<h2 class=\"Заг2\">Скелет (Общее)</h2>\n<p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, встречающийся в старых подземельях и на забытых кладбищах. Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим <span style=\"text-decoration: underline; color: #a52a2a;\">скелетом</span>-<span style=\"text-decoration: underline; color: #a52a2a;\">нежитью</span>.</p>\n<hr />\n<h2 class=\"Заг2\">Нежизнь без Плоти</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Некромантические энергии, наполняющие ожившие скелеты-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, дают им возможность видеть без глаз и двигаться без мускулов. Несмотря на то, что скелеты <span style=\"text-decoration: underline; color: #a52a2a;\">неразумные</span>, инстинкт ко злу исходит из их порченной жизненной сущности, извращающей негативную энергию на созидание, а не на разрушение.</p>\n<hr />\n<h2 class=\"Заг2\">Подлатанные Скелеты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" />Связь скелета с его бренными останками непрочна. Поврежденный скелет может довольно легко заменить сломанную кость на аналогичную, взятую от другого существа. В конечном итоге, скелет может кость за костью заменить все свое тело. Скелеты не обладают особой индивидуальностью, поэтому неясно, остается ли он после этого тем же самым существом.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"P8K5a9sUjb1J99U0": {
+					"name": "Когти",
+					"description": ""
+				},
+				"befWMYmJQKeMMpzD": {
+					"name": "Дубинка (Метание)",
+					"description": ""
+				},
+				"SaNOrmVDvQGX5U1D": {
+					"name": "Визг",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Скелет гарпии</span> издает неземной, леденящий кровь крик, наносящий всем существам в @Template[type:cone|distance:30] [[/r 4d10[mental]]]{4d10 Ментал.}. Существо, <span style=\"color: #ba372a;\"><strong>провалившее </strong></span>свой <span class=\"КБ\">Спас.</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1} (@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2} при <span class=\"Критпровал\">Крит.Провал</span>).</p>\n<p class=\"Заг2\"><span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:26|basic:true|showDC:owner|traits:auditory,concentrate,emotion,fear,mental]{Пр.Воля}</strong></span></p>\n<hr />\n<p><span style=\"color: #000080;\"><strong>Перезарядка:</strong></span> [[/r 1d4[rounds]]]{1d4 раунда}<span data-visibility=\"gm\">[[1d4]]{ }</span></p>"
+				}
+			}
+		},
+		{
+			"id": "Hatred Siktempora",
+			"name": "Hatred Siktempora"
+		},
+		{
+			"id": "Hekatonkheires Titan",
+			"name": "Hekatonkheires Titan"
+		},
+		{
+			"id": "Hellbound Attorney",
+			"name": "Адский Адвокат",
+			"tokenName": "Адский Адвокат",
+			"description": "<h2 class=\"Заг2\">Адский Адвокат</h2>\n<p>Адский адвокат стремится оказывать помощь @Compendium[pf2e.pathfinder-bestiary.B8QjalVNcWjuqgG7]{Фистофилю} - одному из контрактных дьяволов Ада, чтобы усилить свои юридические способности на Материальном Плане.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявол (Общее)</h2>\n<p>Владыки развращения и архитекторы покорений, дьяволы стремятся к тому как соблазнить смертную жизнь присоединиться к их погоне за всем богохульным, так и распространять тиранию по всем мирах. Искушения, которые они предлагают смертным, варьируются от великих сил, дарованных подписанием адского контракта, до искаженных одолжений после прошептанного обещания дьявольскому покровителю или любого количества еще более утонченных обменов. Те, кто поддаются этим искушениям, оказываются обреченными на загробную жизнь бесконечных мучений в глубинах Ада, где единственная надежда на спасение заключается в шансе стать дьяволом в инфернальных рядах. Каждый дьявол, от солдат и ученых до инквизиторов, адвокатов, судей и палачей играет определенную роль в поддержании безжалостной бюрократической машины, которой и является Ад.</p>\n<p>Низшие @Compendium[pf2e.pathfinder-bestiary.zJro50sLFmOcDLdO]{Лемуры} и @Compendium[pf2e.pathfinder-bestiary.I4CpyMUsWfFYdpL5]{Импы}выполняют работу служащую целям более могущественных и специализированных дьяволов, таких как @Compendium[pf2e.pathfinder-bestiary.B8QjalVNcWjuqgG7]{Контрактные Дьяволы} и @Compendium[pf2e.pathfinder-bestiary.ETNlci6VnSthx5V6]{Эринии}, в то время как величайшие @Compendium[pf2e.pathfinder-bestiary.QT2gA8WMaT2cuXr7]{Исчадие Преисподней} командуют целыми адскими армиями.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявольские Божества</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Многие уникальные и могущественные дьяволы занимают в Аду властные позиции. Самыми многочисленными из них являются инфернальные герцоги, многие из которых были продвинуты на эту должность уже благодаря внушительному положению в роли @Compendium[pf2e.pathfinder-bestiary.QT2gA8WMaT2cuXr7]{Исчадие Преисподней}. Верховный правитель самого ада - @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодей}, Принц Тьмы. Между этими двумя ярусами правят 8 архидьяволов.</p>\n<hr />\n<h2 class=\"Заг2\">Архидьяволы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Единовременно, 8 архидьяволов правят восемью верхними слоями Ада, в то время как самый глубокий слой управляется @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодеем}. Каждый архидьявол - уникальный полубог, которому отведена особая роль в руководстве адской машиной. @Compendium[pf2e.deities.oiEo6tDP3gICHtfZ]{Барбатос} - привратник самого верхнего слоя Ада, в то время как @Compendium[pf2e.deities.CzHjFLx4hpIEIoWt]{Диспатер} правит самым большим городом Ада. @Compendium[pf2e.deities.sNjPI1iaS8Z43YJf]{Маммон} охраняет сокровищницы Ада, а @Compendium[pf2e.deities.remyY1BwhEVmBwya]{Белиал} разрабатывает новое оружие для легионов Ада. @Compendium[pf2e.deities.WOiSJ4IWjaRsSgRO]{Герион} - старейший архидьявол и хранитель многих тайн, в то время как @Compendium[pf2e.deities.g1VxllMjs2YRIJAm]{Молох} возглавляет армии Ада. @Compendium[pf2e.deities.9WD0hbUT0IbnuTiM]{Вельзевул} - угрюмый архидьявол, павший в немилость Асмодея, в то время как могущественный @Compendium[pf2e.deities.KWVdoAm3b01M8Lcp]{Мефистофель} был создан из самого плана Ада.</p>\n<hr />\n<h2 class=\"Заг2\">Королевы Ночи</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Четыре королевы ночи обладают огромной властью в Преисподней. @Compendium[pf2e.deities.uydTiyN5AzhBnQY8]{Ардад Лили} - заговорщица и манипулятор с амбициями править небесами, а @Compendium[pf2e.deities.AMFkYKUNQ3kCD0ob]{Долорас} наслаждается страданиями. Самой отдаленной является @Compendium[pf2e.deities.Af4TSJjutVi9Vdwi]{Махатхалла}, наблюдающая за судьбой и смертью. Самая могущественная среди них - @Compendium[pf2e.deities.aVyxfqY9GBjTqQul]{Эйсет}, которая собирает армию в Дисе в надежде захватить железный трон Мэлболджа.</p>\n<hr />\n<h2 class=\"Заг2\">Отношения между Исчадьями</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Дьяволы видят постоянную охоту за душами со стороны <span style=\"text-decoration: underline; color: #a52a2a;\">дэймонов</span> как недальновидную трату своего потенциала, а хаотическое разрушение общества и плоти совершаемые <span style=\"text-decoration: underline; color: #a52a2a;\">демонами</span> как нецивилизованное и отвратительное, но они не испытывают отвращения к своим бесовским собратьям. По правде, большинство дьяволов как только могут используют дэймонов и демонов, чтобы продвигать свои собственные махинации.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявольские Места</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Девять слоев ада - планарный дом всех дьяволов, и они предпочитают его окружение упорядоченное тиранией любому другому месту в мультивселенной. Однако с дьяволами можно встретиться везде, где смертные могут соблазниться адскими сделками или обратиться за дьявольской помощью. На Голарионе нация Челии особенно связана с Адом. Ее правительство основано на устройстве Ада, а государственная церковь - на церкви @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодея}.</p>\n<hr />\n<h2 class=\"Заг2\">Огонь и Лёд</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> В классическом представлении, Ад это пылающая пустошь магмы и вулканов, испепеляющий пейзаж, кишащий кричащими душами проклятых. Однако те, кто посетил Ад, знают ужасную правду - его мучения не заканчиваются вечным горением. Некоторые регионы Ада это вечные ледяные просторы с острым как бритва льдом и обдирающим плоть ветром, в то время как другие - едкие болота, наполненные ядом и болезнями. Ад не ограничивает свой набор пыточных инструментов только огнем, которым он так известен!</p>\n<hr />\n<h2 class=\"Заг2\">Иерархия Ада</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Ад это суровый план порядка, в которой почти нет места состраданию или эмпатии. Как таковой, он существует полностью в рамках строгой иерархии, и этот порядок также распространяется на его обитателей. В то время как различные виды <span style=\"text-decoration: underline; color: #a52a2a;\">демонов</span> соответствуют различным грехам, а <span style=\"text-decoration: underline; color: #a52a2a;\">дэймоны</span> ассоциируются с видами кончины смертных, различные виды <span style=\"text-decoration: underline; color: #a52a2a;\">дьяволов</span> существуют исключительно для того, чтобы выполнять определенные роли адской машины. В отдельных случаях конкретный дьявол может выйти за рамки той роли, для которой он буквально был сформирован, но при этом он часто физически преображается в вид, подходящий для его новой роли.</p>\n<hr />\n<h2 class=\"Заг2\">Адское Пламя</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/dice-twenty-faces-twenty.svg\" width=\"50\" height=\"50\" /> Смердящий, сернистый адский огонь пропитан злом. Адское пламя всегда наносит сочетание урона огнем и злом, однако конкретное соотношение зависит от происхождения адского пламени. Некоторые виды адского пламени могут накладывать на существ и другие эффекты, например, лишать их силы или памяти.</p>\n<hr />\n<h2 class=\"Заг2\">Адские Уста</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Хотя путешествие в Ад и обратно возможно с помощью @Compendium[pf2e.spells-srd.5bTt2CvYHPvaR7QQ], другой способ добраться туда, в инфернальные царства - с помощью адских уст, странных живых порталов, соединяющих разные слои или даже разные планы. Адские уста имеют форму гримасы, растянутой пасти или другого ужасающе органического отверстия, и не существует двух одинаковых. Большинство из них тщательно охраняются, но некоторые новые или хорошо спрятанные адские уста еще предстоит обнаружить.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"oRzzljhsCixNqf5j": {
+					"name": "Элегантная Трость"
+				},
+				"OflSSMFtOIlEpn58": {
+					"name": "Элегантная Трость"
+				},
+				"iwCc7o3EXz0xMRTD": {
+					"name": "Юридические Книги"
+				},
+				"1TjWSXYs7BlJtfxX": {
+					"name": "Начальное Заявление",
+					"description": "<div><span class=\"Триг\">Триггер</span>: Начинается ход <span style=\"text-decoration: underline; color: #34495e;\">Ад.Адвоката</span></div>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Адвокат</span> перечисляет предполагаемые преступления существа, которое он может видеть, и совершает проверку <span style=\"color: #b96ad9;\"><strong>Знания: Юрист</strong></span> против <span class=\"Воля\">КС Воли</span> этого существа. В случае <span class=\"Успех\">Успех</span>, до конца хода <span style=\"text-decoration: underline; color: #34495e;\">Адвоката</span>, его @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} наносят этому существу доп. [[/r 2d6[precision]]]{2d6 Точного} ([[/r 4d6[precision]]]{4d6 Точного} при <span class=\"Критуспех\">Крит.Успех</span>).</p>"
+				},
+				"55pDhEb6m82JCtfR": {
+					"name": "Аннулирование Последствий",
+					"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: <span style=\"text-decoration: underline; color: #34495e;\">Ад.Адвокат</span> при броске спасброска против <span style=\"text-decoration: underline; color: #a52a2a;\">языкового</span> эффекта получает <span class=\"Успех\">Успех</span> или <span class=\"Критпровал\">Крит.Провал</span></p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Адвокат</span> находит лазейку в формулировке эффекта, превращая <span class=\"Успех\">Успех</span> в <span class=\"Критуспех\">Крит.Успех</span>, либо <span class=\"Критпровал\">Крит.Провал</span> в обычный <span class=\"Провал\">Провал</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Hellknight Cavalry Brigade",
+			"name": "Hellknight Cavalry Brigade"
+		},
+		{
+			"id": "Hellwasp Swarm",
+			"name": "Hellwasp Swarm"
+		},
+		{
+			"id": "Herexen",
+			"name": "Herexen"
+		},
+		{
+			"id": "Hermit Crab Swarm",
+			"name": "Рой Раков-Отшельников",
+			"tokenName": "Рой Раков",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"RGJbS9RTIb1LL5uF": {
+					"name": "Надрезы Роя",
+					"description": "<p class=\"Нарратив\">Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Пираний</span> получает [[/r 2d8[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:owner|dc:20|traits:damaging-effect]{Пр.РФЛ}</span></p>\n<hr>\n<p>Существо, <span class=\"Провал\">провалившее</span> свой спасбросок, еще получает @Localize[PF2E.PD.Bleed.1d4]</p>"
+				}
+			}
+		},
+		{
+			"id": "Hesperid",
+			"name": "Hesperid"
+		},
+		{
+			"id": "Hesperid Queen",
+			"name": "Hesperid Queen"
+		},
+		{
+			"id": "Hieracosphinx",
+			"name": "Hieracosphinx"
+		},
+		{
+			"id": "House Drake",
+			"name": "House Drake"
+		},
+		{
+			"id": "Huldra",
+			"name": "Huldra"
+		},
+		{
+			"id": "Hyakume",
+			"name": "Hyakume"
+		},
+		{
+			"id": "Ice Worm Swarm",
+			"name": "Ice Worm Swarm"
+		},
+		{
+			"id": "Incutilis",
+			"name": "Incutilis"
+		},
+		{
+			"id": "Ioton",
+			"name": "Ioton"
+		},
+		{
+			"id": "Ittan-momen",
+			"name": "Ittan-momen"
+		},
+		{
+			"id": "Japalisura",
+			"name": "Japalisura"
+		},
+		{
+			"id": "Jorogumo",
+			"name": "Jorogumo"
+		},
+		{
+			"id": "Kangaroo",
+			"name": "Kangaroo"
+		},
+		{
+			"id": "Kappa",
+			"name": "Kappa"
+		},
+		{
+			"id": "Kasa-obake",
+			"name": "Kasa-obake"
+		},
+		{
+			"id": "Khravgodon",
+			"name": "Khravgodon"
+		},
+		{
+			"id": "Kimenhul",
+			"name": "Kimenhul"
+		},
+		{
+			"id": "Kirin",
+			"name": "Kirin"
+		},
+		{
+			"id": "Kishi",
+			"name": "Kishi"
+		},
+		{
+			"id": "Kitsune Trickster",
+			"name": "Kitsune Trickster"
+		},
+		{
+			"id": "Kodama",
+			"name": "Kodama"
+		},
+		{
+			"id": "Kokogiak",
+			"name": "Kokogiak"
+		},
+		{
+			"id": "Kongamato",
+			"name": "Kongamato"
+		},
+		{
+			"id": "Kovintus Geomancer",
+			"name": "Kovintus Geomancer"
+		},
+		{
+			"id": "Krampus",
+			"name": "Krampus"
+		},
+		{
+			"id": "Kuchisake-Onna",
+			"name": "Kuchisake-Onna"
+		},
+		{
+			"id": "Kurobozu",
+			"name": "Kurobozu"
+		},
+		{
+			"id": "Kushtaka",
+			"name": "Kushtaka"
+		},
+		{
+			"id": "Lampad",
+			"name": "Lampad"
+		},
+		{
+			"id": "Lampad Queen",
+			"name": "Lampad Queen"
+		},
+		{
+			"id": "Lava Worm Swarm",
+			"name": "Lava Worm Swarm"
+		},
+		{
+			"id": "Ledalusca",
+			"name": "Ledalusca"
+		},
+		{
+			"id": "Leng Ghoul",
+			"name": "Leng Ghoul"
+		},
+		{
+			"id": "Levaloch",
+			"name": "Левалох, Дьявол Разжигатель Войны",
+			"tokenName": "Левалох",
+			"description": "<h2 class=\"Заг2\">Левалох</h2>\n<p>Пугающие гиганты из зазубренного железа, левалохи служат в армиях Ада как могущественные воины и упорные охотники - существа абсолютной дисциплины, бесконечно повинующиеся дьявольским тиранам..</p>\n<hr />\n<h2 class=\"Заг2\">Адские Конструкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Левалохи - странные слияния дьяволов и автоматонов, никогда не нуждающиеся в пище либо отдыхе. Гравировка на их железных пластинах указывает на их адскую преданность определенному архидьяволу, инфернальному герцогу, мэльбраншу или Королеве Ночи.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявол (Общее)</h2>\n<p>Владыки развращения и архитекторы покорений, дьяволы стремятся к тому как соблазнить смертную жизнь присоединиться к их погоне за всем богохульным, так и распространять тиранию по всем мирах. Искушения, которые они предлагают смертным, варьируются от великих сил, дарованных подписанием адского контракта, до искаженных одолжений после прошептанного обещания дьявольскому покровителю или любого количества еще более утонченных обменов. Те, кто поддаются этим искушениям, оказываются обреченными на загробную жизнь бесконечных мучений в глубинах Ада, где единственная надежда на спасение заключается в шансе стать дьяволом в инфернальных рядах. Каждый дьявол, от солдат и ученых до инквизиторов, адвокатов, судей и палачей играет определенную роль в поддержании безжалостной бюрократической машины, которой и является Ад.</p>\n<p>Низшие @Compendium[pf2e.pathfinder-bestiary.zJro50sLFmOcDLdO]{Лемуры} и @Compendium[pf2e.pathfinder-bestiary.I4CpyMUsWfFYdpL5]{Импы}выполняют работу служащую целям более могущественных и специализированных дьяволов, таких как @Compendium[pf2e.pathfinder-bestiary.B8QjalVNcWjuqgG7]{Контрактные Дьяволы} и @Compendium[pf2e.pathfinder-bestiary.ETNlci6VnSthx5V6]{Эринии}, в то время как величайшие @Compendium[pf2e.pathfinder-bestiary.QT2gA8WMaT2cuXr7]{Исчадие Преисподней} командуют целыми адскими армиями.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявольские Божества</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Многие уникальные и могущественные дьяволы занимают в Аду властные позиции. Самыми многочисленными из них являются инфернальные герцоги, многие из которых были продвинуты на эту должность уже благодаря внушительному положению в роли @Compendium[pf2e.pathfinder-bestiary.QT2gA8WMaT2cuXr7]{Исчадие Преисподней}. Верховный правитель самого ада - @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодей}, Принц Тьмы. Между этими двумя ярусами правят 8 архидьяволов.</p>\n<hr />\n<h2 class=\"Заг2\">Архидьяволы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Единовременно, 8 архидьяволов правят восемью верхними слоями Ада, в то время как самый глубокий слой управляется @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодеем}. Каждый архидьявол - уникальный полубог, которому отведена особая роль в руководстве адской машиной. @Compendium[pf2e.deities.oiEo6tDP3gICHtfZ]{Барбатос} - привратник самого верхнего слоя Ада, в то время как @Compendium[pf2e.deities.CzHjFLx4hpIEIoWt]{Диспатер} правит самым большим городом Ада. @Compendium[pf2e.deities.sNjPI1iaS8Z43YJf]{Маммон} охраняет сокровищницы Ада, а @Compendium[pf2e.deities.remyY1BwhEVmBwya]{Белиал} разрабатывает новое оружие для легионов Ада. @Compendium[pf2e.deities.WOiSJ4IWjaRsSgRO]{Герион} - старейший архидьявол и хранитель многих тайн, в то время как @Compendium[pf2e.deities.g1VxllMjs2YRIJAm]{Молох} возглавляет армии Ада. @Compendium[pf2e.deities.9WD0hbUT0IbnuTiM]{Вельзевул} - угрюмый архидьявол, павший в немилость Асмодея, в то время как могущественный @Compendium[pf2e.deities.KWVdoAm3b01M8Lcp]{Мефистофель} был создан из самого плана Ада.</p>\n<hr />\n<h2 class=\"Заг2\">Королевы Ночи</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Четыре королевы ночи обладают огромной властью в Преисподней. @Compendium[pf2e.deities.uydTiyN5AzhBnQY8]{Ардад Лили} - заговорщица и манипулятор с амбициями править небесами, а @Compendium[pf2e.deities.AMFkYKUNQ3kCD0ob]{Долорас} наслаждается страданиями. Самой отдаленной является @Compendium[pf2e.deities.Af4TSJjutVi9Vdwi]{Махатхалла}, наблюдающая за судьбой и смертью. Самая могущественная среди них - @Compendium[pf2e.deities.aVyxfqY9GBjTqQul]{Эйсет}, которая собирает армию в Дисе в надежде захватить железный трон Мэлболджа.</p>\n<hr />\n<h2 class=\"Заг2\">Отношения между Исчадьями</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Дьяволы видят постоянную охоту за душами со стороны <span style=\"text-decoration: underline; color: #a52a2a;\">дэймонов</span> как недальновидную трату своего потенциала, а хаотическое разрушение общества и плоти совершаемые <span style=\"text-decoration: underline; color: #a52a2a;\">демонами</span> как нецивилизованное и отвратительное, но они не испытывают отвращения к своим бесовским собратьям. По правде, большинство дьяволов как только могут используют дэймонов и демонов, чтобы продвигать свои собственные махинации.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявольские Места</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Девять слоев ада - планарный дом всех дьяволов, и они предпочитают его окружение упорядоченное тиранией любому другому месту в мультивселенной. Однако с дьяволами можно встретиться везде, где смертные могут соблазниться адскими сделками или обратиться за дьявольской помощью. На Голарионе нация Челии особенно связана с Адом. Ее правительство основано на устройстве Ада, а государственная церковь - на церкви @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодея}.</p>\n<hr />\n<h2 class=\"Заг2\">Огонь и Лёд</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> В классическом представлении, Ад это пылающая пустошь магмы и вулканов, испепеляющий пейзаж, кишащий кричащими душами проклятых. Однако те, кто посетил Ад, знают ужасную правду - его мучения не заканчиваются вечным горением. Некоторые регионы Ада это вечные ледяные просторы с острым как бритва льдом и обдирающим плоть ветром, в то время как другие - едкие болота, наполненные ядом и болезнями. Ад не ограничивает свой набор пыточных инструментов только огнем, которым он так известен!</p>\n<hr />\n<h2 class=\"Заг2\">Иерархия Ада</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Ад это суровый план порядка, в которой почти нет места состраданию или эмпатии. Как таковой, он существует полностью в рамках строгой иерархии, и этот порядок также распространяется на его обитателей. В то время как различные виды <span style=\"text-decoration: underline; color: #a52a2a;\">демонов</span> соответствуют различным грехам, а <span style=\"text-decoration: underline; color: #a52a2a;\">дэймоны</span> ассоциируются с видами кончины смертных, различные виды <span style=\"text-decoration: underline; color: #a52a2a;\">дьяволов</span> существуют исключительно для того, чтобы выполнять определенные роли адской машины. В отдельных случаях конкретный дьявол может выйти за рамки той роли, для которой он буквально был сформирован, но при этом он часто физически преображается в вид, подходящий для его новой роли.</p>\n<hr />\n<h2 class=\"Заг2\">Адское Пламя</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/dice-twenty-faces-twenty.svg\" width=\"50\" height=\"50\" /> Смердящий, сернистый адский огонь пропитан злом. Адское пламя всегда наносит сочетание урона огнем и злом, однако конкретное соотношение зависит от происхождения адского пламени. Некоторые виды адского пламени могут накладывать на существ и другие эффекты, например, лишать их силы или памяти.</p>\n<hr />\n<h2 class=\"Заг2\">Адские Уста</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Хотя путешествие в Ад и обратно возможно с помощью @Compendium[pf2e.spells-srd.5bTt2CvYHPvaR7QQ], другой способ добраться туда, в инфернальные царства - с помощью адских уст, странных живых порталов, соединяющих разные слои или даже разные планы. Адские уста имеют форму гримасы, растянутой пасти или другого ужасающе органического отверстия, и не существует двух одинаковых. Большинство из них тщательно охраняются, но некоторые новые или хорошо спрятанные адские уста еще предстоит обнаружить.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"xGpHtG4FKoXUAvFz": {
+					"name": "Трезубец (Зло, Выпад)",
+					"description": ""
+				},
+				"a8Oke93EjcLb3CyD": {
+					"name": "Трезубец (Метание, Зло)",
+					"description": ""
+				},
+				"5mZBnyI8jN8hRDpC": {
+					"name": "Колючая Сеть (Ловушка)",
+					"description": ""
+				},
+				"X5bjxwBhWpEDkFUA": {
+					"name": "Ковка Оружия",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Левалох</span> перековывает часть субстанции своего колючего железа в новый @Compendium[pf2e.equipment-srd.DxCuJKynlnMQZHgp]{Разящий} @Compendium[pf2e.equipment-srd.FJrsDoaIXksVjld9]{Трезубец} @Compendium[pf2e.equipment-srd.DKWuJb2rSgiotOG7]{+1} или <span style=\"text-decoration: underline; color: #34495e;\">колючую сеть</span>.</p>\n<hr />\n<p>Его предыдущий <span style=\"text-decoration: underline; color: #34495e;\">трезубец</span> распадается в виде ржавчины. Когда <span style=\"text-decoration: underline; color: #34495e;\">левалох</span> уничтожен, любые созданные им <span style=\"text-decoration: underline; color: #34495e;\">трезубцы</span> или <span style=\"text-decoration: underline; color: #34495e;\">колючие сети</span> рассыпаются ржавчиной.</p>"
+				},
+				"cQMEu0nbq6cPn2sD": {
+					"name": "Адская Поступь",
+					"description": "<p class=\"Нарратив\">Левалох игнорирует эффекты <span class=\"НЕ\">не</span><span style=\"text-decoration: underline; color: #a52a2a;\">магической</span> <span style=\"text-decoration: underline; color: #34495e;\">сложной местности</span>. Он не получает урона от @Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{Чеснока} или от вредящей местности наносящей <span style=\"text-decoration: underline; color: #a52a2a;\">физический</span> урон, либо урон <span class=\"Урон\">кислотой</span> или <span style=\"text-decoration: underline; color: #a52a2a;\">холодом</span>.</p>\n<p><span style=\"text-decoration: underline; color: #34495e;\">Левалох</span> может двигаться через жидкости глубиной вплоть до 5ФТ со своей полной <span style=\"text-decoration: underline; color: #169179;\">Скоростью</span>.</p>"
+				},
+				"u3ndMdQRfiAH7Z7J": {
+					"name": "Строевой Боец",
+					"description": "<p class=\"Нарратив\">Все <span style=\"text-decoration: underline; color: #a52a2a;\">дьяволы</span> меньше или равные <span class=\"Класс\">Уровню</span> <span style=\"text-decoration: underline; color: #34495e;\">левалоха</span>, находящиеся рядом с ним, <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.KjWPSJonzrZ8jv7X]{Получают} бонус <span class=\"Обстоятельства\">Обстоятельства</span> +1 к своему КБ, так как <span style=\"text-decoration: underline; color: #34495e;\">левалох</span> защищает их от вреда.</p>"
+				},
+				"rXrJgVzgOwMP7Cbr": {
+					"name": "Устойчивое Положение",
+					"description": "<p class=\"Нарратив\">Левалох получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +2 к своему <span class=\"КБ\">КС <span class=\"СТК\">СТК</span></span> против @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731] и к другим спасброскам, чтобы сопротивляться <span style=\"text-decoration: underline; color: #a52a2a;\">перемещению</span> против его воли.</p>"
+				},
+				"T6ZAqc1mMzmpUCtm": {
+					"name": "Колючая Сеть",
+					"description": "<p class=\"Нарратив\">Когда <span style=\"text-decoration: underline; color: #34495e;\">левалох</span> поражает существо своей <span style=\"text-decoration: underline; color: #34495e;\">колючей сетью</span>, она обвивается вокруг цели, которая становится @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжей 1} и <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.HafP5vrdGdoqoFMo]{Получает} штраф <span class=\"Обстоятельства\">Обстоятельства</span> -10ФТ к <span style=\"Скор\">Скоростям</span>.</p>\n<p>Если этот @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} был <span style=\"color: #2dc26b;\"><strong>крит.успешным</strong></span>, цель еще @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижена}. Когда существо @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырвается}<span data-visibility=\"gm\">КС22</span>. Каждый раз, когда существо пытается @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9], оно получает [[/r 1d6[slashing]]]{1d6 Рубящего} от шипов сети, вне зависимости от успеха попытки.</p>\n<hr />\n<p>Если @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"color: #ba372a;\"><strong>промахивается</strong></span>, то <span style=\"text-decoration: underline; color: #34495e;\">сеть</span> рассыпается ржавчиной</p>"
+				},
+				"sX0MwC23Mvp1YeD2": {
+					"name": "Безжалостный Выпад",
+					"description": "<p class=\"Нарратив\">Когда <span style=\"text-decoration: underline; color: #34495e;\">левалох</span> <span style=\"color: #169179;\"><strong>попадает </strong></span>в ближнем бою @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">трезубца</span>, по существу с состоянием @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен}, @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть}, @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаем}, то этот @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} наносит доп. [[/r 2d6]]{2d6 Урона}.</p>"
+				}
+			}
+		},
+		{
+			"id": "Lifeleecher Brawler",
+			"name": "Lifeleecher Brawler"
+		},
+		{
+			"id": "Living Rune (Arcane)",
+			"name": "Living Rune (Arcane)"
+		},
+		{
+			"id": "Living Rune (Divine)",
+			"name": "Living Rune (Divine)"
+		},
+		{
+			"id": "Living Rune (Occult)",
+			"name": "Living Rune (Occult)"
+		},
+		{
+			"id": "Living Rune (Primal)",
+			"name": "Living Rune (Primal)"
+		},
+		{
+			"id": "Locathah Hunter",
+			"name": "Locathah Hunter"
+		},
+		{
+			"id": "Love Siktempora",
+			"name": "Love Siktempora"
+		},
+		{
+			"id": "Lovelorn",
+			"name": "Lovelorn"
+		},
+		{
+			"id": "Maftet Guardian",
+			"name": "Maftet Guardian"
+		},
+		{
+			"id": "Mage-Eater Worm Swarm",
+			"name": "Mage-Eater Worm Swarm"
+		},
+		{
+			"id": "Maharaja",
+			"name": "Maharaja"
+		},
+		{
+			"id": "Manticore Paaridar",
+			"name": "Manticore Paaridar"
+		},
+		{
+			"id": "Megalictis",
+			"name": "Megalictis"
+		},
+		{
+			"id": "Megatherium",
+			"name": "Megatherium"
+		},
+		{
+			"id": "Melixie",
+			"name": "Melixie"
+		},
+		{
+			"id": "Mezlan",
+			"name": "Mezlan"
+		},
+		{
+			"id": "Mi-Go",
+			"name": "Mi-Go"
+		},
+		{
+			"id": "Millindemalion",
+			"name": "Millindemalion"
+		},
+		{
+			"id": "Misery Siktempora",
+			"name": "Misery Siktempora"
+		},
+		{
+			"id": "Mithral Golem",
+			"name": "Mithral Golem"
+		},
+		{
+			"id": "Mix Couatl",
+			"name": "Mix Couatl"
+		},
+		{
+			"id": "Mobogo",
+			"name": "Mobogo"
+		},
+		{
+			"id": "Mokele-mbembe",
+			"name": "Mokele-mbembe"
+		},
+		{
+			"id": "Monkey",
+			"name": "Monkey"
+		},
+		{
+			"id": "Monkey Swarm",
+			"name": "Рой Обезьянок",
+			"tokenName": "Рой Обезьянок",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Z6FPbe7j4A4d8s6s": {
+					"name": "Укусы Роя",
+					"description": "<p class=\"Нарратив\">Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Обезьянок</span> получает [[/r 1d8[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:gm|dc:18|basic:true]{Пр.РФЛ}</span></p>"
+				},
+				"TwivoTQWKF6KVynb": {
+					"name": "Обшмонать",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Рой Обезьянок</span> копается в вещах одного существа в пределах своего <span class=\"Атака\">пространства</span>, пытаясь совершить проверку <span class=\"РФЛ\">@Check[type:thievery]</span> против <span class=\"РФЛ\">КС РФЛ</span> этого существа.</p>\n<p>При <span class=\"Успех\">успехе</span>, <span class=\"Повтор\">Рой Обезьянок</span> берут один случайный предмет <span class=\"Масса\">незначительной Массы</span>, который существо носит <span class=\"Атака\">надетым</span>, но не охраняет достаточно тщательно, как например, объект в свободно переносимой сумке.</p>"
+				},
+				"2rRPRh9T9ed91v7l": {
+					"name": "Какофония",
+					"description": "<p class=\"Нарратив\">@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]: @Template[type:emanation|distance:20]{20}</p>\n<hr>\n<p class=\"Нарратив\">Ужасный шум от визга и воя обезьян заглушает другие звуки.</p>\n<p>Любое существо, выполняющее в этой области <span class=\"Признак2\"><span class=\"Признак1\">слуховое</span></span> <span class=\"Действие\">действие</span> должно перекричать этот шум, для чего требуется успешный <span class=\"СТК\">Спас.@Check[type:fortitude|dc:15|showDC:gm]{СТК}</span> или проверка <span class=\"ХАР\">@Check[type:performance|dc:15|showDC:gm]</span>, чтобы прокричать достаточно громко; при <span class=\"Провал\">провале</span>, <span class=\"Действие\">действие</span> <span class=\"Критпровал\">теряется</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Moon Hag",
+			"name": "Moon Hag"
+		},
+		{
+			"id": "Moose",
+			"name": "Moose"
+		},
+		{
+			"id": "Mothman",
+			"name": "Mothman"
+		},
+		{
+			"id": "Munagola",
+			"name": "Мунагола, Дьявол-Палач",
+			"tokenName": "Мунагола",
+			"description": "<h2 class=\"Заг2\">Мунагола</h2>\n<p>Мунаголы одни из самых страшных демонических воинов в Аду, сочетающие в себе воздушную силу и хитрость эриний с чистой грубой силой, способной посоперничать с сильнейшими дьяволами.</p>\n<hr />\n<h2 class=\"Заг2\">Вопреки Ограничениям</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя Дис это город непреклонного порядка и неумолимого закона, Королева Ночи @Compendium[pf2e.deities.aVyxfqY9GBjTqQul]{Эйсет} действует вне установленной дьявольской иерархии. Несмотря на то, что ее цитадель находится в Инфернальном Городе, ее армия эриний, которой командуют свирепые и жестокие мунаголы, подчиняется только ей. Они безжалостно и безудержно разят ее врагов, даже открыто бросая вызов Диспатеру, если это угодно их королеве.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявол (Общее)</h2>\n<p>Владыки развращения и архитекторы покорений, дьяволы стремятся к тому как соблазнить смертную жизнь присоединиться к их погоне за всем богохульным, так и распространять тиранию по всем мирах. Искушения, которые они предлагают смертным, варьируются от великих сил, дарованных подписанием адского контракта, до искаженных одолжений после прошептанного обещания дьявольскому покровителю или любого количества еще более утонченных обменов. Те, кто поддаются этим искушениям, оказываются обреченными на загробную жизнь бесконечных мучений в глубинах Ада, где единственная надежда на спасение заключается в шансе стать дьяволом в инфернальных рядах. Каждый дьявол, от солдат и ученых до инквизиторов, адвокатов, судей и палачей играет определенную роль в поддержании безжалостной бюрократической машины, которой и является Ад.</p>\n<p>Низшие @Compendium[pf2e.pathfinder-bestiary.zJro50sLFmOcDLdO]{Лемуры} и @Compendium[pf2e.pathfinder-bestiary.I4CpyMUsWfFYdpL5]{Импы}выполняют работу служащую целям более могущественных и специализированных дьяволов, таких как @Compendium[pf2e.pathfinder-bestiary.B8QjalVNcWjuqgG7]{Контрактные Дьяволы} и @Compendium[pf2e.pathfinder-bestiary.ETNlci6VnSthx5V6]{Эринии}, в то время как величайшие @Compendium[pf2e.pathfinder-bestiary.QT2gA8WMaT2cuXr7]{Исчадие Преисподней} командуют целыми адскими армиями.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявольские Божества</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Многие уникальные и могущественные дьяволы занимают в Аду властные позиции. Самыми многочисленными из них являются инфернальные герцоги, многие из которых были продвинуты на эту должность уже благодаря внушительному положению в роли @Compendium[pf2e.pathfinder-bestiary.QT2gA8WMaT2cuXr7]{Исчадие Преисподней}. Верховный правитель самого ада - @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодей}, Принц Тьмы. Между этими двумя ярусами правят 8 архидьяволов.</p>\n<hr />\n<h2 class=\"Заг2\">Архидьяволы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Единовременно, 8 архидьяволов правят восемью верхними слоями Ада, в то время как самый глубокий слой управляется @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодеем}. Каждый архидьявол - уникальный полубог, которому отведена особая роль в руководстве адской машиной. @Compendium[pf2e.deities.oiEo6tDP3gICHtfZ]{Барбатос} - привратник самого верхнего слоя Ада, в то время как @Compendium[pf2e.deities.CzHjFLx4hpIEIoWt]{Диспатер} правит самым большим городом Ада. @Compendium[pf2e.deities.sNjPI1iaS8Z43YJf]{Маммон} охраняет сокровищницы Ада, а @Compendium[pf2e.deities.remyY1BwhEVmBwya]{Белиал} разрабатывает новое оружие для легионов Ада. @Compendium[pf2e.deities.WOiSJ4IWjaRsSgRO]{Герион} - старейший архидьявол и хранитель многих тайн, в то время как @Compendium[pf2e.deities.g1VxllMjs2YRIJAm]{Молох} возглавляет армии Ада. @Compendium[pf2e.deities.9WD0hbUT0IbnuTiM]{Вельзевул} - угрюмый архидьявол, павший в немилость Асмодея, в то время как могущественный @Compendium[pf2e.deities.KWVdoAm3b01M8Lcp]{Мефистофель} был создан из самого плана Ада.</p>\n<hr />\n<h2 class=\"Заг2\">Королевы Ночи</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Четыре королевы ночи обладают огромной властью в Преисподней. @Compendium[pf2e.deities.uydTiyN5AzhBnQY8]{Ардад Лили} - заговорщица и манипулятор с амбициями править небесами, а @Compendium[pf2e.deities.AMFkYKUNQ3kCD0ob]{Долорас} наслаждается страданиями. Самой отдаленной является @Compendium[pf2e.deities.Af4TSJjutVi9Vdwi]{Махатхалла}, наблюдающая за судьбой и смертью. Самая могущественная среди них - @Compendium[pf2e.deities.aVyxfqY9GBjTqQul]{Эйсет}, которая собирает армию в Дисе в надежде захватить железный трон Мэлболджа.</p>\n<hr />\n<h2 class=\"Заг2\">Отношения между Исчадьями</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Дьяволы видят постоянную охоту за душами со стороны <span style=\"text-decoration: underline; color: #a52a2a;\">дэймонов</span> как недальновидную трату своего потенциала, а хаотическое разрушение общества и плоти совершаемые <span style=\"text-decoration: underline; color: #a52a2a;\">демонами</span> как нецивилизованное и отвратительное, но они не испытывают отвращения к своим бесовским собратьям. По правде, большинство дьяволов как только могут используют дэймонов и демонов, чтобы продвигать свои собственные махинации.</p>\n<hr />\n<h2 class=\"Заг2\">Дьявольские Места</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Девять слоев ада - планарный дом всех дьяволов, и они предпочитают его окружение упорядоченное тиранией любому другому месту в мультивселенной. Однако с дьяволами можно встретиться везде, где смертные могут соблазниться адскими сделками или обратиться за дьявольской помощью. На Голарионе нация Челии особенно связана с Адом. Ее правительство основано на устройстве Ада, а государственная церковь - на церкви @Compendium[pf2e.deities.QRkcFciCOmFoxF1B]{Асмодея}.</p>\n<hr />\n<h2 class=\"Заг2\">Огонь и Лёд</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> В классическом представлении, Ад это пылающая пустошь магмы и вулканов, испепеляющий пейзаж, кишащий кричащими душами проклятых. Однако те, кто посетил Ад, знают ужасную правду - его мучения не заканчиваются вечным горением. Некоторые регионы Ада это вечные ледяные просторы с острым как бритва льдом и обдирающим плоть ветром, в то время как другие - едкие болота, наполненные ядом и болезнями. Ад не ограничивает свой набор пыточных инструментов только огнем, которым он так известен!</p>\n<hr />\n<h2 class=\"Заг2\">Иерархия Ада</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Ад это суровый план порядка, в которой почти нет места состраданию или эмпатии. Как таковой, он существует полностью в рамках строгой иерархии, и этот порядок также распространяется на его обитателей. В то время как различные виды <span style=\"text-decoration: underline; color: #a52a2a;\">демонов</span> соответствуют различным грехам, а <span style=\"text-decoration: underline; color: #a52a2a;\">дэймоны</span> ассоциируются с видами кончины смертных, различные виды <span style=\"text-decoration: underline; color: #a52a2a;\">дьяволов</span> существуют исключительно для того, чтобы выполнять определенные роли адской машины. В отдельных случаях конкретный дьявол может выйти за рамки той роли, для которой он буквально был сформирован, но при этом он часто физически преображается в вид, подходящий для его новой роли.</p>\n<hr />\n<h2 class=\"Заг2\">Адское Пламя</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/dice-twenty-faces-twenty.svg\" width=\"50\" height=\"50\" /> Смердящий, сернистый адский огонь пропитан злом. Адское пламя всегда наносит сочетание урона огнем и злом, однако конкретное соотношение зависит от происхождения адского пламени. Некоторые виды адского пламени могут накладывать на существ и другие эффекты, например, лишать их силы или памяти.</p>\n<hr />\n<h2 class=\"Заг2\">Адские Уста</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Хотя путешествие в Ад и обратно возможно с помощью @Compendium[pf2e.spells-srd.5bTt2CvYHPvaR7QQ], другой способ добраться туда, в инфернальные царства - с помощью адских уст, странных живых порталов, соединяющих разные слои или даже разные планы. Адские уста имеют форму гримасы, растянутой пасти или другого ужасающе органического отверстия, и не существует двух одинаковых. Большинство из них тщательно охраняются, но некоторые новые или хорошо спрятанные адские уста еще предстоит обнаружить.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"KkkIZP8XxpPJcECa": {
+					"name": "Двуруч.Топор (Зло, Огонь)",
+					"description": ""
+				},
+				"1CAm301u2swnFr8b": {
+					"name": "Рога (Зло)",
+					"description": ""
+				},
+				"UjrUewvwpknHeqGz": {
+					"name": "Композ.Дл.Лук (Зло, Огонь)",
+					"description": ""
+				},
+				"88a6l4wOhZKuqey0": {
+					"name": "Воздушный Командир Диса",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Мунагола</span> руководит воздушными маневрами, давая себе и <span style=\"text-decoration: underline; color: #a52a2a;\">злым</span> союзникам со <span style=\"text-decoration: underline; color: #169179;\">Скоростью полета</span> бонус <span class=\"Состояния\">Состояния</span> +20ФТ к их <span style=\"Скор\">Скоростям</span> полета <span class=\"До\">на 1 раунд</span>.</p>"
+				},
+				"6XahuYsNr6LHrkAs": {
+					"name": "Внезапное Пикирование",
+					"description": "<p class=\"Нарратив\">Мунагола @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летит} дважды. Если она заканчивает свой полет на более низкой высоте чем начала, и в пределах <span style=\"text-decoration: underline; color: #000080;\">досягаемости</span> ближнего боя до хотя бы 1 врага, она может нанести по этому врагу @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR] ближнего боя, получая к этому <span style=\"text-decoration: underline; color: #34495e;\">Удару</span> бонус <span class=\"Обстоятельства\">Обстоятельства</span> +1.</p>"
+				},
+				"H6bcCPSTnAt5zBu8": {
+					"name": "Убивающее Нападение",
+					"description": "<p class=\"Нарратив\">Когда <span style=\"text-decoration: underline; color: #34495e;\">мунагола</span> <span style=\"color: #169179;\"><strong>попадает</strong></span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} ближнего боя, она <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span> получает @Compendium[pf2e.bestiary-ability-glossary-srd.LbnsT8yXchHMQT3t] для всех последующих @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударов} ближнего боя против этой цели.</p>"
+				},
+				"rmrUx8mVzDx7W96E": {
+					"name": "Пламя Ярости",
+					"description": "<p class=\"Нарратив\">Любое оружие, которое держит <span style=\"text-decoration: underline; color: #34495e;\">мунагола</span>, получает эффекты @Compendium[pf2e.equipment-srd.XszNvxnymWYRaoTp] пока она его держит.</p>"
+				}
+			}
+		},
+		{
+			"id": "Munavri Spellblade",
+			"name": "Munavri Spellblade"
+		},
+		{
+			"id": "Myceloid",
+			"name": "Myceloid"
+		},
+		{
+			"id": "Nagaji Soldier",
+			"name": "Nagaji Soldier"
+		},
+		{
+			"id": "Namorrodor",
+			"name": "Namorrodor"
+		},
+		{
+			"id": "Narwhal",
+			"name": "Narwhal"
+		},
+		{
+			"id": "Necral Worm Swarm",
+			"name": "Necral Worm Swarm"
+		},
+		{
+			"id": "Nemhaith",
+			"name": "Nemhaith"
+		},
+		{
+			"id": "Nightgaunt",
+			"name": "Nightgaunt"
+		},
+		{
+			"id": "Nightmarchers",
+			"name": "Nightmarchers"
+		},
+		{
+			"id": "Nikaramsa",
+			"name": "Nikaramsa"
+		},
+		{
+			"id": "Nosferatu Malefactor",
+			"name": "Nosferatu Malefactor"
+		},
+		{
+			"id": "Nosferatu Overlord",
+			"name": "Nosferatu Overlord"
+		},
+		{
+			"id": "Nosferatu Thrall",
+			"name": "Nosferatu Thrall"
+		},
+		{
+			"id": "Nucol",
+			"name": "Nucol"
+		},
+		{
+			"id": "Nyktera",
+			"name": "Nyktera"
+		},
+		{
+			"id": "Oil Living Graffiti",
+			"name": "Oil Living Graffiti"
+		},
+		{
+			"id": "Omox",
+			"name": "Омокс, Демон Слизи",
+			"tokenName": "Омокс",
+			"description": "",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"111": {
+					"name": "11",
+					"description": ""
+				},
+				"222": {
+					"name": "22",
+					"description": ""
+				},
+				"333": {
+					"name": "11",
+					"description": ""
+				},
+				"444": {
+					"name": "22",
+					"description": ""
+				},
+				"555": {
+					"name": "11",
+					"description": ""
+				},
+				"666": {
+					"name": "22",
+					"description": ""
+				},
+				"777": {
+					"name": "11",
+					"description": ""
+				},
+				"888": {
+					"name": "22",
+					"description": ""
+				}
+			}
+		},
+		{
+			"id": "Ostovite",
+			"name": "Ostovite"
+		},
+		{
+			"id": "Ouroboros",
+			"name": "Ouroboros"
+		},
+		{
+			"id": "Ovinnik",
+			"name": "Ovinnik"
+		},
+		{
+			"id": "Owb",
+			"name": "Owb"
+		},
+		{
+			"id": "Owb Prophet",
+			"name": "Owb Prophet"
+		},
+		{
+			"id": "Pairaka",
+			"name": "Pairaka"
+		},
+		{
+			"id": "Pakalchi",
+			"name": "Pakalchi"
+		},
+		{
+			"id": "Palace Skelm",
+			"name": "Palace Skelm"
+		},
+		{
+			"id": "Penanggalan",
+			"name": "Penanggalan"
+		},
+		{
+			"id": "Peri",
+			"name": "Peri"
+		},
+		{
+			"id": "Phantom Beast",
+			"name": "Phantom Beast"
+		},
+		{
+			"id": "Phantom Knight",
+			"name": "Phantom Knight"
+		},
+		{
+			"id": "Piranha Swarm",
+			"name": "Рой Пираний",
+			"tokenName": "Рой Пираний",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"uubvbSioie58su3V": {
+					"name": "Неистовое Поедание",
+					"description": "<p class=\"Нарратив\">Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Пираний</span> получает [[/r 2d6 [piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:owner|dc:20|traits:damaging-effect]{Пр.РФЛ}</span></p>\n<hr>\n<p>Существо, <span class=\"Провал\">провалившее</span> свой спасбросок, еще получает @Localize[PF2E.PD.Bleed.1d6] и, пока продолжается этот урон, имеет штраф <span class=\"Обстоятельства\">обстоятельства</span> -2 к своим <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> против <span class=\"Повтор\">Неистового Поедания</span>, так как безумие пираний усиливается когда они чуют кровь.</p>"
+				},
+				"E4Nclckgv1bSz78W": {
+					"name": "Чувство Крови",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Рой Пираний</span> может учуять <span class=\"Мест\">в воде</span> кровь на расстоянии вплоть до 1 мили.</p>"
+				}
+			}
+		},
+		{
+			"id": "Plague Giant",
+			"name": "Plague Giant"
+		},
+		{
+			"id": "Platecarpus",
+			"name": "Platecarpus"
+		},
+		{
+			"id": "Popobawa",
+			"name": "Popobawa"
+		},
+		{
+			"id": "Procyal",
+			"name": "Procyal"
+		},
+		{
+			"id": "Pufferfish",
+			"name": "Pufferfish"
+		},
+		{
+			"id": "Pukwudgie",
+			"name": "Pukwudgie"
+		},
+		{
+			"id": "Quintessivore",
+			"name": "Quintessivore"
+		},
+		{
+			"id": "Raktavarna",
+			"name": "Raktavarna"
+		},
+		{
+			"id": "Rancorous Priesthood",
+			"name": "Rancorous Priesthood"
+		},
+		{
+			"id": "Rat Snake Swarm",
+			"name": "Рой Крысинных Змей",
+			"tokenName": "Рой Крыс.Змей",
+			"description": "<h2 class=\"Заг2\">Рой Крысиных Змей</h2>\n<p>Одинокая змея может не вызывать тревоги, но шипящая масса обезумевших змей может заставить содрогнуться даже опытных искателей приключений. Крысиные змеи могут достигать длины вплоть до 10ФТ, и они массово собираются для спячки и размножения. Хотя эти территориальные змеи неядовиты, они могут атаковать все, что им угрожает.</p>\n<hr />\n<h2 class=\"Заг2\">Змея (Общее)</h2>\n<p>Змеи бывают самых разных видов, от обитающих в джунглях удавов, которые обвиваются вокруг своей добычи, до ядовитых гадюк со смертоносными укусами. Тем не менее, все змеи поглощают добычу целиком, открывая пасть и с помощью мощных мышц продвигают пищу в глотку и желудок.</p>\n<p>Обычно являясь одиночками, змеи иногда собираются в большие скопления. Независимо от того, собрались ли они в глубине пещеры чтобы согреваться, на скалистом склоне горы для размножения или с помощью магических средств для загадочных целей, не стоит недооценивать эти ползучие стаи.</p>\n<hr />\n<h2 class=\"Заг2\">Змеиные Ценности</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Отличительный рисунок змеиной кожи и широкий спектр ее применения делают ее востребованным ресурсом, а шкуры очень крупных змей, таких как гигантские анаконды, на правильном рынке могут стоить очень дорого. Из таких здоровенных змеиных шкур можно изготовить одежду из змеиной кожи, в том числе сапоги и перчатки, а также другие предметы, такие как ножны, рюкзаки и даже палатки или самодельные лодки. Змеиную шкуру можно чисто снять при успешной проверке Ремесла или проверке соответствующих Знаний.</p>\n<hr />\n<h2 class=\"Заг2\">Змеи в Мифологии</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Змеи часто фигурируют в мифах и легендах многих культур региона Внутреннего моря. В Древнем Осирионе змеи почитались и ассоциировались как со злым богом-змеем Апо́фисом (Apep), так и с доброй богиней @Compendium[pf2e.deities.GUmYLD7PGmE2TOx6]{Уаджит}, Зеленой Императрицей. Возможно, самым известным примером змей в легендах Голариона являются змеелюди - змеевидные гуманоиды, которые в доисторические времена правили огромными территориями мира и поклонялись мерзкому змеиному божеству по имени @Compendium[pf2e.deities.4bEPoujxhYdUyUOg]{Идерсий}.</p>\n<h2 class=\"Заг2\">Привычки в Еде</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Змеи всех видов поедают свою пищу, заглатывая добычу целиком. Обезвредив существо, змея разжимает челюсти и поглощает его целиком, даже если оно более чем в два раза превышает диаметр тела змеи. Змея может сожрать существо такого же размера, как она сама, или меньше, но большинство змей становятся неповоротливыми и вялыми, пока переваривается еда.</p>\n<h2 class=\"Заг2\">Ползучие Стаи</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Несмотря на свою натуру одиночек, змеи собираются стаями для зимней спячки или спаривания. Однако некоторые виды научились держаться вместе и координировать свои охотничьи усилия, в результате чего получаются ползучие стаи хищных змей.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"8LHwhivJZ4n6E2Gd": {
+					"name": "Массовое Извивание",
+					"description": "<div><span class=\"Триг\">Триггер</span>: <span class=\"Повтор\">Рой Крыс.Змей</span> получает <span class=\"Урон\">урон</span> от @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span class=\"Видыатак\">ближнего боя</span></div>\n<hr>\n<p class=\"Нарратив\">Змеи обвивая заползают на оружие и конечности существа.</p>\n<p>Цель должна совершить <span class=\"Воля\">Спас.@Check[type:will|dc:15|showDC:owner|traits:fear]{Воли}</span>, иначе станет @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}.</p>"
+				},
+				"Scent": {
+					"name": "Нюх (Неточный, 30)",
+					"description": "<p class=\"Нарратив\">@Localize[PF2E.NPC.Abilities.Glossary.Scent]</p>"
+				},
+				"4gjSVNhiTon9n0Xd": {
+					"name": "Роящиеся Удары",
+					"description": "<p class=\"Нарратив\">Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Признак2\"><span class=\"Признак1\">роя</span></span> получает [[/r 1d8[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:17|basic:true|showDC:owner|traits:damaging-effect]{Пр.РФЛ}</span></p>"
+				}
+			}
+		},
+		{
+			"id": "Red Fox",
+			"name": "Red Fox"
+		},
+		{
+			"id": "Rhu-chalik",
+			"name": "Rhu-chalik"
+		},
+		{
+			"id": "Ringhorn Ram",
+			"name": "Ringhorn Ram"
+		},
+		{
+			"id": "Roiling Incant (Evocation)",
+			"name": "Roiling Incant (Evocation)"
+		},
+		{
+			"id": "Rokurokubi",
+			"name": "Rokurokubi"
+		},
+		{
+			"id": "Rosethorn Ram",
+			"name": "Rosethorn Ram"
+		},
+		{
+			"id": "Sabosan",
+			"name": "Sabosan"
+		},
+		{
+			"id": "Samsaran Anchorite",
+			"name": "Samsaran Anchorite"
+		},
+		{
+			"id": "Sasquatch",
+			"name": "Sasquatch"
+		},
+		{
+			"id": "Scalescribe",
+			"name": "Scalescribe"
+		},
+		{
+			"id": "Seaweed Leshy",
+			"name": "Seaweed Leshy"
+		},
+		{
+			"id": "Seething Spirit",
+			"name": "Seething Spirit"
+		},
+		{
+			"id": "Sepid",
+			"name": "Sepid"
+		},
+		{
+			"id": "Severed Head",
+			"name": "Severed Head"
+		},
+		{
+			"id": "Shabti Redeemer",
+			"name": "Shabti Redeemer"
+		},
+		{
+			"id": "Shae",
+			"name": "Shae"
+		},
+		{
+			"id": "Shambler Troop",
+			"name": "Волочащийся Отряд Зомби",
+			"tokenName": "Волоч.Отряд Зомби",
+			"description": "<h2 class=\"Заг2\">Волочащийся Отряд Зомби</h2>\n<p>Эта шаркающая груда разлагающейся плоти движется с монотонной, но исключительной сосредоточенностью.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби (Общее)</h2>\n<p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают.</p>\n<p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>\n<hr />\n<h2 class=\"Заг2\">Восставшие из Могилы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Зомби часто создаются с помощью вредных некромантических ритуалов. Среди живых мертвецов зомби чаще всего используются как пушечное мясо, ослабляя оборону и расходуя вражеские ресурсы, прежде чем придет более могущественная нежить, чтобы нанести смертельный удар. Зомби не могут говорить или даже самостоятельно думать, но ими может командовать другая союзная нежить и могущественные некроманты.</p>\n<hr />\n<h2 class=\"Заг2\">Собирательные Инстинкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Хотя для зомби нет пользы от богатства, более того, большинство из них вообще не понимают этого понятия,@Compendium[pf2e.pathfinder-bestiary-3.GGuT6YsRH4aXhpl3] сохраняют налёт своей врожденной склонности к накоплению сокровищ. Более свежий труп может охранять клад, который он собрал при жизни (или то, что от него осталось), в то время как зомби, далекий от жизни, вместо этого может собирать кости, камни, трупы или другие необычные объекты. Понятное дело, что монетарная ценность этих кладов сильно варьируется.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби-Животные</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Животные, такие как змея, сововедведь и мамонт, могут легко превращаться в представленных здесь зомби. Обычно они восстают из мест, проклятых некромантией, а не создаются намеренно. Восставшие питомцы иногда привязываются к зомби, особенно зомби своих бывших хозяев. Обычный зомби может стать подходящим компаньоном, способным бесконечно ласкать восставшего питомца, не давая ему заскучать.</p>\n<hr />\n<h2 class=\"Заг2\">Ошибки Неразумных</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /></p>\n<p>Зомби стараются подчиняться приказам, но понимание сказанных слов не всегда означает их правильное выполнение. К примерам неправильно понятых приказов относятся:</p>\n<ul>\n<li>\n<p><span style=\"color: #000080;\">\"Подай мою шляпу\"</span> - приведет к тому, что зомби приготовит шляпу и подаст ее на блюде.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Подровняй эти кусты\"</span> - закончится тем, что он \"подровняет\" их с землей, под корень.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Сообщи мне, если кто-то подойдет к двери\"</span> - получится так, что зомби подойдет к двери и тут же вернется к хозяину, так как он сам подошел к двери.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Убейте незваных гостей!\"</span> - обратит зомби, поднятых с местного кладбища, против своего хозяина, который сам является не местным.</p>\n</li>\n</ul>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"yQzN4wExqO58Ssdr": {
+					"name": "Медлительный",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+				},
+				"YNpN5FwvZ27Zfviz": {
+					"name": "Волочащийся Натиск",
+					"description": "<div><span class=\"Част\">Частота</span>: 1/Раунд</div>\n<hr />\n<p><span class=\"Повтор\">Волочащиеся</span> набрасываются на всех <span class=\"Враг\">врагов</span> в своих <span class=\"Атака\">квадратах</span> или в пределах 5ФТ</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:18|basic:true|showDC:owner]{Пр.РФЛ}</span></p>\n<p><span class=\"Урон\">Урон</span> зависит от количества <span class=\"Действие\">действий</span>:</p>\n<ul>\n<li><span class=\"Действие\"><span class=\"pf2-icon\">1</span></span> [[/r (2d6+5)[bludgeoning]]]</li>\n<li><span class=\"Действие\"><span class=\"pf2-icon\">2</span></span> [[/r (2d6+9)[bludgeoning]]]</li>\n</ul>"
+				},
+				"xb36ZcB5nu2McDrU": {
+					"name": "Могильное Течение",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Волочащийся Отряд</span> менее организован, чем большинство <span class=\"Признак2\"><span class=\"Признак1\">отрядов</span></span>.</p>\n<p>Он может совершать <span class=\"Признак\">движение</span> в <span class=\"Атака\">пространства</span> других существ, а другие существа могут совершать <span class=\"Признак\">движение</span> в его <span class=\"Атака\">пространства</span>. Его <span class=\"Атака\">пространства</span> являются <span class=\"Мест\">Сложная Местность</span> для других существ.</p>"
+				},
+				"j3YK3rYte4HUEXXX": {
+					"name": "Защита Отряда",
+					"description": "<div><span class=\"ТЕЛ\">Пороги</span>: <span class=\"ОЗ\">60 ОЗ</span> (<span class=\"Атака\">12 Квадрат</span>), <span class=\"ОЗ\">30 ОЗ</span> (<span class=\"Атака\">8 Квадрат</span>)</div>\n<hr class=\"line\" />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+				}
+			}
+		},
+		{
+			"id": "Shantak",
+			"name": "Shantak"
+		},
+		{
+			"id": "Shaukeen",
+			"name": "Shaukeen"
+		},
+		{
+			"id": "Shikigami",
+			"name": "Shikigami"
+		},
+		{
+			"id": "Shrine Skelm",
+			"name": "Shrine Skelm"
+		},
+		{
+			"id": "Shulsaga",
+			"name": "Shulsaga"
+		},
+		{
+			"id": "Silvanshee",
+			"name": "Silvanshee"
+		},
+		{
+			"id": "Skeleton Infantry",
+			"name": "Пехота Скелетов",
+			"tokenName": "Пехота Скелетов",
+			"description": "<h2 class=\"Заг2\">Пехота Скелетов</h2>\n<p>Этот отряд скелетов когда-то был когортой высокодисциплинированной пехоты с копьями и щитами из древней империи.</p>\n<hr />\n<h2 class=\"Заг2\">Скелет (Общее)</h2>\n<p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, встречающийся в старых подземельях и на забытых кладбищах. Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим <span style=\"text-decoration: underline; color: #a52a2a;\">скелетом</span>-<span style=\"text-decoration: underline; color: #a52a2a;\">нежитью</span>.</p>\n<hr />\n<h2 class=\"Заг2\">Нежизнь без Плоти</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Некромантические энергии, наполняющие ожившие скелеты-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, дают им возможность видеть без глаз и двигаться без мускулов. Несмотря на то, что скелеты <span style=\"text-decoration: underline; color: #a52a2a;\">неразумные</span>, инстинкт ко злу исходит из их порченной жизненной сущности, извращающей негативную энергию на созидание, а не на разрушение.</p>\n<hr />\n<h2 class=\"Заг2\">Подлатанные Скелеты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" />Связь скелета с его бренными останками непрочна. Поврежденный скелет может довольно легко заменить сломанную кость на аналогичную, взятую от другого существа. В конечном итоге, скелет может кость за костью заменить все свое тело. Скелеты не обладают особой индивидуальностью, поэтому неясно, остается ли он после этого тем же самым существом.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"AHL4n7RnueMnqqXS": {
+					"name": "Построиться в Фалангу",
+					"description": "<p class=\"Нарратив\">Многие из <span style=\"text-decoration: underline; color: #34495e;\">скелетов</span> поднимают свои щиты для защиты остальных.</p>\n<hr />\n<p><em><span style=\"text-decoration: underline; color: #169179;\">До начала своего следующего хода</span></em> <span style=\"text-decoration: underline; color: #34495e;\">пехота</span> получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +2 к КБ.</p>"
+				},
+				"L4eZWrxPCscqkfv1": {
+					"name": "Метать Копья!",
+					"description": "<p class=\"Нарратив\">Члены <span style=\"text-decoration: underline; color: #a52a2a;\">отряда</span> метают залп копий.</p>\n<hr />\n<p>Каждое существо в @Template[type:burst|distance:10] в пределах 30ФТ от отряда получает [[/r {2d6+10}[piercing]]]{2d6+10 Колющего}</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:26|basic:true|showDC:owner|traits:damaging-effect]{Пр.РФЛ}</strong></span></p>\n<hr />\n<p>Когда численность <span style=\"text-decoration: underline; color: #a52a2a;\">отряда</span> снижается до 8 квадратов или менее, эта область уменьшается до @Template[type:burst|distance:5].</p>"
+				},
+				"2lp8axHkLWnfErrb": {
+					"name": "Держать Копья!",
+					"description": "<p class=\"Нарратив\"><span class=\"Част\">Частота</span>: 1/раунд</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Скелеты</span> вступают в скоординированный ближний бой копьями, против каждого врага в пределах 10ФТ.</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:27|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></p>\n<hr />\n<p>Урон зависит от количества действий:</p>\n<ul>\n<li><span class=\"Действие\"><span class=\"pf2-icon\">1</span></span> [[/r 2d8[piercing]]]{2d8 Колющий}</li>\n<li><span class=\"Действие\"><span class=\"pf2-icon\">2</span></span> [[/r {3d8+8}[piercing]]]{3d8+8 Колющий}</li>\n<li><span class=\"Действие\"><span class=\"pf2-icon\">3</span></span> [[/r {4d8+8}[piercing]]]{4d8+8 Колющий}</li>\n</ul>"
+				},
+				"n7LgURaW8hihxzYn": {
+					"name": "Атака Фалангой",
+					"description": "<p class=\"Нарратив\"><span class=\"Треб\">Требования</span>: <span style=\"text-decoration: underline; color: #34495e;\">Пехота</span> выстроилась <span style=\"text-decoration: underline; color: #34495e;\">фалангой</span></p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Скелеты</span> держат свои длинные копья и разгоняются. <span style=\"text-decoration: underline; color: #a52a2a;\">Отряд</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} по прямой линии пока не окажутся рядом с врагом, потом используют <span style=\"text-decoration: underline; color: #34495e;\">Держать Копья!</span>, нанося [[/r {3d8+8}[piercing]]]{3d8+8 Колющего}.</p>\n<p>Любое существо <strong><span style=\"color: #ba372a;\">провалившее</span> </strong>свой <span style=\"color: #808000;\"><strong>спасбросок </strong></span>также сбито @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60].</p>"
+				},
+				"MoqxDoRDqZhJhZwN": {
+					"name": "Передвижение Отряда",
+					"description": "<p class=\"Нарратив\">Когда <span style=\"text-decoration: underline; color: #34495e;\">пехота скелетов</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, они в начале <span class=\"Действие\"><span class=\"pf2-icon\">4</span></span>@Compendium[pf2e.bestiary-ability-glossary-srd.OvqohW9YuahnFaiX]{Строются} в область 20 на 20ФТ (за вычетом любых недостающих квадратов), потом двигаются вплоть до своей <span class=\"Скор\">Скорости</span>.</p>\n<p>Это работает так же как <span class=\"Признак\">движение</span> <span style=\"text-decoration: underline; color: #169179;\">исполинских</span> существ; например, если любой из квадратов <span style=\"text-decoration: underline; color: #34495e;\">пехоты</span> попадает в <span class=\"Мест\">Сложная Местность</span>, то дополнительная стоимость <span style=\"text-decoration: underline; color: #a52a2a;\">передвижения</span> применяется ко всем <span style=\"text-decoration: underline; color: #34495e;\">скелетам</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Skinstitch",
+			"name": "Skinstitch"
+		},
+		{
+			"id": "Skull Peeler",
+			"name": "Skull Peeler"
+		},
+		{
+			"id": "Skunk",
+			"name": "Skunk"
+		},
+		{
+			"id": "Slithering Pit",
+			"name": "Slithering Pit"
+		},
+		{
+			"id": "Sorcerous Skull Swarm",
+			"name": "Sorcerous Skull Swarm"
+		},
+		{
+			"id": "Soul Skelm",
+			"name": "Soul Skelm"
+		},
+		{
+			"id": "Spiny Eurypterid",
+			"name": "Spiny Eurypterid"
+		},
+		{
+			"id": "Squirming Swill",
+			"name": "Squirming Swill"
+		},
+		{
+			"id": "Squirrel Swarm",
+			"name": "Рой Белок",
+			"tokenName": "Рой Белок",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"qYJ6jUOSJMEwOOuC": {
+					"name": "Укусы Роя",
+					"description": "<p class=\"Нарратив\">Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Белок</span> получает [[/r 1d6[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:gm|dc:15|basic:true]{Пр.РФЛ}</span></p>"
+				},
+				"87If4txGT9U4ihPf": {
+					"name": "Карабкающийся Рой",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Рой Белок</span> карабкается по существам в своем <span class=\"Атака\">пространстве</span>. Каждое такое существо должно преуспеть в <span class=\"РФЛ\">Спас.@Check[type:reflex|dc:17]{РФЛ}</span> или стать @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюж 1}, пока оно остается в <span class=\"Атака\">пространстве</span> <span class=\"Признак2\"><span class=\"Признак1\">роя</span></span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Stheno Harpist",
+			"name": "Stheno Harpist"
+		},
+		{
+			"id": "Stone Lion",
+			"name": "Stone Lion"
+		},
+		{
+			"id": "Stone Lion Cub",
+			"name": "Stone Lion Cub"
+		},
+		{
+			"id": "Storm Hag",
+			"name": "Storm Hag"
+		},
+		{
+			"id": "Street Skelm",
+			"name": "Street Skelm"
+		},
+		{
+			"id": "Strix Kinmate",
+			"name": "Strix Kinmate"
+		},
+		{
+			"id": "Sturzstromer",
+			"name": "Sturzstromer"
+		},
+		{
+			"id": "Sulfur Zombie",
+			"name": "Серный Зомби",
+			"tokenName": "Серный Зомби",
+			"description": "<h2 class=\"Заг2\">Серный Зомби</h2>\n<p>Светящиеся тусклым янтарным светом, эти гнусные существа порождены сочетанием некромантии и огня. Эти разрушительные создания сеют хаос и разрушают укрепления, становясь бичом осажденных городов.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби (Общее)</h2>\n<p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают.</p>\n<p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>\n<hr />\n<h2 class=\"Заг2\">Восставшие из Могилы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Зомби часто создаются с помощью вредных некромантических ритуалов. Среди живых мертвецов зомби чаще всего используются как пушечное мясо, ослабляя оборону и расходуя вражеские ресурсы, прежде чем придет более могущественная нежить, чтобы нанести смертельный удар. Зомби не могут говорить или даже самостоятельно думать, но ими может командовать другая союзная нежить и могущественные некроманты.</p>\n<hr />\n<h2 class=\"Заг2\">Собирательные Инстинкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Хотя для зомби нет пользы от богатства, более того, большинство из них вообще не понимают этого понятия,@Compendium[pf2e.pathfinder-bestiary-3.GGuT6YsRH4aXhpl3] сохраняют налёт своей врожденной склонности к накоплению сокровищ. Более свежий труп может охранять клад, который он собрал при жизни (или то, что от него осталось), в то время как зомби, далекий от жизни, вместо этого может собирать кости, камни, трупы или другие необычные объекты. Понятное дело, что монетарная ценность этих кладов сильно варьируется.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби-Животные</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Животные, такие как змея, сововедведь и мамонт, могут легко превращаться в представленных здесь зомби. Обычно они восстают из мест, проклятых некромантией, а не создаются намеренно. Восставшие питомцы иногда привязываются к зомби, особенно зомби своих бывших хозяев. Обычный зомби может стать подходящим компаньоном, способным бесконечно ласкать восставшего питомца, не давая ему заскучать.</p>\n<hr />\n<h2 class=\"Заг2\">Ошибки Неразумных</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /></p>\n<p>Зомби стараются подчиняться приказам, но понимание сказанных слов не всегда означает их правильное выполнение. К примерам неправильно понятых приказов относятся:</p>\n<ul>\n<li>\n<p><span style=\"color: #000080;\">\"Подай мою шляпу\"</span> - приведет к тому, что зомби приготовит шляпу и подаст ее на блюде.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Подровняй эти кусты\"</span> - закончится тем, что он \"подровняет\" их с землей, под корень.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Сообщи мне, если кто-то подойдет к двери\"</span> - получится так, что зомби подойдет к двери и тут же вернется к хозяину, так как он сам подошел к двери.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Убейте незваных гостей!\"</span> - обратит зомби, поднятых с местного кладбища, против своего хозяина, который сам является не местным.</p>\n</li>\n</ul>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"DWxhZZHfxKIg0dak": {
+					"name": "Кулак (Поджог, Сера)",
+					"description": "<p class=\"Нарратив\">@Localize[PF2E.PD.Fire.1d6]</p>"
+				},
+				"iFKv7PFNKtSVy9XA": {
+					"name": "Медлительный",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+				},
+				"td3gay0LzawYp5Ff": {
+					"name": "Предсмертная Агония",
+					"description": "<p class=\"Нарратив\">Когда <span style=\"text-decoration: underline; color: #34495e;\">Серный Зомби</span> погибает, его тело взрывается @Template[type:burst|distance:30] огня и осколков, которые наносят [[/r 2d10[bludgeoning]]]{2d10 Дробящ.} и [[/r 2d10[fire]]]{2d10 Огня} каждому существу в области.</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:21|basic:true|showDC:owner|traits:fire,dmage-effect]{Пр.РФЛ}</strong></span></p>"
+				},
+				"0eyOInV05vjoOU3X": {
+					"name": "Слепящая Сера",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Серный Зомби</span> горит гнилостным внутренним огнем.</p>\n<hr />\n<p>Существо, получившее @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR] <span style=\"text-decoration: underline; color: #34495e;\">Кулаком</span> <span style=\"text-decoration: underline; color: #34495e;\">Серного Зомби</span>, должно совершить <span class=\"СТК\">Спас.@Check[type:fortitude|dc:22|showDC:owner|traits:incapacitation]{СТК}</span>. При <span class=\"Провал\">Провал</span>существо @Compendium[pf2e.spells-srd.VosLNn2M8S7JH67D]{Слепнет}<span class=\"До\">на 1 раунд</span> (на 1 минуту при <span class=\"Критпровал\">Крит.Провал</span>).</p>"
+				}
+			}
+		},
+		{
+			"id": "Sumbreiva",
+			"name": "Sumbreiva"
+		},
+		{
+			"id": "Swordkeeper",
+			"name": "Swordkeeper"
+		},
+		{
+			"id": "Tattoo Guardian",
+			"name": "Tattoo Guardian"
+		},
+		{
+			"id": "Terra-cotta Garrison",
+			"name": "Terra-cotta Garrison"
+		},
+		{
+			"id": "Terra-cotta Soldier",
+			"name": "Terra-cotta Soldier"
+		},
+		{
+			"id": "Terror Bird",
+			"name": "Terror Bird"
+		},
+		{
+			"id": "Terror Shrike",
+			"name": "Terror Shrike"
+		},
+		{
+			"id": "Thanatotic Titan",
+			"name": "Thanatotic Titan"
+		},
+		{
+			"id": "Three-toed Sloth",
+			"name": "Three-toed Sloth"
+		},
+		{
+			"id": "Tiddalik",
+			"name": "Tiddalik"
+		},
+		{
+			"id": "Tidehawk",
+			"name": "Tidehawk"
+		},
+		{
+			"id": "Tikbalang",
+			"name": "Tikbalang"
+		},
+		{
+			"id": "Tolokand",
+			"name": "Tolokand"
+		},
+		{
+			"id": "Tomb Giant",
+			"name": "Tomb Giant"
+		},
+		{
+			"id": "Tooth Fairy",
+			"name": "Tooth Fairy"
+		},
+		{
+			"id": "Tooth Fairy Swarm",
+			"name": "Tooth Fairy Swarm"
+		},
+		{
+			"id": "Toshigami",
+			"name": "Toshigami"
+		},
+		{
+			"id": "Trailgaunt",
+			"name": "Trailgaunt"
+		},
+		{
+			"id": "Trilobite",
+			"name": "Trilobite"
+		},
+		{
+			"id": "Trilobite Swarm",
+			"name": "Рой Трилобитов",
+			"tokenName": "Рой Трилобитов",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"R0vde3bCSBW2a8br": {
+					"name": "Укусы Роя",
+					"description": "<p class=\"Нарратив\">Рой трилобитов цепляется к существу и грызет его.</p>\n<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Трилобитов</span> получает [[/r 2d6[slashing]]]{2d6}<span class=\"Урон\"> Рубящ.</span></p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:owner|dc:18|traits:damaging-effect]{Пр.РФЛ}</span></p>"
+				}
+			}
+		},
+		{
+			"id": "Triumph Siktempora",
+			"name": "Triumph Siktempora"
+		},
+		{
+			"id": "Tupilaq",
+			"name": "Tupilaq"
+		},
+		{
+			"id": "Tylosaurus",
+			"name": "Tylosaurus"
+		},
+		{
+			"id": "Tyrannosaurus Skeleton",
+			"name": "Скелет Тираннозавра",
+			"tokenName": "Скелет Тираннозавра",
+			"description": "<h2 class=\"Заг2\">Скелет Тираннозавра</h2>\n<p>Из массивного хищного динозавра получается устрашающий скелет.</p>\n<hr />\n<h2 class=\"Заг2\">Скелет (Общее)</h2>\n<p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>, встречающийся в старых подземельях и на забытых кладбищах. Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим <span style=\"text-decoration: underline; color: #a52a2a;\">скелетом</span>-<span style=\"text-decoration: underline; color: #a52a2a;\">нежитью</span>.</p>\n<hr />\n<h2 class=\"Заг2\">Нежизнь без Плоти</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Некромантические энергии, наполняющие ожившие скелеты-<span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, дают им возможность видеть без глаз и двигаться без мускулов. Несмотря на то, что скелеты <span style=\"text-decoration: underline; color: #a52a2a;\">неразумные</span>, инстинкт ко злу исходит из их порченной жизненной сущности, извращающей негативную энергию на созидание, а не на разрушение.</p>\n<hr />\n<h2 class=\"Заг2\">Подлатанные Скелеты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" />Связь скелета с его бренными останками непрочна. Поврежденный скелет может довольно легко заменить сломанную кость на аналогичную, взятую от другого существа. В конечном итоге, скелет может кость за костью заменить все свое тело. Скелеты не обладают особой индивидуальностью, поэтому неясно, остается ли он после этого тем же самым существом.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"H2G6L0SJ45uHxDiE": {
+					"name": "Челюсти 20 (Захват)",
+					"description": ""
+				},
+				"MAu9spTENeddU6Zv": {
+					"name": "Нога 15",
+					"description": ""
+				},
+				"5I1UyAH3ppy0Pi6l": {
+					"name": "Накалывание Ребром",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Скелет тираннозавра</span> наклоняется, пытаясь насадить одно из находящихся рядом существ на одно из своих массивных ребер.</p>\n<hr />\n<p>Существо получает [[/r {2d10+9}[piercing]]]{2d10+9 Колющий}</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:28|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></p>\n<p>Если существо <span class=\"Провал\">проваливает</span> этот <span class=\"КБ\">Спас.</span> и является <span class=\"Размер\">среднего</span> размера или меньше, то оно еще проколото и застревает на ребре. Оно <span style=\"text-decoration: underline; color: #a52a2a;\">движется</span> вместе со <span style=\"text-decoration: underline; color: #34495e;\">скелетом</span> и получает @Localize[PF2E.PD.Bleed.2d6], пока либо не @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырвется}<span data-visibility=\"gm\">КС28</span>, либо кто-то не использует @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]<span data-visibility=\"gm\">КС28</span>, чтобы сломать ребро.</p>"
+				},
+				"GKPDyYkNMI6xU6fY": {
+					"name": "Растоптать",
+					"description": "<div><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span style=\"text-decoration: underline; color: #169179;\">Огромный</span></div>\n<div><span style=\"color: #ba372a;\"><strong>Урон: </strong></span>[[/r {2d10+19}[bludgeoning]]]{Нога}</div>\n<div><span class=\"РФЛ\">Спас.: @Check[type:reflex|dc:28|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+				}
+			}
+		},
+		{
+			"id": "Tzitzimitl",
+			"name": "Tzitzimitl"
+		},
+		{
+			"id": "Umasi",
+			"name": "Umasi"
+		},
+		{
+			"id": "Valkyrie",
+			"name": "Valkyrie"
+		},
+		{
+			"id": "Vanara Disciple",
+			"name": "Vanara Disciple"
+		},
+		{
+			"id": "Vilderavn",
+			"name": "Vilderavn"
+		},
+		{
+			"id": "Vine Leshy",
+			"name": "Vine Leshy"
+		},
+		{
+			"id": "Viper Swarm",
+			"name": "Рой Гадюк",
+			"tokenName": "Рой Гадюк",
+			"description": "<h2 class=\"Заг2\">Рой Гадюк</h2>\n<p>Устрашающая масса блестящей чешуи, сверкающих глаз и сочащихся ядом клыков, из которой состоит рой гадюк, положила конец многим неудачливым искателям приключений. Обычно ведущие ночную жизнь, эти печально известные своей агрессивностью змеи нападают на все, что попадется под руку, будь то конечность или оружие. Их яд - сильнодействующий токсин, который делает жертв шаткими и слабыми.</p>\n<hr />\n<h2 class=\"Заг2\">Змея (Общее)</h2>\n<p>Змеи бывают самых разных видов, от обитающих в джунглях удавов, которые обвиваются вокруг своей добычи, до ядовитых гадюк со смертоносными укусами. Тем не менее, все змеи поглощают добычу целиком, открывая пасть и с помощью мощных мышц продвигают пищу в глотку и желудок.</p>\n<p>Обычно являясь одиночками, змеи иногда собираются в большие скопления. Независимо от того, собрались ли они в глубине пещеры чтобы согреваться, на скалистом склоне горы для размножения или с помощью магических средств для загадочных целей, не стоит недооценивать эти ползучие стаи.</p>\n<hr />\n<h2 class=\"Заг2\">Змеиные Ценности</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Отличительный рисунок змеиной кожи и широкий спектр ее применения делают ее востребованным ресурсом, а шкуры очень крупных змей, таких как гигантские анаконды, на правильном рынке могут стоить очень дорого. Из таких здоровенных змеиных шкур можно изготовить одежду из змеиной кожи, в том числе сапоги и перчатки, а также другие предметы, такие как ножны, рюкзаки и даже палатки или самодельные лодки. Змеиную шкуру можно чисто снять при успешной проверке Ремесла или проверке соответствующих Знаний.</p>\n<hr />\n<h2 class=\"Заг2\">Змеи в Мифологии</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Змеи часто фигурируют в мифах и легендах многих культур региона Внутреннего моря. В Древнем Осирионе змеи почитались и ассоциировались как со злым богом-змеем Апо́фисом (Apep), так и с доброй богиней @Compendium[pf2e.deities.GUmYLD7PGmE2TOx6]{Уаджит}, Зеленой Императрицей. Возможно, самым известным примером змей в легендах Голариона являются змеелюди - змеевидные гуманоиды, которые в доисторические времена правили огромными территориями мира и поклонялись мерзкому змеиному божеству по имени @Compendium[pf2e.deities.4bEPoujxhYdUyUOg]{Идерсий}.</p>\n<h2 class=\"Заг2\">Привычки в Еде</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Змеи всех видов поедают свою пищу, заглатывая добычу целиком. Обезвредив существо, змея разжимает челюсти и поглощает его целиком, даже если оно более чем в два раза превышает диаметр тела змеи. Змея может сожрать существо такого же размера, как она сама, или меньше, но большинство змей становятся неповоротливыми и вялыми, пока переваривается еда.</p>\n<h2 class=\"Заг2\">Ползучие Стаи</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Несмотря на свою натуру одиночек, змеи собираются стаями для зимней спячки или спаривания. Однако некоторые виды научились держаться вместе и координировать свои охотничьи усилия, в результате чего получаются ползучие стаи хищных змей.</p>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"MoM2zK3F63zlLyW3": {
+					"name": "Брязганье Ядом",
+					"description": "<p class=\"Нарратив\">Гадюки в оборонительной манере брызгают ядом из своих клыков.</p>\n<p>Каждое существо в @Template[type:cone|distance:10] подвергается <span class=\"Повтор\">Яду Роя Гадюк</span>, но получают бонус <span class=\"Обстоятельства\">Обстоятельства</span> +2 к своим начальным <span class=\"СТК\">Спасброскам</span> против <span class=\"Признак2\"><span class=\"Признак1\">яда</span></span>.</p>"
+				},
+				"h8rEFtxwQFlx0MIz": {
+					"name": "Ядовитые Клыки",
+					"description": "<p class=\"Нарратив\">Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Признак2\"><span class=\"Признак1\">роя</span></span> получает [[/r 2d8[piercing]]]{2d8}<span class=\"Урон\"> Колющ</span> + <span class=\"Повтор\">Яд Роя Гадюк</span>.</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:21|basic:true|showDC:owner|traits:damaging-effect]{Пр.РФЛ}</span></p>"
+				},
+				"2Rzw5Pms3YBG0FNZ": {
+					"name": "Яд Роя Гадюк",
+					"description": "<p class=\"Заг2\"><span class=\"СТК\">Спас.@Check[type:fortitude|dc:21|showDC:owner|traits:poison]{СТК}</span></p>\n<div data-visibility=\"gm\">\n<p><span class=\"Прод\">Макс.Продол.</span>: 6 раундов</p>\n<p><span class=\"ХАР\">Стадия 1</span>: [[/r 1d4[poison]]] (<span class=\"До\">1 Раунд</span>)</p>\n<p><span class=\"Провал\">Стадия 2</span>: [[/r 1d6[poison]]] и @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span class=\"Критпровал\">Стадия 3</span>: [[/r 2d4[poison]]]{2d4 Яд}, @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 2}, и @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+				}
+			}
+		},
+		{
+			"id": "Vishkanya Infiltrator",
+			"name": "Vishkanya Infiltrator"
+		},
+		{
+			"id": "Vulpinal",
+			"name": "Vulpinal"
+		},
+		{
+			"id": "Water Wisp",
+			"name": "Water Wisp"
+		},
+		{
+			"id": "Wayang Whisperblade",
+			"name": "Wayang Whisperblade"
+		},
+		{
+			"id": "Weasel",
+			"name": "Weasel"
+		},
+		{
+			"id": "Werebat",
+			"name": "Werebat"
+		},
+		{
+			"id": "Werecrocodile",
+			"name": "Werecrocodile"
+		},
+		{
+			"id": "Wihsaak",
+			"name": "Wihsaak"
+		},
+		{
+			"id": "Winter Hag",
+			"name": "Winter Hag"
+		},
+		{
+			"id": "Wizard Sponge",
+			"name": "Wizard Sponge"
+		},
+		{
+			"id": "Wizard Sponge (Crypt)",
+			"name": "Wizard Sponge (Crypt)"
+		},
+		{
+			"id": "Wizard Sponge (Fey Domain)",
+			"name": "Wizard Sponge (Fey Domain)"
+		},
+		{
+			"id": "Wizard Sponge (Fiendish Temple)",
+			"name": "Wizard Sponge (Fiendish Temple)"
+		},
+		{
+			"id": "Wizard Sponge (Toxic Lair)",
+			"name": "Wizard Sponge (Toxic Lair)"
+		},
+		{
+			"id": "Wizard Sponge (Underwater)",
+			"name": "Wizard Sponge (Underwater)"
+		},
+		{
+			"id": "Wolliped",
+			"name": "Wolliped"
+		},
+		{
+			"id": "Wyrmwraith",
+			"name": "Wyrmwraith"
+		},
+		{
+			"id": "Wyrwood Sneak",
+			"name": "Wyrwood Sneak"
+		},
+		{
+			"id": "Ximtal",
+			"name": "Ximtal"
+		},
+		{
+			"id": "Xiuh Couatl",
+			"name": "Xiuh Couatl"
+		},
+		{
+			"id": "Yithian",
+			"name": "Yithian"
+		},
+		{
+			"id": "Young Forest Dragon",
+			"name": "Young Forest Dragon"
+		},
+		{
+			"id": "Young Forest Dragon (Spellcaster)",
+			"name": "Young Forest Dragon (Spellcaster)"
+		},
+		{
+			"id": "Young Sea Dragon",
+			"name": "Young Sea Dragon"
+		},
+		{
+			"id": "Young Sea Dragon (Spellcaster)",
+			"name": "Young Sea Dragon (Spellcaster)"
+		},
+		{
+			"id": "Young Sky Dragon",
+			"name": "Young Sky Dragon"
+		},
+		{
+			"id": "Young Sky Dragon (Spellcaster)",
+			"name": "Young Sky Dragon (Spellcaster)"
+		},
+		{
+			"id": "Young Sovereign Dragon",
+			"name": "Young Sovereign Dragon"
+		},
+		{
+			"id": "Young Sovereign Dragon (Spellcaster)",
+			"name": "Young Sovereign Dragon (Spellcaster)"
+		},
+		{
+			"id": "Young Underworld Dragon",
+			"name": "Young Underworld Dragon"
+		},
+		{
+			"id": "Young Underworld Dragon (Spellcaster)",
+			"name": "Young Underworld Dragon (Spellcaster)"
+		},
+		{
+			"id": "Yzobu",
+			"name": "Yzobu"
+		},
+		{
+			"id": "Zetogeki",
+			"name": "Zetogeki"
+		},
+		{
+			"id": "Zombie Dragon",
+			"name": "Зомби-Дракон",
+			"tokenName": "Зомби-Дракон",
+			"description": "<h2 class=\"Заг2\">Зомби-Дракон</h2>\n<p>Сгнивший остов некогда великого дракона, эта мерзость утратила все свое былое великолепие, но не свирепость. Его дырявые, гнилые крылья не создают достаточной подъемной силы, чтобы удержать его в воздухе, но оживляющие его некромантические энергии, все еще позволяют ему летать, хотя и медленно.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби (Общее)</h2>\n<p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают.</p>\n<p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>\n<hr />\n<h2 class=\"Заг2\">Восставшие из Могилы</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" />Зомби часто создаются с помощью вредных некромантических ритуалов. Среди живых мертвецов зомби чаще всего используются как пушечное мясо, ослабляя оборону и расходуя вражеские ресурсы, прежде чем придет более могущественная нежить, чтобы нанести смертельный удар. Зомби не могут говорить или даже самостоятельно думать, но ими может командовать другая союзная нежить и могущественные некроманты.</p>\n<hr />\n<h2 class=\"Заг2\">Собирательные Инстинкты</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/open-treasure-chest.svg\" width=\"50\" height=\"50\" />Хотя для зомби нет пользы от богатства, более того, большинство из них вообще не понимают этого понятия,@Compendium[pf2e.pathfinder-bestiary-3.GGuT6YsRH4aXhpl3] сохраняют налёт своей врожденной склонности к накоплению сокровищ. Более свежий труп может охранять клад, который он собрал при жизни (или то, что от него осталось), в то время как зомби, далекий от жизни, вместо этого может собирать кости, камни, трупы или другие необычные объекты. Понятное дело, что монетарная ценность этих кладов сильно варьируется.</p>\n<hr />\n<h2 class=\"Заг2\">Зомби-Животные</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" />Животные, такие как змея, сововедведь и мамонт, могут легко превращаться в представленных здесь зомби. Обычно они восстают из мест, проклятых некромантией, а не создаются намеренно. Восставшие питомцы иногда привязываются к зомби, особенно зомби своих бывших хозяев. Обычный зомби может стать подходящим компаньоном, способным бесконечно ласкать восставшего питомца, не давая ему заскучать.</p>\n<hr />\n<h2 class=\"Заг2\">Ошибки Неразумных</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /></p>\n<p>Зомби стараются подчиняться приказам, но понимание сказанных слов не всегда означает их правильное выполнение. К примерам неправильно понятых приказов относятся:</p>\n<ul>\n<li>\n<p><span style=\"color: #000080;\">\"Подай мою шляпу\"</span> - приведет к тому, что зомби приготовит шляпу и подаст ее на блюде.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Подровняй эти кусты\"</span> - закончится тем, что он \"подровняет\" их с землей, под корень.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Сообщи мне, если кто-то подойдет к двери\"</span> - получится так, что зомби подойдет к двери и тут же вернется к хозяину, так как он сам подошел к двери.</p>\n</li>\n<li>\n<p><span style=\"color: #000080;\">\"Убейте незваных гостей!\"</span> - обратит зомби, поднятых с местного кладбища, против своего хозяина, который сам является не местным.</p>\n</li>\n</ul>",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"TmaCh6JDsKX35pc2": {
+					"name": "Челюсть 15",
+					"description": ""
+				},
+				"pnaFRppT92BaCHjj": {
+					"name": "Когти 10",
+					"description": ""
+				},
+				"paacuYr4AiURwRWW": {
+					"name": "Хвост 20",
+					"description": ""
+				},
+				"DY5764x6bU3jfnwu": {
+					"name": "Медлительный",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+				},
+				"EAC12Ob2QRDH7V3R": {
+					"name": "Атака Дыханием",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби-дракон</span> выдыхает волну зловонных внутренностей, наносящую [[/r 5d6[bludgeoning]]]{5d6 Дробящ.} и [[/r 5d6[poison]]]{5d6 Яд}. Крит.провалившее существо еще получает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2}.</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:28|basic:true|showDC:owner|traits:poison]{Пр.РФЛ}</strong></span></p>\n<hr />\n<p><span style=\"color: #000080;\"><strong>Перезарядка:</strong></span> [[/r 1d4[rounds]]]{1d4 раунда}<span data-visibility=\"gm\">[[1d4]]{ }</span></p>"
+				}
+			}
+		},
+		{
+			"id": "Zuishin",
+			"name": "Zuishin"
+		}
+	]
+}

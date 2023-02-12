@@ -1,0 +1,233 @@
+{
+	"healthEstimate": {
+		"core": {
+			"custom": {
+				"FractionHP": {
+					"name": "Путь к данным ОЗ",
+					"hint": "Возможно, ваша система использует другой путь данных. Если оценка отображается неправильно, введите путь к правильному атрибуту (например, act.system.health)."
+				},
+				"FractionMath": {
+					"name": "Оценка Доли ОЗ",
+					"hint": "Возможно Оценка Доли ОЗ вашей системы может отличаться от значения по умолчанию, выберите уравнение, используемое для Оценки Доли ОЗ вашей системы.",
+					"choices": {
+						"0": "(Current HP)/(Max HP)",
+						"1": "(Max HP - Current HP)/(Max HP)"
+					}
+				}
+			},
+			"keybinds": {
+				"markDead": {
+					"name": "Оценка: Мертв",
+					"hint": "Оценивает все выбранные токены как Мертвые. Если все выбранные токены уже Мертвы, то Оценка: Мертв отменяется."
+				},
+				"customEstimates": {
+					"name": "Custom Estimates",
+					"hint": "Sets custom estimates for the selected tokens. It will change every selected token to the input value. Leaving it as blank will reset it to the same value as the Stages setting.",
+					"options": {
+						"1": "Tokens & Actors",
+						"2": "Only Tokens"
+					}
+				},
+				"dontMarkDead": {
+					"name": "Не отображать Оценку: Мертв",
+					"hint": "Не оценивает НПС как Мертв, когда его ОЗ достигает 0. Это полезно только в том случае, если вы используете настройку \"НПС умирает при 0 ОЗ\" (в настройках столкновения)."
+				},
+				"hideEstimates": {
+					"name": "Скрывать Оценку",
+					"hint": "Скрывает Оценки выбранных токенов от Игроков. Скрытые Оценки будут показывать только для Мастера."
+				},
+				"hideNames": {
+					"name": "Скрывать Имена",
+					"hint": "Скрывает имена выбранных токенов, когда вы используете параметр \"Показывать Оценку в чат\"."
+				},
+				"hideEstimatesAndNames": {
+					"name": "Скрывать Оценку и Имена",
+					"hint": "Скрывать Оценку и Имена выбранных токенов."
+				}
+			},
+			"isNow": "is now",
+			"unknownEntity": {
+				"name": "Unknown Entity Name",
+				"hint": "Sets how a hidden character shall be called.",
+				"default": "Unknown Entity"
+			},
+			"alwaysShow": {
+				"name": "Always Show Estimates",
+				"hint": "Makes the estimates to always be shown instead of just when hovering a token."
+			},
+			"showDescription": {
+				"name": "Показывать Оценки",
+				"hint": "Показать Оценки для следующих пользователей.",
+				"choices": {
+					"all": "Все",
+					"GM": "Мастер",
+					"Players": "Игроки",
+					"NPC": "НПС",
+					"PC": "Персонажи"
+				}
+			},
+			"showDescriptionTokenType": {
+				"name": "Show Estimates: Tokens",
+				"hint": "Show estimates of the following tokens."
+			},
+			"stateNames": {
+				"name": "Stages",
+				"hint": "An array of descriptions shown to players, arranged from worst to best possible health.\nThe amount of possible descriptions is not limited, the module will adjust the health percentage to show them proportionally to the amount.\nIf there is a need for one description to cover a higher range of health than others simply copy it several times.",
+				"default": "Unconscious, Near Death, Badly Injured, Injured, Barely Injured, Uninjured"
+			},
+			"deathState": {
+				"name": "Death State on Condition",
+				"hint": "Show token as dead when it's been affected by any condition that uses the icon set on the Death Marker setting. Works independently from the macro."
+			},
+			"deathStateName": {
+				"name": "Death State Name",
+				"hint": "The description shown to players when the token is dead. Compendium tab has a macro for marking a token (or several) as dead.",
+				"default": "Dead"
+			},
+			"deathMarker": {
+				"name": "Death Marker",
+				"hint": "Path to the condition icon that marks the dead tokens."
+			},
+			"NPCsJustDie": {
+				"name": "NPCs die immediately",
+				"hint": "The last stage of NPCs is replaced by the Death State Name."
+			},
+			"perfectionism": {
+				"name": "Behavior",
+				"hint": "Description = the last stage in the Stages setting.",
+				"choices": {
+					"0": "Show the description even when the target is damaged.",
+					"1": "Show the description when the target isn't damaged.",
+					"2": "Don't show the description when the target isn't damaged."
+				}
+			},
+			"outputChat": {
+				"name": "Output Estimate to Chat",
+				"hint": "Output any estimate changes to chat. Characters flagged with the Hide Estimate macro will be shown as \"Unknown Entity\"."
+			},
+			"addTemp": {
+				"name": "Add Temporary Health",
+				"hint": "Include temporary health points in calculating what description to show.\nE.g. with the setting turned on the token receiving temp HP will look \"healthier\" unless it's already at max health."
+			},
+			"breakOnZeroMaxHP": {
+				"name": "Hide on tokens with 0 max HP",
+				"hint": "Useful for objects with tokens"
+			},
+			"menuSettings": {
+				"fontSize": {
+					"name": "Font Size",
+					"hint": "Accepts any valid property for CSS font-size"
+				},
+				"useColor": {
+					"name": "Use Color",
+					"hint": "This won't affect the settings window, but with checkmark off the descriptions will be shown in black and white."
+				},
+				"smoothGradient": {
+					"name": "Smooth Gradient",
+					"hint": "With this setting off the color will only change when the next description is reached, with it on it will reflect the health percentage."
+				},
+				"deadColor": {
+					"name": "Color of dead tokens"
+				},
+				"outline": {
+					"name": "Outline",
+					"darken": "Darken",
+					"brighten": "Brighten"
+				},
+				"position": {
+					"name": "Position",
+					"top": "Top",
+					"middle": "Middle",
+					"bottom": "Bottom"
+				},
+				"positionAdjustment": {
+					"name": "Position Adjustment",
+					"hint": "Position is set relative to the frame. The number lets you tweak the position relative to its normal place. Positive numbers push it lower, negative – higher. The default value of -1 sets it to \"1 line above initial position\"."
+				}
+			}
+		},
+		"cyberpunk-red-core": {
+			"useSystemStates": {
+				"name": "Use Wound States",
+				"hint": "Ignores the Stages setting and uses the Cyberpunk RED Core's wound states."
+			}
+		},
+		"dnd5e": {
+			"vehicleNames": {
+				"hint": "Descriptions shown for starships (always), and vehicles.",
+				"default": "Wrecked, Broken, Battered, Scratched, Pristine"
+			}
+		},
+		"PF1": {
+			"addNonlethal": {
+				"name": "Use Nonlethal Damage",
+				"hint": "If enabled nonlethal damage will be substracted from current health for estimation."
+			},
+			"showExtra": {
+				"name": "Disabled & Dying",
+				"hint": "Show \"Disabled\" and \"Dying\" descriptions"
+			},
+			"disabledName": {
+				"name": "Disabled",
+				"hint": "Description to show when token is precisely at 0 HP or has more nonlethal damage than HP remaining",
+				"default": "Disabled"
+			},
+			"dyingName": {
+				"name": "Dying",
+				"hint": "Description to show when token is below 0 HP",
+				"default": "Dying"
+			}
+		},
+		"PF2E": {
+			"staminaToHp": {
+				"name": "Stamina to Estimate",
+				"hint": "Add Stamina Points to the estimate."
+			}
+		},
+		"numenera": {
+			"countPools": {
+				"name": "Count Empty Pools",
+				"hint": "Count empty pools instead of sum of their values, with the estimation only changing when a pool is depleted/replenished"
+			}
+		},
+		"starfinder": {
+			"useThreshold": {
+				"name": "Use Vehicle Threshold",
+				"hint": "If this setting is on, limit the stages of \"Vehicle Stages\" to 3."
+			},
+			"thresholdNames": {
+				"name": "Threshold Stages",
+				"hint": "The amount of stages is limited to 3, arranged from worst to best condition",
+				"default": "Wrecked, Broken, Fully Functional"
+			},
+			"vehicleNames": {
+				"name": "Vehicle Stages",
+				"hint": "Descriptions shown for starships (always), and vehicles.",
+				"default": "Wrecked, Flaming, Smoking, Battered, Scratched, Pristine"
+			},
+			"addStamina": {
+				"name": "Account for Stamina",
+				"hint": "With this setting on Stamina will be added to HP for calculations."
+			}
+		},
+		"worldbuilding": {
+			"simpleRule": {
+				"name": "Estimation Rule",
+				"hint": "The JS formula for calculating the fraction of health token has. Alter with caution. Default assumes simple descending health, e.g. you start with 10/10 in your health field and go down to 0/10 when taking damage.",
+				"default": "const hp = token.actor.system.health; return hp.value / hp.max"
+			}
+		},
+		"od6s": {
+			"vehicleNames": {
+				"name": "Vehicle and Starship Stages",
+				"hint": "Descriptions shown for starships and vehicles",
+				"default": "Destroyed, Severely Damaged, Heavily Damaged, Lightly Damaged, Very Lightly Damaged, Undamaged"
+			},
+			"thresholdNames": {
+				"name": "Threshold Stages",
+				"hint": "The amount of stages is limited to 3, arranged from worst to best condition",
+				"default": "Wrecked, Broken, Fully Functional"
+			}
+		}
+	}
+}

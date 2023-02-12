@@ -1,0 +1,601 @@
+{
+    "xdy-pf2e-workbench": {
+        "npcRoller": {
+            "title": "Генератор НПС",
+            "button-label": "Генератор НПС",
+            "nav-labels": {
+                "strike": "Удары",
+                "damage": "Урон",
+                "ac": "КБ",
+                "save": "Спасы",
+                "hp": "ОЗ",
+                "spell": "Закл.",
+                "dc": "КС",
+                "areaDamage": "Урон по площади",
+                "perception": "Восприятие",
+                "abilityScore": "Характеристики",
+                "skill": "Навыки"
+            }
+        },
+        "skillActions": {
+            "Title": "Действия Навыков",
+            "Settings": {
+                "Position": {
+                    "name": "Позиция Действий Навыков",
+                    "hint": "Выберите позицию Действий Навыков в листе персонажа. Вверх: Перед Ударами, Внизу: После других Действий",
+                    "bottom": "Внизу",
+                    "disabled": "Отключено",
+                    "top": "Вверху"
+                },
+                "hideDuplicates": {
+                    "name": "Skill Actions hide duplicate actions",
+                    "hint": "Whether to hide duplicate actions in the action list or the skill action list",
+                    "doNotHide": "Do not hide",
+                    "hideActions": "Hide actions",
+                    "hideSkillActions": "Hide skill actions"
+                },
+                "IconStyle": {
+                    "name": "Стиль иконок Действий Навыков",
+                    "hint": "Выберите стиль иконки Действий Навыков.",
+                    "actionCostIcon": "Иконки кол-ва действия",
+                    "skillIcon": "Иконки Навыков"
+                },
+                "Description": {
+                    "name": "Skill Actions Description",
+                    "hint": "Whether to show the actions description in the chat when rolling"
+                },
+                "variants": {
+                    "createADiversion": {
+                        "distractingWords": "Distracting Words",
+                        "gesture": "Gesture",
+                        "trick": "Trick"
+                    }
+                }
+            },
+            "UnequipAll": {
+                "Tooltip": "Toggle hidden actions. Hold alt when clicking to make unequip/equip all skills."
+            }
+        },
+        "spellCardNotFound": "The spell card could not be found. Casting {spell} at minimum level for that spell.",
+        "effects": {
+            "orcFerocityUsed": "Orc Ferocity Used",
+            "bounceBackUsed": "Bounce Back Used",
+            "numbToDeathUsed": "Numb To Death Used",
+            "deliberateDeathUsed": "Deliberate Death Used"
+        },
+        "macros": {
+            "basicActionMacros": {
+                "title": "Действие: {name}",
+                "noActorSelected": "Не выбран актер",
+                "gmMustImport": "ГМ должен Импортировать все содержимое \"xdy-pf2e-workbench-macros\" и обязательно выбрать \"Сохранить ID\" при импорте.",
+                "cancel": "Отмена",
+                "YouAreTheBestInYourParty": "You are the best in your party",
+                "second": "(-5)",
+                "third": "(-10)",
+                "settings": {
+                    "showBestBonus": {
+                        "name": "Show if best in Basic Action Macros",
+                        "hint": "Whether to show if the selected actor has the best bonus in the Basic Action Macros dialog"
+                    }
+                },
+                "actions": {
+                    "AidToggle": "(Эффект) Помощь",
+                    "AvoidNotice": "СКР: Избег.Обнаруж.",
+                    "Balance": "АКР: Балансировать",
+                    "Climb": "АТЛ: Карабкаться",
+                    "Coerce": "ЗПГ: Принуждение",
+                    "CommandAnAnimal": "ПРД: Команда Животному",
+                    "Craft": "РМС: Создание",
+                    "CreateADiversionGesture": "ОБМ: Отвлечь - Жест",
+                    "CreateADiversionTrick": "ОБМ: Отвлечь - Слово",
+                    "DecipherWritingArcana": "Decipher writing - Arcana",
+                    "DecipherWritingOccultism": "Decipher writing - Occultism",
+                    "DecipherWritingReligion": "Decipher writing - Religion",
+                    "DecipherWritingSociety": "Decipher writing - Society",
+                    "Demoralize": "ЗПГ: Деморализовать",
+                    "DisableDevice": "DisableDevice",
+                    "Disarm": "АТЛ: Разоружение",
+                    "Feint": "ОБМ: Финт",
+                    "FollowTheExpertToggle": "(Эффект) Повторять",
+                    "ForceOpen": "АТЛ: Открыть Силой",
+                    "GatherInformation": "ДИП: Собрать Информ.",
+                    "Grapple": "АТЛ: Захватить",
+                    "Hide": "СКР: Спрятаться",
+                    "Impersonate": "ОБМ: Перевоплотиться",
+                    "JumpHigh": "АТЛ: Прыжок в Высоту",
+                    "JumpLong": "АТЛ: Прыжок в Длину",
+                    "Lie": "ОБМ: Лгать",
+                    "MakeAnImpression": "ДИП: Впечатление",
+                    "ManeuverInFlight": "АКР: Маневр в Полете",
+                    "Perform": "Perform",
+                    "PickALock": "ВОР: Вскрытие Замка",
+                    "RaiseAShieldToggle": "(Эффект) Поднять Щит",
+                    "RecallKnowledge": "(Макрос) Вспом.Информ.",
+                    "Repair": "РМС: Ремонт",
+                    "Request": "ДИП: Просьба",
+                    "Seek": "ВОС: Поиск",
+                    "SenseDirection": "ВЫЖ: Направление",
+                    "SenseMotive": "ВОС: Понять Намерение",
+                    "Shove": "АТЛ: Толкнуть",
+                    "Sneak": "СКР: Красться",
+                    "Squeeze": "АКР: Протиснуться",
+                     "SubsistSociety": "Subsist - Society",
+                    "SubsistSurvival": "Subsist - Survival",
+                    "Swim": "АТЛ: Плыть",
+                    "TakeCoverToggle": "(Эффект) Укрытие",
+                    "Track": "ВЫЖ: Выслеживать",
+                    "TreatDisease": "МЕД: Болезнь",
+                    "TreatPoison": "МЕД: Яд",
+                    "TreatWounds": "МЕД: Раны",
+                    "Trip": "АТЛ: Опрокинуть",
+                    "TumbleThrough": "АКР: Проскочить"
+                }
+            },
+            "buildNpcSpellbookJournal": {
+                "title": "Build NPC Spellbook Journal",
+                "noSpellcastingEntry": "You must have either an NPC character sheet open and selected, or a single NPC token selected. Also, said NPC must have a spellcasting entry.",
+                "generatedSpellbookFor": "Generated spellbook for {name}"
+            },
+            "refocus": {
+                "regains": "Восстановлено {focus} ОФ",
+                "notPsychic": "spent at least {regain} focus points",
+                "isPsychic": "spent Focus Points only to amp psi cantrips or fuel psychic abilities",
+                "regainOne": "Восстановить 1 ОФ",
+                "disabled": "Вы не можете восстановить более 1 ОФ",
+                "enabled": "Восстановить {regain} ОФ",
+                "one": "1",
+                "selectOneActor": "Выберите одного актера"
+            },
+            "whirlwindStrike": {
+                "starts": "{name} Whirlwind Strike starts!",
+                "ends": "{name} Whirlwind Strike ends after {targets} attacks!",
+                "error": "Select a token with Whirlwind Strike and at least one target within reach!"
+            }
+        },
+        "modules": {
+            "pf2e-sheet-skill-actions": "The module pf2e-sheet-skill-actions is no longer maintained, all it's functions are part of the Workbench, please turn it off.",
+            "pf2e-toolbox": "The module pf2e-toolbox is no longer maintained, most of it's functions are part of the Workbench, please turn it off.",
+            "multilevel-tokens": "The module Multilevel Tokens (and probably other modules that teleport tokens) may have problems with teleporting as you have enabled the optional Workbench setting to change token animation."
+        },
+        "SETTINGS": {
+            "abpVariantAllowItemBonuses": {
+                "hint": "Не отключает бонусы предметов при использование Вариатного Правила Автоматическая Прогрессия Бонуса",
+                "name": "АПБ и бонус Предмета"
+            },
+            "actionsReminderAllow": {
+                "all": "Все",
+                "gm": "ГМ",
+                "hint": "Кто получает напоминание о количестве действий в чате.",
+                "name": "Напоминание о кол-во действий",
+                "none": "Никто",
+                "players": "Игроки"
+            },
+            "addGmRKButtonToNpc": {
+                "hideNpcName": "Hide NPC name on Recall Knowledge message.",
+                "hideSkill": "Hide skill name on Recall Knowledge message.",
+                "hint": "Check to add Recall Knowlege button to NPCs. Currently only for the skill, lores will have to be handled manually.",
+                "name": "Add Recall Knowledge button to NPCs."
+            },
+            "addUserTargets": {
+                "addFor": "Add targets for",
+                "clearFor": "Clear targets for",
+                "hint": "Keybind to add selected and hovered tokens to the chosen user's targets.",
+                "name": "Add user targets",
+                "title": "Select user to add targets for"
+            },
+            "applyClumsyIfWieldingLargerWeapon": {
+                "hint": "Поставьте галочку, чтобы автоматически накладывать состояние Неуклюжесть, если у вас в руках оружие для большего размера, чем вы.",
+                "name": "Неуклюжесть с большим оружием"
+            },
+            "applyEncumbranceBasedOnBulk": {
+                "hint": "Поставьте галочку, чтобы автоматически накладывает состояние Перегружен. Обратите внимание, что код системы считает, что 5 Масс + 9 Легких = 5 Масс",
+                "name": "Штраф Перегружен"
+            },
+            "applyPersistentAllow": {
+                "all": "Все",
+                "gm": "ГМ",
+                "hint": "Выберите, кому дается доступ к настройкам Автоматизации Продолжительного Урона/Исцеления. Сохраните настройки, чтобы показать/скрыть эти дополнительные настройки в Менеджер Автоматизации Клиента",
+                "name": "Досту к Авто Продолж.Урону",
+                "none": "Никто",
+                "players": "Игроки"
+            },
+            "applyPersistentDamage": {
+                "hint": "Поставьте галочку, чтобы автоматически получать урон от Продолж.Урона (Требует модуль Persistent Damage)",
+                "name": "Автоурон от Продолж.Урон",
+                "wasDamaged": "Было нанесено {damage} урона"
+            },
+            "applyPersistentHealing": {
+                "FastHealingLabel": "Получено от Быстрое Исцеление",
+                "hint": "Поставьте галочку, чтобы автоматически получать исцеление от Продолж.Урон.",
+                "name": "Авто-исцеление от Продолж.Урон",
+                "RegenerationLabel": "Получено от Регенерация",
+                "wasHealed": "Было исцелено {healing} ОЗ"
+            },
+            "autoCollapseItemChatCardContent": {
+                "collapsedDefault": "Collapsed by default, click title to expand.",
+                "hint": "Client setting to automatically collapse item chat card content.",
+                "name": "Automatically collapse item chat card content.",
+                "noCollapse": "Never collapse",
+                "nonCollapsedDefault": "Expanded by default, click title to collapse."
+            },
+            "autoCollapseItemActionChatCardContent": {
+                "collapsedDefault": "Collapsed by default, click title to expand.",
+                "hint": "Client setting to automatically collapse action chat card content.",
+                "name": "Automatically collapse action chat card content.",
+                "noCollapse": "Never collapse",
+                "nonCollapsedDefault": "Expanded by default, click title to collapse."
+            },
+            "autoCollapseItemAttackChatCardContent": {
+                "collapsedDefault": "Collapsed by default, click title to expand.",
+                "hint": "Client setting to automatically collapse attack chat card content.",
+                "name": "Automatically collapse attack chat card content.",
+                "noCollapse": "Never collapse",
+                "nonCollapsedDefault": "Expanded by default, click title to collapse."
+            },
+            "autoExpandDamageRolls": {
+                "collapsedAll": "All damage rolls collapse (default foundry).",
+                "expandedAll": "All damage rolls expand.",
+                "expandedNew": "New damage rolls expand (also expands last three damage rolls on refresh).",
+                "expandedNewest": "New damage rolls expand (also expands the very last damage roll on refresh).",
+                "hint": "Client setting to automatically expand damage rolls (foundry default is all damage rolls collapsed). Click dice roll to expand/collapse.",
+                "name": "Automatically expand damage rolls."
+            },
+            "autoGainDyingAtZeroHP": {
+                "addOne": "+1",
+                "addOneForCharacters": "+1, для персонажей и фамильяров",
+                "addWoundedLevel": "+1+Ранен",
+                "addWoundedLevelForCharacters": "+1+Ранен, для персонажей и фамильяров",
+                "deliberateDeathMessage": "{name} использует @Compendium[pf2e.feats-srd.30e9SdbmI3t5OJQE], перед тем как получить повышение При Смерти.",
+                "hint": "Выберите, кто получает автоматизацию автоматического повышения При Смерти",
+                "name": "Автоповышение При Смерти",
+                "no": "Никто",
+                "orcFerocityMessage": "{name} использует @Compendium[pf2e.feats-srd.PlhPpdwIV0rIAJ8K] и может использовать @Compendium[pf2e.actionspf2e.FkfWKq9jhhPzKAbb]"
+            },
+            "automationClientSettings": {
+                "hint": "Включить и настроить Автоматизацию Клиента",
+                "label": "Менеджер Автоматизации Клиента",
+                "name": "Настройки Автоматизации Клиента"
+            },
+            "automationWorldSettings": {
+                "hint": "Включить и Настроить Автоматизации Мира для ГМ",
+                "label": "Менеджер Автоматизации Мира",
+                "name": "Настройки Автоматизации Мира"
+            },
+            "autoReduceStunned": {
+                "hint": "Поставьте галочку, чтобы автоматически понижать Ошеломлен в начале раунда.",
+                "name": "Автопонижение Ошеломлен"
+            },
+            "autoRemoveDyingAtGreaterThanZeroHP": {
+                "hint": "Выберите, кто получает автоматизацию автоматического снятия состояния При Смерти, если ОЗ цели становится более 0 ОЗ",
+                "name": "Автоснятие При Смерти",
+                "no": "Никто",
+                "removeDying": "Все",
+                "removeDyingForCharacters": "Персонажи и Фамильяры"
+            },
+            "autoRemoveUnconsciousAtGreaterThanZeroHP": {
+                "hint": "Поставьте галочку, чтобы автоматически снимать состояние Без Сознания, если ОЗ цели становится более 0 ОЗ",
+                "name": "Автоснятие Без Сознания"
+            },
+            "autoRollDamageAllow": {
+                "all": "Все",
+                "gm": "ГМ",
+                "hint": "Выберите, кому дается доступ к настройкам Автоматического броска урона при Попадание. Сохраните настройки, чтобы показать/скрыть эти дополнительные настройки в Менеджер Автоматизации Клиента",
+                "name": "Доступ к Авто Броску Урона",
+                "none": "Никто",
+                "players": "Игроки"
+            },
+            "autoRollDamageForSpellAttack": {
+                "hint": "Поставьте галочку, чтобы автоматически совершать бросок урона заклинания при попадание заклинанием. Обратите внимание, что система бросает простой бросок урона при крит.попадание заклинанием.",
+                "name": "Авто.Бросок Урона: Атака Закл."
+            },
+            "autoRollDamageForSpellNotAnAttack": {
+                "hint": "Поставьте галочку, чтобы автоматически совершать бросок урона заклинания не требующего атаку заклинанием (чаще всего при КС Закл.)",
+                "name": "Авто.Бросок Урона: Закл"
+            },
+            "autoRollDamageForStrike": {
+                "hint": "Поставьте галочку, чтобы автоматически совершать бросок урона Удара при попадание. Обратите внимание, что при крит.попадание совершается бросок крит.урона.",
+                "name": "Авто.Бросок Урона: Удар.",
+                "strike": "Удар"
+            },
+            "autoRollDamageNotifyOnSpellCardNotFound": {
+                "hint": "Поставьте галочку, чтобы напоминать если при атаке заклинанием, в деталях заклинания не найдена информация о уроне заклинанием.",
+                "name": "Костыль: Нет инф. о уроне закл."
+            },
+            "callHotbarMacro": {
+                "hint": "Горячая Клавиша для активации макроса из панели быстрого доступа СТР.:{page} Позиция: {column}",
+                "name": "Панель Стр.:{page} Позиция: {column}"
+            },
+            "playerFeatsPrerequisiteHint": {
+                "hint": "Client setting to add an asterisk to the name for feats with a prerequisite set.",
+                "name": "Add an asterisk to the name for feats with a prerequisite."
+            },
+            "playerFeatsRarityColour": {
+                "hint": "Client setting to show feat names in rarity colour on actor sheets.",
+                "name": "Show feat names in rarity colour on actor sheets."
+            },
+            "playerSpellsRarityColour": {
+                "hint": "Client setting to show spell names in rarity colour on actor sheets.",
+                "name": "Show spell names in rarity colour on actor sheets."
+            },
+            "castPrivateSpell": {
+                "hint": "Check to enabling ctrl-clicking Cast on a spell casts it, but the message is whispered to caster and GM.",
+                "name": "Ctrl-click Cast to cast in private."
+            },
+            "castPrivateSpellAlwaysForNPC": {
+                "hint": "Check to always cast privately for npcs.",
+                "name": "Check to always cast privately for npcs."
+            },
+            "castPrivateSpellWithPublicMessage": {
+                "cantrip": "Cantrip",
+                "components": "Components:",
+                "firstPart": "{tokenName} just cast a {vsmf} {type} of the <strong>{traditionString}</strong> tradition",
+                "hint": "If casting privately, this setting also posts a public message that a spell has been cast UNLESS you hold SHIFT as well as CTRL while casting.",
+                "name": "Post public message that a spell has been cast.",
+                "savePart": "<br>Save for the unknown spell is: @Check[type:{dataSave}|dc:{dataDC}|traits:{traits}]",
+                "secondPartNoRk": ".<br>Ask your GM if you recognized it automatically, if not you can try using one of @UUID[Compendium.pf2e.feats-srd.MjQyTcV8Jiv1Jtln] or @UUID[Compendium.pf2e.feats-srd.2rSyTfPgAmNAo01r]. Or, on your turn, spend an action to try to identify it (ask your gm for details).",
+                "secondPartRK": ".<br>Ask your GM if you recognized it automatically, if not you can try using one of @UUID[Compendium.pf2e.feats-srd.MjQyTcV8Jiv1Jtln] or @UUID[Compendium.pf2e.feats-srd.2rSyTfPgAmNAo01r]. Or, on your turn, spend an action to try to identify it with @Check[type:{skill}|dc:{dcRK}|traits:secret,action:recall-knowledge]{rk}",
+                "spell": "Spell",
+                "they": "They"
+            },
+            "castPrivateSpellWithPublicMessageShowTraits": {
+                "hint": "Show spell traits in the public message.",
+                "name": "Show spell traits in the public message.",
+                "traitPart": " with these traits: <strong>{traits}</strong>"
+            },
+            "creatureBuilder": {
+                "hint": "Check to allow building custom creatures according to GMG rules.",
+                "name": "Allow building custom creatures."
+            },
+            "customPauseImage": {
+                "hint": "Custom image to use for the pause image. Leave empty to use the default clockwork icon.",
+                "name": "Custom image to use for the pause image."
+            },
+            "customPauseText": {
+                "hint": "Custom text to use for the pause text. Leave empty to use the default 'Game Paused'.",
+                "name": "Custom text to use for the pause text."
+            },
+            "customPauseRelocation": {
+                "hint": "Put the pause image in the middle of the screen, with the text above it.",
+                "name": "Center pause image with text above it."
+            },
+            "decreaseFrightenedConditionEachTurn": {
+                "hint": "Поставьте галочку, чтобы автоматически понижать состояние Напуган в конце хода цели. Для персонажей, НПС и фамильяров.",
+                "name": "Автопонижение Напуган"
+            },
+            "enableAutomaticMove": {
+                "hint": "Выберите, чтобы включить атоматическое изменение инициативы. Обычно, это происходит потому что один сражающийся доводит другого сражающегося до 0 ОЗ. В этом случае побежденный сражающийся изменит свою инициативу, чтобы она была перед инициативой победившего сражающегося.",
+                "name": "Изменять инициативу сражающихся",
+                "noAutomation": "Отключено",
+                "reaching0HP": "Когда сражающийся достигает 0 ОЗ"
+            },
+            "giveUnconsciousIfDyingRemovedAt0HP": {
+                "hint": "Поставьте галочку, чтобы автоматически получать состояние Без Сознания, если снято При Смерти, но цель остается в 0 ОЗ.",
+                "name": "Без Сознания при 0 ОЗ",
+                "no": "Нет"
+            },
+            "giveWoundedWhenDyingRemoved": {
+                "hint": "Поставьте галочку, чтобы автоматически получать состояние Ранен, после снятия При Смерти",
+                "name": "Ранен после При Смерти",
+                "numbToDeathMessage": "{name} получает преимущество от @Compendium[pf2e.feats-srd.gfMP2aMs3YGONVeB]. Получите исцеление вручную."
+            },
+            "heroPointHandler": {
+                "add": "Добавить",
+                "addedFor": "1 Очко Героя получает {name}",
+                "addedToForAll": "{heroPoints} Очков Героя получают все",
+                "addOne": "<b>Раздел 2</b> - Добавьте Очко Героя выбранному персонажу, из тех что вошел в игру (по умолчанию случайный персонаж по истечению Обратного Отсчета)",
+                "all": "Все",
+                "defaultTimeoutMinutes": 60,
+                "doWhat": "<b>Раздел 1</b> - Выберите, что делать с Очками Героя у <em>ВСЕХ</em> персонажей",
+                "hint": "Поставьте галочку, чтобы включить функцию Выдачи Очков Героя (в настройках горячих клавиш необходимо настроить активацию этой функции), в которой можно сбросить или добавить Очки Героя. А так же активировать обратный отсчет (по умолчанию 60 минут), чтобы автоматически запустить функцию Выдача Очков Героя. Эта функция является Напоминием, что Очки Героя это ресурс, что должен выдаваться часто.",
+                "ignore": "Никому",
+                "instructions": "Обратите внимание, что Обратный Отсчет приостановлен, пока открыто это окно. Простое закрытие этого окна возобновит Обратный Отсчет, или вы можете использовать кнопки в нижней части этого окна.",
+                "minutesLeft": "минут",
+                "name": "Функция Выдача Очков Героя",
+                "none": "Никому",
+                "noRunningTimer": "Обратный Отсчет отключен",
+                "noTimerLabel": "Сохранить изменения, но остановить и сбросить обратный отсчет.",
+                "resetTo": "Установить определенное число Очков Героя",
+                "resetToForAll": "Установить всем по {heroPoints} Очков Героя",
+                "showAfter": "Обратный Отсчет",
+                "startTimerLabel": "Сохранить измения и начать/продолжить обратный отсчет",
+                "thisMany": "Значение Очков Героя",
+                "timerStopped": "Обратный Отсчет Выдачи Очков Героя остановлен",
+                "timerValue": "Остаток Обратного Отсчета (Диапазон 0-60)",
+                "title": "Выдача Очков Героя",
+                "willBeResetIn": "Выдача Очков Героя запустить через {remainingMinutes} минут ({time})."
+            },
+            "heroPointHandlerDefaultTimeoutMinutes": {
+                "hint": "Установите кол-во минут до повторного запуска функции Выдача Очков Героя",
+                "name": "Обратный Отсчет"
+            },
+            "heroPointHandlerKey": {
+                "hint": "Установите горячие клавиши, для запуска функции Выдача Очков Героя",
+                "name": "Запуск Выдачи Очков Героя"
+            },
+            "heroPointHandlerStartTimerOnReady": {
+                "hint": "Поставьте галочку, чтобы атоматически запускать Обратный Отсчет, для функции Выдача Очков Героя, при запуске игры.",
+                "name": "Автозапуск Обратного Отсчета"
+            },
+            "maxHeroPoints": {
+                "hint": "Настройка Мира: Установите максимальное количество Очков Героя у персонажей.",
+                "name": "(Мир) Макс. кол-во Очков Героя"
+            },
+            "moveBeforeCurrentCombatantContextMenu": {
+                "name": "Move selected combatant before the current combatant."
+            },
+            "moveBeforeCurrentCombatantKey": {
+                "hint": "World keybind for moving selected combatant to before the current combatant, normally because the current combatant has killed the selected combatant. Due to rounding several combatants may show the same initiative in the list.",
+                "name": "(World) keybind to move selected combatant before current combatant."
+            },
+            "mystificationSettings": {
+                "hint": "Включить и настроить Мист.НПС",
+                "label": "Менеджер Мистификации НПС",
+                "name": "Настройки Мистификации НПС"
+            },
+            "notifications": {
+                "cantMystify": "You cannot mystify this token. Is it on the active scene, and, are you a GM?"
+            },
+            "npcMystifier": {
+                "hint": "Поставьте галочку, чтобы включить Мистификацию НПС. Вы сможете переименовывать токены на активной сцене в зависимости от их характеристик, если при добавлении на сцену нажата клавиша Ctrl (настраивается). Сохраните настройки, чтобы показать/скрыть дополнительные настройки.",
+                "name": "Включить Мистикацию НПС"
+            },
+            "npcMystifierAddRandomProperty": {
+                "hint": "Select a type of random property to add when mystifying npcs that can optionally be kept.",
+                "name": "Add random property of chosen type to name",
+                "none": "None",
+                "numberPostfix": "Number as postfix",
+                "wordPrefix": "Word as prefix"
+            },
+            "npcMystifierBlacklist": {
+                "hint": "Add words to filter out contents of this comma-separated blocklist from the mystified name.",
+                "name": "Blocklist traits to never add"
+            },
+            "npcMystifierDemystifyAllTokensBasedOnTheSameActor": {
+                "hint": "Check to make all mystification act on all tokens based on the same actor.",
+                "name": "Demystify all tokens of actor"
+            },
+            "npcMystifierKeepRandomProperty": {
+                "hint": "Check to keep number postfix/word prefix *in the same format as currently configured in this module* (if any) as a postfix/prefix to the name when mystifying/demystifying npcs.",
+                "name": "Keep prefix/postfix when mystifying/demystifying."
+            },
+            "npcMystifierModifierKey": {
+                "alt": "Alt",
+                "always": "Always",
+                "control": "Control",
+                "disabled": "Disabled",
+                "hint": "Select to enable setting which key to hold to mystify creature as it's dragged out to the active scene. Note that if you choose Alt (not the default) it also hides the npc.",
+                "name": "Key to mystify on drag to scene"
+            },
+            "npcMystifierMystifyKey": {
+                "hint": "Set keybind to mystify selected tokens.",
+                "name": "Keybind for mystifying selected tokens"
+            },
+            "npcMystifierNoMatch": {
+                "hint": "Text to use when no matching trait is found, so name would be empty. (Empty string here will be set to '...')",
+                "name": "No match text"
+            },
+            "npcMystifierPostfix": {
+                "hint": "Add text to postfix new name with, defaults to '' (example: 'Creature'), if this matches the name of a rollable table a random text result from this table will be used as the postfix instead. This will be added *before* any random property prefix (see previous option.)",
+                "name": "Word or rollable table postfix"
+            },
+            "npcMystifierPrefix": {
+                "hint": "Add text to prefix new name with (infix if a random word property is chosen above), defaults to '' (example: 'Unknown'), if this matches the name of a rollable table a random text result from this table will be used as the prefix instead.  This will be added *after* any random property postfix (see previous option.)",
+                "name": "Word or rollable table prefix"
+            },
+            "npcMystifierRandomPropertySkipForUnique": {
+                "hint": "Check to skip adding a random property when mystifying unique npcs. (I.e. it's kept when you demystify the npc.)",
+                "name": "Skip random persistent property for unique npcs."
+            },
+            "npcMystifierUseAlignmentTraits": {
+                "hint": "Check to use alignment traits in the mystified name.",
+                "name": "Use npc alignment traits."
+            },
+            "npcMystifierUseCreatureTraits": {
+                "hint": "Check to use all 'creature traits' as defined in the pf2e system in the mystified name.",
+                "name": "Use creature traits."
+            },
+            "npcMystifierUseCreatureTypesTraits": {
+                "hint": "Check to use creature type traits (see https://2e.aonprd.com/Traits.aspx) in the mystified name.",
+                "name": "Use creature type traits"
+            },
+            "npcMystifierUseEliteWeak": {
+                "hint": "Check to use elite/weak in the mystified name.",
+                "name": "Use elite/weak status"
+            },
+            "npcMystifierUseMystifiedNameInChat": {
+                "hint": "(Experimental) Check to use mystified name inside chat messages by replacing the actor name with the mystified name.",
+                "name": "(Experimental) Mystify name in chat messages."
+            },
+            "npcMystifierUseOtherTraits": {
+                "hint": "Check to use all npc traits not already included by any of the above settings in the mystified name.",
+                "name": "Use other traits"
+            },
+            "npcMystifierUseRarities": {
+                "hint": "Check to use rarities in the mystified name.",
+                "name": "Use rarity"
+            },
+            "npcMystifierUseRaritiesReplacement": {
+                "hint": "Enter word to replace rarities greater than Common with (e.g. 'Unusual') in this text field. If empty, do not change the displayed rarity.",
+                "name": "Replace rarities rarer than Common"
+            },
+            "npcMystifierUseSize": {
+                "hint": "Check to use the actor's size in the mystified name",
+                "name": "Use actor size"
+            },
+            "npcMystifierWordPrefix": {
+                "hint": "Adds a random word from the given roll table as a prefix if 'Word prefix' is chosen).",
+                "name": "Add random word from the given roll table"
+            },
+            "npcMystifyAllPhysicalMagicalItems": {
+                "hint": "Автоматически мистифицировать любые невременные алхимическими или магические предметы, когда НПС добавляется на сцену, если включена настройка системы PF2E \"Добыча НПС\"",
+                "name": "Мистифицировать Добычу НПС"
+            },
+            "npcRoller": {
+                "hint": "Check to enable the NPC quick roller utility.",
+                "name": "Enable NPC roller utility"
+            },
+            "npcScaler": {
+                "hint": "Check to allow scaling NPCs",
+                "name": "Allow scaling NPCs"
+            },
+            "qolWorldSettings": {
+                "hint": "Enable and configure quality of life settings for GMs",
+                "label": "Manage World QoL Settings",
+                "name": "World QoL Settings"
+            },
+            "quickQuantities": {
+                "hint": "Use shift-click on item quantities to add 5, ctrl-click to add 10.",
+                "name": "Use shift-click on item quantities to add 5, ctrl-click to add 10."
+            },
+            "reminderBreathWeapon": {
+                "defaultName": "Дыхание",
+                "hint": "Поставьте галочку, чтобы включить напоминание о Перезарядке Атаки Даханием",
+                "name": "Напоминание об Атаке Дыханием",
+                "prefix": "Перезарядка",
+                "source": "Создано модулем PF2e Workbench",
+                "used": "Использовать "
+            },
+            "reminderCannotAttack": {
+                "dead": "- мертв",
+                "defeated": "- побежден",
+                "hasNoHp": "- не имеет ОЗ",
+                "hint": "Поставьте галочку, чтобы включить напоминание, если вы атакуете токеном, который не может атаковать из-за того, что он без сознания/мертв/побежден и т.д.",
+                "name": "Напоминание о невозможности атаки",
+                "note": "Вы уверены что можете атаковать? {actorName} {reason}, и соотвественно не может атаковать...",
+                "petrified": "- окаменел",
+                "unconscious": "- без сознания"
+            },
+            "reminderCannotAttackIgnoreDeadEidolon": {
+                "hint": "Поставьте галочку, чтобы напоминание о невозможности атаки, не реагировало на эйдлонов.",
+                "name": "Костыль: пусть Эйдолон атакует"
+            },
+            "remindersSettings": {
+                "hint": "Включить и настроить Напоминания",
+                "label": "Менеджер Напоминаний",
+                "name": "Настройки Напоминаний"
+            },
+            "reminderTargeting": {
+                "hint": "Поставьте галочку, чтобы включить напоминание о выборе цели в бою.",
+                "name": "Напоминание о Целе",
+                "note": "В следующий раз выберите цель"
+            },
+            "tokenAnimation": {
+                "hint": "Enable to alter token movement animation. This may cause problems with the module Multilevel Tokens.",
+                "name": "Enable to alter token movement animation."
+            },
+            "tokenAnimationSpeed": {
+                "hint": "Change to alter token movement animation speed.",
+                "name": "Change to alter token movement animation speed."
+            },
+            "variantRulesSettings": {
+                "hint": "Включить и настроить Вариантные Правила",
+                "label": "Менеджер Вариантных Правил",
+                "name": "Настройка Вариантных Правил"
+            },
+            "workbenchVersion": {
+                "hint": "Версия, в которой выполнялась последняя миграция. Может быть ниже версии модуля. Не изменяйте это, если вы не знаете, что делаете.",
+                "name": "Версия миграции"
+            }
+        }
+    }
+}

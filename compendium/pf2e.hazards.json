@@ -1,0 +1,163 @@
+{
+	"label": "Опасности (Основные)",
+	"mapping": {
+		"description": "system.details.publicNotes",
+		"img": "img",
+		"tokenName": "prototypeToken.name",
+		"tokenImg": "prototypeToken.texture.src",
+		"tokenvision": "prototypeToken.vision",
+		"tokendisplayBars": "prototypeToken.displayBars",
+		"tokendisplayName": "prototypeToken.displayName",
+		"randomImg": "prototypeToken.randomImg",
+		"hstealth": "system.attributes.stealth.details",
+		"hdisable": "system.details.disable",
+		"hdescription": "system.details.description",
+		"hreset": "system.details.reset",
+		"hroutine": "system.details.routine",
+		"classDC": "system.attributes.classDC",
+		"keyability": "system.attributes.keyability.value",
+		"PackAttack": "system.attributes.PackAttack"
+    },
+	"entries": [
+	{
+		"id": "Sportlebore",
+		"name": "Ягодицы",
+		"tokenName": "Ягодицы",
+		"tokenImg": "modules/PF2E-TS-RUB/art/hazard/Sportlebore%20(1).webp",
+		"img": "modules/PF2E-TS-RUB/art/hazard/Sportlebore%20(3).webp",
+		"randomImg": true,
+		"tokenvision": true,
+		"tokendisplayBars": 40,
+		"tokendisplayName": 20,
+		"hstealth": "<p><span class=\"Эксперт\">ЭКСПЕРТ</span></p>",
+		"hdescription": "<p>Ягодицы прячутся среди съестных припасов на тарелке с едой или в упаковке рациона.</p>",
+		"hdisable": "<p>Существо, заметившее ягодицу, может удалить её из еды, в которой оно @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятано}, автоматически выбрасывает её в качестве <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действия</span> @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовия}.</p>",
+		"items": {
+			"Spore Explosion": {
+				"name": "Взрыв Спор",
+				"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо попадает в пространство плесени или наносит ей урон. Грибок не может использовать эту <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, если находится на прямом солнечном свете или если урон был огненный.</p>\n<hr />\n<p><span style=\"color: #e03e2d;\"><strong>Спровоцировавшее</strong></span> существо и все существа в пределах @Template[type:emanation|distance:10] подвергаются спорам желтой плесени.</p>"
+			},
+			"Yellow Mold Spores": {
+				"name": "Споры Жёлтой Плесени",
+				"description": "<p class=\"Нарратив\">Любое полученное от спор состояние истощен, остается после завершения продолжительности яда.</p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:26]</p>\n<hr />\n<div data-visibility=\"gm\">\n<p><span style=\"color: #808000;\"><strong>Макс. Продол.:</strong></span> 6 раундов</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия: 1</strong></span> [[/r 1d8[poison]]]{1d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия: 2</strong></span> [[/r 2d8[poison]]]{2d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия: 3</strong></span> [[/r 3d8[poison]]]{3d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 3} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+			}
+		}
+	},
+	{
+		"id": "Yellow Mold",
+		"name": "Жёлтая Плесень",
+		"tokenName": "Жёлтая Плесень",
+		"tokenImg": "modules/PF2E-TS-RUB/art/hazard/Yellow%20Mold%20(1).webp",
+		"img": "modules/PF2E-TS-RUB/art/hazard/Yellow%20Mold%20(2).webp",
+		"randomImg": true,
+		"tokenvision": true,
+		"tokendisplayBars": 40,
+		"tokendisplayName": 20,
+		"hstealth": "<p><span class=\"Обучен\">ОБУЧЕН</span></p>",
+		"hdescription": "<p>Споры ядовитой плесени нападают на ближайших существ</p>",
+		"hdisable": "<p><span class=\"Эксперт\">ЭКСПЕРТ</span> @Check[type:survival|dc:26|name:Убрать Плесень], чтобы убрать плесень не провоцируя споры</p>",
+		"items": {
+			"Spore Explosion": {
+				"name": "Взрыв Спор",
+				"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо попадает в пространство плесени или наносит ей урон. Грибок не может использовать эту <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, если находится на прямом солнечном свете или если урон был огненный.</p>\n<hr />\n<p><span style=\"color: #e03e2d;\"><strong>Спровоцировавшее</strong></span> существо и все существа в пределах @Template[type:emanation|distance:10] подвергаются спорам желтой плесени.</p>"
+			},
+				"Yellow Mold Spores": {
+				"name": "Споры Жёлтой Плесени",
+				"description": "<p class=\"Нарратив\">Любое полученное от спор состояние истощен, остается после завершения продолжительности яда.</p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:26]</p>\n<hr />\n<div data-visibility=\"gm\">\n<p><span style=\"color: #808000;\"><strong>Макс. Продол.:</strong></span> 6 раундов</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия: 1</strong></span> [[/r 1d8[poison]]]{1d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия: 2</strong></span> [[/r 2d8[poison]]]{2d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия: 3</strong></span> [[/r 3d8[poison]]]{3d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 3} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+			}
+		}
+	},
+	{
+		"id": "Hidden Pit",
+		"name": "Спрятанная Яма",
+		"tokenName": "Спрятанная Яма",
+		"tokenImg": "",
+		"img": "",
+		"randomImg": true,
+		"tokenvision": true,
+		"tokendisplayBars": 40,
+		"tokendisplayName": 20,
+		"hstealth": "<p>(или 0 если люк отключен или сломан)</p>",
+		"hdescription": "<p>Деревянный люк закрывает яму площадью 10 квадратных футов и глубиной 20ФТ.</p>",
+		"hdisable": "<p>@Check[type:thievery|dc:12|name:Убрать Люк], чтобы, убрать люк</p>",
+		"hreset": "<p>Существа все еще могут упасть в ловушку, но люк нужно сбросить вручную, чтобы ловушка снова стала @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятанной}.</p>",
+		"items": {
+			"Pitfall": {
+				"name": "Падение в Яму",
+				"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо проходит по люку</p>\n<hr />\n<p><span style=\"color: #e03e2d;\"><strong>Спровоцировавшее</strong></span> существо падает в яму и получает <span class=\"Урон\">Урон от падения</span> (обычно [[/r 10[bludgeoning]]]{10 Дробящ.}). Это существо может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span> @Compendium[pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Схватиться за Уступ}, чтобы избежать падения.</p>"
+			}
+		}
+	},
+	{
+		"id": "Poisoned Lock",
+		"name": "Отравленный Замок",
+		"tokenName": "Отравленный Замок",
+		"tokenImg": "",
+		"img": "",
+		"randomImg": true,
+		"tokenvision": true,
+		"tokendisplayBars": 40,
+		"tokendisplayName": 20,
+		"hstealth": "<p><span class=\"Обучен\">ОБУЧЕН</span></p>",
+		"hdescription": "<p>Подпружиненный отравленный шип спрятан возле замочной скважины. Отключение или разламывание ловушки, не отключает или ломает замок (они независимы).</p>",
+		"hdisable": "<p><span class=\"Обучен\">ОБУЧЕН</span> @Check[type:thievery|dc:17|name:Сломать Прудину в Замке|traits:mechanical,trap] на механизме пружины</p>",
+		"items": {
+			"Spine": {
+				"name": "Шип (Яд)"
+			},
+			"Spring": {
+				"name": "Пружина",
+				"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо пытается отпереть замок или использовать @Compendium[pf2e.actionspf2e.2EE4aF4SZpYf0R6H]{Вскрытие Замка}</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Шип</span> выдвигается, чтобы @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударить} <span style=\"color: #e03e2d;\"><strong>спровоцировавшее</strong></span> существо</p>"
+			},
+			"Cladis Poison": {
+				"name": "Яд Кладис",
+				"description": "<p class=\"Заг2\">@Check[type:fortitude|dc:19]</p>\n<div data-visibility=\"gm\">\n<p><strong><span style=\"color: #808000;\">Макс. Продол.:</span> </strong>4 часа</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия 1:</strong> </span>[[/r 1d6[poison]]] и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} (1 час)</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 2:</strong></span> [[/r 2d6[poison]]]{2d6 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2} (1 час)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 3:</strong></span> [[/r 3d6[poison]]]{3d6 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2} (1 час)</p>\n</div>"
+			}
+		}
+	},
+	{
+		"id": "Web Lurker Noose",
+		"name": "Петля Эттеркапа",
+		"tokenName": "Паутина-Петля",
+		"randomImg": true,
+		"tokenvision": true,
+		"tokendisplayBars": 40,
+		"tokendisplayName": 20,
+		"hdescription": "<p>Незаметная паутина на уровне горла затягивается на существе, которое в нее входит.</p>",
+		"hdisable": "<p><span class=\"Обучен\">ОБУЧЕН</span> @Check[type:survival|dc:18|name:Развязать Петлю|traits:mechanical,trap|showDC:gm] или <span class=\"Эксперт\">ЭКСПЕРТ</span> @Check[type:thievery|dc:18|name:Развязать Петлю|traits:mechanical,trap|showDC:gm] что развязать петлю</p>",
+		"items": {
+			"LZTjCUaLv54zwB8W": {
+				"name": "Паутина-Петля",
+				"description": "<div><span class=\"Триг\">Триггер</span>: Существо выходит в пространстрво <span style=\"text-decoration: underline; color: #34495e;\">Паутины-петли</span></div>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Паутина-Петля</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"color: #34495e;\"><u>удушением</u></span> по стригирившему существу.</p>"
+			},
+			"VNaaW87S24zzxXZh": {
+				"name": "Петля (Улуч.Захват)",
+				"description": "<p class=\"Нарратив\">При <span style=\"color: #169179;\"><strong>попадание </strong></span>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} цель автоматически @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватывается} и отрывается от земли.</p>\n<div data-visibility=\"gm\">\n<p>@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться КС22}</p>\n</div>\n<p>Цель получает [[/r 1d6[bludgeoning]]]{1d6 Дробящий} <span style=\"text-decoration: underline; color: #000080;\"><em>в конце каждого своего хода</em></span>, пока она поймана в петлю.</p>"
+			}
+		}
+	},
+	{
+		"id": "Brown Mold",
+		"name": "Коричневая Плесень",
+		"tokenName": "Корич. Плесень",
+		"randomImg": true,
+		"tokenvision": true,
+		"tokendisplayBars": 40,
+		"tokendisplayName": 20,
+		"hstealth": "<p><span class=\"Обучен\">ОБУЧЕН</span></p>",
+		"hdescription": "<p>Этот неприметный грибок выкачивает тепло из воздуха.</p>",
+		"hdisable": "<p><span class=\"Обучен\">ОБУЧЕН</span> @Check[type:survival|dc:18|name:Убрать Кроич.Плесень|traits:environmental,fungus|showDC:gm], чтобы безопасно убрать плесень</p>",
+		"hreset": "<p>После расширения, коричневая плесень не может расти снова 1 день.</p>",
+		"items": {
+			"NcyiM0WihYrncbSF": {
+				"name": "Выделение Холода",
+				"description": "<p class=\"Нарратив\">@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]@Template[type:emanation|distance:5]{5 фт}</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Коричневая Плесень</span> наносит [[/r 2d6[cold]]]{2d6 Холода} существам поблизости.</p>"
+			},
+			"MQ3CKYIdF6zrMg0x": {
+				"name": "Выкачивание Тепла",
+				"description": "<div><span class=\"Триг\">Триггер</span>: В 5 футах от <span style=\"text-decoration: underline; color: #34495e;\">Корич.Плесени</span> появляется <span style=\"text-decoration: underline; color: #a52a2a;\">огонь</span></div>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Корич.Плесень</span> расширяется на каждый квадрат рядом со своим пространством. По мере роста, она вытягивает больше тепла из окружения, после расширения нанося существам в пределах 10ФТ [[/r {2d6+6}[cold]]]{2d6+6 Холода}</p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:18|basic:true|showDC:gm]</p>"
+			}
+		}
+	}		
+	]
+}

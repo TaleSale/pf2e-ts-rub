@@ -1,0 +1,35 @@
+{
+	"label": "Способности Бестиария (Вариант)",
+	"entries": [
+		{
+			"id": "(Greater Barghest) Mutation - Poison Fangs",
+			"name": "(Великий Баргест) Мутация - Ядовитые Клыки",
+			"description": "<p class=\"Нарратив\">У баргеста вырастают удлиненные клыки, сочащиеся ядом.</p>\n<hr />\n<p>Его челюсти наносят дополнительные [[/r 1d6[poison]]] и @Localize[PF2E.PD.Poison.1d6].</p>"
+		},
+		{
+			"id": "(Greater Barghest) Mutation - Toxic Breath",
+			"name": "(Великий Баргест) Мутация - Токсичное Дыхание",
+			"description": "<p class=\"Нарратив\">Баргест выдыхает облако токсичного газа, наносящее всем существам в @Template[type:cone|distance:30]{Конус 30} [[/r 8d6[poison]]]</p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:25|basic:true]{Простая Стойкость}</p>\n<div data-visibility=\"gm\">\n<p>Он не может снова использовать <span style=\"text-decoration: underline;\">\"Токсичное Дыхание\"</span> [[1d4]] раунда.</p>\n</div>"
+		},
+		{
+			"id": "(Greater Barghest) Mutation - Vestigial Arm Strike",
+			"name": "(Великий Баргест) Мутация - Удар Рудиментарной Рукой",
+			"description": "<div><span class=\"Част\">Частота</span>: 1/Раунд;&nbsp;</div>\n<div><span class=\"Триг\">Триггер</span>: Баргест завершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</div>\n<hr />\n<p><span style=\"color: #2dc26b;\"><strong>Эффект: </strong></span>Баргест наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} когтями вместе со скрюченной рукой свисающей с торса. Эта атака не учитывается для <span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> баргеста, и он не применяется к этой атаке.</p>"
+		},
+		{
+			"id": "(Greater Barghest) Mutation - Wings",
+			"name": "(Великий Баргест) Мутация - Крылья",
+			"description": "<p class=\"Нарратив\">У баргеста есть деформированные крылья, выходящие из спины.</p>\n<hr />\n<p>Он получает Скорость полета 25ФТ.</p>"
+		},
+		{
+			"id": "(Protean) Protean Anatomy",
+			"name": "(Протей) Анатомия Протеев",
+			"description": "<p class=\"Нарратив\">Жизненно важные органы <span class=\"Признак\">протеев</span> постоянно перемещаются и меняют форму и положение.</p>\n<p>&diams; Сразу же после того, как <span class=\"Признак\">протей</span> получает урон <span class=\"Урон\">кислотой</span>, <span class=\"Урон\">электр.</span> или <span class=\"Урон\">звуком</span>, он <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.c6SiBB3mzV8lZUQr]{Получает} указанное количество <span class=\"Сопр\">Сопротивление</span> к этому типу урона.</p>\n<blockquote class=\"Уточнить\">Это длится 1 час или до тех пор, пока <span class=\"Признак\">протей</span> в следующий раз не получит урон одного из других типов (в этом случае его сопротивление изменится в соответствии с этим типом), в зависимости от того, что наступит раньше.</blockquote>\n<p>&diams; <span class=\"Признак\">Протеи</span> невосприимчивы к эффектам <span class=\"Признак\">Полиморфа</span>, если только он не является согласной целью.</p>\n<p>&diams; Будучи @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} или @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Оглухшим}, <span class=\"Признак\">протей</span> автоматически восстанавливается <span class=\"До\">в конце своего след.хода</span>, поскольку новые органы чувств вырастают вместо поврежденных.</p>"
+		},
+		{
+			"id": "(Protean) Warpwave",
+			"name": "(Протей) Варп-Волна",
+			"description": "<p class=\"Нарратив\">Протей атакует ваше ощущение реальности, времени и пространства.</p>\n<p>Когда существо <span class=\"Провал\">проваливает</span> <span class=\"КБ\">Спас.</span> воздействию <span style=\"text-decoration: underline; color: #34495e;\">Варп-Волны</span> бросьте [[1d8]]{1d8} и существо получает соотвествующий эффект на [[1d4[rounds]]]{1d4} раундов или до следующего эффекта <span style=\"text-decoration: underline; color: #34495e;\">Варп-Волны</span>.</p>\n<hr />\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th style=\"width: 15%; text-align: center;\">d8</th>\n<th style=\"width: 85%; text-align: center;\">Эффект Варп-Волны</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width: 15%; text-align: center;\">1</td>\n<td style=\"width: 85%; text-align: center;\">@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 2}<br />@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 3} - <span class=\"Критпровал\">Крит.Провал</span></td>\n</tr>\n<tr>\n<td style=\"width: 15%; text-align: center;\">2</td>\n<td style=\"width: 85%; text-align: center;\">@Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательство}<br />но получает [[/r 4d6 #Temporary Hit Points]]{4d6 Врем.ОЗ}</td>\n</tr>\n<tr>\n<td style=\"width: 15%; text-align: center;\">3</td>\n<td style=\"width: 85%; text-align: center;\">@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен}<br />(Навсегда при <span class=\"Критпровал\">Крит.Провал</span>)</td>\n</tr>\n<tr>\n<td style=\"width: 15%; text-align: center;\">4</td>\n<td style=\"width: 85%; text-align: center;\">@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 2} @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 3} - <span class=\"Критпровал\">Крит.Провал</span></td>\n</tr>\n<tr>\n<td style=\"width: 15%; text-align: center;\">5</td>\n<td style=\"width: 85%; text-align: center;\">@Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен}</td>\n</tr>\n<tr>\n<td style=\"width: 15%; text-align: center;\">6</td>\n<td style=\"width: 87.91%; text-align: center;\">@Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорен} (Перемещение, Шаг или Удар)</td>\n</tr>\n<tr>\n<td style=\"width: 15%; text-align: center;\">7</td>\n<td style=\"width: 85%; text-align: center;\">@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1}</td>\n</tr>\n<tr>\n<td style=\"width: 15%; text-align: center;\">8</td>\n<td style=\"width: 85%; text-align: center;\">@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 2} @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 3} - <span class=\"Критпровал\">Крит.Провал</span></td>\n</tr>\n</tbody>\n</table>"
+		}
+	]
+}

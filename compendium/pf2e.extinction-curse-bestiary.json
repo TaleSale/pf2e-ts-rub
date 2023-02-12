@@ -1,0 +1,152 @@
+{
+	"label": "Бестиарий (Вымирание)",
+	"mapping": {
+		"description": "data.details.publicNotes",
+		"img": "img",
+		"tokenName": "token.name",
+		"tokenImg": "token.img",
+		"tokenvision": "token.vision",
+		"tokendisplayBars": "token.displayBars",
+		"tokendisplayName": "token.displayName",
+		"randomImg": "token.randomImg",
+		"abilityspell": "items.data.ability.value",
+		"spellattack": "items.data.spelldc.value",
+		"spelldc": "items.data.spelldc.dc",
+		"hstealth": "data.attributes.stealth.details",
+		"hdisable": "data.details.disable",
+		"hdescription": "data.details.description",
+		"hreset": "data.details.reset",
+		"hroutine": "data.details.routine"
+		},
+	"entries": [
+		{
+			"id": "Maze of Mirrors",
+			"name": "Лабиринт Зеркал",
+			"tokenName": "Лабиринт Зеркал",
+			"tokenImg": "modules/PF2E-TS-RUB/art/hazard/Maze%20Mirror%202.webp",
+			"img": "modules/PF2E-TS-RUB/art/hazard/Maze%20Mirror.webp",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "<span class=\"Обучен\">ОБУЧЕН</span> - Обнаружить магические руны в лабиринте; заметьте, что сам лабиринт имеет КС0",
+			"hdescription": "Невидимые руны в лабиринте сбивают с толку тех, кто в нем находится, и заставляют его зеркальные стены двигаться.",
+			"hdisable": "<p>&diams; <span class=\"Эксперт\">ЭКСПЕРТ</span>@Check[type:thievery|dc:26|name:Остановить Зеркала|traits:hazard,complex,magical,mechanical,trap] или @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG] (<span style=\"color: #236fa1;\">Ур.(5):</span>@Compendium[PF2E-TS-RUB.spiski.lYdYqTKsve5Wi75r]{Противодействие}[[28]]) чтобы остановить зеркала;</p>\n<p>&diams; <span class=\"Эксперт\">ЭКСПЕРТ</span>@Check[type:occultism|dc:28|name:Рассеять Минотавра|traits:hazard,complex,magical,mechanical,trap] или @Check[type:religion|dc:28|name:Рассеять Минотавра|traits:hazard,complex,magical,mechanical,trap], чтобы рассеять минотавра.</p>",
+			"hroutine": "<p class=\"Заг2\">3 Действия</p>\n<hr />\n<p><span style=\"color: #000080;\"><strong>1. </strong></span><span style=\"text-decoration: underline; color: #34495e;\">Лабиринт</span> использует свое <span style=\"background-color: #9beca3;\">первое действие</span>, чтобы волшебным образом перетасовать зеркала, делая отметки или карты лабиринта неэффективными. Существа в лабиринте <span style=\"color: #ba372a;\"><strong>провалившие </strong></span><span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:26|traits:hazard,complex,magical,mechanical,trap|showDC:gm]</strong></span> получает @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 1}, пока не покинут <span style=\"text-decoration: underline; color: #34495e;\">лабиринт</span>. Если цель повторно <span class=\"Провал\">проваливает</span> <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>, то значение Одурманен увеличивается до максимум @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 4}.</p>\n<p><span style=\"color: #000080;\"><strong>2. </strong></span> При <span style=\"background-color: #9beca3;\">втором действие</span> <span style=\"text-decoration: underline; color: #34495e;\">Призрачный Минотавр</span> атакует случайное существо в <span style=\"text-decoration: underline; color: #34495e;\">лабиринте</span>.</p>\n<p><span style=\"color: #000080;\"><strong>3. </strong></span> При <span style=\background-color: #9beca3;\">третьем действие</span> <span style=\"text-decoration: underline; color: #34495e;\">Призрачный Минотавр</span> еще раз атакует случайное существо в <span style=\"text-decoration: underline; color: #34495e;\">лабиринте</span>.</p>",
+			"hreset": "<span class=\"Признак2\"><span class=\"Признак2\">Опасность</span></span> <span style=\"text-decoration: underline; color: #169179;\">отключается</span>, если в течение <span style=\"color: #808000;\"><strong>1 минуты</strong></span> в лабиринте не появляется ни одного существа.",
+			"items": {
+				"KVrMIzW0i6AHJQvS": {
+					"name": "Пробуждение Лабиринта",
+					"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо входит в <span style=\"text-decoration: underline; color: #34495e;\">лабиринт</span></p>\n<hr />\n<p>Существа в <span style=\"text-decoration: underline; color: #34495e;\">лабиринте</span> не могут выбраться из него, кроме как с помощью магии <span style=\"text-decoration: underline; color: #a52a2a;\">телепортации</span> или как описано в <span style=\"text-decoration: underline; color: #169179;\">отключение</span>. <span class=\"Признак2\"><span class=\"Признак2\">Опасность</span></span> делает бросок <span style=\"color: #808000;\"><strong>инициативы</strong></span>.</p>"
+				},
+				"yaYZxfRFuqY5ZKUv": {
+					"name": "Запутанный Лабиринт",
+					"description": "<p class=\"Нарратив\">Каждый ход после того, как цель совершила действие <span class=\"Признак\">движения</span> в <span style=\"text-decoration: underline; color: #34495e;\">лабиринте</span>, она может потратить <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span>, чтобы попытаться пройти проверку @Check[type:perception|dc:26|name:Выйти из Лабирианта|traits:hazard,complex,magical,mechanical,trap|showDC:gm] или @Check[type:survival|dc:26|name:Выйти из Лабирианта|traits:hazard,complex,magical,mechanical,trap|showDC:gm], чтобы выбраться из <span style=\"text-decoration: underline; color: #34495e;\">лабиринта</span>.</p>\n<p>Группа, путешествующая вместе по лабиринту, рассматривается как единая цель; не более одного существа в группе могут совершать эту проверку в каждом раунде, но сопровождающие существа могут @Compendium[pf2e.actionspf2e.HCl3pzVefiv9ZKQW]{Помочь} в этой проверке.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель выбирается из Лабиринта.</p>\n<p><span style=\"color: #169179;\"><strong>Успех:</strong></span> Цель на правильном пути. Если цель уже была на правильном пути, то она выбирается из Лабиринта.</p>\n<p><span class=\"Провал\">Провал:</span> Цель не выбирается.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Цель не выбирается. Если цель была на правильном пути, то она его теряет.</p>"
+				},
+				"BTkdHTwWzCskxz7S": {
+					"name": "Призрачный Минотавр"
+				}
+			}
+		},
+		{
+			"id": "Hallowed Wheel",
+			"name": "Священное Колесо",
+			"tokenName": "Священное Колесо",
+			"tokenImg": "modules/PF2E-TS-RUB/art/hazard/Hallowed%20Wheel%202.webp",
+			"img": "modules/PF2E-TS-RUB/art/hazard/Hallowed%20Wheel.webp",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "<span class=\"Эксперт\">ЭКСПЕРТ</span> - для обнаружения магического датчика; заметив, что КС <span style=\"text-decoration: underline; color: #34495e;\">Колеса</span> равен 0",
+			"hdescription": "Богато украшенное колесо, разделенное на восемь сегментов с руной, нарисованной на каждом, установлено на шесте и управляется рычагом, который можно активировать вручную, или датчиком, обнаруживающим существ в пределах 30ФТ.",
+			"hdisable": "<p>&diams; <span class=\"Мастер\">МАСТЕР</span>@Check[type:thievery|dc:31|name:Выключить Колесо|traits:hazard,complex,magical,mechanical,trap|showDC:gm] на колесе, чтобы щелкнуть выключателем, возвращающим его к безобидной карнавальной игре</p>\n<p>&diams; <span class=\"Эксперт\">ЭКСПЕРТ</span>@Check[type:thievery|dc:26|name:Стереть Руну|traits:hazard,complex,magical,mechanical,trap], чтобы стереть руну</p>\n<p>&diams;@Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]: <span style=\"color: #236fa1;\"><strong>Ур.(5):</strong></span>@Compendium[PF2E-TS-RUB.spiski.lYdYqTKsve5Wi75r]{Противодействие}[[/r 28]]{КС 28} каждой руне.</p>",
+			"hroutine": "<p class=\"Заг2\">2 Действия</p>\n<hr />\n<p><strong><span style=\"color: #000080;\">1. </span></strong>В своей <span style=\"color: #808000;\"><strong>инициативе </strong></span><span class=\"Признак2\"><span class=\"Признак1\">ловушка</span></span> использует <span style=\"background-color: #9beca3;\">первое действие</span> для вращения, затем останавливается. Бросьте [[/r 1d8]], чтобы определить, какой сегмент окажется самым верхним, когда колесо перестанет вращаться.</p>\n<p><strong><span style=\"color: #000080;\">2.</span></strong> Колесо использует свое <span style=\"background-color: #9beca3;\">второе действие</span>, чтобы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворить} заклинание, указанное для этого сегмента (Ур.(5),КС27,Атака+17). Цель этого заклинания находится в центре или иным образом включает в себя ближайшее существо в области действия заклинания. Это увеличивает дальность действия заклинания до 30ФТ, если это необходимо. Любое заклинание, наложенное этой ловушкой, является <span style=\"text-decoration: underline; color: #a52a2a;\">оккультным</span>.</p>\n<table style=\"background-color: #fbeeb8; border-color: #34495e; border-style: solid; margin-left: auto; margin-right: auto;\" border=\"1\">\n<thead>\n<tr>\n<td style=\"text-align: center;\">[[/r 1d8]]</td>\n<td style=\"text-align: center;\">Заклинание</td>\n<td style=\"text-align: center;\">Эффекты</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">1</td>\n<td style=\"text-align: center;\">@Compendium[pf2e.spells-srd.2w4OpAGihn1JSHFD]</td>\n<td style=\"text-align: center;\">@Template[type:burst|distance:20|name:Black Tentacles|traits:hazard,complex,magical,mechanical,trap,conjuration,occult]<br />[[/r 1d20+17]]{+17Атака по КС СТК}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">2</td>\n<td style=\"text-align: center;\">@Compendium[pf2e.spells-srd.VosLNn2M8S7JH67D]</td>\n<td style=\"text-align: center;\">@Check[type:fortitude|dc:27|name:Blindness|traits:hazard,complex,magical,mechanical,trap,incapacitation,necromancy,occult|showDC:gm]{СТК}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">@Compendium[pf2e.spells-srd.LiGbewa9pO0yjbsY]</td>\n<td style=\"text-align: center;\">@Check[type:will|dc:27|name:Confusion|traits:hazard,complex,magical,mechanical,trap,emotion,enchantment,mental,occult|showDC:gm]{Воля}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">@Compendium[pf2e.spells-srd.YvXKGlHOt7mdW2jZ]</td>\n<td style=\"text-align: center;\">Дистанция: 30ФТ</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">@Compendium[pf2e.spells-srd.KSAEhNfZyXMO7Z7V]</td>\n<td style=\"text-align: center;\">@Check[type:will|dc:27|name:Outcast's Curse|traits:hazard,complex,magical,mechanical,trap,curse,enchantment,mental,misfortune,occult|showDC:gm]{Воля}<br />Дистанция: 30ФТ</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">@Compendium[pf2e.spells-srd.IqJ9URobmJ9L9UBG]</td>\n<td style=\"text-align: center;\">@Template[type:line|distance:30|traits:hazard,complex,magical,mechanical,trap,evocation,occult,shadow|width:5]<br />@Check[type:reflex|dc:27|basic:true|name:Shadow Blast|traits:hazard,complex,magical,mechanical,trap,evocation,occult,shadow|showDC:gm]{РФЛ}/@Check[type:will|dc:27|basic:true|name:Shadow Blast|traits:hazard,complex,magical,mechanical,trap,evocation,occult,shadow|showDC:gm]{Воля}<br />[[/r 5d8[force]]]{5d8 Силовой Урон}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">7</td>\n<td style=\"text-align: center;\">@Compendium[pf2e.spells-srd.wzLkNU3AAqOSKFPR]</td>\n<td style=\"text-align: center;\">@Template[type:burst|distance:10|traits:hazard,complex,magical,mechanical,trap,evocation,occult,sonic]<br />@Check[type:fortitude|dc:27|name:Sound Burst|traits:hazard,complex,magical,mechanical,trap,evocation,occult,sonic|showDC:gm]{СТК}<br />[[/r 2d10[sonic]]]{2d10 Звуковой}</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: center;\">@Compendium[pf2e.spells-srd.5KobTMrZeZxuXMgl]</td>\n<td style=\"text-align: center;\">Дистанция: 30ФТ</td>\n</tr>\n</tbody>\n</table>",
+			"hreset": "<span class=\"Признак2\"><span class=\"Признак1\">ловушка</span></span> отключается, если в течение 1 минуты ни одно существо не движется в пределах досягаемости ее датчика.",
+			"items": {
+				"Stv3Oe7QU577Gke1": {
+					"name": "Вращение Колеса",
+					"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо нажимает на рычаг или входит в зону обнаружения датчика.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Колесо</span> начинает вращаться и перебрасывает <span style=\"color: #808000;\"><strong>инициативу</strong></span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Vavakia",
+			"name": "Вавакия, Демон-Джаггернаут",
+			"tokenName": "Вавакия",
+  			"img": "modules/PF2E-TS-RUB/art/pf2e-pathfinder-bestiary/art/demon/18Demon_Vavakia.webp",
+			"description": "",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"111": {
+					"name": "11",
+					"description": ""
+				},
+				"222": {
+					"name": "22",
+					"description": ""
+				},
+				"333": {
+					"name": "11",
+					"description": ""
+				},
+				"444": {
+					"name": "22",
+					"description": ""
+				},
+				"555": {
+					"name": "11",
+					"description": ""
+				},
+				"666": {
+					"name": "22",
+					"description": ""
+				},
+				"777": {
+					"name": "11",
+					"description": ""
+				},
+				"888": {
+					"name": "22",
+					"description": ""
+				}
+			}
+		},
+		{
+			"id": "Vermlek",
+			"name": "Вермлек, Демон-Червь",
+			"tokenName": "Вермлек",
+  			"img": "modules/PF2E-TS-RUB/art/pf2e-pathfinder-bestiary/art/demon/03Demon_Vermlek.webp",
+			"description": "<h2 class=\"Заг2\">Вермлек</h2>\n<p><span style=\"text-decoration: underline; color: #34495e;\">Вермлеки</span>, также называемые демонами-червями, появляются из душ смертных, осквернивших мертвых, таких как расхитители могил или некроманты. Эти <span style=\"text-decoration: underline; color: #a52a2a;\">исчадья</span> доводят свои нарушения до новой крайности, используя свои демонические силы, чтобы ужасающе пронзать своих живых жертв и надевать оставшуюся оболочку из плоти.</p>\n<p>В своей естественной форме <span style=\"text-decoration: underline; color: #34495e;\">вермлек</span> напоминает огромного розоватого червя с четырьмя длинными хвостами. Его рот разделяется на четыре сегмента, как нечестивый тюльпан, усеянный рядами десятков заостренных зубов. Однако чаще всего эти <span style=\"text-decoration: underline; color: #a52a2a;\">исчадья</span> встречаются только после того, как они вползают в тело мертвого гуманоида и делают выдолбленную плоть своим временным хозяином.</p>\n<p><span style=\"text-decoration: underline; color: #34495e;\">Вермлеки</span> используют свои способности обмана и маскировки, чтобы проникать в поселения смертных и влиять на невольных знакомых тел, которые они носят. Особо умные или коварные <span style=\"text-decoration: underline; color: #34495e;\">вермлеки</span> могут даже достичь постов реальной власти в рядах армии или правительства, и в этот момент разоблачение их истинной формы может нанести ущерб народным массам, которых они так тщательно одурачили.</p>\n<p>Коронеры и священники в кишащих демонами землях сразу понимают, что имеют дело с вермлеком, когда им приносят труп, представляющий собой не более чем мешок с кожей.</p>\n<hr />\n<h2 class=\"Заг2\">Демон(Общее)</h2>\n<p>Когда грешная смертная душа осуждена и отправлена в Бездну, она может превратиться в смертоносного беса - демона. Демоны являются живыми воплощениями греха, будь то классические грехи, такие как гнев или обжорство, или более \"специализированные\" пороки, такие как одержимость пытками или акт измены или предательства. Будучи однажды сформированным, его движущие цели двояки: накопление личной силы и развращение смертных душ, чтобы они запятнались грехом. Таким образом демоны обеспечивают нескончаемый приток новых демонов для пополнения своих постоянно растущих рядов в Бездне.</p>\n<hr />\n<h2 class=\"Заг2\">Демонические Божества</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Самые могущественные демоны известны как повелители демонов (данный термин нейтрален по половому признаку). Из этих божеств @Compendium[pf2e.deities.aipkJQxP4GBsTaGq]{Ламашту} является самой могущественной. Существует бесчисленное множество других повелителей демонов, включая @Compendium[pf2e.deities.bLI1JMpI2GXQT5AC]{Абраксаса}, @Compendium[pf2e.deities.gXHoxuuiAD54LnWV]{Сит-Ви`зага}, @Compendium[pf2e.deities.V5PbbkZUP9N7kl6h]{Кабрири} и @Compendium[pf2e.deities.8ZSywyo8YQPduo92]{Зуру}.</p>\n<hr />\n<h2 class=\"Заг2\">Природа Хаоса</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые говорят, что природа хаоса по своей сути исключает сотрудничество и изощренность, но демоны доказывают ошибочность этого утверждения.</p>\n<hr />\n<h2 class=\"Заг2\">Что Есть Грех?</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые подразделяют грех на 7 категорий: зависть, чревоугодие, жадность, похоть, гордыню, леность и гнев. Хотя в этих грехах олицетворены некоторые из самых могущественных и многочисленных демонов, их гораздо больше семи. Любой акт жестокости или разрушения, который совершает смертный, чтобы удовлетворить себя за счет других, по сути, является грехом, и любой такой акт может породить демона из души в загробной жизни.</p>\n<hr />\n<h2 class=\"Заг2\">Демоническая Одержимость</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые демоны специализируются в искусстве одержимости над существами или объектами, чтобы сеять страх и хаос. В таких случаях демон приобретает мощную маскировку, с помощью которой он творит зло в мире, что является доставляющей ему удовольствие уловкой.</p>\n<hr />\n<h2 class=\"Заг2\">Разрушительность Греха</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя им нравится и самим причинять разрушения, большинство демонов предпочитают обманывать и искушать смертных, заставляя их по собственной воле придаваться греху.</p>\n<hr />\n<h2 class=\"Заг2\">Места Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Разрастающееся, вздымающееся, изменчивое царство Бездны это планарный дом демонической жизни, но демонов можно встретить везде, где существует потенциал к греху. Злые или глупые колдуны любят обращаться к демонам за советом или за более темными нуждами. Когда Бездна прорывается через границы реальности, создавая похожие на раны порталы в другие миры, демоны могут вырваться наружу и посеять невероятный хаос.</p>\n<hr />\n<h2 class=\"Заг2\">Источники Демонического</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Когда грешной смертной душе предписано попасть в Бездну, она проводит время, утопая в трясине и питаясь нечистотами. Если она выживет и не оказывается съедена, эта душа в конце концов превращается в демона, на что влияет природа ее греха, однако большинство демонов способны к самостоятельному размножению. Плодовитость демонической жизни это, пожалуй, самый значительный и грозный аспект этих опасных бесов.</p>\n<hr />\n<h2 class=\"Заг2\">Другие Демоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна, возможно, самый большой из Внешних Планов, и смертные обладают сопоставимым потенциалом предавать себя, общество и естественный порядок реальности. Благодаря этому безграничному источнику все более особых грехов, Бездна постоянно порождает новые виды демонов, досаждающих реальности. Хотя подавляющее большинство из них быстро уничтожается и больше никогда не возникают, их выживает достаточное количество, чтобы помимо перечисленных здесь, существовали десятки, если не сотни, видов демонов. Теневой @Compendium[pf2e.pathfinder-bestiary-2.M2BkGD9YwEmCvD9D]{Инвидиак} - демон без тела, порожденный завистливыми душами. Козлолицый, огнедышащий @Compendium[pf2e.pathfinder-bestiary-3.rVtBZrHnWM3lvSs7]{Бриморак} появляется из душ поджигателей. Склизкие, рогатые @Compendium[pf2e.pathfinder-bestiary-2.Ud6Iy1GolgtwrKQK]{Бабау, Кровавый Демон} порождаются из убийц, @Compendium[pf2e.pathfinder-bestiary-2.YUZF9WhDmfzma3dE]{Нальфешни, Демон-Кабан} - из жадных... и этот список можно продолжать и продолжать.</p>\n<hr />\n<h2 class=\"Заг2\">Вызов Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/dice-twenty-faces-twenty.svg\" width=\"50\" height=\"50\" /> Вызов демонов является опрометчивым, но отчаявшиеся или злые все же делают это. Для долгосрочных целей типичны такие ритуалы, как @Compendium[pf2e.spells-srd.vgy00hnqxN9VoeoF] или @Compendium[pf2e.spells-srd.2ykmAVKrsAWcazcC], а для боевого применения подходит @Compendium[pf2e.spells-srd.29ytKctjg7qSW2ff]. Для ритуала планарного союзника демоны иногда принимают подношения, которые не представляют ценности, при условии, что их дарение демону толкает ритуалиста дальше во грех.</p>\n<hr />\n<h2 class=\"Заг2\">Полудемоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна может развращать живых существ посредством прямого слияния или сверхъестественного вливания энергии Бездны, что приводит к появлению чудовищных гибридов. Полудемон должен быть индивидуально созданным существом, но вы можете быстро создать его, наделив существующее существо несколькими умениями демона, а также уязвимостью, связанной с грехом демона. Например, Полу-@Compendium[pf2e.pathfinder-bestiary-2.wqiFcGPARy8zmQfd]{Хезру} @Compendium[pf2e.pathfinder-bestiary.aqW5sp9HPgZgpXxs] получит уязвимость к чистоте, но также возможно, укус, Скорость плавания и ядовитые гнойники. При перекидывании умений между существами разных уровней не забудьте скорректировать числа в соответствии с новым уровнем.</p>\n<hr />\n<h2 class=\"Заг2\">Новички Бездны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя сейчас демоны являются самыми многочисленными <span style=\"text-decoration: underline; color: #a52a2a;\">исчадьями</span> Бездны, они являются относительными новичками, появившимися только когда смертное влияние, и в частности смертный грех, начали формировать этот план. На протяжении веков демоны боролись за господство с другими давними обитателями Бездны, но в конце концов их численность позволила стать доминирующими хаотичными бесами.</p>\n<hr />\n<h2 class=\"Заг2\">Демоны и Души</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Демоны, как и многие другие <span style=\"text-decoration: underline; color: #a52a2a;\">исчадья</span>, жаждут душ. По их мнению, главное предназначение этих душ - порождать новых демонов, которые могут служить солдатами, рабами, пешками или даже валютой для их более могущественных хозяев.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"XUhIXiVMEs1bgrP7": {
+					"name": "Укус",
+					"description": ""
+				},
+				"0eCHhLgu7JC3do8q": {
+					"name": "Отбросить Тело",
+					"description": "<p class=\"Нарратив\"><span class=\"Треб\">Требования</span>: <span style=\"text-decoration: underline; color: #34495e;\">Демон-Червь</span> обитает в теле</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Демон-Червь</span> выползает из тела, в котором обитает, пожирая большую часть оставшейся плоти тела и в процессе восстанавливая [[/r 10[healing]]]{10 ОЗ}.</p>\n<p>Труп, который он оставляет, представляет собой не более чем шелуху.</p>"
+				},
+				"yVbYX4gSvL0pm4Py": {
+					"name": "Заселить Тело",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Демон-Червь</span> вползает в тело соседнего мертвого <span style=\"text-decoration: underline; color: #a52a2a;\">гуманоида</span> <span class=\"Размер\">среднего</span> размера, съедая при этом большую часть скелета и внутренних органов жертвы и втискиваясь в полость.</p>\n<hr />\n<p>Пока <span style=\"text-decoration: underline; color: #34495e;\">Демон-Червь</span> обитает в теле, он теряет свою атаку <span style=\"text-decoration: underline; color: #34495e;\">Укусом</span>, но может владеть оружием, как <span class=\"Признак\">гуманоид</span>, получает бонус <span class=\"Обстоятельства\">обстоятельства</span> +3 <span class=\"КБ\">КБ</span> и +3 <span class=\"ХАР\">Обман</span>, чтобы @Compendium[pf2e.actionspf2e.AJstokjdG6iDjVjE]{Выдать} себя за существо, в котором он обитает.</p>\n<hr />\n<p>Он не может использовать эту способность, если уже находится в теле.</p>"
+				},
+				"WmQ1U0HMX7ayTqMC": {
+					"name": "Тревожное Движение",
+					"description": "<p class=\"Нарратив\">Всякий раз, когда <span style=\"text-decoration: underline; color: #34495e;\">Вермлек</span> <span style=\"text-decoration: underline; color: #34495e;\">Отбрасывает Тело</span> или <span style=\"text-decoration: underline; color: #34495e;\">Заселяет Тело</span>, все существа в @Template[type:emanation|distance:30], которые могут видеть <span style=\"text-decoration: underline; color: #34495e;\">Вермлека</span>, должны преуспеть в <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:19|showDC:owner|traits:emotion,fear,mental,visual]</strong></span> или же получает @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1} (а так же @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} при <span class=\"Критпровал\">крит.провале</span>).</p>"
+				},
+				"38UzCSLYydGU7NfZ": {
+					"name": "Отвращение к Упущенным Возможностям",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Демон-Червь</span> не выносят вида хорошей еды, которую преподносят, а затем быстро уносят.</p>\n<hr />\n<p>Всякий раз, когда существо @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1] в поле зрения <span style=\"text-decoration: underline; color: #34495e;\">Демона-Червя</span> снимает состояние <span class=\"Рес\">При Смерти</span>, <span style=\"text-decoration: underline; color: #34495e;\">Демон-Червь</span> получает [[/r 1d6[mental]]]{1d6 Ментал.}.</p>"
+				}
+			}
+		}
+	]
+}

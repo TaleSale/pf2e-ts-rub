@@ -1,0 +1,934 @@
+{
+	"label": "Бестиарий (АП: Катакомбы Мерзости)",
+	"mapping": {
+		"description": "system.details.publicNotes",
+		"img": "img",
+		"tokenName": "prototypeToken.name",
+		"tokenImg": "prototypeToken.texture.src",
+		"tokenvision": "prototypeToken.vision",
+		"tokendisplayBars": "prototypeToken.displayBars",
+		"tokendisplayName": "prototypeToken.displayName",
+		"randomImg": "prototypeToken.randomImg",
+		"hstealth": "system.attributes.stealth.details",
+		"hdisable": "system.details.disable",
+		"hdescription": "system.details.description",
+		"hreset": "system.details.reset",
+		"hroutine": "system.details.routine",
+		"classDC": "system.attributes.classDC",
+		"keyability": "system.attributes.keyability.value",
+		"PackAttack": "system.attributes.PackAttack"
+    },
+	"entries": [
+		{
+			"id" : "C7LvY2Xxzm2xRL1M",
+			"name" : "Кусь-Кусь"
+		},
+		{
+			"id": "Boss Skrawng",
+			"name": "Босс Скраунг",
+			"tokenName": "Скраунг",
+			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Митфлиты</span>, также известные как клещи, &mdash; это ненавидящие себя и жалкие трусы, которых легко запугать и заставить служить другим существам или даже чуть более могущественным лидерам <span class=\"Повтор\">Митфлитов</span>. <span class=\"Повтор\">Митфлиты</span> приручают насекомых, пауков и других подобных существ, чтобы они служили им верными союзниками. <span class=\"Повтор\">Митфлиты</span> утратили большую часть своей родовой магии <span class=\"Признак2\"><span class=\"Признак1\">гремлинов</span></span>, оставив этих незавершенных существ, полных сомнений и неуверенности. <span class=\"Повтор\">Митфлиты</span> находят компанию среди других низменных существ мира и завязывают узы дружбы с паразитами, единственными другими существами, которые, кажется, готовы их принять. Социальная структура, даже та, в которой над ними издеваются, частично заполняет дыру в личности <span class=\"Повтор\">митфлитов</span>, и они редко бунтуют или ругаются, если только их ярость не достигает предела.</p>\n<hr />\n<p><span class=\"Признак2\"><span class=\"Признак1\">гремлины</span></span> &mdash; жестокие феи-обманщики и саботажники, полностью приспособившиеся к жизни на Материальном Плане и нашедшие определенные ниши для своей изобретательной разрушительной деятельности. Все гремлины наслаждаются тем, что разрушают или ломают вещи, будь то что-то физическое, например, устройство или транспортное средство, или что-то нематериальное, например союз или отношения. Величайшая радость гремлина &mdash; наблюдать, как рушатся сложные творения, желательно после легчайшего и мельчайшего, тщательно направленного толчка гремлина. Гремлины имеют тенденцию очернять, запугивать или даже убивать своих меньших родственников, особенно <span class=\"Повтор\">митфлитов</span>, которых <span class=\"Признак2\"><span class=\"Признак1\">гремлины</span></span> (и многие другие) насмешливо называют &laquo;клещами&raquo;.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"spellDC": "17",
+			"items": {
+				"37DJ9kew2cByiJDV": {
+					"name": "Ненависть к Себе",
+					"description": "<p class=\"Нарратив\">Ненависть <span class=\"Повтор\">Митфлита</span> к себе позволяет легко влиять на него.</p>\n<hr />\n<p>Он получает штраф -4 к <span class=\"Воля\">КС Воли</span> против проверок @Compendium[pf2e.actionspf2e.tHCqgwjtQtzNqVvd]{Принуждение}, @Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Деморализовать}, @Compendium[pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Произвести Впечатление} и @Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Просьба}.</p>"
+				},
+				"VkXxpkRx6E7dyCI4": {
+					"name": "Эмпатия Паразитам",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Митфлиты</span> могут использовать <span class=\"ХАР\">@Check[type:diplomacy]</span>, чтобы <span class=\"ХАР\">@Compendium[pf2e.action-macros.1Sj2Pz3VI2SFWqZw]{Произвести Впечатление}</span><span class=\"Триг\">@Compendium[pf2e.actionspf2e.OX4fy22hQgUHDr0q]{*}</span> и <span class=\"ХАР\">@Compendium[pf2e.action-macros.tbveXG4gaIoKnsWX]{Просить}</span><span class=\"Триг\">@Compendium[pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{*}</span> <span class=\"Признак\">членистоногих</span> (насекомых, пауков, скорпионов, крабов и подобных беспозвоночных животных).</p>\n<hr />\n<p>У большинства <span class=\"Признак\">членистоногих</span> исходное отношение к <span class=\"Повтор\">митфлитам</span> @Compendium[pf2e.conditionitems.fuG8dgthlDWfWjIA]{Безразличный}.</p>"
+				},
+				"PCXa7Z3d10U79Quj": {
+					"name": "Мстительный Гнев",
+					"description": "<p class=\"Нарратив\">Пока <span class=\"Повтор\">митфлит</span> <span class=\"НЕ\">не</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган}, <span class=\"Повтор\">митфлит</span> получает бонус <span class=\"Состояния\">Состояния</span> +2 к <span class=\"Урон\">броскам урона</span> против существа, которое ранее наносило ему урон или мучило его.</p>"
+				},
+				"7Scw9mC9n5d0Jon5": {
+					"name": "Яд Копьеносной Жабы",
+					"description": "<p class=\"Нарратив\">Одна Копьеносная Жаба дает достаточно токсина, чтобы изготовить 1 дозу Яда Копьеносной Жабы.</p>\n<p class=\"Заг2\">@Check[type:fortitude|showDC:owner|dc:15|traits:poison]</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #808000;\"><strong>Макс.Продол.:</strong> </span>6 раундов</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 1:</strong></span> [[/r 1d4[poison]]] (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 2:</strong></span> [[/r 1d6[poison]]] и @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+				},
+				"kbtVRkQHlP5ap1MJ": {
+					"name": "Духовая Трубка",
+					"description": "<p class=\"Нарратив\">Заготовлено 2 дротика с <span class=\"Признак2\"><span class=\"Признак1\">ядом</span></span>.</p>"
+				},
+				"s57i0xdwt99HF3Tp": {
+					"name": "Трезубец (Метание)",
+					"description": ""
+				},
+				"fJKkYX781x7u24J6": {
+					"name": "Корона из Грязи и Жуков",
+					"description": "<p class=\"Нарратив\">Просто головной убор без цены</p>"
+				},
+				"YfnA27LEjbg8h3rR": {
+					"name": "Духовые Дротики (Яд)",
+					"description": "<p class=\"Нарратив\">Эти тонкие легкие дротики обычно изготавливаются из твердой древесины и стабилизируются оперением из пуха или меха. Они часто полые, поэтому их можно использовать для доставки яда.</p>\n<hr />\n<p>На эти дротики нанесен постоянный @Compendium[pf2e.equipment-srd.CeKPffF0FaEyhLMp]{Яд Копьеносной Жабы}</p>"
+				}
+			}
+		},
+		{
+			"id": "Corpselight",
+			"name": "Трупный Свет",
+			"tokenName": "Трупный Свет",
+			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Блуждающий Огонек</span>, который умирает от голода, может подняться как холодная, голубая, светящаяся сфера губчатой влаги &mdash; <span class=\"Повтор\">Трупный Свет</span>. <span class=\"Повтор\">Трупный Свет</span> инстинктивно ищет труп-носитель, чтобы поселиться внутри, поскольку его <span style=\"text-decoration: underline; color: #34495e;\">Форма Огонька</span> быстро портится, если не прячется в мертвом существе.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"i68AZkuUsYHLKLWd": {
+					"name": "Челюсти",
+					"description": ""
+				},
+				"wImzz2Ucpz9gqh2J": {
+					"name": "Когти",
+					"description": ""
+				},
+				"Y0gOm1Uz3dMu6Q4W": {
+					"name": "Захватить Труп",
+					"description": "<div><span class=\"Треб\">Требование</span>: <span class=\"Повтор\">Трупный Свет</span> находится в форме огонька и находится рядом с трупом <span class=\"Размер\">среднего</span> или <span class=\"Признак2\"><span class=\"Признак-1\">маленького</span></span> размера, который не был захвачен <span class=\"Повтор\">Трупным Светом</span> в течение последних 24 часов.</div>\n<hr />\n<p><span class=\"Повтор\">Трупный Свет</span> сливается с трупом, заставляет труп востать и восстанавливает [[/r 3d6[healing]]]{3d6 ОЗ}.</p>\n<hr />\n<div ><span class=\"Увелич\">Увелич.</span> @Compendium[pf2e.bestiary-effects.auJ02rr1Jr88oD3Z]{Эффект: Захватить Труп - Мясной}</div>\n<div ><span class=\"Увелич\">Увелич.</span> @Compendium[pf2e.bestiary-effects.3np7EyJ8pyrVlpie]{Эффект: Захватить Труп - Скелет}</div>"
+				},
+				"mA7HIkvCJVI5uu1m": {
+					"name": "Мертвый Свет",
+					"description": "<p class=\"Нарратив\"><span class=\"Треб\">Требование</span>: <span class=\"Повтор\">Трупный Свет</span> находится в трупе</p>\n<hr />\n<p><span class=\"Повтор\">Трупный Свет</span> испускает болезненно-голубой луч света изо рта и глаз в @Template[type:cone|distance:20]. Все <span class=\"Признак\">Живые</span> существа в этой области должны пройти @Check[type:fortitude|dc:18|traits:damaging-effect|showDC:owner]. Если хотя бы 1 существо <span class=\"Провал\">провалило</span> спасбросок, <span class=\"Повтор\">Трупный Свет</span> восстанавливает [[/r 2d6[healing]]]{2d6 ОЗ}, получая все, что превышает его максимум, в качестве временных хитов, которые длятся 1 минуту.</p>\n<div data-visibility=\"gm\">\n<p>Перезарядка <span style=\"text-decoration: underline; color: #34495e;\">Мертвого Света</span> [[1d4[Перезарядка Мертвого Света]]]{1d4 раундов}.</p>\n</div>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо</p>\n<p><span class=\"Успех\">Успех</span>: Существо получает [[/r 1d6[negative]]]{1d6 Негативного}</p>\n<p><span class=\"Провал\">Провал</span>: Существо получает [[/r 2d6[negative]]]{2d6 Негативного} и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо получает [[/r 4d6[negative]]]{4d6 Негативного} и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>"
+				},
+				"khhjOlnkRw4wzweC": {
+					"name": "Слабость к Солнечному Свету",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Трупный Свет</span>, выставленный на солнечный свет, получает @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлен 2} и @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 2} и не может <span style=\"text-decoration: underline; color: #34495e;\">Захватить Труп</span>.</p>"
+				},
+				"NBuJOqDORlJbI3m9": {
+					"name": "Форма Огонька",
+					"description": "<p class=\"Нарратив\">Когда хиты <span class=\"Повтор\">Трупного Света</span> захватившего труп уменьшаются до 0, вместо этого его хиты уменьшаются до 1, труп падает на землю, а <span class=\"Повтор\">Трупный Свет</span> появляется в <span style=\"text-decoration: underline; color: #34495e;\">Форме Огонька</span>.</p>\n<hr />\n<p>Находясь в <span style=\"text-decoration: underline; color: #34495e;\">Форме Огонька</span>, <span class=\"Повтор\">Трупный Свет</span> <span class=\"Признак2\"><span class=\"Признак-1\">крошечный</span> и не может предпринимать никаких действий, кроме как <span style=\"text-decoration: underline; color: #34495e;\">Захватить Труп</span> или @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Полет}.</p>\n<hr />\n<p><span class=\"Повтор\">Трупный Свет</span>, который <span class=\"Класс\">Начинает свой ход</span> в <span style=\"text-decoration: underline; color: #34495e;\">Форме Огонька</span>, <span style=\"text-decoration: underline; color: #000080;\">в конце своего хода</span> должен попытаться использовать @Check[type:flat|dc:16|immutable:true|showDC:all]; в случае <span class=\"Провал\">Провал</span>он теряет 1 ОЗ. <span class=\"Повтор\">Трупный Свет</span>, у которого ОЗ опускаются до 0, пока он находится в <span style=\"text-decoration: underline; color: #34495e;\">Форме Огонька</span>, уничтожается.</p>"
+				},
+				"Channel Protection Amulet": {
+					"name": "Сакральный Защитный Амулет",
+					"description": "<p class=\"Нарратив\">Самородок полированного тектита заключен в клетку из плетеной проволоки и подвешен на шелковом шнуре.</p>\n<hr />\n<p>При ношении этого амулета вы получаете <span style=\"text-decoration: underline; color: #34495e;\">сопротивление</span> 5 к урону от заклинаний @Compendium[pf2e.spells-srd.wdA52JJnsuQWeyqz]{Нанесение Ран}, если вы <span class=\"Признак\">Живое</span> существо, или к заклинаниям @Compendium[pf2e.spells-srd.rfZpqmj0AIIdkVIs]{Исцеление}, если вы <span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>.</p>"
+				},
+				"Gold Tooth": {
+					"name": "Золотой Зуб",
+					"description": ""
+				}
+			}
+		},
+		{
+			"id": "Flickerwisp",
+			"name": "Мерцающий Огонёк",
+			"tokenName": "Мерц. Огонёк",
+			"description": "<p class=\"Нарратив\">Танцующий, извивающийся <span class=\"Повтор\">Мерцающий Огонек</span> - менее мощная, но не менее злобная разновидность <span style=\"text-decoration: underline; color: #34495e;\">Блуждающего Огонька</span>. Как и их более опасные сородичи, <span style=\"text-decoration: underline; color: #34495e;\">Мерцающие Огоньки</span> предпочитают бродить по болотам или участкам одиноких рек или ручьев, особенно вблизи береговой линии, где они могут выдать себя за небольшое скопление светлячков. Тело <span style=\"text-decoration: underline; color: #34495e;\">Мерцающего Огонька </span>- 3 фута в длину волосоподобных волокон, которые вспыхивают и пульсируют лентами и точками жуткого желтого света, когда существо порхает в воздухе.</p>\n<hr />\n<p>В то время как <span class=\"Повтор\">Мерцающий Огонек</span> может почувствовать вкус страха и находит этот вкус восхитительным, он не питается этой эмоцией. Вместо этого мерцающие огоньки питаются замешательством и сомнениями. Чувство неловкости, которое испытывает путешественник, заблудившись в лесу - любимая трапеза <span style=\"text-decoration: underline; color: #34495e;\">Мерцающих Огоньков</span>. Они могут пить из этого чувства дезориентации, не выдавая своего присутствия и не причиняя вреда своей жертве. В конце концов, <span style=\"text-decoration: underline; color: #34495e;\">Мерцающие Огоньки</span> становятся слишком жадными и вынуждены подлетать ближе, сбивая с толку свою добычу и перенасыщая цель эмоциями. <span style=\"text-decoration: underline; color: #34495e;\">Мерцающие Огоньки</span> делают все возможное, чтобы улететь до того, как наступит смерть, и самые искусные из этих мучителей могут сохранить выбранную пищу, живой в течение нескольких дней, подпитываясь из путаницы в небольших дозах.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"pyBAuiHwkCVhaTe8": {
+					"name": "Шок",
+					"description": ""
+					},
+				"YuXrcTfctRYHmw90": {
+					"name": "Свечение",
+					"description": "<p class=\"Нарратив\">@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]@Template[type:emanation|distance:5]{5 фт}</p>\n<hr />\n<p><span class=\"Повтор\">Мерцающий Огонек</span> сам по себе, естественно невидим, но светится бледно-желтым светом, отбрасывая ауру яркого света и делая его видимым.</p>"
+				},
+				"1B109bqthYI0DGyC": {
+					"name": "Безобидный",
+					"description": "<p class=\"Нарратив\">Появление <span class=\"Повтор\">Мерцающего Огонька</span> странным образом фиксируются в сознании существ, которые в @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве}.</p>\n<hr />\n<p>Существо с состоянием @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательства} никогда не атакует <span class=\"Повтор\">Мерцающий Огонек</span> атаками, если только существо не было ранено <span style=\"text-decoration: underline; color: #34495e;\">Шоком</span> <span class=\"Повтор\">Мерцающего Огонька</span> в течение последних 24 часов.</p>"
+				},
+				"VXZ8QpZ1EGC0hg4D": {
+					"name": "Магический Иммунитет",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Мерцающий Огонек</span> невосприимчив ко всем заклинаниям, кроме @Compendium[pf2e.spells-srd.HRb2doyaLtaoCfi3]{Фейское Сияние}, @Compendium[pf2e.spells-srd.g8QqHpv2CWDwmIm1]{Порыв Ветра}, @Compendium[pf2e.spells-srd.gKKqvLohtrSJj3BM]{Магический Снаряд} и @Compendium[pf2e.spells-srd.Oj1PJBMQD9vuwCv7]{Лабиринт}.</p>"
+				},
+				"1zCZasUbrbz7SMAh": {
+					"name": "Мерцание",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Мерцающий Огонек</span> кружится и порхает в воздухе вокруг головы соседнего существа, и его длинное тело вспыхивает и искрится в ошеломляющем множестве отвлекающих пульсаций.</p>\n<hr />\n<p>Существо должно <span style=\"color: #169179;\"><strong>преуспеть </strong></span>в <span style=\"color: #843fa1;\">@Check[type:will|dc:18|showDC:gm|traits:emotion, enchantment, mental, visual]</span> или податься @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательству}<span class=\"До\">на 1 раунд</span> (2 раунда при <span class=\"Критпровал\">Крит.Провал</span>).</p>\n<p>При <span class=\"Критуспех\">Крит.Успех</span> существо временно иммуно к <span style=\"text-decoration: underline; color: #34495e;\">Мерцанию</span> в течение 24 часов.</p>"
+				},
+				"fdAMCESh7OW3fKWY": {
+					"name": "Подпитка Замешательством",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Мерцающий Огонек</span> подпитывается @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательством} существа.</p>\n<hr />\n<div><span class=\"Част\">Частота</span>: Один 1/Раунд;</div>\n<div><span class=\"Треб\">Требования</span>: Существо в пределах 15ФТ от <span style=\"text-decoration: underline; color: #34495e;\">Мерц.Огонька</span> в @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве}</div>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Огонек</span> восстанавливает [[/r 1d4[healing]]]{1d4 ОЗ}, и если состояние @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательства} существа ограничено по длительности, оно длится еще 1 раунд.</p>"
+				}
+			}
+		},
+		{
+			"id": "Mister Beak",
+			"name": "Мистер Клюв",
+			"tokenName": "Мистер Клюв",
+			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Одушевленные Куклы</span> - это жуткие манекены или игрушки, которые наполнены маленькой частичкой души умершего смертного. Эти маленькие <span style=\"text-decoration: underline; color: #a52a2a;\">конструкты</span> созданы по разным причинам, например, чтобы служить компаньонами или слугами, но свобода их воли означает, что их послушание своим создателям вряд ли является чем-то само собой разумеющимся. Последователи @Compendium[pf2e.deities.QZD0u1jxwz0kj8uI]{Фаразмы} обычно ненавидят одушевленных кукол, считая их коверканьем естественного круговорота душ, а поклоняющиеся Владычице Могил, считают уничтожение такой куклы, независимо от ее мировоззрения, важным служением Великому Запределью.</p>\n<hr />\n<p>Одушевленные куклы являются самыми простейшими из целого ряда конструктов с привязанной душой, включая манекены человеческого роста, мощные одушевленные оболочки и одушевленную стражу терракотовых воинов. Их создание из нежелающих живых существ является <span style=\"text-decoration: underline; color: #a52a2a;\">злом</span>, и нежелающий донор может сопротивляться этому процессу, сделав успешный <span class=\"КБ\">Спас.</span> против <span style=\"color: #b96ad9;\"><strong>КС Ремесла</strong></span> создателя, если не предотвращая смерть донора, то разрушая куклу. Незлая кукла может быть создана только из души человека, который перед смертью дал на это согласие.</p>\n<hr />\n<p><span class=\"Повтор\">Одушевленные Куклы</span>, с которыми сталкиваются искатели приключений, обычно являются своего рода стражами; несмотря на их крохотный размер, сила фрагмента души делает куклу более опасной, чем этого может ожидать случайный зевака. Кроме того, учитывая ее рост, он наделяет куклу одним заклинанием, обладающим огромной силой. Благодаря своей автономности и замечательному интеллекту, <span class=\"Повтор\">Одушевленные Куклы</span> иногда используются своими создателями в качестве управляющих гораздо более мощными, но неразумными конструктами, такими как големы, что позволяет этим куклам руководить обороной, намного превосходящей их собственные возможности.</p>\n<hr />\n<p>&nbsp;Хотя <span class=\"Повтор\">Одушевленные Куклы</span> содержат небольшой фрагмент души, извлеченный во время смерти или вскоре после нее, это не влияет на воскрешение умершего или его переход в загробную жизнь. Этот процесс извлечения смертелен для потенциальных живых доноров души, хотя гуляют слухи о более дорогостоящих процессах, которые позволяют кому-либо пожертвовать фрагмент живой души без последствий.</p>\n<hr />\n<p>Фрагмент души находится в фокусирующем <span style=\"text-decoration: underline; color: #34495e;\">Камне Души</span> (<span style=\"color: #236fa1;\"><strong>Твердость </strong></span>10), обычно встроенном в шею или грудь куклы. Фрагмент души не статичен, и кукла продолжает обучаться относительно своего первоначального состояния, то есть ее личность и умения могут меняться, возможно, становясь ближе к донорской душе или отдаляясь от нее по своему собственному индивидуальному пути. Фокусирующий камень души сохраняет воспоминания куклы даже после ее уничтожения. Неповрежденный камень души уничтоженной куклы даже может быть помещен в тело новой куклы, кем-то, кто сведущ в изготовлении одушевленных созданий, эффективно воссоздавая одушевленную куклу.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"5FuqfP9EivTFAxuL": {
+					"name": "Камень Души",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Камень Души</span> <span style=\"text-decoration: underline; color: #34495e;\">Мистера Клюва</span> расположен на его спине, между его крыльями.</p>"
+				}
+			}
+		},
+		{
+			"id": "Blood of Belcorra",
+			"name": "Кровь Белкоры",
+			"tokenName": "Кровавый Призрак",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"tokenImg": "modules/PF2E-TS-RUB/art/hazard/blood-of-belcorra.webp",
+			"img": "modules/PF2E-TS-RUB/art/hazard/blood-of-belcorra.webp",
+			"hstealth": "<p><span class=\"Эксперт\">ЭКСПЕРТ</span></p>",
+			"hdescription": "<p>Кровавый образ Белькоры возникает, испускает высасывающий душу свет, а затем вдыхает кровь живых существ в комнате.</p>",
+			"hdisable": "<p><span class=\"Обучен\">ОБУЧЕН</span> @Check[type:thievery|dc:22|name:Стереть Кровь|showDC:gm], чтобы стереть достаточно кровавого пятна, чтобы нарушить некротическую энергию призрака или <span style=\"background-color: #236fa1; color: #ffffff;\"><strong>Обученная</strong></span> @Check[type:religion|dc:20|name:Изгнать Призрака|showDC:gm], чтобы изгнать призрака.</p>",
+			"hreset": "<p>Если призрак отключен или разрушен из-за урона, Кровь Белькоры подымается вверх по спирали, обливая люк, ведущий в зону <strong>A25</strong>, прежде чем протиснуться вверх через замочную скважину, что уменьшает @Check[type:thievery|dc:20|name:Открыть Дверь|traits:action:pick-a-lock,skill,manipulate|showDC:gm], чтобы @Compendium[pf2e.actionspf2e.2EE4aF4SZpYf0R6H]. На следующем рассвете кровь стекает обратно в эту комнату, и призрак возвращается.</p>\n<p>Призрак будет уничтожено навсегда, как только <span style=\"text-decoration: underline; color: #34495e;\">Ласда Венвервейл</span> будет спасена из зоны <strong>D9</strong></p>",
+			"hroutine": "<p class=\"Заг2\">1 Действие</p>\n<hr />\n<p>Кровавое изображение открывает рот и, кажется, вдыхает, вытягивая кровь из тела одного существа в пределах 90ФТ от центра зоны <strong>А11</strong>. Существо, на которое нацелена цель, должно совершить проверку @Check[type:fortitude|dc:20|traits:damaging-effect|showDC:gm].</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо.</p>\n<p><span class=\"Успех\">Успех</span>: Существо получает @Localize[PF2E.PD.Bleed.1d10]</p>\n<p><span class=\"Провал\">Провал</span>: Существо получает [[/r {1d10+6}[persistent,bleed]]]</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо получает [[/r {2d10+6}[persistent,bleed]]] и @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблено 2} до тех пор, пока истекает кровью</p>",
+			"items": {
+				"Q4ib52AxEVe6nHUx": {
+					"name": "Луч Мрачносвета",
+					"description": "<p class=\"Нарратив\">Жуткий образ женщины, казалось бы, состоящий из свежей крови, поднимается из пятна крови на полу и вращается на месте, как маяк. Лучи холодного голубого света льются из глаз и открытого рта призрака, заставляя волдыри и гниль расползаться по плоти.</p>\n<hr />\n<div><span class=\"Триг\">Триггер</span>: <span class=\"Признак\">Живое</span> существо <span style=\"text-decoration: underline; color: #000080;\"><em>заканчивает свой ход</em></span> в зоне <strong>А11</strong> ночью</div>\n<hr />\n<p><span class=\"Признак\">Живые</span> существа в пределах @Template[type:burst|distance:30] от центра зоны<strong> А11</strong> должны проверить @Check[type:fortitude|dc:20|traits:damaging-effect|showDC:gm]. Затем призрак бросает инициативу.</p>\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невремидо.</p>\n<p><span class=\"Успех\">Успех</span>: Существо получает [[/r 1d8[negative]]]{1d8 Негатива}.</p>\n<p><span class=\"Провал\">Провал</span>: Существо получает [[/r {1d8+6}[negative]]]{1d8+6 Негатива} и @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh] <span class=\"До\">на 1 раунд</span>.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо получает [[/r {2d8+6}[negative]]]{2d8+6 Негатива} и @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2] <span class=\"До\">на 1 раунд</span>, а затем @Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh] <span class=\"До\">на 1 раунд</span></p>"
+				}
+			}
+		},
+		{
+			"id": "Stonescale Spirits",
+			"name": "Души Камнечешуйчатых",
+			"tokenName": "Души Кобольдов",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"tokenImg": "modules/PF2E-TS-RUB/art/hazard/stonescale-spirits.webp",
+			"img": "modules/PF2E-TS-RUB/art/hazard/stonescale-spirits.webp",
+			"hstealth": "<p><span class=\"Обучен\">ОБУЧЕН</span></p>",
+			"hdescription": "<p>Полдюжины призрачных кобольдов поднимаются из-под обломков воющим вихрем</p>",
+			"hdisable": "<p><span class=\"Обучен\">ОБУЧЕН</span> @Check[type:intimidation|dc:18|name:Напугать Духов|showDC:gm], чтобы напугать духов угрожающим проявлением или <span style=\"background-color: #236fa1; color: #ffffff;\"><strong>обученная</strong></span> @Check[type:religion|dc:21|name:Изгнать Духов|showDC:gm], чтобы изгнать духов</p>",
+			"hreset": "<p><span class=\"Признак2\"><span class=\"Признак1\">призраки</span></span> отключаются, если <span style=\"text-decoration: underline; color: #169179;\"><em>в начале хода опасности</em></span> в зоне <strong>А7</strong> <span style=\"text-decoration: underline; color: #000080;\">нет</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуганных} существ. <span class=\"Признак2\"><span class=\"Признак1\">призраки</span></span> возвращаются в кучу обломков. <span class=\"Признак2\"><span class=\"Признак1\">призраки</span></span> не могут появиться снова в течение 1 часа</p>",
+			"hroutine": "<p class=\"Заг2\">(1 действие)</p>\n<hr />\n<p>Духи вместе устремляются к одному существу в зоне <strong>A7</strong>, которое @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL], вселяя чувство предательства и смятения. Цель получает [[/r {1d10+4}[mental]]]{1d10+4 Ментального}</p>\n<p class=\"Заг2\">@Check[type:will|dc:18|basic:true|showDC:gm]</p>",
+			"items": {
+				"IM2z6ZQvAhXIgpsu": {
+					"name": "Запутывающее Запугивание",
+					"description": "<p class=\"Нарратив\">Шестеро <span class=\"Признак2\"><span class=\"Признак1\">призраков</span></span> кобольдов выскакивают из-под щебня с жутким воем.</p>\n<hr />\n<div><span class=\"Триг\">Триггер</span>: существо входит в квадрат, полностью или частично заполненный щебнем в середине комнаты.</div>\n<hr />\n<p>Каждое существо в зоне<strong> А7</strong> должно проверить @Check[type:will|dc:18|showDC:gm] со следующими результатами. Затем <span class=\"Признак2\"><span class=\"Признак1\">Призрак</span></span> бросает <span style=\"color: #808000;\"><strong>инициативу</strong></span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо и временно имунно к Запутанной Конфронтации в течение 24 часов</p>\n<div data-visibility=\"gm\">\n<p>А так же понимает, что запугивание призраков может подавить нападение призрачных кобольдов.</p>\n</div>\n<p><span class=\"Успех\">Успех</span>: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p>\n<p><span class=\"Провал\">Провал</span>: Существо в @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве}<span class=\"До\">на 1 раунд</span> и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо в @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве} <span style=\"До\">на 2 раунда</span> и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>"
+				}
+			}
+		},
+		{
+			"id": "Bloodsiphon",
+			"name": "Кровопивка",
+			"tokenName": "Кровопивка",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"mlcDOwUA9F64jE1Y": {
+					"name": "Рот",
+					"description": ""
+				},
+				"wjbGJGSRPWZ49qZd": {
+					"name": "Плевок",
+					"description": ""
+				},
+				"eGvWOYTY1N6i6QpT": {
+					"name": "Высасывание Крови",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Кровопивка</span> высасывает кровь из существа, которое он @Compendium[pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{Схватил}.</p>\n<hr />\n<div><span class=\"Треб\">Требования</span>: <span style=\"text-decoration: underline; color: #34495e;\">Кровопивка</span> @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватил} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживает} существо</div>\n<hr />\n<p>Это наносит [[/r {4d4}]]{4d4} урона и <span style=\"text-decoration: underline; color: #34495e;\">Кровопивка</span> временно становится влажным и слизистым, восстанавливая [[/r 8[ОЗ]]] и получая любой избыток в качестве <span class=\"ОЗ\">Врем.ОЗ</span>, которые длятся в течение 1 минуты.</p>\n<p>Существо, у которого кровь высосана <span style=\"text-decoration: underline; color: #34495e;\">Кровопивкой</span>, @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} до тех пор, пока не получит какого-либо типа <span style=\"text-decoration: underline; color: #a52a2a;\">исцеления</span>.</p>"
+				},
+				"P1ggE8aYgCQOaac1": {
+					"name": "Взрыв Негатива",
+					"description": "<p class=\"Нарратив\">@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]@Template[type:emanation|distance:20]{20}</p>\n<hr />\n<p>Когда <span style=\"text-decoration: underline; color: #34495e;\">Кровопивка </span>умирает, его тело взрывается мутно-красным взрывом некротической засохшей крови в @Template[type:emanation|distance:20]. Существа в радиусе действия должны совершить проверку @Check[type:reflex|dc:21|traits:damaging-effect|showDC:gm].</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо.</p>\n<p><span class=\"Успех\">Успех</span>: Существо получает [[/r 2d6[negative]]]{2d6 Негатива}.</p>\n<p><span class=\"Провал\">Провал</span>: Существо получает [[/r 4d6[negative]]]{4d6 Негатива}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо получает [[/r 6d6[negative]]]{6d6 Негатива} и @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблено 2} в течение 1 часа</p>"
+				}
+			}
+		},
+		{
+			"id": "Morlock Scavenger",
+			"name": "Морлок-Падальщик",
+			"tokenName": "Падальщик",
+			"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Морлок-падальщик</span> более долговязая, уменьшенная версия типичного <span style=\"text-decoration: underline; color: #a52a2a;\">морлока</span>. Их рост позволяет им проникать в области, недоступные другим <span style=\"text-decoration: underline; color: #a52a2a;\">морлокам</span>.</p>\n<hr />\n<p><span class=\"Признак\">Морлоки</span> происходят от людей, давно потерянных в поверхностном мире. У них есть склоность к механизмам, мусору и странному оккультному поведению.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"LS15ASdQlOSeQgPH": {
+					"name": "Челюсти",
+					"description": ""
+				},
+				"DZ1joQ2LpXlkz2Jm": {
+					"name": "Кинжал (Метание)",
+					"description": ""
+				},
+				"Nwtd1G94Ikab4Ejf": {
+					"name": "Атака на Бегу",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Mорлок-Падальщик</span> совершает @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} дважды, игнорируя <span style=\"text-decoration: underline; color: #34495e;\">сложную местность</span>, вызванную естественными особенностями пещер, такими как щебень или сталагмиты. В любой момент своего <span style=\"text-decoration: underline; color: #a52a2a;\">движения <span style=\"color: #34495e; text-decoration: underline;\">Морлок</span></span> может нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} ближнего боя по врагу, находящемуся в пределах его <span style=\"text-decoration: underline; color: #000080;\">досягаемости</span>.</p>"
+				},
+				"qwwxBH4SCVdtmTb2": {
+					"name": "Внезапная Атака (1d6)",
+					"description": "<p class=\"Нарратив\">[[/r 1d6[precision]]]{1d6} <span class=\"Признак\">Точного</span><span class=\"Урон\"> Урона</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+				}
+			}
+		},
+		{
+			"id": "Morlock (AV)",
+			"name": "Морлок",
+			"tokenName": "Морлок",
+			"description": "<p class=\"Нарратив\">Происходящие от людей, давно исчезнувших из мира солнечного света, <span class=\"Признак\">Морлоки</span> &mdash; жестокие монстры, обитающие в запутанных туннелях в верховьях Темных Земель. Их жилистые тела маскируют силу их конечностей и быструю реакцию, а их руки достаточно длинные, чтобы они могли совершать необычные движения четырьмя конечностями вдигаять на большой <span style=\"Скор\">Скорости</span> с высокой скрытностью.</p>\n<hr />\n<p>Они больше не помнят жизни своих предков на поверхности, хотя многие <span class=\"Признак\">Морлоки</span> до сих пор обитают в разрушенных руинах своих древних домов. Некоторые <span class=\"Признак\">Морлоки</span> поклоняются статуям людей из этих ушедших эпох как богам, но другие теперь поклоняются Ламашту, Ровагугу или другим жестоким божествам.</p>\n<hr />\n<p>Детеныши <span style=\"text-decoration: underline; color: #a52a2a;\">морлоков</span> ненасытны и требуют даже малейшего кусочка пищи, даже пожирая своих братьев и сестер, если нет другой еды. Большинство <span style=\"text-decoration: underline; color: #a52a2a;\">морлоков</span> поощряют эту практику, чтобы их родовая группа в целом становилась сильнее.</p>\n<hr />\n<p>Типичный <span class=\"Признак\">Морлоки</span> имеет рост чуть более 5ФТ (1,5 метра) и весит примерно 150 фунтов (68 кг).</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"ofz49oiBkargWzh6": {
+					"name": "Челюсти",
+					"description": ""
+				},
+				"XWdqUKdwgQ9Cn7vC": {
+					"name": "Дубинка (Метание)",
+					"description": ""
+				},
+				"7Y7vl4vBRBKsb6wB": {
+					"name": "Челюсти",
+					"description": ""
+				},
+				"sdsJsKNzbvVK8R4I": {
+					"name": "Деревяха",
+					"description": ""
+				},
+				"W2nnShEx9f5pWTjq": {
+					"name": "Метание Всякого",
+					"description": ""
+				},
+				"3vycv9ThXOQbgNBf": {
+					"name": "Инстинкт Механика",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Морлок</span> возится с соседней <span style=\"text-decoration: underline; color: #a52a2a;\">конструкцией</span> или <span style=\"text-decoration: underline; color: #a52a2a;\">механической опасностью</span>. Он пытается пройти проверку @Check[type:crafting] против <span class=\"КБ\">КС <span class=\"СТК\">СТК</span></span> <span style=\"text-decoration: underline; color: #a52a2a;\">конструкции</span> или <span style=\"text-decoration: underline; color: #a52a2a;\">опасности</span>.</p>\n<blockquote>\n<p><span class=\"Повтор\">Морлок</span> не может добиться успеха, если уровень цели более чем вдвое превышает <span class=\"Класс\">Уровень</span> <span style=\"text-decoration: underline; color: #34495e;\">морлока</span>.</blockquote>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель получает [[/r 4d6[healing]]]{4d6 ОЗ} и <span style=\"color: #e67e23;\">=</span>@Compendium[pf2e.bestiary-effects.TEzLEXBZzNCp6flg]{Бонус} <span class=\"Обстоятельства\">Обстоятельства</span> +1 к <span class=\"Атака\">броскам атаки</span> на 1 минуту.</p>\n<p><span class=\"Успех\">Успех</span>: Цель получает [[/r 2d6[healing]]]{2d6 ОЗ}.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: <span class=\"Повтор\">Морлок</span> ранит себя, получая [[/r {2d6}]]{2d6 Урона} (обычно дробящих, колющих или рубящих, но потенциально другого типа на усмотрение Мастера).</p>"
+				},
+				"HaYQ8Cd4C0hYSFdc": {
+					"name": "Атака в Прыжке",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Морлок</span> совершает @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} дважды, во время которого он пытается совершить @Compendium[pf2e.actionspf2e.2HJ4yuEFY1Cast4h]{Прыжок в Высоту} или @Compendium[pf2e.actionspf2e.JUvAvruz7yRQXfz2]{Прыжок в Длину}. В любой момент своего движения <span class=\"Повтор\">Морлок</span> может нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} ближнего боя по врагу в пределах <span style=\"text-decoration: underline; color: #000080;\">досягаемости</span>.</p>\n<hr />\n<p>Перезарядка <span style=\"text-decoration: underline; color: #34495e;\">Атаку в Прыжке</span> 1 раунд.</p>"
+				},
+				"NXk6QjCfO8eW6Txp": {
+					"name": "Внезапная Атака (1d6)",
+					"description": "<p class=\"Нарратив\">[[/r 1d6[precision]]]{1d6} <span class=\"Признак\">Точного</span><span class=\"Урон\"> Урона</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+				}
+			}
+		},
+		{
+			"id": "Morlock Engineer",
+			"name": "Морлок-Инженер",
+			"tokenName": "Инженер",
+			"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Морлоки-Инженеры</span> талантливы в том, чтобы разбираться в древних механизмах или поврежденных конструктов, но не ведут записей и не записывают свои методы. В результате анклав морлоков вполне может быть защищен странными, древними <span style=\"text-decoration: underline; color: #a52a2a;\">механическими</span> <span style=\"text-decoration: underline; color: #a52a2a;\">опасностями</span> или <span style=\"text-decoration: underline; color: #a52a2a;\">конструктами</span>, которые рассматривают <span style=\"text-decoration: underline; color: #a52a2a;\">морлоков</span> как союзников, хотя никто из <span style=\"text-decoration: underline; color: #a52a2a;\">морлоков</span> не может сказать, кто построил машины, которые они используют.</p>\n<hr />\n<p><span class=\"Признак\">Морлоки</span> происходят от людей, давно потерянных в поверхностном мире. У них есть склоность к механизмам, мусору и странному оккультному поведению.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"OxVsLGBZ8k9rqQxY": {
+					"name": "Челюсти",
+					"description": ""
+				},
+				"GzMhkd0CBpUeUX63": {
+					"name": "Мусоромёт",
+					"description": ""
+				},
+				"wVxlFqCWi3T6bOk1": {
+					"name": "Мусоромёт",
+					"description": "<p class=\"Нарратив\">Это <span style=\"background-color: #e67e23; color: #ffffff;\"><strong>необычное</strong></span> <span style=\"text-decoration: underline; color: #34495e;\">оружие морлоков</span>. Хоть это оружие похоже на арбалет, но пусковой механизм не подходит под арбалетные болты. Для него используются особые <span style=\"text-decoration: underline; color: #34495e;\">Снаряды-Мусор</span>, которые умеют делать некоторые <span class=\"Признак\">Морлоки</span>.</p>"
+				},
+				"nksShZpMIUxollKt": {
+					"name": "Снаряд-Мусор",
+					"description": "<p class=\"Нарратив\">Обычно Снаряд-Мусор наносит урон дробящий или колющий урон, так как делает из камней или палок, но урон может быть изменен если брыть за основу другие материалы, к примеру урон огнем от расколенных углей.</p>"
+				},
+				"HSgw6P66g1tETSK5": {
+					"name": "Создать Снаряд-Мусор",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Морлок-Инженер</span> быстро создает <span style=\"text-decoration: underline; color: #34495e;\">Снаряд-Мусор</span> из предметов, которые он несет или которые легко доступны в соседних квадратах.</p>\n<hr />\n<p>Там, где имеются необычные материалы, <span style=\"text-decoration: underline; color: #34495e;\">Снаряд-Мусор</span> может нанести урон, отличный от дробящего или колющего</p>\n<blockquote>\n<p>например, <span style=\"text-decoration: underline; color: #34495e;\">Морлок-Инженер</span> у костра может создать снаряд, который наносит урон <span style=\"text-decoration: underline; color: #a52a2a;\">огнем</span>.</blockquote>"
+				},
+				"XzUUZ1FoJXIkVqZu": {
+					"name": "Невороятный Механик",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Морлок-Инженер</span> возится с соседней конструктом или механической опасностью. Они совершают @Check[type:crafting] на против <span class=\"КБ\">КС <span class=\"СТК\">СТК</span></span> <span style=\"text-decoration: underline; color: #a52a2a;\">конструкта</span> или <span style=\"text-decoration: underline; color: #a52a2a;\">механической опасности</span>.</p>\n<blockquote>\n<p><span class=\"Повтор\">Морлок</span> не может получить результат лучше, чем <span class=\"Провал\">Провал</span>, если уровень цели более чем вдвое превышает <span class=\"Класс\">Уровень</span> морлока.</blockquote>\n<hr />\n<p>Эта способность отражает поспешный ремонт на поле боя; как только <span style=\"text-decoration: underline; color: #a52a2a;\">конструкт</span> или <span class=\"Признак2\"><span class=\"Признак2\">Опасность</span></span> восстанавливает хиты от этой способности, она не может сделать это снова, пока не будет @Compendium[pf2e.actionspf2e.bT3skovyLUtP22ME]{Отремонтирована}.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель <span class=\"Урон\">исцеляет</span> [[/r 8d6[healing]]]{8d6 ОЗ} и <span style=\"color: #e67e23;\">=</span>@Compendium[pf2e.bestiary-effects.BTSstQAn4Xlm1PWV]{Бонус} <span class=\"Обстоятельства\">Обстоятельства</span> +1 к <span class=\"Атака\">броскам атаки</span> в течение 1 минуты. Либо <span class=\"Повтор\">Морлок</span> может нанести [[/r {8d6}]]{8d6 Урона} (дробящего, колющего или режущего, по выбору <span style=\"text-decoration: underline; color: #34495e;\">Морлока-Инженера</span>) <span style=\"text-decoration: underline; color: #a52a2a;\">конструкту</span> или <span style=\"text-decoration: underline; color: #a52a2a;\">опасности</span>.</p>\n<p><span class=\"Успех\">Успех</span>: Как <span class=\"Критуспех\">Крит.Успех</span>, но цель <span class=\"Урон\">исцеляет</span> [[/r 4d6[healing]]]{4d6 ОЗ} или <span class=\"Повтор\">Морлок</span> наносит [[/r {4d6}]]{4d6 Урона}.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: <span class=\"Повтор\">Морлок</span> ранит себя, получая [[/r {3d6}]]{3d6 Урона} (обычно дробящий, колющий или режущий, но потенциально другим типом по усмотрению Мастера).</p>"
+				},
+				"U0pfy4tbvu2Y9KYj": {
+					"name": "Внезапная Атака (1d6)",
+					"description": "<p class=\"Нарратив\">[[/r 1d6[precision]]]{1d6} <span class=\"Признак\">Точного</span><span class=\"Урон\"> Урона</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+				}
+			}
+		},
+		{
+			"id": "Morlock Cultist",
+			"name": "Морлок-Культист",
+			"tokenName": "Культист",
+			"description": "<p class=\"Нарратив\"><span class=\"Признак\">Морлоки</span>, возглавляемые <span style=\"text-decoration: underline; color: #34495e;\">культистами</span>, не всегда следуют устоявшейся религии, отчасти потому, что их подземное происхождение ограничивает контакты с остальным миром. Во многих случаях культ морлоков поклоняется какой-то фигуре из прошлого группы, будь то почитаемый (или чаще, внушающий страх) предок или даже странные машины или статуи, оставшиеся от таинственной цивилизации, которая когда-то управляла местом, где сейчас живут морлоки.</p>\n<hr />\n<p><span class=\"Признак\">Морлоки</span>, которые служат священниками в своих конклавах, обычно балуются жуткой оккультной магией.</p>\n<hr />\n<p><span class=\"Признак\">Морлоки</span> происходят от людей, давно потерянных в поверхностном мире. У них есть склоность к механизмам, мусору и странному оккультному поведению.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"cU4WaqnerXGtIpEM": {
+					"name": "Челюсти",
+					"description": ""
+				},
+				"YUgXFNB4xn08S3Cf": {
+					"name": "Дубинка (Метание)",
+					"description": ""
+				},
+				"aK6ekR5eDVtsBkFZ": {
+					"name": "Оккультная Атака",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Морлок-Культист</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} на половину своей скорости, игнорируя <span style=\"text-decoration: underline; color: #34495e;\">сложную местность</span>, вызванную естественными особенностями пещеры, такими как щебень или сталагмиты. В любой момент во время своего <span class=\"Признак\">движения</span> <span style=\"text-decoration: underline; color: #34495e;\">Морлок-Культист</span> может @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворить Заклинание}, которое обычно занимает <span class=\"Действие\"><span class=\"pf2-icon\">2</span>действия</span> или меньше.</p>"
+				},
+				"122ICOgqYvLmpu9U": {
+					"name": "Внезапная Атака (1d6)",
+					"description": "<p class=\"Нарратив\">[[/r 1d6[precision]]]{1d6} <span class=\"Признак\">Точного</span><span class=\"Урон\"> Урона</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+				}
+			}
+		},
+		{
+			"id": "Scalathrax",
+			"name": "Скалатракс",
+			"tokenName": "Скалатракс",
+			"description": "<p class=\"Нарратив\">Эти скользкие, чешуйчатые ужасы обитают в отдаленных пещерных сетях в Темных Землях, предпочитая гнездиться в узких расщелинах. Когда они идут на охоту, они метают шипы со своих длинных ног, или распыляют на врагов собственные токсичные масла. Масло Скалатркаса, что покрывает его тело, очень легко воспламеняется - будь то на тело жертвы или на самом скалатраксе.</p>\n<p>В то время как скалатракс кажется диким, он более разумен, чем кажется, и способен говорить влажным, скользким голосом. Подавляющее большинство скалатраксов резки и вспыльчивы, и большинство из них наслаждаются убийством. Можно заключить союз со скалатраксом, но это требует либо постоянных подкупов новыми существами для убийства, либо особенно устрашающей личности - скалатраксы часто уважают хулиганов, видя в них зеркало своих собственных жестоких ценностей.</p>\n<hr />\n<h2 class=\"Заг2\">Масло скалатракса</h2>\n<p>Масло скалатракса - ценный алхимический компонент, но его трудно собрать и сохранить. Потратив 10 минут и преуспев в проверке @Check[type:crafting|dc:21|showDC:all], персонаж может извлечь 1 Массу масла скалатракса стоимостью в 20 зм из недавно убитого скалатракса. Если масло скалатракса используется для создания алхимического предмета, который наносит урон огнем или другим путем может получить пользу от масла, то ремесленник получает бонус <span class=\"Предмета\">Предмета</span> +1 к своей проверке <span style=\"color: #b96ad9;\"><strong>Ремесла</strong></span>.</p>\n<p>Масло скалатракса можно использовать как масло для фонарей, хотя его часто считают слишком ценным для такого обыденного использования.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"EBgiFSyYf0W5Fxcr": {
+					"name": "Челюсти (Яд)",
+					"description": ""
+				},
+				"zuOWrPyeR35yI1r7": {
+					"name": "Шипы с Лап",
+					"description": ""
+				},
+				"3Y7de8nXARx61nEk": {
+					"name": "Распылить Масло Скалатркаса",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Скалатракс</span> извергает изо рта @Template[type:cone|distance:15] токсичного масла. Существа в этой области должны проверить <span style=\"color: #808000;\">@Check[type:reflex|dc:21|traits:damaging-effect|showDC:gm]</span>.</p>\n<div data-visibility=\"gm\">\n<p>Перезарядка: [[1d4[rounds]]]{1d4 раундов}.</p>\n</div>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо.</p>\n<p><span class=\"Успех\">Успех</span>: Существо получает [[/r 1d8[poison]]]{1d8 Яда}.</p>\n<p><span class=\"Провал\">Провал</span>: Существо получает [[/r 2d8[poison]]]{2d8 Яда}. На 1 минуту существо <span style=\"color: #e67e23;\">=</span>@Compendium[pf2e.bestiary-effects.75B7z49jfQbWcSy9]{получает} <span style=\"text-decoration: underline; color: #34495e;\">Слабость</span> <span style=\"text-decoration: underline; color: #a52a2a;\">5/Огонь</span>, и каждый раз, когда существо терпит <span class=\"Критпровал\">Крит.Провал</span> при броске атаки оружием в руках, оно роняет оружие.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, но урон [[/r 4d8[poison]]]{4d8 Яда}.</p>"
+				},
+				"Q4NBsMEwBKrHlvNK": {
+					"name": "Покрытый Маслом",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Скалатракс</span> постоянно выделяет блестящее масло, которое делает его исключительно скользким.</p>\n<hr />\n<p>Все проверки <span style=\"color: #808000;\"><strong>Акробатики</strong></span> на <span style=\"color: #808000;\">@Compendium[pf2e.actionspf2e.kMcV8e5EZUxa6evt]{Протиснуться}</span> или любая проверка на <span style=\"color: #236fa1;\">@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться}</span> как на одну степень успеха больше, чем выпавший результат.</p>\n<div data-visibility=\"gm\">\n<p><span class=\"Повтор\">Скалатракс</span> теряет это преимущество на 1 минуту после получения любого количества урона <span style=\"text-decoration: underline; color: #a52a2a;\">огнем</span>.</p>\n</div>"
+				},
+				"5NK2vxZn4QPORBlo": {
+					"name": "Яд Скалатракса",
+					"description": "<p class=\"Заг2\">@Check[type:fortitude|dc:21|traits:poison|showDC:gm]</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #808000;\"><strong>Макс.Продол.</strong></span>: 6 раундов</p>\n<p><strong><span style=\"color: #a52a2a;\">Стадия 1</span>:</strong> @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm] (<span class=\"До\">1 Раунд</span>)</p>\n<p><strong><span style=\"color: #ba372a;\">Стадия 2</span>:</strong> @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm] and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} (<span class=\"До\">1 Раунд</span>)</p>\n<p><strong><span style=\"color: #e03e2d;\">Стадия 3</span>:</strong> @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm] and @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 2} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+				}
+			}
+		},
+		{
+			"id": "Skeleton Guard (AV-Graveyard)",
+			"name": "Скелет-Страж",
+			"tokenName": "Скелет-Страж",
+			"description": "",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"EzSKWtWM2tSTtZwA": {
+					"name": "Когти",
+					"description": ""
+				}
+			}
+		},
+		{
+			"id": "Doom of Tomorrow",
+			"name": "Гибель Завтра",
+			"tokenName": "Гибель Завтра",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "<p><span class=\"Эксперт\">ЭКСПЕРТ</span></p>",
+			"hdescription": "<p>Из диорамы доносятся звуки разрушения, и из крошечной модели Мрачносвета вырывается луч мерцающей энергии.</p>",
+			"hdisable": "<p><span class=\"Обучен\">ОБУЧЕН</span> @Check[type:thievery|dc:20|name:Отключить модельку Мрачносвета|traits:magical,trap|showDC:gm] для быстрого отключения модели Мрачносвета до ее срабатывания, или <span class=\"Обучен\">ОБУЧЕН</span> @Check[type:stealth|dc:23|name:Прокрасться мимо|traits:magical,trap|showDC:gm] прокрасться мимо диорамы без триггера</p>",
+			"hreset": "Каждая диорама перезаряжается автоматически спустя 1 час.",
+			"items": {
+				"ZtEncTg58fTcUXvv": {
+					"name": "Лучи Апокалипсиса",
+					"description": "<div><span class=\"Триг\">Триггер</span>: Запускает существо, находящееся в пределах 10ФТ от задней части алькова диорамы</div>\n<hr />\n<p>Моделька Мрачносвета стреляет <span style=\"text-decoration: underline; color: #34495e;\">лучом апокалипсиса</span> в это существо.</p>"
+				},
+				"RQSPQLwfW9A5Ijew": {
+					"name": "Луч (Пожар)",
+					"description": ""
+				},
+				"5TV0w8GnwrjMX6pX": {
+					"name": "Луч (Землятресение)",
+					"description": ""
+				},
+				"5s3WbfpPg11BNAkO": {
+					"name": "Луч (Цунами)",
+					"description": ""
+				},
+				"mmfsGHgB3hcCPClW": {
+					"name": "Луч (Монстр)",
+					"description": ""
+				},
+				"I41NEY2RdcZSR1ft": {
+					"name": "Луч (Нежить)",
+					"description": ""
+				}
+			}
+		},
+		{
+			"id": "Spike Launcher",
+			"name": "Пусковой Механизм (Шипы)",
+			"tokenName": "Пусковой Механизм",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hdescription": "<p>Зазубренный шип металла вылетает из скрытого пускового механизма</p>",
+			"hdisable": "<p><span class=\"Обучен\">ОБУЧЕН</span> @Check[type:thievery|dc:16|name:Отключить Устройство|traits:mechanical,trap|showDC:gm], чтобы отключить один из четырех <span style=\"text-decoration: underline; color: #34495e;\">Пусковых Механизмов</span>, или <span class=\"Обучен\">ОБУЧЕН</span> @Check[type:acrobatics|dc:12|name:Перешагнуть Линию Обстрела|traits:mechanical,trap|showDC:gm], чтобы перешагнуть через линию обстрела (это не разоружает ловушку, но позволяет избежать ее триггера).</p>",
+			"items": {
+				"BFiMEADLB2Qw0lL1": {
+					"name": "Линия Обстрела",
+					"description": "<div><span class=\"Триг\">Триггер</span>: Существо пересекает одну из линий обстрела</div>\n<hr />\n<p>Шип вылетает вдоль линии обстрела против стриггерившего существа, совершая @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Шипом</span></p>"
+				},
+				"gZDMpjUjAgRTjrcL": {
+					"name": "Шип",
+					"description": ""
+				}
+			}
+		},
+		{
+			"id": "Aller Rosk",
+			"name": "Аллер Роск",
+			"tokenName": "Аллер Роск",
+			"randomImg": true,
+			"tokenvision": true,
+			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гули</span> - хищная <span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, которая обитает на кладбищах и питается трупами.</p>\n<hr />\n<p>Мало кто из существ столь повсеместны в зловещих местах, подобным одиноким кладбищам и разрушенным склепам, как плотоядная <span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, известная как <span class=\"Повтор\">Гули</span>.</p>",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"NiDXROLnOZXSEpNC": {
+					"name": "Челюсти (Болезнь, Паралич)",
+					"description": ""
+				},
+				"b6FIdRGaxea1KX6k": {
+					"name": "Когти (Паралич)",
+					"description": ""
+				},
+				"rzTC3Hz3hT9xd3W9": {
+					"name": "Поглощение Татуированной Плоти",
+					"description": "<div><span class=\"Треб\">Требования</span>: <span style=\"text-decoration: underline; color: #34495e;\">Аллер</span> находится рядом с татуированным куском плоти или с трупом существа, умершего в течение последнего часа</div>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Аллер</span> пожирает кусочек плоти и восстанавливает [[/r 4d6[healing]]]{4d6 ОЗ}. Если кусок плоти был татуирован, то <span style=\"text-decoration: underline; color: #34495e;\">Аллер</span> также @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорен 1} и может использовать это дополнительное действие, чтобы нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Челюстями</span>.</p>\n<div data-visibility=\"gm\">\n<p>В таком случае <span style=\"text-decoration: underline; color: #34495e;\">Аллер</span> не может <span style=\"text-decoration: underline; color: #34495e;\">Потреблять Плоть</span> в течение [[1d4[rounds]]]{1d4 раундов}. У Аллера есть один кусок татуированной плоти при себе.</p>\n</div>"
+				},
+				"H61mcURmEhYdmt9L": {
+					"name": "Лихорадка Гуля",
+					"description": "<p class=\"Заг2\">@Check[type:fortitude|dc:22|traits:secret,disease|showDC:gm]</p>\n<div data-visibility=\"gm\">\n<p><strong><span style=\"color: #f1c40f;\">Стадия 1:</span> </strong>Переносчик не имеет эффектов болезни (1 день).</p>\n<p><span style=\"color: #e67e23;\"><strong>Стадия 2:</strong></span> [[/r 2d6[negative]]]{2d6 Негатива} и существо восстанавливает только половину ОЗ от всего исцеления (1 день).</p>\n<p><span style=\"color: #808000;\"><strong>Стадия 3: </strong></span>Как <span style=\"color: #e67e23;\"><strong>стадия 2</strong></span> (1 день).</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия 4:</strong></span> [[/r 2d6[negative]]]{2d6 Негатива} и существо не восстанавливает ОЗ от исцеления (1 день).</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 5:</strong></span> Как <span style=\"color: #a52a2a;\"><strong>стадия 4 </strong></span>(1 день).</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 6: </strong></span>Смерть и в следующую полночь существо восстает как <span class=\"Повтор\">Гуль</span>.</p>\n</div>"
+				},
+				"WCcurB9iEOCcU58H": {
+					"name": "Паралич",
+					"description": "<p class=\"Нарратив\">Любое <span class=\"Признак\">Живое</span> существо, не являющееся <span class=\"Признак\">Эльфом</span>, по которому попала атака <span style=\"text-decoration: underline; color: #34495e;\">гуля</span>, должно совершить <span style=\"color: #169179;\"><strong>успешный </strong></span>спасбросок @Check[type:fortitude|dc:22|traits:incapacitation,occult,necromancy|showDC:gm], иначе будет @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Парализовано}. Оно может совершать новый <span class=\"КБ\">Спас.</span> <span style=\"text-decoration: underline; color: #000080;\"><em>в конце каждого своего хода</em></span> и при каждом таком спасброске, КС совокупно снижается на 1.</p>"
+				}
+			}
+		},
+		{
+			"id": "Augrael",
+			"name": "Агриэль",
+			"tokenName": "Агриэль",
+			"randomImg": true,
+			"tokenvision": true,
+			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гули</span> - хищная <span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, которая обитает на кладбищах и питается трупами.</p>\n<hr />\n<p>Мало кто из существ столь повсеместны в зловещих местах, подобным одиноким кладбищам и разрушенным склепам, как плотоядная <span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, известная как <span class=\"Повтор\">Гули</span>.</p>",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"hwoQ4oeElvvImKgQ": {
+					"name": "Челюсти (Болезнь, Паралич)",
+					"description": ""
+				},
+				"SuNMXHWTyC2lF2Pa": {
+					"name": "Когти (Паралич)",
+					"description": ""
+				},
+				"NyXCVjhHwWZtpfOI": {
+					"name": "Поглощение Плоти",
+					"description": "<div><span class=\"Треб\">Требования</span>: <span class=\"Повтор\">Гуль</span> рядом с трупом существа, которое умерло за прошедший час</div>\n<hr />\n<p><span class=\"Повтор\">Гуль</span> пожирает кусок трупа и восстанавливает [[/r 2d6[healing]]]{2d6 ОЗ}. Он может восстановить ОЗ с каждого конкретного трупа только 1 раз.</p>"
+				},
+				"XKiDDCClxzUDYSO8": {
+					"name": "Лихорадка Гуля",
+					"description": "<p class=\"Заг2\">@Check[type:fortitude|dc:20|traits:secret,disease|showDC:gm]</p>\n<div data-visibility=\"gm\">\n<p><strong><span style=\"color: #f1c40f;\">Стадия 1:</span> </strong>Переносчик не имеет эффектов болезни (1 день).</p>\n<p><span style=\"color: #e67e23;\"><strong>Стадия 2:</strong></span> [[/r 2d6[negative]]]{2d6 Негатива} и существо восстанавливает только половину ОЗ от всего исцеления (1 день).</p>\n<p><span style=\"color: #808000;\"><strong>Стадия 3: </strong></span>Как <span style=\"color: #e67e23;\"><strong>стадия 2</strong></span> (1 день).</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия 4:</strong></span> [[/r 2d6[negative]]]{2d6 Негатива} и существо не восстанавливает ОЗ от исцеления (1 день).</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 5:</strong></span> Как <span style=\"color: #a52a2a;\"><strong>стадия 4 </strong></span>(1 день).</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 6: </strong></span>Смерть и в следующую полночь существо восстает как <span class=\"Повтор\">Гуль</span>.</p>\n</div>"
+				},
+				"0QhLcUbXJtWWVCmp": {
+					"name": "Паралич",
+					"description": "<p class=\"Нарратив\">Любое <span class=\"Признак\">Живое</span> существо, не являющееся <span class=\"Признак\">Эльфом</span>, по которому попала атака <span style=\"text-decoration: underline; color: #34495e;\">гуля</span>, должно совершить <span style=\"color: #169179;\"><strong>успешный </strong></span>спасбросок @Check[type:fortitude|dc:20|traits:incapacitation,occult,necromancy|showDC:gm], иначе будет @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Парализовано}. Оно может совершать новый <span class=\"КБ\">Спас.</span> <span style=\"text-decoration: underline; color: #000080;\"><em>в конце каждого своего хода</em></span> и при каждом таком спасброске, КС совокупно снижается на 1.</p>"
+				},
+				"D8o83tvKi46maS3U": {
+					"name": "Внезапная Атака (1d6)",
+					"description": "<p class=\"Нарратив\">[[/r 1d6[precision]]]{1d6} <span class=\"Признак\">Точного</span><span class=\"Урон\"> Урона</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+				}
+			}
+		},
+		{
+			"id": "Canker Cultist",
+			"name": "Культист Язвы",
+			"tokenName": "Культист",
+			"randomImg": true,
+			"tokenvision": true,
+			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гули</span> - хищная <span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, которая обитает на кладбищах и питается трупами.</p>\n<hr />\n<p>Мало кто из существ столь повсеместны в зловещих местах, подобным одиноким кладбищам и разрушенным склепам, как плотоядная <span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, известная как <span class=\"Повтор\">Гули</span>.</p>",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"aSbHK3DUVAsb8eW6": {
+					"name": "Челюсти (Болезнь, Паралич)",
+					"description": ""
+				},
+				"eltHO3xRIKJCfFcF": {
+					"name": "Когти (Паралич)",
+					"description": ""
+				},
+				"qtILk42sO65XzDmW": {
+					"name": "Поглощение Ритуальной Плоти",
+					"description": "<div><span class=\"Треб\">Требования</span>: <span class=\"Повтор\">Гуль</span> рядом с трупом существа, которое умерло за прошедший час, или с заранее подготовленной ритуальной плотью.</div>\n<hr />\n<p><span class=\"Повтор\">Гуль</span> пожирает кусок трупа и восстанавливает [[/r 1d6[healing]]]{1d6 ОЗ} или [[/r 2d6[healing]]]{2d6 ОЗ}, если это заранее подготовленная ритуальная плоть. Он может восстановить ОЗ с каждого конкретного трупа только 1 раз.</p>"
+				},
+				"YsiUbsAWRxZMjaWA": {
+					"name": "Лихорадка Гуля",
+					"description": "<p class=\"Заг2\">@Check[type:fortitude|dc:20|traits:secret,disease|showDC:gm]</p>\n<div data-visibility=\"gm\">\n<p><strong><span style=\"color: #f1c40f;\">Стадия 1:</span> </strong>Переносчик не имеет эффектов болезни (1 день).</p>\n<p><span style=\"color: #e67e23;\"><strong>Стадия 2:</strong></span> [[/r 2d6[negative]]]{2d6 Негатива} и существо восстанавливает только половину ОЗ от всего исцеления (1 день).</p>\n<p><span style=\"color: #808000;\"><strong>Стадия 3: </strong></span>Как <span style=\"color: #e67e23;\"><strong>стадия 2</strong></span> (1 день).</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия 4:</strong></span> [[/r 2d6[negative]]]{2d6 Негатива} и существо не восстанавливает ОЗ от исцеления (1 день).</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 5:</strong></span> Как <span style=\"color: #a52a2a;\"><strong>стадия 4 </strong></span>(1 день).</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 6: </strong></span>Смерть и в следующую полночь существо восстает как <span class=\"Повтор\">Гуль</span>.</p>\n</div>"
+				},
+				"y4um9lgRgEVJYHeJ": {
+					"name": "Паралич",
+					"description": "<p class=\"Нарратив\">Любое <span class=\"Признак\">Живое</span> существо, не являющееся <span class=\"Признак\">Эльфом</span>, по которому попала атака <span style=\"text-decoration: underline; color: #34495e;\">гуля</span>, должно совершить <span style=\"color: #169179;\"><strong>успешный </strong></span>спасбросок @Check[type:fortitude|dc:20|traits:incapacitation,occult,necromancy|showDC:gm], иначе будет @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Парализовано}. Оно может совершать новый <span class=\"КБ\">Спас.</span> <span style=\"text-decoration: underline; color: #000080;\"><em>в конце каждого своего хода</em></span> и при каждом таком спасброске, КС совокупно снижается на 1.</p>"
+				}
+			}
+		},
+		{
+			"id": "Nhakazarin",
+			"name": "Наказарь",
+			"tokenName": "Наказарь",
+			"randomImg": true,
+			"tokenvision": true,
+			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гули</span> - хищная <span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, которая обитает на кладбищах и питается трупами.</p>\n<hr />\n<p>Мало кто из существ столь повсеместны в зловещих местах, подобным одиноким кладбищам и разрушенным склепам, как плотоядная <span class=\"Признак2\"><span class=\"Признак1\">нежить</span></span>, известная как <span class=\"Повтор\">Гули</span>.</p>",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"DSW55AZz6cwRj1rc": {
+					"name": "Челюсти (Болезнь, Паралич)",
+					"description": ""
+				},
+				"dd53Mcobz1fpxVhN": {
+					"name": "Когти (Паралич)",
+					"description": ""
+				},
+				"oLOpCzPI98yXuw1u": {
+					"name": "Поглощение Плоти",
+					"description": "<div><span class=\"Треб\">Требования</span>: <span class=\"Повтор\">Гуль</span> рядом с трупом существа, которое умерло за прошедший час</div>\n<hr />\n<p><span class=\"Повтор\">Гуль</span> пожирает кусок трупа и восстанавливает [[/r 3d6[healing]]]{3d6 ОЗ}. Он может восстановить ОЗ с каждого конкретного трупа только 1 раз.</p>"
+				},
+				"SiVeimRpwflBeUiq": {
+					"name": "Поглощение Шедевра",
+					"description": "<div><span class=\"Треб\">Требования</span>: <span style=\"color: #34495e;\"><u>Наказарь</u></span> рядом с гниющей статуей Белькоры</div>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Наказарь</span> пожирает кусок плоти от статуи, восстанавливает [[/r 3d6[healing]]]{3d6 ОЗ} и @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорена 1} <span class=\"До\">на 1 раунд</span>. Она может использовать это дополнительное действие, только для того, чтобы нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Челюстями</span> или @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворить Заклинание}.</p>\n<p>Она может питаться от статуи только один раз в день.</p>"
+				},
+				"yD0yYDGEVE1rfNJJ": {
+					"name": "Лихорадка Гуля",
+					"description": "<p class=\"Заг2\">@Check[type:fortitude|dc:22|traits:secret,disease|showDC:gm]</p>\n<div data-visibility=\"gm\">\n<p><strong><span style=\"color: #f1c40f;\">Стадия 1:</span> </strong>Переносчик не имеет эффектов болезни (1 день).</p>\n<p><span style=\"color: #e67e23;\"><strong>Стадия 2:</strong></span> [[/r 2d6[negative]]]{2d6 Негатива} и существо восстанавливает только половину ОЗ от всего исцеления (1 день).</p>\n<p><span style=\"color: #808000;\"><strong>Стадия 3: </strong></span>Как <span style=\"color: #e67e23;\"><strong>стадия 2</strong></span> (1 день).</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия 4:</strong></span> [[/r 2d6[negative]]]{2d6 Негатива} и существо не восстанавливает ОЗ от исцеления (1 день).</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 5:</strong></span> Как <span style=\"color: #a52a2a;\"><strong>стадия 4 </strong></span>(1 день).</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 6: </strong></span>Смерть и в следующую полночь существо восстает как <span class=\"Повтор\">Гуль</span>.</p>\n</div>"
+				},
+				"EiWEO80FhEG270MQ": {
+					"name": "Паралич",
+					"description": "<p class=\"Нарратив\">Любое <span class=\"Признак\">Живое</span> существо, не являющееся <span class=\"Признак\">Эльфом</span>, по которому попала атака <span style=\"text-decoration: underline; color: #34495e;\">гуля</span>, должно совершить <span style=\"color: #169179;\"><strong>успешный </strong></span>спасбросок @Check[type:fortitude|dc:22|traits:incapacitation,occult,necromancy|showDC:gm], иначе будет @Compendium[pf2e.conditionitems.6uEgoh53GbXuHpTF]{Парализовано}. Оно может совершать новый <span class=\"КБ\">Спас.</span> <span style=\"text-decoration: underline; color: #000080;\"><em>в конце каждого своего хода</em></span> и при каждом таком спасброске, КС совокупно снижается на 1.</p>"
+				}
+			}
+		},
+		{
+			"id": "Chandriu Invisar",
+			"name": "Чандрия Инвисар",
+			"tokenName": "Чандрия",
+			"randomImg": true,
+			"tokenvision": true,
+			"description": "<p class=\"Нарратив\">Когда некоторые смертные умирают при трагических обстоятельствах или не завершив что-либо, они могут остаться в этом мире. Эти страдающие души населяют место, значимое для них при жизни, постоянно пытаясь исправить свою предполагаемую ошибку или проступки.</p>",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"WersQyXKosWIiXXl": {
+					"name": "Касание Привидения",
+					"description": ""
+				},
+				"Pgdez88Zqu0dqgGI": {
+					"name": "Крик Отчаяния",
+					"description": "<p class=\"Нарратив\">Чандрия вопит в отчаянии от своей потери и предательства, заставляя каждое <span class=\"Признак\">Живое</span> существо в радиусе 30ФТ совершить <span class=\"КБ\">Спас.</span> @Check[type:will|dc:24|showDC:gm].</p>\n<p>При <span class=\"Провал\">Провал</span>существо становится @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} (@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 2} при <span class=\"Критпровал\">Крит.Провал</span>) <span class=\"До\">на 1 раунд</span>, поскольку его одолевает печаль по поводу собственных упущенных возможностей.</p>\n<p>В случае <span style=\"color: #169179;\"><strong>успеха </strong></span>существо временно <span style=\"text-decoration: underline; color: #34495e;\">иммуна</span> к <span class=\"Повтор\">Крику Отчаяния Чандрии</span> в течение 1 минуты.</p>"
+				},
+				"yJdnNORoa1KtMM7W": {
+					"name": "Связь с Местом",
+					"description": "<div data-visibility=\"gm\">\n<p>Зона <strong>C36</strong> и <strong>C37</strong></p>\n</div>\n<p>Типичное привидение может отдалиться лишь на небольшое расстояние от места, где оно было убито, или от места, которое он населяет. Типичное ограничение - 120ФТ. Вместо этого, некоторые привидения привязаны не к месту, а к комнате, зданию, предмету или существу, которое было для них особенным.</p>"
+				},
+				"rGX35xgDAZROYYQF": {
+					"name": "Восстановление",
+					"description": "<p class=\"Нарратив\">Чтобы навсегда упокоить <span style=\"text-decoration: underline; color: #34495e;\">Чандрию</span>, герой должен убедить ее перестать тосковать по <span style=\"text-decoration: underline; color: #34495e;\">Воллуку</span> с помощью @Check[type:diplomacy|dc:21|name:Convince Chandriu|overrideTraits:true|showDC:gm].</p>\n<p>Независимо от результата этой проверки, <span style=\"text-decoration: underline; color: #34495e;\">Чандрия</span> впадает в ярость и атакует, но если проверка <span class=\"ХАР\">Дипломатии</span> <span class=\"Успех\">успешна</span>, она @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлена 1} на 10 раундов во время боя. Если она побеждена, пока она <span style=\"text-decoration: underline; color: #34495e;\">замедлена</span>, она упокаивается.</p>\n<hr />\n<p>Когда <span class=\"Признак\">Привидение</span> уничтожено оно формируется заново через [[/br 2d4 #days]]{2d4 дня}, полностью исцеленным, в том месте к которому оно привязано. Решение несправедливости приведшей к смерти существа позволяет ему перейти к загробной жизни.</p>"
+				}
+			}
+		},
+		{
+			"id": "Jarelle Kaldrian",
+			"name": "Джерелла Калдриан",
+			"tokenName": "Джерелла",
+			"randomImg": true,
+			"tokenvision": true,
+			"description": "<p class=\"Нарратив\">Когда некоторые смертные умирают при трагических обстоятельствах или не завершив что-либо, они могут остаться в этом мире. Эти страдающие души населяют место, значимое для них при жизни, постоянно пытаясь исправить свою предполагаемую ошибку или проступки.</p>",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"4k6yZiC3ggdlq57F": {
+					"name": "Касание Привидения",
+					"description": ""
+				},
+				"HtINDVVIov9yMEhV": {
+					"name": "Связь с Местом",
+					"description": "<div data-visibility=\"gm\">\n<p>Зона <strong>C13</strong></p>\n</div>\n<p>Типичное привидение может отдалиться лишь на небольшое расстояние от места, где оно было убито, или от места, которое он населяет. Типичное ограничение - 120ФТ. Вместо этого, некоторые привидения привязаны не к месту, а к комнате, зданию, предмету или существу, которое было для них особенным.</p>"
+				},
+				"XNJnpNGQCkQD00v3": {
+					"name": "Восстановление",
+					"description": "<p class=\"Нарратив\">Удаление столов и инструментов из этой комнаты позволяют <span style=\"text-decoration: underline; color: #34495e;\">Джерелле</span> перейти в загробную жизнь.</p>\n<hr />\n<p>Когда <span class=\"Признак\">Привидение</span> уничтожено оно формируется заново через [[/br 2d4 #days]]{2d4 дня}, полностью исцеленным, в том месте к которому оно привязано. Решение несправедливости приведшей к смерти существа позволяет ему перейти к загробной жизни.</p>"
+				},
+				"J1YjLfTIk9vqgvRy": {
+					"name": "Злонамеренная Одержимость",
+					"description": "<p class=\"Нарратив\"><span class=\"Признак\">Привидение</span> пытается овладеть находящимся рядом материальным существом.</p>\n<hr />\n<p>Это имеет тот же эффект, что и заклинание @Compendium[pf2e.spells-srd.wU6hNzK8Yfqdmc8m]{Одержимость КС22}, но поскольку у <span style=\"text-decoration: underline; color: #34495e;\">привидения</span> нет физического тела, на него не действуют соответствующие ограничения этого заклинания.</p>"
+				},
+				"DSrUNlWJjUN1fnWL": {
+					"name": "Ядовитое Дыхание",
+					"description": "<p class=\"Нарратив\">Джарелла выдыхает @Template[type:cone|distance:15] токсичного тумана, который наносит [[/r 5d6[poison]]]. При <span class=\"Критпровал\">Крит.Провал</span> цель также @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1} на 24 часа.</p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:22|basic:true|showDC:gm]</p>\n<div data-visibility=\"gm\">\n<p>Перезарядка [[1d4[rounds]]]{1d4 раундов}</p>\n</div>"
+				}
+			}
+		},
+		{
+			"id": "Watching Wall",
+			"name": "Смотрящая Стена",
+			"tokenName": "Смотрящая Стена",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "<p><span class=\"Эксперт\">ЭКСПЕРТ</span></p>",
+			"hdescription": "<p>Ошеломляющее ощущение того, что за тобой наблюдают, возникает в умах тех, кто находится в комнате, за мгновение до того, как в западной стене открывается жуткий красный глаз.</p>",
+			"hdisable": "<p><span class=\"Обучен\">ОБУЧЕН</span> @Check[type:deception|dc:22|name:Быть Неинтересным|traits:haunt|showDC:gm], чтобы выглядеть неинтересным для глаза (и, следовательно, быть игнорируемым им) или <span class=\"Обучен\">ОБУЧЕН</span> @Check[type:religion|dc:22|name:Изгнать Глаз|traits:haunt|showDC:gm], чтобы предотвратить осмотр и эффект глаза.</p>",
+			"hreset": "<p><span class=\"Признак2\"><span class=\"Признак1\">Призрак</span></span> становится инертным <span style=\"text-decoration: underline; color: #000080;\"><em>в конце любого раунда</em></span>, в котором нет @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуганных} существ, которых он может видеть. Он остается в спящем состояние в течение 1 часа, после чего перезаряжается.</p>",
+			"hroutine": "<p class=\"Заг2\">1 Действие</p>\n<hr />\n<p>Глаз осматривает пространство, и те, кого он видит получают [[/r 4d6[mental]]]{4d6 ментального} (@Check[type:will|dc:21|basic:true|traits:haunt|showDC:gm]), поскольку страх быть замеченным вызывает рябь боли. Существо, которое получает <span class=\"Признак\">ментальный</span> урон от этого эффекта не уменьшает свое значение @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL] <span style=\"text-decoration: underline; color: #000080;\"><em>в конце следующего своего хода</em></span>.</p>",
+			"items": {
+				"V5Ok21wotF3DQNBZ": {
+					"name": "Кто-то Наблюдает",
+					"description": "<p class=\"Нарратив\">Подавляющая волна паранойи заполняет зону C4.</p>\n<hr />\n<div><span class=\"Триг\">Триггер</span>: <span class=\"Признак\">Живое</span> существо остается в зоне <strong>C4</strong> по крайней мере один раунд</div>\n<hr />\n<p>Каждое существо в комнате должно проверить @Check[type:will|dc:25|showDC:gm]{Волю} со следующими результатами. Затем жуткий красный глаз открывается в центре западной стены, оглядывая комнату, и <span class=\"Признак2\"><span class=\"Признак1\">Призрак</span></span> бросает <span style=\"color: #808000;\"><strong>инициативу</strong></span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо.</p>\n<p><span class=\"Успех\">Успех</span>: Существо становится @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1} и чувствует, что кто-то или что-то наблюдает за ним до тех пор, пока он остается <span class=\"Рес\">напуганным</span>.</p>\n<p><span class=\"Провал\">Провал</span>: Существо становится @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2} и не относится ни к кому как к союзнику, пока он остается <span class=\"Рес\">напуганным</span>.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо становится @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3} и находится в @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве}, пока <span class=\"Рес\">напуган</span></p>"
+				}
+			}
+		},
+		{
+			"id": "Vengeful Furnace",
+			"name": "Призрачная Печь",
+			"tokenName": "Призрачная Печь",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "<p><span class=\"Эксперт\">ЭКСПЕРТ</span></p>",
+			"hdescription": "<p>Люк на вершине Призрачной Печи открывается и извергает пару визжащих, горящих призраков.</p>",
+			"hdisable": "<p><span class=\"Обучен\">ОБУЧЕН</span> @Check[type:intimidation|dc:22|name:Напугать Призрака|showDC:gm], чтобы запугать одного из призраков или <span class=\"Обучен\">ОБУЧЕН</span> @Check[type:religion|dc:25|name:Изгнать Призрака|showDC:gm], чтобы изгнать призрака.</p>\n<p><span style=\"text-decoration: underline; color: #34495e;\">Призрачная Печь</span> остается активной, пока оба призрака не будут запуганы или изгнаны, или пока печь не будет уничтожена.</p>",
+			"hreset": "<p>Призрачная Печь перезаряжается спустя 1 час после того, как в комнате нет никаких существ.</p>",
+			"hroutine": "<p class=\"Заг2\">3 Действия</p>\n<hr />\n<p>Горящие <span class=\"Признак2\"><span class=\"Признак1\">призраки</span></span> набрасываются на случайное @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманенное} существо в комнате (или любое случайное существо, если ни одно существо в комнате <span class=\"НЕ\">не</span> <span class=\"Рес\">одурманено</span>).</p>",
+			"items": {
+				"9i3UjVYq4lp3MqZJ": {
+					"name": "Горящая Плеть (Сжигание)",
+					"description": ""
+				},
+				"zzmMQYbPGJRgOH7E": {
+					"name": "Нападение Призраков",
+					"description": "<div><span class=\"Триг\">Триггер</span>: <span class=\"Признак\">Живое</span> существо с значением <span style=\"color: #b96ad9;\"><strong>Интеллекта </strong></span>[[/r 15]] или выше входит в комнату или любое существо прикасается к <span style=\"text-decoration: underline; color: #34495e;\">Призрачной Печи</span>.</div>\n<hr />\n<p>Горящие <span class=\"Признак2\"><span class=\"Признак1\">призраки</span></span> вырываются из печи, подвергая <span style=\"color: #e03e2d;\"><strong>стриггеривщее</strong></span> существо эффекту <span style=\"text-decoration: underline; color: #34495e;\">Сжигания Знания</span>.</p>\n<p><span style=\"text-decoration: underline; color: #34495e;\">Призрачная Печь</span> бросает <span style=\"color: #808000;\"><strong>инициативу</strong></span>.</p>"
+				},
+				"pozH1aOlixvNcvU6": {
+					"name": "Сжигания Знания",
+					"description": "<p class=\"Нарратив\">Цель <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> <span style=\"text-decoration: underline; color: #34495e;\">Нападения Призраков</span>, как и любое существо, позже пораженное@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Горящей Плети</span>, теряет случайные воспоминания, как если бы эти мысли были испепелены, как страницы в горящей книге. Существо должно проверить @Check[type:will|dc:23|showDC:gm].</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо</p>\n<p><span class=\"Успех\">Успех</span>: Существо становится @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 1} на 1 минуту, в то время как оно забывает случайные воспоминания, как если бы эти мысли были испепелены подобно страницам горящей книги.</p>\n<p><span class=\"Провал\">Провал</span>: Как <span class=\"Успех\">Успех</span>, но @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен}&nbsp;сохраняется в течение 24 часов.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, но @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 2}.</p>"
+				}
+			}
+		},
+		{
+			"id": "Jaul Mezmin",
+			"name": "Джаул Мезмин",
+			"tokenName": "Джаул",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"yJVTcQFJpy86gPDG": {
+					"name": "Когти",
+					"description": ""
+				},
+				"8l05kDJb53W6NV0L": {
+					"name": "Челюсть (Проклятие)",
+					"description": ""
+				},
+				"C2q1zvPuwqgQMvwX": {
+					"name": "Изменение Формы",
+					"description": "<ul>\n<li><strong>Человек</strong>\n<ul>\n<li><strong>Кулак</strong> - [[/r 1d20+16 #Кулак1]]{+16}/[[/r 1d20+11 #Кулак2]]{+12}/[[/r 1d20+6 #Кулак3]]{+8} (<span class=\"Признак\">быстрое</span>, <span class=\"Признак\">несмертельное</span>), <strong>Урон:</strong>[[/r {1d6+7}[bludgeoning]]]{1d6+7 Дробяший}</li>\n</ul>\n</li>\n<li><strong>Волк</strong>\n<ul>\n<li><strong>Скорость: </strong>40фт</li>\n<li><strong>Челюсти - </strong>[[/r 1d20+16 #Челюсти1]]{+16}/[[/r 1d20+11 #Челюсти2]]{+11}/[[/r 1d20+6 #Челюсти3]]{+6}, <strong>Урон: </strong>[[/r {2d8+7}[piercing]]]{2d8+7 Колющий} + @Compendium[pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>Существо-<span style=\"text-decoration: underline; color: #a52a2a;\">оборотень</span> принимает форму <span class=\"Рес\">гуманоида</span>, <span class=\"Рес\">гибрида</span> или <span class=\"Рес\">животного</span>. Каждая форма имеет специфический, стойкий внешний вид. Естественная форма настоящего оборотня &mdash; это его <span class=\"Рес\">гибридная</span> форма.</p>\n<p>В <span class=\"Рес\">гуманоидной</span> форме существо-<span style=\"text-decoration: underline; color: #a52a2a;\">оборотень</span> использует свой первоначальный гуманоидный размер, теряет свои <span style=\"text-decoration: underline; color: #34495e;\">челюсти</span> и удары <span style=\"text-decoration: underline; color: #34495e;\">когтями</span> и получает удар <span style=\"text-decoration: underline; color: #34495e;\">кулаком</span> ближнего боя, который наносит <span class=\"Урон\">Дробящ.Урон</span>, равный рубящему урону, нанесенному его когтем.</p>\n<p>В форме <span class=\"Рес\">животного</span> его скорость и размер меняются на скорость и размер <span style=\"text-decoration: underline; color: #a52a2a;\">животного</span>, оно получает любые специальные эффекты удара животного, которых у него еще не было (например, @Compendium[pf2e.bestiary-ability-glossary-srd.BCLvAx4Pz4MLa2pu]{Нокдаун}), и теряет свои удары оружием.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+				},
+				"S0eUokfR9NCiHTkD": {
+					"name": "Волчья Эмпатия",
+					"description": "<p class=\"Нарратив\">Существо может общаться с вольчиьми.</p>"
+				},
+				"RBjfyeeaXd5gEMNe": {
+					"name": "Проклятие Оборотня",
+					"description": "<p class=\"Нарратив\">Это <span class=\"Признак2\"><span class=\"Признак1\">проклятие</span></span> действует только на <span style=\"text-decoration: underline; color: #a52a2a;\">гуманоидов</span></p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:23|showDC:gm|traits:secret]</p>\n<div data-visibility=\"gm\">\n<p>В каждое полнолуние <span style=\"text-decoration: underline; color: #a52a2a;\">проклятое</span> существо должно преуспеть в очередной @Check[type:fortitude|dc:23|showDC:gm] или превратиться в оборотня до рассвета. Существо находится под контролем Мастера и буйствует полночи, прежде чем упасть @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} на рассвете.</p>\n</div>"
+				},
+				"igyVJ2r1r0X9HNP8": {
+					"name": "Лунное Безумие",
+					"description": "<p class=\"Нарратив\">Когда на ночном небе появляется полная луна, <span style=\"text-decoration: underline; color: #34495e;\">Джаул</span> должен войти в свою <span class=\"Рес\">гибридную</span> форму, не способный <span style=\"text-decoration: underline; color: #34495e;\">Изменить Форму</span> после этого, становится <span style=\"text-decoration: underline; color: #169179;\">Большим</span>, увеличивает свою <span style=\"text-decoration: underline; color: #000080;\">досягаемость</span> на 5ФТ и увеличивает урон своих челюстей на 2.</p>\n<p ><span class=\"Увелич\">Увелич.</span> @Compendium[pf2e.bestiary-effects.dRe8n1nBWMIXd8jh]{Эффект: Лунное Безумие}</p>\n<hr />\n<p>Когда луна заходит или солнце встает, <span style=\"text-decoration: underline; color: #34495e;\">Джаул</span> возвращается в <span class=\"Рес\">гуманоидную</span> форму и @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Утомлен} в течение 2d4 часов.</p>"
+				},
+				"5rrKtIIzYEri3htn": {
+					"name": "Координация с Волком",
+					"description": "<p class=\"Нарратив\">@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} <span style=\"text-decoration: underline; color: #34495e;\">Джаула</span> наносят [[/r {1d6}]]{1d6 Доп.Урона} существам в пределах <span style=\"text-decoration: underline; color: #000080;\">досягаемости</span> его <span style=\"text-decoration: underline; color: #34495e;\">волка</span>.</p>"
+				},
+				"E952Mn29Vyncndfi": {
+					"name": "Разящий Катар +1",
+					"description": ""
+				},
+				"txASc5iIQvLV4Nxv": {
+					"name": "Красивое Ожерелье",
+					"description": "<p class=\"Нарратив\">Украшенное драгоценными камнями ожерелье стоимостью в 10 зм с гравировкой \"Моей возлюбленной, Эйле\".</p>"
+				}
+			}
+		},
+		{
+			"id": "Jaul's Wolf",
+			"name": "Волк Джаула",
+			"tokenName": "Волк",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"LwePStc0eHhM9L5l": {
+					"name": "Челюсти (Нокдаун)",
+					"description": ""
+				},
+				"gl7lB276y1xS70s3": {
+					"name": "Координация с Джаулом",
+					"description": "<p class=\"Нарратив\">@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} <span style=\"text-decoration: underline; color: #34495e;\">волка</span> наносят [[/r {1d6}]]{1d6 Доп.Урона} существам в пределах <span style=\"text-decoration: underline; color: #000080;\">досягаемости</span> <span style=\"text-decoration: underline; color: #34495e;\">Джаула</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Otari Ilvashti",
+			"name": "Отари Илвашти",
+			"tokenName": "Отари",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"vH2uvgGZ6JCaWrIl": {
+					"name": "Касание Привидения",
+					"description": ""
+				},
+				"tJRkLCUMgqynhzQ9": {
+					"name": "Воспользоваться Тенью",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Отари</span> исчезает, на мгновение появляется из тени другого существа в пределах 30ФТ и наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Касанием</span> по цели в пределах <span style=\"text-decoration: underline; color: #000080;\">досягаемости</span> этого существа (но не по существу, тень которого он использует).</p>\n<p>При <span style=\"color: #169179;\"><strong>успешном </strong></span>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударе} цель также становится @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутой Врасплох} <span style=\"text-decoration: underline; color: #169179;\"><em>до начала следующего хода Отари</em></span>. Затем <span style=\"text-decoration: underline; color: #34495e;\">Отари</span> снова появляется в исходной точке.</p>\n<hr />\n<p>Существо, чью тень использовал <span style=\"text-decoration: underline; color: #34495e;\">Отари</span>, подвергается <span style=\"text-decoration: underline; color: #34495e;\">Грязной Лихорадке</span>.</p>"
+				},
+				"eP5tBspqEqP18oTY": {
+					"name": "Связь с Местом",
+					"description": "<div data-visibility=\"gm\">\n<p>Зона <strong>D18</strong></p>\n</div>\n<p>Типичное привидение может отдалиться лишь на небольшое расстояние от места, где оно было убито, или от места, которое он населяет. Типичное ограничение - 120ФТ. Вместо этого, некоторые привидения привязаны не к месту, а к комнате, зданию, предмету или существу, которое было для них особенным.</p>"
+				},
+				"oeWKbVvK3lP66J9I": {
+					"name": "Восстановление",
+					"description": "<p class=\"Нарратив\">Сохранение четырех значков Розовой Стражи и размещение их на алтаре в области <strong>D13</strong> позволяет <span style=\"text-decoration: underline; color: #34495e;\">Отари Илвашти</span> перейти в загробную жизнь.</p>\n<hr />\n<p>Когда <span class=\"Признак\">Привидение</span> уничтожено оно формируется заново через [[/br 2d4 #days]]{2d4 дня}, полностью исцеленным, в том месте к которому оно привязано. Решение несправедливости приведшей к смерти существа позволяет ему перейти к загробной жизни.</p>"
+				},
+				"11ioR4E9tTmB1Wak": {
+					"name": "Грязная Лихорадка",
+					"description": "<p class=\"Нарратив\">Состояния @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота} и @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} от <span style=\"text-decoration: underline; color: #34495e;\">Грязной Лихорадки</span> не проходят сами по себе, пока не вылечена <span class=\"Признак\">болезнь</span>.</p>\n<p class=\"Заг2\"><span style=\"color: #236fa1;\"><strong>@Check[type:fortitude|showDC:gm|dc:25|traits:secret,disease|name:Грязная Лихорадка]</strong></span></p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #f1c40f;\"><strong>Стадия 1:</strong></span> Нет эффектов болезни ([[1d4]]{1d4 Часа})</p>\n<p><span style=\"color: #e67e23;\"><strong>Стадия 2:</strong></span> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (1 день)</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия 3:</strong></span> @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} (1 день),</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия 4:</strong></span> @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} (1 день),</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия 5:</strong></span> Смерть</p>\n</div>"
+				},
+				"aUiw4yrSZnbmjXeR": {
+					"name": "Внезапная Атака (2d6)",
+					"description": "<p class=\"Нарратив\">[[/r 2d6[precision]]]{2d6} <span class=\"Признак\">Точного</span><span class=\"Урон\"> Урона</span></p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+				}
+			}
+		},
+		{
+			"id": "Voidglutton",
+			"name": "Пустотный Огонек",
+			"tokenName": "Пуст.Огонек",
+			"randomImg": true,
+			"tokenvision": true,
+			"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Пустотный Огонек</span> &mdash; это могущественный тип Блуждающего Огонька, обитающий в местах, где царит страдание, например, на кладбище, в лагере для военнопленных или на поле недавней битвы. <span style=\"text-decoration: underline; color: #34495e;\">Путсотный Огонек</span> выглядит как кипящая сфера светящихся глаз, вращающаяся вокруг пустого черного вихря шириной 4 фута. Изнутри этого вихря тянутся длинные полупрозрачные усики, которые заканчиваются семипалыми игольчатыми руками.</p>",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"WsGIMLD86LgMNUWg": {
+					"name": "Когти (Страх)",
+					"description": ""
+				},
+				"zGg5a7ALqF7zVFCa": {
+					"name": "Экто-Паутина",
+					"description": ""
+				},
+				"JPj4ayUtkVtkvYCy": {
+					"name": "Притушить Свечение",
+					"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: <span class=\"Повтор\">Пуст.Огонек</span> накладывает @Compendium[pf2e.spells-srd.4GE2ZdODgIQtg51c]{Тьма};</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Пустотный Огонек</span> гасит свое <span style=\"text-decoration: underline; color: #34495e;\">Свечение</span> как часть @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}. Он становится @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Невидимым} до тех пор, пока остается в области <span style=\"text-decoration: underline; color: #34495e;\">тьмы</span>.</p>\n<p>Если <span class=\"Повтор\">Пуст.Огонек</span> использует враждебное действие, его @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Невидимость} заканчивается, как только враждебное действие завершено.</p>"
+				},
+				"45yP2nFzQUcp3Zvm": {
+					"name": "Подпитка Страхом",
+					"description": "<p class=\"Нарратив\">Сгусток пустоты питается ужасом существа.</p>\n<hr />\n<div><span style=\"color: #236fa1;\"><strong>Частота: </strong></span>Один раз за раунд;</div>\n<div><span class=\"Треб\">Требования</span>: Враг под эффектом с признаком <span class=\"Признак\">страх</span> или имеет состояние @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган} или @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{При Смерти}, и находится в пределах 25ФТ от <span style=\"text-decoration: underline; color: #34495e;\">Пуст.Огонька</span>;</div>\n<hr />\n<p>Он восстанавливает [[/r 3d4[healing]]]{3d4 ОЗ}, и его <span style=\"text-decoration: underline; color: #34495e;\">Свечение</span> снова загорается, если оно было <span style=\"text-decoration: underline; color: #34495e;\">Притушено</span>.</p>\n<div data-visibility=\"gm\">\n<p>Он не может использовать<span style=\"text-decoration: underline; color: #34495e;\">Притушить Свет</span> снова [[/br 1d4 #Перезарядка Притушить Свет]]{1d4 раундов}, так как он слишком пресыщен страхом, чтобы подавить свое <span style=\"text-decoration: underline; color: #34495e;\">Свечение</span>.</p>\n</div>"
+				},
+				"O2CT9C7oM6YOLZNX": {
+					"name": "Свечение",
+					"description": "<p class=\"Нарратив\">@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]@Template[type:emanation|distance:30]{30 фт}</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Пустотный Огонек</span> сам по себе, естественно @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Невидим}, но светится бледно-синим светом, отбрасывая ауру яркого света и делая его видимым.</p>"
+				},
+				"gdWSFRbbf21JhOa9": {
+					"name": "Экто-Паутина-Ловушка",
+					"description": "<p class=\"Нарратив\">Существо, попавшее в <span style=\"text-decoration: underline; color: #34495e;\">Экто-паутину-Ловушку</span> <span style=\"text-decoration: underline; color: #34495e;\">Пустотного Огонька</span>, @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен} и прилипает к ближайшей поверхности до тех пор, пока ему не удастся @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться КС26}.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Экто-Паутина-Ловушка</span> может @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижить} <span style=\"text-decoration: underline; color: #a52a2a;\">бестелесных</span> существ.</p>"
+				},
+				"rdEPYGmtMUuJ7I3P": {
+					"name": "Устрашающий Удар",
+					"description": "<p class=\"Нарратив\">Когда <span class=\"Повтор\">Пуст.Огонек</span> наносит урон, существо должно преуспеть в @Check[type:will|dc:26|showDC:gm] или станет @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1} (@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2} при <span class=\"Критпровал\">Крит.Провал</span>).</p>"
+				},
+				"k0izMsqD3Kbrn6oD": {
+					"name": "Магический Иммунитет",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Мерцающий Огонек</span> невосприимчив ко всем заклинаниям, кроме @Compendium[pf2e.spells-srd.HRb2doyaLtaoCfi3]{Фейское Сияние}, @Compendium[pf2e.spells-srd.g8QqHpv2CWDwmIm1]{Порыв Ветра}, @Compendium[pf2e.spells-srd.gKKqvLohtrSJj3BM]{Магический Снаряд} и @Compendium[pf2e.spells-srd.Oj1PJBMQD9vuwCv7]{Лабиринт}.</p>"
+				}
+			}
+		},
+		{
+			"id": "Volluk Azrinae",
+			"name": "Воллук Азринай",
+			"tokenName": "Воллук",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"spellDC": "25",
+			"items": {
+				"rV1k0lGcAvoytfnj": {
+					"name": "Щупальце Роя",
+					"description": "<div><span style=\"color: #169179;\"><strong>Урон:</strong></span> [[/r {2d8+8}[persistent,piercing]]]</div>\n<div><span style=\"color: #2dc26b;\"><strong>Крит.Урон:</strong></span> [[/r {2*2d8+2*8}[persistent,piercing,criticalSuccess]]]</div>"
+				},
+				"IiFLZ6cZ0dZBAcee": {
+					"name": "Объятия Роя",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Воллук</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, заканчивая свое <span class=\"Признак\">движение</span>, разделяя пространство с существом и наносит [[/r 3d8[piercing]]]{3d8 Колющего} существу.</p>\n<p class=\"Заг2\">@Check[type:reflex|dc:23|basic:true|showDC:gm]</p>"
+				},
+				"UbtJOXzzsAmXD5rI": {
+					"name": "Форма Роя",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Воллук</span> превращается в бесформенный рой: он сбрасывает все удерживаемые, носимые и переносимые предметы. Будучи безформенным роем, он не может использовать атакующие действия и не может @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворять Заклинания}, но он может @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещаться} по областям, достаточно маленьким для того, чтобы его отдельные пиявки могли поместиться без необходимости @Compendium[pf2e.actionspf2e.kMcV8e5EZUxa6evt]{Протискиваться}.</p>\n<hr />\n<p>Он может использовать то же самое действие, чтобы вернуться в свою нормальную форму.</p>"
+				},
+				"c8DR2M4wTFOhiB7j": {
+					"name": "Быстрое Исцеление 7",
+					"description": "<p class=\"Нарратив\">@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+				},
+				"pi0jucwlFYIo5mn8": {
+					"name": "Разделение",
+					"description": "<p class=\"Нарратив\">Черви <span style=\"text-decoration: underline; color: #34495e;\">Воллука</span>, из-за его воспоминаний, более медлительны, что даёт героям 2 раунда, а не 1 раунд, чтобы уничтожить убегающих паразитов, прежде чем они убегут.</p>\n<hr />\n<p>Когда здоровье <span style=\"text-decoration: underline; color: #34495e;\">Червя-что-ходит</span> падает до 0, он распадается, и черви-компоненты, составляющие его тело, расходятся во всех направлениях. Если хотя бы один червь сбежит, <span style=\"text-decoration: underline; color: #34495e;\">червь-что-ходит</span>, в конечном итоге переформируется, используя процесс, который обычно занимает [[/r 1d10[day]]]{1d10 дней}.</p>\n<hr />\n<p>Точные обстоятельства и окружение определяют, сколько времени есть у врагов, чтобы убить убегающих червей, но обычно это всего один раунд.</p>\n<p>Как правило, это требует применения эффектом по площади или брызг в пространство, где был побежден <span style=\"text-decoration: underline; color: #34495e;\">червь-что-ходит</span>. После того, как этой области нанесено любое количество урона, персонаж должен проверить @Check[type:flat|dc:15|showDC:all]. Каждый последующий соотвествующий урон уменьшает КС этой проверки на 2, до минимума @Check[type:flat|dc:5|showDC:all].</p>\n<p>Если любая из этих проверок <span class=\"Успех\">успешна</span>, ни один из червей не сбежит, а <span style=\"text-decoration: underline; color: #34495e;\">червь-что-ходит</span> будет уничтожен навсегда. .</p>\n<hr />\n<p>По усмотрению Мастера, умные способы ловушки или иного задержания паразитов, могут продлить время, отведенное на то, чтобы прикончить <span style=\"text-decoration: underline; color: #34495e;\">червя-что-ходит</span>.</p>"
+				},
+				"Ska9kA0i2bCxOPKc": {
+					"name": "Ненавистные Воспоминания",
+					"description": "<p class=\"Нарратив\">Если <span style=\"text-decoration: underline; color: #34495e;\">Воллук</span> может увидеть точное изображение своего прежнего облика живого дроу <span style=\"text-decoration: underline; color: #169179;\"><em>в начале своего хода</em></span>, он должен совершить <span class=\"КБ\">Спас.</span> @Check[type:will|dc:28|showDC:gm] или наполниться ненавистью к себе и @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} <span class=\"До\">на 1 раунд</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Befuddling Gas Trap",
+			"name": "Ловушка Одурманивающего Газа",
+			"tokenName": "Одурманивающий Газ (Ловушка)",
+			"tokenImg": "modules/PF2E-TS-RUB/art/hazard/Befuddling%20Gas%20Trap%202.webp",
+			"img": "modules/PF2E-TS-RUB/art/hazard/Befuddling%20Gas%20Trap.webp",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "<span class=\"Эксперт\">ЭКСПЕРТ</span>, чтобы заметить скрытый механизм в северной стене.",
+			"hdescription": "Семь сопел, спрятанных в отверстиях в потолке высотой 15ФТ, выпускают ядовитый газ.",
+			"hdisable": "<p>&diams; <span class=\"Мастер\">МАСТЕР</span>@Check[type:thievery|dc:33|name:Сломать Механизм|traits:hazard,complex,mechanical,trap] чтобы вывести из строя скрытый механизм на северной стене, немедленно выпускаю газ из комнаты.</p>\n<p>&diams; <span class=\"Эксперт\">ЭКСПЕРТ</span>@Check[type:thievery|dc:29|name:Заткнуть Сопло|traits:hazard,complex,mechanical,trap] чтобы заткнуть одно из семи сопел. Когда все семь сопел забиты или разрушены, <span class=\"Признак2\"><span class=\"Признак1\">ловушка</span></span> деактивируется.</p>",
+			"hroutine": "<p class=\"Заг2\">1 Действие</p>\n<hr />\n<p>Газ усиливается. Каждое существо в комнате должно сделать <span class=\"CTK\">Спас.@Check[type:fortitude|dc:30|showDC:gm]{СТК}</strong></span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо неыредимо и становится временно <span style=\"text-decoration: underline; color: #34495e;\">иммуно</span> к газу на 1 час, хотя, если существо уже было @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманено} <span style=\"text-decoration: underline; color: #a52a2a;\">ловушкой</span>, это состояние сохраняется в течение обычного времени.</p>\n<p><span class=\"Успех\">Успех</span>: Существо невредимо</p>\n<p><span class=\"Провал\">Провал</span>: Существо становится @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 1} на 24 часа. Если цель уже <span style=\"text-decoration: underline; color: #34495e;\">одурманена</span>, значение состояния увеличивается на 1 (максимум до <span style=\"text-decoration: underline; color: #34495e;\">Одурманена 4</span>), и цель получает [[/r 8d6[mental]]]{8d6 Ментального}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, за исключением того, что цель получает двойной <span class=\"Признак\">ментальный</span> урон.</p>",
+			"hreset": "Через час <span class=\"Признак2\"><span class=\"Признак1\">ловушка</span></span> отключается; газ медленно рассеивается, и двери снова можно открыть. Через 24 часа газ накапливается, и ловушку можно снова активировать.",
+			"items": {
+				"yCvj5N1H04hmAYuS": {
+					"name": "Выпуск Газа",
+					"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Обе потайные двери закрыты и в комнате находится хотя бы одно существо</p>\n<hr />\n<p>Газ заполняет камеру. Существа в камере должны преуспеть в <span class=\"CTK\">Спас.@Check[type:fortitude|dc:30|showDC:gm]</strong></span> или стать @Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 1} (@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 2} при <span class=\"Критпровал\">Крит.Провал</span>). Затем <span class=\"Признак2\"><span class=\"Признак1\">ловушка</span></span> делает бросок <span style=\"color: #808000;\"><strong>инициативы</strong></span>.</p>"
+				}
+			}
+		}
+	]
+}

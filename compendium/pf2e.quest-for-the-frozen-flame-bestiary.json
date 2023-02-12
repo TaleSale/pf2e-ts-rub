@@ -1,0 +1,406 @@
+{
+	"label": "Quest for the Frozen Flame",
+	"mapping": {
+		"description": "data.details.publicNotes",
+		"img": "img",
+		"tokenName": "token.name",
+		"tokenImg": "token.img",
+		"tokenvision": "token.vision",
+		"tokendisplayBars": "token.displayBars",
+		"tokendisplayName": "token.displayName",
+		"randomImg": "token.randomImg",
+		"abilityspell": "items.data.ability.value",
+		"spellattack": "items.data.spelldc.value",
+		"spelldc": "items.data.spelldc.dc",
+		"hstealth": "data.attributes.stealth.details",
+		"hdisable": "data.details.disable",
+		"hdescription": "data.details.description",
+		"hreset": "data.details.reset",
+		"hroutine": "data.details.routine",
+		"classDC": "data.attributes.classDC",
+		"keyability": "data.attributes.keyability.value"
+    },
+	"entries": [
+		{
+			"id": "Abyss-warped Trees",
+			"name": "Abyss-warped Trees"
+		},
+		{
+			"id": "Acid Strongbox Trap",
+			"name": "Acid Strongbox Trap"
+		},
+		{
+			"id": "Animated Blade",
+			"name": "Animated Blade"
+		},
+		{
+			"id": "Arboreal Tar Tree",
+			"name": "Arboreal Tar Tree"
+		},
+		{
+			"id": "Ardissa Prendergant",
+			"name": "Ardissa Prendergant"
+		},
+		{
+			"id": "Ardissa's Porter",
+			"name": "Ardissa's Porter"
+		},
+		{
+			"id": "Ashen Swale",
+			"name": "Ashen Swale"
+		},
+		{
+			"id": "Azi",
+			"name": "Azi"
+		},
+		{
+			"id": "Bargott",
+			"name": "Bargott"
+		},
+		{
+			"id": "Beaver",
+			"name": "Beaver"
+		},
+		{
+			"id": "Bone Warrior",
+			"name": "Bone Warrior"
+		},
+		{
+			"id": "Burnbearer",
+			"name": "Burnbearer"
+		},
+		{
+			"id": "Burning Mammoth Commandos",
+			"name": "Burning Mammoth Commandos"
+		},
+		{
+			"id": "Burning Mammoth Hunter",
+			"name": "Burning Mammoth Hunter"
+		},
+		{
+			"id": "Burning Mammoth Longshield",
+			"name": "Burning Mammoth Longshield"
+		},
+		{
+			"id": "Burning Mammoth Reaver",
+			"name": "Burning Mammoth Reaver"
+		},
+		{
+			"id": "Cairn Wight (G4)",
+			"name": "Cairn Wight (G4)"
+		},
+		{
+			"id": "Calcifda",
+			"name": "Calcifda"
+		},
+		{
+			"id": "Castoroides",
+			"name": "Castoroides"
+		},
+		{
+			"id": "Cave-in",
+			"name": "Cave-in"
+		},
+		{
+			"id": "Corrupted Elder Tree",
+			"name": "Corrupted Elder Tree"
+		},
+		{
+			"id": "Crawling Hand Swarm",
+			"name": "Crawling Hand Swarm"
+		},
+		{
+			"id": "Death's Slumber Ward",
+			"name": "Death's Slumber Ward"
+		},
+		{
+			"id": "Desiak",
+			"name": "Desiak"
+		},
+		{
+			"id": "Elk",
+			"name": "Elk"
+		},
+		{
+			"id": "Everburning Mammoths",
+			"name": "Everburning Mammoths"
+		},
+		{
+			"id": "Falling Stalactites",
+			"name": "Falling Stalactites"
+		},
+		{
+			"id": "Fiendish Arboreal",
+			"name": "Fiendish Arboreal"
+		},
+		{
+			"id": "Final Flight",
+			"name": "Final Flight"
+		},
+		{
+			"id": "Footsteps Of Legends",
+			"name": "Footsteps Of Legends"
+		},
+		{
+			"id": "Forest Fire",
+			"name": "Forest Fire"
+		},
+		{
+			"id": "Gathganara",
+			"name": "Gathganara"
+		},
+		{
+			"id": "Giant Tapir",
+			"name": "Giant Tapir"
+		},
+		{
+			"id": "Giant Tapir (Snared)",
+			"name": "Giant Tapir (Snared)"
+		},
+		{
+			"id": "Glyptodon",
+			"name": "Glyptodon"
+		},
+		{
+			"id": "Graylok Ambushers",
+			"name": "Graylok Ambushers"
+		},
+		{
+			"id": "Graylok Artillerists",
+			"name": "Graylok Artillerists"
+		},
+		{
+			"id": "Graylok Gatebreakers",
+			"name": "Graylok Gatebreakers"
+		},
+		{
+			"id": "Groplit",
+			"name": "Groplit"
+		},
+		{
+			"id": "Hail of Razor Stones",
+			"name": "Hail of Razor Stones"
+		},
+		{
+			"id": "Hall Of Fiery Doom",
+			"name": "Hall Of Fiery Doom"
+		},
+		{
+			"id": "Hegremon",
+			"name": "Hegremon"
+		},
+		{
+			"id": "Hobji",
+			"name": "Hobji"
+		},
+		{
+			"id": "Idovik",
+			"name": "Idovik"
+		},
+		{
+			"id": "Ivarsa",
+			"name": "Ivarsa"
+		},
+		{
+			"id": "Jesseri The Hailstorm",
+			"name": "Jesseri The Hailstorm"
+		},
+		{
+			"id": "Kadlaka",
+			"name": "Kadlaka"
+		},
+		{
+			"id": "Lagofir",
+			"name": "Lagofir"
+		},
+		{
+			"id": "Loblobi",
+			"name": "Loblobi"
+		},
+		{
+			"id": "Lomok",
+			"name": "Lomok"
+		},
+		{
+			"id": "Long-horned Bison",
+			"name": "Long-horned Bison"
+		},
+		{
+			"id": "Long-horned Bison Beheaded",
+			"name": "Long-horned Bison Beheaded"
+		},
+		{
+			"id": "Megaloceros",
+			"name": "Megaloceros"
+		},
+		{
+			"id": "Methane Flue",
+			"name": "Methane Flue"
+		},
+		{
+			"id": "Metuak",
+			"name": "Metuak"
+		},
+		{
+			"id": "Necrohusk",
+			"name": "Necrohusk"
+		},
+		{
+			"id": "Oil Explosion",
+			"name": "Oil Explosion"
+		},
+		{
+			"id": "Pakano",
+			"name": "Pakano"
+		},
+		{
+			"id": "Pakano (Level 12)",
+			"name": "Pakano (Level 12)"
+		},
+		{
+			"id": "Pouncing Tiger Haunt",
+			"name": "Pouncing Tiger Haunt"
+		},
+		{
+			"id": "Punishing Altar",
+			"name": "Punishing Altar"
+		},
+		{
+			"id": "Rhino Warriors",
+			"name": "Rhino Warriors"
+		},
+		{
+			"id": "Rime Sludge",
+			"name": "Rime Sludge"
+		},
+		{
+			"id": "Rockfall Ceiling",
+			"name": "Rockfall Ceiling"
+		},
+		{
+			"id": "Roru",
+			"name": "Рору, Демон-Охотник",
+			"tokenName": "Рору",
+  			"img": "modules/PF2E-TS-RUB/art/pf2e-pathfinder-bestiary/art/demon/07Demon_Roru.webp",
+			"description": "<h2 class=\"Заг2\">Рору</h2>\n<p>Рору, которых иногда называют демонами-охотниками, &mdash; жестокие демоны, появляющиеся из душ смертных, изуродовавших трупы животных. Как демоны, эти люди надевают шкуры животных, а затем проникают в стаи или стада, чтобы развратить целые группы животных, сделав своих жертв кровожадными и дикими.</p>\n<hr />\n<h2 class=\"Заг2\">Охотничьи Земли</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Рору на Материальном Плане предпочитают развращать животных в дикой местности вблизи населенных гуманоидами районов. Самые наглые Рору действуют в поселениях, изображая из себя мирных животных или возглавляющих культы на бойнях.</p>\n<hr />\n<h2 class=\"Заг2\">Демон(Общее)</h2>\n<p>Когда грешная смертная душа осуждена и отправлена в Бездну, она может превратиться в смертоносного беса - демона. Демоны являются живыми воплощениями греха, будь то классические грехи, такие как гнев или обжорство, или более \"специализированные\" пороки, такие как одержимость пытками или акт измены или предательства. Будучи однажды сформированным, его движущие цели двояки: накопление личной силы и развращение смертных душ, чтобы они запятнались грехом. Таким образом демоны обеспечивают нескончаемый приток новых демонов для пополнения своих постоянно растущих рядов в Бездне.</p>\n<hr />\n<h2 class=\"Заг2\">Демонические Божества</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Самые могущественные демоны известны как повелители демонов (данный термин нейтрален по половому признаку). Из этих божеств @Compendium[pf2e.deities.aipkJQxP4GBsTaGq]{Ламашту} является самой могущественной. Существует бесчисленное множество других повелителей демонов, включая @Compendium[pf2e.deities.bLI1JMpI2GXQT5AC]{Абраксаса}, @Compendium[pf2e.deities.gXHoxuuiAD54LnWV]{Сит-Ви`зага}, @Compendium[pf2e.deities.V5PbbkZUP9N7kl6h]{Кабрири} и @Compendium[pf2e.deities.8ZSywyo8YQPduo92]{Зуру}.</p>\n<hr />\n<h2 class=\"Заг2\">Природа Хаоса</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые говорят, что природа хаоса по своей сути исключает сотрудничество и изощренность, но демоны доказывают ошибочность этого утверждения.</p>\n<hr />\n<h2 class=\"Заг2\">Что Есть Грех?</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые подразделяют грех на 7 категорий: зависть, чревоугодие, жадность, похоть, гордыню, леность и гнев. Хотя в этих грехах олицетворены некоторые из самых могущественных и многочисленных демонов, их гораздо больше семи. Любой акт жестокости или разрушения, который совершает смертный, чтобы удовлетворить себя за счет других, по сути, является грехом, и любой такой акт может породить демона из души в загробной жизни.</p>\n<hr />\n<h2 class=\"Заг2\">Демоническая Одержимость</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Некоторые демоны специализируются в искусстве одержимости над существами или объектами, чтобы сеять страх и хаос. В таких случаях демон приобретает мощную маскировку, с помощью которой он творит зло в мире, что является доставляющей ему удовольствие уловкой.</p>\n<hr />\n<h2 class=\"Заг2\">Разрушительность Греха</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя им нравится и самим причинять разрушения, большинство демонов предпочитают обманывать и искушать смертных, заставляя их по собственной воле придаваться греху.</p>\n<hr />\n<h2 class=\"Заг2\">Места Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/compass.svg\" width=\"50\" height=\"50\" /> Разрастающееся, вздымающееся, изменчивое царство Бездны это планарный дом демонической жизни, но демонов можно встретить везде, где существует потенциал к греху. Злые или глупые колдуны любят обращаться к демонам за советом или за более темными нуждами. Когда Бездна прорывается через границы реальности, создавая похожие на раны порталы в другие миры, демоны могут вырваться наружу и посеять невероятный хаос.</p>\n<hr />\n<h2 class=\"Заг2\">Источники Демонического</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Когда грешной смертной душе предписано попасть в Бездну, она проводит время, утопая в трясине и питаясь нечистотами. Если она выживет и не оказывается съедена, эта душа в конце концов превращается в демона, на что влияет природа ее греха, однако большинство демонов способны к самостоятельному размножению. Плодовитость демонической жизни это, пожалуй, самый значительный и грозный аспект этих опасных бесов.</p>\n<hr />\n<h2 class=\"Заг2\">Другие Демоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна, возможно, самый большой из Внешних Планов, и смертные обладают сопоставимым потенциалом предавать себя, общество и естественный порядок реальности. Благодаря этому безграничному источнику все более особых грехов, Бездна постоянно порождает новые виды демонов, досаждающих реальности. Хотя подавляющее большинство из них быстро уничтожается и больше никогда не возникают, их выживает достаточное количество, чтобы помимо перечисленных здесь, существовали десятки, если не сотни, видов демонов. Теневой @Compendium[pf2e.pathfinder-bestiary-2.M2BkGD9YwEmCvD9D]{Инвидиак} - демон без тела, порожденный завистливыми душами. Козлолицый, огнедышащий @Compendium[pf2e.pathfinder-bestiary-3.rVtBZrHnWM3lvSs7]{Бриморак} появляется из душ поджигателей. Склизкие, рогатые @Compendium[pf2e.pathfinder-bestiary-2.Ud6Iy1GolgtwrKQK]{Бабау, Кровавый Демон} порождаются из убийц, @Compendium[pf2e.pathfinder-bestiary-2.YUZF9WhDmfzma3dE]{Нальфешни, Демон-Кабан} - из жадных... и этот список можно продолжать и продолжать.</p>\n<hr />\n<h2 class=\"Заг2\">Вызов Демонов</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/dice-twenty-faces-twenty.svg\" width=\"50\" height=\"50\" /> Вызов демонов является опрометчивым, но отчаявшиеся или злые все же делают это. Для долгосрочных целей типичны такие ритуалы, как @Compendium[pf2e.spells-srd.vgy00hnqxN9VoeoF] или @Compendium[pf2e.spells-srd.2ykmAVKrsAWcazcC], а для боевого применения подходит @Compendium[pf2e.spells-srd.29ytKctjg7qSW2ff]. Для ритуала планарного союзника демоны иногда принимают подношения, которые не представляют ценности, при условии, что их дарение демону толкает ритуалиста дальше во грех.</p>\n<hr />\n<h2 class=\"Заг2\">Полудемоны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Бездна может развращать живых существ посредством прямого слияния или сверхъестественного вливания энергии Бездны, что приводит к появлению чудовищных гибридов. Полудемон должен быть индивидуально созданным существом, но вы можете быстро создать его, наделив существующее существо несколькими умениями демона, а также уязвимостью, связанной с грехом демона. Например, Полу-@Compendium[pf2e.pathfinder-bestiary-2.wqiFcGPARy8zmQfd]{Хезру} @Compendium[pf2e.pathfinder-bestiary.aqW5sp9HPgZgpXxs] получит уязвимость к чистоте, но также возможно, укус, Скорость плавания и ядовитые гнойники. При перекидывании умений между существами разных уровней не забудьте скорректировать числа в соответствии с новым уровнем.</p>\n<hr />\n<h2 class=\"Заг2\">Новички Бездны</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Хотя сейчас демоны являются самыми многочисленными <span style=\"text-decoration: underline; color: #a52a2a;\">исчадьями</span> Бездны, они являются относительными новичками, появившимися только когда смертное влияние, и в частности смертный грех, начали формировать этот план. На протяжении веков демоны боролись за господство с другими давними обитателями Бездны, но в конце концов их численность позволила стать доминирующими хаотичными бесами.</p>\n<hr />\n<h2 class=\"Заг2\">Демоны и Души</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/bookmarklet.svg\" width=\"50\" height=\"50\" /> Демоны, как и многие другие <span style=\"text-decoration: underline; color: #a52a2a;\">исчадья</span>, жаждут душ. По их мнению, главное предназначение этих душ - порождать новых демонов, которые могут служить солдатами, рабами, пешками или даже валютой для их более могущественных хозяев.</p>",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"y0gym5wp5wn6iznu": {
+					"name": "Челюсти (Зло)",
+					"description": ""
+				},
+				"sr2tiu618w7bc6sv": {
+					"name": "Когти (Зло)",
+					"description": ""
+				},
+				"lo4ykwnhgn0sqzrn": {
+					"name": "Отвращение к Недрессированости",
+					"description": "<p class=\"Нарратив\">В первый раз в каждом раунде когда попытка @Compendium[pf2e.actionspf2e.q9nbyIF0PEBqMtYe] <span style=\"color: #ba372a;\"><strong>проваливается </strong></span>в пределах 60ФТ от <span style=\"text-decoration: underline; color: #34495e;\">Рору</span>, <span style=\"text-decoration: underline; color: #34495e;\">Рору</span> получает [[/r 4d6[mental]]]{4d6 Ментал.} ([[/r 10d6[mental]]]{10d6 Ментал.} если это была попатка самого <span style=\"text-decoration: underline; color: #34495e;\">Рору</span>).</p>"
+				},
+				"gafle2cabrnckhdn": {
+					"name": "Аура Хищника",
+					"description": "<p class=\"Нарратив\">@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]@Template[type:emanation|distance:30]{30}</p>\n<hr />\n<p><span class=\"Признак2\"><span class=\"Признак1\">животное</span></span> или <span class=\"Признак\">чудовище</span>, входящий или начинающий свой ход в эманации, должен преуспеть в <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:25|showDC:owner|traits:aura,fear]</strong></span> или стать @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1} (@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2} при <span class=\"Критпровал\">крит.провале</span>). <span style=\"text-decoration: underline; color: #34495e;\">Напуганные</span> <span style=\"text-decoration: underline; color: #a52a2a;\">животные</span> внутри эманации не могут атаковать <span style=\"text-decoration: underline; color: #34495e;\">Рору</span>.</p>\n<hr />\n<p>Существо, <span style=\"color: #169179;\"><strong>преуспевшее </strong></span>в спасброске от <span style=\"text-decoration: underline; color: #34495e;\">Ауры Хищника</span>, получает <span style=\"text-decoration: underline; color: #34495e;\">иммунитет</span> на 24 часа.</p>"
+				},
+				"or225f5ibefcz90w": {
+					"name": "Разжигание Свирепости",
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Рору</span> сосредотачивает свою порчу на <span style=\"text-decoration: underline; color: #a52a2a;\">животном</span> или <span class=\"Признак\">чудовище</span>, которого он может видеть в пределах 30ФТ. Существо должно преуспеть в <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:25|showDC:owner|traits:divine,enchantment,mental]</strong></span> или впасть в @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ] на [[/r 1d4 #rounds]]{1d4 раунда}<span data-visibility=\"gm\">[[1d4]]{ }</span>.Такое существо в @Compendium[pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве} не может атаковать <span style=\"text-decoration: underline; color: #34495e;\">Рору</span>.</p>\n<hr />\n<p>Существо, <span style=\"color: #169179;\"><strong>преуспевшее </strong></span>в <span style=\"color: #843fa1;\"><strong>спасброске</strong></span>, временно получает <span style=\"text-decoration: underline; color: #34495e;\">иммунитет</span> к <span class=\"Повтор\">Разжигание Свирепости</span> на 24 часа.</p>"
+				},
+				"vfnb5vr7qkm2nzme": {
+					"name": "Надеть Шкуру",
+					"description": "<p class=\"Нарратив\">&diams; <span style=\"text-decoration: underline; color: #34495e;\">Рору</span> надевает <span class=\"Рес\">шкуру</span> соседнего мертвого <span style=\"text-decoration: underline; color: #a52a2a;\">животного</span>, превращаясь в его двойника. Рору становится того же <span style=\"text-decoration: underline; color: #169179;\">размера</span> и получает такую же <span style=\"text-decoration: underline; color: #169179;\">скорость</span>, как и у <span style=\"text-decoration: underline; color: #a52a2a;\">животного</span> <span class=\"Рес\">шкуры</span>.</p>\n<p>&diams; <span style=\"text-decoration: underline; color: #34495e;\">Рору</span> теряет свои атаки <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> и <span style=\"text-decoration: underline; color: #34495e;\">Челюстью</span> и получает атаки <span style=\"text-decoration: underline; color: #a52a2a;\">животного</span>, чью <span class=\"Рес\">шкуру</span> он носит. Но @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #a52a2a;\">животного</span> наносит урон, равный @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удару} <span style=\"text-decoration: underline; color: #34495e;\">Челюстью Рору</span> или, если у @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span style=\"text-decoration: underline; color: #a52a2a;\">животного</span> есть признак <span class=\"Признак\">быстрое</span>, @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удару} <span style=\"text-decoration: underline; color: #34495e;\">Когтей Рору</span>. В любом случае тип урона изменится, чтобы соответствовать новой атаке <span style=\"text-decoration: underline; color: #a52a2a;\">животного</span>.</p>\n<p>&diams; Пока <span style=\"text-decoration: underline; color: #34495e;\">Рору</span> носит <span class=\"Рес\">шкуру</span>, половина физического урона, наносимого <span style=\"text-decoration: underline; color: #34495e;\">Рору</span>, вместо этого наносится <span class=\"Рес\">шкуре</span>. <span class=\"Рес\">Шкура</span> имеет <span style=\"color: #236fa1;\"><strong>Твердость </strong></span>5 и 25 <span class=\"ОЗ\">ОЗ</span>. Когда <span class=\"Рес\">Шкура</span> достигает 0 <span class=\"ОЗ\">ОЗ</span>, <span style=\"text-decoration: underline; color: #34495e;\">Рору</span> немедленно сбрасывает <span class=\"Рес\">шкуру</span>, и она уничтожается.</p>"
+				}
+			}
+		},
+		{
+			"id": "Shattering Rune",
+			"name": "Shattering Rune"
+		},
+		{
+			"id": "Skeletal Woolly Rhinoceros",
+			"name": "Skeletal Woolly Rhinoceros"
+		},
+		{
+			"id": "Soul Draining Cage",
+			"name": "Soul Draining Cage"
+		},
+		{
+			"id": "Spectral Archers",
+			"name": "Spectral Archers"
+		},
+		{
+			"id": "Summer Hora",
+			"name": "Summer Hora"
+		},
+		{
+			"id": "Summer Hora Queen",
+			"name": "Summer Hora Queen"
+		},
+		{
+			"id": "Syarstik Painted-Tiger",
+			"name": "Syarstik Painted-Tiger"
+		},
+		{
+			"id": "Tar Ooze",
+			"name": "Tar Ooze"
+		},
+		{
+			"id": "Tar Pit",
+			"name": "Tar Pit"
+		},
+		{
+			"id": "Tar Zombie Mammoth",
+			"name": "Tar Zombie Mammoth"
+		},
+		{
+			"id": "Tar Zombie Predator",
+			"name": "Tar Zombie Predator"
+		},
+		{
+			"id": "Tar Zombie Snatcher",
+			"name": "Tar Zombie Snatcher"
+		},
+		{
+			"id": "Throttled Blindheim",
+			"name": "Throttled Blindheim"
+		},
+		{
+			"id": "Turkek",
+			"name": "Turkek"
+		},
+		{
+			"id": "Varilyn \"Vare\" Eridge",
+			"name": "Varilyn \"Vare\" Eridge"
+		},
+		{
+			"id": "Venexus",
+			"name": "Venexus"
+		},
+		{
+			"id": "Venexus's Wyrmling",
+			"name": "Venexus's Wyrmling"
+		},
+		{
+			"id": "Venexus’s Chosen",
+			"name": "Venexus’s Chosen"
+		},
+		{
+			"id": "Weykoward",
+			"name": "Weykoward"
+		},
+		{
+			"id": "Yana No-trail",
+			"name": "Yana No-trail"
+		},
+		{
+			"id": "Zombie Mammoths",
+			"name": "Zombie Mammoths"
+		},
+		{
+			"id": "Zombie Megaloceros",
+			"name": "Zombie Megaloceros"
+		}
+	]
+}

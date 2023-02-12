@@ -1,0 +1,258 @@
+{
+	"label": "Способности Бестиария (1)",
+    	"mapping": {
+        	"source": "data.source.value"
+    },
+	"entries": [
+		{
+			"id": "+1 Status to All Saves vs Magic",
+			"name": "Состояние: +1 Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от магии</p>"
+		},
+		{
+			"id": "+1 Status to All Saves vs. Magic",
+			"name": "Состояние: +1 Спасам от Магии",
+			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от магии</p>"
+		},
+		{
+			"id": "All-Around Vision",
+			"name": "Круговое Зрение",
+     		"source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Aquatic Ambush",
+			"name": "Водная Засада",
+			"description": "@Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush]",
+ 			"source": "Bestiary pg. 342"
+		},
+		{
+			"id": "At-Will Spells",
+			"name": "Заклинания по Желанию",
+  		    "source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Attack of Opportunity",
+			"name": "Возможность для Атаки",
+    		"source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Aura",
+			"name": "Аура",
+   			"source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Buck",
+			"name": "Брыкаться",
+			"description": "<div class=\"Заг2\"><span class=\"РФЛ\">@Check[type:reflex|dc:@actor.attributes.buck|showDC:owner]{Спас.РФЛ}</span></div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>",
+   			"source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Catch Rock",
+			"name": "Поймать Камень",
+    		"source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Change Shape",
+			"name": "Изменение Формы",
+  		    "source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Constant Spells",
+			"name": "Постоянные Заклинания",
+			"source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Constrict",
+			"name": "Сжимать",
+			"description": "<div><span class=\"Урон\">Урон: [[/r 0[bludgeoning]]]</span></div>\n<div><span class=\"СТК\">Спас.: @Check[type:fortitude|dc:0|basic:true|showDC:owner]{Пр.СТК}</span></div>\n<hr>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>",
+    		"source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Greater Constrict",
+			"name": "Сильно Сжимать",
+			"description": "<div><span class=\"Урон\">Урон: [[/r 0[bludgeoning]]]</span></div>\n<divp><span class=\"СТК\">Спас.: @Check[type:fortitude|dc:0|basic:true|showDC:owner]{Пр.СТК}</span></div>\n<hr>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Coven",
+			"name": "Ковен",
+   			"source": "Bestiary pg. 342"
+		},
+		{
+			"id": "Darkvision",
+			"name": "Ночное Зрение",
+   			"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Disease",
+			"name": "Болезнь",
+   			"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Engulf",
+			"name": "Поглотить",
+			"description": "<div><span class=\"Урон\">Урон: [[/r 0[bludgeoning]]]</span></div>\n<div><span class=\"РФЛ\">Спас.: @Check[type:reflex|dc:0|showDC:owner]{РФЛ}</span></div>\n<div data-visibility=\"gm\">\n<div><span class=\"СИЛ\">@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]: [[/r 0]]</span></div>\n<div><span class=\"Триг\">Разрыв.: [[/r 0]]</span></div>\n</div>\n<hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>",
+  			"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Fast Healing",
+			"name": "Быстрое Исцеление",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Ferocity",
+			"name": "Свирепость",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Form Up",
+			"name": "Построение",
+ 			"source": "Bestiary 3 pg. 304"
+		},
+		{
+			"id": "Frightful Presence",
+			"name": "Устрашающие Присутствие",
+			"description": "<div>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]: @Template[type:emanation|distance:0]{0}</div>\n<div><span class=\"Воля\">Спас.: @Check[type:will|dc:0]{Воли}</span><hr></div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>",
+ 			"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Grab",
+			"name": "Захват",
+  			"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Greater Darkvision",
+			"name": "Сильное Ночное Зрение"
+		},
+		{
+			"id": "Improved Grab",
+			"name": "Улучшенный Захват",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Improved Knockdown",
+			"name": "Улучшенный Нокдаун",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Improved Push",
+			"name": "Улучшенный Толчок",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Knockdown",
+			"name": "Нокдаун",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Lifesense",
+			"name": "Жизнечувствительность",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Light Blindness",
+			"name": "Световая Слепота",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Low-Light Vision",
+			"name": "Сумеречное Зрение",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Negative Healing",
+			"name": "Негативное Исцеление",
+    		"source": "Bestiary 2 pg. 305"
+		},
+		{
+			"id": "Poison",
+			"name": "Яд",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Power Attack",
+			"name": "Мощная Атака"
+		},
+		{
+			"id": "Push",
+			"name": "Толчок",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Regeneration",
+			"name": "Регенерация",
+    		"source": "Bestiary pg. 343"
+		},
+		{
+			"id": "Rend",
+			"name": "Раздирать",
+			"description": "<div><span class=\"Урон\">Удар: [[/r {1d8+1}[slashing]]]{Например:Когти}</span></div><p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Retributive Strike",
+			"name": "Карающий Удар",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Scent",
+			"name": "Нюх",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Shield Block",
+			"name": "Блок Щитом",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Sneak Attack",
+			"name": "Внезапная Атака"
+		},
+		{
+			"id": "Swallow Whole",
+			"name": "Проглотить Целиком",
+			"description": "<div><span class=\"Урон\">Урон: [[/r 0[bludgeoning]]]</span></div>\n<div><span class=\"Скор\">Размер</span>: <span class=\"Признак2\"><span class=\"Признак-1\">Средний</span></span></div>\n<div data-visibility=\"gm\">\n<div><span class=\"Триг\">Разрыв.: [[/r 0]]</span></div>\n</div>\n<hr><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Swarm Mind",
+			"name": "Разум Роя",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Telepathy",
+			"name": "Телепатия",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Thoughtsense",
+			"name": "Thoughtsense"
+		},
+		{
+			"id": "Throw Rock",
+			"name": "Бросок Камня",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Trample",
+			"name": "Растоптать",
+			"description": "<div><span class=\"Урон\">Урон: [[/r 0]]{Удар}</span></div>\n<div><span class=\"Скор\">Размер</span>: <span class=\"Признак2\"><span class=\"Признак-1\">Средний</span></span></div>\n<div><span class=\"РФЛ\">Спас.</span>: @Check[type:reflex|dc:|basic:true|showDC:gm]{Пр.РФЛ}</div>\n<hr>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Tremorsense",
+			"name": "Виброчувствительность",
+    		"source": "Bestiary pg. 344"
+		},
+		{
+			"id": "Troop Defenses",
+			"name": "Защита Отряда",
+    		"source": "Bestiary 3 pg. 306"
+		},
+		{
+			"id": "Wavesense",
+			"name": "Волночувствительность",
+    		"source": "Bestiary pg. 344"
+		}
+	]
+}

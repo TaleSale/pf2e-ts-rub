@@ -1,0 +1,315 @@
+{
+	"label": "Монстры Ван-Шотов",
+	"mapping": {
+		"description": "system.details.publicNotes",
+		"img": "img",
+		"tokenName": "prototypeToken.name",
+		"tokenImg": "prototypeToken.texture.src",
+		"tokenvision": "prototypeToken.vision",
+		"tokendisplayBars": "prototypeToken.displayBars",
+		"tokendisplayName": "prototypeToken.displayName",
+		"randomImg": "prototypeToken.randomImg",
+		"hhpdetails": "system.attributes.hp.details",
+		"hstealth": "system.attributes.stealth.details",
+		"hdisable": "system.details.disable",
+		"hdescription": "system.details.description",
+		"hreset": "system.details.reset",
+		"hroutine": "system.details.routine",
+		"classDC": "system.attributes.classDC",
+		"keyability": "system.attributes.keyability.value",
+		"PackAttack": "system.attributes.PackAttack"
+		},
+	"entries": [
+		{
+			"id": "Auldegrund Grimcarver",
+			"name": "Auldegrund Grimcarver"
+		},
+		{
+			"id": "Bad Vibrations",
+			"name": "Плохие Вибрации",
+			"tokenName": "Плохие Вибрации",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Bad_Vibrations_token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Bad_Vibrations.webp",
+			"hhpdetails": "ОЗ каждого кристалла",
+			"hstealth": "<p><span class=\"Эксперт\">ЭКСПЕРТ</span></p>",
+			"hdescription": "Три больших кристалла на столе начинают вибрировать и издавать быстро нарастающий звук",
+			"hdisable": "<p>&diams; <span class=\"Обучен\">ОБУЧЕН</span>@Check[type:thievery|dc:17] или <span class=\"Обучен\">ОБУЧЕН</span>@Check[type:occultism|dc:17] чтобы разрушить магию зачарования на одном из кристаллов.</p>\n<p>&diams; <span class=\"Обучен\">ОБУЧЕН</span>@Check[type:performance|dc:20] персонажем, который может @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворить} @UUID[Compendium.pf2e.spells-srd.WILXkjU5Yq3yw10r] со <span class=\"Признак\">слуховым</span> признаком, чтобы перенаправить звон обратно в кристалл.</p>\n<p>&diams; @UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG], чтобы @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействовать} кристаллу (Ур.2, КС18).</p>",
+			"hroutine": "<p class=\"Заг2\"><span class=\"Действие\">3 Действия</span></p>\n<blockquote class=\"Уточнить\">Опасность теряет 1 <span class=\"Действие\">действие</span> за каждый <span class=\"Триг\">отключенный</span> или <span class=\"Урон\">уничтоженный</span> кристалл.</blockquote>\n<hr>\n<p>Каждым <span class=\"Действие\">действием</span> <span class=\"Признак\">ловушка</span> выстреливает звуковым взрывом один из кристаллов в одно как минимум <span class=\"Размер\">маленькое</span> существо. Цель определяется случайным образом и получает [[/r 1d8[sonic]]] (<span class=\"КБ\">Спас.</span>@Check[type:fortitude|dc:20|basic:true]{Пр.СТК}); При <span class=\"Критпровал\">крит.провале</span> цель <span class=\"Эффект\">@UUID[Compendium.PF2E-TS-RUB.effekty-raznoe.n7jOWoa0y1NuGfRh]{Получает}</span> @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухота} <span class=\"До\">на 1 минуту</span>.</p>\n<p><span class=\"До\">В конце хода <span class=\"Признак\">опасности</span></span> совершает @Check[type:flat|dc:10|name:Стабильность Кристала]. При <span class=\"Успех\">успехе</span> один из кристаллов <span class=\"Урон\">уничтожается</span>.</p>",
+			"items": {
+				"kwP5EE8ZdYRra6P4": {
+					"name": "Пронзительный Звон",
+					"description": "<div><span class=\"Триг\">Триггер</span>: Существо, <span class=\"НЕ\">кроме</span> @Compendium[pf2e.one-shot-bestiary.ODOBHqugzvfGkZVS]{Дариуса} или одного из его @Compendium[pf2e.one-shot-bestiary.8BMVxqhcdNtdStUj]{Гомункулов}, приближается к столу на расстояние 5ФТ или пытается @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать} с кристаллами любым способом, кроме попытки <span class=\"Триг\">отключить</span> <span class=\"Признак\">опасность</span>.</div>\n<hr>\n<p>Три больших кристалла на столе начинают вибрировать и гудеть.</p>"
+				}
+			}
+		},
+		{
+			"id": "Boreal Rage Trap",
+			"name": "Boreal Rage Trap"
+		},
+		{
+			"id": "Cultist of Alocer",
+			"name": "Cultist of Alocer"
+		},
+		{
+			"id": "Darius",
+			"name": "Дариус",
+			"tokenName": "Дариус",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/darius_token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/darius.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"Wax Stirring Stick": {
+					"name": "Размешиватель Воска"
+				},
+				"zud8SIUSP9JFpUK6": {
+					"name": "Ключ от Кладовой"
+				},
+				"gAWcBmqlxvNk6biL": {
+					"name": "Одежда в Воске"
+				},
+				"awiTMgWCM0KexLLD": {
+					"name": "Распылитель Воска"
+				},
+				"1AYgyqie1Elv3mKg": {
+					"name": "Кристаллические Когти и Челюсти",
+					"description": "<p class=\"Нарратив\">Когда <span class=\"Повтор\">Дариус</span> выпивает свой @Compendium[pf2e.equipment-srd.VISk5uLPVIvNWovB]{Животный Мутаген (03/Средний)}, его <span class=\"Список\">Когти</span> и <span class=\"Список\">Челюсти</span> отрастают с острыми кристаллическими краями, что <span class=\"Увелич\">увеличивает</span> их <span class=\"Урон\">кость урона</span> .</p>\n<blockquote class=\"Уточнить\">Для активации эффекта правильно, просто поставьте галочку в режиме сверху</blockquote>"
+				},
+				"Metabolize Mutagen": {
+					"name": "Метаболизация Мутагена",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Дариус</span> впитывает силу активного <span class=\"Признак\">мутагена</span>, чтобы <span class=\"Урон\">исцелить</span> себе [[/r {2d6}[healing]]]{2d6 ОЗ}, после чего действие активного <span class=\"Признак\">мутагена</span> заканчивается.</p>"
+				},
+				"Spray Hot Wax": {
+					"name": "Распыление Воска",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Дариус</span> распыляет горячий воск из <span class=\"Повтор\">Распылителя Воска</span> в @Template[type:cone|distance:15] со <span class=\"КБ\">Спас.</span>@Check[type:reflex|dc:20|showDC:gm]{РФЛ}. <span class=\"Повтор\">Восковые Гомункулы</span>, вместо <span class=\"Урон\">урона</span> и <span class=\"КБ\">спаса</span>, <span class=\"Урон\">исцеляют</span> [[/r (2d6)[healing]]]{2d6 ОЗ}</p>\n<hr>\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо</p>\n<p><span class=\"Успех\">Успех</span>: Существо получает [[/r 2d6[fire]]]</p>\n<p><span class=\"Провал\">Провал</span>: Существо получает [[/r 3d6[fire]]] + [[/r 1d6[persistent,fire]]]</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо получает [[/r 5d6[fire]]]+ [[/r 2d6[persistent,fire]]]</p>\n<hr>\n<p>После использования <span class=\"Повтор\">Распылителя Воска</span> <span class=\"Повтор\">Дариус</span> <span class=\"НЕ\">не может</span> использовать его вновь пока на потратит <span class=\"Действие\">2 действия</span> на @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, находясь <span class=\"Атака\">рядом</span> с котлом с горячим воском, чтобы <span class=\"Атака\">перезарядить</span> <span class=\"Повтор\">Распылителя Воска</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Doatara the Poisoner",
+			"name": "Doatara the Poisoner"
+		},
+		{
+			"id": "Doatara the Priest",
+			"name": "Doatara the Priest"
+		},
+		{
+			"id": "Giant Pirate Skeleton",
+			"name": "Giant Pirate Skeleton"
+		},
+		{
+			"id": "Grazing Deer",
+			"name": "Пасущиеся Олени",
+			"tokenName": "Пасущиеся Олени",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Grazing_Deer_token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Grazing_Deer.webp",
+			"hhpdetails": "Если Пасущиеся Олени падают до 0 ОЗ, они не погибают, а убегают в лес и не возвращаются",
+			"hstealth": "<p><span class=\"Эксперт\">ЭКСПЕРТ</span></p>",
+			"hdescription": "Стадо оленей выходит из леса, чтобы исследовать аппетитно выглядящих леших.",
+			"hdisable": "<p>&diams; С @Compendium[pf2e.classfeatures.d5BFFHXFJYKs5LXr]{Природной Эмпатией} @Check[type:diplomacy|dc:17|showDC:gm|name:Подружиться с Оленями], чтобы подружиться с оленями и убедить их, что лешие не еда.</p>\n<p>&diams; @Check[type:intimidation|dc:20|showDC:gm|name:Отпугнуть Оленей], чтобы отпугнуть оленей.</p>\n<p>&diams; <span class=\"Список\">Персонаж</span>, потративший <span class=\"Действие\">три действия</span> <span class=\"До\">в свой ход</span> на @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}, может избежать <span class=\"Список\">Укуса</span> <span class=\"Повтор\">Пасущихся Оленей</span>, <span class=\"До\">во время след.хода <span class=\"Повтор\">Оленей</span></span>. Если все <span class=\"Список\">ПИ</span> сделают это, попытайтесь пройти @Check[type:flat|dc:5|showDC:5|name:Убежать от Оленей] - при <span class=\"Успех\">успехе</span> группа сбегает от <span class=\"Повтор\">Оленей</span> и сможет продолжить путь в Петалбрук, но они <span class=\"Рес\">@UUID[JournalEntry.OZKG8fHcYStw5IXx.JournalEntryPage.yulyA9nbWepMvZcl]{Задерживается}</span> из-за того, что им приходится убегать от стаи хищных оленей.</p>",
+			"hroutine": "<p class=\"Заг2\"><span class=\"Действие\">2 Действия</span></p>\n<hr>\n<p><span class=\"Повтор\">Пасущиеся Олени</span> делают одно <span class=\"Действие\">действие</span>, чтобы @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Переместиться}, а затем одно <span class=\"Действие\">действие</span>, чтобы совершить <span class=\"Список\">Укус</span> по случайно <span class=\"Список\">выбранному ПИ</span>.</p>",
+			"items": {
+				"OjGrZRhSqafKOuyA": {
+					"name": "Подойти и Попробывать",
+					"description": "<div><span class=\"Триг\">Триггер</span>: <span class=\"Список\">ПИ</span> выходят на опушку леса</div>\n<hr>\n<p>Олени подходят к группе и пытается нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span class=\"Список\">Укусом</span> по случайно <span class=\"Список\">выбранному ПИ</span>. <span class=\"Повтор\">Пасущийся Олени</span> бросают <span class=\"Приброске\">инициативу</span>.</p>"
+				},
+				"jRyHe0gkU99THj1F": {
+					"name": "Укус"
+				}
+			}
+		},
+		{
+			"id": "Hail of Darts",
+			"name": "Hail of Darts"
+		},
+		{
+			"id": "Kelorbeyan Guard",
+			"name": "Kelorbeyan Guard"
+		},
+		{
+			"id": "Lawn Crawfish",
+			"name": "Lawn Crawfish"
+		},
+		{
+			"id": "Meliosa's Leshy",
+			"name": "Леший Мелиосы",
+			"tokenName": "Леший Мелиосы",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Meliosa%20Leshy/*",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/meliosa_leshys.webp",
+			"randomImg": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"gKzbyEE7g3Lf5TPT": {
+					"name": "Изменение Формы",
+					"description": "<p class=\"Нарратив\"><span class=\"Признак\">Леший</span> принимает форму <span class=\"Размер\">маленького</span> <span class=\"Признак\">растения</span>. В остальном эта способность повторяет эффекты @UUID[Compendium.pf2e.spells-srd.dileJ0Yxqg76LMvu].</p>"
+				},
+				"GHQR2PY6wyAAu2sb": {
+					"name": "Зеленый Взрыв",
+					"description": "<p class=\"Нарратив\">Когда <span class=\"Признак\">леший</span> <span class=\"Урон\">умирает</span>, он высвобождает свою природную энергию, <span class=\"Урон\">исцеляя</span> [[/r 2d8[healing]]]{2d8 ОЗ} в @Template[type:emanation|distance:30] каждому существу с признаком <span class=\"Признак\">растение</span>.</p>\n<p>Эта область заполняется растениями того же типа, что и леший, становясь <span class=\"Мест\">сложной местностью</span>. Если местность не является подходящей средой для этих растений, они увядают через 24 часа.</p>"
+				}
+			}
+		},
+		{
+			"id": "Meliosa's Leshy (Golden Bamboo)",
+			"name": "Бамбуковый Леший",
+			"tokenName": "Бамбук.Леший",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Meliosa%20Leshy/golden_bamboo_token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/meliosa_leshys.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"gKzbyEE7g3Lf5TPT": {
+					"name": "Изменение Формы",
+					"description": "<p class=\"Нарратив\"><span class=\"Признак\">Леший</span> принимает форму <span class=\"Размер\">маленького</span> <span class=\"Признак\">растения</span>. В остальном эта способность повторяет эффекты @UUID[Compendium.pf2e.spells-srd.dileJ0Yxqg76LMvu].</p>"
+				},
+				"GHQR2PY6wyAAu2sb": {
+					"name": "Зеленый Взрыв",
+					"description": "<p class=\"Нарратив\">Когда <span class=\"Признак\">леший</span> <span class=\"Урон\">умирает</span>, он высвобождает свою природную энергию, <span class=\"Урон\">исцеляя</span> [[/r 2d8[healing]]]{2d8 ОЗ} в @Template[type:emanation|distance:30] каждому существу с признаком <span class=\"Признак\">растение</span>.</p>\n<p>Эта область заполняется растениями того же типа, что и леший, становясь <span class=\"Мест\">сложной местностью</span>. Если местность не является подходящей средой для этих растений, они увядают через 24 часа.</p>"
+				},
+				"Bend Back": {
+					"name": "Наклониться Назад",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Бамбуковый Леший</span> использует <span class=\"Действие\">действие</span> чтобы <span class=\"Повтор\">Наклониться Назад</span>, готовый хлестнуть вперед, увеличивая <span class=\"Атака\">досягаемость</span> <span class=\"Список\">Кулака</span> до 10ФТ.</p>\n<p>После того как <span class=\"Повтор\">Бамбуковый Леший</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span class=\"Список\">Кулаком</span>, он завершает <span class=\"Повтор\">Наклониться Назад</span>.</p>"
+				},
+				"Coiled Opportunity": {
+					"name": "Наклоненная Возможность",
+					"description": "<p class=\"Нарратив\">Как @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O], но <span class=\"Повтор\">Бамбуковый Леший</span> может использовать эту <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span> только когда использовал и <span class=\"НЕ\">не завершил</span> <span class=\"Повтор\">Наклониться Назад</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Meliosa's Leshy (Minkaian Honeysuckle Leshy)",
+			"name": "Жимолостный Леший",
+			"tokenName": "Жимолост.Леший",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Meliosa%20Leshy/honeysuckle_token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/meliosa_leshys.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"gKzbyEE7g3Lf5TPT": {
+					"name": "Изменение Формы",
+					"description": "<p class=\"Нарратив\"><span class=\"Признак\">Леший</span> принимает форму <span class=\"Размер\">маленького</span> <span class=\"Признак\">растения</span>. В остальном эта способность повторяет эффекты @UUID[Compendium.pf2e.spells-srd.dileJ0Yxqg76LMvu].</p>"
+				},
+				"GHQR2PY6wyAAu2sb": {
+					"name": "Зеленый Взрыв",
+					"description": "<p class=\"Нарратив\">Когда <span class=\"Признак\">леший</span> <span class=\"Урон\">умирает</span>, он высвобождает свою природную энергию, <span class=\"Урон\">исцеляя</span> [[/r 2d8[healing]]]{2d8 ОЗ} в @Template[type:emanation|distance:30] каждому существу с признаком <span class=\"Признак\">растение</span>.</p>\n<p>Эта область заполняется растениями того же типа, что и леший, становясь <span class=\"Мест\">сложной местностью</span>. Если местность не является подходящей средой для этих растений, они увядают через 24 часа.</p>"
+				},
+				"Agile Leshy": {
+					"name": "Проворный Леший",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Жимолостный Леший</span> получает бонус <span class=\"Состояния\">состояния</span> +1 к <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> и <span class=\"КБ\">Спас.<span class=\"СТК\">СТК</span></span>, а также к <span class=\"КБ\">КС</span> против @Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Опрокинуть} и <span class=\"Список\">принудительное перемещение</span>.</p>"
+				}
+			}
+		},
+		{
+			"id": "Meliosa's Leshy (Mint Leshy)",
+			"name": "Мятный Леший",
+			"tokenName": "Мятн.Леший",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Meliosa%20Leshy/mint_token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/meliosa_leshys.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"gKzbyEE7g3Lf5TPT": {
+					"name": "Изменение Формы",
+					"description": "<p class=\"Нарратив\"><span class=\"Признак\">Леший</span> принимает форму <span class=\"Размер\">маленького</span> <span class=\"Признак\">растения</span>. В остальном эта способность повторяет эффекты @UUID[Compendium.pf2e.spells-srd.dileJ0Yxqg76LMvu].</p>"
+				},
+				"GHQR2PY6wyAAu2sb": {
+					"name": "Зеленый Взрыв",
+					"description": "<p class=\"Нарратив\">Когда <span class=\"Признак\">леший</span> <span class=\"Урон\">умирает</span>, он высвобождает свою природную энергию, <span class=\"Урон\">исцеляя</span> [[/r 2d8[healing]]]{2d8 ОЗ} в @Template[type:emanation|distance:30] каждому существу с признаком <span class=\"Признак\">растение</span>.</p>\n<p>Эта область заполняется растениями того же типа, что и леший, становясь <span class=\"Мест\">сложной местностью</span>. Если местность не является подходящей средой для этих растений, они увядают через 24 часа.</p>"
+				},
+				"Engulf": {
+					"name": "Поглотить",
+					"description": "<div><span class=\"Урон\">Урон</span>: [[/r 1d6[bludgeoning]]] + [[/r 1d6[poison]]] = [[/r 1d6[bludgeoning] + 1d6[poison]]]{!}</div>\n<div><span class=\"КБ\">Спас.</span>: @Check[type:reflex|dc:18|showDC:owner|traits:damaging-effect]{РФЛ}</div>\n<div data-visibility=\"gm\">\n<div><span class=\"СИЛ\">@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]: [[/r 18]]</span></div>\n<div><span class=\"Триг\">Разрыв.: [[/r 6]]</span></div>\n</div>\n<hr>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>"
+				}
+			}
+		},
+		{
+			"id": "Meliosa's Leshy (Wisteria Leshy)",
+			"name": "Глицинивый Леший",
+			"tokenName": "Глицин.Леший",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/Meliosa%20Leshy/wisteria_token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/meliosa_leshys.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"gKzbyEE7g3Lf5TPT": {
+					"name": "Изменение Формы",
+					"description": "<p class=\"Нарратив\"><span class=\"Признак\">Леший</span> принимает форму <span class=\"Размер\">маленького</span> <span class=\"Признак\">растения</span>. В остальном эта способность повторяет эффекты @UUID[Compendium.pf2e.spells-srd.dileJ0Yxqg76LMvu].</p>"
+				},
+				"GHQR2PY6wyAAu2sb": {
+					"name": "Зеленый Взрыв",
+					"description": "<p class=\"Нарратив\">Когда <span class=\"Признак\">леший</span> <span class=\"Урон\">умирает</span>, он высвобождает свою природную энергию, <span class=\"Урон\">исцеляя</span> [[/r 2d8[healing]]]{2d8 ОЗ} в @Template[type:emanation|distance:30] каждому существу с признаком <span class=\"Признак\">растение</span>.</p>\n<p>Эта область заполняется растениями того же типа, что и леший, становясь <span class=\"Мест\">сложной местностью</span>. Если местность не является подходящей средой для этих растений, они увядают через 24 часа.</p>"
+				},
+				"gUrcTxH9bZhgba6f": {
+					"name": "Сжимать",
+					"description": "<div><span class=\"Урон\">Урон</span>: [[/r (1d6+4)[bludgeoning]]]</div>\n<div><span class=\"КБ\">Спас.</span>: @Check[type:fortitude|dc:18|basic:true|showDC:owner]{Пр.СТК}</div>\n<hr>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+				}
+			}
+		},
+		{
+			"id": "Pairaka (One-Shot #4)",
+			"name": "Pairaka (One-Shot #4)"
+		},
+		{
+			"id": "Poisoned Lock (Lionlodge)",
+			"name": "Poisoned Lock (Lionlodge)"
+		},
+		{
+			"id": "Precarious Pile",
+			"name": "Precarious Pile"
+		},
+		{
+			"id": "Princess Sunset",
+			"name": "Princess Sunset"
+		},
+		{
+			"id": "Scented Candle Homunculus",
+			"name": "Восковой Гомункул",
+			"tokenName": "Воск.Гомункул",
+			"tokenImg": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/homunculus_token.webp",
+			"img": "modules/PF2E-TS-ADV/a-fistful-of-flowers/actors/homunculus.webp",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"items": {
+				"WrgYaUmRHEPgpUAn": {
+					"name": "Восковой Шар"
+				},
+				"kJ3xBADJasQJPN6d": {
+					"name": "Связь с Мастером",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гомункул</span> <span class=\"НЕ\">не может</span> разговаривать, но он телепатически связан со своим создателем. Он может обмениваться информацией в обе стороны, в том числе знаниями своего хозяина и всем, что слышит гомункул. Дистанция этой связи составляет 1.500 футов. <span class=\"Повтор\">Гомункул</span> принимает то же <span class=\"Мировоз\">мировоззрение</span> , что и у его создателя, и абсолютно верен ему.</p>\n<p>&diams; Если <span class=\"Повтор\">гомункул</span> <span class=\"Урон\">уничтожен</span> , то хозяин получает [[/r 2d10[mental]]].</p>\n<p>&diams; Если хозяин <span class=\"Урон\">убит</span> , <span class=\"Повтор\">гомункул</span> становится <span class=\"Признак\">неразумным</span> , считая свое текущее местоположение его логовом и инстинктивно нападает на любого, кто приблизится.</p>"
+				},
+				"3lJBv7HwAjkSPmgN": {
+					"name": "Парфюмная Аура",
+					"description": "<div>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]: @Template[type:emanation|distance:5]{5}</div>\n<hr>\n<p class=\"Нарратив\">Аромат лаванды, исходящий от <span class=\"Повтор\">Воскового Гомункула</span>, раздражающе силен.</p>\n<p>Любое существо, <span class=\"НЕ\">кроме</span> хозяина гомункула, попавшее в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X], должно попытаться сделать <span class=\"КБ\">Спас.</span>@Check[type:fortitude|dc:15|showDC:gm]{СТК}.</p>\n<hr>\n<p><span class=\"Критуспех\">Крит.Успех</span>: <span class=\"Иммун\">Существо получает <span class=\"НЕ\">временный</span> <span class=\"Иммун2\">иммунитет</span> к <span class=\"Повтор\">Парфюм.Ауре</span> <span class=\"До\">на 24 часа</span></span></p>\n<p><span class=\"Успех\">Успех</span>: Существо невредимо</p>\n<p><span class=\"Провал\">Провал</span>: @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо <span class=\"Эффект\">@UUID[Compendium.PF2E-TS-RUB.effekty-raznoe.FmBcOtWABeRHimxa]{Получает}</span> @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 1} <span class=\"До\">на 1 раунд</span> и @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}</p>"
+				},
+				"Dunk in Wax": {
+					"name": "Окунуться в Воск",
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Восковой Гомункул</span>, находящийся <span class=\"Атака\">рядом</span> с котлом горячего воска, может окунуться в него, <span class=\"Урон\">исцеляя</span> [[/r 2d6[healing]]]{2d6 ОЗ}.</p>"
+				}
+			}
+		},
+		{
+			"id": "Simulacrum",
+			"name": "Simulacrum"
+		},
+		{
+			"id": "Taxidermic Dog",
+			"name": "Taxidermic Dog"
+		}
+	]
+}

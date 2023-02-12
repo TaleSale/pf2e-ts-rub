@@ -1,0 +1,141 @@
+{
+	"id": "PF2E-TS-RUB",
+	"title": "PF2E-TS-RUB",
+	"description": "Babele перевод PF2E от Торговца Сказками",
+	"version": "2.1.0",
+	"relationships": {
+		"systems": [
+		  {
+			"id": "pf2e",
+			"type": "system",
+			"compatibility": {
+			"minimum": "4.7.0"
+			}
+		  }
+		]
+	},
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10",
+		"maximum": "10"
+	},
+	"authors": [
+		{
+		  "name": "TaleSale",
+		  "url": "https://discord.gg/jYvjzn5",
+		  "flags": {}
+		}
+	  ],
+   	"type": "module",
+	"scripts": ["babele.js"],
+ 	"styles": ["styles.css"],
+	"dependencies": [
+		{
+		  "name": "babele",
+		  "type": "module",
+		  "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+		},
+		{
+			"name": "lib-wrapper",
+			"manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+			"type": "module"
+		}
+	],	
+	"languages": [
+		{
+			"lang": "ru",
+			"name": "Main (English)",
+			"path": "lang/en.json"
+		},
+		{
+			"lang": "ru",
+			"name": "Rules Elements (English)",
+			"path": "lang/re-en.json"
+		},
+		{
+			"lang": "ru",
+			"name": "Main (English)",
+			"path": "lang/s-en.json"
+		},
+		{
+			"lang": "ru",
+			"name": "Main (English)",
+			"path": "lang/s-re-en.json"
+		},
+		{
+			"lang": "ru",
+			"name": "Glossary (English)",
+			"path": "lang/glossary-en.json"
+		},
+		{
+			"lang": "ru",
+			"path": "modules/healthEstimate.json",
+			"module": "healthEstimate",
+			"name": "",
+			"flags": {}
+		},
+		{
+			"lang": "ru",
+			"path": "modules/xdy-pf2e-workbench.json",
+			"module": "xdy-pf2e-workbench",
+			"name": "",
+			"flags": {}
+		},
+		{
+			"lang": "ru",
+			"path": "modules/pf2e-persistent-damage.json",
+			"module": "pf2e-persistent-damage",
+			"name": "",
+			"flags": {}
+		},
+		{
+			"lang": "ru",
+			"path": "modules/quick-insert.json",
+			"module": "quick-insert",
+			"name": "",
+			"flags": {}
+		},
+		{
+			"lang": "ru",
+			"path": "modules/token-lean.json",
+			"module": "token-lean",
+			"name": "",
+			"flags": {}
+		},
+		{
+			"lang": "ru",
+			"path": "modules/pf2e-jb2a-macros.json",
+			"module": "pf2e-jb2a-macros",
+			"name": "",
+			"flags": {}
+		}
+	],
+	"packs": [
+	{
+		"name": "bestiary-ability-glossary-2",
+		"label": "Bestiary Ability Glossary (2)",
+		"path": "packs/bestiary-ability-glossary-2.db",
+		"module": "PF2E-TS-RUB",
+		"entity": "Item"
+	},
+	{
+		"name": "effekty-raznoe",
+		"label": "Эффекты: Разное",
+		"path": "packs/effekty-raznoe.db",
+		"module": "PF2E-TS-RUB",
+		"entity": "Item"
+	},
+	{
+      	"label": "Правила",
+      	"type": "JournalEntry",
+      	"name": "spiski",
+      	"path": "packs/spiski.db",
+      	"system": "pf2e",
+      	"entity": "JournalEntry",
+      	"private": false
+    }
+	],
+	"url": "",
+	"manifest": "",
+	"download": ""
+}
