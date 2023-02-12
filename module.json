@@ -136,6 +136,6 @@
     }
 	],
 	"url": "https://github.com/TaleSale/PF2E-TS-RUB",
-	"manifest": "https://github.com/TaleSale/PF2E-TS-RUB/blob/main/module.json",
+	"manifest": "https://raw.githubusercontent.com/TaleSale/PF2E-TS-RUB/master/module.json",
 	"download": "https://github.com/TaleSale/PF2E-TS-RUB/archive/refs/heads/main.zip"
 }
