@@ -263,7 +263,7 @@
 		{
 			"id": "Warmarch Hobgoblin",
 			"name": "Марширующий Хобгоблин",
-			"description": "<p class=\"Нарратив\">Вы происходите из рода бродячих наемников, постоянно находящихся в походе и добывающих пищу на тракте.</p>\n<hr />\n<p>&diams; Если вы <span style=\"color: #ba372a;\"><strong>проваливаете</strong></span>, но не <span style=\"color: #e03e2d;\"><strong>крит.проваливаете</strong></span> проверку на @Compendium[pf2e.actionspf2e.49y9Ec4bDii8pcD3]{Проживание} в дикой местности, вы все равно можете обеспечить себя скудную пищу.</p>\n<p>&diams; Во время <span style=\"text-decoration: underline; color: #000080;\">исследования</span>, вы можете @Compendium[pf2e.actionspf2e.JuqmIAnkL9hVGai8]{Спешить} в два раза дольше, прежде чем вам придется остановиться.</p>"
+			"description": "<p class=\"Нарратив\">Вы происходите из рода бродячих наемников, постоянно находящихся в походе и добывающих пищу на тракте.</p>\n<hr />\n<p>&diams; Если вы <span style=\"color: #ba372a;\"><strong>проваливаете</strong></span>, но не <span class=\"Критпровал\">крит.проваливаете</span> проверку на @Compendium[pf2e.actionspf2e.49y9Ec4bDii8pcD3]{Проживание} в дикой местности, вы все равно можете обеспечить себя скудную пищу.</p>\n<p>&diams; Во время <span style=\"text-decoration: underline; color: #000080;\">исследования</span>, вы можете @Compendium[pf2e.actionspf2e.JuqmIAnkL9hVGai8]{Спешить} в два раза дольше, прежде чем вам придется остановиться.</p>"
 		},
 		{
 			"id": "Warrenbred Hobgoblin",

@@ -1286,7 +1286,7 @@
 				},
 				"NKKJNwEod8IO6M9D": {
 					"name": "Набор Кузнеца (Расширенный)",
-					"description": "<p class=\"Нарратив\">&diams; Вам нужны эти инструменты, чтобы @Compendium[pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Создавать} предметы из исходных материалов с помощью навыка <span style=\"color: #b96ad9;\"><strong>Ремесло</strong></span>.</p>\n<p>&diams; <span style=\"text-decoration: underline; color: #34495e;\">Расширенные инструменты ремесленника</span> дают бонус <span class=\"Предмета\">Предмета</span> +1 при проверке навыка.</p>"
+					"description": "<p class=\"Нарратив\">&diams; Вам нужны эти инструменты, чтобы @Compendium[pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Создавать} предметы из исходных материалов с помощью навыка <span class=\"ИНТ\">Ремесло</span>.</p>\n<p>&diams; <span style=\"text-decoration: underline; color: #34495e;\">Расширенные инструменты ремесленника</span> дают бонус <span class=\"Предмета\">Предмета</span> +1 при проверке навыка.</p>"
 				},
 				"MMtAAek31GnnT3PK": {
 					"name": "Боевой Молот \"Вспышка\""
