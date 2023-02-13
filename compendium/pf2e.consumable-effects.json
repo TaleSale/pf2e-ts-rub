@@ -249,7 +249,7 @@
 		{
 			"id": "Effect: Cheetah's Elixir (Moderate)",
 			"name": "Эффект: Эликсир Гепарда (Средний)",
-			"description": "<p class=\"Нарратив\">Выпив @Compendium[pf2e.equipment-srd.AqLxu3ir4UGzdOaz]</p>\n<hr />\n<p>Вы получаете Бонус <span style=\"background-color: #ba372a; color: #ffffff;\"><strong>состояния</strong></span> +10ФТ к вашей <span class=\"Скор\">Скорости</span> на 10 минут.</p>"
+			"description": "<p class=\"Нарратив\">Выпив @Compendium[pf2e.equipment-srd.AqLxu3ir4UGzdOaz]</p>\n<hr />\n<p>Вы получаете Бонус <span style=\"background-color: #ba372a; color: #ffffff;\"><strong>состояния</strong></span> +10ФТ к вашей <span class=\"Скор\">Скорости</span> <span class=\"До\">на 10 минут</span>.</p>"
 		},
 		{
 			"id": "Effect: Cheetah's Elixir (Greater)",
@@ -394,7 +394,7 @@
 		{
 			"id": "Effect: Lastwall Soup (Greater)",
 			"name": "Эффект: Ластвольский Суп (Сильный)",
-			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.ed8gAxli6Of58kAM]</p>\n<hr />\n<p>&diams; <span style=\"color: #808000;\"><strong>На 1 час</strong></span> после употребления миски <span style=\"text-decoration: underline; color: #34495e;\">Ластвольского Супа</span> вы получаете Бонус <span class=\"Предмета\">предмета</span> +4 к проверка <span style=\"color: #808000;\"><strong>Скрытности</strong></span> и КСам против <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>.</p>\n<p>&diams; Кроме того, вы получаете 10 <span class=\"ОЗ\">Врем.ОЗ</span> на 10 минут.</p>"
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.ed8gAxli6Of58kAM]</p>\n<hr />\n<p>&diams; <span style=\"color: #808000;\"><strong>На 1 час</strong></span> после употребления миски <span style=\"text-decoration: underline; color: #34495e;\">Ластвольского Супа</span> вы получаете Бонус <span class=\"Предмета\">предмета</span> +4 к проверка <span style=\"color: #808000;\"><strong>Скрытности</strong></span> и КСам против <span style=\"text-decoration: underline; color: #a52a2a;\">нежити</span>.</p>\n<p>&diams; Кроме того, вы получаете 10 <span class=\"ОЗ\">Врем.ОЗ</span> <span class=\"До\">на 10 минут</span>.</p>"
 		},
 		{
 			"id": "Effect: Sixfingers Elixir (Lesser)",
