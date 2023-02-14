@@ -348,19 +348,19 @@
             "TallowBomb": {
                 "Greater": {
                     "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.3d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,fire]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.3d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span>"
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.3d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">Огня</span>"
                 },
                 "Lesser": {
                     "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.1d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.1d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span>"
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.1d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">Огня</span>"
                 },
                 "Major": {
                     "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.4d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,fire]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.4d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span>"
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.4d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">Огня</span>"
                 },
                 "Moderate": {
                     "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.2d4]\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.2d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">Огня</span>"
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; @Localize[PF2E.PD.Fire.2d4]*2\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,fire]]]\n<br />\n&diams; <span class=\"Признак\">Живое</span> существо, получающее @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">Огня</span> от <span class=\"Повтор\">Бомбы Жира</span>, испытывает @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} из-за зловония горящего жира и <span class=\"НЕ\">не</span> может снизить свое значение <span class=\"Рес\">тошноты</span> ниже 1, пока длится @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">Огня</span>"
                 }
             },
             "TanglefootBag": {
@@ -433,16 +433,16 @@
             },
             "WaterBomb": {
                 "Greater": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 3[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
                 },
                 "Lesser": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 1[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
                 },
                 "Major": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 4[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
                 },
                 "Moderate": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продол.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; <span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> [[/r 2[splash,bludgeoning]]] <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">несмертельно</span></span></span>\n<br />\n&diams; Если цель страдает от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span class=\"Урон\">кислотой</span> или <span class=\"Урон\">огня</span>, она может попытаться пройти чистую проверку, чтобы немедленно прекратить этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}. Так как это <span class=\"Повтор\">особенно эффективная помощь</span>, то КС снижается до @Check[type:flat|dc:10|showDC:all]."
                 }
             }
         },
@@ -1001,6 +1001,7 @@
             "JunkOrDebris": "In Junk or Debris",
             "Lava": "В Лаве",
             "Lair": "В Логове",
+            "LeyLine": "Near Ley Line",
             "Lie": "To Lie",
             "LongJump": "To Long Jump",
             "MakeAnImpression": "To Make an Impression",
@@ -1220,7 +1221,8 @@
             "Champion": {
                 "DivineSmite": {
                     "Label": "Божественное Наказание"
-                }
+                },
+                "BladeAllyRune": "Select a property rune for your blade ally."
             },
             "ChromaticArmor": {
                 "Prompt": "Выберите Цвет",
@@ -1940,6 +1942,13 @@
                     "Prompt": "Выберите навык для обучения"
                 }
             },
+            "ScionOfDomora": {
+                "GuardiansEmbrace": {
+                    "PhysicalAttackLabel": "Guarding Against a Physical Attack",
+                    "ProtectionLabel": "Gain Resistance to Physical Attack"
+                },
+                "SpiritualFlurryNote": "Targets become @Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} until the end of your current turn."
+            },
             "Shisk": {
                 "PiercingQuills": {
                     "Note": "Your quills unarmed attack deals @Localize[PF2E.PD.Bleed.1d4] on a critical hit."
@@ -2044,6 +2053,9 @@
                 }
             },
             "Target": {
+                "AgainstDemons": "Против Демона",
+                "AgainstDevils": "Против Дьявола",
+                "AgainstHumanoids": "Против Гуманоида",
                 "Necromancer": "Target is a necromancer"
             },
             "TerrainExpertise": {

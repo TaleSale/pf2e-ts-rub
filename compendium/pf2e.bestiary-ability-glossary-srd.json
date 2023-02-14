@@ -211,7 +211,7 @@
 		{
 			"id": "Swallow Whole",
 			"name": "Проглотить Целиком",
-			"description": "<div><span class=\"Урон\">Урон: [[/r 0[bludgeoning]]]</span></div>\n<div><span class=\"Скор\">Размер</span>: <span class=\"Признак2\"><span class=\"Признак-1\">Средний</span></span></div>\n<div data-visibility=\"gm\">\n<div><span class=\"Триг\">Разрыв.: [[/r 0]]</span></div>\n</div>\n<hr><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
+			"description": "<div><span class=\"Урон\">Урон: [[/r 0[bludgeoning]]]</span></div>\n<div><span class=\"Скор\">Размер</span>: <span class=\"Размер\">Средний</span></div>\n<div data-visibility=\"gm\">\n<div><span class=\"Триг\">Разрыв.: [[/r 0]]</span></div>\n</div>\n<hr><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
     		"source": "Bestiary pg. 344"
 		},
 		{
@@ -236,7 +236,7 @@
 		{
 			"id": "Trample",
 			"name": "Растоптать",
-			"description": "<div><span class=\"Урон\">Урон: [[/r 0]]{Удар}</span></div>\n<div><span class=\"Скор\">Размер</span>: <span class=\"Признак2\"><span class=\"Признак-1\">Средний</span></span></div>\n<div><span class=\"РФЛ\">Спас.</span>: @Check[type:reflex|dc:|basic:true|showDC:gm]{Пр.РФЛ}</div>\n<hr>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>",
+			"description": "<div><span class=\"Урон\">Урон: [[/r 0]]{Удар}</span></div>\n<div><span class=\"Скор\">Размер</span>: <span class=\"Размер\">Средний</span></div>\n<div><span class=\"РФЛ\">Спас.</span>: @Check[type:reflex|dc:|basic:true|showDC:gm]{Пр.РФЛ}</div>\n<hr>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>",
     		"source": "Bestiary pg. 344"
 		},
 		{

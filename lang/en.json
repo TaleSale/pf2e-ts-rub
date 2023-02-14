@@ -248,21 +248,25 @@
 			},
 			"CommandAnAnimal": {
 				"Notes": {
-					"criticalSuccess": "<span class=\"Критуспех\">Крит.Успех</span>: Животное выполняет вашу команду <span class=\"До\">в свой след.ход</span>",
 					"success": "<span class=\"Успех\">Успех</span>: Животное выполняет вашу команду <span class=\"До\">в свой след.ход</span>",
 					"failure": "<span class=\"Провал\">Провал</span>: Животное колеблется или сопротивляется, и ничего не делает",
 					"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Животное плохо себя ведет или неправильно понимает команду, и оно делает какое-то другое действие, определенное Мастером"
 				},
 				"Title": "@Compendium[pf2e.actionspf2e.q9nbyIF0PEBqMtYe]"
-			},
+            },
+            "ConcealAnObject": {
+                "Notes": {
+                    "success": "<strong>Success</strong> The object remains undetected.",
+                    "failure": "<strong>Failure</strong> The searcher finds the object."
+                },
+                "Title": "@Compendium[pf2e.actionspf2e.qVNVSmsgpKFGk9hV]"
+            },
 			"CreateADiversion": {
 				"DistractingWords": "@Compendium[pf2e.actionspf2e.GkmbTGfg8KcgynOA] - Слова",
 				"Gesture": "@Compendium[pf2e.actionspf2e.GkmbTGfg8KcgynOA] - Жест",
 				"Notes": {
-						"criticalSuccess": "<p><span class=\"Критуспех\">Крит.Успех</span>: Вы становитесь @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятаны} для существ, чье <span class=\"МУД\">КС Восприятия</span> меньше или равно вашему результату (это состояние спрятан позволяет вам @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Красться}). Это длится <span class=\"До\">до конца вашего хода</span> или до тех пор, пока вы не сделаете что-либо, кроме @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг}, @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Спрятаться} или @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Красться}. Если вы @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударяете} существо, то оно @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнуто Врасплох} для этой атаки, и после этого вы становитесь @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Замечен}.</p>\n<blockquote class=\"Уточнить\">\n<p>Если вы делаете что-то другое, то становитесь @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Замечены} сразу до того, как совершите действие, если только Мастер не решит иначе.</p>\n</blockquote>",
 						"success": "<p><span class=\"Успех\">Успех</span>: Вы становитесь @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятаны} для существ, чье <span class=\"МУД\">КС Восприятия</span> меньше или равно вашему результату (это состояние спрятан позволяет вам @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Красться}). Это длится <span class=\"До\">до конца вашего хода</span> или до тех пор, пока вы не сделаете что-либо, кроме @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг}, @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Спрятаться} или @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Красться}. Если вы @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударяете} существо, то оно @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнуто Врасплох} для этой атаки, и после этого вы становитесь @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Замечен}.</p>\n<blockquote class=\"Уточнить\">\n<p>Если вы делаете что-то другое, то становитесь @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Замечены} сразу до того, как совершите действие, если только Мастер не решит иначе.</p>\n</blockquote>",
-						"failure": "<span class=\"Провал\">Провал</span>: Вы <span class=\"НЕ\">не</span> <span class=\"Повтор\">отвлекаете внимание</span> ни одного существа, чьи <span class=\"МУД\">КС Восприятия</span> больше вашего результата, и эти существа знают, что вы пытались обмануть их",
-						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Вы <span class=\"НЕ\">не</span> <span class=\"Повтор\">отвлекаете внимание</span> ни одного существа, чьи <span class=\"МУД\">КС Восприятия</span> больше вашего результата, и эти существа знают, что вы пытались обмануть их"
+						"failure": "<span class=\"Провал\">Провал</span>: Вы <span class=\"НЕ\">не</span> <span class=\"Повтор\">отвлекаете внимание</span> ни одного существа, чьи <span class=\"МУД\">КС Восприятия</span> больше вашего результата, и эти существа знают, что вы пытались обмануть их"
 					},
 				"Trick": "@Compendium[pf2e.actionspf2e.GkmbTGfg8KcgynOA] - Уловка"
             },
@@ -341,7 +345,6 @@
             },
 			"GatherInformation": {
 				"Notes": {
-					"criticalSuccess": "<span class=\"Критуспех\">Крит.Успех</span>: Вы собираете информацию о личности или теме. Мастер определяет конкретные аспекты и детальность информации",
 						"success": "<span class=\"Успех\">Успех</span>: Вы собираете информацию о личности или теме. Мастер определяет конкретные аспекты и детальность информации",
 						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Вы собираете неверную информацию о личности или теме"
 				},
@@ -358,7 +361,6 @@
 		},
 			"Hide": {
 				"Notes": {
-					"criticalSuccess": "<p><span class=\"Критуспех\">Крит.Успех</span></p>\n<p>&diams; Если существо могло видеть вас, то теперь вы для него @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятаны}, а <span class=\"НЕ\">не</span> @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Замечены}.</p>\n<p>&diams; Если вы были @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрытаны} от существа или @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружены} им, то сохраняете это состояние.</p>",
 						"success": "<p><span class=\"Успех\">Успех</span></p>\n<p>&diams; Если существо могло видеть вас, то теперь вы для него @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятаны}, а <span class=\"НЕ\">не</span> @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Замечены}.</p>\n<p>&diams; Если вы были @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрытаны} от существа или @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружены} им, то сохраняете это состояние.</p>"
 				},
 				"Title": "@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]"
@@ -410,7 +412,6 @@
 			},
 			"Impersonate": {
 				"Notes": {
-						"criticalSuccess": "<span class=\"Критуспех\">Крит.Успех</span>: Вы обманываете существо, и оно думает что вы тот за кого себя выдаете. Вы должны сделать новую проверку, если ваше поведение изменяется",
 						"success": "<span class=\"Успех\">Успех</span>: Вы обманываете существо, и оно думает что вы тот за кого себя выдаете. Вы должны сделать новую проверку, если ваше поведение изменяется",
 						"failure": "<span class=\"Провал\">Провал</span>: Существо понимает, что вы не тот за кого себя выдаете",
 						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Существо понимает, что вы не тот за кого себя выдаете, и узнает вас, как если бы вы были без маскировки"
@@ -419,16 +420,13 @@
 		},
 			"Lie": {
 				"Notes": {
-						"criticalSuccess": "<span class=\"Критуспех\">Крит.Успех</span>: Цель верит вашей лжи",
 						"success": "<span class=\"Успех\">Успех</span>: Цель верит вашей лжи.",
-						"failure": "<span class=\"Провал\">Провал</span>: Цель не верит вашей лжи, и получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +4 против ваших попыток <span class=\"Повтор\">Лгать</span>, на протяжении диалога. Цель также, с большей вероятностью, будет подозрительно к вам относиться в будущем",
-						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Цель не верит вашей лжи, и получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +4 против ваших попыток <span class=\"Повтор\">Лгать</span>, на протяжении диалога. Цель также, с большей вероятностью, будет подозрительно к вам относиться в будущем"
+						"failure": "<span class=\"Провал\">Провал</span>: Цель не верит вашей лжи, и получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +4 против ваших попыток <span class=\"Повтор\">Лгать</span>, на протяжении диалога. Цель также, с большей вероятностью, будет подозрительно к вам относиться в будущем"
 					},
 				"Title": "@Compendium[pf2e.actionspf2e.ewwCglB7XOPLUz72]"
 		},
 			"LongJump": {
 				"Notes": {
-						"criticalSuccess": "<span class=\"Критуспех\">Крит.Успех</span>: Увеличьте макс. &rarr; на которое вы @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Прыгаете}, до заявленой дистанции",
 						"success": "<span class=\"Успех\">Успех</span>: Увеличьте макс. &rarr; на которое вы @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Прыгаете}, до заявленой дистанции",
 						"failure": "<span class=\"Провал\">Провал</span>: Вы выполняете @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Прыжок} как обычно. (&rarr;10/15)",
 						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Вы выполняете @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Прыжок} как обычно, но потом падаете на землю @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}"
@@ -445,13 +443,19 @@
 		},
 			"ManeuverInFlight": {
 				"Notes": {
-					"criticalSuccess": "<span class=\"Успех\">Успех</span>: Маневр получается",
 						"success": "<span class=\"Критуспех\">Крит.Успех</span>: Маневр получается",
 						"failure": "<span class=\"Провал\">Провал</span>: Маневр не получается. Мастер решает, не можете ли вы просто двигаться дальше, или происходит какой-то другой негативный эффект",
 						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, только последствия намного хуже"
 				},
 				"Title": "@Compendium[pf2e.actionspf2e.Qf1ylAbdVi1rkc8M]"
-            },
+				},
+				"PalmAnObject": {
+					"Notes": {
+						"success": "<strong>Success</strong> The creature does not notice you Palming the Object.",
+						"failure": "<strong>Failure</strong> The creature notices you Palming the Object, and the GM determines the creature's response."
+					},
+					"Title": "@Compendium[pf2e.actionspf2e.ijZ0DDFpMkWqaShd]"
+				},
             "Perform": {
                 "Notes": {
                     "criticalSuccess": "<strong>Critical Success</strong> Your performance impresses the observers, and they're likely to share stories of your ability.",
@@ -582,7 +586,6 @@
 		},
 			"Sneak": {
 				"Notes": {
-					"criticalSuccess": "<span class=\"Критуспех\">Крит.Успех</span>: Вы @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружены} существом во время <span class=\"Признак\">движения</span></span> и остаетесь @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружены} им по окончании <span class=\"Признак\">движения</span></span>",
 						"success": "<span class=\"Успех\">Успех</span>: Вы @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружены} существом во время <span class=\"Признак\">движения</span></span> и остаетесь @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружены} им по окончании <span class=\"Признак\">движения</span></span>",
 						"failure": "<span class=\"Провал\">Провал</span>: Ваше расположение выдает предательский звук или другой признак, хотя вы все еще остаетесь незаметным. Вы @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятаны} от существа на протяжении всего вашего <span class=\"Признак\">движения</span></span>, и остаетесь таковым",
 						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Вас засекли! Вы @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Замечены} существом во время <span class=\"Признак\">движения</span></span>, и остаетесь таковым. Если вы @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Невидимы} и были @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятаны} от существа, то вместо того, чтобы стать замеченным вы становитесь @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятаны} на протяжении всего вашего <span class=\"Признак\">движения</span></span>, и остаетесь таковым"
@@ -596,7 +599,15 @@
 						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Вы застреваете в узком пространстве. Пока вы застряли, вы можете потратить 1 минуту совершая еще одну проверку <span class=\"ЛВК\">@Compendium[pf2e.action-macros.UKHPveLpG7hUs4D0]{Акробатики}</span> с тем же КС. Любой результат этой проверки, кроме <span class=\"Критпровал\">Крит.Провал</span>, высвобождает вас"
 				},
 				"Title": "@Compendium[pf2e.actionspf2e.kMcV8e5EZUxa6evt]"
-			},
+            },
+            "Steal": {
+                "Notes": {
+                    "success": "<strong>Success</strong> You steal the item without the bearer noticing, or an observer doesn't see you take or attempt to take the item.",
+                    "failure": "<strong>Failure</strong> The item's bearer notices your attempt before you can take the object, or an observer sees you take or attempt to take the item. The GM determines the response of any creature that notices your theft."
+                },
+                "Pocketed": "Object pocketed or protected",
+                "Title": "@Compendium[pf2e.actionspf2e.RDXXE7wMrSPCLv5k]"
+            },
 			"SteelYourResolve": {
 				"Title": "Steel Your Resolve",
 				"Content": "Spend a resolve point and regain stamina?",
@@ -691,10 +702,8 @@
 		},
 			"TumbleThrough": {
 				"Notes": {
-						"criticalSuccess": "<span class=\"Критуспех\">Крит.Успех</span>: Вы <span class=\"Признак\">движетесь</span></span> через <span class=\"Атака\">пространство</span> занимаемое <span class=\"Враг\">врагом</span>, считая эти квадраты <span class=\"Мест\">Сложной Местностью</span>. Если у вас недостаточно <span class=\"Скор\">Скорости</span>, чтобы пройти все занимаемое <span class=\"Враг\">врагом</span> <span class=\"Атака\">пространство</span>, то получаете такой же результат как при <span class=\"Провал\">Провале</span>",
 						"success": "<span class=\"Успех\">Успех</span>: Вы <span class=\"Признак\">движетесь</span></span> через <span class=\"Атака\">пространство</span> занимаемое <span class=\"Враг\">врагом</span>, считая эти квадраты <span class=\"Мест\">Сложной Местностью</span>. Если у вас недостаточно <span class=\"Скор\">Скорости</span>, чтобы пройти все занимаемое <span class=\"Враг\">врагом</span> <span class=\"Атака\">пространство</span>, то получаете такой же результат как при <span class=\"Провал\">Провале</span>",
-						"failure": "<span class=\"Провал\">Провал</span>: Ваше <span class=\"Признак\">движение</span></span> оканчивается, и вы <span class=\"Триг\">провоцируете</span> <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>, как если бы вы совершали <span class=\"Признак\">движение</span></span> из квадрата в котором начинали",
-						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>: Ваше <span class=\"Признак\">движение</span></span> оканчивается, и вы <span class=\"Триг\">провоцируете</span> <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>, как если бы вы совершали <span class=\"Признак\">движение</span></span> из квадрата в котором начинали"
+						"failure": "<span class=\"Провал\">Провал</span>: Ваше <span class=\"Признак\">движение</span></span> оканчивается, и вы <span class=\"Триг\">провоцируете</span> <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>, как если бы вы совершали <span class=\"Признак\">движение</span></span> из квадрата в котором начинали"
 					},
 					"Title": "@Compendium[pf2e.actionspf2e.21WIfSu7Xd7uKqV8]"
 				},
@@ -1293,7 +1302,7 @@
 		"ConditionTypeObserved": "Замечен",
 		"ConditionTypeParalyzed": "Парализован",
 		"ConditionTypePersistent": "Продолжительный Урон",
-		"ConditionTypePersistentShort": "Продол.Урон",
+		"ConditionTypePersistentShort": "Продолж.Урон",
 		"ConditionTypePetrified": "Окаменение",
 		"ConditionTypeProne": "Ничком",
 		"ConditionTypeQuickened": "Ускорен",
@@ -1608,7 +1617,7 @@
 		"DenominationLabel": "Denomination",
 		"DetailsHeading": "Детали",
 		"DragDropFeats": "Drag & Drop feats to add",
-		"Продол.": {
+		"Продолж.": {
 			"PT1M": "минута",
 			"PT10M": "10 минут",
 			"PT1H": "час",
@@ -2304,9 +2313,6 @@
 			},
 			"IconLabel": "Icon",
             "NameLabel": "Name",
-            "NPCAttack": {
-                "CantSetCategory": "Cannot set category without a matching uncategorized partial of the same damage type."
-            },
             "Physical": {
 				"Broken": "Сломан",
                 "Destroyed": "Разрушен",
@@ -3440,7 +3446,7 @@
 		"SpellCostLabel": "Стоимость",
 		"SpellDamageLabel": "Spell Damage",
 		"SpellDCBase": "Base Spell DC 10",
-		"SpellDurationLabel": "Продол.",
+		"SpellDurationLabel": "Продолж.",
 		"SpellFocusLabel": "Фокус",
 		"SpellFlexibleLabel": "Гибкий",
         "SpellFlexibleAvailable": "Flexible: {value} / {max}",
