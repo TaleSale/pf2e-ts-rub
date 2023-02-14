@@ -138,6 +138,6 @@
     }
 	],
 	"url": "https://github.com/TaleSale/pf2e-ts-rub",
-	"manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-rub/master/module.json",
+	"manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-rub/main/module.json",
 	"download": "https://github.com/TaleSale/pf2e-ts-rub/archive/refs/heads/main.zip"
 }
