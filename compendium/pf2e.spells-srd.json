@@ -2440,7 +2440,7 @@
 		},
 		{
 			"id": "String of Fate",
-			"name": "Нить Судьбы",
+			"name": "Нить Судьбы Апок",
 			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">жест.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 60ФТ</div>\n<div><span class=\"Дист\">Цели</span>: <span class=\"Союз\">Вы</span> и 1 <span class=\"Союз\">Союзник</span></div>\n<div><span class=\"Прод\">Продолж.</span>: @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Поддерж.} <span class=\"До\">до 1 Минуты</span></div>\n</details><hr />\n<p class=\"Нарратив\">Вы связываете себя с другом, которым дорожите, клянясь разделить его судьбу, будь она хорошей или плохой.</p>\n<p>Всякий раз, когда эффект потребует от вас и цели совершить <span class=\"КБ\">Спас.</span>, если один из вас получает <span class=\"Успех\">Успех</span>, а другой <span class=\"Критпровал\">Крит.Провал</span>, то вместо этого вы можете выбрать, чтобы оба получили простой <span class=\"Провал\">Провал</span>.</p>\n<blockquote class=\"Уточнить\"><span class=\"Союз\">Вы</span> и <span class=\"Союз\">союзник</span> должны согласиться на <span class=\"Провал\">Провал</span>; в противном случае, используйте свои обычные результаты <span class=\"КБ\">Спас.</span>.</blockquote>"
 		},
 		{
