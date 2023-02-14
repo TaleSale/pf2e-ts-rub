@@ -2144,6 +2144,334 @@
 			"name": "Ритм Города (Постоянное)",
 			"description": "@Localize[PF2E.Spell.FocusCleric.PulseoftheCity]"
 		},
+		{ "id_": "Уверенность" },
+		{
+			"id": "Veil of Confidence",
+			"name": "Покров Уверенности",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">слов.</span></div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 минута</span></div>\n</details><hr />\n<p class=\"Нарратив\">Вы окружаете себя покровом уверенности.</p>\n<p>♦ Вы снижаете свое текущее состояние @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган} на 1</p>\n<p>♦ Всякий раз, когда вы станете @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган} во время <span class=\"Прод\">продолжительности</span> заклинания, то снижаете величину на 1.</p>\n<p>♦ Но если вы <span class=\"Критпровал\">крит.проваливаете</span> <span class=\"КБ\">Спас.</span> против <span class=\"Признак\">страх</span>, то <span class=\"Повтор\">покров уверенности</span> мгновенно заканчивается, и вместо снижения его величины, вы увеличиваете любое полученное от <span class=\"Критпровал\">Крит.Провал</span> состояние @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган} на 1.</p>"
+		},
+		{
+			"id": "Veil of Confidence (At Will)",
+			"name": "Покров Уверенности (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.VeilofConfidence]"
+		},
+		{
+			"id": "Veil of Confidence (Constant)",
+			"name": "Покров Уверенности (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.VeilofConfidence]"
+		},
+		{
+			"id": "Delusional Pride",
+			"name": "Обманчивая Самоуверенность",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цель</span>: 1 Существо</div>\n</details><hr />\n<p class=\"Нарратив\">Вы делаете цель слишком самоуверенной, заставляя ее списывать неудачи на внешние факторы.</p>\n<p><span class=\"Прод\">Продолжительность</span> зависит от <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> цели.</p>\n<p>♦ Если цель <span class=\"Провал\">проваливает</span> <span class=\"Атак\">бросок атаки</span> или <span class=\"Атак\">проверку навыка</span>, то она получает штраф <span class=\"Состояния\">Состояния</span> -1 к <span class=\"Атак\">броскам атак</span> и <span class=\"Атак\">проверкам навыков</span> <span class=\"До\">до конца своего хода</span> (или <span class=\"До\">до конца ее след.хода</span>, если это был бросок вне ее хода).</p>\n<p>♦ Если существо <span class=\"Провал\">проваливает</span> второй раз имея этот штраф, то штраф увеличивается до -2.</p>\n<p class=\"Иммун\">После совершения <span class=\"КБ\">Спас.</span>, существо становится <span class=\"НЕ\">временно</span> <span class=\"Иммун2\">иммунным</span> <span class=\"До\">на 24 часа</span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель невредима</p>\n<p><span class=\"Успех\">Успех</span>: <span class=\"Прод\">Продол.</span>: <span class=\"До\">1 Раунд</span></p>\n<p><span class=\"Провал\">Провал</span>: <span class=\"Прод\">Продол.</span>: <span class=\"До\">10 Минут</span></p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: <span class=\"Прод\">Продол.</span>: <span class=\"До\">24 Часа</span></p>"
+		},
+		{
+			"id": "Delusional Pride (At Will)",
+			"name": "Обманчивая Самоуверенность (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DelusionalPride]"
+		},
+		{
+			"id": "Delusional Pride (Constant)",
+			"name": "Обманчивая Самоуверенность (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DelusionalPride]"
+		},
+		{
+			"id": "Shaken Confidence",
+			"name": "Пошатнувшаяся Уверенность",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">5</span></span><span class=\"Комп\">слов.</span></div>\n<p><span class=\"Триг\">Триггер</span>: <span class=\"Враг\">Враг</span> в пределах 30ФТ от вас <span class=\"Критпровал\">крит.проваливает</span> <span class=\"Атак\">бросок атаки</span>, <span class=\"Атак\">проверку навыка</span> или <span class=\"МУД\">Восприятия</span></p>\n</details><hr />\n<p class=\"Нарратив\">Вы высмеиваете цель за все ее провалы, искажая ее самоуверенности в сомнения.</p>\n<p><span class=\"Враг\">Враг</span> совершает <span class=\"КБ\">Спас.<span class=\"Воля\">Воли</span></span>.</p>\n<hr />\n<p><span class=\"Успех\">Успех</span>: Цель невредима.</p>\n<p><span class=\"Провал\">Провал</span>: Цель ненадолго потрясена и не уверена в своих силах. При следующем броске того же типа, что и <span class=\"Критпровал\">крит.провал</span> <span class=\"Триг\">спровоцир.</span> это заклинание, она должна бросить дважды и взять худший результат</p>\n<blockquote class=\"Уточнить\">Например, при следующей проверке <span class=\"ЛВК\">Акробатики</span>, если <span class=\"Триг\">триггером</span> заклинания был <span class=\"Критпровал\">крит.провал</span> проверки <span class=\"ЛВК\">Акробатики</span></blockquote>\n<p class=\"Развеять\">Если цель не совершает ни одной подходящей проверки, заклинание заканчивается <span class=\"До\">в конце след.хода</span> цели.</p>"
+		},
+		{
+			"id": "Shaken Confidence (At Will)",
+			"name": "Пошатнувшаяся Уверенность (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.ShakenConfidence]"
+		},
+		{
+			"id": "Shaken Confidence (Constant)",
+			"name": "Пошатнувшаяся Уверенность (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.ShakenConfidence]"
+		},
+		{ "id_": "Творчество" },
+		{
+			"id": "Splash of Art",
+			"name": "Всплеск Искусства",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Область</span>: @Template[type:burst|distance:5]</div>\n</details><hr />\n<p class=\"Нарратив\">Поток разноцветных иллюзорных красок, инструментов или других символов искусства и ремесленничества медленно опускается на область.</p>\n<p>Киньте [[/r d4]], чтобы определить цвет <span class=\"Признак\">иллюзии</span>. Каждое существо в области должно совершить <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>. При <span class=\"Успех\">Успех</span> существо невредимо. При <span class=\"Провал\">Провале</span> или <span class=\"Критпровал\">Крит.Провале</span>, существо получает соответствующие цвету результаты, указанные в таблице.</p>\n<table class=\"pf2-table\">\n<thead>\n<tr>\n<th>№</th>\n<th>Цвет</th>\n<th>Провал</th>\n<th>Крит.Провал</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td class=\"ЯЧБЕЛ\">Белый</td>\n<td>@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен}<br /><span class=\"Эффект\">@UUID[Compendium.pf2e-ts-rub.effekty-raznoe.y5UTCKEWlSfHFRm8]{1 Раунд}</span></td>\n<td>@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен}<br /><span class=\"Эффект\">@UUID[Compendium.pf2e-ts-rub.effekty-raznoe.cjbP6BRSlLoCRx5e]{1 Минуту}</span></td>\n</tr>\n<tr>\n<td>2</td>\n<td class=\"ЯЧКРА\">Красный</td>\n<td>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1}<br /><span class=\"Эффект\">@UUID[Compendium.pf2e-ts-rub.effekty-raznoe.ttj3dSiHxa0brIar]{1 Раунд}</span></td>\n<td>@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 2}<br /><span class=\"Эффект\">@UUID[Compendium.pf2e-ts-rub.effekty-raznoe.u9ePgt3BTAgHPUVb]{1 Раунд}</span></td>\n</tr>\n<tr>\n<td>3</td>\n<td class=\"ЯЧЗОЛ\">Желтый</td>\n<td>@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</td>\n<td>@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</td>\n</tr>\n<tr>\n<td>4</td>\n<td class=\"ЯЧСИН\">Синий</td>\n<td>@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюж 1}<br /><span class=\"Эффект\">@UUID[Compendium.pf2e-ts-rub.effekty-raznoe.SexlelGXXfwddiRh]{1 Раунд}</span></td>\n<td>@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюж 2}<br /><span class=\"Эффект\">@UUID[Compendium.pf2e-ts-rub.effekty-raznoe.hP7LqBMlDa5Mvgmm]{1 Раунд}</span></td>\n</tr>\n</tbody>\n</table>"
+		},
+		{
+			"id": "Splash of Art (At Will)",
+			"name": "Всплеск Искусства (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.SplashofArt]"
+		},
+		{
+			"id": "Splash of Art (Constant)",
+			"name": "Всплеск Искусства (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.SplashofArt]"
+		},
+		{
+			"id": "Artistic Flourish",
+			"name": "Художественный Размах",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">матер.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 15ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 предмет или произведение искусства, который целиком умещается в дистанцию</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">10 минут</span></div>\n</details><hr />\n<p class=\"Нарратив\">Вы трансформируете цель, чтобы она соответствовала вашему ремесленному и художественному видению.</p>\n<p>Если вы <span class=\"Эксперт\">ЭКСПЕРТ</span> <span class=\"ИНТ\">Ремесла</span>, то предмет дает бонус <span class=\"Предмета\">Предмета</span> +1: к <span class=\"Атак\">броскам атак</span> если он является <span class=\"Видыатак\">оружием</span>, или <span class=\"Атак\">проверкам навыка</span> если это инструмент связанный с навыком.</p>\n<blockquote class=\"Уточнить\">Цель - красивая и впечатляющая вещь для своего нового качества, но эффект явно <span class=\"НЕ\">временный</span>, поэтому ее денежная ценность не меняется.</blockquote>\n<p class=\"Развеять\">Когда вы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете} это заклинание, любые сотворенные вами ранее <span class=\"Повтор\">художественные размахи</span> заканчиваются.</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (Ур.)</span></summary>\n<div><span class=\"Усил\">Усиление (7)</span>: Если вы <span class=\"Мастер\">МАСТЕР</span> <span class=\"ИНТ\">Ремесла</span>, предмет дает бонус <span class=\"Предмета\">Предмета</span> +2.</div>\n<div><span class=\"Усил\">Усиление (10)</span>: Если вы <span class=\"Легенда\">ЛЕГЕНДА</span> <span class=\"ИНТ\">Ремесла</span>, предмет дает бонус <span class=\"Предмета\">Предмета</span> +3.</div>\n</details>"
+		},
+		{
+			"id": "Artistic Flourish (At Will)",
+			"name": "Художественный Размах (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.ArtisticFlourish]"
+		},
+		{
+			"id": "Artistic Flourish (Constant)",
+			"name": "Художественный Размах (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.ArtisticFlourish]"
+		},
+		{ "id_": "Тьма" },
+		{
+			"id": "Cloak of Shadow",
+			"name": "Плащ Тени",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">жест.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: касание</div>\n<div><span class=\"Дист\">Цели</span>: 1 готовое существо</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 минута</span></div>\n</details><hr />\n<p class=\"Нарратив\">Вы одеваете на цель плащ кружащихся теней, которые делают ее труднозаметной.</p>\n<p>♦ <span class=\"Рес\">Плащ</span> приглушает <span class=\"Свет\">яркий свет</span> в @Template[type:emanation|distance:20], делая его <span class=\"Свет\">тусклым</span>. Это разновидность <span class=\"Признак\">магической</span> <span class=\"Признак\">тьмы</span>, и поэтому она может преодолеть <span class=\"Признак\"><span class=\"НЕ\">не</span>магический</span> <span class=\"Признак\">свет</span> или попытаться @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействовать} <span class=\"Признак\">магическому</span> <span class=\"Признак\">свету</span>.</p>\n<p>♦ Цель может использовать полученное от <span class=\"Рес\">плаща</span> состояние @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт}, чтобы @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Спрятаться}, однако наблюдающие это существа все же могут следить за двигающейся теневой аурой, делая трудной для цели задачу стать полностью @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружен}.</p>\n<hr />\n<p>Цель может использовать <span class=\"Действие\">действие</span> @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы снять <span class=\"Рес\">плащ</span> и оставить его как приманку, где он остается, снижая освещение на оставшееся время заклинания.</p>\n<p class=\"Развеять\">Если кто-то подбирает <span class=\"Рес\">плащ</span> после того как его сняла изначальная цель, то <span class=\"Рес\">плащ</span> испаряется и заклинание заканчивается.</p>"
+		},
+		{
+			"id": "Cloak of Shadow (At Will)",
+			"name": "Плащ Тени (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.CloakofShadow]"
+		},
+		{
+			"id": "Cloak of Shadow (Constant)",
+			"name": "Плащ Тени (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.CloakofShadow]"
+		},
+		{
+			"id": "Darkened Eyes",
+			"name": "Потемневшие Глаза",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 60ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 Существо</div>\n</details><hr />\n<p class=\"Нарратив\">Вы наполняете зрение существа темнотой.</p>\n<p>Цель совершает <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>.</p>\n<p class=\"Иммун\">После совершения <span class=\"КБ\">Спас.</span> цель становится <span class=\"Иммун2\">иммунной</span> <span class=\"До\">на 24 часа</span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель невредима</p>\n<p><span class=\"Успех\">Успех</span>: @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Ночное} или @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Сумеречное Зрение} цели подавлено <span class=\"До\">на 1 раунд</span></p>\n<p><span class=\"Провал\">Провал</span>: Как <span class=\"Успех\">Успех</span>, но <span class=\"Прод\">продолжительность</span> <span class=\"До\">1 минута</span></p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Успех\">Успех</span>, но <span class=\"Прод\">продолжительность</span> <span class=\"До\">1 минута</span>, и цель еще получает состояние @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Слепота} на время <span class=\"Прод\">продолжительности</span>. Она может совершить новый <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> <span class=\"До\">в конце каждого своего хода</span>. В случае <span class=\"Успех\">Успеха</span> она теряет состояние @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Слепота}, но @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Ночное} или @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Сумеречное Зрение} остается подавленным.</p>"
+		},
+		{
+			"id": "Darkened Eyes (At Will)",
+			"name": "Потемневшие Глаза (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DarkenedEyes]"
+		},
+		{
+			"id": "Darkened Eyes (Constant)",
+			"name": "Потемневшие Глаза (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DarkenedEyes]"
+		},
+		{
+			"id": "Isolation",
+			"name": "Изоляция",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цель</span>: 1 Существо</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">3 Раунда</span></div>\n</details><hr />\n<p class=\"Нарратив\">Вы вызываете осязаемое проявление одиночества, скрывающее цель из вида так же надежно, как если бы она была окутана тьмой.</p>\n<p>Цель совершает <span class=\"КБ\">Спас.<span class=\"Воля\">Воли</span></span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель невредима</p>\n<p><span class=\"Успех\">Успех</span>: Цель становится @Compendium[pf2e.conditionitems.zJxUflt9np0q4yML]{Невидимой}, <span class=\"НЕ\">но только</span> для своих <span class=\"Союз\">союзников</span>. Любое существо, <span class=\"НЕ\">не</span><span class=\"Союз\">союзное</span> для цели может нормально видеть его. Эффекты, такие как @Compendium[pf2e.spells-srd.jwK43yKsHTkJQvQ9]{Видеть Невидимое} позволяют <span class=\"Союз\">союзнику</span> видеть цель. <span class=\"Союз\">Союзники</span> цели все еще знают о присутствии цели и могут видеть все эффекты ее действий.</p>\n<p><span class=\"Провал\">Провал</span>: Как <span class=\"Успех\">Успех</span>, но цель еще становится неслышимой для своих <span class=\"Срюз\">союзников</span> и не воспринимаемой ими любыми другими сенсорными чувствами.</p>"
+		},
+		{
+			"id": "Isolation (At Will)",
+			"name": "Изоляция (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.Isolation]"
+		},
+		{
+			"id": "Isolation (Constant)",
+			"name": "Изоляция (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.Isolation]"
+		},
+		{ "id_": "Смерть" },
+		{
+			"id": "Death's Call",
+			"name": "Зов Смерти",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">5</span></span><span class=\"Комп\">слов.</span></div>\n<div><span class=\"Триг\">Триггер</span>: <span class=\"Признак\">Живое</span> существо <span class=\"Урон\">умирает</span> в пределах 20ФТ от <span class=\"Союз\">вас</span>, или в пределах 20ФТ от <span class=\"Союз\">вас</span> <span class=\"Урон\">уничтожена</span> <span class=\"Признак\">нежить</span></div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 минута</span></div>\n</details><hr />\n<p class=\"Нарратив\">Вас бодрит вид того, как совершается еще один переход из этого мира в следующий.</p>\n<p>Вы получаете <span class=\"ОЗ\">Врем.ОЗ</span>, равные <span class=\"Класс\">Уровню</span> <span class=\"Триг\">спровоц.</span>существа + ваш <span class=\"МХК\" data-tooltip=\"Модификатор Характеристики Колдоства\">Мод.Хар.Колд</span>. Если <span class=\"Триг\">спровоц.</span>существо было <span class=\"Признак\">нежитью</span>, удвойте количество получаемых <span class=\"ОЗ\">Врем.ОЗ</span>.</p>\n<p>Они остаются на время <span class=\"Прод\">продол.</span><span class=\"Закл\">заклинания</span>, и заклинание заканчивается если все <span class=\"ОЗ\">Врем.ОЗ</span> будут израсходованы раньше.</p>"
+		},
+		{
+			"id": "Death's Call (At Will)",
+			"name": "Зов Смерти (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DeathCall]"
+		},
+		{
+			"id": "Death's Call (Constant)",
+			"name": "Зов Смерти (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DeathCall]"
+		},
+		{
+			"id": "Eradicate Undeath",
+			"name": "Истребление Нежити",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>,<span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Область</span>: @Template[type:cone|distance:30]</div>\n</details><hr />\n<p class=\"Нарратив\">Мощный поток жизненной энергии заставляет нежить разваливаться на части.</p>\n<p>Каждое существо-<span class=\"Признак\">нежить</span> в области получает [[/r 4d12[positive]]].</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (+1)</span>:</summary>\n<p><span class=\"Урон\">Урон</span> <span class=\"Увелич\">увелич.</span> на 1d12.</p>\n</details>"
+		},
+		{
+			"id": "Eradicate Undeath (At Will)",
+			"name": "Истребление Нежити (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.EradicateUndeath]"
+		},
+		{
+			"id": "Eradicate Undeath (Constant)",
+			"name": "Истребление Нежити (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.EradicateUndeath]"
+		},
+		{ "id_": "Разрушение" },
+		{
+			"id": "Cry of Destruction",
+			"name": "Крик Разрушения",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Область</span>: @Template[type:cone|distance:15]</div>\n</details><hr />\n<p class=\"Нарратив\">Ваш голос гремит, разбивая то, что находится перед вами.</p>\n<p>♦ Каждое существо и ничейный объект в области получают [[/r 1d8[sonic]]].</p>\n<p>♦ Если вы уже наносили <span class=\"Урон\">урон</span> <span class=\"Враг\">врагу</span> <span class=\"До\">в этом ходу</span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или <span class=\"Закл\">Закл.</span>, то <span class=\"Увелич\">увеличьте</span> <span class=\"Урон\">Кость Урона</span> этого заклинания до [[/r 1d12[sonic]]].</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (+1)</span>:</summary>\n<p><span class=\"Урон\">Урон</span> <span class=\"Увелич\">увелич.</span> на [[/r (@item.level)d8]]{1d8} или на [[/r (@item.level)d12]]{1d12} для отмеченных.</p>\n</details>"
+		},
+		{
+			"id": "Cry of Destruction (At Will)",
+			"name": "Крик Разрушения (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.CryofDestruction]"
+		},
+		{
+			"id": "Cry of Destruction (Constant)",
+			"name": "Крик Разрушения (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.CryofDestruction]"
+		},
+		{
+			"id": "Destructive Aura",
+			"name": "Разрушительная Аура",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Область</span>: @Template[type:emanation|distance:15]</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 минута</span></div>\n</details><hr />\n<p class=\"Нарратив\">Кружащиеся пески божественного опустошения окружают вас, ослабляя защиту всего, к чему они прикасаются.</p>\n<p>В @UUID[Compendium.pf2e-ts-rub.effekty-raznoe.enFxxceZFkdWN5X0]{Ауре} снижаются <span class=\"Союз\">ваши</span> <span class=\"Сопр\">Сопротивление</span> и всех существ на 2.</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (+2)</span>:</summary>\n<p><span class=\"Сопр\">Сопротивление</span> снижаются на дополнительные 2 единицы.</p>\n</details>"
+		},
+		{
+			"id": "Destructive Aura (At Will)",
+			"name": "Разрушительная Аура (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DestructiveAura]"
+		},
+		{
+			"id": "Destructive Aura (Constant)",
+			"name": "Разрушительная Аура (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DestructiveAura]"
+		},
+		{ "id_": "Сны" },
+		{
+			"id": "Sweet Dream",
+			"name": "Сладкий Сон",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">3</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span>, <span class=\"Комп\">матер.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 готовое существо</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">10 минут</span></div>\n</details><hr />\n<p class=\"Нарратив\">С помощью успокаивающей песни или рассказа вы убаюкиваете цель чарующим сном.</p>\n<p>Когда вы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете} это заклинание, цель @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Теряет Сознания}, если она еще не. Будучи @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf], она видит сон по вашему выбору. Если она спит хотя бы <span class=\"До\">1 минуту</span>, то получает преимущество сна на остаток продолжительности заклинания.</p>\n<p><span class=\"Список\">♦ Сон Прозрения:</span> <span class=\"Эффект\">@Compendium[pf2e.spell-effects.v051JKN0Dj3ve5cF]{Бонус}</span> <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">проверкам навыков</span> на основе <span style=\"color:#b96ad9\"><strong>Интеллекта</strong></span></p>\n<p><span class=\"Список\">♦ Сон Обаяния:</span> <span class=\"Эффект\">@Compendium[pf2e.spell-effects.MJSoRFfEdM4j5mNG]{Бонус}</span> <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">проверкам навыков</span> на основе <span class=\"ХАР\">Харизмы</span></p>\n<p><span class=\"Список\">♦ Сон Путешествия:</span> <span class=\"Эффект\">@Compendium[pf2e.spell-effects.sE2txm68yZSFMV3v]{Бонус}</span> <span class=\"Состояния\">Состояния</span> +5ФТ к <span class=\"Скор\">Скорости</span></p>\n<p class=\"Развеять\">Если вы снова @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете} это заклинание, эффекты любого предыдущего наложенного вами сладкого сна заканчиваются.</p>"
+		},
+		{
+			"id": "Sweet Dream (At Will)",
+			"name": "Сладкий Сон (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.SweetDream]"
+		},
+		{
+			"id": "Sweet Dream (Constant)",
+			"name": "Сладкий Сон (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.SweetDream]"
+		},
+		{
+			"id": "Dreamer's Call",
+			"name": "Зов Мечтателя",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 Существо</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">до конца след.хода цели</span></div>\n</details><hr />\n<p class=\"Нарратив\">Цель становится рассеянной и внушаемой, будучи наполненная яркими грезами наяву.</p>\n<p>Цель совершает <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span></p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель невредима</p>\n<p><span class=\"Успех\">Успех</span>: Внимание цели колеблется. Она становится @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутой Врасплох} и @Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Заворожен} своими грезами.</p>\n<p><span class=\"Провал\">Провал</span>: Как <span class=\"Успех\">Успех</span>, только вы появляетесь во сне и даете внушение. Это может быть: приблизиться к вам, убежать прочь (как если бы у нее было состояние @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство}), @Compendium[pf2e.actionspf2e.wQYmDStjdjn0I26t]{Отпустить} то что она держит, @Compendium[pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Упасть Ничком} или стоять на месте.</p>\n<p>Существо следует этому указанию в качестве своего <span class=\"Действие\">первого действия</span> после того как вы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворили} это заклинание.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, но цель тратит на указание столько <span class=\"Действие\">действий</span> сколько возможно, пока длится заклинание, и больше ничего не делает</p>"
+		},
+		{
+			"id": "Dreamer's Call (At Will)",
+			"name": "Зов Мечтателя (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DreamerCall]"
+		},
+		{
+			"id": "Dreamer's Call (Constant)",
+			"name": "Зов Мечтателя (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.DreamerCall]"
+		},
+		{ "id_": "Сны" },
+		{
+			"id": "Hurtling Stone",
+			"name": "Летящий Камень",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">жест.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 60ФТ</div>\n<div><span class=\"Дист\">Цель</span>: 1 Существо</div>\n</details><hr />\n<p class=\"Нарратив\">Вы вызываете магический камень и бросаете его, а присутствие вашего бога направляет вашу меткость.</p>\n<p>Совершите <span class=\"Атак\">Атаку <span class=\"Закл\">Закл.</span></span> по цели. Камень наносит равный [[/r 1d6[bludgeoning]]] + <span class=\"СИЛ\">Мод.Силы</span>.</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (+1)</span>:</summary>\n<p><span class=\"Урон\">Урон</span> <span class=\"Увелич\">увелич.</span> на 1d6.</p>\n</details>"
+		},
+		{
+			"id": "Hurtling Stone (At Will)",
+			"name": "Летящий Камень (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.HurtlingStone]"
+		},
+		{
+			"id": "Hurtling Stone (Constant)",
+			"name": "Летящий Камень (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.HurtlingStone]"
+		},
+		{
+			"id": "Localized Quake",
+			"name": "Локальное Землетрясение",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Область</span>: @Template[type:emanation|distance:15]/@Template[type:cone|distance:15]</div>\n</details><hr />\n<p class=\"Нарратив\">Вы сотрясаете землю, опрокидывая ближайших существ.</p>\n<p>Каждое существо в области, стоящее на твердой земле может получить [[/r 4d6[bludgeoning]]] и должно совершить <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо</p>\n<p><span class=\"Успех\">Успех</span>: <span class=\"Урон2\">Урон/2</span></p>\n<p><span class=\"Провал\">Провал</span>: <span class=\"Урон2\">Урон</span> и падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: <span class=\"Урон2\">Урон*2</span> и падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (+1)</span>:</summary>\n<p><span class=\"Урон\">Урон</span> <span class=\"Увелич\">увелич.</span> на 2d6.</p>\n</details>"
+		},
+		{
+			"id": "Localized Quake (At Will)",
+			"name": "Локальное Землетрясение (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.LocalizedQuake]"
+		},
+		{
+			"id": "Localized Quake (Constant)",
+			"name": "Локальное Землетрясение (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.LocalizedQuake]"
+		},
+		{ "id_": "Семья" },
+		{
+			"id": "Soothing Words",
+			"name": "Успокаивающие Слова",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 <span class=\"Союз\">Союзник</span></div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 Раунд</span></div>\n</details><hr />\n<p class=\"Нарратив\">Вы пытаетесь успокоить цель, произнося умиротворяющие слова спокойным и ровным тоном.</p>\n<p>♦ Цель <span class=\"Эффект\">@Compendium[pf2e.spell-effects.an4yZ6dyIDOFa1wa]{Получаете}</span> бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>. Бонус <span class=\"Увелич\">увелич.</span> до +2 против эффектов <span class=\"Признак\">эмоций</span>.</p>\n<p>♦ Дополнительно, когда вы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете} это заклинание, можете попытаться @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействовать} одному <span class=\"Признак\">эмоциональному</span> эффекту на цели.</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (5)</span></summary>\n<p>Бонус к <span class=\"КБ\">Спас.</span> <span class=\"Увелич\">увелич.</span> до +2, или +3 против эффектов <span class=\"Признак\">эмоций</span>.</p>\n</details>"
+		},
+		{
+			"id": "Soothing Words (At Will)",
+			"name": "Успокаивающие Слова (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.SoothingWords]"
+		},
+		{
+			"id": "Soothing Words (Constant)",
+			"name": "Успокаивающие Слова (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.SoothingWords]"
+		},
+		{
+			"id": "Unity",
+			"name": "Единство",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">5</span></span><span class=\"Комп\">слов.</span></div>\n<div><span class=\"Триг\">Триггер</span>: <span class=\"Союз\">Вы</span> и 1 или более <span class=\"Союз\">союзников</span> в пределах <span class=\"Дист\">дистанции</span> являетесь целью заклинания или умения, которые позволяет совершить <span class=\"КБ\">Спас.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цель</span>: каждый <span class=\"Союз\">союзник</span> являющийся целью <span class=\"Триг\">спровоц.</span> <span class=\"Закл\">заклинания</span></div>\n</details><hr />\n<p class=\"Нарратив\">Вы защищаетесь вместе.</p>\n<p>Каждый <span class=\"Союз\">союзник</span>, может использовать против <span class=\"Триг\">спровоцир.</span> заклинания ваш <span class=\"КБ\">Мод.Спас.</span>, вместо своего. Каждый <span class=\"Союз\">союзник</span> решает индивидуально какой модификатор использовать.</p>"
+		},
+		{
+			"id": "Unity (At Will)",
+			"name": "Единство (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.Unity]"
+		},
+		{
+			"id": "Unity (Constant)",
+			"name": "Единство (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.Unity]"
+		},
+		{ "id_": "Судьба" },
+		{
+			"id": "Read Fate",
+			"name": "Чтение Судьбы",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\">1 Минута</span> (<span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span>, <span class=\"Комп\">матер.</span>)</div>\n<div><span class=\"Дист\">Дистанция</span>: 10ФТ</div>\n<div><span class=\"Дист\">Цель</span>: 1 Существо (кроме вас самих)</div>\n</details><hr />\n<p class=\"Нарратив\">Вы пытаетесь узнать больше о судьбе цели на короткий промежуток времени, обычно в течение следующего дня для большинства обыденных существ, или в течение следующего часа или меньше для кого-то, кто, вероятно, имеет различные бурные переживания, например, кто-то, кто активно ищет приключений.</p>\n<p>Вы узнаете одно загадочное слово, связанное с судьбой существа в этом временном промежутке. Судьба, как известно, непостижима, и это слово не обязательно должно приниматься за чистую монету, поэтому его смысл часто ясен только по прошествии времени.</p>\n<p>Мастер кидает <span class=\"Признак\">тайную</span> @Check[type:flat|dc:6|showDC:all]. Если судьба существа слишком неясна, или в случае <span class=\"Провал\">провалившейся</span> проверки, заклинание дает слово \"нерешенная\".</p>\n<p class=\"Иммун\">В любом случае, потом существо <span class=\"НЕ\">временно</span> <span class=\"Иммун2\">иммунно</span> <span class=\"До\">на 24 часа</span>.</p>"
+		},
+		{
+			"id": "Read Fate (At Will)",
+			"name": "Чтение Судьбы (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.ReadFate]"
+		},
+		{
+			"id": "Read Fate (Constant)",
+			"name": "Чтение Судьбы (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.ReadFate]"
+		},
+		{
+			"id": "String of Fate",
+			"name": "Нить Судьбы",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">жест.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 60ФТ</div>\n<div><span class=\"Дист\">Цели</span>: <span class=\"Союз\">Вы</span> и 1 <span class=\"Союз\">Союзник</span></div>\n<div><span class=\"Прод\">Продолж.</span>: @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Поддерж.} <span class=\"До\">до 1 Минуты</span></div>\n</details><hr />\n<p class=\"Нарратив\">Вы связываете себя с другом, которым дорожите, клянясь разделить его судьбу, будь она хорошей или плохой.</p>\n<p>Всякий раз, когда эффект потребует от вас и цели совершить <span class=\"КБ\">Спас.</span>, если один из вас получает <span class=\"Успех\">Успех</span>, а другой <span class=\"Критпровал\">Крит.Провал</span>, то вместо этого вы можете выбрать, чтобы оба получили простой <span class=\"Провал\">Провал</span>.</p>\n<blockquote class=\"Уточнить\"><span class=\"Союз\">Вы</span> и <span class=\"Союз\">союзник</span> должны согласиться на <span class=\"Провал\">Провал</span>; в противном случае, используйте свои обычные результаты <span class=\"КБ\">Спас.</span>.</blockquote>"
+		},
+		{
+			"id": "String of Fate (At Will)",
+			"name": "Нить Судьбы (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.StringofFate]"
+		},
+		{
+			"id": "String of Fate (Constant)",
+			"name": "Нить Судьбы (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.StringofFate]"
+		},
+		{
+			"id": "Tempt Fate",
+			"name": "Искушать Судьбу",
+			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">5</span></span><span class=\"Комп\">жест.</span></div>\n<div><span class=\"Триг\">Триггер</span>: <span class=\"Союз\">Вы</span> или <span class=\"Союз\">союзник</span> в пределах <span class=\"Дист\">дистанции</span> совершаете <span class=\"КБ\">Спас.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 120ФТ</div>\n<div><span class=\"Дист\">Цель</span>: <span class=\"Триг\">спровоцир.</span>существо</div>\n</details><hr />\n<p class=\"Нарратив\">Вы перекручиваете силы судьбы, чтобы момент стал ужасным или без происшествий, и не содержал бы промежуточных результатов.</p>\n<p>♦ Цель <span class=\"Эффект\">@Compendium[pf2e.spell-effects.AJkRUIdYLnt4QOOg]{Получает}</span> бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Триг\">спровоц.</span><span class=\"КБ\">Спас.</span>.</p>\n<p>♦ Если результат <span class=\"КБ\">Спас.</span> <span class=\"Успех\">Успех</span>, то он становится <span class=\"Критуспех\">Крит.Успех</span>.</p>\n<p>♦ Если результат <span class=\"КБ\">Спас.</span> <span class=\"Провал\">Провал</span>, то он становится <span class=\"Критпровал\">Крит.Провал</span>, и этот <span class=\"Критпровал\">Крит.Провал</span> не может быть улучшен с помощью умений, которые обычно улучшают степень успешности <span class=\"Критпровал\">Крит.Провал</span>, как @Compendium[pf2e.classfeatures.L5D0NwFXdLiVSnk5]{Улуч.Уклонение}.</p>\n<blockquote class=\"Уточнить\">Если <span class=\"Триг\">спровоцир.</span> умение не имеет одновременно отдельных результатов для <span class=\"Критуспех\">Крит.Успеха</span> и <span class=\"Критпровал\">Крит.Провал</span>, то <span class=\"Повтор\">Искушать Судьбу</span> проваливается, <span class=\"НЕ\">но вы не тратите</span> <span class=\"ОФ\">Очко Фокусировки</span> на @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение} этого заклинания.</blockquote>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (Ур.)</span>:</summary>\n<p><span class=\"Усил\">Усиление (8)</span>: <span class=\"Эффект\">@Compendium[pf2e.spell-effects.AJkRUIdYLnt4QOOg]{Бонус}</span> к <span class=\"КБ\">Спас.</span> становится +2.</p>\n</details>"
+		},
+		{
+			"id": "Tempt Fate (At Will)",
+			"name": "Искушать Судьбу (По Желанию)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.TemptFate]"
+		},
+		{
+			"id": "Tempt Fate (Constant)",
+			"name": "Искушать Судьбу (Постоянное)",
+			"description": "@Localize[PF2E.Spell.FocusCleric.TemptFate]"
+		},
+
+
+
+
 
 
 
@@ -2241,37 +2569,6 @@
 			"name": "Ливень (Постоянное)",
 			"description": "@Localize[PF2E.Spell.FocusCleric.Downpour]"
 		},
-		{ "id_": "Судьба" },
-		{
-			"id": "Read Fate",
-			"name": "Чтение Судьбы",
-			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: 1 минута (<span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span>, <span class=\"Комп\">матер.</span>)</div>\n<div><span class=\"Дист\">Дистанция</span>: 10ФТ</div>\n<div><span class=\"Дист\">Цель</span>: 1 Существо (кроме вас самих)</div>\n</details><hr>\n<p class=\"Нарратив\">Вы пытаетесь узнать больше о судьбе цели на короткий промежуток времени, обычно в течение следующего дня для большинства обыденных существ, или в течение следующего часа или меньше для кого-то, кто, вероятно, имеет различные бурные переживания, например, кто-то, кто активно ищет приключений.</p>\n<p>Вы узнаете одно загадочное слово, связанное с судьбой существа в этом временном промежутке. Судьба, как известно, непостижима, и это слово не обязательно должно приниматься за чистую монету, поэтому его смысл часто ясен только по прошествии времени.</p>\n<p>Мастер кидает <span class=\"Признак\">тайную</span></span> @Check[type:flat|dc:6|showDC:all]. Если судьба существа слишком неясна, или в случае <span class=\"Провал\">провалившейся</span> проверки, заклинание дает слово \"нерешенная\". В любом случае, потом существо <span class=\"НЕ\">временно</span> иммунно <span class=\"До\">на 24 часа</span>.</p>"
-		},
-		{
-			"id": "Read Fate (At Will)",
-			"name": "Чтение Судьбы (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.ReadFate]"
-		},
-		{
-			"id": "Read Fate (Constant)",
-			"name": "Чтение Судьбы (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.ReadFate]"
-		},
-		{
-			"id": "Tempt Fate",
-			"name": "Искушать Судьбу",
-			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">5</span></span><span class=\"Комп\">жест.</span></div>\n<div><span class=\"Триг\">Триггер</span>: Вы или <span class=\"Союз\">союзник в пределах <span class=\"Дист\">дистанции</span> совершаете <span class=\"КБ\">Спас.</span></span></div>\n<div><span class=\"Дист\">Дистанция</span>: 120ФТ</div>\n<div><span class=\"Дист\">Цель</span>: <span class=\"Триг\">спровоц.</span>существо</div>\n</details><hr>\n<p class=\"Нарратив\">Вы перекручиваете силы судьбы, чтобы момент стал ужасным или без происшествий, и не содержал бы промежуточных результатов.</p>\n<p>&diams; Цель получает <span class=\"Эффект\">= </span>@Compendium[pf2e.spell-effects.AJkRUIdYLnt4QOOg]{Бонус} <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Триг\">спровоц.</span><span class=\"КБ\">Спас.</span>.</p>\n<p>&diams; Если результат <span class=\"КБ\">Спас.</span> <span class=\"Успех\">успешный</span>, то он становится <span class=\"Критуспех\">крит.успешным</span>.</p>\n<p>&diams; Если <span class=\"Провал\">Провал</span>, то становится <span class=\"Критпровал\">Крит.Провал</span>, и этот <span class=\"Критпровал\">Крит.Провал</span> не может быть улучшен с помощью умений, которые обычно улучшают степень успешности <span class=\"Критпровал\">Крит.Провал</span>, как @Compendium[pf2e.classfeatures.L5D0NwFXdLiVSnk5]{Улуч.Уклонение}.</p>\n<hr>\n<p>Если спровоцировавшее умение не имеет одновременно отдельных результатов для <span class=\"Критуспех\">Крит.Успеха</span> и <span class=\"Критпровал\">Крит.Провал</span>, то <span class=\"Повтор\">Искушать Судьбу</span> проваливается, но вы не тратите <span class=\"ОФ\">Очко Фокусировки</span> на @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение} этого заклинания.</p>\n<hr><details>\n<summary><span class=\"Усил\">Усиление (8)</span>:</summary>\n<p><span class=\"Эффект\">= </span>@Compendium[pf2e.spell-effects.AJkRUIdYLnt4QOOg]{Бонус} к <span class=\"КБ\">Спас.</span> становится +2.</p>\n</details>"
-		},
-		{
-			"id": "Tempt Fate (At Will)",
-			"name": "Искушать Судьбу (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.TemptFate]"
-		},
-		{
-			"id": "Tempt Fate (Constant)",
-			"name": "Искушать Судьбу (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.TemptFate]"
-		},
 		{ "id_": "Время" },
 		{
 			"id": "Delay Consequence",
@@ -2302,37 +2599,6 @@
 			"id": "Stasis (Constant)",
 			"name": "Стазис (Постоянное)",
 			"description": "@Localize[PF2E.Spell.FocusCleric.Stasis]"
-		},
-		{ "id_": "Смерть" },
-		{
-			"id": "Death's Call",
-			"name": "Зов Смерти",
-			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">5</span></span><span class=\"Комп\">слов.</span></div>\n<div><span class=\"Триг\">Триггер</span>: <span class=\"Признак\">Живое</span></span> существо умирает в пределах 20ФТ от вас, или в пределах 20ФТ от вас уничтожена <span class=\"Признак\">нежить</span></span></div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 минута</span></div>\n</details><hr>\n<p class=\"Нарратив\">Вас бодрит вид того, как совершается еще один переход из этого мира в следующий.</p>\n<p>Вы получаете <span class=\"ОЗ\">Врем.ОЗ</span>, равные <span class=\"Класс\">Уровню</span> <span class=\"Триг\">спровоц.</span>существа + ваш <span class=\"МХК\" data-tooltip=\"Модификатор Характеристики Колдоства\">Мод.Хар.Колд</span>. Если <span class=\"Триг\">спровоц.</span>существо было <span class=\"Признак\">нежитью</span></span>, удвойте количество получаемых <span class=\"ОЗ\">ОЗ</span>.</p>\n<p>Они остаются на время <span class=\"Прод\">продол.</span><span class=\"Закл\">заклинания</span>, и заклинание заканчивается если все <span class=\"ОЗ\">Врем.ОЗ</span> будут израсходованы раньше.</p>"
-		},
-		{
-			"id": "Death's Call (At Will)",
-			"name": "Зов Смерти (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DeathCall]"
-		},
-		{
-			"id": "Death's Call (Constant)",
-			"name": "Зов Смерти (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DeathCall]"
-		},
-		{
-			"id": "Eradicate Undeath",
-			"name": "Истребление Нежити",
-			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>,<span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Область</span>: @Template[type:cone|distance:30]</div>\n</details><hr>\n<p class=\"Нарратив\">Мощный поток жизненной энергии заставляет нежить разваливаться на части.</p>\n<p>Каждое существо-<span class=\"Признак\">нежить</span></span> в области получает [[/r 4d12]] <span class=\"Урон\">позитив.</span>.</p>\n<hr><details>\n<summary><span class=\"Усил\">Усиление (+1)</span>:</summary>\n<p><span class=\"Урон\">Урон</span> <span class=\"Увелич\">увелич.</span> на 1d12.</p>\n</details>"
-		},
-		{
-			"id": "Eradicate Undeath (At Will)",
-			"name": "Истребление Нежити (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.EradicateUndeath]"
-		},
-		{
-			"id": "Eradicate Undeath (Constant)",
-			"name": "Истребление Нежити (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.EradicateUndeath]"
 		},
 		{ "id_": "Исцеление" },
 		{
@@ -2426,37 +2692,6 @@
 			"id": "Glimpse the Truth (Constant)",
 			"name": "Проблеск Истины (Постоянное)",
 			"description": "@Localize[PF2E.Spell.FocusCleric.GlimpsetheTruth]"
-		},
-		{ "id_": "Тьма" },
-		{
-			"id": "Cloak of Shadow",
-			"name": "Плащ Тени",
-			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">жест.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: касание</div>\n<div><span class=\"Дист\">Цели</span>: 1 готовое существо</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 минута</span></div>\n</details><hr>\n<p class=\"Нарратив\">Вы одеваете на цель плащ кружащихся теней, которые делают ее труднозаметной.</p>\n<p>Плащ приглушает <span class=\"Свет\">яркий свет</span> в @Template[type:emanation|distance:20], делая его <span class=\"Свет\">тусклым</span>. Это разновидность <span class=\"Признак\">магической</span></span> <span class=\"Признак\">тьмы</span></span>, и поэтому она может преодолеть <span class=\"Признак\"><span class=\"НЕ\">не</span>магический</span></span> <span class=\"Признак\">свет</span></span> или попытаться @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействовать} <span class=\"Признак\">магическому</span></span> <span class=\"Признак\">свету</span></span>.</p>\n<p>Цель может использовать полученное от теней состояние @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт}, чтобы @Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Спрятаться}, однако наблюдающие это существа все же могут следить за двигающейся теневой аурой, делая трудной для цели задачу стать полностью @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Необнаружен}.</p>\n<hr>\n<p>Цель может использовать действие @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы убрать плащ и оставить его как приманку, где он остается, снижая освещение на оставшееся время заклинания. Если кто-то подбирает плащ после того как его сняла изначальная цель, то плащ испаряется и заклинание заканчивается.</p>"
-		},
-		{
-			"id": "Cloak of Shadow (At Will)",
-			"name": "Плащ Тени (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.CloakofShadow]"
-		},
-		{
-			"id": "Cloak of Shadow (Constant)",
-			"name": "Плащ Тени (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.CloakofShadow]"
-		},
-		{
-			"id": "Darkened Eyes",
-			"name": "Потемневшие Глаза",
-			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 60ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 Существо</div>\n</details><hr>\n<p class=\"Нарратив\">Вы наполняете зрение существа темнотой.</p>\n<p>Цель совершает <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>.</p>\n<p class=\"Иммун\">После совершения <span class=\"КБ\">Спас.</span> цель становится <span class=\"Иммун2\">иммунной</span> <span class=\"До\">на 24 часа</span>.</p>\n<hr>\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель невредима</p>\n<p><span class=\"Успех\">Успех</span>: @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Ночное} или @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Сумеречное Зрение} цели подавлено<span class=\"До\">на 1 раунд</span></p>\n<p><span class=\"Провал\">Провал</span>: Как <span class=\"Успех\">Успех</span>, но <span class=\"Прод\">продолжительность</span> 1 минута</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Успех\">Успех</span>, но <span class=\"Прод\">продолжительность</span> 1 минута, и цель еще получает состояние @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Слепота} на время <span class=\"Прод\">продолжительности</span>. Она может совершить новый <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> <span class=\"До\">в конце каждого своего хода</span>. В случае <span class=\"Успех\">Успеха</span> она теряет состояние @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Слепота}, но @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Ночное} или @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Сумеречное Зрение} остается подавленным.</p>"
-		},
-		{
-			"id": "Darkened Eyes (At Will)",
-			"name": "Потемневшие Глаза (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DarkenedEyes]"
-		},
-		{
-			"id": "Darkened Eyes (Constant)",
-			"name": "Потемневшие Глаза (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DarkenedEyes]"
 		},
 		{ "id_": "Луна" },
 		{
@@ -2582,37 +2817,17 @@
 			"name": "Позитивное Свечение (Постоянное)",
 			"description": "@Localize[PF2E.Spell.FocusCleric.PositiveLuminance]"
 		},
-		{ "id_": "Семья" },
-		{
-			"id": "Soothing Words",
-			"name": "Успокаивающие Слова",
-			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 союзник</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 Раунд</span></div>\n</details><hr>\n<p class=\"Нарратив\">Вы пытаетесь успокоить цель, произнося умиротворяющие слова спокойным и ровным тоном.</p>\n<p>&diams; Цель получает <span class=\"Эффект\">= </span>@Compendium[pf2e.spell-effects.an4yZ6dyIDOFa1wa]{Бонус} <span class=\"Состояния\">Состояния</span> +1 к <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>. Бонус <span class=\"Увелич\">увелич.</span> до +2 против эффектов <span class=\"Признак\">эмоций</span></span>.</p>\n<p>&diams; Дополнительно, когда вы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете} это заклинание, можете попытаться @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействовать} одному <span class=\"Признак\">эмоциональному</span></span> эффекту на цели.</p>\n<hr><details>\n<summary><span class=\"Усил\">Усиление (5)</span></summary>\n<p>Бонус к <span class=\"КБ\">Спас.</span> <span class=\"Увелич\">увелич.</span> до +2, или +3 против эффектов <span class=\"Признак\">эмоций</span></span>.</p>\n</details>"
-		},
-		{
-			"id": "Soothing Words (At Will)",
-			"name": "Успокаивающие Слова (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.SoothingWords]"
-		},
-		{
-			"id": "Soothing Words (Constant)",
-			"name": "Успокаивающие Слова (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.SoothingWords]"
-		},
-		{
-			"id": "Unity",
-			"name": "Единство",
-			"description": "<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">5</span></span><span class=\"Комп\">слов.</span></div>\n<div><span class=\"Триг\">Триггер</span>: Вы и 1 или более союзников в пределах <span class=\"Дист\">дистанции</span> являетесь целью заклинания или умения, которые позволяет совершить <span class=\"КБ\">Спас.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цель</span>: каждый союзник являющийся целью <span class=\"Триг\">спровоц.</span> заклинания</div>\n</details><hr>\n<p class=\"Нарратив\">Вы защищаетесь вместе.</p>\n<p>Каждый союзник, может использовать против <span class=\"Триг\">спровоц.</span> заклинания ваш модификатор <span class=\"КБ\">Спас.</span>, вместо своего. Каждый союзник решает индивидуально какой модификатор использовать.</p>"
-		},
-		{
-			"id": "Unity (At Will)",
-			"name": "Единство (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.Unity]"
-		},
-		{
-			"id": "Unity (Constant)",
-			"name": "Единство (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.Unity]"
-		},
+
+
+
+
+
+
+
+
+
+
+
 		{ "id_": "111" },
 
 
@@ -2798,36 +3013,6 @@
 			"description": "@Localize[PF2E.Spell.FocusCleric.RoaroftheWyrm]"
 		},
 		{
-			"id": "Splash of Art",
-			"name": "Всплеск Искусства",
-			"description": "<p class=\"Нарратив\">Поток разноцветных иллюзорных красок, инструментов или других символов искусства и ремесленничества медленно опускается на область.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Область</span>: @Template[type:burst|distance:5]</div>\n<div><span class=\"Прод\">Продолж.</span>: различается</div>\n</details>\n<hr />\n<p>Киньте [[/r d4]], чтобы определить цвет <span class=\"Признак\">иллюзии</span></span>. Каждое существо в области должно совершить <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span>. При <span class=\"Успех\">Успех</span> существо невредимо. При <span class=\"Провал\">Провале</span> или <span class=\"Критпровал\">Крит.Провале</span>, существо получает соответствующие цвету результаты, указанные в таблице.</p>\n<div>\n<table style=\"width: 100%; border-color: #000080; border-style: solid;\" border=\"1\"><colgroup><col style=\"width: 13.2316%;\" /><col style=\"width: 14.5038%;\" /><col style=\"width: 35.8779%;\" /><col style=\"width: 36.1323%;\" /></colgroup>\n<thead>\n<tr style=\"background-color: #ba372a; height: 34px;\">\n<th style=\"height: 34px;\">[[/r d4]]</th>\n<th style=\"height: 34px;\">Цвет</th>\n<th style=\"height: 34px;\"><strong>Провал</strong></th>\n<th style=\"height: 34px;\">Крит.провал</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 17px; background-color: #fbeeb8;\">\n<td style=\"text-align: center; height: 17px;\">1</td>\n<td style=\"height: 17px; background-color: #ffffff; text-align: center;\">Белый</td>\n<td style=\"text-align: center; height: 17px;\">@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен} 1 раунд</td>\n<td style=\"text-align: center; height: 17px;\">@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} 1 минуту</td>\n</tr>\n<tr style=\"height: 34px; background-color: #fbeeb8;\">\n<td style=\"text-align: center; height: 34px;\">2</td>\n<td style=\"height: 34px; background-color: #e03e2d; text-align: center;\">Красный</td>\n<td style=\"text-align: center; height: 34px;\">@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1} 1 раунд</td>\n<td style=\"text-align: center; height: 34px;\">@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 2} 1 раунд</td>\n</tr>\n<tr style=\"height: 17px; background-color: #fbeeb8;\">\n<td style=\"text-align: center; height: 17px;\">3</td>\n<td style=\"height: 17px; background-color: #f1c40f; text-align: center;\">Желтый</td>\n<td style=\"text-align: center; height: 17px;\">@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</td>\n<td style=\"text-align: center; height: 17px;\">@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</td>\n</tr>\n<tr style=\"height: 34px; background-color: #fbeeb8;\">\n<td style=\"text-align: center; height: 34px;\">4</td>\n<td style=\"height: 34px; background-color: #3598db; text-align: center;\">Синий</td>\n<td style=\"text-align: center; height: 34px;\">@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} 1 раунд</td>\n<td style=\"text-align: center; height: 34px;\">@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 2} 1 раунд</td>\n</tr>\n</tbody>\n</table>\n</div>"
-		},
-		{
-			"id": "Splash of Art (At Will)",
-			"name": "Всплеск Искусства (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.SplashofArt]"
-		},
-		{
-			"id": "Splash of Art (Constant)",
-			"name": "Всплеск Искусства (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.SplashofArt]"
-		},
-		{
-			"id": "Artistic Flourish",
-			"name": "Художественный Размах",
-			"description": "<p class=\"Нарратив\">Вы трансформируете цель, чтобы она соответствовала вашему ремесленному и художественному видению.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">матер.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 15ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 предмет или произведение искусства, который целиком умещается в дистанцию</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">10 минут</span></div>\n</details>\n<hr />\n<p>Если вы <span class=\"Эксперт\">ЭКСПЕРТ</span> <span class=\"ИНТ\">Ремесла</span>, то предмет дает бонус <span class=\"Предмета\">Предмета</span> +1: к <span class=\"Атак\">броскам атак</span> если он является оружием, или проверкам навыка если это инструмент связанный с навыком.</p>\n<p>Цель - красивая и впечатляющая вещь для своего нового качества, но эффект явно временный, поэтому ее денежная ценность не меняется.</p>\n<hr />\n<p>Когда вы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете} это заклинание, любые сотворенные вами ранее <span style=\"text-decoration: underline; color: #34495e;\">художественные размахи</span> заканчиваются.</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (Ур.)</strong></span></summary>\n<div><span class=\"Усил\">Усиление (7)</span>: Если вы <span class=\"Мастер\">МАСТЕР</span> <span class=\"ИНТ\">Ремесла</span>, предмет дает бонус <span class=\"Предмета\">Предмета</span> +2.</div>\n<div><span class=\"Усил\">Усиление (10)</span>: Если вы <span class=\"Легенда\">ЛЕГЕНДА</span> <span class=\"ИНТ\">Ремесла</span>, предмет дает бонус <span class=\"Предмета\">Предмета</span> +3.</div>\n</details>"
-		},
-		{
-			"id": "Artistic Flourish (At Will)",
-			"name": "Художественный Размах (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.ArtisticFlourish]"
-		},
-		{
-			"id": "Artistic Flourish (Constant)",
-			"name": "Художественный Размах (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.ArtisticFlourish]"
-		},
-		{
 			"id": "Redact",
 			"name": "Редактировать",
 			"description": "<p class=\"Нарратив\">Вы вычеркиваете упоминание определенного имени из одного или нескольких документов.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">матер.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цель</span>: ничейные письменные материалы, вплоть до 1 Массы или менее</div>\n<div><span class=\"Прод\">Продолж.</span>: 1 день</div>\n</details>\n<hr />\n<p>Когда вы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете} заклинание, задайте одно имя собственное, будь то существо, локация или объект. Любое упоминание этого имени в документе становится размытым, размазанным или иным образом совершенно неразборчивым. Также редактируются эпитеты и недвусмысленные упоминания имени собственного; например, редактирование имени богини @Compendium[pf2e.deities.BNycwu3I21dTh4D9]{Саренрэй} из книги также удалит упоминания ее титула \"Цветок Зари\".</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (Ур.)</strong></span></summary>\n<p><span class=\"Усил\">Усиление (3)</span>: Вместо того, чтобы вычеркивать данное имя, вы можете заменить его другим именем, которое вы выберете. Эпитеты и упоминания заменяются аналогичными, относящимися к замещающему имени. Любой, кто читает текст, может совершить проверку <span class=\"МУД\">@Check[type:perception]</strong></span> или <span style=\"color: #b96ad9;\"><strong>@Check[type:society]</strong></span> против вашего <span class=\"КБ\">КС <span class=\"Закл\">Закл</span></span>, чтобы заметить измененный текст, хотя это не говорит им, что было в оригинале.</p>\n<p><span class=\"Усил\">Усиление (4)</span>: Если захотите вы можете сделать <span class=\"Прод\">продолжительность</span> неограниченной.</p>\n</details>"
@@ -2976,36 +3161,6 @@
 			"id": "Asterism (Constant)",
 			"name": "Астеризм (Постоянное)",
 			"description": "@Localize[PF2E.Spell.FocusCleric.Asterism]"
-		},
-		{
-			"id": "Hurtling Stone",
-			"name": "Летящий Камень",
-			"description": "<p class=\"Нарратив\">Вы вызываете магический камень и бросаете его, а присутствие вашего бога направляет вашу меткость.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">жест.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 60ФТ</div>\n<div><span class=\"Дист\">Цель</span>: 1 Существо</div>\n</details>\n<hr />\n<p>Совершите <span class=\"Атак\">Атаку <span class=\"Закл\">Закл.</span></span>  по цели. Камень наносит <span class=\"Урон\">Дробящ. Урон</span> равный [[/r 1d6]] + ваш модификатор Силы.</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (+1)</span>:</summary>\n<p><span class=\"Урон\">Урон</span> <span class=\"Увелич\">увелич.</span> на 1d6.</p>\n</details>"
-		},
-		{
-			"id": "Hurtling Stone (At Will)",
-			"name": "Летящий Камень (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.HurtlingStone]"
-		},
-		{
-			"id": "Hurtling Stone (Constant)",
-			"name": "Летящий Камень (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.HurtlingStone]"
-		},
-		{
-			"id": "Localized Quake",
-			"name": "Локальное Землетрясение",
-			"description": "<p class=\"Нарратив\">Вы сотрясаете землю, опрокидывая ближайших существ.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Область</span>: @Template[type:emanation|distance:15]/@Template[type:cone|distance:15]</div>\n</details>\n<hr />\n<p>Каждое существо в области, стоящее на твердой земле может получить 4d6 дробящего урона и должно совершить <strong><span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span></strong>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо</p>\n<p><span class=\"Успех\">Успех</span>: <span class=\"Урон2\">Урон/2</span></p>\n<p><span class=\"Провал\">Провал</span>: <span class=\"Урон2\">Урон</span> и падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: <span class=\"Урон2\">Урон*2</span> и падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (+1)</span>:</summary>\n<p><span class=\"Урон\">Урон</span> <span class=\"Увелич\">увелич.</span> на 2d6.</p>\n</details>"
-		},
-		{
-			"id": "Localized Quake (At Will)",
-			"name": "Локальное Землетрясение (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.LocalizedQuake]"
-		},
-		{
-			"id": "Localized Quake (Constant)",
-			"name": "Локальное Землетрясение (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.LocalizedQuake]"
 		},
 		{
 			"id": "Adapt Self",
@@ -3428,36 +3583,6 @@
 			"description": "@Localize[PF2E.Spell.FocusCleric.FallowField]"
 		},
 		{
-			"id": "Cry of Destruction",
-			"name": "Крик Разрушения",
-			"description": "<p class=\"Нарратив\">Ваш голос гремит, разбивая то, что находится перед вами.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Область</span>: @Template[type:cone|distance:15]</div>\n</details>\n<hr />\n<p>Каждое существо и ничейный объект в области получают [[/r 1d8]]{1d8 Звуком}. Если вы уже наносили урон врагу в этом ходу @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или заклинанием, то увеличьте <span class=\"Урон\">Кость Урона</span> этого заклинания до [[/r 1d12]]{1d12 Звуком}.</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (+1)</span>:</summary>\n<p><span class=\"Урон\">Урон</span> <span class=\"Увелич\">увелич.</span> на [[/r (@item.level)d8]]{1d8} или на [[/r (@item.level)d12]]{1d12} для отмеченных.</p>\n</details>"
-		},
-		{
-			"id": "Cry of Destruction (At Will)",
-			"name": "Крик Разрушения (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.CryofDestruction]"
-		},
-		{
-			"id": "Cry of Destruction (Constant)",
-			"name": "Крик Разрушения (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.CryofDestruction]"
-		},
-		{
-			"id": "Destructive Aura",
-			"name": "Разрушительная Аура",
-			"description": "<p class=\"Нарратив\">Кружащиеся пески божественного опустошения окружают вас, ослабляя защиту всего, к чему они прикасаются.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Область</span>: @Template[type:emanation|distance:15]</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 минута</span></div>\n</details>\n<hr />\n<p>В области снижаются ваши <span class=\"Сопр\">Сопротивление</span> и всех существ на 2.</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (+2)</span>:</summary>\n<p><span class=\"Сопр\">Сопротивление</span> снижаются на дополнительные 2 единицы.</p>\n</details>"
-		},
-		{
-			"id": "Destructive Aura (At Will)",
-			"name": "Разрушительная Аура (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DestructiveAura]"
-		},
-		{
-			"id": "Destructive Aura (Constant)",
-			"name": "Разрушительная Аура (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DestructiveAura]"
-		},
-		{
 			"id": "Swarmsense",
 			"name": "Чувство Роя",
 			"description": "<p class=\"Нарратив\">Вы расширяете свои чувства через множество ползающих и летающих существ.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: 1 минута <span class=\"Комп\">жест.</span>,<span class=\"Комп\">слов.</span></div>\n<div><span class=\"Прод\">Продолж.</span>: @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Поддерж.}</div>\n</details>\n<hr />\n<p>Вы создаете ползучий рой в своем квадрате. Вы можете слышать через рой, как если бы использовали свое обычное чувство слуха.</p>\n<p>В первый раз, когда вы @Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Поддерживаете} это заклинание каждый раунд, вы можете перемещать рой на 10ФТ по земле в любом направлении.</p>\n<p>Рой имеет 15 <span class=\"КБ\">КБ</span> и бонус +0 к <span class=\"КБ\">Спас.</span>. Любой урон, нанесенный рою, уничтожает его и прекращает действие заклинания.</p>\n<hr /><details>\n<summary><span class=\"Усил\">Усиление (Ур.)</strong></span></summary>\n<div><span class=\"Усил\">Усиление (3)</span>: Рой получает преимущества @Compendium[pf2e.spells-srd.5KobTMrZeZxuXMgl]{Паучьи Лапы}</div>\n<div><span class=\"Усил\">Усиление (5)</span>: Рой получает Скорость <span style=\"text-decoration: underline; color: #169179;\">полета</span> 10ФТ. Вы можете видеть сквозь рой, используя свои визуальные чувства.</div>\n<div><span class=\"Усил\">Усиление (7)</span>: Рой получает 10-ФТый бонус <span class=\"Состояния\">Состояния</span> к Скоростям.</div>\n</details>"
@@ -3546,36 +3671,6 @@
 			"id": "Overflowing Sorrow (Constant)",
 			"name": "Переполняющая Скорбь (Постоянное)",
 			"description": "@Localize[PF2E.Spell.FocusCleric.OverflowingSorrow]"
-		},
-		{
-			"id": "Sweet Dream",
-			"name": "Сладкий Сон",
-			"description": "<p class=\"Нарратив\">С помощью успокаивающей песни или рассказа вы убаюкиваете цель чарующим сном.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">3</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span>, <span class=\"Комп\">матер.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 готовое существо</div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">10 минут</span></div>\n</details>\n<hr />\n<p>Когда вы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете} это заклинание, цель @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Теряет Сознания}, если она еще не. Будучи <span style=\"text-decoration: underline; color: #34495e;\">без сознания</span>, она видит сон по вашему выбору. Если она спит хотя бы 1 минуту, то получает преимущество сна на остаток продолжительности заклинания.</p>\n<p><span class=\"Список\">&diams; Сон Прозрения:</strong></span> <span class=\"Эффект\">= </span>@Compendium[pf2e.spell-effects.v051JKN0Dj3ve5cF]{Бонус} <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">проверкам</span> навыков на основе <span style=\"color: #b96ad9;\"><strong>Интеллекта</strong></span></p>\n<p><span class=\"Список\">&diams; Сон Обаяния:</strong></span> <span class=\"Эффект\">= </span>@Compendium[pf2e.spell-effects.MJSoRFfEdM4j5mNG]{Бонус} <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">проверкам</span> навыков на основе <span class=\"ХАР\">Харизмы</span> </p>\n<p><span class=\"Список\">&diams; Сон Путешествия:</strong></span> <span class=\"Эффект\">= </span>@Compendium[pf2e.spell-effects.sE2txm68yZSFMV3v]{Бонус} <span class=\"Состояния\">Состояния</span> +5ФТ к <span class=\"Скор\">Скорости</span></p>\n<hr />\n<p>Если вы снова @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете} это заклинание, эффекты любого предыдущего наложенного вами сладкого сна заканчиваются.</p>"
-		},
-		{
-			"id": "Sweet Dream (At Will)",
-			"name": "Сладкий Сон (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.SweetDream]"
-		},
-		{
-			"id": "Sweet Dream (Constant)",
-			"name": "Сладкий Сон (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.SweetDream]"
-		},
-		{
-			"id": "Dreamer's Call",
-			"name": "Зов Мечтателя",
-			"description": "<p class=\"Нарратив\">Цель становится рассеянной и внушаемой, будучи наполненная яркими грезами наяву.</p>\n<hr />\n<p><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></p>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цели</span>: 1 Существо</div>\n<div><span class=\"Прод\">Продолж.</span>: до конца следующего хода цели</div>\n</details>\n<hr />\n<p>Цель совершает <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span></p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель невредима</p>\n<p><span class=\"Успех\">Успех</span>: Внимание цели колеблется. Она становится @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутой Врасплох} и @Compendium[pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Заворожен} своими грезами.</p>\n<p><span class=\"Провал\">Провал</span>: Как <span class=\"Успех\">Успех</span>, только вы появляетесь во сне и даете внушение. Это может быть: приблизиться к вам, убежать прочь (как если бы у нее было состояние @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство}), @Compendium[pf2e.actionspf2e.wQYmDStjdjn0I26t]{Отпустить} то что она держит, @Compendium[pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Упасть Ничком} или стоять на месте.</p>\n<p>Существо следует этому указанию в качестве своего первого действия после того как вы @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворили} это заклинание.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, но цель тратит на указание столько действий сколько возможно, пока длится заклинание, и больше ничего не делает</p>"
-		},
-		{
-			"id": "Dreamer's Call (At Will)",
-			"name": "Зов Мечтателя (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DreamerCall]"
-		},
-		{
-			"id": "Dreamer's Call (Constant)",
-			"name": "Зов Мечтателя (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DreamerCall]"
 		},
 		{
 			"id": "Perfected Mind",
@@ -3726,36 +3821,6 @@
 			"id": "Tireless Worker (Constant)",
 			"name": "Неутомимый Труженик (Постоянное)",
 			"description": "@Localize[PF2E.Spell.FocusCleric.TirelessWorker]"
-		},
-		{
-			"id": "Veil of Confidence",
-			"name": "Покров Уверенности",
-			"description": "<p class=\"Нарратив\">Вы окружаете себя покровом уверенности.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">1</span></span><span class=\"Комп\">слов.</span></div>\n<div><span class=\"Прод\">Продолж.</span>: <span class=\"До\">1 минута</span></div>\n</details>\n<hr />\n<p>&diams; Вы снижаете свое текущее состояние @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган} на 1</p>\n<p>&diams; Всякий раз, когда вы станете напуганным во время <span class=\"Прод\">продолжительности</span> заклинания, то снижаете величину на 1.</p>\n<p>&diams; Но если вы <span class=\"Критпровал\">крит.проваливаете</span> <span class=\"КБ\">Спас.</span> против <span class=\"Признак\">страх</span></span>, то <span style=\"text-decoration: underline; color: #34495e;\">покров уверенности</span> мгновенно заканчивается, и вместо снижения его величины, вы увеличиваете любое полученное от <span class=\"Критпровал\">Крит.Провал</span> состояние <span style=\"text-decoration: underline; color: #a52a2a;\">испуга</span> на 1.</p>"
-		},
-		{
-			"id": "Veil of Confidence (At Will)",
-			"name": "Покров Уверенности (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.VeilofConfidence]"
-		},
-		{
-			"id": "Veil of Confidence (Constant)",
-			"name": "Покров Уверенности (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.VeilofConfidence]"
-		},
-		{
-			"id": "Delusional Pride",
-			"name": "Обманчивая Самоуверенность",
-			"description": "<p class=\"Нарратив\">Вы делаете цель слишком самоуверенной, заставляя ее списывать неудачи на внешние факторы.</p>\n<hr />\n<details>\n<summary>Подробности <span class=\"Сотв\">Сотворения</span></summary>\n<div><span class=\"Сотв\">@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение}</span>: <span class=\"Действие\"><span class=\"pf2-icon\">2</span></span><span class=\"Комп\">жест.</span>, <span class=\"Комп\">слов.</span></div>\n<div><span class=\"Дист\">Дистанция</span>: 30ФТ</div>\n<div><span class=\"Дист\">Цель</span>: 1 Существо</div>\n</details>\n<hr />\n<p>Если цель <span class=\"Провал\">проваливает</span> <span class=\"Атак\">бросок атаки</span> или <span class=\"Атак\">проверку навыка</span>, то она получает штраф <span class=\"Состояния\">Состояния</span> -1 к <span class=\"Атак\">броскам атак</span> и проверкам навыков <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span> (или <span style=\"color: #000080;\"><em><span style=\"text-decoration: underline;\">до конца ее следующего хода</span></em></span>, если это был бросок вне ее хода).</p>\n<p>Если существо <span class=\"Провал\">проваливает</span> второй раз имея этот штраф, то штраф увеличивается до -2.</p>\n<hr />\n<p><span class=\"Прод\">Продолжительность</span> зависит от <span class=\"КБ\">Спас.<span class=\"Воля\">Воля</span></span> цели. После совершения <span class=\"КБ\">Спас.</span>, существо становится <span class=\"НЕ\">временно</span> <span class=\"Иммун2\">иммунным</span> <span class=\"До\">на 24 часа</span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель невредима</p>\n<p><span class=\"Успех\">Успех</span>: <span class=\"Прод\">Продол.</span>: 1 раунд</p>\n<p><span class=\"Провал\">Провал</span>: <span class=\"Прод\">Продол.</span>: 10 минут</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: <span class=\"Прод\">Продол.</span>: 24 часа</p>"
-		},
-		{
-			"id": "Delusional Pride (At Will)",
-			"name": "Обманчивая Самоуверенность (По Желанию)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DelusionalPride]"
-		},
-		{
-			"id": "Delusional Pride (Constant)",
-			"name": "Обманчивая Самоуверенность (Постоянное)",
-			"description": "@Localize[PF2E.Spell.FocusCleric.DelusionalPride]"
 		},
 		{
 			"id": "Sudden Shift",
