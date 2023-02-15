@@ -1344,7 +1344,7 @@
 		{
 			"id": "Inspired Feast",
 			"name": "Сытая Сила",
-			"description": "<p class=\"Нарратив\">Если кроколюд питается человеческим трупом в течение 1 минуты или более, он получает бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атака\">броскам атаки</span> и +2 к <span class=\"Урон\">броскам урона</span> в течение 1 часа.</p>\n<p><span style=\"color: #e67e23;\"><strong>Эффект:</strong></span> @Compendium[pf2e.bestiary-effects.EM0VP31B8CyjFD15]{Effect: Inspired Feast}</p>"
+			"description": "<p class=\"Нарратив\">Если кроколюд питается человеческим трупом в течение 1 минуты или более, он получает бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">броскам атаки</span> и +2 к <span class=\"Урон\">броскам урона</span> в течение 1 часа.</p>\n<p><span style=\"color: #e67e23;\"><strong>Эффект:</strong></span> @Compendium[pf2e.bestiary-effects.EM0VP31B8CyjFD15]{Effect: Inspired Feast}</p>"
 		},
 		{
 			"id": "Twisting Tail",
@@ -1409,7 +1409,7 @@
 		{
 			"id": "Scoff at the Divine",
 			"name": "Надсмехаться над Божественным",
-			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо в пределах 30ФТ накладывает <span style=\"text-decoration: underline; color: #34495e;\">сакральное заклинание</span> или использует <span class=\"Признак\">Сакральный</span> эффект.</p>\n<p><span class=\"Треб\">Требования</span>: У <span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> есть неизрасходованная ячейка заклинаний, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> расходует ячейку заклинания, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}. И пытается @Compendium[pf2e-ts-rub.spiski.lYdYqTKsve5Wi75r]{Противодействовать} <span style=\"color: #e03e2d;\"><strong>триггернувшему</strong></span> заклинанию или эффекту.</p>\n<div data-visibility=\"gm\">\n<p>Раджа-ракшас не может Надсмехаться над Божественным в течение [[/br 1d4]] раундов.</p>\n</div>"
+			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо в пределах 30ФТ накладывает <span style=\"text-decoration: underline; color: #34495e;\">сакральное заклинание</span> или использует <span class=\"Признак\">Сакральный</span> эффект.</p>\n<p><span class=\"Треб\">Требования</span>: У <span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> есть неизрасходованная ячейка заклинаний, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> расходует ячейку заклинания, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}. И пытается @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействовать} <span style=\"color: #e03e2d;\"><strong>триггернувшему</strong></span> заклинанию или эффекту.</p>\n<div data-visibility=\"gm\">\n<p>Раджа-ракшас не может Надсмехаться над Божественным в течение [[/br 1d4]] раундов.</p>\n</div>"
 		},
 		{
 			"id": "Archon's Door",
@@ -1465,7 +1465,7 @@
 		{
 			"id": "Swarming Stance",
 			"name": "Стойка Роя",
-			"description": "<p class=\"Нарратив\"><span class=\"Признак\">Морлоки</span> могут делить то же пространство, что и другой <span class=\"Признак\">Морлок</span>, но не более двух <span style=\"text-decoration: underline; color: #a52a2a;\">морлоков</span> могут занимать одно и то же пространство.</p>\n<p>Когда <span class=\"Признак\">Морлоки</span> делят одно и то же пространство, они получают бонус <span class=\"Обстоятельства\">Обстоятельства</span> +1 к <span class=\"Атака\">броскам атак</span>.</p>"
+			"description": "<p class=\"Нарратив\"><span class=\"Признак\">Морлоки</span> могут делить то же пространство, что и другой <span class=\"Признак\">Морлок</span>, но не более двух <span style=\"text-decoration: underline; color: #a52a2a;\">морлоков</span> могут занимать одно и то же пространство.</p>\n<p>Когда <span class=\"Признак\">Морлоки</span> делят одно и то же пространство, они получают бонус <span class=\"Обстоятельства\">Обстоятельства</span> +1 к <span class=\"Атак\">броскам атак</span>.</p>"
 		}
 	]
 }

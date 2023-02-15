@@ -71,7 +71,7 @@
 				},
 				"qqbbtn1cc3yyrpdv": {
 					"name": "Медлительный",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
 				},
 				"35ytvmm1cwqr4dbu": {
 					"name": "Внезапная Активность",
@@ -99,7 +99,7 @@
 				},
 				"UHjOHKWLHa1xT8ID": {
 					"name": "Медлительный",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
 				},
 				"b4ti2yqe9ipiuxz2": {
 					"name": "Внезапная Активность",
@@ -156,7 +156,7 @@
 				},
 				"2ujjbxpmiiodb9o5": {
 					"name": "Медлительный",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
 				},
 				"D2cPnadhWWwabreZ": {
 					"name": "Сильно Сжимать",
@@ -192,7 +192,7 @@
 				},
 				"zmsoavgcearhti47": {
 					"name": "Медлительный",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
 				},
 				"56vkqrstijfjdh6c": {
 					"name": "Удар о Землю",
@@ -200,7 +200,7 @@
 				},
 				"tabg0vo3elkeri2r": {
 					"name": "Ужасающий Визг",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби-совомедведь</span> издает надрывистый, рычащий крик, который пугает тех, кто его слышит.</p>\n<hr />\n<p>Каждое существо в @Template[type:emanation|distance:60] должно совершить <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:19|showDC:owner|traits:auditory,emotion,fear,mental]</strong></span>.</p>\n<blockquote>\n<p>Вне зависимости от результата, существо временно <span class=\"Иммун2\">иммунно</span> 1 минуту.</blockquote>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо.</p>\n<p><span class=\"Успех\">Успех</span>: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p>\n<p><span class=\"Провал\">Провал</span>: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо впадает в @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство}<span class=\"До\">на 1 раунд</span> и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби-совомедведь</span> издает надрывистый, рычащий крик, который пугает тех, кто его слышит.</p>\n<hr />\n<p>Каждое существо в @Template[type:emanation|distance:60] должно совершить <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:19|showDC:owner|traits:auditory,emotion,fear,mental]</strong></span>.</p>\n<blockquote>\n<p>Вне зависимости от результата, существо временно <span class=\"Иммун2\">иммунно</span> 1 минуту.</blockquote>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Существо невредимо.</p>\n<p><span class=\"Успех\">Успех</span>: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p>\n<p><span class=\"Провал\">Провал</span>: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Существо впадает в @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство}<span class=\"До\">на 1 Раунд</span> и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>"
 				}
 			}
 		},
@@ -221,7 +221,7 @@
 				},
 				"gwzami23yywnrl99": {
 					"name": "Медлительный",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
 				}
 			}
 		},
@@ -249,7 +249,7 @@
 				},
 				"3whr45ahot8zh9nf": {
 					"name": "Брюшной Тайник",
-					"description": "<p class=\"Нарратив\">Брюшко <span style=\"text-decoration: underline; color: #34495e;\">панциря жука</span> может быть оснащено простым шарниром, позволяющим открывать его и использовать в качестве хранилища.</p>\n<hr />\n<p>В брюхо может поместиться 1 существо <span class=\"Размер\">среднего</span> или меньшего размера, <span class=\"Признак2\"><span class=\"Признак1\">рой</span></span> <span class=\"Признак2\"><span class=\"Признак-1\">большого</span></span> или меньшего размера, либо аналогичное количество груза. Жук или хранящееся в нем существо может @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F], чтобы открыть люк.</p>\n<p>Если <span style=\"text-decoration: underline; color: #34495e;\">панцирь жука</span> получает <span style=\"color: #2dc26b;\"><strong>крит.попадание</strong></span> <span style=\"text-decoration: underline; color: #a52a2a;\">дробящим</span> оружием, киньте @Check[type:flat|dc:10|showDC:all]. При <span class=\"Провал\">Провал</span>, тайник пробит и его содержимое высыпается из жука. Еще люк можно @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Открыть Силой}<span data-visibility=\"gm\">КС22</span>.</p>"
+					"description": "<p class=\"Нарратив\">Брюшко <span style=\"text-decoration: underline; color: #34495e;\">панциря жука</span> может быть оснащено простым шарниром, позволяющим открывать его и использовать в качестве хранилища.</p>\n<hr />\n<p>В брюхо может поместиться 1 существо <span class=\"Размер\">среднего</span> или меньшего размера, <span class=\"Признак2\"><span class=\"Признак1\">рой</span></span> <span class=\"Размер\">Большого</span> или меньшего размера, либо аналогичное количество груза. Жук или хранящееся в нем существо может @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F], чтобы открыть люк.</p>\n<p>Если <span style=\"text-decoration: underline; color: #34495e;\">панцирь жука</span> получает <span style=\"color: #2dc26b;\"><strong>крит.попадание</strong></span> <span style=\"text-decoration: underline; color: #a52a2a;\">дробящим</span> оружием, киньте @Check[type:flat|dc:10|showDC:all]. При <span class=\"Провал\">Провал</span>, тайник пробит и его содержимое высыпается из жука. Еще люк можно @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Открыть Силой}<span data-visibility=\"gm\">КС22</span>.</p>"
 				}
 			}
 		},

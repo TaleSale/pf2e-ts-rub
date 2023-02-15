@@ -1657,62 +1657,62 @@
         "BombNotes": {
             "DreadAmpoule": {
                 "Greater": {
-                    "CS": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; [[/r {3}[mental]]]{3} <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> Ментал.</span><br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}"
+                    "CS": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r {3}[mental]]]{3} <span class=\"Урон\"><span class=\"Признак\">Брызги</span> Ментал.</span><br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}"
                 },
                 "Lesser": {
-                    "CS": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; [[/r {1}[mental]]]{1} <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> Ментал.</span><br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}"
+                    "CS": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r {1}[mental]]]{1} <span class=\"Урон\"><span class=\"Признак\">Брызги</span> Ментал.</span><br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}"
                 },
                 "Major": {
-                    "CS": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; [[/r {4}[mental]]]{4} <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> Ментал.</span><br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}"
+                    "CS": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r {4}[mental]]]{4} <span class=\"Урон\"><span class=\"Признак\">Брызги</span> Ментал.</span><br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}"
                 },
                 "Moderate": {
-                    "CS": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; [[/r {2}[mental]]]{2} <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> Ментал.</span><br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}"
+                    "CS": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r {2}[mental]]]{2} <span class=\"Урон\"><span class=\"Признак\">Брызги</span> Ментал.</span><br />&diams; <span class=\"Дист\">Цель</span> @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}"
                 }
             },
             "Thunderstone": {
                 "Lesser": {
-                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; Каждое существо в 10 ФТ от места взрыва должно пройти <span class=\"СТК\">Спас.@Check[type:fortitude|showDC:all|dc:17]{СТК}</span>, иначе получит @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухоту} <span class=\"До\">до конца своего след.хода</span>."
+                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; Каждое существо в 10 ФТ от места взрыва должно пройти <span class=\"СТК\">Спас.@Check[type:fortitude|showDC:all|dc:17]{СТК}</span>, иначе получит @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухоту} <span class=\"До\">до конца своего след.хода</span>."
                 },
                 "Moderate": {
-                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; Каждое существо в 10 ФТ от места взрыва должно пройти <span class=\"СТК\">Спас.@Check[type:fortitude|showDC:all|dc:20]{СТК}</span>, иначе получит @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухоту} <span class=\"До\">до конца своего след.хода</span>."
+                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; Каждое существо в 10 ФТ от места взрыва должно пройти <span class=\"СТК\">Спас.@Check[type:fortitude|showDC:all|dc:20]{СТК}</span>, иначе получит @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухоту} <span class=\"До\">до конца своего след.хода</span>."
                 },
                 "Greater": {
-                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; Каждое существо в 10 ФТ от места взрыва должно пройти <span class=\"СТК\">Спас.@Check[type:fortitude|showDC:all|dc:28]{СТК}</span>, иначе получит @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухоту} <span class=\"До\">до конца своего след.хода</span>."
+                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; Каждое существо в 10 ФТ от места взрыва должно пройти <span class=\"СТК\">Спас.@Check[type:fortitude|showDC:all|dc:28]{СТК}</span>, иначе получит @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухоту} <span class=\"До\">до конца своего след.хода</span>."
                 },
                 "Major": {
-                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; Каждое существо в 10 ФТ от места взрыва должно пройти <span class=\"СТК\">Спас.@Check[type:fortitude|showDC:all|dc:36]{СТК}</span>, иначе получит @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухоту} <span class=\"До\">до конца своего след.хода</span>."
+                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; Каждое существо в 10 ФТ от места взрыва должно пройти <span class=\"СТК\">Спас.@Check[type:fortitude|showDC:all|dc:36]{СТК}</span>, иначе получит @Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухоту} <span class=\"До\">до конца своего след.хода</span>."
                 }
             },
             "AlignmentAmpoule": {
                 "Lesser": {
-                    "A": "<span class=\"Список\">Особенность</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n<span class=\"Повтор\">Ампула мировоззрения</span> <span class=\"НЕ\">не действует</span> против существ, у которых <span class=\"НЕ\">нет</span> <span class=\"Слаб\">слабости</span> к типам <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span>, связанным с <span class=\"Повтор\">ампулой</span>",
-                    "S": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; [[/r {1}[splash]]]{1} <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span></span>" 
+                    "A": "<span class=\"Список\">Особенность</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n<span class=\"Повтор\">Ампула мировоззрения</span> <span class=\"НЕ\">не действует</span> против существ, у которых <span class=\"НЕ\">нет</span> <span class=\"Слаб\">слабости</span> к типам <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span>, связанным с <span class=\"Повтор\">ампулой</span>",
+                    "S": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r {1}[splash]]]{1} <span class=\"Урон\"><span class=\"Признак\">Брызги</span> <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span></span>" 
                 },
                 "Moderate": {
-                    "A": "<span class=\"Список\">Особенность</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n<span class=\"Повтор\">Ампула мировоззрения</span> <span class=\"НЕ\">не действует</span> против существ, у которых <span class=\"НЕ\">нет</span> <span class=\"Слаб\">слабости</span> к типам <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span>, связанным с <span class=\"Повтор\">ампулой</span>",
-                    "S": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; [[/r {2}[splash]]]{2} <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span></span>" 
+                    "A": "<span class=\"Список\">Особенность</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n<span class=\"Повтор\">Ампула мировоззрения</span> <span class=\"НЕ\">не действует</span> против существ, у которых <span class=\"НЕ\">нет</span> <span class=\"Слаб\">слабости</span> к типам <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span>, связанным с <span class=\"Повтор\">ампулой</span>",
+                    "S": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r {2}[splash]]]{2} <span class=\"Урон\"><span class=\"Признак\">Брызги</span> <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span></span>" 
                 },
                 "Greater": {
-                    "A": "<span class=\"Список\">Особенность</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n<span class=\"Повтор\">Ампула мировоззрения</span> <span class=\"НЕ\">не действует</span> против существ, у которых <span class=\"НЕ\">нет</span> <span class=\"Слаб\">слабости</span> к типам <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span>, связанным с <span class=\"Повтор\">ампулой</span>",
-                    "S": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; [[/r {3}[splash]]]{3} <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span></span>" 
+                    "A": "<span class=\"Список\">Особенность</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n<span class=\"Повтор\">Ампула мировоззрения</span> <span class=\"НЕ\">не действует</span> против существ, у которых <span class=\"НЕ\">нет</span> <span class=\"Слаб\">слабости</span> к типам <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span>, связанным с <span class=\"Повтор\">ампулой</span>",
+                    "S": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r {3}[splash]]]{3} <span class=\"Урон\"><span class=\"Признак\">Брызги</span> <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span></span>" 
                 },
                 "Major": {
-                    "A": "<span class=\"Список\">Особенность</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n<span class=\"Повтор\">Ампула мировоззрения</span> <span class=\"НЕ\">не действует</span> против существ, у которых <span class=\"НЕ\">нет</span> <span class=\"Слаб\">слабости</span> к типам <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span>, связанным с <span class=\"Повтор\">ампулой</span>",
-                    "S": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\n&diams; [[/r {4}[splash]]]{4} <span class=\"Урон\"><span class=\"Признак2\"><span class=\"Признак1\">Брызги</span></span> <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span></span>" 
+                    "A": "<span class=\"Список\">Особенность</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n<span class=\"Повтор\">Ампула мировоззрения</span> <span class=\"НЕ\">не действует</span> против существ, у которых <span class=\"НЕ\">нет</span> <span class=\"Слаб\">слабости</span> к типам <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span>, связанным с <span class=\"Повтор\">ампулой</span>",
+                    "S": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r {4}[splash]]]{4} <span class=\"Урон\"><span class=\"Признак\">Брызги</span> <span class=\"Признак2\"><span class=\"Признак0\">мировоззрения</span></span></span>" 
                 }
             },
             "WaterBomb": {
                 "Lesser": {
-                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nПри <span class=\"Успех\">попадании</span> в оставленный без присмотра <span class=\"НЕ\">не</span> - <span class=\"Признак2\"><span class=\"Признак1\">магический</span></span> огонь <span class=\"Признак2\"><span class=\"Признак1\">бомба</span></span> гасит огонь или тушит одну клетку огня для большего пожара."
+                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\nПри <span class=\"Успех\">попадании</span> в оставленный без присмотра <span class=\"НЕ\">не</span> - <span class=\"Признак2\"><span class=\"Признак1\">магический</span></span> огонь <span class=\"Признак\">Бомба</span> гасит огонь или тушит одну клетку огня для большего пожара."
                 },
                 "Moderate": {
-                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nПри <span class=\"Успех\">попадании</span> в оставленный без присмотра <span class=\"НЕ\">не</span> - <span class=\"Признак2\"><span class=\"Признак1\">магический</span></span> огонь <span class=\"Признак2\"><span class=\"Признак1\">бомба</span></span> гасит огонь или тушит одну клетку огня для большего пожара."
+                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\nПри <span class=\"Успех\">попадании</span> в оставленный без присмотра <span class=\"НЕ\">не</span> - <span class=\"Признак2\"><span class=\"Признак1\">магический</span></span> огонь <span class=\"Признак\">Бомба</span> гасит огонь или тушит одну клетку огня для большего пожара."
                 },
                 "Greater": {
-                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nЗа исключением случаев <span class=\"Критпровал\">Крит.Провал</span>, бомба гасит <span class=\"НЕ\">не</span> - <span class=\"Признак2\"><span class=\"Признак1\">магические</span></span> пожары в пределах области <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span>"
+                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\nЗа исключением случаев <span class=\"Критпровал\">Крит.Провал</span>, бомба гасит <span class=\"НЕ\">не</span> - <span class=\"Признак2\"><span class=\"Признак1\">магические</span></span> пожары в пределах области <span class=\"Признак\">Брызг</span>"
                 },
                 "Major": {
-                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак2\"><span class=\"Признак1\">Бомбы</span></span>:\n<br />\nЗа исключением случаев <span class=\"Критпровал\">Крит.Провал</span>, бомба гасит <span class=\"НЕ\">не</span> - <span class=\"Признак2\"><span class=\"Признак1\">магические</span></span> пожары в пределах области <span class=\"Признак2\"><span class=\"Признак1\">брызг</span></span>"
+                    "A": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\nЗа исключением случаев <span class=\"Критпровал\">Крит.Провал</span>, бомба гасит <span class=\"НЕ\">не</span> - <span class=\"Признак2\"><span class=\"Признак1\">магические</span></span> пожары в пределах области <span class=\"Признак\">Брызг</span>"
                 }
             }
         }

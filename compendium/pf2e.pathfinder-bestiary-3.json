@@ -47,7 +47,7 @@
 				},
 				"4cx1d9efogHuWe26": {
 					"name": "Крушить",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Абрикандил</span> наносит 2 @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> по ничейному объекту или удерживаемому зеркалу. Удерживаемое зеркало использует <span class=\"КБ\">КБ</span> держащего его персонажа.</p>\n<p>Если оба @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span style=\"color: #169179;\"><strong>попадают</strong></span>, объедините их <span class=\"Урон\">урон</span> с целью преодоления <span style=\"color: #236fa1;\"><strong>Твердости </strong></span>или <span class=\"Сопр\">Сопротивление</span>.</p>\n<hr />\n<p>Эти @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} не считаются к <span style=\"color: #000080;\"><strong>Штрафу Множест.Атаки</strong></span> <span style=\"text-decoration: underline; color: #34495e;\">Абрикандила</span>, и он не применяется к этим @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударам}.</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Абрикандил</span> наносит 2 @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> по ничейному объекту или удерживаемому зеркалу. Удерживаемое зеркало использует <span class=\"КБ\">КБ</span> держащего его персонажа.</p>\n<p>Если оба @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span style=\"color: #169179;\"><strong>попадают</strong></span>, объедините их <span class=\"Урон\">урон</span> с целью преодоления <span style=\"color: #236fa1;\"><strong>Твердости </strong></span>или <span class=\"Сопр\">Сопротивление</span>.</p>\n<hr />\n<p>Эти @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} не считаются к <span style=\"color: #000080;\"><strong>Штрафу Множест.Атаки</strong></span> <span style=\"text-decoration: underline; color: #34495e;\">Абрикандила</span>, и он <span class=\"НЕ\">не применяется</span> к этим @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударам}.</p>"
 				},
 				"983mBG3qwmzQKGS2": {
 					"name": "Отвращение к Зеркалам",
@@ -431,7 +431,7 @@
 				},
 				"cyqkRqwp35f8CtAJ": {
 					"name": "Шепоты Раздора",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Деймавигга</span> шепчет тревожную ложь, слышную только цели, чтобы поколебать ее веру в колдующего это заклинание.</p>\n<hr />\n<div><span class=\"Триг\">Триггер</span>: Существо в пределах 60ФТ является целью заклинания, которое восстановит <span class=\"ОЗ\">ОЗ</span> или даст бонус <span class=\"Состояния\">Состояния</span> (деймавигга автоматически узнает такие эффекты)</div>\n<hr />\n<p>Цель должна совершить <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:43|showDC:owner]</strong></span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель не верит в ложь и получает от заклинания ожидаемые преимущества; цель становится временно иммунной к <span style=\"text-decoration: underline; color: #34495e;\">Шепотам Раздора</span> на 24 часа.</p>\n<p><span class=\"Успех\">Успех</span>: Как <span class=\"Критуспех\">Крит.Успех</span>, но цель не получает временный иммунитет.</p>\n<p><span class=\"Провал\">Провал</span>: Заклинанию не удается воздействовать на цель. Цель отрицает всю помощь от этого заклинателя<span class=\"До\">на 1 раунд</span> и <span class=\"НЕ\">не</span> считается союзником этого заклинателя.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, но продолжительность 1 минута.</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Деймавигга</span> шепчет тревожную ложь, слышную только цели, чтобы поколебать ее веру в колдующего это заклинание.</p>\n<hr />\n<div><span class=\"Триг\">Триггер</span>: Существо в пределах 60ФТ является целью заклинания, которое восстановит <span class=\"ОЗ\">ОЗ</span> или даст бонус <span class=\"Состояния\">Состояния</span> (деймавигга автоматически узнает такие эффекты)</div>\n<hr />\n<p>Цель должна совершить <span style=\"color: #843fa1;\"><strong>Спас.@Check[type:will|dc:43|showDC:owner]</strong></span>.</p>\n<hr />\n<p><span class=\"Критуспех\">Крит.Успех</span>: Цель не верит в ложь и получает от заклинания ожидаемые преимущества; цель становится временно иммунной к <span style=\"text-decoration: underline; color: #34495e;\">Шепотам Раздора</span> на 24 часа.</p>\n<p><span class=\"Успех\">Успех</span>: Как <span class=\"Критуспех\">Крит.Успех</span>, но цель не получает временный иммунитет.</p>\n<p><span class=\"Провал\">Провал</span>: Заклинанию не удается воздействовать на цель. Цель отрицает всю помощь от этого заклинателя<span class=\"До\">на 1 Раунд</span> и <span class=\"НЕ\">не</span> считается союзником этого заклинателя.</p>\n<p><span class=\"Критпровал\">Крит.Провал</span>: Как <span class=\"Провал\">Провал</span>, но продолжительность 1 минута.</p>"
 				},
 				"vjjTR5hrPf5pDmGk": {
 					"name": "Изменение Формы",
@@ -514,7 +514,7 @@
 				},
 				"Lb8baU3vfeAtn1Nw": {
 					"name": "Съежиться",
-					"description": "<p class=\"Нарратив\">Дретч становится маленьким на сколько возможно, защищая конечностями свои жизненно важные органы.</p>\n<hr />\n<p>Он получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +4 к КБ, но штраф -2 к <span class=\"Атака\">броскам атак</span>. Это длится пока <span style=\"text-decoration: underline; color: #34495e;\">дретч</span> не сдвинется со своего текущего пространства, @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Потеряет Сознание} или закончит эффект <span class=\"Действие\"><span class=\"pf2-icon\">4</span>свободным действием</span>.</p>"
+					"description": "<p class=\"Нарратив\">Дретч становится маленьким на сколько возможно, защищая конечностями свои жизненно важные органы.</p>\n<hr />\n<p>Он получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +4 к КБ, но штраф -2 к <span class=\"Атак\">броскам атак</span>. Это длится пока <span style=\"text-decoration: underline; color: #34495e;\">дретч</span> не сдвинется со своего текущего пространства, @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Потеряет Сознание} или закончит эффект <span class=\"Действие\"><span class=\"pf2-icon\">4</span>свободным действием</span>.</p>"
 				},
 				"h8caQJMnKj4F22zZ": {
 					"name": "Бешеные Удары",
@@ -1155,7 +1155,7 @@
 				},
 				"88a6l4wOhZKuqey0": {
 					"name": "Воздушный Командир Диса",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Мунагола</span> руководит воздушными маневрами, давая себе и <span style=\"text-decoration: underline; color: #a52a2a;\">злым</span> союзникам со <span style=\"text-decoration: underline; color: #169179;\">Скоростью полета</span> бонус <span class=\"Состояния\">Состояния</span> +20ФТ к их <span style=\"Скор\">Скоростям</span> полета <span class=\"До\">на 1 раунд</span>.</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Мунагола</span> руководит воздушными маневрами, давая себе и <span style=\"text-decoration: underline; color: #a52a2a;\">злым</span> союзникам со <span style=\"text-decoration: underline; color: #169179;\">Скоростью полета</span> бонус <span class=\"Состояния\">Состояния</span> +20ФТ к их <span style=\"Скор\">Скоростям</span> полета <span class=\"До\">на 1 Раунд</span>.</p>"
 				},
 				"6XahuYsNr6LHrkAs": {
 					"name": "Внезапное Пикирование",
@@ -1478,7 +1478,7 @@
 			"items": {
 				"yQzN4wExqO58Ssdr": {
 					"name": "Медлительный",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
 				},
 				"YNpN5FwvZ27Zfviz": {
 					"name": "Волочащийся Натиск",
@@ -1642,7 +1642,7 @@
 				},
 				"iFKv7PFNKtSVy9XA": {
 					"name": "Медлительный",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
 				},
 				"td3gay0LzawYp5Ff": {
 					"name": "Предсмертная Агония",
@@ -1650,7 +1650,7 @@
 				},
 				"0eyOInV05vjoOU3X": {
 					"name": "Слепящая Сера",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Серный Зомби</span> горит гнилостным внутренним огнем.</p>\n<hr />\n<p>Существо, получившее @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR] <span style=\"text-decoration: underline; color: #34495e;\">Кулаком</span> <span style=\"text-decoration: underline; color: #34495e;\">Серного Зомби</span>, должно совершить <span class=\"СТК\">Спас.@Check[type:fortitude|dc:22|showDC:owner|traits:incapacitation]{СТК}</span>. При <span class=\"Провал\">Провал</span>существо @Compendium[pf2e.spells-srd.VosLNn2M8S7JH67D]{Слепнет}<span class=\"До\">на 1 раунд</span> (на 1 минуту при <span class=\"Критпровал\">Крит.Провал</span>).</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Серный Зомби</span> горит гнилостным внутренним огнем.</p>\n<hr />\n<p>Существо, получившее @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR] <span style=\"text-decoration: underline; color: #34495e;\">Кулаком</span> <span style=\"text-decoration: underline; color: #34495e;\">Серного Зомби</span>, должно совершить <span class=\"СТК\">Спас.@Check[type:fortitude|dc:22|showDC:owner|traits:incapacitation]{СТК}</span>. При <span class=\"Провал\">Провал</span>существо @Compendium[pf2e.spells-srd.VosLNn2M8S7JH67D]{Слепнет}<span class=\"До\">на 1 Раунд</span> (на 1 минуту при <span class=\"Критпровал\">Крит.Провал</span>).</p>"
 				}
 			}
 		},
@@ -1818,7 +1818,7 @@
 			"items": {
 				"MoM2zK3F63zlLyW3": {
 					"name": "Брязганье Ядом",
-					"description": "<p class=\"Нарратив\">Гадюки в оборонительной манере брызгают ядом из своих клыков.</p>\n<p>Каждое существо в @Template[type:cone|distance:10] подвергается <span class=\"Повтор\">Яду Роя Гадюк</span>, но получают бонус <span class=\"Обстоятельства\">Обстоятельства</span> +2 к своим начальным <span class=\"СТК\">Спасброскам</span> против <span class=\"Признак2\"><span class=\"Признак1\">яда</span></span>.</p>"
+					"description": "<p class=\"Нарратив\">Гадюки в оборонительной манере брызгают ядом из своих клыков.</p>\n<p>Каждое существо в @Template[type:cone|distance:10] подвергается <span class=\"Повтор\">Яду Роя Гадюк</span>, но получают бонус <span class=\"Обстоятельства\">Обстоятельства</span> +2 к своим начальным <span class=\"СТК\">Спасброскам</span> против <span class=\"Признак\">Яда</span>.</p>"
 				},
 				"h8rEFtxwQFlx0MIz": {
 					"name": "Ядовитые Клыки",
@@ -1985,7 +1985,7 @@
 				},
 				"DY5764x6bU3jfnwu": {
 					"name": "Медлительный",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не</span> может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
 				},
 				"EAC12Ob2QRDH7V3R": {
 					"name": "Атака Дыханием",
