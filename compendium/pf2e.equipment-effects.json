@@ -498,7 +498,7 @@
 		{
 			"id": "Эффект: Вспышка / Effect: Blaze",
 			"name": "Эффект: Вспышка / Effect: Blaze",
-			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.q5Hr2nZr8RQ9DSZM]{Вспышка}</p>\n<hr>\n<p><span class=\"Успех\">Стадия 1</span>: <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.VlfuBfWkygsG8u5h]{Бонус} <span class=\"Предмета\">Предмета</span> +1 к <span class=\"КБ\">Спас.</span> против эффектов с признаком <span class=\"Признак2\"><span class=\"Признак1\">огонь</span></span>, и вы относитесь к эффектам <span class=\"Мест\">серьезного</span> и <span class=\"Мест\">экстремального тепла</span> окружающей среды, как если бы они были на ступень ниже. (<span class=\"До\">1 час</span>)</p>"
+			"description": "<p class=\"Нарратив\">Под действием @Compendium[pf2e.equipment-srd.q5Hr2nZr8RQ9DSZM]{Вспышка}</p>\n<hr>\n<p><span class=\"Успех\">Стадия 1</span>: <span class=\"Эффект\">= </span>@Compendium[pf2e.equipment-effects.VlfuBfWkygsG8u5h]{Бонус} <span class=\"Предмета\">Предмета</span> +1 к <span class=\"КБ\">Спас.</span> против эффектов с признаком <span class=\"Признак\">Огонь</span>, и вы относитесь к эффектам <span class=\"Мест\">серьезного</span> и <span class=\"Мест\">экстремального тепла</span> окружающей среды, как если бы они были на ступень ниже. (<span class=\"До\">1 час</span>)</p>"
 		},
 		{
 			"id_": "Инструменты"

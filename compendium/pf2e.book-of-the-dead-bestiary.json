@@ -43,7 +43,7 @@
 					},
 					"0VnHFn3wn3nNZ2Tp": {
 						"name": "Поглотить Целиком",
-						"description": "<div><span style=\"color: #169179;\"><strong>Размер: </strong></span><span class=\"Признак2\"><span class=\"Признак-1\">большой</span></div>\n<div><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {3d6+8}[bludgeoning]]]{3d6+8 Дробящий}</div>\n<div data-visibility=\"gm\"><span style=\"color: #e03e2d;\"><strong>Разрыв:</strong></span> 24</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+						"description": "<div><span style=\"color: #169179;\"><strong>Размер: </strong></span><span class=\"Размер\">Большой</span></div>\n<div><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {3d6+8}[bludgeoning]]]{3d6+8 Дробящий}</div>\n<div data-visibility=\"gm\"><span style=\"color: #e03e2d;\"><strong>Разрыв:</strong></span> 24</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
 					},
 					"o5vtcl40ekp9qv6n": {
 						"name": "Голодная Аура",
@@ -164,7 +164,7 @@
 				},
 				"YgBTeOvZE7Aq4UvH": {
 					"name": "Волочащееся Затаптывание",
-					"description": "<div><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Признак2\"><span class=\"Признак-1\">большой</span></div>\n<div><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {2d10+13}[bludgeoning]]]{Нога}</div>\n<div><span class=\"РФЛ\">Спас.: @Check[type:reflex|dc:30|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></div>\n<p>Но <span style=\"text-decoration: underline; color: #34495e;\">Зомби-Мамонт</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} вплоть до своей <span class=\"Скор\">Скорости</span>, а не двойной <span class=\"Скор\">Скорости</span>.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+					"description": "<div><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Размер\">Большой</span></div>\n<div><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {2d10+13}[bludgeoning]]]{Нога}</div>\n<div><span class=\"РФЛ\">Спас.: @Check[type:reflex|dc:30|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></div>\n<p>Но <span style=\"text-decoration: underline; color: #34495e;\">Зомби-Мамонт</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} вплоть до своей <span class=\"Скор\">Скорости</span>, а не двойной <span class=\"Скор\">Скорости</span>.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
 				},
 				"thmdq28mehsfvjtu": {
 					"name": "Отсеченный Хобот",

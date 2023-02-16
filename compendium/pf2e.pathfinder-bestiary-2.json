@@ -986,7 +986,7 @@
 				},
 				"Envelop": {
 					"name": "Окружить",
-					"description": "<div><span class=\"Треб\">Требования</span>: <span class=\"Повтор\">Гиг.Амеба</span> начинает свой ход с @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченной} целью ее <span class=\"Признак2\"><span class=\"Признак-1\">размера</span></span> или меньше.</div>\n<hr>\n<p><span class=\"Повтор\">Гиг.Амеба</span> поддерживает @Compendium[pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{Захват} и выпускает ложноножки, чтобы окружить существо и втянуть его внутрь тела амебы. После этого это имеет такой же эффект, как если бы амеба использовала @Compendium[pf2e.bestiary-ability-glossary-srd.zU3Ovaet4xQ5Gmvy]{Поглотить}</p>\n<blockquote class=\"Уточнить\">\n<div><span class=\"Урон\">Урон: [[/r 1d6[acid]]]</span></div>\n<div><span class=\"РФЛ\">Спас.: @Check[type:reflex|dc:17|showDC:owner]{РФЛ}</span></div>\n<div data-visibility=\"gm\">\n<div><span class=\"СИЛ\">@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]: [[/r 17]]</span></div>\n<div><span class=\"Триг\">Разрыв.: [[/r 3]]</span></div>\n</div>\n</blockquote>"
+					"description": "<div><span class=\"Треб\">Требования</span>: <span class=\"Повтор\">Гиг.Амеба</span> начинает свой ход с @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченной} целью ее <span class=\"Размер\">размера</span> или меньше.</div>\n<hr>\n<p><span class=\"Повтор\">Гиг.Амеба</span> поддерживает @Compendium[pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{Захват} и выпускает ложноножки, чтобы окружить существо и втянуть его внутрь тела амебы. После этого это имеет такой же эффект, как если бы амеба использовала @Compendium[pf2e.bestiary-ability-glossary-srd.zU3Ovaet4xQ5Gmvy]{Поглотить}</p>\n<blockquote class=\"Уточнить\">\n<div><span class=\"Урон\">Урон: [[/r 1d6[acid]]]</span></div>\n<div><span class=\"РФЛ\">Спас.: @Check[type:reflex|dc:17|showDC:owner]{РФЛ}</span></div>\n<div data-visibility=\"gm\">\n<div><span class=\"СИЛ\">@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]: [[/r 17]]</span></div>\n<div><span class=\"Триг\">Разрыв.: [[/r 3]]</span></div>\n</div>\n</blockquote>"
 				}
 			}
 		},
@@ -1309,7 +1309,7 @@
 				},
 				"Trample": {
 					"name": "Растоптать",
-					"description": "<div><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Признак2\"><span class=\"Признак-1\">большой</span> или меньше,</div>\n<div><span class=\"Урон\">Урон</span>: [[/r {2d4+8}[bludgeoning]]]{Нога},</div>\n<div><span style=\"color: #808000;\"><strong>Спас: @Check[type:reflex|showDC:gm|dc:21|basic:true]</strong></span></div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+					"description": "<div><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Размер\">Большой</span> или меньше,</div>\n<div><span class=\"Урон\">Урон</span>: [[/r {2d4+8}[bludgeoning]]]{Нога},</div>\n<div><span style=\"color: #808000;\"><strong>Спас: @Check[type:reflex|showDC:gm|dc:21|basic:true]</strong></span></div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
 				}
 			}
 		},

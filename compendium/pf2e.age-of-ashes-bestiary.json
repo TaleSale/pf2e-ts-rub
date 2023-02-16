@@ -2410,7 +2410,7 @@
 			"items": {
 				"Swallow Whole": {
 					"name": "Поглотить Целиком",
-					"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак-1\">маленький</span>, [[/r {1d12+3}[bludgeoning]]]{1d12+3 Дробящий}</p>\n<div data-visibility=\"gm\">\n<p>Разрыв 10</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+					"description": "<p class=\"Нарратив\"><span class=\"Размер\">Маленький</span>, [[/r {1d12+3}[bludgeoning]]]{1d12+3 Дробящий}</p>\n<div data-visibility=\"gm\">\n<p>Разрыв 10</p>\n</div>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
 				},
 				"Tongue Pull": {
 					"name": "Тянуть Языком",

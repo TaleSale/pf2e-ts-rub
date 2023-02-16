@@ -239,11 +239,11 @@
 			"items": {
 				"Plant Form": {
 					"name": "Форма Растения",
-					"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, вы должны иметь <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span>, такого как <span class=\"Повтор\">леший</span>.</div>\n<hr>\n<p>Ваш <span class=\"Признак2\"><span class=\"Признак1\">фамильяр</span></span> - <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span> за <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> может менять свою форму, превращаясь в <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span> <span class=\"Признак2\"><span class=\"Признак-1\">крошечного</span></span> размера, по виду слегка похожее на естественный вид <span class=\"Признак2\"><span class=\"Признак1\">фамильяра</span></span>.</p>\n<p>В остальном, это как эффекты @Compendium[pf2e.spells-srd.dileJ0Yxqg76LMvu]{Форма Дерева}.</p>"
+					"description": "<div><span class=\"Пред\">Пред.Условия</span>: Чтобы выбрать эту <span class=\"Класс\">способность</span>, вы должны иметь <span class=\"Признак\">фамильяра</span> с признаком <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span>, такого как <span class=\"Повтор\">леший</span>.</div>\n<hr>\n<p>Ваш <span class=\"Признак\">фамильяр</span> - <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span> за <span class=\"Действие\"><span class=\"pf2-icon\">1</span>действие</span> может менять свою форму, превращаясь в <span class=\"Признак2\"><span class=\"Признак1\">растение</span></span> <span class=\"Размер\">Крошечного</span> размера, по виду слегка похожее на естественный вид <span class=\"Признак\">фамильяра</span>.</p>\n<p>В остальном, это как эффекты @Compendium[pf2e.spells-srd.dileJ0Yxqg76LMvu]{Форма Дерева}.</p>"
 				},
 				"Speech": {
 					"name": "Речь Фамильяра",
-					"description": "<p class=\"Нарратив\"><span class=\"Признак2\"><span class=\"Признак1\">Фамильяр</span></span> может говорить на языке, который вы знаете, и понимать его.</p>"
+					"description": "<p class=\"Нарратив\"><span class=\"Признак\">фамильяр</span> может говорить на языке, который вы знаете, и понимать его.</p>"
 				},
 				"Manual Dexterity": {
 					"name": "Ловкость Рук Фамильяра",
@@ -251,7 +251,7 @@
 				},
 				"Damage Avoidance: Reflex": {
 					"name": "Избегание Урона (Рефлекс)",
-					"description": "<p class=\"Нарратив\">При <span class=\"Успех\">успешном</span> броске <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> он <span class=\"НЕ\">не</span> получает <span class=\"Урон\">урона</span>; это <span class=\"НЕ\">не</span> предотвращает эффекты не являющиеся уроном.</p>"
+					"description": "<p class=\"Нарратив\">При <span class=\"Успех\">успешном</span> броске <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> он <span class=\"НЕ\">не получает</span> <span class=\"Урон\">урона</span>; это <span class=\"НЕ\">не</span> предотвращает эффекты не являющиеся уроном.</p>"
 				}
 			}
 		},

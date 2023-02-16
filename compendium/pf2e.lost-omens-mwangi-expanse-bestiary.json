@@ -46,7 +46,7 @@
 				},
 				"Swallow Whole": {
 					"name": "Проглотить Целиком",
-					"description": "<p class=\"Нарратив\"><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Признак2\"><span class=\"Признак-1\">средний</span></p>\n<p><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {2d12+4}[bludgeoning]]]{2d12+4 Дробящий}</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #a52a2a;\"><strong>Разрыв: </strong></span>22</p>\n</div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Размер\">Средний</span></p>\n<p><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {2d12+4}[bludgeoning]]]{2d12+4 Дробящий}</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #a52a2a;\"><strong>Разрыв: </strong></span>22</p>\n</div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
 				},
 				"Limited Vision": {
 					"name": "Ограниченное Зрение",
