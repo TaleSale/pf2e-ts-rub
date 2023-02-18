@@ -602,7 +602,7 @@
 			"items": {
 				"yeHohyJSYfiTwghO": {
 					"name": "Боевой Клич Орка",
-					"description": "<p class=\"Нарратив\">Издавая мощный рев, <span class=\"Повтор\">Военачальник</span>  дает себе и всем <span class=\"Союз\">союзным</span> <span class=\"Признак2\"><span class=\"Признак1\">оркам</span> </span>  в радиусе 60ФТ, <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Бонус} <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">броскам атак</span> и <span class=\"Урон\">урона</span>, <span class=\"До\">до начала след.хода</span><span class=\"Повтор\">Военачальника</span> .</p>"
+					"description": "<p class=\"Нарратив\">Издавая мощный рев, <span class=\"Повтор\">Военачальник</span> дает себе и всем <span class=\"Союз\">союзным</span> <span class=\"Признак2\"><span class=\"Признак1\">оркам</span> </span> в радиусе 60ФТ, <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Бонус} <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">броскам атак</span> и <span class=\"Урон\">урона</span>, <span class=\"До\">до начала след.хода</span><span class=\"Повтор\">Военачальника</span> .</p>"
 				},
 				"xDUpwWQaZevQOkYQ": {
 					"name": "Свирепость",

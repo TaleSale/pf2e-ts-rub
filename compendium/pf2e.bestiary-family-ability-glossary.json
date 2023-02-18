@@ -14,7 +14,7 @@
 		{
 			"id": "(Greater Barghest) Mutation - Vestigial Arm Strike",
 			"name": "(Великий Баргест) Мутация - Удар Рудиментарной Рукой",
-			"description": "<div><span class=\"Част\">Частота</span>: 1/Раунд;&nbsp;</div>\n<div><span class=\"Триг\">Триггер</span>: Баргест завершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</div>\n<hr />\n<p><span style=\"color: #2dc26b;\"><strong>Эффект: </strong></span>Баргест наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} когтями вместе со скрюченной рукой свисающей с торса. Эта атака не учитывается для <span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> баргеста, и он <span class=\"НЕ\">не применяется</span> к этой атаке.</p>"
+			"description": "<div><span class=\"Част\">Частота</span>: 1/Раунд; </div>\n<div><span class=\"Триг\">Триггер</span>: Баргест завершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</div>\n<hr />\n<p><span style=\"color: #2dc26b;\"><strong>Эффект: </strong></span>Баргест наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} когтями вместе со скрюченной рукой свисающей с торса. Эта атака не учитывается для <span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> баргеста, и он <span class=\"НЕ\">не применяется</span> к этой атаке.</p>"
 		},
 		{
 			"id": "(Greater Barghest) Mutation - Wings",

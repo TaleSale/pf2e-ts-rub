@@ -540,7 +540,7 @@
 				},
 				"Golem Antimagic": {
 					"name": "Антимагия Голема",
-					"description": "<ul>\n<li><span style=\"color: #a52a2a;\"><strong>@Compendium[pf2e-ts-rub.spiski.TOLPk4VEVFlRTQrQ]{Повреждается от}:</strong></span> огня ([[/r 4d6[fire]]], [[/r 1d8[fire]]]{1d8 Огня} от областей или продолжительного урона);</li>\n<li><span style=\"color: #169179;\"><strong>@Compendium[pf2e-ts-rub.spiski.TOLPk4VEVFlRTQrQ]{Исцеляется от}:</strong></span> электричества (область  [[/r 1d6[HP]]]{1d6 ОЗ});</li>\n<li><span style=\"color: #808000;\"><strong>@Compendium[pf2e-ts-rub.spiski.TOLPk4VEVFlRTQrQ]{Замедляется от}:</strong></span> холода</li>\n</ul>"
+					"description": "<ul>\n<li><span style=\"color: #a52a2a;\"><strong>@Compendium[pf2e-ts-rub.spiski.TOLPk4VEVFlRTQrQ]{Повреждается от}:</strong></span> огня ([[/r 4d6[fire]]], [[/r 1d8[fire]]]{1d8 Огня} от областей или продолжительного урона);</li>\n<li><span style=\"color: #169179;\"><strong>@Compendium[pf2e-ts-rub.spiski.TOLPk4VEVFlRTQrQ]{Исцеляется от}:</strong></span> электричества (область [[/r 1d6[HP]]]{1d6 ОЗ});</li>\n<li><span style=\"color: #808000;\"><strong>@Compendium[pf2e-ts-rub.spiski.TOLPk4VEVFlRTQrQ]{Замедляется от}:</strong></span> холода</li>\n</ul>"
 				},
 				"Vulnerable to Gentle Repose": {
 					"name": "Уязвим к Посмертный Покой",
@@ -919,7 +919,7 @@
 			"items": {
 				"Flailing Tentacles": {
 					"name": "Размахивание Щупальцами",
-					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline;\">Лягемот</span> наносит до четырех ударов щупальцами, каждый по отдельной цели.&nbsp;Они засчитываются в штраф за многократную атаку <span style=\"text-decoration: underline;\">Лягемота</span>, но штраф за многократную атаку не увеличивается до тех пор, пока не будут проведены все атаки.</p>"
+					"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline;\">Лягемот</span> наносит до четырех ударов щупальцами, каждый по отдельной цели. Они засчитываются в штраф за многократную атаку <span style=\"text-decoration: underline;\">Лягемота</span>, но штраф за многократную атаку не увеличивается до тех пор, пока не будут проведены все атаки.</p>"
 					},
 				"Aquatic Ambush": {
 					"name": "Водная Засада"

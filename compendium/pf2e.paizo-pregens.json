@@ -163,7 +163,7 @@
 			"items": {
 				"Vine Leshy": {
 					"name": "Леший из Лоз",
-					"description": "<p class=\"Нарратив\">Цепкие лозы, вплетенные в ваше тело, дают вам непревзойденное мастерство в лазании.</p>\n<p>&diams; Чтобы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаться} вам <span class=\"НЕ\">не нужны</span> <span class=\"Атака\">свободные руки</span>.</p>\n<p>&diams; Дополнительно, если <span class=\"Приброске\">при броске</span> <span class=\"Атак\">проверке</span>  <span class=\"СИЛ\">Атлетика</span> вы получаете <span class=\"Успех\">Успех</span>, чтобы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаться}, то вместо этого он становится <span class=\"Критуспех\">крит.успехом</span>.</p>"
+					"description": "<p class=\"Нарратив\">Цепкие лозы, вплетенные в ваше тело, дают вам непревзойденное мастерство в лазании.</p>\n<p>&diams; Чтобы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаться} вам <span class=\"НЕ\">не нужны</span> <span class=\"Атака\">свободные руки</span>.</p>\n<p>&diams; Дополнительно, если <span class=\"Приброске\">при броске</span> <span class=\"Атак\">проверке</span> <span class=\"СИЛ\">Атлетика</span> вы получаете <span class=\"Успех\">Успех</span>, чтобы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаться}, то вместо этого он становится <span class=\"Критуспех\">крит.успехом</span>.</p>"
 				},
 				"Cook": {
 					"name": "Повар",

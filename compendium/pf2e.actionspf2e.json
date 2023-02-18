@@ -354,7 +354,7 @@
 		{
 			"id": "cS9nfDRGD83bNU1p",
 			"name": "Полет",
-			"description": "<div><span class=\"Треб\">Требования</span>: У вас есть <span class=\"Скор\">Скорость Полета</span></div>\n<hr>\n<p>Вы двигаетесь по воздуху на расстояние вплоть до <span class=\"Скор\">Скорости Полета</span>.</p>\n<p>&diams; Движение вверх (&uarr; или по диагонали) использует правила <span class=\"Признак\">движения</span> по <span class=\"Мест\">сложной местности</span>.</p>\n<p>&diams; Вы можете двигаться ровно &darr; на 10ФТ, за каждые потраченные 5ФТ.</p>\n<p>&diams; Если вы <span class=\"Повтор\">Летите</span> до земли, то <span class=\"НЕ\">не получаете</span>  <span class=\"Урон\">урона от падения</span>.</p>\n<p>&diams; Вы можете использовать <span class=\"Действие\">действие</span> <span class=\"Повтор\">Лететь</span>, чтобы пролететь 0ФТ, и тем самым зависнуть на месте.</p>\n<hr>\n<p>Если <span class=\"До\">к окончанию своего хода</span> вы находитесь в воздухе и в этом раунде <span class=\"НЕ\">не</span> использовали <span class=\"Действие\">действие</span> <span class=\"Повтор\">Лететь</span>, то вы @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.7FsXXkrOUXHtROnq]{Падаете}.</p>"
+			"description": "<div><span class=\"Треб\">Требования</span>: У вас есть <span class=\"Скор\">Скорость Полета</span></div>\n<hr>\n<p>Вы двигаетесь по воздуху на расстояние вплоть до <span class=\"Скор\">Скорости Полета</span>.</p>\n<p>&diams; Движение вверх (&uarr; или по диагонали) использует правила <span class=\"Признак\">движения</span> по <span class=\"Мест\">сложной местности</span>.</p>\n<p>&diams; Вы можете двигаться ровно &darr; на 10ФТ, за каждые потраченные 5ФТ.</p>\n<p>&diams; Если вы <span class=\"Повтор\">Летите</span> до земли, то <span class=\"НЕ\">не получаете</span> <span class=\"Урон\">урона от падения</span>.</p>\n<p>&diams; Вы можете использовать <span class=\"Действие\">действие</span> <span class=\"Повтор\">Лететь</span>, чтобы пролететь 0ФТ, и тем самым зависнуть на месте.</p>\n<hr>\n<p>Если <span class=\"До\">к окончанию своего хода</span> вы находитесь в воздухе и в этом раунде <span class=\"НЕ\">не</span> использовали <span class=\"Действие\">действие</span> <span class=\"Повтор\">Лететь</span>, то вы @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.7FsXXkrOUXHtROnq]{Падаете}.</p>"
 		},
 		{
 			"id": "Strike",
@@ -665,7 +665,7 @@
 		{
 			"id": "Basic Finisher",
 			"name": "Простой Финишер",
-			"description": "<p class=\"Нарратив\">Сделайте @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}; если вы <span class=\"Успех\">попадаете</span> и ваше оружие подходит для @Compendium[pf2e.classfeatures.RQH6vigvhmiYKKjg]{Точного Удара}, то вы наносите [[/r 1d6[precision]]]<span class=\"Урон\">  <span class=\"Признак\">Точного</span> Урона</span>.</p>"
+			"description": "<p class=\"Нарратив\">Сделайте @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}; если вы <span class=\"Успех\">попадаете</span> и ваше оружие подходит для @Compendium[pf2e.classfeatures.RQH6vigvhmiYKKjg]{Точного Удара}, то вы наносите [[/r 1d6[precision]]]<span class=\"Урон\"> <span class=\"Признак\">Точного</span> Урона</span>.</p>"
 		},
 		{"id_": "Стрелок"},
 		{
@@ -1382,7 +1382,7 @@
 		{
 			"id": "Sever Conduit",
 			"name": "Оборвать Связь",
-			"description": "<div><span class=\"Триг\">Триггер</span>: Ваш <span class=\"Признак\">Эйдолон</span> получает урон, который снизит ваши <span class=\"ОЗ\">ОЗ</span> до 0 и исходит не от эффекта <span style=\"text-decoration: underline; color: #a52a2a;\">смерти</span></div>\n<hr />\n<p>Вы быстро перекрываете буфер в связи со своим <span style=\"text-decoration: underline; color: #a52a2a;\">эйдолоном</span>, из-за чего связанный с вами союзник пропадает прежде, чем вы потеряете @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Сознание}. Ваш <span class=\"Признак\">Эйдолон</span> отзывается, и вы <span class=\"НЕ\">не можете</span> 1 минуту использовать @Compendium[pf2e.actionspf2e.n5vwBnLSlIXL9ptp]. Благодаря этому вы <span class=\"НЕ\">не получаете</span>  спровоцировавший урон, хотя ваш <span class=\"Признак\">Эйдолон</span> по-прежнему страдает от любых других неблагоприятных эффектов, сопровождавших этот урон.</p>"
+			"description": "<div><span class=\"Триг\">Триггер</span>: Ваш <span class=\"Признак\">Эйдолон</span> получает урон, который снизит ваши <span class=\"ОЗ\">ОЗ</span> до 0 и исходит не от эффекта <span style=\"text-decoration: underline; color: #a52a2a;\">смерти</span></div>\n<hr />\n<p>Вы быстро перекрываете буфер в связи со своим <span style=\"text-decoration: underline; color: #a52a2a;\">эйдолоном</span>, из-за чего связанный с вами союзник пропадает прежде, чем вы потеряете @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Сознание}. Ваш <span class=\"Признак\">Эйдолон</span> отзывается, и вы <span class=\"НЕ\">не можете</span> 1 минуту использовать @Compendium[pf2e.actionspf2e.n5vwBnLSlIXL9ptp]. Благодаря этому вы <span class=\"НЕ\">не получаете</span> спровоцировавший урон, хотя ваш <span class=\"Признак\">Эйдолон</span> по-прежнему страдает от любых других неблагоприятных эффектов, сопровождавших этот урон.</p>"
 		},
 		{
 			"id": "Thundering Roar",
