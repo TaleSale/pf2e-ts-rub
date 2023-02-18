@@ -1236,7 +1236,7 @@
 		{
 			"id": "Grabbing Trunk",
 			"name": "Захват Хоботом",
-			"description": "<p class=\"Нарратив\">При <span class=\"Успех\">успешном</span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударе} <span class=\"Список\">Хоботом</span> по цели <span class=\"Размер\">среднего</span> или меньшего размера, оно становится @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченным}.</p>\n<hr />\n<p>Если вы @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, то можете нести с собой @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} существо.</p>"
+			"description": "<p>При <span class=\"Успех\">успешном</span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударе} <span class=\"Список\">Хоботом</span> по цели <span class=\"Размер\">среднего</span> или меньшего размера, оно становится @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченным}.</p>\n<hr />\n<p>Если вы @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, то можете нести с собой @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} существо.</p>"
 		},
 		{
 			"id": "Telepathy (Touch)",
@@ -1245,7 +1245,7 @@
 		{
 			"id": "Telepathy 60 feet",
 			"name": "Телепатия (60фт)",
-			"description": "<p class=\"Нарратив\">@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
 		},
 		{
 			"id": "Telepathy 100 feet",
@@ -1254,182 +1254,182 @@
 		{
 			"id": "Telepathy 1 Mile",
 			"name": "Телепатия (1 Миля)",
-			"description": "<p class=\"Нарратив\">@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+			"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
 		},
 		{
 			"id": "Thrown Weapon Mastery",
 			"name": "Мастерство Метательного Оружия",
-			"description": "<p class=\"Нарратив\">Любое оружие, которое бросает чарау-ка, получает черту <span style=\"text-decoration: underline; color: #a52a2a;\">смертельное d6</span>.</p>\n<hr />\n<p>Более того, когда чарау-ка бросает импровизированное оружие, он не получает за это штрафа -2, а также не получает штрафа за использование метательного импровизированного оружия с <span style=\"text-decoration: underline; color: #a52a2a;\">несмертельным</span> признаком для смертельной атаки.</p>"
+			"description": "<p>Любое оружие, которое бросает чарау-ка, получает черту <span style=\"text-decoration: underline; color: #a52a2a;\">смертельное d6</span>.</p>\n<hr />\n<p>Более того, когда чарау-ка бросает импровизированное оружие, он не получает за это штрафа -2, а также не получает штрафа за использование метательного импровизированного оружия с <span style=\"text-decoration: underline; color: #a52a2a;\">несмертельным</span> признаком для смертельной атаки.</p>"
 		},
 		{
 			"id": "Shrieking Frenzy",
 			"name": "Вопль Ярости",
-			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Начинается ход чарау-ка</p>\n<p><strong><span style=\"color: #236fa1;\">Частота</span>:</strong> раз в час</p>\n<p><span style=\"color: #2dc26b;\"><strong> Эффект</strong></span>: Чарау-ка @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускоряется 1} <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span> и может использовать дополнительное действие только для @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг} или @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>\n<hr />\n<p>Находясь в безумии, чарау-ка не может говорить и автоматически <span style=\"color: #e03e2d;\"><strong>критически проваливает</strong></span> проверку на <a href=\"https://2e.aonprd.com/Skills.aspx?ID=15\">Скрытность</a> из-за своего громкого вопля.</p>"
+			"description": "<p><span class=\"Триг\">Триггер</span>: Начинается ход чарау-ка</p>\n<p><strong><span style=\"color: #236fa1;\">Частота</span>:</strong> раз в час</p>\n<p><span style=\"color: #2dc26b;\"><strong> Эффект</strong></span>: Чарау-ка @Compendium[pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускоряется 1} <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span> и может использовать дополнительное действие только для @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг} или @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>\n<hr />\n<p>Находясь в безумии, чарау-ка не может говорить и автоматически <span style=\"color: #e03e2d;\"><strong>критически проваливает</strong></span> проверку на <a href=\"https://2e.aonprd.com/Skills.aspx?ID=15\">Скрытность</a> из-за своего громкого вопля.</p>"
 		},
 		{
 			"id": "Spin Silk",
 			"name": "Производство Шёлка",
-			"description": "<p class=\"Нарратив\">Потратив несколько минут, анади может производить шелк для изготовления предметов из ткани. Один анади может производить достаточно шелка в день, чтобы сшить один предмет одежды.</p>"
+			"description": "<p>Потратив несколько минут, анади может производить шелк для изготовления предметов из ткани. Один анади может производить достаточно шелка в день, чтобы сшить один предмет одежды.</p>"
 		},
 		{
 			"id": "Rush",
 			"name": "Разбег",
-			"description": "<p class=\"Нарратив\">Существо @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} и в конце этого передвижения совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>\n<hr />\n<p>Во время <span style=\"text-decoration: underline;\">Перемещения</span> он получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +10ФТ к своей Скорости.</p>"
+			"description": "<p>Существо @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} и в конце этого передвижения совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>\n<hr />\n<p>Во время <span style=\"text-decoration: underline;\">Перемещения</span> он получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +10ФТ к своей Скорости.</p>"
 		},
 		{
 			"id": "Smoke Vision",
 			"name": "Зрение в Дыму",
-			"description": "<p class=\"Нарратив\">Существо игнорирует чужое состояние @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрытен} вызванное дымом.</p>"
+			"description": "<p>Существо игнорирует чужое состояние @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрытен} вызванное дымом.</p>"
 		},
 		{
 			"id": "Swamp Stride",
 			"name": "Болотная Поступь",
-			"description": "<p class=\"Нарратив\">Существо игнорирует сложную местность, вызванную особенностями болотной местности.</p>"
+			"description": "<p>Существо игнорирует сложную местность, вызванную особенностями болотной местности.</p>"
 		},
 		{
 			"id": "Pounce",
 			"name": "Наскок",
-			"description": "<p class=\"Нарратив\">&diams; Существо @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} и в конце этого <span class=\"Признак\">движения</span> совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>\n<p>&diams; Если он начал это <span class=\"Действие\">действие</span> @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятанным}, то остается @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятанным} до окончания @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} этого умения.</p>"
+			"description": "<p>&diams; Существо @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} и в конце этого <span class=\"Признак\">движения</span> совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>\n<p>&diams; Если он начал это <span class=\"Действие\">действие</span> @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятанным}, то остается @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятанным} до окончания @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} этого умения.</p>"
 		},
 		{
 			"id": "Swift Leap",
 			"name": "Поспешный Прыжок",
-			"description": "<p class=\"Нарратив\">Существо подпрыгивает на половину своей скорости. Это движение не вызывает реакции.</p>"
+			"description": "<p>Существо подпрыгивает на половину своей скорости. Это движение не вызывает реакции.</p>"
 		},
 		{
 			"id": "Draconic Momentum",
 			"name": "Импульс Дракона",
-			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Дракон</span> <span class=\"Список\">перезаряжает</span> свою <span class=\"Повтор\">Атаку Дыханием</span> всякий раз, когда наносит <span class=\"Критуспех\">Крит.Успех</span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом}.</p>"
+			"description": "<p><span class=\"Повтор\">Дракон</span> <span class=\"Список\">перезаряжает</span> свою <span class=\"Повтор\">Атаку Дыханием</span> всякий раз, когда наносит <span class=\"Критуспех\">Крит.Успех</span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом}.</p>"
 		},
 		{
 			"id": "Tighten Coils",
 			"name": "Сжать Кольца",
-			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое} вами существо пытается @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться}.</p>\n<p><span style=\"color: #2dc26b;\"><strong>Эффект:</strong></span> КС этой проверки @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться} увеличивается на 2.</p>"
+			"description": "<p><span class=\"Триг\">Триггер</span>: @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое} вами существо пытается @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться}.</p>\n<p><span style=\"color: #2dc26b;\"><strong>Эффект:</strong></span> КС этой проверки @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться} увеличивается на 2.</p>"
 		},
 		{
 			"id": "Swiftness",
 			"name": "Быстрота",
-			"description": "<p class=\"Нарратив\">Движение существа не провоцирует реакции.</p>"
+			"description": "<p>Движение существа не провоцирует реакции.</p>"
 		},
 		{
 			"id": "Avenging Bite",
 			"name": "Укус Возмездия",
-			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: враг в пределах досягаемости укуса атакует одного из союзников.</p>\n<p><strong><span style=\"color: #2dc26b;\">Эффект</span>:</strong> Вы наносите удар укусом по активирующему триггер врагу.</p>"
+			"description": "<p><span class=\"Триг\">Триггер</span>: враг в пределах досягаемости укуса атакует одного из союзников.</p>\n<p><strong><span style=\"color: #2dc26b;\">Эффект</span>:</strong> Вы наносите удар укусом по активирующему триггер врагу.</p>"
 		},
 		{
 			"id": "Weak Acid",
 			"name": "Слабая Кислота",
-			"description": "<p class=\"Нарратив\">Кислота существа повреждает только органический материал, а <span class=\"НЕ\">не</span> <span class=\"Матер\">металл</span>, <span class=\"Матер\">камень</span> или другие неорганические вещества.</p>"
+			"description": "<p>Кислота существа повреждает только органический материал, а <span class=\"НЕ\">не</span> <span class=\"Матер\">металл</span>, <span class=\"Матер\">камень</span> или другие неорганические вещества.</p>"
 		},
 		{
 			"id": "Speed Surge",
 			"name": "Всплеск Скорости",
-			"description": "<p class=\"Нарратив\"><span class=\"Част\">Частота</span>: Три раза в день</p>\n<p>Существо использует движение с двойной скоростью.</p>"
+			"description": "<p><span class=\"Част\">Частота</span>: Три раза в день</p>\n<p>Существо использует движение с двойной скоростью.</p>"
 		},
 		{
 			"id": "Snow Vision",
 			"name": "Зрение в Снегу",
-			"description": "<p class=\"Нарратив\">Снег не ухудшает зрение существа.</p>\n<p>Существо игнорирует чужое состояние @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт} вызванное снегопадом.</p>"
+			"description": "<p>Снег не ухудшает зрение существа.</p>\n<p>Существо игнорирует чужое состояние @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт} вызванное снегопадом.</p>"
 		},
 		{
 			"id": "Ice Climb",
 			"name": "Ледяное Карабканье",
-			"description": "<p class=\"Нарратив\">Существо может карабкаться по льду, как если бы у него была указанная скорость карабканья. Он игнорирует <span class=\"Мест\">Сложная Местность</span> и <span class=\"Мест\">Особо Сложная Местность</span> из льда и снега и не рискует упасть при движению по льду.</p>"
+			"description": "<p>Существо может карабкаться по льду, как если бы у него была указанная скорость карабканья. Он игнорирует <span class=\"Мест\">Сложная Местность</span> и <span class=\"Мест\">Особо Сложная Местность</span> из льда и снега и не рискует упасть при движению по льду.</p>"
 		},
 		{
 			"id": "Woodland Stride",
 			"name": "Лесная Поступь",
-			"description": "<p class=\"Нарратив\">Вы всегда можете найти путь, как если бы листва расступилась перед вами.</p>\n<hr />\n<p>Вы игнорируете любую <span class=\"Мест\">Сложная Местность</span> связанную с растениями, такими как кусты, лианы и подлесок. Даже растения, управляемые магией, не препятствуют вашему продвижению.</p>"
+			"description": "<p>Вы всегда можете найти путь, как если бы листва расступилась перед вами.</p>\n<hr />\n<p>Вы игнорируете любую <span class=\"Мест\">Сложная Местность</span> связанную с растениями, такими как кусты, лианы и подлесок. Даже растения, управляемые магией, не препятствуют вашему продвижению.</p>"
 		},
 		{
 			"id": "Inspired Feast",
 			"name": "Сытая Сила",
-			"description": "<p class=\"Нарратив\">Если кроколюд питается человеческим трупом в течение 1 минуты или более, он получает бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">броскам атаки</span> и +2 к <span class=\"Урон\">броскам урона</span> в течение 1 часа.</p>\n<p><span style=\"color: #e67e23;\"><strong>Эффект:</strong></span> @Compendium[pf2e.bestiary-effects.EM0VP31B8CyjFD15]{Effect: Inspired Feast}</p>"
+			"description": "<p>Если кроколюд питается человеческим трупом в течение 1 минуты или более, он получает бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">броскам атаки</span> и +2 к <span class=\"Урон\">броскам урона</span> в течение 1 часа.</p>\n<p><span style=\"color: #e67e23;\"><strong>Эффект:</strong></span> @Compendium[pf2e.bestiary-effects.EM0VP31B8CyjFD15]{Effect: Inspired Feast}</p>"
 		},
 		{
 			"id": "Twisting Tail",
 			"name": "Хвост-Хлыст",
-			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Враг в пределах досягаемости <strong>Жала/Хвоста</strong> существа использует действие <span class=\"Признак\">движения</span> или покидает клетку во время действия <span style=\"text-decoration: underline; color: #ba372a;\">движения</span>, которое оно использует.</p>\n<p>Существо поражает врага своим <strong>Жалом/Хвостом</strong>. Если он <span style=\"color: #169179;\"><strong>попадает</strong></span>, существо прерывает действие триггера врага.</p>"
+			"description": "<p><span class=\"Триг\">Триггер</span>: Враг в пределах досягаемости <strong>Жала/Хвоста</strong> существа использует действие <span class=\"Признак\">движения</span> или покидает клетку во время действия <span style=\"text-decoration: underline; color: #ba372a;\">движения</span>, которое оно использует.</p>\n<p>Существо поражает врага своим <strong>Жалом/Хвостом</strong>. Если он <span style=\"color: #169179;\"><strong>попадает</strong></span>, существо прерывает действие триггера врага.</p>"
 		},
 		{
 			"id": "Tail Lash",
 			"name": "Хвост-Плеть",
-			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Враг, находящееся в пределах досягаемости <strong>Хвоста</strong> существа, использует действие для @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} или пытается пройти проверку навыка.</p>\n<p><span style=\"color: #169179;\"><strong>Преимущество:</strong> </span>Существо пытается @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударить} стригиррившего врага своим <strong>Хвостом</strong>. Если оно <span style=\"color: #169179;\"><strong>попадает</strong></span>, враг получает штраф <span class=\"Обстоятельства\">Обстоятельства</span> -2 к броску триггера.</p>\n<hr />\n<p><span style=\"color: #e67e23;\"><strong>Эффекты:</strong></span></p>\n<ul>\n<li>@Compendium[pf2e.bestiary-effects.QqC9xymSXSVunDgl]{Effect: Tail Lash (Attack Roll)}</li>\n<li>@Compendium[pf2e.bestiary-effects.4HJJdogS751Z04lD]{Effect: Tail Lash (Skill Check)}</li>\n</ul>"
+			"description": "<p><span class=\"Триг\">Триггер</span>: Враг, находящееся в пределах досягаемости <strong>Хвоста</strong> существа, использует действие для @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} или пытается пройти проверку навыка.</p>\n<p><span style=\"color: #169179;\"><strong>Преимущество:</strong> </span>Существо пытается @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударить} стригиррившего врага своим <strong>Хвостом</strong>. Если оно <span style=\"color: #169179;\"><strong>попадает</strong></span>, враг получает штраф <span class=\"Обстоятельства\">Обстоятельства</span> -2 к броску триггера.</p>\n<hr />\n<p><span style=\"color: #e67e23;\"><strong>Эффекты:</strong></span></p>\n<ul>\n<li>@Compendium[pf2e.bestiary-effects.QqC9xymSXSVunDgl]{Effect: Tail Lash (Attack Roll)}</li>\n<li>@Compendium[pf2e.bestiary-effects.4HJJdogS751Z04lD]{Effect: Tail Lash (Skill Check)}</li>\n</ul>"
 		},
 		{
 			"id": "Weapon Master",
 			"name": "Мастер Оружия",
-			"description": "<p class=\"Нарратив\">Существо имеет доступ к @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.PVrMSF93KIejBTMm]{Критической Специализации} для любого оружия, которым оно владеет.</p>"
+			"description": "<p>Существо имеет доступ к @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.PVrMSF93KIejBTMm]{Критической Специализации} для любого оружия, которым оно владеет.</p>"
 		},
 		{
 			"id": "Woodland Elf",
 			"name": "Лесной Эльф",
-			"description": "<p class=\"Нарратив\">Вы приспособлены к жизни в лесу или глубоких джунглях, и знаете как лазить по деревьям и использовать растительность в своих интересах.</p>\n<hr />\n<p>Когда вы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаетесь} на деревья, лианы и другую растительность, вы двигаетесь с половиной своей <span style=\"Скор\">Скорости</span> при <span class=\"Успех\">Успех</span>, и полной Скоростью при<span style=\"color: #2dc26b;\"><strong> критическом успехе</strong></span> (и если у вас есть @Compendium[pf2e.feats-srd.P04Hw8E6WAWARKHP]{Быстро Карабкаться}, вы двигаетесь с полной Скоростью при <span class=\"Успех\">Успех</span>).</p>\n<blockquote>\n<p>Если вы используете Скорость карабканья, эти бонусы не применяются.</blockquote>\n<hr />\n<p>Вы всегда можете использовать действие @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Укрыться}, когда находитесь в лесной местности, чтобы получить укрытие, даже если вы не рядом с преградой, за которой можете @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Укрыться}.</p>"
+			"description": "<p>Вы приспособлены к жизни в лесу или глубоких джунглях, и знаете как лазить по деревьям и использовать растительность в своих интересах.</p>\n<hr />\n<p>Когда вы @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкаетесь} на деревья, лианы и другую растительность, вы двигаетесь с половиной своей <span style=\"Скор\">Скорости</span> при <span class=\"Успех\">Успех</span>, и полной Скоростью при<span style=\"color: #2dc26b;\"><strong> критическом успехе</strong></span> (и если у вас есть @Compendium[pf2e.feats-srd.P04Hw8E6WAWARKHP]{Быстро Карабкаться}, вы двигаетесь с полной Скоростью при <span class=\"Успех\">Успех</span>).</p>\n<blockquote>\n<p>Если вы используете Скорость карабканья, эти бонусы не применяются.</blockquote>\n<hr />\n<p>Вы всегда можете использовать действие @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Укрыться}, когда находитесь в лесной местности, чтобы получить укрытие, даже если вы не рядом с преградой, за которой можете @Compendium[pf2e.actionspf2e.ust1jJSCZQUhBZIz]{Укрыться}.</p>"
 		},
 		{
 			"id": "Mudwalking",
 			"name": "Грязевая Поступь",
-			"description": "<p class=\"Нарратив\">Существо игнорирует <span class=\"Мест\">Сложная Местность</span>, вызванную особенностями грязевой местности.</p>"
+			"description": "<p>Существо игнорирует <span class=\"Мест\">Сложная Местность</span>, вызванную особенностями грязевой местности.</p>"
 		},
 		{
 			"id": "Jungle Stride",
 			"name": "Джунгливая Поступь",
-			"description": "<p class=\"Нарратив\">Существо игнорирует <span class=\"Мест\">Сложная Местность</span>, вызванную особенностями местности - джунглей.</p>"
+			"description": "<p>Существо игнорирует <span class=\"Мест\">Сложная Местность</span>, вызванную особенностями местности - джунглей.</p>"
 		},
 		{
 			"id": "Eagle Dive",
 			"name": "Орлиное Пикирование",
-			"description": "<p class=\"Нарратив\">Существо @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летит} по прямой, вплоть до своей двойной <span style=\"Скор\">Скорости</span> полета, снижаясь хотя бы на 10ФТ и затем совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span>.</p>"
+			"description": "<p>Существо @Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Летит} по прямой, вплоть до своей двойной <span style=\"Скор\">Скорости</span> полета, снижаясь хотя бы на 10ФТ и затем совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span>.</p>"
 		},
 		{
 			"id": "Wrestle",
 			"name": "Побороть",
-			"description": "<p class=\"Нарратив\">Существо совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> по @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченной} ей цели. Если эта атака <span style=\"color: #169179;\"><strong>попадает</strong></span>, цель падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}.</p>"
+			"description": "<p>Существо совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> по @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченной} ей цели. Если эта атака <span style=\"color: #169179;\"><strong>попадает</strong></span>, цель падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}.</p>"
 		},
 		{
 			"id": "Vortex 30",
 			"name": "Вихрь 30",
-			"description": "<p class=\"Нарратив\">@Template[type:emanation|distance:30]{Эманац. 30} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}</p>\n<hr />\n<p>Вода в области вашей ауры, которая находится в том же водоеме, что и вы, является <span style=\"text-decoration: underline; color: #34495e;\">трудной местностью</span> для плавающих существ, которые не обладают признаком <span style=\"text-decoration: underline; color: #a52a2a;\">воды</span>.</p>"
+			"description": "<p>@Template[type:emanation|distance:30] @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}</p>\n<hr />\n<p>Вода в области вашей ауры, которая находится в том же водоеме, что и вы, является <span style=\"text-decoration: underline; color: #34495e;\">трудной местностью</span> для плавающих существ, которые не обладают признаком <span style=\"text-decoration: underline; color: #a52a2a;\">воды</span>.</p>"
 		},
 		{
 			"id": "Vortex 40",
 			"name": "Вихрь 40",
-			"description": "<p class=\"Нарратив\">@Template[type:emanation|distance:40]{Эманац. 40} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}</p>\n<hr />\n<p>Вода в области вашей ауры, которая находится в том же водоеме, что и вы, является <span style=\"text-decoration: underline; color: #34495e;\">трудной местностью</span> для плавающих существ, которые не обладают признаком <span style=\"text-decoration: underline; color: #a52a2a;\">воды</span>.</p>"
+			"description": "<p>@Template[type:emanation|distance:40] @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}</p>\n<hr />\n<p>Вода в области вашей ауры, которая находится в том же водоеме, что и вы, является <span style=\"text-decoration: underline; color: #34495e;\">трудной местностью</span> для плавающих существ, которые не обладают признаком <span style=\"text-decoration: underline; color: #a52a2a;\">воды</span>.</p>"
 		},
 		{
 			"id": "Vortex 50",
 			"name": "Вихрь 50",
-			"description": "<p class=\"Нарратив\">@Template[type:emanation|distance:50]{Эманац. 50} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}</p>\n<hr />\n<p>Вода в области вашей ауры, которая находится в том же водоеме, что и вы, является <span style=\"text-decoration: underline; color: #34495e;\">трудной местностью</span> для плавающих существ, которые не обладают признаком <span style=\"text-decoration: underline; color: #a52a2a;\">воды</span>.</p>"
+			"description": "<p>@Template[type:emanation|distance:50] @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}</p>\n<hr />\n<p>Вода в области вашей ауры, которая находится в том же водоеме, что и вы, является <span style=\"text-decoration: underline; color: #34495e;\">трудной местностью</span> для плавающих существ, которые не обладают признаком <span style=\"text-decoration: underline; color: #a52a2a;\">воды</span>.</p>"
 		},
 		{
 			"id": "Water-Bound",
 			"name": "Зависимый от Воды",
-			"description": "<p class=\"Нарратив\">Когда вы не касается воды - вы @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлены 1} и не можете использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
+			"description": "<p>Когда вы не касается воды - вы @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлены 1} и не можете использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
 		},
 		{
 			"id": "Scoff at the Divine",
 			"name": "Надсмехаться над Божественным",
-			"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо в пределах 30ФТ накладывает <span style=\"text-decoration: underline; color: #34495e;\">сакральное заклинание</span> или использует <span class=\"Признак\">Сакральный</span> эффект.</p>\n<p><span class=\"Треб\">Требования</span>: У <span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> есть неизрасходованная ячейка заклинаний, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> расходует ячейку заклинания, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}. И пытается @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействовать} <span style=\"color: #e03e2d;\"><strong>триггернувшему</strong></span> заклинанию или эффекту.</p>\n<div data-visibility=\"gm\">\n<p>Раджа-ракшас не может Надсмехаться над Божественным в течение [[/br 1d4]] раундов.</p>\n</div>"
+			"description": "<p><span class=\"Триг\">Триггер</span>: Существо в пределах 30ФТ накладывает <span style=\"text-decoration: underline; color: #34495e;\">сакральное заклинание</span> или использует <span class=\"Признак\">Сакральный</span> эффект.</p>\n<p><span class=\"Треб\">Требования</span>: У <span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> есть неизрасходованная ячейка заклинаний, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}.</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Раджа-ракшаса</span> расходует ячейку заклинания, которую можно использовать для @Compendium[pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Рассеять Магию}. И пытается @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействовать} <span style=\"color: #e03e2d;\"><strong>триггернувшему</strong></span> заклинанию или эффекту.</p>\n<div data-visibility=\"gm\">\n<p>Раджа-ракшас не может Надсмехаться над Божественным в течение [[/br 1d4]] раундов.</p>\n</div>"
 		},
 		{
 			"id": "Archon's Door",
 			"name": "Дверь Архонта",
-			"description": "<p class=\"Нарратив\"><span style=\"color: #236fa1;\"><strong>Один раз в день</strong></span>, если <span style=\"text-decoration: underline; color: #a52a2a;\">архонт</span> видит, как другое существо использует @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве}, он может использовать свою <span style=\"text-decoration: underline; color: #34495e;\">врожденную</span> <span style=\"color: #236fa1;\"><strong>Усиленную (5)</strong></span> @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве} в течение 1 раунда, чтобы попытаться следовать за этим существом на максимальное расстояние.</p>\n<p>Если @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве} <span style=\"text-decoration: underline; color: #a52a2a;\">архонта</span> находится на достаточном расстоянии, архонт появляется на том же расстоянии и в том же направлении от существа, что и до использования @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве}.</p>"
+			"description": "<p><span style=\"color: #236fa1;\"><strong>Один раз в день</strong></span>, если <span style=\"text-decoration: underline; color: #a52a2a;\">архонт</span> видит, как другое существо использует @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве}, он может использовать свою <span style=\"text-decoration: underline; color: #34495e;\">врожденную</span> <span style=\"color: #236fa1;\"><strong>Усиленную (5)</strong></span> @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве} в течение 1 раунда, чтобы попытаться следовать за этим существом на максимальное расстояние.</p>\n<p>Если @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве} <span style=\"text-decoration: underline; color: #a52a2a;\">архонта</span> находится на достаточном расстоянии, архонт появляется на том же расстоянии и в том же направлении от существа, что и до использования @Compendium[pf2e.spells-srd.VlNcjmYyu95vOUe8]{Дверь в Пространстве}.</p>"
 		},
 		{
 			"id": "Three Headed",
 			"name": "Трёхглавый",
-			"description": "<p class=\"Нарратив\">Любая способность, которая может отрубить голову <span style=\"text-decoration: underline; color: #34495e;\">Химере</span> (например, <span style=\"color: #2dc26b;\"><strong>крит.удар</strong></span> оружием с @Compendium[pf2e.equipment-srd.6xaxxKfvXED6LfIY]{Руна Стрижающая}), случайным образом отрубает одну голову.</p>\n<hr />\n<p>Потеря головы не убивает <span style=\"text-decoration: underline; color: #34495e;\">Химеру</span> (пока у нее осталась одна голова), но не позволяет ей наносить удары потерянной головой или использовать <span style=\"text-decoration: underline; color: #34495e;\">Атаку Дыханием</span> потерянной головой дракона.</p>"
+			"description": "<p>Любая способность, которая может отрубить голову <span style=\"text-decoration: underline; color: #34495e;\">Химере</span> (например, <span style=\"color: #2dc26b;\"><strong>крит.удар</strong></span> оружием с @Compendium[pf2e.equipment-srd.6xaxxKfvXED6LfIY]{Руна Стрижающая}), случайным образом отрубает одну голову.</p>\n<hr />\n<p>Потеря головы не убивает <span style=\"text-decoration: underline; color: #34495e;\">Химеру</span> (пока у нее осталась одна голова), но не позволяет ей наносить удары потерянной головой или использовать <span style=\"text-decoration: underline; color: #34495e;\">Атаку Дыханием</span> потерянной головой дракона.</p>"
 		},
 		{
 			"id": "Triple Opportunity",
 			"name": "Тройная Возможность",
-			"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Химера</span> получает 2 дополнительные <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> каждый раунд, которые она может использовать только @Compendium[pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O]{Возможность для Атаки}.</p>\n<p>Он должен использовать разные головы для каждой <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
+			"description": "<p><span style=\"text-decoration: underline; color: #34495e;\">Химера</span> получает 2 дополнительные <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span> каждый раунд, которые она может использовать только @Compendium[pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O]{Возможность для Атаки}.</p>\n<p>Он должен использовать разные головы для каждой <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
 		},
 		{
 			"id": "Three-Headed Strike",
 			"name": "Удар Трёх Голов",
-			"description": "<p class=\"Нарратив\"><span style=\"text-decoration: underline; color: #34495e;\">Химера</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} своей <span style=\"text-decoration: underline; color: #34495e;\">Челюстью Дракона</span>, <span style=\"text-decoration: underline; color: #34495e;\">Челюстью Льва</span> и <span style=\"text-decoration: underline; color: #34495e;\">Рогами Козла</span>, каждый со штрафом -2 и нацелены на разных существ.</p>\n<hr />\n<p>Эти @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} считаются только одной атакой для <span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> <span style=\"text-decoration: underline; color: #34495e;\">Химеры</span>, и штраф не увеличивается до тех пор, пока она не совершит все три атаки.</p>"
+			"description": "<p><span style=\"text-decoration: underline; color: #34495e;\">Химера</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} своей <span style=\"text-decoration: underline; color: #34495e;\">Челюстью Дракона</span>, <span style=\"text-decoration: underline; color: #34495e;\">Челюстью Льва</span> и <span style=\"text-decoration: underline; color: #34495e;\">Рогами Козла</span>, каждый со штрафом -2 и нацелены на разных существ.</p>\n<hr />\n<p>Эти @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} считаются только одной атакой для <span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> <span style=\"text-decoration: underline; color: #34495e;\">Химеры</span>, и штраф не увеличивается до тех пор, пока она не совершит все три атаки.</p>"
 		},
 		{
 			"id": "Bark Orders",
@@ -1439,7 +1439,7 @@
 		{
 			"id": "Rugged Travel",
 			"name": "Суровое Путешествие",
-			"description": "<p class=\"Нарратив\">Вы игнорируете первую клетку <span style=\"text-decoration: underline; color: #34495e;\">сложной местности</span>, каждый раз когда входите в неё совершая @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} или @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг}.</p>"
+			"description": "<p>Вы игнорируете первую клетку <span style=\"text-decoration: underline; color: #34495e;\">сложной местности</span>, каждый раз когда входите в неё совершая @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} или @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг}.</p>"
 		},
 		{
 			"id": "Personality Fragments",
@@ -1449,23 +1449,23 @@
 		{
 			"id": "Troop Movement",
 			"name": "Передвижение Отряда",
-			"description": "<p class=\"Нарратив\">Когда <span class=\"Признак\">Отряд</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, они в начале <span class=\"Действие\"><span class=\"pf2-icon\">4</span></span>@Compendium[pf2e.bestiary-ability-glossary-srd.OvqohW9YuahnFaiX]{Строются} в область 20 на 20ФТ (за вычетом любых недостающих <span class=\"Атака\">квадратов</span>), потом совершаю <span class=\"Признак\">движение</span> вплоть до своей <span class=\"Скор\">Скорости</span>.</p>\n<blockquote class=\"Уточнить\">Это работает так же как <span class=\"Признак\">движение</span> <span class=\"Размер\">исполинских</span> существ; например, если любой из <span class=\"Атака\">квадратов</span> <span class=\"Признак\">отряда</span> попадает в <span class=\"Мест\">Сложная Местность</span>, то дополнительная стоимость <span class=\"Признак\">движение</span> применяется ко всему <span class=\"Признак\">отряду</span>.</blockquote>"
+			"description": "<p>Когда <span class=\"Признак\">Отряд</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, они в начале <span class=\"Действие\"><span class=\"pf2-icon\">4</span></span>@Compendium[pf2e.bestiary-ability-glossary-srd.OvqohW9YuahnFaiX]{Строются} в область 20 на 20ФТ (за вычетом любых недостающих <span class=\"Атака\">квадратов</span>), потом совершаю <span class=\"Признак\">движение</span> вплоть до своей <span class=\"Скор\">Скорости</span>.</p>\n<blockquote class=\"Уточнить\">Это работает так же как <span class=\"Признак\">движение</span> <span class=\"Размер\">исполинских</span> существ; например, если любой из <span class=\"Атака\">квадратов</span> <span class=\"Признак\">отряда</span> попадает в <span class=\"Мест\">Сложная Местность</span>, то дополнительная стоимость <span class=\"Признак\">движение</span> применяется ко всему <span class=\"Признак\">отряду</span>.</blockquote>"
 		},
 		{"_id": "classDC"},
 		{
 			"id": "Filth Fever",
 			"name": "Грязная Лихорадка",
-			"description": "<p class=\"Заг2\"><span class=\"СТК\">@Check[type:fortitude|showDC:gm|dc:resolve(@actor.attributes.classDC)|immutable:false|traits:disease|name:Грязная Лихорадка]</span></p>\n<div data-visibility=\"gm\">\n<p>Состояния @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота} и @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} от <span class=\"Повтор\">Грязной Лихорадки</span> не проходят сами по себе, пока не вылечена <span class=\"Признак\">болезнь</span>.</p>\n<hr>\n<p><span class=\"Критуспех\">Стадия 1</span>: Нет эффектов <span class=\"Признак\">болезни</span> ([[/br 1d4]]{1d4 Часа})</p>\n<p><span class=\"Успех\">Стадия 2</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (<span class=\"До\">1 день</span>)</p>\n<p><span class=\"ТЕЛ\">Стадия 3</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} (<span class=\"До\">1 день</span>)</p>\n<p><span class=\"Провал\">Стадия 4</span>: @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf] (<span class=\"До\">1 день</span>)</p>\n<p><span class=\"Критпровал\">Стадия 5</span>: Смерть</p>\n</div>"
+			"description": "<p class=\"Заг2\"><span class=\"СТК\">@Check[type:fortitude|showDC:gm|dc:resolve(@actor.attributes.classDC)|immutable:false|traits:disease,secret|name:Грязная Лихорадка]{СТК}</span></p>\n<div data-visibility=\"gm\">\n<p>Состояния @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота} и @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} от <span class=\"Повтор\">Грязной Лихорадки</span> не проходят сами по себе, пока не вылечена <span class=\"Признак\">болезнь</span>.</p>\n<hr>\n<p><span class=\"Критуспех\">Стадия 1</span>: Нет эффектов <span class=\"Признак\">болезни</span> ([[/br 1d4]]{1d4 Часа})</p>\n<p><span class=\"Успех\">Стадия 2</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (<span class=\"До\">1 день</span>)</p>\n<p><span class=\"ТЕЛ\">Стадия 3</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} (<span class=\"До\">1 день</span>)</p>\n<p><span class=\"Провал\">Стадия 4</span>: @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf] (<span class=\"До\">1 день</span>)</p>\n<p><span class=\"Критпровал\">Стадия 5</span>: <span class=\"Урон\">Смерть</span></p>\n</div>"
 		},
 		{
 			"id": "Terrifying Croak",
 			"name": "Ужасающий Квак",
-			"description": "<p class=\"Нарратив\"><span style=\"color: #34495e;\"><span style=\"text-decoration: underline;\">Боггард</span> </span>издает <span style=\"text-decoration: underline; color: #34495e;\">Ужасающий Квак</span>.</p>\n<hr />\n<p>Любой <span class=\"НЕ\">не</span>-<span style=\"text-decoration: underline; color: #34495e;\">боггард</span> в пределах @Template[type:emanation|distance:30] становится @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}, если он не <span style=\"color: #169179;\"><strong>преуспевает </strong></span>в @Check[type:will|showDC:gm|dc:resolve(@actor.attributes.classDC)|immutable:false|traits: auditory,emotion,fear,mental]{Воли}.</p>\n<blockquote>\n<p>Те, кто совершат <span class=\"Критуспех\">Крит.Успех</span>, временно <span style=\"text-decoration: underline; color: #169179;\"><span style=\"color: #34495e; text-decoration: underline;\">имунны</span> </span>на 1 минуту.</blockquote>"
+			"description": "<p><span class=\"Признак\">Боггард</span> издает <span style=\"text-decoration: underline; color: #34495e;\">Ужасающий Квак</span>.</p>\n<hr />\n<p>Любой <span class=\"НЕ\">не</span>-<span style=\"text-decoration: underline; color: #34495e;\">боггард</span> в пределах @Template[type:emanation|distance:30] становится @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}, если он не <span style=\"color: #169179;\"><strong>преуспевает </strong></span>в @Check[type:will|showDC:gm|dc:resolve(@actor.attributes.classDC)|immutable:false|traits: auditory,emotion,fear,mental]{Воли}.</p>\n<blockquote>\n<p>Те, кто совершат <span class=\"Критуспех\">Крит.Успех</span>, временно <span style=\"text-decoration: underline; color: #169179;\"><span style=\"color: #34495e; text-decoration: underline;\">имунны</span> </span>на 1 минуту.</blockquote>"
 		},
 		{
 			"id": "Swarming Stance",
 			"name": "Стойка Роя",
-			"description": "<p class=\"Нарратив\"><span class=\"Признак\">Морлоки</span> могут делить то же пространство, что и другой <span class=\"Признак\">Морлок</span>, но не более двух <span style=\"text-decoration: underline; color: #a52a2a;\">морлоков</span> могут занимать одно и то же пространство.</p>\n<p>Когда <span class=\"Признак\">Морлоки</span> делят одно и то же пространство, они получают бонус <span class=\"Обстоятельства\">Обстоятельства</span> +1 к <span class=\"Атак\">броскам атак</span>.</p>"
+			"description": "<p><span class=\"Признак\">Морлоки</span> могут делить то же пространство, что и другой <span class=\"Признак\">Морлок</span>, но не более двух <span class=\"Признак\">морлоков</span> могут занимать одно и то же пространство.</p>\n<p>Когда <span class=\"Признак\">Морлоки</span> делят одно и то же пространство, они получают бонус <span class=\"Обстоятельства\">Обстоятельства</span> +1 к <span class=\"Атак\">броскам атак</span>.</p>"
 		}
 	]
 }

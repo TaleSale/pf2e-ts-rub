@@ -172,14 +172,16 @@
 			"id": "Cinder Rat (BB)",
 			"name": "Золовая Крыса (BB)",
 			"tokenName": "Золовая Крыса",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
 			"items": {
 				"SNb64KWDBMrTorTI": {
-					"name": "Челюсти (Огонь)",
-					"description": "<p class=\"Нарратив\">@Localize[PF2E.PD.Fire.1d4]</p>"
+					"name": "Челюсти"
 				},
 				"vhcrEIRKkfTwrwDs": {
 					"name": "Облако Золы",
-					"description": "<p class=\"Нарратив\">@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]@Template[type:emanation|distance:5]{5 ФТ}</p>\n<hr />\n<p>Все существа в пределах 5ФТ, включая <span style=\"text-decoration: underline; color: #34495e;\">Золовую Крысу</span>, получают @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрытое} состояние от этого дыма.</p>\n<p>Существо, которое подходит в пределы 5ФТ от золовой крысы или начинает свой ход в пределах 5ФТ, должно преуспеть в @Check[type:fortitude|dc:22|showDC:gm] или получить -1 штраф статуса ко всем <span class=\"Атак\">проверкам</span> и КС в течение 1 раунда.</p>"
+					"description": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]: @Template[type:emanation|distance:5]{5ФТ}</p>\n<hr>\n<p>&diams; Все существа в @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Ауре}, включая <span class=\"Повтор\">Золовую Крысу</span>, получают @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрытое} состояние от этого дыма.</p>\n<p>&diams; Существо, которое <span class=\"До\">входит или начинает свой ход</span> в @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Ауре}, должно преуспеть в <span class=\"КБ\">Спас.</span>@Check[type:fortitude|dc:22|showDC:gm]{СТК} или <span class=\"Эффект\">@UUID[Compendium.pf2e-ts-rub.effekty-raznoe.WOMGFPHbKH3zxjwj]{Получить}</span> @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} <span class=\"До\">на 1 Раунда</span>.</p>"
 				}
 			}
 		},
@@ -566,11 +568,11 @@
 				},
 				"Web Trap": {
 					"name": "Паутина-Ловушка",
-					"description": "<p class=\"Нарратив\">Существо по которому <span class=\"Успех\">попали</span> <span class=\"Атака\">атакой</span> <span class=\"Список\">паутины</span> становится @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвиженным} и прилипает к ближайшей поверхности, пока не @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырвется}<span data-visibility=\"gm\">КС17</span>.</p>"
+					"description": "<p>Существо по которому <span class=\"Успех\">попали</span> <span class=\"Атак\">атакой</span> <span class=\"Список\">Паутины</span> становится @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвиженным} и прилипает к ближайшей поверхности, пока не @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырвется}<span data-visibility=\"gm\">КС17</span>.</p>"
 				},
 				"Descend on a Web": {
-					"name": "Спустится на Паутине",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Паук-Охотник</span> движется прямо вниз на высоту до 40ФТ, подвешенный на паутине. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он спускается по паутине, <span class=\"НЕ\">не</span> считается <span class=\"Урон\">уроном от падения</span>.</p>\n<div data-visibility=\"gm\">\n<p>Существо, успешно ударяющее по паутине (КД 20, 8 ОЗ), разрывает ее, в результате чего паук падает.</p>\n</div>"
+					"name": "Спуск на Паутине",
+					"description": "<p><span class=\"Повтор\">Гиг.Паук</span> совершает <span class=\"Признак\">движение</span> строго вниз на расстояние до 40ФТ, удерживаемый нитью паутины. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он <span class=\"Повтор\">Спуск. на Паутине</span>, <span class=\"НЕ\">не считается</span> <span class=\"Урон\">уроном от падения</span>.</p>\n<div data-visibility=\"gm\">\n<p>Существо может @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} рассечь паутину (<span class=\"КБ\">КБ 20</span>, <span class=\"ОЗ\">8 ОЗ</span>), из-за чего <span class=\"Повтор\">Гиг.Паук</span> падает</p>\n</div>"
 				}
 			}
 		},

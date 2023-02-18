@@ -935,7 +935,7 @@
 				},
 				"6zbiPHhWaAV5pJd6": {
 					"name": "Извивающаяся Борода",
-					"description": "<div><span style=\"color: #236fa1;\"><strong>Частота: </strong></span>1/Раунд</div>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Барбазу</span> делает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Бородой</span>. Этот @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} игнорирует его <span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> и <span class=\"НЕ\">не</span> считается к этому штрафу.</p>"
+					"description": "<div><span style=\"color: #236fa1;\"><strong>Частота: </strong></span>1/Раунд</div>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Барбазу</span> делает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Бородой</span>. Этот @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} игнорирует его <span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> и <span class=\"НЕ\">не считается</span> к этому штрафу.</p>"
 				},
 				"GZ55vWFhwaHyhnfM": {
 					"name": "Авернальная Лихорадка",
@@ -1434,11 +1434,20 @@
 		},
 		{
 			"id": "Cinder Rat",
-			"name": "Cinder Rat",
-			"tokenName": "Cinder Rat",
+			"name": "Золовая Крыса",
+			"tokenName": "Золовая Крыса",
 			"tokenvision": true,
 			"tokendisplayBars": 40,
-			"tokendisplayName": 20
+			"tokendisplayName": 20,
+			"items": {
+				"SNb64KWDBMrTorTI": {
+					"name": "Челюсти"
+				},
+				"vhcrEIRKkfTwrwDs": {
+					"name": "Облако Золы",
+					"description": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]: @Template[type:emanation|distance:5]{5ФТ}</p>\n<hr>\n<p>&diams; Все существа в @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Ауре}, включая <span class=\"Повтор\">Золовую Крысу</span>, получают @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрытое} состояние от этого дыма.</p>\n<p>&diams; Существо, которое <span class=\"До\">входит или начинает свой ход</span> в @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Ауре}, должно преуспеть в <span class=\"КБ\">Спас.</span>@Check[type:fortitude|dc:22|showDC:gm]{СТК} или <span class=\"Эффект\">@UUID[Compendium.pf2e-ts-rub.effekty-raznoe.WOMGFPHbKH3zxjwj]{Получить}</span> @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} <span class=\"До\">на 1 Раунда</span>.</p>"
+				}
+			}
 		},
 		{
 			"id": "Clay Golem",
@@ -2602,7 +2611,7 @@
 				},
 				"Descend on a Web": {
 					"name": "Спустится на Паутине",
-					"description": "<p class=\"Нарратив\">Паук-Голиаф движется прямо вниз на высоту до 120фт, подвешенный на паутине. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он спускается по паутине, <span class=\"НЕ\">не</span> считается <span class=\"Урон\">уроном от падения</span>.</p>\n<div data-visibility=\"gm\">\n<p>Существо, успешно ударяющее по паутине (КД 20, Твердость 5, 20 ОЗ), разрывает ее, в результате чего паук падает.</p>\n</div>"
+					"description": "<p class=\"Нарратив\">Паук-Голиаф движется прямо вниз на высоту до 120фт, подвешенный на паутине. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он спускается по паутине, <span class=\"НЕ\">не считается</span> <span class=\"Урон\">уроном от падения</span>.</p>\n<div data-visibility=\"gm\">\n<p>Существо, успешно ударяющее по паутине (КД 20, Твердость 5, 20 ОЗ), разрывает ее, в результате чего паук падает.</p>\n</div>"
 				},
 				"Be8ZCKKmNDNPgCM0": {
 					"name": "Яд Паука-Голиафа",
@@ -3055,7 +3064,7 @@
 				},
 				"Descend on a Web": {
 					"name": "Спустится на Паутине",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Паук-Охотник</span> движется прямо вниз на высоту до 40ФТ, подвешенный на паутине. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он спускается по паутине, <span class=\"НЕ\">не</span> считается <span class=\"Урон\">уроном от падения</span>.</p>\n<div data-visibility=\"gm\">\n<p>Существо, успешно ударяющее по паутине (КД 20, Твердость 3, 5 ОЗ), разрывает ее, в результате чего паук падает.</p>\n</div>"
+					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Паук-Охотник</span> движется прямо вниз на высоту до 40ФТ, подвешенный на паутине. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он спускается по паутине, <span class=\"НЕ\">не считается</span> <span class=\"Урон\">уроном от падения</span>.</p>\n<div data-visibility=\"gm\">\n<p>Существо, успешно ударяющее по паутине (КД 20, Твердость 3, 5 ОЗ), разрывает ее, в результате чего паук падает.</p>\n</div>"
 				}
 			}
 		},
@@ -4235,11 +4244,7 @@
 			"items": {
 				"Swarming Bites": {
 					"name" : "Укусы Роя",
-					"description": "<p class=\"Нарратив\">Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Крыс</span> получает [[/r 1d6[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:gm|dc:17|basic:true]{Пр.РФЛ}</span></p>\n<div data-visibility=\"gm\">\n<p><span class=\"Провал\">Провалившее</span> существо подвергается <span class=\"Повтор\">Грязной Лихорадке</span>.</p>\n<hr>\n<p>Состояния @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота} и @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} от <span class=\"Повтор\">Грязной Лихорадки</span> не проходят сами по себе, пока не вылечена <span class=\"Признак\">болезнь</span>.</p>\n<p class=\"Заг2\"><span class=\"СТК\">Спас.@Check[type:fortitude|showDC:gm|dc:14|traits:secret]{СТК}</span></p>\n<p><span class=\"Успех\">Стадия 1</span>: Переносчик не имеет эффектов <span class=\"Признак\">болезни</span> (<span class=\"До\">[[1d4]] часа</span>)</p>\n<p><span class=\"ХАР\">Стадия 2</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (<span class=\"До\">1 День</span>)</p>\n<p><span class=\"ТЕЛ\">Стадия 3</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} (<span class=\"До\">1 День</span>),</p>\n<p><span class=\"Провал\">Стадия 4</span>: @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} (<span class=\"До\">1 День</span>)</p>\n<p><span class=\"Критпровал\">Стадия 5</span>: Смерть</p>\n</div>"
-				},
-				"DiGgJNOY5Na3eYp8": {
-					"name" : "Грязная Лихорадка",
-					"description": "<p class=\"Заг2\"><span class=\"СТК\">Спас.@Check[type:fortitude|showDC:gm|dc:14|traits:secret]{СТК}</span></p>\n<div data-visibility=\"gm\">\n<p>Состояния @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота} и @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} от <span class=\"Повтор\">Грязной Лихорадки</span> не проходят сами по себе, пока не вылечена <span class=\"Признак\">болезнь</span>.</p>\n<p><span class=\"Успех\">Стадия 1</span>: Переносчик не имеет эффектов <span class=\"Признак\">болезни</span> (<span class=\"До\">[[1d4]] часа</span>)</p>\n<p><span class=\"ХАР\">Стадия 2</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (<span class=\"До\">1 День</span>)</p>\n<p><span class=\"ТЕЛ\">Стадия 3</span>: @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} (<span class=\"До\">1 День</span>),</p>\n<p><span class=\"Провал\">Стадия 4</span>: @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без Сознания} (<span class=\"До\">1 День</span>)</p>\n<p><span class=\"Критпровал\">Стадия 5</span>: Смерть</p>\n</div>"
+					"description": "<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Крыс</span> получает [[/r 1d6[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:gm|dc:17|basic:true]{Пр.РФЛ}</span></p>\n<div data-visibility=\"gm\">\n<p><span class=\"Провал\">Провалившее</span> существо подвергается <span class=\"Повтор\">Грязной Лихорадке</span>.</p></div>"
 				}
 			}
 		},
