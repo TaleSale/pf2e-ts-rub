@@ -19,6 +19,7 @@
         },
         "skillActions": {
             "Title": "Действия Навыков",
+            "assuranceLabel": "Уверенность",
             "Settings": {
                 "Position": {
                     "name": "Позиция Действий Навыков",
@@ -46,9 +47,20 @@
                 },
                 "variants": {
                     "createADiversion": {
-                        "distractingWords": "Distracting Words",
-                        "gesture": "Gesture",
-                        "trick": "Trick"
+                        "distractingWords": "Слово",
+                        "gesture": "Жест",
+                        "trick": "Трюк"
+                    },
+                    "perform": {
+                        "acting": "Актерская Игра",
+                        "comedy": "Комедия",
+                        "dance": "Танец",
+                        "keyboards": "Клавишные",
+                        "oratory": "Красноречие",
+                        "percussion": "Перкуссия",
+                        "singing": "Пение",
+                        "strings": "Струнные",
+                        "winds": "Духовые"
                     }
                 }
             },
@@ -78,6 +90,8 @@
                         "hint": "Whether to show if the selected actor has the best bonus in the Basic Action Macros dialog"
                     }
                 },
+                "macroNotFound": "Macro {macroName} not found",
+                "compendiumNotFound": "Compendium {compendiumName} not found",
                 "actions": {
                     "AidToggle": "(Эффект) Помощь",
                     "AvoidNotice": "СКР: Избег.Обнаруж.",
@@ -85,15 +99,16 @@
                     "Climb": "АТЛ: Карабкаться",
                     "Coerce": "ЗПГ: Принуждение",
                     "CommandAnAnimal": "ПРД: Команда Животному",
+                    "ConcealAnObject": "СКР: Скрыть Объект",
                     "Craft": "РМС: Создание",
                     "CreateADiversionGesture": "ОБМ: Отвлечь - Жест",
                     "CreateADiversionTrick": "ОБМ: Отвлечь - Слово",
-                    "DecipherWritingArcana": "Decipher writing - Arcana",
-                    "DecipherWritingOccultism": "Decipher writing - Occultism",
-                    "DecipherWritingReligion": "Decipher writing - Religion",
-                    "DecipherWritingSociety": "Decipher writing - Society",
+                    "DecipherWritingArcana": "Расшиф.Текста - АРК",
+                    "DecipherWritingOccultism": "Расшиф.Текста - ОКК",
+                    "DecipherWritingReligion": "Расшиф.Текста - РЕЛ",
+                    "DecipherWritingSociety": "Расшиф.Текста - ОБЩ",
                     "Demoralize": "ЗПГ: Деморализовать",
-                    "DisableDevice": "DisableDevice",
+                    "DisableDevice": "ВОР: Отключ.Устройства",
                     "Disarm": "АТЛ: Разоружение",
                     "Feint": "ОБМ: Финт",
                     "FollowTheExpertToggle": "(Эффект) Повторять",
@@ -107,7 +122,8 @@
                     "Lie": "ОБМ: Лгать",
                     "MakeAnImpression": "ДИП: Впечатление",
                     "ManeuverInFlight": "АКР: Маневр в Полете",
-                    "Perform": "Perform",
+                    "PalmAnObject": "ЛОВ: Ловкость Рук",
+                    "Perform": "ВЫС: Выступить",
                     "PickALock": "ВОР: Вскрытие Замка",
                     "RaiseAShieldToggle": "(Эффект) Поднять Щит",
                     "RecallKnowledge": "(Макрос) Вспом.Информ.",
@@ -119,8 +135,9 @@
                     "Shove": "АТЛ: Толкнуть",
                     "Sneak": "СКР: Красться",
                     "Squeeze": "АКР: Протиснуться",
-                     "SubsistSociety": "Subsist - Society",
-                    "SubsistSurvival": "Subsist - Survival",
+                    "Steal": "ВОР: Украсть",
+                    "SubsistSociety": "Проживание - ОБЩ",
+                    "SubsistSurvival": "Проживание - ВЫЖ",
                     "Swim": "АТЛ: Плыть",
                     "TakeCoverToggle": "(Эффект) Укрытие",
                     "Track": "ВЫЖ: Выслеживать",
