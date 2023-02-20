@@ -38,23 +38,23 @@
 				},
 				"Burrowed Ambush": {
 					"name": "Закопавшееся Засада",
-					"description": "<p class=\"Нарратив\"><span class=\"Треб\">Требования</span>: Айгамуха @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятан} в грязи, песке или другой мягкой поверхности</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> по существу в пределах досягаемости. При <span class=\"Успех\">попдании</span>, то <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> автоматически @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Захватывает} существо.</p>\n<p>Попадёт он или нет, <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> затем @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}. Если он @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватил} существо, оно перемещается вместе с <span style=\"text-decoration: underline; color: #34495e;\">Айгамухой</span>.</p>"
+					"description": "<p><span class=\"Треб\">Требования</span>: Айгамуха @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Спрятан} в грязи, песке или другой мягкой поверхности</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span> по существу в пределах досягаемости. При <span class=\"Успех\">попдании</span>, то <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> автоматически @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Захватывает} существо.</p>\n<p>Попадёт он или нет, <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> затем @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}. Если он @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватил} существо, оно перемещается вместе с <span style=\"text-decoration: underline; color: #34495e;\">Айгамухой</span>.</p>"
 				},
 				"Burrowing Concealment": {
 					"name": "Закопаться",
-					"description": "<p class=\"Нарратив\"><span class=\"Треб\">Требования</span>: Айгамуха стоит на грязь, песке, или другую мягкую поверхность;</p>\n<hr />\n<p>Айгамуха быстро проникает в поверхность и @Check[type:stealth]{Скрывается}. Они оставляют ноги частично открытыми, что позволяет им видеть с поверхности. При этом айгамукса могут задерживать дыхание <span class=\"До\">на 10 минут</span>.</p>"
+					"description": "<p><span class=\"Треб\">Требования</span>: Айгамуха стоит на грязь, песке, или другую мягкую поверхность;</p>\n<hr />\n<p>Айгамуха быстро проникает в поверхность и @Check[type:stealth]{Скрывается}. Они оставляют ноги частично открытыми, что позволяет им видеть с поверхности. При этом айгамукса могут задерживать дыхание <span class=\"До\">на 10 минут</span>.</p>"
 				},
 				"Swallow Whole": {
 					"name": "Проглотить Целиком",
-					"description": "<p class=\"Нарратив\"><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Размер\">Средний</span></p>\n<p><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {2d12+4}[bludgeoning]]]{2d12+4 Дробящий}</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #a52a2a;\"><strong>Разрыв: </strong></span>22</p>\n</div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+					"description": "<p><span style=\"color: #169179;\"><strong>Размер:</strong></span> <span class=\"Размер\">Средний</span></p>\n<p><span style=\"color: #e03e2d;\"><strong>Урон:</strong></span> [[/r {2d12+4}[bludgeoning]]]{2d12+4 Дробящий}</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #a52a2a;\"><strong>Разрыв: </strong></span>22</p>\n</div>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
 				},
 				"Limited Vision": {
 					"name": "Ограниченное Зрение",
-					"description": "<p class=\"Нарратив\">Глаза <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> расположены на ступнях, из-за чего ему трудно смотреть. Айгамукса обычно @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Слеп}. Если он совершает @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиск}, то может нормально видеть только <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span>.</p>"
+					"description": "<p>Глаза <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> расположены на ступнях, из-за чего ему трудно смотреть. Айгамукса обычно @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Слеп}. Если он совершает @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиск}, то может нормально видеть только <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span>.</p>"
 				},
 				"Weak Feet": {
 					"name": "Слабые Ноги",
-					"description": "<p class=\"Нарратив\">Если <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> получает урон от @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещения} или @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шага} по опасной местности или квадрату с подобным эффектом<span style=\"background-color: #aaaaaa;\"> </span>(например, калтропы), он не может совершать @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиск} <span class=\"До\">до конца своего след.хода</span>.</p>"
+					"description": "<p>Если <span style=\"text-decoration: underline; color: #34495e;\">Айгамуха</span> получает урон от @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещения} или @Compendium[pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шага} по опасной местности или квадрату с подобным эффектом<span style=\"background-color: #aaaaaa;\"> </span>(например, калтропы), он не может совершать @Compendium[pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиск} <span class=\"До\">до конца своего след.хода</span>.</p>"
 				}
 				}
 		},
@@ -175,11 +175,11 @@
 				},
 				"Blood Fury": {
 					"name": "Кровавая Ярость",
-					"description": "<p class=\"Нарратив\">Чарау-Ка слизывает кровь со своего оружия пока находится в <span class=\"Рес\">ярости</span>.</p>\n<hr />\n<p><span class=\"Триг\">Триггер</span>: <span style=\"text-decoration: underline; color: #34495e;\">Мясник Чарау-Ка</span> наносит существу урон <span style=\"text-decoration: underline; color: #34495e;\">кровотечением</span>.</p>\n<hr />\n<p>Он восстанавливает 5 HP и получает бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">броскам атаки</span> <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span>.</p>"
+					"description": "<p>Чарау-Ка слизывает кровь со своего оружия пока находится в <span class=\"Рес\">ярости</span>.</p>\n<hr />\n<p><span class=\"Триг\">Триггер</span>: <span style=\"text-decoration: underline; color: #34495e;\">Мясник Чарау-Ка</span> наносит существу урон <span style=\"text-decoration: underline; color: #34495e;\">кровотечением</span>.</p>\n<hr />\n<p>Он восстанавливает 5 HP и получает бонус <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">броскам атаки</span> <span style=\"text-decoration: underline; color: #000080;\"><em>до конца своего хода</em></span>.</p>"
 				},
 				"Mauler": {
 					"name": "Мясник",
-					"description": "<p class=\"Нарратив\">Пока <span style=\"text-decoration: underline; color: #236fa1;\">Мясник Чарау-Ка</span> в <span class=\"Рес\">Ярости</span>, его удары в ближнем бою наносят @Localize[PF2E.PD.Bleed.1d4].</p>"
+					"description": "<p>Пока <span style=\"text-decoration: underline; color: #236fa1;\">Мясник Чарау-Ка</span> в <span class=\"Рес\">Ярости</span>, его удары в ближнем бою наносят @Localize[PF2E.PD.Bleed.1d4].</p>"
 				}
 				}
 		},
@@ -211,7 +211,7 @@
 				},
 				"Size Alteration": {
 					"name": "Изменение Размера",
-					"description": "<p class=\"Нарратив\">Элоко повторяет на себя эффект заклинания <span style=\"color: #236fa1;\"><strong>Усил.4:</strong></span>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{Увеличение}.</p>\n<p>Это <span style=\"color: #808000;\"><strong>длится</strong></span> 1 минуту, и элоко может @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Развеять} заклинание.</p>"
+					"description": "<p>Элоко повторяет на себя эффект заклинания <span style=\"color: #236fa1;\"><strong>Усил.4:</strong></span>@Compendium[pf2e.spells-srd.wzctak6BxOW8xvFV]{Увеличение}.</p>\n<p>Это <span style=\"color: #808000;\"><strong>длится</strong></span> 1 минуту, и элоко может @Compendium[pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Развеять} заклинание.</p>"
 				}
 				}
 		},

@@ -35,11 +35,11 @@
 		"items": {
 			"Spore Explosion": {
 				"name": "Взрыв Спор",
-				"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо попадает в пространство плесени или наносит ей урон. Грибок не может использовать эту <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, если находится на прямом солнечном свете или если урон был огненный.</p>\n<hr />\n<p><span style=\"color: #e03e2d;\"><strong>Спровоцировавшее</strong></span> существо и все существа в пределах @Template[type:emanation|distance:10] подвергаются спорам желтой плесени.</p>"
+				"description": "<p><span class=\"Триг\">Триггер</span>: Существо попадает в пространство плесени или наносит ей урон. Грибок не может использовать эту <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, если находится на прямом солнечном свете или если урон был огненный.</p>\n<hr />\n<p><span style=\"color: #e03e2d;\"><strong>Спровоцировавшее</strong></span> существо и все существа в пределах @Template[type:emanation|distance:10] подвергаются спорам желтой плесени.</p>"
 			},
 			"Yellow Mold Spores": {
 				"name": "Споры Жёлтой Плесени",
-				"description": "<p class=\"Нарратив\">Любое полученное от спор состояние истощен, остается после завершения продолжительности яда.</p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:26]</p>\n<hr />\n<div data-visibility=\"gm\">\n<p><span style=\"color: #808000;\"><strong>Макс. Продолж.:</strong></span> 6 раундов</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия: 1</strong></span> [[/r 1d8[poison]]]{1d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия: 2</strong></span> [[/r 2d8[poison]]]{2d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия: 3</strong></span> [[/r 3d8[poison]]]{3d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 3} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+				"description": "<p>Любое полученное от спор состояние истощен, остается после завершения продолжительности яда.</p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:26]</p>\n<hr />\n<div data-visibility=\"gm\">\n<p><span style=\"color: #808000;\"><strong>Макс. Продолж.:</strong></span> 6 раундов</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия: 1</strong></span> [[/r 1d8[poison]]]{1d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия: 2</strong></span> [[/r 2d8[poison]]]{2d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия: 3</strong></span> [[/r 3d8[poison]]]{3d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 3} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
 			}
 		}
 	},
@@ -59,11 +59,11 @@
 		"items": {
 			"Spore Explosion": {
 				"name": "Взрыв Спор",
-				"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо попадает в пространство плесени или наносит ей урон. Грибок не может использовать эту <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, если находится на прямом солнечном свете или если урон был огненный.</p>\n<hr />\n<p><span style=\"color: #e03e2d;\"><strong>Спровоцировавшее</strong></span> существо и все существа в пределах @Template[type:emanation|distance:10] подвергаются спорам желтой плесени.</p>"
+				"description": "<p><span class=\"Триг\">Триггер</span>: Существо попадает в пространство плесени или наносит ей урон. Грибок не может использовать эту <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>, если находится на прямом солнечном свете или если урон был огненный.</p>\n<hr />\n<p><span style=\"color: #e03e2d;\"><strong>Спровоцировавшее</strong></span> существо и все существа в пределах @Template[type:emanation|distance:10] подвергаются спорам желтой плесени.</p>"
 			},
 				"Yellow Mold Spores": {
 				"name": "Споры Жёлтой Плесени",
-				"description": "<p class=\"Нарратив\">Любое полученное от спор состояние истощен, остается после завершения продолжительности яда.</p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:26]</p>\n<hr />\n<div data-visibility=\"gm\">\n<p><span style=\"color: #808000;\"><strong>Макс. Продолж.:</strong></span> 6 раундов</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия: 1</strong></span> [[/r 1d8[poison]]]{1d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия: 2</strong></span> [[/r 2d8[poison]]]{2d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия: 3</strong></span> [[/r 3d8[poison]]]{3d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 3} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+				"description": "<p>Любое полученное от спор состояние истощен, остается после завершения продолжительности яда.</p>\n<p class=\"Заг2\">@Check[type:fortitude|dc:26]</p>\n<hr />\n<div data-visibility=\"gm\">\n<p><span style=\"color: #808000;\"><strong>Макс. Продолж.:</strong></span> 6 раундов</p>\n<p><span style=\"color: #a52a2a;\"><strong>Стадия: 1</strong></span> [[/r 1d8[poison]]]{1d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #ba372a;\"><strong>Стадия: 2</strong></span> [[/r 2d8[poison]]]{2d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2} (<span class=\"До\">1 Раунд</span>)</p>\n<p><span style=\"color: #e03e2d;\"><strong>Стадия: 3</strong></span> [[/r 3d8[poison]]]{3d8 Яд} и @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 3} (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
 			}
 		}
 	},
@@ -84,7 +84,7 @@
 		"items": {
 			"Pitfall": {
 				"name": "Падение в Яму",
-				"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо проходит по люку</p>\n<hr />\n<p><span style=\"color: #e03e2d;\"><strong>Спровоцировавшее</strong></span> существо падает в яму и получает <span class=\"Урон\">Урон от падения</span> (обычно [[/r 10[bludgeoning]]]{10 Дробящ.}). Это существо может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span> @Compendium[pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Схватиться за Уступ}, чтобы избежать падения.</p>"
+				"description": "<p><span class=\"Триг\">Триггер</span>: Существо проходит по люку</p>\n<hr />\n<p><span style=\"color: #e03e2d;\"><strong>Спровоцировавшее</strong></span> существо падает в яму и получает <span class=\"Урон\">Урон от падения</span> (обычно [[/r 10[bludgeoning]]]{10 Дробящ.}). Это существо может использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span> @Compendium[pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Схватиться за Уступ}, чтобы избежать падения.</p>"
 			}
 		}
 	},
@@ -107,7 +107,7 @@
 			},
 			"Spring": {
 				"name": "Пружина",
-				"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо пытается отпереть замок или использовать @Compendium[pf2e.actionspf2e.2EE4aF4SZpYf0R6H]{Вскрытие Замка}</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Шип</span> выдвигается, чтобы @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударить} <span style=\"color: #e03e2d;\"><strong>спровоцировавшее</strong></span> существо</p>"
+				"description": "<p><span class=\"Триг\">Триггер</span>: Существо пытается отпереть замок или использовать @Compendium[pf2e.actionspf2e.2EE4aF4SZpYf0R6H]{Вскрытие Замка}</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Шип</span> выдвигается, чтобы @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударить} <span style=\"color: #e03e2d;\"><strong>спровоцировавшее</strong></span> существо</p>"
 			},
 			"Cladis Poison": {
 				"name": "Яд Кладис",
@@ -132,7 +132,7 @@
 			},
 			"VNaaW87S24zzxXZh": {
 				"name": "Петля (Улуч.Захват)",
-				"description": "<p class=\"Нарратив\">При <span style=\"color: #169179;\"><strong>попадание </strong></span>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} цель автоматически @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватывается} и отрывается от земли.</p>\n<div data-visibility=\"gm\">\n<p>@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться КС22}</p>\n</div>\n<p>Цель получает [[/r 1d6[bludgeoning]]]{1d6 Дробящий} <span style=\"text-decoration: underline; color: #000080;\"><em>в конце каждого своего хода</em></span>, пока она поймана в петлю.</p>"
+				"description": "<p>При <span style=\"color: #169179;\"><strong>попадание </strong></span>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} цель автоматически @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватывается} и отрывается от земли.</p>\n<div data-visibility=\"gm\">\n<p>@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться КС22}</p>\n</div>\n<p>Цель получает [[/r 1d6[bludgeoning]]]{1d6 Дробящий} <span style=\"text-decoration: underline; color: #000080;\"><em>в конце каждого своего хода</em></span>, пока она поймана в петлю.</p>"
 			}
 		}
 	},
@@ -151,7 +151,7 @@
 		"items": {
 			"NcyiM0WihYrncbSF": {
 				"name": "Выделение Холода",
-				"description": "<p class=\"Нарратив\">@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]@Template[type:emanation|distance:5]{5 фт}</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Коричневая Плесень</span> наносит [[/r 2d6[cold]]]{2d6 Холода} существам поблизости.</p>"
+				"description": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]@Template[type:emanation|distance:5]{5 фт}</p>\n<hr />\n<p><span style=\"text-decoration: underline; color: #34495e;\">Коричневая Плесень</span> наносит [[/r 2d6[cold]]]{2d6 Холода} существам поблизости.</p>"
 			},
 			"MQ3CKYIdF6zrMg0x": {
 				"name": "Выкачивание Тепла",

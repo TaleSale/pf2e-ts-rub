@@ -36,11 +36,11 @@
 				},
 				"v90WRjELLiKF57vr": {
 					"name": "Челюсти",
-					"description": "<p class=\"Нарратив\"><span class=\"Треб\">Требования</span>: У <span class=\"Повтор\">Зомби</span> есть @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое} существо.</p>"
+					"description": "<p><span class=\"Треб\">Требования</span>: У <span class=\"Повтор\">Зомби</span> есть @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} или @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое} существо.</p>"
 				},
 				"eulyI60JHNUYs39w": {
 					"name": "Медлительный",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
+					"description": "<p><span class=\"Повтор\">Зомби</span> навсегда @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и <span class=\"НЕ\">не может</span> использовать <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span>.</p>"
 				}
 			}
 		},
@@ -65,7 +65,7 @@
 			"id": "Ghoul (BB)",
 			"name": "Гуль (BB)",
 			"tokenName": "Гуль",
-			"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гули</span> - хищная <span class=\"Признак\">Нежить</span>, которая обитает на кладбищах и питается трупами.</p>\n<hr />\n<p>Мало кто из существ столь повсеместны в зловещих местах, подобным одиноким кладбищам и разрушенным склепам, как плотоядная <span class=\"Признак\">Нежить</span>, известная как <span class=\"Признак2\"><span class=\"Признак1\">гули</span></span>.</p>",
+			"description": "<p><span class=\"Повтор\">Гули</span> - хищная <span class=\"Признак\">Нежить</span>, которая обитает на кладбищах и питается трупами.</p>\n<hr />\n<p>Мало кто из существ столь повсеместны в зловещих местах, подобным одиноким кладбищам и разрушенным склепам, как плотоядная <span class=\"Признак\">Нежить</span>, известная как <span class=\"Признак2\"><span class=\"Признак1\">гули</span></span>.</p>",
 			"items": {
 				"XJHXZOImLOORwInT": {
 					"name": "Челюсти"
@@ -79,11 +79,11 @@
 				},
 				"rvraBop9oOSwcjkq": {
 					"name": "Резкий Прыжок ",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гуль</span> прыгает вплоть до своей <span class=\"Скор\">Скорости/2</span>. Это <span class=\"Признак\">движение</span> <span class=\"НЕ\">не</span> спровоцирует <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
+					"description": "<p><span class=\"Повтор\">Гуль</span> прыгает вплоть до своей <span class=\"Скор\">Скорости/2</span>. Это <span class=\"Признак\">движение</span> <span class=\"НЕ\">не</span> спровоцирует <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
 				},
 				"9TCF9GcaMoTKkPSj": {
 					"name": "Паралич",
-					"description": "<p class=\"Нарратив\">Любое <span class=\"Признак\">Живое</span> существо (кроме <span class=\"Признак2\"><span class=\"Признак1\">эльфа</span></span>), получившее <span class=\"Урон\">урон</span> от @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span class=\"Повтор\">гуля</span>, должно преуспеть в <span class=\"СТК\">@Check[type:fortitude|dc:15|showDC:owner]{Спас.СТК}</span> или получить @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} <span class=\"До\">до конца своего след.хода</span>.</p>\n<p>Если существо <span class=\"Класс\">3 Уровня</span> или выше, это происходит только при <span class=\"Критпровал\">крит.провале</span>.</p>"
+					"description": "<p>Любое <span class=\"Признак\">Живое</span> существо (кроме <span class=\"Признак2\"><span class=\"Признак1\">эльфа</span></span>), получившее <span class=\"Урон\">урон</span> от @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span class=\"Повтор\">гуля</span>, должно преуспеть в <span class=\"СТК\">@Check[type:fortitude|dc:15|showDC:owner]{Спас.СТК}</span> или получить @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} <span class=\"До\">до конца своего след.хода</span>.</p>\n<p>Если существо <span class=\"Класс\">3 Уровня</span> или выше, это происходит только при <span class=\"Критпровал\">крит.провале</span>.</p>"
 				}
 			}
 		},
@@ -99,11 +99,11 @@
 				},
 				"4gkC6A8D27Jzv7nH": {
 					"name": "Широкий Размах",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гиг.Скелет</span> совершает два @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span class=\"Список\">Глефой</span> по двум соседним врагам, оба из которых находятся в пределах <span class=\"Атака\">досягаемости</span>.</p>\n<hr />\n<p><span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> не увеличивается до тех пор, пока не будут совершены обе атаки.</p>"
+					"description": "<p><span class=\"Повтор\">Гиг.Скелет</span> совершает два @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span class=\"Список\">Глефой</span> по двум соседним врагам, оба из которых находятся в пределах <span class=\"Атака\">досягаемости</span>.</p>\n<hr />\n<p><span class=\"ШМА\" data-tooltip=\"Штраф Множественной Атаки\">Штраф Множ.Атак</span> не увеличивается до тех пор, пока не будут совершены обе атаки.</p>"
 				},
 				"emPcqeSFXdyr6CgV": {
 					"name": "Ужасающий Рывок",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гиг.Скелет</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Передвигается} и наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span class=\"Список\">Рогами</span> с бонусом <span class=\"Обстоятельства\">Обстоятельства</span> +4 к урону.</p>\n<p>Если @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span class=\"Успех\">попадает</span> в цель, <span class=\"Повтор\">Гиг.Скелет</span> пытается @Compendium[pf2e.action-macros.nEwqNNWX6scLt4sc]{Деморализовать}<span class=\"Тел\">@Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{*}</span> цель.</p>"
+					"description": "<p><span class=\"Повтор\">Гиг.Скелет</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Передвигается} и наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span class=\"Список\">Рогами</span> с бонусом <span class=\"Обстоятельства\">Обстоятельства</span> +4 к урону.</p>\n<p>Если @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span class=\"Успех\">попадает</span> в цель, <span class=\"Повтор\">Гиг.Скелет</span> пытается @Compendium[pf2e.action-macros.nEwqNNWX6scLt4sc]{Деморализовать}<span class=\"Тел\">@Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{*}</span> цель.</p>"
 				}
 			}
 		},
@@ -119,11 +119,11 @@
 				},
 				"Kpl3lLjfHM0hWhT5": {
 					"name": "Финальная Злость",
-					"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: <span class=\"ОЗ\">ОЗ</span> <span class=\"Повтор\">Умертвия</span> снижены до 0</p>\n<hr />\n<p>Перед уничтожением <span class=\"Повтор\">Умертвие</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]. При этом @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударе}, оно не получает <span class=\"ОЗ\">Врем.ОЗ</span> от <span class=\"Повтор\">Истощ.Жизни</span>.</p>"
+					"description": "<p><span class=\"Триг\">Триггер</span>: <span class=\"ОЗ\">ОЗ</span> <span class=\"Повтор\">Умертвия</span> снижены до 0</p>\n<hr />\n<p>Перед уничтожением <span class=\"Повтор\">Умертвие</span> наносит @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]. При этом @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударе}, оно не получает <span class=\"ОЗ\">Врем.ОЗ</span> от <span class=\"Повтор\">Истощ.Жизни</span>.</p>"
 				},
 				"v2Ifd6tb1IDRFqFO": {
 					"name": "Истощение Жизни",
-					"description": "<p class=\"Нарратив\">Когда <span class=\"Повтор\">Умертвие</span> наносит <span class=\"Признак2\"><span class=\"Признак1\">живому</span></span> существу урон своим @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span class=\"Список\">Когтями</span>, то получает <span class=\"ОЗ\">[[/r 3[healing]]]{3}Врем.ОЗ</span> и существо должно совершить успешный <span class=\"СТК\">Спас.@Check[type:fortitude|dc:17|showDC:owner|traits:divine,necromancy]{СТК}</span>, иначе будет @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1}.</p>\n<hr />\n<p>Дальнейший урон, наносимый <span class=\"Повтор\">умертвием</span>, при <span class=\"Провал\">Провал</span> <span class=\"СТК\">Спас.</span> <span class=\"Увелич\">увелич.</span> состояние @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен} на 1, до максимального @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 4}.</p>"
+					"description": "<p>Когда <span class=\"Повтор\">Умертвие</span> наносит <span class=\"Признак2\"><span class=\"Признак1\">живому</span></span> существу урон своим @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span class=\"Список\">Когтями</span>, то получает <span class=\"ОЗ\">[[/r 3[healing]]]{3}Врем.ОЗ</span> и существо должно совершить успешный <span class=\"СТК\">Спас.@Check[type:fortitude|dc:17|showDC:owner|traits:divine,necromancy]{СТК}</span>, иначе будет @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 1}.</p>\n<hr />\n<p>Дальнейший урон, наносимый <span class=\"Повтор\">умертвием</span>, при <span class=\"Провал\">Провал</span> <span class=\"СТК\">Спас.</span> <span class=\"Увелич\">увелич.</span> состояние @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен} на 1, до максимального @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 4}.</p>"
 				}
 			}
 		},
@@ -219,7 +219,7 @@
 			"items": {
 				"OgkLVLhW0uOMdbGj": {
 					"name": "Строй",
-					"description": "<p class=\"Нарратив\">&diams; Когда он рядом с хотя бы 2 другими союзниками, хобгоблин получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +1 к <span class=\"КБ\">КБ</span> и спасброскам.</p>\n<p>&diams; Этот бонус увеличивается до +2 для <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> от эффектов по области.</p>"
+					"description": "<p>&diams; Когда он рядом с хотя бы 2 другими союзниками, хобгоблин получает бонус <span class=\"Обстоятельства\">Обстоятельства</span> +1 к <span class=\"КБ\">КБ</span> и спасброскам.</p>\n<p>&diams; Этот бонус увеличивается до +2 для <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> от эффектов по области.</p>"
 				}
 			}
 		},
@@ -235,7 +235,7 @@
 				},
 				"Bushwhack": {
 					"name": "Атака из Скрытности",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Багбер-Бандит</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} вплоть до 10ФТ и пытается @Compendium[pf2e.action-macros.i95kcGLIQKOTsnv6]{Захватить}@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{*} существо, для которого он являются @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Невидимым}.</p>\n<p>Если @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD] <span class=\"Успех\">успешно</span>, он также наносит <span class=\"Урон\">урон</span> <span class=\"Список\">Кулаком</span> этому существу.</p>"
+					"description": "<p><span class=\"Повтор\">Багбер-Бандит</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} вплоть до 10ФТ и пытается @Compendium[pf2e.action-macros.i95kcGLIQKOTsnv6]{Захватить}@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{*} существо, для которого он являются @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Невидимым}.</p>\n<p>Если @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD] <span class=\"Успех\">успешно</span>, он также наносит <span class=\"Урон\">урон</span> <span class=\"Список\">Кулаком</span> этому существу.</p>"
 				}
 			}
 		},
@@ -262,11 +262,11 @@
 			"items": {
 				"uEjliLhQWBsVYCsE": {
 					"name": "Терзать",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Леопард</span> совершает 2 @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span class=\"Список\">Когтями</span> по @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченному} им существу.</p>\n<hr />\n<p>Оба @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} считаются к его <span class=\"ШМА\"><strong>Штрафу Множест.Атаки</span>, но штраф увеличивается только после завершения обоих атак.</p>"
+					"description": "<p><span class=\"Повтор\">Леопард</span> совершает 2 @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <span class=\"Список\">Когтями</span> по @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченному} им существу.</p>\n<hr />\n<p>Оба @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} считаются к его <span class=\"ШМА\"><strong>Штрафу Множест.Атаки</span>, но штраф увеличивается только после завершения обоих атак.</p>"
 				},
 				"8Hc25NUrYBwSHQuO": {
 					"name": "Внезапная Атака (1d4)",
-					"description": "<p class=\"Нарратив\">@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
+					"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
 				},
 				"lOUQcokkfOtGgPNG": {
 					"name": "Челюсти"
@@ -276,7 +276,7 @@
 				},
 				"5o4Qh26axxAvJeUp": {
 					"name": "Захват",
-					"description": "<p class=\"Нарратив\">@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+					"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
 				}
 			}
 		},
@@ -324,7 +324,7 @@
 				},
 				"Dragonscaled": {
 					"name": "Чешуя Дракона",
-					"description": "<p class=\"Нарратив\"><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
+					"description": "<p><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
 				},
 				"Illusory Retreat": {
 					"name": "Иллюзорное Отступление",
@@ -347,7 +347,7 @@
 				},
 				"Dragonscaled": {
 					"name": "Чешуя Дракона",
-					"description": "<p class=\"Нарратив\"><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
+					"description": "<p><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
 				},
 				"Illusory Retreat": {
 					"name": "Иллюзорное Отступление",
@@ -370,7 +370,7 @@
 				},
 				"Dragonscaled": {
 					"name": "Чешуя Дракона",
-					"description": "<p class=\"Нарратив\"><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
+					"description": "<p><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
 				},
 				"Illusory Retreat": {
 					"name": "Иллюзорное Отступление",
@@ -393,7 +393,7 @@
 				},
 				"Dragonscaled": {
 					"name": "Чешуя Дракона",
-					"description": "<p class=\"Нарратив\"><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
+					"description": "<p><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
 				},
 				"Illusory Retreat": {
 					"name": "Иллюзорное Отступление",
@@ -416,7 +416,7 @@
 				},
 				"Dragonscaled": {
 					"name": "Чешуя Дракона",
-					"description": "<p class=\"Нарратив\"><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
+					"description": "<p><span class=\"Сопр\">Сопротивление</span> <span class=\"Повтор\">Кобольда-Дракоманта</span> зависит от цвета его чешуи:</p>\n<ul>\n<li><span style=\"color: #000000;\"><strong>Черный:</strong></span> Кислота/5</li>\n<li><span style=\"color: #236fa1;\"><strong>Синий:</strong></span> Электричество/5</li>\n<li><span style=\"color: #169179;\"><strong>Зелёный:</strong></span> Яд/5</li>\n<li><span style=\"color: #e03e2d;\"><strong>Красный:</strong></span> Огонь/5</li>\n<li><span style=\"color: #7e8c8d;\"><strong>Белый:</strong></span> Холод/5</li>\n</ul>"
 				},
 				"Illusory Retreat": {
 					"name": "Иллюзорное Отступление",
@@ -496,15 +496,15 @@
 				},
 				"Mcbgf9KdTTBPuio6": {
 					"name": "Быстрая Ловушка",
-					"description": "<p class=\"Нарратив\">Кобольд-Ловчий устанавливает один @Compendium[pf2e.equipment-srd.3V2U720YhW2nyGVx] в соседней клетке.</p>"
+					"description": "<p>Кобольд-Ловчий устанавливает один @Compendium[pf2e.equipment-srd.3V2U720YhW2nyGVx] в соседней клетке.</p>"
 				},
 				"sXZ80MEcWSNN1Ct0": {
 					"name": "Силок с Шипами",
-					"description": "<p class=\"Нарратив\">Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая [[/r 2d8[piercing]]]{2d8 Колющего}.</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]{Пр.РФЛ}</strong></span></p>"
+					"description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая [[/r 2d8[piercing]]]{2d8 Колющего}.</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]{Пр.РФЛ}</strong></span></p>"
 				},
 				"fx6MEhp40JvDajQh": {
 					"name": "Силок с Шипами",
-					"description": "<p class=\"Нарратив\">Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая [[/r 2d8[piercing]]]{2d8 Колющего}.</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]{Пр.РФЛ}</strong></span></p>"
+					"description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая [[/r 2d8[piercing]]]{2d8 Колющего}.</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]{Пр.РФЛ}</strong></span></p>"
 				}
 			}
 		},
@@ -519,11 +519,11 @@
 				},
 				"Slink": {
 					"name": "Проскользнуть",
-					"description": "<p class=\"Нарратив\"><span class=\"Триг\">Триггер</span>: Существо заканчивает свое <span class=\"Признак\">движение</span> <span class=\"Атака\">рядом</span> с <span class=\"Повтор\">Гадюкой</span> или внутри ее <span class=\"Атака\">пространства</span></p>\n<hr>\n<p><span class=\"Повтор\">Гадюка</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкается} или @Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{Плывёт} вплоть до 10ФТ (или вплоть до соответствующей <span class=\"Скор\">Скорости</span>, если эта <span class=\"Скор\">Скорость</span> меньше 10ФТ). Она должна закончить это <span class=\"Признак\">движение</span> в месте, которое <span class=\"НЕ\">не</span> в пределах 5ФТ от <span class=\"Враг\">врага</span>.</p>\n<p>Это <span class=\"Признак\">движение</span> <span class=\"НЕ\">не</span> <span class=\"Триг\">спровоцирует</span> <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
+					"description": "<p><span class=\"Триг\">Триггер</span>: Существо заканчивает свое <span class=\"Признак\">движение</span> <span class=\"Атака\">рядом</span> с <span class=\"Повтор\">Гадюкой</span> или внутри ее <span class=\"Атака\">пространства</span></p>\n<hr>\n<p><span class=\"Повтор\">Гадюка</span> @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, @Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Карабкается} или @Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{Плывёт} вплоть до 10ФТ (или вплоть до соответствующей <span class=\"Скор\">Скорости</span>, если эта <span class=\"Скор\">Скорость</span> меньше 10ФТ). Она должна закончить это <span class=\"Признак\">движение</span> в месте, которое <span class=\"НЕ\">не</span> в пределах 5ФТ от <span class=\"Враг\">врага</span>.</p>\n<p>Это <span class=\"Признак\">движение</span> <span class=\"НЕ\">не</span> <span class=\"Триг\">спровоцирует</span> <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакции</span>.</p>"
 				},
 				"TnaXi3v3iBDjotwd": {
 					"name": "Яд Гадюки",
-					"description": "<p class=\"Нарратив\">Цель, раненная <span class=\"Список\">Клыками</span> <span class=\"Повтор\">Гадюки</span>, должна преуспеть в <span class=\"СТК\">Спас.@Check[type:fortitude|dc:16|showDC:owner|traits:poison]{СТК}</span> или получить [[/r 1d10[poison]]]{1d10} Ядом.</p>"
+					"description": "<p>Цель, раненная <span class=\"Список\">Клыками</span> <span class=\"Повтор\">Гадюки</span>, должна преуспеть в <span class=\"СТК\">Спас.@Check[type:fortitude|dc:16|showDC:owner|traits:poison]{СТК}</span> или получить [[/r 1d10[poison]]]{1d10} Ядом.</p>"
 				}
 			}
 		},
@@ -538,15 +538,15 @@
 					},
 				"Coiled Opportunity": {
 					"name": "Возможность Наброситься",
-					"description": "<p class=\"Нарратив\">Как @Compendium[pf2e.actionspf2e.KAVf7AmRnbCAHrkT]{Возможность для Атаки}, но <span class=\"Повтор\">Змея</span> может использовать эту <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span> только если <span class=\"Повтор\">Свернута</span>.</p>\n<hr>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+					"description": "<p>Как @Compendium[pf2e.actionspf2e.KAVf7AmRnbCAHrkT]{Возможность для Атаки}, но <span class=\"Повтор\">Змея</span> может использовать эту <span class=\"Действие\"><span class=\"pf2-icon\">5</span>реакцию</span> только если <span class=\"Повтор\">Свернута</span>.</p>\n<hr>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
 				},
 				"lqMgsu5wZAOsEwK2": {
 					"name": "Яд Гигантской Гадюки",
-					"description": "<p class=\"Нарратив\">Цель, раненная <span class=\"Список\">Клыками</span> <span class=\"Повтор\">Гадюки</span>, должна преуспеть в <span class=\"СТК\">Спас.@Check[type:fortitude|dc:17|showDC:owner|traits:poison]{СТК}</span> или получить [[/r 1d12[poison]]]{1d12} Ядом.</p>"
+					"description": "<p>Цель, раненная <span class=\"Список\">Клыками</span> <span class=\"Повтор\">Гадюки</span>, должна преуспеть в <span class=\"СТК\">Спас.@Check[type:fortitude|dc:17|showDC:owner|traits:poison]{СТК}</span> или получить [[/r 1d12[poison]]]{1d12} Ядом.</p>"
 				},
 				"Coil": {
 					"name": "Свернуться",
-					"description": "<p class=\"Нарратив\"><span class=\"Повтор\">Гигантская Гадюка</span> использует это <span class=\"Действие\">действие</span>, чтобы <span class=\"Рес\">Свернуться</span>, увеличивая <span class=\"Атака\">досягаемость</span> своей атаки <span class=\"Список\">Клыками</span> с 5 до 10ФТ.</p>\n<p>После того, как она @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударит} своими <span class=\"Список\">Клыками</span>, она перестает быть <span class=\"Рес\">Свернутой</span>.</p>"
+					"description": "<p><span class=\"Повтор\">Гигантская Гадюка</span> использует это <span class=\"Действие\">действие</span>, чтобы <span class=\"Рес\">Свернуться</span>, увеличивая <span class=\"Атака\">досягаемость</span> своей атаки <span class=\"Список\">Клыками</span> с 5 до 10ФТ.</p>\n<p>После того, как она @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударит} своими <span class=\"Список\">Клыками</span>, она перестает быть <span class=\"Рес\">Свернутой</span>.</p>"
 				}
 			}
 		},
@@ -604,7 +604,7 @@
 			"items": {
 				"yeHohyJSYfiTwghO": {
 					"name": "Боевой Клич Орка",
-					"description": "<p class=\"Нарратив\">Издавая мощный рев, <span class=\"Повтор\">Военачальник</span> дает себе и всем <span class=\"Союз\">союзным</span> <span class=\"Признак2\"><span class=\"Признак1\">оркам</span> </span> в радиусе 60ФТ, <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Бонус} <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">броскам атак</span> и <span class=\"Урон\">урона</span>, <span class=\"До\">до начала след.хода</span><span class=\"Повтор\">Военачальника</span> .</p>"
+					"description": "<p>Издавая мощный рев, <span class=\"Повтор\">Военачальник</span> дает себе и всем <span class=\"Союз\">союзным</span> <span class=\"Признак2\"><span class=\"Признак1\">оркам</span> </span> в радиусе 60ФТ, <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Бонус} <span class=\"Состояния\">Состояния</span> +1 к <span class=\"Атак\">броскам атак</span> и <span class=\"Урон\">урона</span>, <span class=\"До\">до начала след.хода</span><span class=\"Повтор\">Военачальника</span> .</p>"
 				},
 				"xDUpwWQaZevQOkYQ": {
 					"name": "Свирепость",
@@ -644,7 +644,7 @@
 			"items": {
 				"0c1Yjs4t9BKCpjmr": {
 					"name": "Падающие Камни",
-					"description": "<p class=\"Нарратив\">Когда существо ступает на клетку, ближайшую к северной двери, ловушка сбрасывает каменные блоки по всему коридору. Он наносит один @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по каждому существу между двумя дверьми.</p>"
+					"description": "<p>Когда существо ступает на клетку, ближайшую к северной двери, ловушка сбрасывает каменные блоки по всему коридору. Он наносит один @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по каждому существу между двумя дверьми.</p>"
 				},
 				"qG3VBB7HAWZksxvT": {
 					"name": "Падающие Блоки"
@@ -666,7 +666,7 @@
 			"items": {
 				"9yktjCbx8rbvpSZe": {
 					"name": "Залп Копий",
-					"description": "<p class=\"Нарратив\">Когда существо перемещается в любой из квадратов в спровоцировавшей области, ловушка стреляет тремя копьями с западной стены. Он наносит один дальнобойный @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по самому западному существу в каждом ряду.</p>"
+					"description": "<p>Когда существо перемещается в любой из квадратов в спровоцировавшей области, ловушка стреляет тремя копьями с западной стены. Он наносит один дальнобойный @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по самому западному существу в каждом ряду.</p>"
 				}
 			}
 		},

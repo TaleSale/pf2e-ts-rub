@@ -7,12 +7,12 @@
 		{
 			"id": "+1 Status to All Saves vs Magic",
 			"name": "Состояние: +1 Спасам от Магии",
-			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от магии</p>"
+			"description": "<p><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от магии</p>"
 		},
 		{
 			"id": "+1 Status to All Saves vs. Magic",
 			"name": "Состояние: +1 Спасам от Магии",
-			"description": "<p class=\"Нарратив\"><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от магии</p>"
+			"description": "<p><span class=\"Состояния\">Состояние</span>: +1 ко всем Спасам от магии</p>"
 		},
 		{
 			"id": "All-Around Vision",

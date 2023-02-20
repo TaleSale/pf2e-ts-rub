@@ -373,7 +373,8 @@
   }
 
   .Нарратив { /* <p class="Нарратив"> */
-    background-color: #e67e23;
+    background-color: #f0ad72;
+    font-style: italic;
   }
 
   .Действие { /* <span class="Действие"> */
@@ -453,6 +454,17 @@
     border-radius: 2px 2px 2px 2px;
     border: solid 2px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.Макрос {
+  background: purple; /* green background */
+  color: #000;
+  padding: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 2px 2px 2px 2px;
+  border: solid 2px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .Аура {
