@@ -405,7 +405,7 @@
 			"items": {
 				"ome4gBGaz20PH3OU": {
 					"name": "Кровопускающие Укусы Роя",
-					"description": "<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Рой Пиявок</span> получает @Localize[PF2E.PD.Bleed.2d6] и подвергается <span class=\"Повтор\">Яду Роя Пиявок</span></p>\n<div data-visibility=\"gm\">\n<p class=\"Заг2\"><span class=\"СТК\">Спас.@Check[type:fortitude|showDC:owner|dc:21|traits:poison]{СТК}</span></p>\n<p><span class=\"Прод\">Макс.Продолж.</span>: 6 раундов</p>\n<p><span class=\"Провал\">Стадия 1</span>: @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1}, @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и штраф <span class=\"Состояния\">состояния</span> -5ФТ к <span class=\"Скор\">Скорости</span> (<span class=\"До\">1 Раунд</span>)</p>\n<p><span class=\"Критпровал\">Стадия 2</span>: @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1}, @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и штраф <span class=\"Состояния\">состояния</span> -10ФТ к <span class=\"Скор\">Скорости</span> (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
+					"description": "<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Рой Пиявок</span> получает [[/r (2d6)[persistent,bleed]]] и подвергается <span class=\"Повтор\">Яду Роя Пиявок</span></p>\n<div data-visibility=\"gm\">\n<p class=\"Заг2\"><span class=\"СТК\">Спас.@Check[type:fortitude|showDC:owner|dc:21|traits:poison]{СТК}</span></p>\n<p><span class=\"Прод\">Макс.Продолж.</span>: 6 раундов</p>\n<p><span class=\"Провал\">Стадия 1</span>: @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1}, @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и штраф <span class=\"Состояния\">состояния</span> -5ФТ к <span class=\"Скор\">Скорости</span> (<span class=\"До\">1 Раунд</span>)</p>\n<p><span class=\"Критпровал\">Стадия 2</span>: @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1}, @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} и штраф <span class=\"Состояния\">состояния</span> -10ФТ к <span class=\"Скор\">Скорости</span> (<span class=\"До\">1 Раунд</span>)</p>\n</div>"
 						},
 				"SZrUoVGK2e5HE1dm": {
 					"name": "Яд Роя Пиявок",
@@ -658,7 +658,7 @@
 				},
 				"pUwo9wumwrjtvid1": {
 					"name": "Инфернальная Рана",
-					"description": "<p>&diams; @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} Хвостом Корнугона наносят @Localize[PF2E.PD.Bleed.4d6], который препятствует попыткам <span style=\"text-decoration: underline; color: #a52a2a;\">исцелить</span> его.</p>\n<p>&diams; Чистая проверка для остановки <span style=\"text-decoration: underline; color: #a52a2a;\">кровотечения</span> начинается с @Check[type:flat|dc:20|showDC:all]{ }. Этот КС уменьшается до @Check[type:flat|dc:15|showDC:all]{ } только в том случае, если кровоточащее существо или союзник успешно помогают в восстановлении. @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dRu66xNqJ9Ihe1or]{КС} для оказания @Compendium[pf2e.actionspf2e.MHLuKy4nQO2Z4Am1] существу с <span style=\"text-decoration: underline; color: #34495e;\">Инферн.Раной</span> увеличивается на 10.</p>\n<p>&diams; Заклинатель или предмет, пытающийся использовать <span style=\"text-decoration: underline; color: #a52a2a;\">исцеляющую</span> магию на существе, страдающем от <span style=\"text-decoration: underline; color: #34495e;\">Инферн.Раны</span>, должен совершить успешную проверку @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействия КС34}, иначе магия не сможет исцелить существо.</p>"
+					"description": "<p>&diams; @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} Хвостом Корнугона наносят [[/r (4d6)[persistent,bleed]]], который препятствует попыткам <span style=\"text-decoration: underline; color: #a52a2a;\">исцелить</span> его.</p>\n<p>&diams; Чистая проверка для остановки <span style=\"text-decoration: underline; color: #a52a2a;\">кровотечения</span> начинается с @Check[type:flat|dc:20|showDC:all]{ }. Этот КС уменьшается до @Check[type:flat|dc:15|showDC:all]{ } только в том случае, если кровоточащее существо или союзник успешно помогают в восстановлении. @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dRu66xNqJ9Ihe1or]{КС} для оказания @Compendium[pf2e.actionspf2e.MHLuKy4nQO2Z4Am1] существу с <span style=\"text-decoration: underline; color: #34495e;\">Инферн.Раной</span> увеличивается на 10.</p>\n<p>&diams; Заклинатель или предмет, пытающийся использовать <span style=\"text-decoration: underline; color: #a52a2a;\">исцеляющую</span> магию на существе, страдающем от <span style=\"text-decoration: underline; color: #34495e;\">Инферн.Раны</span>, должен совершить успешную проверку @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействия КС34}, иначе магия не сможет исцелить существо.</p>"
 				},
 				"WHISh35la4f2ULAj": {
 					"name": "Ошеломляющая Цепь",
@@ -857,7 +857,7 @@
 			"items": {
 				"Chain": {
 					"name": "Цепь 10 (Зло, Кровотеч., Пронзание)",
-					"description": "<p> @Localize[PF2E.PD.Bleed.1d6]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]</p>"
+					"description": "<p> [[/r (1d6)[persistent,bleed]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]</p>"
 				},
 				"Focus Gaze": {
 					"name": "Взгляд в Глаза",
@@ -1344,7 +1344,7 @@
 				},
 				"BVXX982lJiCTVido": {
 					"name": "Кровопускание",
-					"description": "<p>При <span style=\"Критуспех\">крит.попадании</span>, <span style=\"text-decoration: underline; color: #34495e;\">шипы</span> <span style=\"text-decoration: underline; color: #34495e;\">гаматула</span> причиняют @Localize[PF2E.PD.Bleed.3d6].</p>"
+					"description": "<p>При <span style=\"Критуспех\">крит.попадании</span>, <span style=\"text-decoration: underline; color: #34495e;\">шипы</span> <span style=\"text-decoration: underline; color: #34495e;\">гаматула</span> причиняют [[/r (3d6)[persistent,bleed]]].</p>"
 				},
 				"QK7BnQXUv5A7jm84": {
 					"name": "Страж Эреба",
@@ -2491,7 +2491,7 @@
 				},
 				"fDD7cIf8ZsYLF8fv": {
 					"name": "Пробивающий Крит",
-					"description": "<p>Когда <span style=\"text-decoration: underline; color: #34495e;\">Титан.Многоножка</span> <span style=\"color: #2dc26b;\"><strong>крит.попадает</strong></span> <span style=\"text-decoration: underline; color: #34495e;\">Жвалами</span>, цель болезненно пронзается колючими шипами и щетиной, получая @Localize[PF2E.PD.Bleed.1d6] и становясь @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg] пока продолжается это <span style=\"text-decoration: underline; color: #a52a2a;\">кровотечение</span>.</p>"
+					"description": "<p>Когда <span style=\"text-decoration: underline; color: #34495e;\">Титан.Многоножка</span> <span style=\"color: #2dc26b;\"><strong>крит.попадает</strong></span> <span style=\"text-decoration: underline; color: #34495e;\">Жвалами</span>, цель болезненно пронзается колючими шипами и щетиной, получая [[/r (1d6)[persistent,bleed]]] и становясь @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg] пока продолжается это <span style=\"text-decoration: underline; color: #a52a2a;\">кровотечение</span>.</p>"
 				},
 				"bu97rur2OngJhlHv": {
 					"name": "Яд Титан.Многоножки",

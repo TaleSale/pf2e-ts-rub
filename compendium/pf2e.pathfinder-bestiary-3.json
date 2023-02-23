@@ -526,7 +526,7 @@
 				},
 				"xdQJFj57QglkQXeG": {
 					"name": "Беспощадные Криты",
-					"description": "<p><span style=\"text-decoration: underline; color: #34495e;\">Дретч</span> пользуется любой найденной слабостью.</p>\n<hr />\n<p>Когда он наносит <span style=\"color: #2dc26b;\"><strong>крит.попадание</strong></span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span>, цель получает доп. @Localize[PF2E.PD.Bleed.1d6].</p>"
+					"description": "<p><span style=\"text-decoration: underline; color: #34495e;\">Дретч</span> пользуется любой найденной слабостью.</p>\n<hr />\n<p>Когда он наносит <span style=\"color: #2dc26b;\"><strong>крит.попадание</strong></span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} <span style=\"text-decoration: underline; color: #34495e;\">Когтями</span>, цель получает доп. [[/r (1d6)[persistent,bleed]]].</p>"
 				}
 			}
 		},
@@ -819,7 +819,7 @@
 			"items": {
 				"RGJbS9RTIb1LL5uF": {
 					"name": "Надрезы Роя",
-					"description": "<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Пираний</span> получает [[/r 2d8[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:owner|dc:20|traits:damaging-effect]{Пр.РФЛ}</span></p>\n<hr>\n<p>Существо, <span class=\"Провал\">провалившее</span> свой спасбросок, еще получает @Localize[PF2E.PD.Bleed.1d4]</p>"
+					"description": "<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Пираний</span> получает [[/r 2d8[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:owner|dc:20|traits:damaging-effect]{Пр.РФЛ}</span></p>\n<hr>\n<p>Существо, <span class=\"Провал\">провалившее</span> свой спасбросок, еще получает [[/r (1d4)[persistent,bleed]]]</p>"
 				}
 			}
 		},
@@ -1336,7 +1336,7 @@
 			"items": {
 				"uubvbSioie58su3V": {
 					"name": "Неистовое Поедание",
-					"description": "<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Пираний</span> получает [[/r 2d6 [piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:owner|dc:20|traits:damaging-effect]{Пр.РФЛ}</span></p>\n<hr>\n<p>Существо, <span class=\"Провал\">провалившее</span> свой спасбросок, еще получает @Localize[PF2E.PD.Bleed.1d6] и, пока продолжается этот урон, имеет штраф <span class=\"Обстоятельства\">обстоятельства</span> -2 к своим <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> против <span class=\"Повтор\">Неистового Поедания</span>, так как безумие пираний усиливается когда они чуют кровь.</p>"
+					"description": "<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Пираний</span> получает [[/r 2d6 [piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:owner|dc:20|traits:damaging-effect]{Пр.РФЛ}</span></p>\n<hr>\n<p>Существо, <span class=\"Провал\">провалившее</span> свой спасбросок, еще получает [[/r (1d6)[persistent,bleed]]] и, пока продолжается этот урон, имеет штраф <span class=\"Обстоятельства\">обстоятельства</span> -2 к своим <span class=\"КБ\">Спас.<span class=\"РФЛ\">РФЛ</span></span> против <span class=\"Повтор\">Неистового Поедания</span>, так как безумие пираний усиливается когда они чуют кровь.</p>"
 				},
 				"E4Nclckgv1bSz78W": {
 					"name": "Чувство Крови",
@@ -1775,7 +1775,7 @@
 				},
 				"5I1UyAH3ppy0Pi6l": {
 					"name": "Накалывание Ребром",
-					"description": "<p><span style=\"text-decoration: underline; color: #34495e;\">Скелет тираннозавра</span> наклоняется, пытаясь насадить одно из находящихся рядом существ на одно из своих массивных ребер.</p>\n<hr />\n<p>Существо получает [[/r {2d10+9}[piercing]]]{2d10+9 Колющий}</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:28|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></p>\n<p>Если существо <span class=\"Провал\">проваливает</span> этот <span class=\"КБ\">Спас.</span> и является <span class=\"Размер\">среднего</span> размера или меньше, то оно еще проколото и застревает на ребре. Оно <span style=\"text-decoration: underline; color: #a52a2a;\">движется</span> вместе со <span style=\"text-decoration: underline; color: #34495e;\">скелетом</span> и получает @Localize[PF2E.PD.Bleed.2d6], пока либо не @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырвется}<span data-visibility=\"gm\">КС28</span>, либо кто-то не использует @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]<span data-visibility=\"gm\">КС28</span>, чтобы сломать ребро.</p>"
+					"description": "<p><span style=\"text-decoration: underline; color: #34495e;\">Скелет тираннозавра</span> наклоняется, пытаясь насадить одно из находящихся рядом существ на одно из своих массивных ребер.</p>\n<hr />\n<p>Существо получает [[/r {2d10+9}[piercing]]]{2d10+9 Колющий}</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|dc:28|basic:true|showDC:owner]{Пр.РФЛ}</strong></span></p>\n<p>Если существо <span class=\"Провал\">проваливает</span> этот <span class=\"КБ\">Спас.</span> и является <span class=\"Размер\">среднего</span> размера или меньше, то оно еще проколото и застревает на ребре. Оно <span style=\"text-decoration: underline; color: #a52a2a;\">движется</span> вместе со <span style=\"text-decoration: underline; color: #34495e;\">скелетом</span> и получает [[/r (2d6)[persistent,bleed]]], пока либо не @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырвется}<span data-visibility=\"gm\">КС28</span>, либо кто-то не использует @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]<span data-visibility=\"gm\">КС28</span>, чтобы сломать ребро.</p>"
 				},
 				"GKPDyYkNMI6xU6fY": {
 					"name": "Растоптать",

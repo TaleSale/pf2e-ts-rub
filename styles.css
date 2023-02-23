@@ -409,6 +409,17 @@
     text-align: center;
   }
 
+  .Бонус { /* <span class=\"Бонус\">Бонус</span> */
+    background: silver; /* Цвет фона */
+    background-clip: padding-box;
+    color: green; /* Цвет текста */
+    text-shadow: 1px 1px 2px yellowgreen, 0 0 1em black;
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 2px; /* Поле слева */
+    padding-right: 2px; /* Поле справа */
+    border-radius: 2px; /* Уголки */
+   }
+
   .Урон2 { /* <span class="Урон2"> */
     color: darkblue;   
     font-weight: bold;
@@ -441,8 +452,8 @@
   }
 
   .Союз { /* <span class="Союз"> */
-    text-decoration: underline black;
-    color: limegreen;
+    text-decoration: underline green;
+    background-color: #90EE90;
   }
 
   .Эффект {

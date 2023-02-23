@@ -135,15 +135,7 @@
 		"type": "JournalEntry",
       	"entity": "JournalEntry",
       	"private": false
-    },
-	{
-		"name": "makrosy-nalozhit-effekt",
-		"label": "Макросы Наложить Эффект",
-		"path": "packs/makrosy-nalozhit-effekt.db",
-		"system": "pf2e",
-		"type": "Macro",
-		"entity": "Macro"
-	}
+    }
 	],
 	"url": "https://github.com/TaleSale/pf2e-ts-rub",
 	"manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-rub/main/module.json",

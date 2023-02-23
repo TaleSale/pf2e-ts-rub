@@ -953,7 +953,7 @@
 				},
 				"SNJ0RSCREyP9YYKY": {
 					"name": "Инфернальная Рана",
-					"description": "<p>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">глефы Барбазу</span> еще наносит @Localize[PF2E.PD.Bleed.1d6], который препятствует попыткам исцелить его.</p>\n<p>Чистая проверка для остановки <span style=\"text-decoration: underline; color: #a52a2a;\">кровотечения</span> начинается с @Check[type:flat|dc:20|showDC:all]. Этот КС уменьшается до @Check[type:flat|dc:15|showDC:all] только в том случае, если кровоточащее существо или союзник успешно помогают в восстановлении. КС для оказания @Compendium[pf2e.actionspf2e.MHLuKy4nQO2Z4Am1]{Первая Помощь} существу с <span style=\"text-decoration: underline; color: #34495e;\">инфер.раной</span> увеличивается на 5.</p>\n<hr />\n<p>Заклинатель или предмет, пытающийся использовать <span style=\"text-decoration: underline; color: #a52a2a;\">исцеляющую</span> магию на существе, страдающем от <span style=\"text-decoration: underline; color: #34495e;\">инфер.раны</span>, должен совершить успешную проверку @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействия КС21}, иначе магия не сможет исцелить существо.</p>"
+					"description": "<p>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span style=\"text-decoration: underline; color: #34495e;\">глефы Барбазу</span> еще наносит [[/r (1d6)[persistent,bleed]]], который препятствует попыткам исцелить его.</p>\n<p>Чистая проверка для остановки <span style=\"text-decoration: underline; color: #a52a2a;\">кровотечения</span> начинается с @Check[type:flat|dc:20|showDC:all]. Этот КС уменьшается до @Check[type:flat|dc:15|showDC:all] только в том случае, если кровоточащее существо или союзник успешно помогают в восстановлении. КС для оказания @Compendium[pf2e.actionspf2e.MHLuKy4nQO2Z4Am1]{Первая Помощь} существу с <span style=\"text-decoration: underline; color: #34495e;\">инфер.раной</span> увеличивается на 5.</p>\n<hr />\n<p>Заклинатель или предмет, пытающийся использовать <span style=\"text-decoration: underline; color: #a52a2a;\">исцеляющую</span> магию на существе, страдающем от <span style=\"text-decoration: underline; color: #34495e;\">инфер.раны</span>, должен совершить успешную проверку @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействия КС21}, иначе магия не сможет исцелить существо.</p>"
 				}
 			}
 		},
@@ -1529,7 +1529,7 @@
 			"items": {
 				"Talon": {
 					"name": "Когти",
-					"description": "<p>@Localize[PF2E.PD.Bleed.1d4]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]</p>"
+					"description": "<p>[[/r (1d4)[persistent,bleed]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]</p>"
 					},
 				"Predator's Advantage": {
 					"name": "Преимущества Хищника",
@@ -2373,7 +2373,7 @@
 			"items": {
 				"2h0yKU2nKX609M3Q": {
 					"name": "Челюсти",
-					"description": "<p>@Localize[PF2E.PD.Bleed.1d4]</p>"
+					"description": "<p>[[/r (1d4)[persistent,bleed]]]</p>"
 				},
 				"hJ2RMo3aTyVEm4yz": {
 					"name": "Слюна (Ожог)",
@@ -2792,7 +2792,7 @@
 				},
 				"bDkXVdgOwJv0PBRc": {
 					"name": "Колючая Пасть",
-					"description": "<p>&diams; @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударив} существо <span class=\"Список\">Челюстями</span>, <span style=\"text-decoration: underline; color: #34495e;\">Гриккитог</span> может выпустить свои колючие зубы, @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвиживая} цель, если ему не удастся <span class=\"РФЛ\">Спас.@Check[type:reflex|dc:34|showDC:owner]</strong></span>.</p>\n<p>&diams; Находясь в @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвиженном} состоянии, пострадавший получает @Localize[PF2E.PD.Bleed.3d8] и <span style=\"text-decoration: underline; color: #34495e;\">Гриккитог</span> питается его плотью.</p>\n<p>Существо @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижено} до тех пор, пока <span style=\"text-decoration: underline; color: #34495e;\">Гриккитог</span> не закончит эффект <span class=\"Действие\"><span class=\"pf2-icon\">4</span>свободным действием</span> или цель не преуспеет в @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться КС38}.</p>\n<hr />\n<p>Этими пастями <span style=\"text-decoration: underline; color: #34495e;\">Гриккитог</span> может @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижить} любое количество существ.</p>"
+					"description": "<p>&diams; @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударив} существо <span class=\"Список\">Челюстями</span>, <span style=\"text-decoration: underline; color: #34495e;\">Гриккитог</span> может выпустить свои колючие зубы, @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвиживая} цель, если ему не удастся <span class=\"РФЛ\">Спас.@Check[type:reflex|dc:34|showDC:owner]</strong></span>.</p>\n<p>&diams; Находясь в @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвиженном} состоянии, пострадавший получает [[/r (3d8)[persistent,bleed]]] и <span style=\"text-decoration: underline; color: #34495e;\">Гриккитог</span> питается его плотью.</p>\n<p>Существо @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижено} до тех пор, пока <span style=\"text-decoration: underline; color: #34495e;\">Гриккитог</span> не закончит эффект <span class=\"Действие\"><span class=\"pf2-icon\">4</span>свободным действием</span> или цель не преуспеет в @Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться КС38}.</p>\n<hr />\n<p>Этими пастями <span style=\"text-decoration: underline; color: #34495e;\">Гриккитог</span> может @Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижить} любое количество существ.</p>"
 				},
 				"ADJpet8hkChh9ljl": {
 					"name": "Скольжение по Земле",
@@ -3277,7 +3277,7 @@
 					},
 					"Poison Tooth": {
 						"name": "Ядовитый Зуб",
-						"description": "<p><span class=\"Треб\">Требования</span>: <span style=\"text-decoration: underline;\">Круз</span> повредил существо своими челюстями в своем последнем действии в этом ходу.</p>\n<p><span style=\"color: #2dc26b;\"><strong>Эффект: </strong></span><span style=\"text-decoration: underline;\">Круз</span> оставляет один из своих зубов в существе, по которому попал. Существо получает:</p>\n<ul>\n<li>@Localize[PF2E.PD.Bleed.1d6] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Кровотечение}</li>\n<li>@Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощаемость 1}.</li>\n</ul>\n<p>Ни одно из них не может быть излечено, пока остается зуб.</p>\n<hr />\n<p>Для безопасного удаления зуба требуется успешная проверка DC 26 для оказания первой помощи. Вместо остановки кровотечения или стабилизации это снимает состояние истощения, но не прекращает автоматически урон от кровотечения.</p>"
+						"description": "<p><span class=\"Треб\">Требования</span>: <span style=\"text-decoration: underline;\">Круз</span> повредил существо своими челюстями в своем последнем действии в этом ходу.</p>\n<p><span style=\"color: #2dc26b;\"><strong>Эффект: </strong></span><span style=\"text-decoration: underline;\">Круз</span> оставляет один из своих зубов в существе, по которому попал. Существо получает:</p>\n<ul>\n<li>[[/r (1d6)[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Кровотечение}</li>\n<li>@Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощаемость 1}.</li>\n</ul>\n<p>Ни одно из них не может быть излечено, пока остается зуб.</p>\n<hr />\n<p>Для безопасного удаления зуба требуется успешная проверка DC 26 для оказания первой помощи. Вместо остановки кровотечения или стабилизации это снимает состояние истощения, но не прекращает автоматически урон от кровотечения.</p>"
 					},
 					"Pain Frenzy": {
 						"name": "Ярость Боли",
@@ -3941,7 +3941,7 @@
 				},
 				"odPtrANIuNiSlgo5": {
 					"name": "Инфернальная Рана",
-					"description": "<p>&diams; @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} наносят @Localize[PF2E.PD.Bleed.3d6], который препятствует попыткам <span style=\"text-decoration: underline; color: #a52a2a;\">исцелить</span> его.</p>\n<p>&diams; Чистая проверка для остановки <span style=\"text-decoration: underline; color: #a52a2a;\">кровотечения</span> начинается с @Check[type:flat|dc:20|showDC:all]{ }. Этот КС уменьшается до @Check[type:flat|dc:15|showDC:all]{ } только в том случае, если кровоточащее существо или союзник успешно помогают в восстановлении. @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dRu66xNqJ9Ihe1or]{КС} для оказания @Compendium[pf2e.actionspf2e.MHLuKy4nQO2Z4Am1] существу с <span style=\"text-decoration: underline; color: #34495e;\">Инферн.Раной</span> увеличивается на 5.</p>\n<p>&diams; Заклинатель или предмет, пытающийся использовать <span style=\"text-decoration: underline; color: #a52a2a;\">исцеляющую</span> магию на существе, страдающем от <span style=\"text-decoration: underline; color: #34495e;\">Инферн.Раны</span>, должен совершить успешную проверку @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействия КС29}, иначе магия не сможет исцелить существо.</p>"
+					"description": "<p>&diams; @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} наносят [[/r (3d6)[persistent,bleed]]], который препятствует попыткам <span style=\"text-decoration: underline; color: #a52a2a;\">исцелить</span> его.</p>\n<p>&diams; Чистая проверка для остановки <span style=\"text-decoration: underline; color: #a52a2a;\">кровотечения</span> начинается с @Check[type:flat|dc:20|showDC:all]{ }. Этот КС уменьшается до @Check[type:flat|dc:15|showDC:all]{ } только в том случае, если кровоточащее существо или союзник успешно помогают в восстановлении. @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dRu66xNqJ9Ihe1or]{КС} для оказания @Compendium[pf2e.actionspf2e.MHLuKy4nQO2Z4Am1] существу с <span style=\"text-decoration: underline; color: #34495e;\">Инферн.Раной</span> увеличивается на 5.</p>\n<p>&diams; Заклинатель или предмет, пытающийся использовать <span style=\"text-decoration: underline; color: #a52a2a;\">исцеляющую</span> магию на существе, страдающем от <span style=\"text-decoration: underline; color: #34495e;\">Инферн.Раны</span>, должен совершить успешную проверку @UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействия КС29}, иначе магия не сможет исцелить существо.</p>"
 				}
 			}
 		},
@@ -4760,7 +4760,7 @@
 			"items": {
 				"ONo2JspAa1GnoAlR": {
 					"name": "Пробивание Доспеха",
-					"description": "<p><span style=\"text-decoration: underline; color: #34495e;\">Смилодон</span> совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span class=\"Список\">Клыками</span> по @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченному} им существу.</p>\n<p>1. Если эта атака <span class=\"Успех\">попадает</span>, существо падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком};</p>\n<p>2. Если существо носит доспех с <span style=\"color: #236fa1;\"><strong>Твердостью 10</strong></span> или менее, то доспех @Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{Сломан}.</p>\n<p>3. Если этот @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} ломает доспех существа или урон нанесен существу без доспехов или в поломанном доспехе, то существо еще получает @Localize[PF2E.PD.Bleed.2d6]. Этот удар не наносит дальнейший урон уже сломанному доспеху.</p>"
+					"description": "<p><span style=\"text-decoration: underline; color: #34495e;\">Смилодон</span> совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <span class=\"Список\">Клыками</span> по @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченному} им существу.</p>\n<p>1. Если эта атака <span class=\"Успех\">попадает</span>, существо падает @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком};</p>\n<p>2. Если существо носит доспех с <span style=\"color: #236fa1;\"><strong>Твердостью 10</strong></span> или менее, то доспех @Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{Сломан}.</p>\n<p>3. Если этот @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} ломает доспех существа или урон нанесен существу без доспехов или в поломанном доспехе, то существо еще получает [[/r (2d6)[persistent,bleed]]]. Этот удар не наносит дальнейший урон уже сломанному доспеху.</p>"
 				},
 				"WBvBXluaSwwxLaJ4": {
 					"name": "Внезапная Атака (1d6)",
@@ -5104,7 +5104,7 @@
 			"items": {
 				"Blood Feast": {
 					"name": "Кровавый Пир",
-					"description": "<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Лет.Мышей</span> получает [[/r 1d4[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:owner|dc:16|traits:damaging-effect]{Пр.РФЛ}</span></p>\n<hr>\n<p>Существо, <span class=\"Провал\">провалившее</span> свой спасбросок, еще получает @Localize[PF2E.PD.Bleed.1]</p>"
+					"description": "<p>Каждый <span class=\"Враг\">враг</span> в <span class=\"Атака\">пространстве</span> <span class=\"Повтор\">Роя Лет.Мышей</span> получает [[/r 1d4[piercing]]]</p>\n<p class=\"Заг2\"><span class=\"РФЛ\">Спас.@Check[type:reflex|showDC:owner|dc:16|traits:damaging-effect]{Пр.РФЛ}</span></p>\n<hr>\n<p>Существо, <span class=\"Провал\">провалившее</span> свой спасбросок, еще получает [[/r (1)[persistent,bleed]]]</p>"
 				}
 			}
 		},

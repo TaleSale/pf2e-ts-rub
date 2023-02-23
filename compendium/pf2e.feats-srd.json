@@ -249,7 +249,7 @@
 			"id": "Fang Sharpener",
 			"name": "Точащий Клыки",
 			"prerequisites": [{"value": "Наследие: Железнобрюхий/Острозубый Гоблин"}],
-			"description": "<p>Вы подточили свои зубы и обладаете необычайно мощной челюстью, что делает их опасным оружием.</p>\n<p>&diams; Если вы @Compendium[pf2e.heritages.gyoN45SVfRZwHMkk]{Железнобрюхий Гоблин} то получаете <span class=\"Видыатак\">безоружную</span> атаку <span class=\"Список\">Челюстью</span>, которая наносит [[/r 1d4]]<span class=\"Урон\">Колющ.Урона</span></p>\n<p>&diams; Если вы @Compendium[pf2e.heritages.a6F2WjYU8D0suT8T]{Острозубый Гоблин} то ваша <span class=\"Видыатак\">безоружная атака</span> <span class=\"Список\">Челюстями</span> наносит [[/r 1d8]]<span class=\"Урон\">Колющ.Урона</span> и теряет признак <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#tochnoe-(finesse)]{Точное}</span></span></span>.</p>\n<p>&diams; Всякий раз, когда вы совершаете <span class=\"Критуспех\">Крит.Попадание</span> <span class=\"Список\">Челюстями</span>, ваша цель получает @Localize[PF2E.PD.Bleed.1] за <span class=\"Урон\">Кость Урона</span> оружия.</p>"
+			"description": "<p>Вы подточили свои зубы и обладаете необычайно мощной челюстью, что делает их опасным оружием.</p>\n<p>&diams; Если вы @Compendium[pf2e.heritages.gyoN45SVfRZwHMkk]{Железнобрюхий Гоблин} то получаете <span class=\"Видыатак\">безоружную</span> атаку <span class=\"Список\">Челюстью</span>, которая наносит [[/r 1d4]]<span class=\"Урон\">Колющ.Урона</span></p>\n<p>&diams; Если вы @Compendium[pf2e.heritages.a6F2WjYU8D0suT8T]{Острозубый Гоблин} то ваша <span class=\"Видыатак\">безоружная атака</span> <span class=\"Список\">Челюстями</span> наносит [[/r 1d8]]<span class=\"Урон\">Колющ.Урона</span> и теряет признак <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#tochnoe-(finesse)]{Точное}</span></span></span>.</p>\n<p>&diams; Всякий раз, когда вы совершаете <span class=\"Критуспех\">Крит.Попадание</span> <span class=\"Список\">Челюстями</span>, ваша цель получает [[/r (1)[persistent,bleed]]] за <span class=\"Урон\">Кость Урона</span> оружия.</p>"
 		},
 		{
 			"id": "Bouncy Goblin",
@@ -2093,7 +2093,7 @@
 		{
 			"id": "Bloody Blows",
 			"name": "Кровавые Удары",
-			"description": "<p>Ваши смертельные безоружные атаки оставляют кровавые раны или вызывают сильное внутреннее кровотечение.</p>\n<p>Когда вы <span class=\"Критуспех\">Крит.Попадаете</span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} используя <span class=\"Видыатак\">безоружную атаку</span>, которая <span class=\"НЕ\">не</span> <span class=\"Признак\">несмертельная</span></span>, цель получает @Localize[PF2E.PD.Bleed.1d4].</p>\n<blockquote class=\"Уточнить\">Это может быть потому что вы получаете штраф для использования <span class=\"Список\">кулаков</span> для <span class=\"Признак\">смертельной</span></span> атаки, или потому что у вас есть <span class=\"Видыатак\">безоружная атака</span> <span class=\"НЕ\">без</span> признака <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#nesmertelьnoe-(nonlethal)]{Несмертельное}</span></span></span> от @Compendium[pf2e.feats-srd.JP5pptkl1Fx1JK4m]{Железные Кулаки}, @Compendium[pf2e.feats-srd.M5195FvfCN3X7gi9]{Клыки Орка} или подобной <span class=\"Класс\">способности</span>.</blockquote>"
+			"description": "<p>Ваши смертельные безоружные атаки оставляют кровавые раны или вызывают сильное внутреннее кровотечение.</p>\n<p>Когда вы <span class=\"Критуспех\">Крит.Попадаете</span> @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} используя <span class=\"Видыатак\">безоружную атаку</span>, которая <span class=\"НЕ\">не</span> <span class=\"Признак\">несмертельная</span></span>, цель получает [[/r (1d4)[persistent,bleed]]].</p>\n<blockquote class=\"Уточнить\">Это может быть потому что вы получаете штраф для использования <span class=\"Список\">кулаков</span> для <span class=\"Признак\">смертельной</span></span> атаки, или потому что у вас есть <span class=\"Видыатак\">безоружная атака</span> <span class=\"НЕ\">без</span> признака <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#nesmertelьnoe-(nonlethal)]{Несмертельное}</span></span></span> от @Compendium[pf2e.feats-srd.JP5pptkl1Fx1JK4m]{Железные Кулаки}, @Compendium[pf2e.feats-srd.M5195FvfCN3X7gi9]{Клыки Орка} или подобной <span class=\"Класс\">способности</span>.</blockquote>"
 		},
 		{
 			"id": "Defy Death",
@@ -3582,13 +3582,13 @@
 			"id": "Piercing Quills",
 			"name": "Пронзающие Иглы",
 			"prerequisites": [{"value": "Бьющий Шипами"}],
-			"description": "<p>Ваши иглы могут проникать особенно глубоко в плоть оппонентов.</p>\n<hr />\n<p>При <span class=\"Критуспех\">Крит.Попадание</span>, ваша безоружная атака <span style=\"text-decoration: underline; color: #34495e;\">иглами</span> наносит @Localize[PF2E.PD.Bleed.1d4].</p>"
+			"description": "<p>Ваши иглы могут проникать особенно глубоко в плоть оппонентов.</p>\n<hr />\n<p>При <span class=\"Критуспех\">Крит.Попадание</span>, ваша безоружная атака <span style=\"text-decoration: underline; color: #34495e;\">иглами</span> наносит [[/r (1d4)[persistent,bleed]]].</p>"
 		},
 		{
 			"id": "Quill Spray",
 			"name": "Веер Игл",
 			"prerequisites": [{"value": "Наследие: Покрытый Иглами или Атака Иглами"}],
-			"description": "<p>Вы можете выпустить в оппонента массу игл.</p>\n<hr />\n<div><span class=\"Част\">Частота</span>: 1/День</div>\n<hr />\n<p>Вы распыляете иглы в @Template[type:cone|distance:30], нанося [[/r 5d8[piercing]]]{5d8 Колющие}. Каждое существо в области должно совершить <span style=\"color: #808000;\"><strong>Простой Спас. Рефлекса</strong></span> против вашего @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true|showDC:all]{КС Класса} или @Check[type:reflex|dc:resolve(@actor.attributes.spellDC.value)|basic:true|showDC:all]{КС Закл.} (в зависимости от того, что больше).</p>\n<p>При <span class=\"Критпровал\">Крит.Провале</span>, существо еще получает @Localize[PF2E.PD.Bleed.5].</p>\n<hr />\n<p>На 11-м уровне и каждые 2 уровня после, <span class=\"Урон\">Колющ. Урон</span> <span style=\"color: #236fa1;\"><strong>увеличивается</strong></span> на [[/r ceil(@actor.level/2)d8 #piercing]]{1d8}, и на 1 [[/r ceil(@actor.level/2) #persistent bleed]]{Levelled}.</p>"
+			"description": "<p>Вы можете выпустить в оппонента массу игл.</p>\n<hr />\n<div><span class=\"Част\">Частота</span>: 1/День</div>\n<hr />\n<p>Вы распыляете иглы в @Template[type:cone|distance:30], нанося [[/r 5d8[piercing]]]{5d8 Колющие}. Каждое существо в области должно совершить <span style=\"color: #808000;\"><strong>Простой Спас. Рефлекса</strong></span> против вашего @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true|showDC:all]{КС Класса} или @Check[type:reflex|dc:resolve(@actor.attributes.spellDC.value)|basic:true|showDC:all]{КС Закл.} (в зависимости от того, что больше).</p>\n<p>При <span class=\"Критпровал\">Крит.Провале</span>, существо еще получает [[/r (5)[persistent,bleed]]].</p>\n<hr />\n<p>На 11-м уровне и каждые 2 уровня после, <span class=\"Урон\">Колющ. Урон</span> <span style=\"color: #236fa1;\"><strong>увеличивается</strong></span> на [[/r ceil(@actor.level/2)d8 #piercing]]{1d8}, и на 1 [[/r ceil(@actor.level/2) #persistent bleed]]{Levelled}.</p>"
 		},
 		{
 			"id": "Delver",
@@ -4792,7 +4792,7 @@
 			"id": "Bloodletting Fangs",
 			"name": "Кровопускающие Клыки",
 			"prerequisites": [{"value": "Безоружная Атака: Клыки"}],
-			"description": "<p>Вы подражаете приемам своего родителя-вампира по извлечению крови у жертвы.</p>\n<hr />\n<p>При<span style=\"color: #2dc26b;\"><strong> крит.попадании</strong></span>, ваши @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} <span style=\"text-decoration: underline; color: #34495e;\">Клыками</span> наносят дополнительно @Localize[PF2E.PD.Bleed.1d4]</p>"
+			"description": "<p>Вы подражаете приемам своего родителя-вампира по извлечению крови у жертвы.</p>\n<hr />\n<p>При<span style=\"color: #2dc26b;\"><strong> крит.попадании</strong></span>, ваши @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} <span style=\"text-decoration: underline; color: #34495e;\">Клыками</span> наносят дополнительно [[/r (1d4)[persistent,bleed]]]</p>"
 		},
 		{
 			"id": "Night Magic",
@@ -6669,7 +6669,7 @@
 		{
 			"id": "Tiger Stance",
 			"name": "Стойка Тигра",
-			"description": "<div><span class=\"Треб\">Требования</span>: Вы <span class=\"НЕ\">НЕ</span> носите <span class=\"Видыатак\">доспех</span></div>\n<hr>\n<p>Вы <span class=\"Эффект\">= </span>@Compendium[pf2e.feat-effects.pf9yvKNg6jZLrE30]{Становитесь} в <span class=\"Признак\">стойку</span></span> тигра.</p>\n<p>&diams; Вы можете совершать атаки <span class=\"Повтор\">Коготь Тигра</span>. Она наносит [[/r 1d8[slashing]]]{1d8 Рубящ.}; относится к группе <span class=\"Атака\">драка</span>, и имеет признаки <span class=\"Признак\">быстрое</span></span>, <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#tochnoe-(finesse)]{Точное}</span></span></span>, <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#nesmertelьnoe-(nonlethal)]{Несмертельное}</span></span></span> и <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#bezoruzhnoe-(unarmed)]{Безоружное}</span></span></span>. При <span class=\"Критуспех\">крит.попадании</span> <span class=\"Повтор\">Когтями Тигра</span>, если вы наносите урон, цель получает @Localize[PF2E.PD.Bleed.1d4].</p>\n<p>&diams; Пока в <span class=\"Повтор\">Стойке Тигра</span> ваша <span class=\"Скор\">Скорость</span> равна хотя бы 20 футам, вы можете делать @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB] на 10ФТ.</p>"
+			"description": "<div><span class=\"Треб\">Требования</span>: Вы <span class=\"НЕ\">НЕ</span> носите <span class=\"Видыатак\">доспех</span></div>\n<hr>\n<p>Вы <span class=\"Эффект\">= </span>@Compendium[pf2e.feat-effects.pf9yvKNg6jZLrE30]{Становитесь} в <span class=\"Признак\">стойку</span></span> тигра.</p>\n<p>&diams; Вы можете совершать атаки <span class=\"Повтор\">Коготь Тигра</span>. Она наносит [[/r 1d8[slashing]]]{1d8 Рубящ.}; относится к группе <span class=\"Атака\">драка</span>, и имеет признаки <span class=\"Признак\">быстрое</span></span>, <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#tochnoe-(finesse)]{Точное}</span></span></span>, <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#nesmertelьnoe-(nonlethal)]{Несмертельное}</span></span></span> и <span class=\"Признак\"><span class=\"ПризнакБ\">@UUID[Compendium.pf2e.journals.S55aqwWIzpQRFhcq.JournalEntryPage.dnbUao9yk8Bs99eT#bezoruzhnoe-(unarmed)]{Безоружное}</span></span></span>. При <span class=\"Критуспех\">крит.попадании</span> <span class=\"Повтор\">Когтями Тигра</span>, если вы наносите урон, цель получает [[/r (1d4)[persistent,bleed]]].</p>\n<p>&diams; Пока в <span class=\"Повтор\">Стойке Тигра</span> ваша <span class=\"Скор\">Скорость</span> равна хотя бы 20 футам, вы можете делать @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB] на 10ФТ.</p>"
 		},
 		{
 			"id": "Wolf Stance",
@@ -7272,7 +7272,7 @@
 		{
 			"id": "Shared Stratagem",
 			"name": "Общая Стратагема",
-			"description": "<p>Придумываемые вами планы также включают в себя ваших союзников.</p>\n<p>Когда вы <span class=\"Успех\">попадаете</span> по существу атакой, для которой подменили свой бросок атаки использовав @Compendium[pf2e.actionspf2e.m0f2B7G9eaaTmhFL]{Придумать Стратагему}, обозначьте 1 <span class=\"Союз\">союзника</span>.</p>\n<p><span class=\"До\">До начала вашего след.хода</span>, для этого <span class=\"Союз\">союзника</span> существо @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнуто Врасплох} для следующей атаки, которую обозначенный <span class=\"Союз\">союзник</span> совершает по этому существу.</p>"
+			"description": "<p>Придумываемые вами планы также включают в себя ваших союзников.</p>\n<p>Когда вы <span class=\"Успех\">попадаете</span> по существу атакой, для которой подменили свой бросок атаки использовав @Compendium[pf2e.actionspf2e.m0f2B7G9eaaTmhFL]{Придумать Стратагему}, обозначьте <span class=\"Союз\">1 Союзника</span>.</p>\n<p><span class=\"До\">До начала вашего след.хода</span>, для этого <span class=\"Союз\">союзника</span> существо @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнуто Врасплох} для следующей атаки, которую обозначенный <span class=\"Союз\">союзник</span> совершает по этому существу.</p>"
 		},
 		{
 			"id": "Solid Lead",
@@ -9434,7 +9434,7 @@
 		{
 			"id": "Infectious Emotions",
 			"name": "Заразные Эмоции",
-			"description": "<p>Когда вы применяете @Compendium[pf2e.actionspf2e.2424g94rpoiN1IPh]{Катарсис}, то 1 <span class=\"Союз\">союзник</span> в пределах 30ФТ получает преимущества <span class=\"Список\">активации катарсиса</span> вместе с вами.</p>\n<p>Если этим преимуществам нужен <span class=\"Рес\">эмоц.фокус</span>, то они используют ваш <span class=\"Рес\">эмоц.фокус</span>, так как испытывают эмпатический отпечаток ваших эмоций.</p>\n<blockquote class=\"Уточнить\">В зависимости от преимущества <span class=\"Список\">активации</span>, его может быть невозможно предоставить <span class=\"Союз\">союзнику</span>; например, @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.EWiUv3UiR3RHSGlA#gordostь]{Гордость} может повлиять на <span class=\"Союз\">союзника</span> только, если и вы, и <span class=\"Союз\">союзник</span> <span class=\"Критпровал\">крит.провалили</span> один и тот же <span class=\"КБ\">Спас.</span> против одного и того же эффекта.</blockquote>"
+			"description": "<p>Когда вы применяете @Compendium[pf2e.actionspf2e.2424g94rpoiN1IPh]{Катарсис}, то <span class=\"Союз\">1 Союзник</span> в пределах 30ФТ получает преимущества <span class=\"Список\">активации катарсиса</span> вместе с вами.</p>\n<p>Если этим преимуществам нужен <span class=\"Рес\">эмоц.фокус</span>, то они используют ваш <span class=\"Рес\">эмоц.фокус</span>, так как испытывают эмпатический отпечаток ваших эмоций.</p>\n<blockquote class=\"Уточнить\">В зависимости от преимущества <span class=\"Список\">активации</span>, его может быть невозможно предоставить <span class=\"Союз\">союзнику</span>; например, @UUID[Compendium.pf2e.journals.vx5FGEG34AxI2dow.JournalEntryPage.EWiUv3UiR3RHSGlA#gordostь]{Гордость} может повлиять на <span class=\"Союз\">союзника</span> только, если и вы, и <span class=\"Союз\">союзник</span> <span class=\"Критпровал\">крит.провалили</span> один и тот же <span class=\"КБ\">Спас.</span> против одного и того же эффекта.</blockquote>"
 		},
 		{
 			"id": "Work Yourself Up",
@@ -10585,7 +10585,7 @@
 		{
 			"id": "Bloodletting Claws",
 			"name": "Bloodletting Claws",
-			"description": "<p>Your eidolon inflicts bleeding wounds on a telling blow. If your eidolon critically hits with a melee unarmed Strike that deals slashing or piercing damage, its target takes @Localize[PF2E.PD.Bleed.1d6]. Your eidolon gains an item bonus to this bleed damage equal to the unarmed attack's item bonus to attack rolls. This is a critical specialization effect.</p>"
+			"description": "<p>Your eidolon inflicts bleeding wounds on a telling blow. If your eidolon critically hits with a melee unarmed Strike that deals slashing or piercing damage, its target takes [[/r (1d6)[persistent,bleed]]]. Your eidolon gains an item bonus to this bleed damage equal to the unarmed attack's item bonus to attack rolls. This is a critical specialization effect.</p>"
 		},
 		{
 			"id": "Bloodline Breadth",
@@ -10630,7 +10630,7 @@
 		{
 			"id": "Bloody Debilitation",
 			"name": "Bloody Debilitation",
-			"description": "<p>Your attacks slice arteries and veins. Add the following debilitation to the list you can choose from when you use @Compendium[pf2e.actionspf2e.bp0Up04x3dzGK5bB]{Debilitating Strike}.</p>\n<ul>\n<li><strong>Debilitation</strong> The target takes @Localize[PF2E.PD.Bleed.3d6].</li>\n</ul>"
+			"description": "<p>Your attacks slice arteries and veins. Add the following debilitation to the list you can choose from when you use @Compendium[pf2e.actionspf2e.bp0Up04x3dzGK5bB]{Debilitating Strike}.</p>\n<ul>\n<li><strong>Debilitation</strong> The target takes [[/r (3d6)[persistent,bleed]]].</li>\n</ul>"
 		},
 		{
 			"id": "Boaster's Challenge",
@@ -11559,7 +11559,7 @@
 		{
 			"id": "Discerning Strike",
 			"name": "Discerning Strike",
-			"description": "<p><strong>Requirements</strong> You have successfully identified the target with Recall Knowledge during this combat.</p>\n<hr />\n<p>Identifying a creature is the first step in finding its weaknesses. Attempt a Strike against the target; if successful, you deal an additional [[/r 1d6[precision]]]{1d6 precision damage}. If you have succeeded on a Recall Knowledge check against the target during this combat and their creature type was previously recorded using @Compendium[pf2e.feats-srd.0Dy8RlFqrzCVOTl4]{Thorough Reports}, you also deal @Localize[PF2E.PD.Bleed.1]. The creature is then temporarily immune to Discerning Strike for 1 day.</p>"
+			"description": "<p><strong>Requirements</strong> You have successfully identified the target with Recall Knowledge during this combat.</p>\n<hr />\n<p>Identifying a creature is the first step in finding its weaknesses. Attempt a Strike against the target; if successful, you deal an additional [[/r 1d6[precision]]]{1d6 precision damage}. If you have succeeded on a Recall Knowledge check against the target during this combat and their creature type was previously recorded using @Compendium[pf2e.feats-srd.0Dy8RlFqrzCVOTl4]{Thorough Reports}, you also deal [[/r (1)[persistent,bleed]]]. The creature is then temporarily immune to Discerning Strike for 1 day.</p>"
 		},
 		{
 			"id": "Disciple of Shade",
@@ -12644,7 +12644,7 @@
 		{
 			"id": "Flensing Slice",
 			"name": "Flensing Slice",
-			"description": "<p><strong>Requirements</strong> Your last action was a @Compendium[pf2e.feats-srd.onde0SxLoxLBTnvm]{Double Slice}, and both attacks hit the target.</p>\n<hr />\n<p>When you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot.</p>\n<p>The target takes @Localize[PF2E.PD.Bleed.1d8] per weapon damage die of whichever of the weapons you used that has the most weapon damage dice (maximum 4d8 for a <em>major striking</em> weapon).</p>\n<p>The target becomes flat-footed, and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of your next turn.</p>"
+			"description": "<p><strong>Requirements</strong> Your last action was a @Compendium[pf2e.feats-srd.onde0SxLoxLBTnvm]{Double Slice}, and both attacks hit the target.</p>\n<hr />\n<p>When you hit with both attacks with Double Slice, you flense the target, making it bleed and creating a weak spot.</p>\n<p>The target takes [[/r (1d8)[persistent,bleed]]] per weapon damage die of whichever of the weapons you used that has the most weapon damage dice (maximum 4d8 for a <em>major striking</em> weapon).</p>\n<p>The target becomes flat-footed, and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of your next turn.</p>"
 		},
 		{
 			"id": "Flesh Wound",
@@ -15171,7 +15171,7 @@
 		{
 			"id": "Prayer Attack",
 			"name": "Prayer Attack",
-			"description": "<p><strong>Requirements</strong> You are wielding a @Compendium[pf2e.equipment-srd.wkzxLpSe7LN6c5Ld]{Sawtooth Saber} in each hand.</p>\n<hr />\n<p>You've mastered the signature assassination style of the Red Mantis. Attempt to @Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} an enemy within 30 feet. If your Feint is successful, when you use Prayer Attack on subsequent turns you automatically make the target flat-footed against your melee attacks for that turn without rolling a check to Feint, so as long as you remain visible to the target and the target remains within 30 feet of you. If you use your Prayer Attack against a different target, you must attempt to Feint the target normally.</p>\n<p>When you use Prayer Attack, your next successful Strike with a sawtooth saber that turn deals @Localize[PF2E.PD.Bleed.2d6] to the target.</p>"
+			"description": "<p><strong>Requirements</strong> You are wielding a @Compendium[pf2e.equipment-srd.wkzxLpSe7LN6c5Ld]{Sawtooth Saber} in each hand.</p>\n<hr />\n<p>You've mastered the signature assassination style of the Red Mantis. Attempt to @Compendium[pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Feint} an enemy within 30 feet. If your Feint is successful, when you use Prayer Attack on subsequent turns you automatically make the target flat-footed against your melee attacks for that turn without rolling a check to Feint, so as long as you remain visible to the target and the target remains within 30 feet of you. If you use your Prayer Attack against a different target, you must attempt to Feint the target normally.</p>\n<p>When you use Prayer Attack, your next successful Strike with a sawtooth saber that turn deals [[/r (2d6)[persistent,bleed]]] to the target.</p>"
 		},
 		{
 			"id": "Precious Arrow",
@@ -15266,7 +15266,7 @@
 		{
 			"id": "Pristine Weapon",
 			"name": "Pristine Weapon",
-			"description": "<p>Your verdant weapon can cut through the resistances of magical creatures. The weapon is treated as cold iron and silver. If you critically hit a creature that has a weakness to cold iron or silver, the target takes @Localize[PF2E.PD.Bleed.1d6] as the primal energies within your weapon slow its natural healing.</p>"
+			"description": "<p>Your verdant weapon can cut through the resistances of magical creatures. The weapon is treated as cold iron and silver. If you critically hit a creature that has a weakness to cold iron or silver, the target takes [[/r (1d6)[persistent,bleed]]] as the primal energies within your weapon slow its natural healing.</p>"
 		},
 		{
 			"id": "Propeller Attachment",
@@ -15946,7 +15946,7 @@
 		{
 			"id": "Scalpel's Point",
 			"name": "Scalpel's Point",
-			"description": "<p>Your stratagems benefit from your precise knowledge of anatomy. When you critically hit with an attack on which you substituted your attack roll due to @Compendium[pf2e.actionspf2e.m0f2B7G9eaaTmhFL]{Devising a Strategem}, if your attack dealt piercing or slashing damage, you also deal @Localize[PF2E.PD.Bleed.1d6] to your target.</p>"
+			"description": "<p>Your stratagems benefit from your precise knowledge of anatomy. When you critically hit with an attack on which you substituted your attack roll due to @Compendium[pf2e.actionspf2e.m0f2B7G9eaaTmhFL]{Devising a Strategem}, if your attack dealt piercing or slashing damage, you also deal [[/r (1d6)[persistent,bleed]]] to your target.</p>"
 		},
 		{
 			"id": "Scapegoat Parallel Self",
@@ -17435,7 +17435,7 @@
 		{
 			"id": "Triangle Shot",
 			"name": "Triangle Shot",
-			"description": "<p><strong>Requirements</strong> You are in @Compendium[pf2e.feats-srd.YG2RxXE9SMfwo6wP]{Monastic Archer Stance} and wielding a bow usable with that stance.</p>\n<hr />\n<p>You string three arrows to your bow and fire them all at once. Make three ranged Strikes against a single target with the required weapon, each using your current multiple attack penalty, and you take an additional -2 penalty. This counts as two attacks when calculating your multiple attack penalty, and you combine the attacks' damage for the purpose of resistances and weaknesses.</p>\n<p>Your @Compendium[pf2e.feats-srd.8bMmGBO6gsMfWZk3]{Stunning Fist} benefit applies to Triangle Shot, even though it isn't a @Compendium[pf2e.actionspf2e.nbfNETdpee8CVM17]{Flurry of Blows}. If all three Strikes hit, the target takes @Localize[PF2E.PD.Bleed.3d6].</p>"
+			"description": "<p><strong>Requirements</strong> You are in @Compendium[pf2e.feats-srd.YG2RxXE9SMfwo6wP]{Monastic Archer Stance} and wielding a bow usable with that stance.</p>\n<hr />\n<p>You string three arrows to your bow and fire them all at once. Make three ranged Strikes against a single target with the required weapon, each using your current multiple attack penalty, and you take an additional -2 penalty. This counts as two attacks when calculating your multiple attack penalty, and you combine the attacks' damage for the purpose of resistances and weaknesses.</p>\n<p>Your @Compendium[pf2e.feats-srd.8bMmGBO6gsMfWZk3]{Stunning Fist} benefit applies to Triangle Shot, even though it isn't a @Compendium[pf2e.actionspf2e.nbfNETdpee8CVM17]{Flurry of Blows}. If all three Strikes hit, the target takes [[/r (3d6)[persistent,bleed]]].</p>"
 		},
 		{
 			"id": "Triangulate",
@@ -17521,7 +17521,7 @@
 		{
 			"id": "Twist the Knife",
 			"name": "Провернуть Нож",
-			"description": "<p>После удара в слабое место<span class=\"Враг\">Врага</span>, вы разрываете рану.</p>\n<hr />\n<p><span class=\"Треб\">Требования</span>: Вашим последним действием был @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} ближнего боя, который нанес урон от @Compendium[pf2e.classfeatures.j1JE61quDxdge4mg]{Внезапная Атака} по @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутой Врасплох} цели</p>\n<hr />\n<p>Вы наносите цели @Localize[PF2E.PD.Bleed.1]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Прод.}, равный количеству костей урона у @Compendium[pf2e.classfeatures.j1JE61quDxdge4mg]{Внезапная Атака}.</p>"
+			"description": "<p>После удара в слабое место<span class=\"Враг\">Врага</span>, вы разрываете рану.</p>\n<hr />\n<p><span class=\"Треб\">Требования</span>: Вашим последним действием был @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} ближнего боя, который нанес урон от @Compendium[pf2e.classfeatures.j1JE61quDxdge4mg]{Внезапная Атака} по @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутой Врасплох} цели</p>\n<hr />\n<p>Вы наносите цели [[/r (1)[persistent,bleed]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Прод.}, равный количеству костей урона у @Compendium[pf2e.classfeatures.j1JE61quDxdge4mg]{Внезапная Атака}.</p>"
 		},
 		{
 			"id": "Two-Weapon Fusillade",

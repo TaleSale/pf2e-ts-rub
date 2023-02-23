@@ -207,20 +207,20 @@
             },
             "JunkBomb": {
                 "Greater": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.3]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,slashing]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.3]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,slashing]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (3)[persistent,bleed]]]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,slashing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (3)[persistent,bleed]]]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,slashing]]]"
                 },
                 "Lesser": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.1]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,slashing]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.1]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,slashing]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (1)[persistent,bleed]]]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,slashing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (1)[persistent,bleed]]]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,slashing]]]"
                 },
                 "Major": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.4]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,slashing]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.4]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,slashing]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (4)[persistent,bleed]]]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,slashing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (4)[persistent,bleed]]]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,slashing]]]"
                 },
                 "Moderate": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.2]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,slashing]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.2]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,slashing]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (2)[persistent,bleed]]]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,slashing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (2)[persistent,bleed]]]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,slashing]]]"
                 }
             },
             "MudBomb": {
@@ -397,20 +397,20 @@
             },
             "TwigjackSack": {
                 "Greater": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.4]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,piercing]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.4]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,piercing]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (4)[persistent,bleed]]]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,piercing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (4)[persistent,bleed]]]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,piercing]]]"
                 },
                 "Lesser": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.1]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,piercing]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.1]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,piercing]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (1)[persistent,bleed]]]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,piercing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (1)[persistent,bleed]]]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,piercing]]]"
                 },
                 "Major": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.5]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,piercing]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.5]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,piercing]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (5)[persistent,bleed]]]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,piercing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (5)[persistent,bleed]]]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,piercing]]]"
                 },
                 "Moderate": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.3]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,piercing]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Bleed.3]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,piercing]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (3)[persistent,bleed]]]\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,piercing]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (3)[persistent,bleed]]]*2\n<br>\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,piercing]]]"
                 }
             },
             "VexingVapor": {
@@ -1337,7 +1337,7 @@
                     "SaveNote": "When you roll a success on a Will save against an emotion effect, you get a critical success instead."
                  },
                 "BloodlettingFangs": {
-                    "AttackNote": "Your fangs Strike deals an additional @Localize[PF2E.PD.Bleed.1d4] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage} on a critical hit."
+                    "AttackNote": "Your fangs Strike deals an additional [[/r (1d4)[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage} on a critical hit."
                 }
             },
             "DivineAlly": {
@@ -1951,7 +1951,7 @@
             },
             "Shisk": {
                 "PiercingQuills": {
-                    "Note": "Your quills unarmed attack deals @Localize[PF2E.PD.Bleed.1d4] on a critical hit."
+                    "Note": "Your quills unarmed attack deals [[/r (1d4)[persistent,bleed]]] on a critical hit."
                 }
             },
             "Shoony": {
@@ -2111,9 +2111,9 @@
             "Vampire": {
                 "ViciousFangs": {
                     "Note": {
-                        "Base": "Ваши Клыки наносят доп.@Localize[PF2E.PD.Bleed.1d6].",
-                        "FourteenthLevel": "Ваши Клыки наносят доп.@Localize[PF2E.PD.Bleed.2d6].",
-                        "TwentiethLevel": "Ваши Клыки наносят доп.@Localize[PF2E.PD.Bleed.3d6]."
+                        "Base": "Ваши Клыки наносят доп.[[/r (1d6)[persistent,bleed]]].",
+                        "FourteenthLevel": "Ваши Клыки наносят доп.[[/r (2d6)[persistent,bleed]]].",
+                        "TwentiethLevel": "Ваши Клыки наносят доп.[[/r (3d6)[persistent,bleed]]]."
                     }
                 }
             },

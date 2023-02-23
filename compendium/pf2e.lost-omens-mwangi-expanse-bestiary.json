@@ -179,7 +179,7 @@
 				},
 				"Mauler": {
 					"name": "Мясник",
-					"description": "<p>Пока <span style=\"text-decoration: underline; color: #236fa1;\">Мясник Чарау-Ка</span> в <span class=\"Рес\">Ярости</span>, его удары в ближнем бою наносят @Localize[PF2E.PD.Bleed.1d4].</p>"
+					"description": "<p>Пока <span style=\"text-decoration: underline; color: #236fa1;\">Мясник Чарау-Ка</span> в <span class=\"Рес\">Ярости</span>, его удары в ближнем бою наносят [[/r (1d4)[persistent,bleed]]].</p>"
 				}
 				}
 		},
