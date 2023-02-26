@@ -1435,7 +1435,7 @@
 				},
 				"AKFVNPYKCZ4jZLKw": {
 					"name": "Некротический Пульс",
-					"description": "<p>Каждое существо в @Template[type:emanation|distance:10] должно совершить успешный <span class=\"CTK\">Спас.@Check[type:fortitude|dc:32|showDC:owner|traits:arcane,concentrate,disease,necromancy,negative]</strong></span>, иначе будет @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлено 1} <span class=\"До\">на 1 минуту</span> и получит  @Localize[PF2E.PD.Negative.1d6].</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #000080;\"><strong>Перезарядка:</strong></span> [[1d4]]{1d4 раунда}</p>\n</div>"
+					"description": "<p>Каждое существо в @Template[type:emanation|distance:10] должно совершить успешный <span class=\"CTK\">Спас.@Check[type:fortitude|dc:32|showDC:owner|traits:arcane,concentrate,disease,necromancy,negative]</strong></span>, иначе будет @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлено 1} <span class=\"До\">на 1 минуту</span> и получит [[/r (1d6)[persistent,negative]]].</p>\n<div data-visibility=\"gm\">\n<p><span style=\"color: #000080;\"><strong>Перезарядка:</strong></span> [[1d4]]{1d4 раунда}</p>\n</div>"
 				},
 				"bLoaxjzxhJesDzcL": {
 					"name": "Антимагия Голема",
@@ -1598,7 +1598,7 @@
 				},
 				"Explosive Breath": {
 					"name": "Взрывное Дыхание",
-					"description": "<p>Когда Менгкаре использует <span style=\"text-decoration: underline; color: #34495e;\">Атаку Дыханием</span>, он может выпустить взрыв вместо конуса.</p>\n<hr />\n<p>Когда он это делает, он выпускает на <span style=\"color: #e67e23;\"><strong>дистанцию</strong></span> до 60ФТ @Template[type:burst|distance:30|traits:fire] [[/r 24d6[fire]]]</p>\n<p class=\"Заг2\">@Check[type:reflex|showDC:gm|dc:48|basic:true|name:Explosive Orb|traits:fire].</p>\n<p>Существа, которые <span style=\"color: #e03e2d;\"><strong>крит.проваливают</strong></span> спасбросок, так же получает @Localize[PF2E.PD.Fire.4d6].</p>"
+					"description": "<p>Когда Менгкаре использует <span style=\"text-decoration: underline; color: #34495e;\">Атаку Дыханием</span>, он может выпустить взрыв вместо конуса.</p>\n<hr />\n<p>Когда он это делает, он выпускает на <span style=\"color: #e67e23;\"><strong>дистанцию</strong></span> до 60ФТ @Template[type:burst|distance:30|traits:fire] [[/r 24d6[fire]]]</p>\n<p class=\"Заг2\">@Check[type:reflex|showDC:gm|dc:48|basic:true|name:Explosive Orb|traits:fire].</p>\n<p>Существа, которые <span style=\"color: #e03e2d;\"><strong>крит.проваливают</strong></span> спасбросок, так же получает [[/r (4d6)[persistent,fire]]].</p>"
 				},
 				"Change Shape": {
 					"name": "Изменение Формы",
@@ -2512,7 +2512,7 @@
 				},
 				"moQZVLDgyoG4xYuR": {
 					"name": "Вулканический Шлак",
-					"description": "<p>Если следующим действием <span style=\"text-decoration: underline; color: #34495e;\">Вешумирикса</span> будет <span style=\"text-decoration: underline; color: #34495e;\">Атака Дыханием</span>, магма цепляется за тех, кому она наносит урон.</p>\n<hr />\n<p>Каждое существо, <span style=\"color: #ba372a;\"><strong>провалившее </strong></span><span class=\"РФЛ\">Спас.</strong></span> от <span style=\"text-decoration: underline; color: #34495e;\">Атаки Дыханием</span>, получает @Localize[PF2E.PD.Fire.4d6], и, пока у него есть этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span style=\"text-decoration: underline; color: #a52a2a;\">Огня</span>, оно также <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.7qoZauizAKfPIXeu]{Получает} штраф <span class=\"Состояния\">Состояния</span> -10ФТ к своей <span class=\"Скор\">Скорости</span>.</p>"
+					"description": "<p>Если следующим действием <span style=\"text-decoration: underline; color: #34495e;\">Вешумирикса</span> будет <span style=\"text-decoration: underline; color: #34495e;\">Атака Дыханием</span>, магма цепляется за тех, кому она наносит урон.</p>\n<hr />\n<p>Каждое существо, <span style=\"color: #ba372a;\"><strong>провалившее </strong></span><span class=\"РФЛ\">Спас.</strong></span> от <span style=\"text-decoration: underline; color: #34495e;\">Атаки Дыханием</span>, получает [[/r (4d6)[persistent,fire]]], и, пока у него есть этот @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон} <span style=\"text-decoration: underline; color: #a52a2a;\">Огня</span>, оно также <span class=\"Эффект\">= </span>@Compendium[pf2e.bestiary-effects.7qoZauizAKfPIXeu]{Получает} штраф <span class=\"Состояния\">Состояния</span> -10ФТ к своей <span class=\"Скор\">Скорости</span>.</p>"
 				},
 				"UfanUBQ8Zs0ulv4e": {
 					"name": "Устрашающие Присутствие",

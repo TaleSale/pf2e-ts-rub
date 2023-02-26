@@ -4,7 +4,7 @@
 		{
 			"id": "(Greater Barghest) Mutation - Poison Fangs",
 			"name": "(Великий Баргест) Мутация - Ядовитые Клыки",
-			"description": "<p>У баргеста вырастают удлиненные клыки, сочащиеся ядом.</p>\n<hr />\n<p>Его челюсти наносят дополнительные [[/r 1d6[poison]]] и @Localize[PF2E.PD.Poison.1d6].</p>"
+			"description": "<p>У баргеста вырастают удлиненные клыки, сочащиеся ядом.</p>\n<hr />\n<p>Его челюсти наносят дополнительные [[/r 1d6[poison]]] и [[/r (1d6)[persistent,poison]]].</p>"
 		},
 		{
 			"id": "(Greater Barghest) Mutation - Toxic Breath",

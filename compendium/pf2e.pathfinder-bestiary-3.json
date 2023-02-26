@@ -1638,7 +1638,7 @@
 			"items": {
 				"DWxhZZHfxKIg0dak": {
 					"name": "Кулак (Поджог, Сера)",
-					"description": "<p>@Localize[PF2E.PD.Fire.1d6]</p>"
+					"description": "<p>[[/r (1d6)[persistent,fire]]]</p>"
 				},
 				"iFKv7PFNKtSVy9XA": {
 					"name": "Медлительный",
