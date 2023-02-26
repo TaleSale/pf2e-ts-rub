@@ -25,7 +25,17 @@
 		  "url": "https://discord.gg/jYvjzn5",
 		  "flags": {}
 		}
-	  ],
+	],
+    "requires": [
+          {
+            "id": "lib-wrapper",
+            "type": "module",
+            "compatibility": {
+              "minimum": "1.0.0.0",
+              "verified": "1.12.6.0"
+            }
+        }
+    ],
    	"type": "module",
 	"scripts": ["babele.js"],
  	"styles": ["styles.css"],
@@ -34,11 +44,6 @@
 		  "name": "babele",
 		  "type": "module",
 		  "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
-		},
-		{
-			"name": "lib-wrapper",
-			"manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
-			"type": "module"
 		}
 	],	
 	"languages": [
@@ -54,7 +59,7 @@
 		},
 		{
 			"lang": "ru",
-			"name": "Main (English)",
+			"name": "Main Spell (English)",
 			"path": "lang/s-en.json"
 		},
 		{
@@ -135,7 +140,7 @@
 		"type": "JournalEntry",
       	"entity": "JournalEntry",
       	"private": false
-    }
+   	}
 	],
 	"url": "https://github.com/TaleSale/pf2e-ts-rub",
 	"manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-rub/main/module.json",

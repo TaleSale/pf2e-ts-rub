@@ -67,20 +67,20 @@
         "BombNotes": {
             "AcidFlask": {
                 "Greater": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.3d6]\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,acid]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.3d6]*2\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,acid]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (3d6)[persistent,acid]]]\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,acid]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (3d6)[persistent,acid]]]*2\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 3[splash,acid]]]"
                 },
                 "Lesser": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.1d6]\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,acid]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.1d6]*2\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,acid]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (1d6)[persistent,acid]]]\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,acid]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (1d6)[persistent,acid]]]*2\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 1[splash,acid]]]"
                 },
                 "Major": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.4d6]\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,acid]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.4d6]*2\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,acid]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (4d6)[persistent,acid]]]\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,acid]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (4d6)[persistent,acid]]]*2\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 4[splash,acid]]]"
                 },
                 "Moderate": {
-                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.2d6]\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,acid]]]",
-                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; @Localize[PF2E.PD.Acid.2d6]*2\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,acid]]]"
+                    "success": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (2d6)[persistent,acid]]]\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,acid]]]",
+                    "criticalSuccess": "<span class=\"Список\">Эффект</span> <span class=\"Признак\">Бомбы</span>:\n<br />\n&diams; [[/r (2d6)[persistent,acid]]]*2\n<br />\n&diams; <span class=\"Признак\">Брызги</span> [[/r 2[splash,acid]]]"
                 }
             },
             "AlchemistsFire": {
