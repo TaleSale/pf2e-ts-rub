@@ -59,11 +59,6 @@
 		},
 		{
 			"lang": "ru",
-			"name": "Main Spell (English)",
-			"path": "lang/s-en.json"
-		},
-		{
-			"lang": "ru",
 			"name": "Main (English)",
 			"path": "lang/s-re-en.json"
 		},
