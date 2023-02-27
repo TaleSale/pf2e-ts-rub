@@ -46,6 +46,12 @@
                     "hint": "Whether to show the actions description in the chat when rolling"
                 },
                 "variants": {
+                    "administerFirstAid": {
+                        "stabilize": "Стабилизировать",
+                        "stopBleeding": "Остановить Кров.",
+                        "stabilizeChirurgeon": "Стабилизировать (Хирург)",
+                        "stopBleedingChirurgeon": "Остановить Кров. (Хирург)"
+                    },
                     "createADiversion": {
                         "distractingWords": "Слово",
                         "gesture": "Жест",
@@ -93,6 +99,8 @@
                 "macroNotFound": "Macro {macroName} not found",
                 "compendiumNotFound": "Compendium {compendiumName} not found",
                 "actions": {
+                    "AdministerFirstAidStabilize": "МЕД: Пер.Помощь - Стабил.",
+                    "AdministerFirstAidStopBleeding": "МЕД: Пер.Помощь - Ост.Кров.",
                     "AidToggle": "(Эффект) Помощь",
                     "AvoidNotice": "СКР: Избег.Обнаруж.",
                     "Balance": "АКР: Балансировать",
@@ -103,6 +111,7 @@
                     "Craft": "РМС: Создание",
                     "CreateADiversionGesture": "ОБМ: Отвлечь - Жест",
                     "CreateADiversionTrick": "ОБМ: Отвлечь - Слово",
+                    "CreateForgery": "ОБЩ: Сделать Подделку",
                     "DecipherWritingArcana": "Расшиф.Текста - АРК",
                     "DecipherWritingOccultism": "Расшиф.Текста - ОКК",
                     "DecipherWritingReligion": "Расшиф.Текста - РЕЛ",
@@ -122,7 +131,7 @@
                     "Lie": "ОБМ: Лгать",
                     "MakeAnImpression": "ДИП: Впечатление",
                     "ManeuverInFlight": "АКР: Маневр в Полете",
-                    "PalmAnObject": "ЛОВ: Ловкость Рук",
+                    "PalmAnObject": "ВОР: Ловкость Рук",
                     "Perform": "ВЫС: Выступить",
                     "PickALock": "ВОР: Вскрытие Замка",
                     "RaiseAShieldToggle": "(Эффект) Поднять Щит",

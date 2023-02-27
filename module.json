@@ -12,7 +12,25 @@
 			"minimum": "4.7.0"
 			}
 		  }
-		]
+		],
+        "requires": [
+          {
+            "id": "lib-wrapper",
+            "type": "module",
+            "compatibility": {
+              "minimum": "1.0.0.0",
+              "verified": "1.12.6.0"
+            }
+          },
+          {
+            "id": "babele",
+            "type": "module",
+            "compatibility": {
+              "minimum": "2.3.0",
+              "verified": "2.3.4"
+            }
+          }
+        ]
 	},
 	"compatibility": {
 		"minimum": "10",
@@ -26,26 +44,9 @@
 		  "flags": {}
 		}
 	],
-    "requires": [
-          {
-            "id": "lib-wrapper",
-            "type": "module",
-            "compatibility": {
-              "minimum": "1.0.0.0",
-              "verified": "1.12.6.0"
-            }
-        }
-    ],
    	"type": "module",
 	"scripts": ["babele.js"],
- 	"styles": ["styles.css"],
-	"dependencies": [
-		{
-		  "name": "babele",
-		  "type": "module",
-		  "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
-		}
-	],	
+ 	"styles": ["styles.css"],	
 	"languages": [
 		{
 			"lang": "ru",
@@ -135,7 +136,7 @@
 		"type": "JournalEntry",
       	"entity": "JournalEntry",
       	"private": false
-   	}
+    }
 	],
 	"url": "https://github.com/TaleSale/pf2e-ts-rub",
 	"manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-rub/main/module.json",
