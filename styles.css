@@ -377,6 +377,10 @@
     font-style: italic;
   }
 
+    .Психика { /* <p class="Психика"> */
+    background-color: #C0C0C0;
+  }
+
   .Действие { /* <span class="Действие"> */
     background-color: #9beca3;
   }
