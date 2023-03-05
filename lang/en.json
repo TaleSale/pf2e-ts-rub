@@ -318,10 +318,10 @@
 				"BadArgs": "This action must be performed with exactly one character or NPC.",
 				"NotTrained": "{name} is not trained in Diplomacy and doesnt know how to use Encouraging Words.",
 				"StaminaNotEnabled": "The Stamina variant is not enabled.",
-				"CritSuccess": "Critical Success",
-				"Success": "Success",
-				"Failure": "Failure",
-				"CritFailure": "Critical Failure",
+				"CritSuccess": "Крит.Успех",
+				"Success": "Успех",
+				"Failure": "Провал",
+				"CritFailure": "Крит.Провал",
 				"Recovery": "Stamina Recovery",
 				"Damage": "Damage",
 				"Cancel": "Cancel"
@@ -1204,16 +1204,16 @@
 			"Result": {
 				"Degree": {
 					"Attack": {
-						"criticalSuccess": "<span class=\"Критуспех\">Крит.Успех</span>",
-						"success": "<span class=\"Успех\">Успех</span>",
-						"failure": "<span class=\"Провал\">Провал</span>",
-						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>"
+						"criticalSuccess": "Крит.Успех",
+						"success": "Успех",
+						"failure": "Провал",
+						"criticalFailure": "Крит.Провал"
 					},
 					"Check": {
-						"criticalSuccess": "<span class=\"Критуспех\">Крит.Успех</span>",
-						"success": "<span class=\"Успех\">Успех</span>",
-						"failure": "<span class=\"Провал\">Провал</span>",
-						"criticalFailure": "<span class=\"Критпровал\">Крит.Провал</span>"
+						"criticalSuccess": "Крит.Успех",
+						"success": "Успех",
+						"failure": "Провал",
+						"criticalFailure": "Крит.Провал"
 					}
 				},
 				"Label": "<span class=\"Список\">Результат</span>: <unadjusted>{unadjusted}</unadjusted> <span data-visibility=\"gm\"><offset>на {offset}</offset></span>",
@@ -1389,8 +1389,8 @@
 		"CreateLabelUniversal": "Добавить",
 		"CreateSkillTitle": "Добавить",
 		"CreateSpellTitle": "Добавить",
-		"CritFailure": "<span class=\"Критпровал\">Крит.Провал</span>: ",
-		"CritSuccess": "<span class=\"Критуспех\">Крит.Успех</span>:",
+		"CritFailure": "Крит.Провал: ",
+		"CritSuccess": "Крит.Успех:",
 		"CriticalDamageLabel": "Крит.Урон",
 		"CriticalHitCardButtonTitle": "Draw a Critical Hit Card",
 		"CriticalFumbleCardButtonTitle": "Draw a Critical Fumble Card",
@@ -1737,7 +1737,7 @@
 		},
 		"Ethnicity": "Этнос",
 		"ExpendSpellTitle": "Expend Spell",
-		"Failure": "<span class=\"Провал\">Провал</span>:",
+		"Failure": "Провал",
 		"FeatActionTypeLabel": "Действия",
 		"FeatActionsLabel": "Число Действий",
 		"FeatAncestryHeader": "Способность Родословной",
@@ -3319,7 +3319,7 @@
 		"SavesReflexShort": "РФЛ",
 		"SavesWill": "Воля",
 		"SavesWillShort": "Воля",
-		"SavingThrowWithName": "<span class=\"Повтор\">Спасбросок {saveName}</span>",
+		"SavingThrowWithName": "Спас. {saveName}",
 		"ScoreTitle": "Score",
 		"SelectLabel": "Select",
 		"SellAllTreasureTitle": "Sell All Treasure",
@@ -3554,7 +3554,7 @@
 			}
 		},
 		"StrikingRuneLabel": "Руна Разящая",
-		"Success": "<span class=\"Успех\">Успех</span>",
+		"Success": "Успех",
 		"TabActionsLabel": "Действие",
 		"TabActionsDowntimeLabel": "Отдых",
 		"TabActionsEncounterLabel": "Столкновение",
