@@ -45,72 +45,8 @@
 		}
 	],
    	"type": "module",
-	"scripts": ["babele.js"],
- 	"styles": ["styles.css"],	
-	"languages": [
-		{
-			"lang": "ru",
-			"name": "Main (English)",
-			"path": "lang/en.json"
-		},
-		{
-			"lang": "ru",
-			"name": "Rules Elements (English)",
-			"path": "lang/re-en.json"
-		},
-		{
-			"lang": "ru",
-			"name": "Main (English)",
-			"path": "lang/s-re-en.json"
-		},
-		{
-			"lang": "ru",
-			"name": "Glossary (English)",
-			"path": "lang/glossary-en.json"
-		},
-		{
-			"lang": "ru",
-			"path": "modules/healthEstimate.json",
-			"module": "healthEstimate",
-			"name": "",
-			"flags": {}
-		},
-		{
-			"lang": "ru",
-			"path": "modules/xdy-pf2e-workbench.json",
-			"module": "xdy-pf2e-workbench",
-			"name": "",
-			"flags": {}
-		},
-		{
-			"lang": "ru",
-			"path": "modules/pf2e-persistent-damage.json",
-			"module": "pf2e-persistent-damage",
-			"name": "",
-			"flags": {}
-		},
-		{
-			"lang": "ru",
-			"path": "modules/quick-insert.json",
-			"module": "quick-insert",
-			"name": "",
-			"flags": {}
-		},
-		{
-			"lang": "ru",
-			"path": "modules/token-lean.json",
-			"module": "token-lean",
-			"name": "",
-			"flags": {}
-		},
-		{
-			"lang": "ru",
-			"path": "modules/pf2e-jb2a-macros.json",
-			"module": "pf2e-jb2a-macros",
-			"name": "",
-			"flags": {}
-		}
-	],
+	"scripts": ["babele.js","init.js"],
+ 	"styles": ["styles.css"],
 	"packs": [
 	{
 		"name": "bestiary-ability-glossary-2",
