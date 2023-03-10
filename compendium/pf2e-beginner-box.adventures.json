@@ -1,0 +1,88 @@
+{
+	"label": "Pathfinder Beginner Box",
+	"entries": {
+		"Beginner's Box Credits": {
+			"name": "Beginner's Box Credits",
+			"description": "<p>This import includes all of the credits and legal information for the Pathfinder Beginner Box, including special thanks for the development team of the Pathfinder Second Edition game system for Foundry VTT.</p>",
+			"caption": "A settlement for your heroes to call home."
+		},
+		"Menace Under Otari": {
+			"name": "Угроза под Отари",
+			"description": "<p>\"Menace under Otari\" is designed to teach new Game Masters and players how to play Pathfinder using Foundry VTT. Each section of the adventure will teach new concepts and introduce features of the program, adding more and more to the game. Meanwhile, the other players each have an entire hero to roleplay as, learning how to use their abilities and how to succeed in the dangerous world that they find themselves exploring.</p>",
+			"caption": "While fighting the heroes, the kobolds boast of their mighty lineage and combined power.",
+			"actors": {
+				"Giant Rat": {
+					"name": "Гигантская Крыса",
+					"prototypeToken": {
+						"name": "Гиг.Крыса"
+					}
+				},
+				"Giant Spider": {
+					"name": "Гигантский",
+					"prototypeToken": {
+						"name": "Гиг.Паук"
+					}
+				},
+				"Zombie Shambler": {
+					"name": "Зомби Волочащийся",
+					"prototypeToken": {
+						"name": "Волоч.Зомби"
+					}
+				},
+				"Skeleton Guard": {
+					"name": "Скелет-Страж",
+					"prototypeToken": {
+						"name": "Скелет-Страж"
+					}
+				},
+				"Kobold Trapmaster": {
+					"name": "Кобольд-Ловчий",
+					"prototypeToken": {
+						"name": "Кобольд-Ловчий"
+					}
+				},
+				"Kobold Warrior": {
+					"name": "Кобольд-Воин",
+					"prototypeToken": {
+						"name": "Кобольд-Воин"
+					}
+				},
+				"Kobold Scout": {
+					"name": "Кобольд-Разведчик",
+					"prototypeToken": {
+						"name": "Кобольд-Разведчик"
+					}
+				},
+				"Cinder Rat": {
+					"name": "Золовая Крыса",
+					"prototypeToken": {
+						"name": "Золовая Крыса"
+					}
+				},
+				"Xulgath Warrior": {
+					"name": "Зулгат-Воин",
+					"prototypeToken": {
+						"name": "Зулгат-Воин"
+					}
+				},
+				"Zolgran": {
+					"name": "Золгран",
+					"prototypeToken": {
+						"name": "Золгран"
+					}
+				},
+				"Green Dragon Wyrmling": {
+					"name": "Зеленый Дракон (Вирмлин)",
+					"prototypeToken": {
+						"name": "Зеленый Вирмлин"
+					}
+				}
+			}
+		},
+		"Pirate King's Plunder": {
+			"name": "Pirate King's Plunder",
+			"description": "<p>Pirate King's Plunder is a simple adventure which requires no GM and can be completed by a single player.</p><p>In Pirate King's Plunder, you won't advance through the story by reading the journals in chronological order. Instead, at the end of each entry, you'll be presented with a set of choices. The decisions you make will lead you to different entries, which you can follow simply by clicking through the linked journal entries. For convenience, we have included a helpful journal entry to keep track of your notes and allow you to conveniently roll dice for your attacks and statistics.</p>",
+			"caption": "It doesn't take long for you to find the entrance to a dark and mysterious cave."
+		}
+	}
+}
