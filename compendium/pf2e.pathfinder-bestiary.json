@@ -6,7 +6,7 @@
 		"img": "img",
 		"tokenName": "prototypeToken.name",
 		"tokenImg": "prototypeToken.texture.src",
-		"tokenvision": "prototypeToken.vision",
+		"tokenvision": "prototypeToken.sight.enabled",
 		"tokendisplayBars": "prototypeToken.displayBars",
 		"tokendisplayName": "prototypeToken.displayName",
 		"randomImg": "prototypeToken.randomImg",

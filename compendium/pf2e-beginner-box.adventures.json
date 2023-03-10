@@ -1,5 +1,9 @@
 {
 	"label": "Pathfinder Beginner Box",
+	"mapping": {
+		"tokendisplayBars": "prototypeToken.displayBars",
+		"tokendisplayName": "prototypeToken.displayName"
+    },
 	"entries": {
 		"Beginner's Box Credits": {
 			"name": "Beginner's Box Credits",
@@ -9,7 +13,24 @@
 		"Menace Under Otari": {
 			"name": "Угроза под Отари",
 			"description": "<p>\"Menace under Otari\" is designed to teach new Game Masters and players how to play Pathfinder using Foundry VTT. Each section of the adventure will teach new concepts and introduce features of the program, adding more and more to the game. Meanwhile, the other players each have an entire hero to roleplay as, learning how to use their abilities and how to succeed in the dangerous world that they find themselves exploring.</p>",
-			"caption": "While fighting the heroes, the kobolds boast of their mighty lineage and combined power.",
+			"caption": "While fighting the heroes, the kobolds boast of their mighty lineage and combined power.",			
+			"folders": {
+				"Menace Under Otari": "Угроза под Отари",
+				"Beginner's Guide": "Гайд для Новичков",
+				"Effects": "Эффекты",
+				"Items": "Предметы",
+				"Heroes": "Преген Герои",
+				"Creatures": "Существа",
+				"Hazards": "Опасности",
+				"Treasure": "Сокровища",
+				"Character Creation": "Создание Персонажа",
+				"Character Options": "Опции Персонажа",
+				"Gamemastering": "Для Мастера",
+				"Artwork Handouts": "Изображение",
+				"Otari": "Город Отари",
+				"Ambience": "Эмбиент",
+				"Sound Effects": "Звуковые Эффекты"				
+			},
 			"actors": {
 				"Giant Rat": {
 					"name": "Гигантская Крыса",
@@ -18,7 +39,7 @@
 					}
 				},
 				"Giant Spider": {
-					"name": "Гигантский",
+					"name": "Гигантский Паук",
 					"prototypeToken": {
 						"name": "Гиг.Паук"
 					}
