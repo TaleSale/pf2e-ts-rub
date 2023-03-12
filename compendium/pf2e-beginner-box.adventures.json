@@ -12,7 +12,7 @@
 		},
 		"Menace Under Otari": {
 			"name": "Угроза под Отари",
-			"description": "<p>\"Menace under Otari\" is designed to teach new Game Masters and players how to play Pathfinder using Foundry VTT. Each section of the adventure will teach new concepts and introduce features of the program, adding more and more to the game. Meanwhile, the other players each have an entire hero to roleplay as, learning how to use their abilities and how to succeed in the dangerous world that they find themselves exploring.</p>",
+			"description": "<p>\"Угроза под Отари\" is designed to teach new Game Masters and players how to play Pathfinder using Foundry VTT. Each section of the adventure will teach new concepts and introduce features of the program, adding more and more to the game. Meanwhile, the other players each have an entire hero to roleplay as, learning how to use their abilities and how to succeed in the dangerous world that they find themselves exploring.</p>",
 			"caption": "While fighting the heroes, the kobolds boast of their mighty lineage and combined power.",			
 			"folders": {
 				"Menace Under Otari": "Угроза под Отари",
@@ -30,6 +30,14 @@
 				"Otari": "Город Отари",
 				"Ambience": "Эмбиент",
 				"Sound Effects": "Звуковые Эффекты"				
+			},
+			"macros": {
+				"Area 04 - Barricade": "Зона 04 - Баррикада",
+				"Area 12 - Barricade": "Зона 12 - Баррикада",
+				"Area 14- Cinder Rat": "Зона 14 - Золовая Крыса",
+				"Area 15 - Freshly Dug Tunnel": "Зона 15 - Туннель",
+				"Quick Reference: DCs": "Инструкция - КС",
+				"Quick Reference: Encounters": "Инструкция - Столкновение"
 			},
 			"actors": {
 				"Giant Rat": {
@@ -96,6 +104,247 @@
 					"name": "Зеленый Дракон (Вирмлин)",
 					"prototypeToken": {
 						"name": "Зеленый Вирмлин"
+					}
+				}
+			},
+			"items": {
+				"5GOQjPjCvdRjdLIu": {
+					"name": "Помощь Элементов: Огонь"
+				},
+				"QhskhZjYTuD5IDfs": {
+					"name": "Помощь Элементов: Ветер"
+				},
+				"Ocean's Might": {
+					"name": "Океан: Помощь"
+				},
+				"Saltwater Sickness": {
+					"name": "Океан: Слабость"
+				}
+			},
+			"journals": {
+				"Items": {
+					"name": "Предметы",
+					"pages": {
+						"Belt of Health": {
+							"name": "Пояс Здоровья"
+						},
+						"Dagger of Venom": {
+							"name": "Кинжал Яда"
+						},
+						"Duelist's Wand": {
+							"name": "Палочка Дуэлянта"
+						},
+						"Goggles of Night": {
+							"name": "Ночные Очки"
+						},
+						"Healing Potion": {
+							"name": "Зелье Исцеления"
+						},
+						"Holy Water": {
+							"name": "Святая Вода"
+						},
+						"Lion Shield": {
+							"name": "Львиный Щит"
+						},
+						"Mighty Spellbook": {
+							"name": "Книга Заклинаний Мощи"
+						},
+						"Orichalcum Starknife": {
+							"name": "Нож-Звезда из Орихалка"
+						},
+						"Assorted Potions": {
+							"name": "Ассортимент Зельев"
+						},
+						"Spell Scroll": {
+							"name": "Свиток Заклинаний"
+						},
+						"Smoking Sword": {
+							"name": "Дымящий Меч"
+						},
+						"Wand of Life": {
+							"name": "Палочка Жизни"
+						}
+					}
+				},
+				"NPC Gallery": {
+					"name": "Галерея НПС",
+					"pages": {
+						"Carman Rajani": {
+							"name": "Карман Раджани"
+						},
+						"Yinyasmera": {
+							"name": "Янисмира"
+						},
+						"Magiloy": {
+							"name": "Магилой"
+						},
+						"Vandy Banderdash": {
+							"name": "Вэнди Брандаскок"
+						},
+						"Oloria Gallentine": {
+							"name": "Олория Галлентайн"
+						},
+						"Oseph Menhemes": {
+							"name": "Озеф Менемес"
+						},
+						"Morlibint": {
+							"name": "Морлибинт"
+						},
+						"Tamily Tanderveil": {
+							"name": "Тамили Тандервейл"
+						},
+						"Lardus Longsaddle": {
+							"name": "Лардус Долгоседл"
+						},
+						"Keeleno Lathenar": {
+							"name": "Килено Латенар"
+						},
+						"Klorte Hengus": {
+							"name": "Клорте Хенгус"
+						},
+						"Brelda Venkervale": {
+							"name": "Брельда Венкервал"
+						},
+						"Wrin Sivinxi": {
+							"name": "Рин Сивинси"
+						},
+						"Worliwynn": {
+							"name": "Ворливинн"
+						}
+					}
+				},
+				"Vignettes": {
+					"name": "Иллюстрации",
+					"pages": {
+						"A Wizard's Solution": {
+							"name": "Исследование Волшебника"
+						},
+						"Blazing Desert": {
+							"name": "Изнуряющая Пустыня"
+						},
+						"Cleric Channeling": {
+							"name": "Сила Жреца"
+						},
+						"Defuse Device": {
+							"name": "Отключение Устройства"
+						},
+						"Desert Ruins": {
+							"name": "Руины Пустыни"
+						},
+						"Dragon's Hoard": {
+							"name": "Клад Дракона"
+						},
+						"Ezren the Merchant": {
+							"name": "Торговля"
+						},
+						"Ghostly Battle": {
+							"name": "Битва с Призраком"
+						},
+						"Harpy Ambush": {
+							"name": "Засада Гарпии"
+						},
+						"Merisiel and Kyra": {
+							"name": "Мерисиель и Кайра"
+						},
+						"Pitfall Trap": {
+							"name": "Яма-Ловушка"
+						},
+						"Placing Bets": {
+							"name": "Делаем Ставки"
+						},
+						"Serpent's Coils": {
+							"name": "Сжать Кольца"
+						},
+						"Shopping for Armour": {
+							"name": "Покупки"
+						},
+						"Spider Chase": {
+							"name": "Погоня с Пауками"
+						},
+						"Sudden Charge": {
+							"name": "Внезапное Нападение"
+						},
+						"Tending Wounds": {
+							"name": "Лечение Ран"
+						},
+						"Trapped Hallway": {
+							"name": "Коридор с Ловушками"
+						},
+						"Troll Battle": {
+							"name": "Битва с Троллем"
+						},
+						"Viper Surprise": {
+							"name": "Нападение Гадюки"
+						}
+					}
+				},
+				"Under the Fishery": {
+					"name": "Кампания \"Угроза под Отари\"",
+					"pages": {
+						"Setting the Scene": {
+							"name": "Подготовка к Началу",
+							"text": "<p>@UUID[Playlist.nGTMCWOpjxgn3t3Q.PlaylistSound.lZH9AhDY6fnhXyvN]</p>\n<p>@UUID[Playlist.vb7AB47i1FnbnC6M.PlaylistSound.NA4DUa5JCH6VcnT1]</p>\n<p>Когда игроки выбрали себе персонажей и готовы к игре, вы можете начинать. Токены персонажей расположите у входа в @UUID[JournalEntry.qFSLpCM2cpRQWCR2.JournalEntryPage.UEuiUcrrPdr9eFqN]{Зону 01}.</p>\n<p>Когда все готовы, начните игру, зачитав вслух выделенный зелёным текст.</p>\n<p class=\"box-text narrative\" style=\"margin-bottom: 25px\">Небольшой приморский посёлок Отари славится умелыми матросами и свежими морепродуктами, но прежде всего своим лесом, который отправляет в людный и шумный Авессалом. Для вас же Отари дом родной. В детстве вы часто играли на пристани, плутали в окрестных лесах и слушали увлекательнейшие рассказы путешественников из далёких стран, повествующие об ужасных драконах и отважных рыцарях. Когда-то эти приключения казались недостижимой мечтой, но сегодня всему суждено измениться! По Отари поползли слухи, что в рыбохранилище начались проблемы. Некоторые даже говорят, что в подвале завелось чудище, подъедающее солёную рыбу, и опасаются, что, когда рыба ему наскучит, оно начнёт охотиться и на рыбаков! Вы получили от владелицы @UUID[JournalEntry.sgxbTVNpwJ0jWBvw.JournalEntryPage.YscCX6Wrt1ZTiyhk]{Рыбохранилища} @UUID[JournalEntry.mbia2YRWQeDkcOou.JournalEntryPage.jETVN9h0a5MupyxS]{Тамили Тандервейл} письмо с отчаянной мольбой о помощи. Стража занята охраной леcopубов, поэтому Тамили нужна помощь храбрецов, которым нужно спуститься в подземелье и прикончить тварь, поедающую запасы рыбы. Достаточно ли вы смелы, чтобы лицом к лицу встретиться с таящейся под Отари угрозой?</p>\n<section class=\"box-text fvtt\">\n<header>\n<img src=\"icons/vtt-512.png\" width=\"100\">\n<h2>Поделиться Изображением</h2>\n<p><a class=\"entity-link\" href=\"https://foundryvtt.com/article/journal/\" target=\"_blank\" rel=\"noopener\"><em class=\"fas fa-book\"></em>База Знаний: Журналы Foundry VTT</a></p>\n</header>\n\n<article>\n<p>Пока вы читаете приведенный выше текст, вы можете показать своим игрокам изображение Тамили, чтобы они могли видеть, кто просит их взять задание.</p>\n<p>К счастью, это очень просто! У каждой крупной локации и НПС в Отари есть специальный раздаточный материал с описанием локации и личности. Помимо советов о том, как изобразить Тамили, раздаточный материал @UUID[JournalEntry.sgxbTVNpwJ0jWBvw.JournalEntryPage.YscCX6Wrt1ZTiyhk] содержит ссылку на ее изображение.</p>\n<p>Чтобы показать изображение из журнала своим игрокам, вам нужно всего лишь открыть его и нажать «Показать Игрокам» в шапке. Это работает независимо от того, является ли изображение отдельной страницей или встроено в текстовую страницу. Например, если вы хотите показать им иллюстрацию, встроенную в журнал Рыбохранилища, вы можете щелкнуть по ней, а затем точно так же нажать «Показать Игрокам».</p>\n</article>\n</section>\n<p>Когда вы закончите вводную речь, попросите игроков представить друг другу своих персонажей. Например, пусть каждый назовет имя, народ, происхождение и класс своего персонажа. Игроки могут описать и внешний вид своего героя, его снаряжение и даже немного раскрыть его как личность.</p>\n<p>Когда все герои познакомятся, попросите игроков поставить их токены у лестницы, ведущей в подвал в @UUID[.UEuiUcrrPdr9eFqN]{Зоне 01}. Порядок расположения персонажей выбирают сами игроки, но вы можете сообщить им, что в первых рядах лучше идти героям с большим классом брони и запасом пунктов здоровья. Убедитесь, что один из персонажей стоит внизу лестницы, и перейдите к описанию @UUID[.UEuiUcrrPdr9eFqN]{Зоны 01}.</p>"
+						},
+						"Hungry Rats": {
+							"name": "Голодные Крысы"
+						},
+						"Blazing Desert": {
+							"name": "Изнуряющая Пустыня"
+						},
+						"Cleric Channeling": {
+							"name": "Сила Жреца"
+						},
+						"Defuse Device": {
+							"name": "Отключение Устройства"
+						},
+						"Desert Ruins": {
+							"name": "Руины Пустыни"
+						},
+						"Dragon's Hoard": {
+							"name": "Клад Дракона"
+						},
+						"Ezren the Merchant": {
+							"name": "Торговля"
+						},
+						"Ghostly Battle": {
+							"name": "Битва с Призраком"
+						},
+						"Harpy Ambush": {
+							"name": "Засада Гарпии"
+						},
+						"Merisiel and Kyra": {
+							"name": "Мерисиель и Кайра"
+						},
+						"Pitfall Trap": {
+							"name": "Яма-Ловушка"
+						},
+						"Placing Bets": {
+							"name": "Делаем Ставки"
+						},
+						"Serpent's Coils": {
+							"name": "Сжать Кольца"
+						},
+						"Shopping for Armour": {
+							"name": "Покупки"
+						},
+						"Spider Chase": {
+							"name": "Погоня с Пауками"
+						},
+						"Sudden Charge": {
+							"name": "Внезапное Нападение"
+						},
+						"Tending Wounds": {
+							"name": "Лечение Ран"
+						},
+						"Trapped Hallway": {
+							"name": "Коридор с Ловушками"
+						},
+						"Troll Battle": {
+							"name": "Битва с Троллем"
+						},
+						"Viper Surprise": {
+							"name": "Нападение Гадюки"
+						}
 					}
 				}
 			}
